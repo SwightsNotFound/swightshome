@@ -27,6 +27,9 @@
       padding: 0;
       background-color: #f4f4f9;
       color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; /* Ensures the footer is pushed to the bottom */
     }
 
     /* Topbar styling */
@@ -57,6 +60,60 @@
       color: white;
       border-radius: 5px;
     }
+
+    /* Main container styling */
+    .container {
+      flex-grow: 1;
+      padding: 20px;
+    }
+
+    /* Title styling */
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #2c3e50;
+    }
+
+    /* Social media links styling */
+    .button {
+      display: inline-flex;
+      align-items: center;
+      padding: 10px 20px;
+      margin: 10px 0;
+      background-color: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #2980b9;
+    }
+
+    .icon {
+      margin-right: 10px;
+      width: 24px;
+      height: 24px;
+    }
+
+    /* Footer Styling */
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #3498db;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
   </style>
 </head>
 
@@ -84,39 +141,32 @@
 
         <p><b>Socials:</b></p>
 
-        <!-- YouTube -->
+        <!-- Social Media Links -->
         <a class="button button-yt" href="https://www.youtube.com/@swighttv" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/youtube.svg" alt="YouTube Logo">YouTube</a><br>        
         
-        <!-- Mastodon -->
         <a class="button button-mastodon" href="https://mastodon.social/@Swight" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/mastodon.svg" alt="Mastodon Logo">Mastodon</a><br>
        
-        <!-- Twitch -->
         <a class="button button-twitch" href="https://www.twitch.tv/swighttv" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/twitch.svg" alt="Twitch Logo">Twitch</a><br>
         
         <p><b>Projects and sources:</b></p>
        
-        <!-- Modrinth -->
         <a class="button button-gofundme" href="https://modrinth.com/user/SwightsNotFound" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/custom/modrinth.svg" alt="GitHub Logo">Modrinth</a><br>
 
-        <!-- Curseforge -->
         <a class="button button-etsy" href="https://www.curseforge.com/members/swighttv/projects" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/custom/curseforge.svg" alt="GitHub Logo">Curseforge</a><br>
        
-        <!-- MCPEDL -->
         <a class="button button-upwork" href="https://mcpedl.com/user/swight/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/custom/mcpedl.svg" alt="GitHub Logo">MCPEDL</a><br>
 
-        <!-- GitHub -->
         <a class="button button-github" href="https://github.com/SwightsNotFound" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/github.svg" alt="GitHub Logo">GitHub</a><br>
-
-        <br>
-
-        <!-- Footer -->
-        <p>Made with <a href="https://littlelink.io" target="_blank" rel="noopener" role="button">LittleLink</a>. | Hosted using <a href="https://vercel.com" target="_blank" rel="noopener" role="button">Vercel</a>.</p>
-
-        <p><a href="https://github.com/SwightsNotFound/swights-links-littlelink" target="_blank" rel="noopener" role="button">Source Code</a>. | <a href="privacy.html">Privacy Policy</a>.
 
       </div>
     </div>
   </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Hosted using <a href="https://pages.github.com/" target="_blank" rel="noopener" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" target="_blank" rel="noopener" role="button">Cloudflare</a>.</p>
+    <p><a href="https://github.com/SwightsNotFound/swightshome" target="_blank" rel="noopener" role="button">Source Code</a>. | <a href="privacy.html">Privacy Policy</a>.</p>
+  </footer>
 
 </body>
 

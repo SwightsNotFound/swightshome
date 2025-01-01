@@ -2,97 +2,148 @@
 <html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-
-    <!-- Page Information
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8" />
     <title>LittleLink Privacy Policy</title>
     <meta name="description" content="https://littlelink.io" />
     <meta name="author" content="Seth Cottle" />
-
-    <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    
+    <!-- CSS -->
     <link rel="stylesheet" href="css/normalize.css" />
-
-    <!-- 
-        Themes:
-         Auto:   css/skeleton-auto.css
-         Light:  css/skeleton-light.css
-         Dark:   css/skeleton-dark.css
-     -->
-
     <link rel="stylesheet" href="css/skeleton-auto.css" />
     <link rel="stylesheet" href="css/brands.css" />
-
-    <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/littlelink.png" />
+    
+    <style>
+      /* General body styling */
+      body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* Ensure the page takes up at least the full height of the viewport */
+      }
 
+      /* Topbar styling */
+      .topbar {
+        background-color: #2c3e50;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Styling for the links in the topbar */
+      .topbar a {
+        color: white;
+        text-align: center;
+        padding: 12px 20px;
+        text-decoration: none;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
+      }
+
+      /* Hover effect for links */
+      .topbar a:hover {
+        background-color: #3498db;
+        color: white;
+        border-radius: 5px;
+      }
+
+      /* Container for the content */
+      .container-left {
+        flex-grow: 1; /* This ensures the content area grows to fill remaining space */
+        padding: 20px;
+      }
+
+      /* Page header and content styling */
+      h1 {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 1rem;
+        color: #555;
+      }
+
+      /* Footer Styling */
+      footer {
+        background-color: #2c3e50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      footer a {
+        color: #3498db;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      /* Responsive styling */
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 1.5rem;
+        }
+
+        p {
+          font-size: 0.9rem;
+        }
+
+        .topbar {
+          flex-direction: column;
+        }
+
+        .topbar a {
+          padding: 10px;
+          width: 100%;
+          text-align: center;
+        }
+      }
+    </style>
   </head>
 
   <body>
-    <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- Topbar with links -->
+    <div class="topbar">
+      <a href="index.html">Home</a>
+      <a href="littlelink.html">Links</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- Primary Page Layout -->
     <div class="container-left">
       <div class="row">
         <div class="column" style="margin-top: 10%">
-          <p>
-            <a href="index.html">⬅️ Back to main page</a>
-          </p>
-
-          <!--
-            Privacy Policy:
-            We recommend adding a Privacy Policy to your LittleLink. Adding one can help you stay compliant 
-            with different privacy legislation and can also help set expectations for your site visitors.
-
-            This is a boilerplate, what is here may not be applicable to you. By default, we give three sections...
-
-            Analytics: where you can add links to analytic services.
-
-            Content From External Platforms: This could be used for CDN services or additional buttons like GitHub hotlinkable buttons.
-
-            Hosting and Backend Infrastructure: For where you host your LittleLink.
-
-            You can remove, edit, and add to these as necessary for your project. 
-          -->
-
-          <!-- Page Name -->
+ 
+          
           <h1>🔒 Privacy Policy</h1>
 
-          <!-- Page Information -->
-         
-            <!-- Start Section -->
-            <b>Vercel</b>
-            <br />
-            I dont personaly collect any data about you but Vercel's <a href="https://vercel.com/legal/privacy-policy"
-            >Privacy Policy</a> applies.
-       
-
-          
-          </p>
-          <!-- End Section -->
+          <!-- Start Section -->
+          <b>Info</b>
           <br />
-          <br />
-          
-          <!-- 
-            Footer:
-            This includes a link to the LittleLink repository to make forking LittleLink easier.
-            You can edit or remove anything here to make your own footer.
-           -->
-          <center>
-            <p>Made with <a href="https://littlelink.io" target="_blank" rel="noopener" role="button">LittleLink</a>. | Hosted using <a href="https://vercel.com" target="_blank" rel="noopener" role="button">Vercel</a>.</p>
-
-            <p><a href="https://github.com/SwightsNotFound/swights-links-littlelink" target="_blank" rel="noopener" role="button">Source Code</a>.
-          </center>
+          I don't personally collect any identifiable data about you, but both <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's</a> and <a href="https://docs.github.com/en/site-policy/privacy-policies">Github Page's</a>  Privacy Policy applies.
         </div>
       </div>
     </div>
 
-    <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- Footer -->
+    <footer>
+      <p>Hosted using <a href="https://pages.github.com/" target="_blank" rel="noopener" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" target="_blank" rel="noopener" role="button">Cloudflare</a>.</p>
+      <p><a href="https://github.com/SwightsNotFound/swightshome" target="_blank" rel="noopener" role="button">Source Code</a>. | <a href="privacy.html">Privacy Policy</a>.</p>
+    </footer>
+
   </body>
 </html>

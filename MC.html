@@ -123,6 +123,73 @@
                 font-size: 1rem;
             }
         }
+
+        /* Modern input and button styling */
+        .copy-container {
+            position: relative;
+            width: 300px;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .copy-container input {
+            padding: 10px;
+            font-size: 1rem;
+            border: 2px solid #3498db;
+            border-radius: 5px;
+            width: 100%;
+            background-color: #fff;
+            color: #333;
+            transition: all 0.3s ease;
+        }
+
+        .copy-container input:focus {
+            outline: none;
+            border-color: #2980b9;
+        }
+
+        .copy-container button {
+            padding: 10px;
+            background-color: transparent;
+            color: transparent;
+            border: none;
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: color 0.3s ease;
+        }
+
+        .copy-container button:hover {
+            color: #2980b9;
+        }
+
+        .copy-container button img {
+            width: 20px;
+            height: 20px;
+        }
+
+        /* Visibility control for button states */
+        .copy-container .copied {
+            display: none;
+        }
+
+        .copy-container .copied.visible {
+            display: block;
+        }
+
+        .copy-container .clipboard-icon.visible {
+            display: block;
+        }
+
+        .copy-container .clipboard-icon.hidden {
+            display: none;
+        }
     </style>
 </head>
 
@@ -131,7 +198,7 @@
     <!-- Topbar with links -->
     <div class="topbar">
         <a href="https://swightshome.xyz">Home</a>
-        <a href="littlelink.html">Links</a>
+        <a href="Littlelink">Links</a>
         <a href="Contact">Contact</a>
     </div>
 
@@ -139,11 +206,42 @@
     <div class="content">
         <div class="section">
             <h1>How to join The Vanilla Minecraft server</h1>
-            <p>Not currently available.</p>
+            <p>(Do note that you need to have been added to the whitelist to join.)</p>
+        </div>
+
+        <div class="section">
+            <h1>Recommended method</h1>
+            <p>(Do note that you need to have been added to the whitelist to join.)</p>
         </div>
         
         <div class="section">
-            <p></p>
+            <p>You will need a custom Minecraft launcher, I would recommend either <a href="https://atlauncher.com/" target="_blank">Atlauncher</a> or <a href="https://prismlauncher.org/" target="_blank">Prism Launcher</a>.</p>
+        </div>
+
+        <div class="section">
+            <p>Once installed, download a client modpack <a href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/Downloads/Swightshome.mrpack" download>here</a>, then import it into your launcher,
+            once done simply boot up the new instance and press play in the menu.</p>
+            <p style="font-size: 1rem; color: #7f8c8d;">These mods are all completely client side and help boost your in-game performance, it also has the one required mod Modflared.</p>
+        </div>
+        
+        <div class="section">
+            <h1>Manual method</h1>
+            <p>This server uses Cloudflare Tunnels in order to forward the server hosted on my machine to yours, however due to limitations with Cloudflare we have to use a mod called Modflared.</p>
+        </div>
+    
+        <div class="section">
+            <p>I would recommend a custom Minecraft launcher to make this easier, either <a href="https://atlauncher.com/" target="_blank">Atlauncher</a> or <a href="https://prismlauncher.org/" target="_blank">Prism Launcher</a>.</p>
+        </div>
+
+        <div class="section">
+            <p>Once installed, add a 1.21.4 Fabric Minecraft instance, and install Modflared from Modrinth or CurseForge, once done boot up the instance and press Multiplayer, then add a server with the IP below and press play:</p>
+            <div class="copy-container">
+                <input type="text" value="mc.swightshome.xyz" id="serverAddress" readonly>
+                <button onclick="copyToClipboard()">
+                    <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/copy.svg" alt="Clipboard" id="clipboardIcon" class="clipboard-icon visible"/>
+                    <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/copyconfirm.svg" alt="Checkmark" id="checkmarkIcon" class="copied"/>
+                </button>
+            </div>
         </div>
     </div>
 
@@ -153,6 +251,27 @@
         <p><a href="https://github.com/SwightsNotFound/swightshome" target="_blank" rel="noopener" role="button">Source Code</a>. | <a href="Privacy">Privacy Policy</a>.</p>
     </footer>
 
-</body>
+<script>
+    function copyToClipboard() {
+        var copyText = document.getElementById("serverAddress");
+        var clipboardIcon = document.getElementById("clipboardIcon");
+        var checkmarkIcon = document.getElementById("checkmarkIcon");
 
-</html>
+        // Select the text field
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); // For mobile devices
+
+        // Execute the copy command
+        document.execCommand("copy");
+
+        // Change the icon to the checkmark icon
+        clipboardIcon.classList.add("hidden");
+        checkmarkIcon.classList.add("visible");
+
+        // After 2 seconds, reset the icons
+        setTimeout(function() {
+            clipboardIcon.classList.remove("hidden");
+            checkmarkIcon.classList.remove("visible");
+        }, 2000);
+    }
+</script>

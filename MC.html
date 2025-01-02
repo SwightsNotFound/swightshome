@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swightshome - Contacts</title>
-    <link rel="icon" href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/Logonowhite.png" type="image/x-icon">
+    <title>Swightshome - Minecraft Vanilla Server</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" type="image/x-icon">
 
     <style>
         /* General body styling */
@@ -15,6 +15,9 @@
             padding: 0;
             background-color: #f4f4f9;
             color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* This ensures the footer stays at the bottom */
         }
 
         /* Topbar styling */
@@ -52,6 +55,7 @@
             margin: 50px auto;
             text-align: center;
             padding: 20px;
+            flex-grow: 1; /* This will ensure content fills available space */
         }
 
         .content h1 {
@@ -81,22 +85,21 @@
             margin-bottom: 40px;
         }
 
-        /* Footer styling */
+        /* Footer Styling */
         footer {
-            text-align: center;
-            padding: 20px;
             background-color: #2c3e50;
             color: white;
+            padding: 20px;
+            text-align: center;
         }
 
         footer a {
             color: #3498db;
             text-decoration: none;
-            font-weight: bold;
         }
 
         footer a:hover {
-            color: white;
+            text-decoration: underline;
         }
 
         /* Responsive styling */
@@ -129,20 +132,25 @@
     <div class="topbar">
         <a href="https://swightshome.xyz">Home</a>
         <a href="littlelink.html">Links</a>
+        <a href="Contact">Contact</a>
     </div>
 
     <!-- Main content -->
     <div class="content">
         <div class="section">
-            <h1>How to contact me.</h1>
-            <p>SwightsNotFound@proton.me</p>
+            <h1>How to join The Vanilla Minecraft server</h1>
+            <p>Not currently available.</p>
+        </div>
+        
+        <div class="section">
+            <p></p>
         </div>
     </div>
 
     <!-- Footer -->
     <footer>
         <p>Hosted using <a href="https://pages.github.com/" target="_blank" rel="noopener" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" target="_blank" rel="noopener" role="button">Cloudflare</a>.</p>
-        <p><a href="https://github.com/SwightsNotFound/swightshome" target="_blank" rel="noopener" role="button">Source Code</a>. | <a href="privacy.html">Privacy Policy</a>.</p>
+        <p><a href="https://github.com/SwightsNotFound/swightshome" target="_blank" rel="noopener" role="button">Source Code</a>. | <a href="Privacy">Privacy Policy</a>.</p>
     </footer>
 
 </body>

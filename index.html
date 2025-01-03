@@ -87,6 +87,7 @@
             width: 250px;
             text-align: center;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative; /* Ensure the status dot is positioned relative to the box */
         }
 
         .icon-box:hover {
@@ -138,6 +139,7 @@
             width: 250px;
             text-align: center;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative; /* Ensure the status dot is positioned relative to the box */
         }
 
         .minecraft-box:hover {
@@ -177,6 +179,36 @@
             color: #e74c3c;
             font-weight: bold;
             margin-top: 15px;
+        }
+
+        /* Status dot styling */
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background-color: grey; /* Default color */
+        }
+
+        /* Popup window styling */
+        .popup {
+            display: none;
+            position: absolute;
+            bottom: 30px;
+            right: 10px;
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            white-space: nowrap;
+        }
+
+        .status-dot:hover + .popup {
+            display: block;
         }
 
         /* Responsive styling */
@@ -250,6 +282,8 @@
                 <h3>Jellyfin</h3>
                 <p>A media server that streams media.</p>
                 <a href="https://jellyfin.swightshome.xyz" target="_blank">Open</a>
+                <div class="status-dot" id="jellyfin-status"></div>
+                <div class="popup" id="jellyfin-popup"></div>
             </div>
 
             <!-- Jellyseerr Box -->
@@ -258,6 +292,8 @@
                 <h3>Jellyseerr</h3>
                 <p>Jellyseerr is a request manager that allows users to easily request media for jellyfin.</p>
                 <a href="https://jellyseerr.swightshome.xyz" target="_blank">Open</a>
+                <div class="status-dot" id="jellyseerr-status"></div>
+                <div class="popup" id="jellyseerr-popup"></div>
             </div>
 
             <!-- Navidrome Box -->
@@ -266,6 +302,8 @@
                 <h3>Navidrome</h3>
                 <p>Navidrome is a music collection streamer.</p>
                 <a href="https://navidrome.swightshome.xyz" target="_blank">Open</a>
+                <div class="status-dot" id="navidrome-status"></div>
+                <div class="popup" id="navidrome-popup"></div>
             </div>
         </div>
 
@@ -299,6 +337,58 @@
         <p><a href="https://github.com/SwightsNotFound/swightshome" role="button">Source Code</a>. | <a href="Privacy">Privacy Policy</a>.</p>
     </footer>
 
+    <script>
+        const cloudflareErrors = {
+            520: 'Unknown Error',
+            521: 'Web Server Is Down',
+            522: 'Connection Timed Out',
+            523: 'Origin Is Unreachable',
+            524: 'A Timeout Occurred',
+            525: 'SSL Handshake Failed',
+            526: 'Invalid SSL Certificate',
+            527: 'Railgun Error',
+            530: 'Origin DNS Error',
+            502: 'Bad Gateway' // Added 502 Bad Gateway
+        };
+
+        const statusColors = {
+            success: 'green',
+            error: 'red',
+            unknown: 'orange' // Changed from grey to orange
+        };
+
+        function checkStatus(url, elementId, popupId) {
+            const proxyUrl = 'https://cors-anywhere.herokuapp.com/'; // You can use another proxy service
+            fetch(proxyUrl + url)
+                .then(response => {
+                    if (response.ok) {
+                        document.getElementById(elementId).style.backgroundColor = statusColors.success; // Online
+                        document.getElementById(popupId).innerText = 'Status: Online';
+                    } else {
+                        handleCloudflareError(response.status, elementId, popupId);
+                    }
+                })
+                .catch(error => {
+                    document.getElementById(elementId).style.backgroundColor = statusColors.error; // Offline or error
+                    document.getElementById(popupId).innerText = 'Status: Offline'; // Offline or error
+                });
+        }
+
+        function handleCloudflareError(statusCode, elementId, popupId) {
+            if (cloudflareErrors[statusCode]) {
+                document.getElementById(elementId).style.backgroundColor = statusColors.error; // Error color
+                document.getElementById(popupId).innerText = `Status: Error\nError: ${cloudflareErrors[statusCode]}`;
+            } else {
+                document.getElementById(elementId).style.backgroundColor = statusColors.unknown; // Unknown error
+                document.getElementById(popupId).innerText = 'Status: Unknown';
+            }
+        }
+
+        // Check the status of each link
+        checkStatus('https://jellyfin.swightshome.xyz', 'jellyfin-status', 'jellyfin-popup');
+        checkStatus('https://jellyseerr.swightshome.xyz', 'jellyseerr-status', 'jellyseerr-popup');
+        checkStatus('https://navidrome.swightshome.xyz', 'navidrome-status', 'navidrome-popup');
+    </script>
 </body>
 
 </html>

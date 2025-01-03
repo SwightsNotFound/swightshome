@@ -384,10 +384,12 @@
             }
         }
 
-        // Check the status of each link
-        checkStatus('https://jellyfin.swightshome.xyz', 'jellyfin-status', 'jellyfin-popup');
-        checkStatus('https://jellyseerr.swightshome.xyz', 'jellyseerr-status', 'jellyseerr-popup');
-        checkStatus('https://navidrome.swightshome.xyz', 'navidrome-status', 'navidrome-popup');
+        // Check the status of each link on page load
+        window.onload = function() {
+            checkStatus('https://jellyfin.swightshome.xyz', 'jellyfin-status', 'jellyfin-popup');
+            checkStatus('https://jellyseerr.swightshome.xyz', 'jellyseerr-status', 'jellyseerr-popup');
+            checkStatus('https://navidrome.swightshome.xyz', 'navidrome-status', 'navidrome-popup');
+        };
     </script>
 </body>
 

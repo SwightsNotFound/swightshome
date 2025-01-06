@@ -121,58 +121,7 @@
             letter-spacing: 1px;
         }
 
-        /* Minecraft Server Section */
-        .minecraft-section {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin: 40px 0;
-            flex-wrap: wrap;
-        }
-
-        .minecraft-box {
-            background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            width: 250px;
-            text-align: center;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            position: relative; /* Ensure the status dot is positioned relative to the box */
-        }
-
-        .minecraft-box:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        }
-
-        .minecraft-box img {
-            width: 100px;
-            height: 100px;
-            object-fit: contain;
-            margin-bottom: 20px;
-        }
-
-        .minecraft-box h3 {
-            font-size: 1.5rem;
-            color: #2c3e50;
-            margin-bottom: 10px;
-        }
-
-        .minecraft-box p {
-            font-size: 1rem;
-            color: #7f8c8d;
-            margin-bottom: 20px;
-        }
-
-        .minecraft-box a {
-            text-decoration: none;
-            color: #3498db;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
+        
         /* Unavailability message styling */
         .unavailable {
             color: #e74c3c;
@@ -268,62 +217,20 @@
     <!-- Main content -->
     <div class="content">
         <h1>Welcome to Swightshome!</h1>
-        <p>Just a website for things I host for people I know.</p>
+        <p>A webiste for things I host.</p>
 
-        <h1>Media</h1>
+        <h1>Front-ends</h1>
 
-        <!-- Jellyfin, Jellyseerr, and new third box Section -->
+        <!-- Boxes -->
         <div class="icon-section">
-            <!-- Jellyfin Box -->
+            <!-- redlib Box -->
             <div class="icon-box">
-                <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/jellyfin.svg" alt="Jellyfin Icon">
-                <h3>Jellyfin</h3>
-                <p>A media server that streams media.</p>
-                <a href="https://jellyfin.swightshome.xyz" target="_blank">Open</a>
-                <div class="status-dot" id="jellyfin-status"></div>
-                <div class="popup" id="jellyfin-popup"></div>
-            </div>
-
-            <!-- Jellyseerr Box -->
-            <div class="icon-box">
-                <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/jellyseerr.svg" alt="Jellyseerr Icon">
-                <h3>Jellyseerr</h3>
-                <p>Jellyseerr is a request manager that allows users to easily request media for jellyfin.</p>
-                <a href="https://jellyseerr.swightshome.xyz" target="_blank">Open</a>
-                <div class="status-dot" id="jellyseerr-status"></div>
-                <div class="popup" id="jellyseerr-popup"></div>
-            </div>
-
-            <!-- Navidrome Box -->
-            <div class="icon-box">
-                <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/navidrome.svg" alt="navidrome Icon">
-                <h3>Navidrome</h3>
-                <p>Navidrome is a music collection streamer.</p>
-                <a href="https://navidrome.swightshome.xyz" target="_blank">Open</a>
-                <div class="status-dot" id="navidrome-status"></div>
-                <div class="popup" id="navidrome-popup"></div>
-            </div>
-        </div>
-
-        <h1>Game servers</h1>
-
-        <!-- Minecraft Server Section -->
-        <div class="minecraft-section">
-            <!-- Minecraft Server Box 1 -->
-            <div class="minecraft-box">
-                <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/minecraftvanilla.png" alt="Minecraftvanilla">
-                <h3>Vanilla Minecraft server</h3>
-                <p>A vanilla survival server.</p>
-                <a href="MC">How to join</a>
-                <p class="unavailable"></p> <!-- Unavailability message -->
-            </div>
-
-            <!-- Minecraft Server Box 2 -->
-            <div class="minecraft-box">
-                <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/minecraftorigin.png" alt="Minecraftorigin">
-                <h3>The Origins Minecraft Server</h3>
-                <p>A modded fabric server based on the Origins mod.</p>
-                <a href="Origin">How to join</a>
+                <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/redlib.svg" alt="redlib Icon">
+                <h3>Redlib</h3>
+                <p>A private front-end for Reddit.</p>
+                <a href="https://redlib.swightshome.xyz" target="_blank">Open</a>
+                <div class="status-dot" id="redlib-status"></div>
+                <div class="popup" id="redlib-popup"></div>
             </div>
         </div>
     </div>
@@ -393,9 +300,7 @@
 
         // Check the status of each link on page load
         window.onload = function() {
-            checkStatus('https://jellyfin.swightshome.xyz', 'jellyfin-status', 'jellyfin-popup');
-            checkStatus('https://jellyseerr.swightshome.xyz', 'jellyseerr-status', 'jellyseerr-popup');
-            checkStatus('https://navidrome.swightshome.xyz', 'navidrome-status', 'navidrome-popup');
+            checkStatus('https://redlib.swightshome.xyz', 'redlib-status', 'redlib-popup');
         };
     </script>
 </body>

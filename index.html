@@ -252,7 +252,7 @@
     <!-- Main content -->
     <div class="content">
         <h1>Welcome to Swightshome!</h1>
-        <p>A webiste for things I host.</p>
+        <p>A website for things I host.</p>
 
         <h1>Front-ends</h1>
 
@@ -268,7 +268,7 @@
                 <div class="popup" id="redlib-popup"></div>
             </div>
 
-            <!-- redlib Box -->
+            <!-- rimgo Box -->
             <div class="icon-box">
                 <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/rimgo.png" alt="redlib Icon">
                 <h3>Rimgo</h3>
@@ -277,6 +277,16 @@
                 <div class="status-dot" id="rimgo-status"></div>
                 <div class="popup" id="rimgo-popup"></div>
             </div>
+        
+            <!-- gothub Box -->
+        <div class="icon-box">
+            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/gothub.png" alt="redlib Icon">
+            <h3>Rimgo</h3>
+            <p>An alternative front-end for GitHub.</p>
+            <a href="https://gothub.swightshome.xyz" target="_blank">Open</a>
+            <div class="status-dot" id="gothub-status"></div>
+            <div class="popup" id="gothub-popup"></div>
+        
         </div>
     </div>
 
@@ -355,6 +365,7 @@
         window.onload = function() {
             checkStatus('https://redlib.swightshome.xyz', 'redlib-status', 'redlib-popup');
             checkStatus('https://rimgo.swightshome.xyz', 'rimgo-status', 'rimgo-popup');
+            checkStatus('https://gothub.swightshome.xyz', 'gothub-status', 'gothub-popup');
         };
     </script>
 </body>

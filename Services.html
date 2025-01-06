@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swightshome</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" type="image/x-icon">
+
+    <style>
+        /* General body styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Topbar styling */
+        .topbar {
+            background-color: #2c3e50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styling for the links in the topbar */
+        .topbar a {
+            color: white;
+            text-align: center;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+
+        /* Hover effect for links */
+        .topbar a:hover {
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+        }
+
+        /* Main content area */
+        .content {
+            max-width: 1000px;
+            margin: 50px auto;
+            text-align: center;
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        .content h1 {
+            font-size: 3rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            line-height: 1.6;
+        }
+
+        /* Section for icons */
+        .icon-section {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+
+        .icon-box {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative; /* Ensure the status dot is positioned relative to the box */
+        }
+
+        .icon-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .icon-box img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin-bottom: 20px;
+        }
+
+        .icon-box h3 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .icon-box p {
+            font-size: 1rem;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+
+        .icon-box a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Styling for the private stuff text inside the button */
+        .bottom-button .private-stuff {
+            display: block;
+            font-size: 0.7rem; /* Adjusted font size to match the smaller button */
+            color: #ffffff; /* White color */
+            margin-top: 3px; /* Adjust margin to position it correctly */
+            opacity: 0.8; /* Slightly transparent to differentiate from main text */
+        }
+
+        /* Unavailability message styling */
+        .unavailable {
+            color: #e74c3c;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        /* Status dot styling */
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background-color: grey; /* Default color */
+        }
+
+        /* Popup window styling */
+        .popup {
+            display: none;
+            position: absolute;
+            bottom: 30px;
+            right: 10px;
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            white-space: nowrap;
+        }
+
+        .status-dot:hover + .popup {
+            display: block;
+        }
+
+        /* Responsive styling */
+        @media (max-width: 768px) {
+            .topbar {
+                flex-direction: column;
+                padding: 10px;
+            }
+
+            .topbar a {
+                padding: 10px;
+                width: 100%;
+                text-align: center;
+            }
+
+            .content h1 {
+                font-size: 2rem;
+            }
+
+            .content p {
+                font-size: 1rem;
+            }
+
+            .icon-section,
+            .minecraft-section {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Bottom button styling */
+        .button-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .bottom-button {
+            display: inline-block;
+            padding: 10px 20px; /* Adjusted padding to make the button smaller */
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            position: relative; /* Ensure the private text is positioned correctly */
+            font-size: 0.9rem; /* Adjusted font size to make the button smaller */
+        }
+
+        .bottom-button:hover {
+            background-color: #2980b9;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Topbar with links -->
+    <div class="topbar">
+        <a href="Services" class="return-button">Return</a>
+        <a href="swightshome.xyz">Homepage</a>
+        <a href="Littlelink">Links</a>
+        <a href="Contact">Contact</a>
+    </div>
+
+    <!-- Main content -->
+    <div class="content">
+        <h1>Welcome to Swightshome!</h1>
+        <p>A website for things I host.</p>
+
+        <h1>Front-ends</h1>
+
+        <!-- Boxes -->
+        <div class="icon-section">
+            <!-- redlib Box -->
+            <div class="icon-box">
+                <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/redlib.svg" alt="redlib Icon">
+                <h3>Redlib</h3>
+                <p>A private front-end for Reddit.</p>
+                <a href="https://redlib.swightshome.xyz" target="_blank">Open</a>
+                <div class="status-dot" id="redlib-status"></div>
+                <div class="popup" id="redlib-popup"></div>
+            </div>
+
+            <!-- rimgo Box -->
+            <div class="icon-box">
+                <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/rimgo.png" alt="redlib Icon">
+                <h3>Rimgo</h3>
+                <p>A fast, private image viewer for Imgur.</p>
+                <a href="https://rimgo.swightshome.xyz" target="_blank">Open</a>
+                <div class="status-dot" id="rimgo-status"></div>
+                <div class="popup" id="rimgo-popup"></div>
+            </div>
+        
+            <!-- gothub Box -->
+        <div class="icon-box">
+            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/gothub.svg" alt="gothub Icon">
+            <h3>Gothub</h3>
+            <p>An alternative front-end for GitHub.</p>
+            <a href="https://gothub.swightshome.xyz" target="_blank">Open</a>
+            <div class="status-dot" id="gothub-status"></div>
+            <div class="popup" id="gothub-popup"></div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Hosted using <a href="https://pages.github.com/" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" role="button">Cloudflare</a>.</p>
+        <p><a href="https://github.com/SwightsNotFound/swightshome" role="button">Source Code</a>. | <a href="Privacy">Privacy Policy</a>.</p>
+
+        <!-- Bottom button -->
+        <div class="button-container">
+            <a href="https://homelab.swightshome.xyz" target="_blank" class="bottom-button">
+                Homelab
+                <span class="private-stuff">(Private stuff)</span>
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        const cloudflareErrors = {
+            520: 'Unknown Error',
+            521: 'Web Server Is Down',
+            522: 'Connection Timed Out',
+            523: 'Origin Is Unreachable',
+            524: 'A Timeout Occurred',
+            525: 'SSL Handshake Failed',
+            526: 'Invalid SSL Certificate',
+            527: 'Railgun Error',
+            530: 'Origin DNS Error',
+            502: 'Bad Gateway' // Added 502 Bad Gateway
+        };
+
+        const statusColors = {
+            success: 'green',
+            error: 'red',
+            unknown: 'orange' // Changed from grey to orange
+        };
+
+        function checkStatus(url, elementId, popupId) {
+            const proxyUrl = 'https://corsproxy.io/?url='; // New proxy service
+            fetch(proxyUrl + encodeURIComponent(url))
+                .then(response => {
+                    if (response.ok) {
+                        return response.text(); // Return response text instead of JSON
+                    } else {
+                        // Detect and handle Cloudflare errors directly
+                        const statusCode = response.status;
+                        handleCloudflareError(statusCode, elementId, popupId);
+                        throw new Error(`HTTP status ${response.status}`);
+                    }
+                })
+                .then(data => {
+                    if (data.includes('<title>')) { // Check if the response contains HTML content
+                        document.getElementById(elementId).style.backgroundColor = statusColors.success; // Online
+                        document.getElementById(popupId).innerText = 'Status: Online';
+                    } else {
+                        // Handle cases where content is not as expected
+                        handleCloudflareError(520, elementId, popupId); // Unknown error
+                    }
+                })
+                .catch(error => {
+                    console.error('Fetch error:', error); // Log any fetch errors
+                });
+        }
+
+        function handleCloudflareError(statusCode, elementId, popupId) {
+            if (cloudflareErrors[statusCode]) {
+                document.getElementById(elementId).style.backgroundColor = statusColors.error; // Error color
+                document.getElementById(popupId).innerText = `Status: Error\nError: ${cloudflareErrors[statusCode]}`;
+            } else {
+                document.getElementById(elementId).style.backgroundColor = statusColors.unknown; // Unknown error
+                document.getElementById(popupId).innerText = 'Status: Unknown';
+            }
+        }
+
+        // Check the status of each link on page load
+        window.onload = function() {
+            checkStatus('https://redlib.swightshome.xyz', 'redlib-status', 'redlib-popup');
+            checkStatus('https://rimgo.swightshome.xyz', 'rimgo-status', 'rimgo-popup');
+            checkStatus('https://gothub.swightshome.xyz', 'gothub-status', 'gothub-popup');
+        };
+    </script>
+</body>
+</html>

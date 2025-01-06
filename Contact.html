@@ -76,6 +76,21 @@
             transition: all 0.3s ease;
         }
 
+/* Return button styling */
+.topbar .return-button {
+            position: absolute;
+            left: 10px; /* Adjust this value to control how far from the left edge */
+            color: white;
+            text-align: center;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+
+
         .topbar a:hover {
             background-color: #3498db;
             color: white;
@@ -129,8 +144,11 @@
     <div class="wrapper">
         <!-- Topbar with links -->
         <div class="topbar">
-            <a href="https://swightshome.xyz">Home</a>
-            <a href="Littlelink">Links</a>
+            <div class="topbar">
+                <a href="Services" class="return-button">Return</a>
+                <a href="swightshome.xyz">Homepage</a>
+                <a href="Littlelink">Links</a>
+            </div>
         </div>
 
         <!-- Main content -->

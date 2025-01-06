@@ -63,6 +63,7 @@
             align-items: center;
             padding: 15px 0;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
         }
 
         .topbar a {
@@ -90,11 +91,31 @@
             transition: all 0.3s ease;
         }
 
-
         .topbar a:hover {
             background-color: #3498db;
             color: white;
             border-radius: 5px;
+        }
+
+        /* Contact section styling */
+        .contact-section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .contact-section h2 {
+            font-size: 2rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .contact-section p {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            line-height: 1.6;
         }
 
         /* Footer styling */
@@ -144,18 +165,27 @@
     <div class="wrapper">
         <!-- Topbar with links -->
         <div class="topbar">
-            <div class="topbar">
-                <a href="Services" class="return-button">Return</a>
-                <a href="https://swightshome.xyz">Homepage</a>
-                <a href="Littlelink">Links</a>
-            </div>
+            <a href="Services" class="return-button">Return</a>
+            <a href="https://swightshome.xyz">Homepage</a>
+            <a href="Littlelink">Links</a>
         </div>
 
         <!-- Main content -->
         <div class="content">
             <div class="section">
                 <h1>How to contact me.</h1>
-                <p>SwightsNotFound@proton.me</p>
+
+                <!-- Email Contact Section -->
+                <div class="contact-section">
+                    <h2>Email</h2>
+                    <p>SwightsNotFound@proton.me</p>
+                </div>
+
+                <!-- Matrix Contact Section -->
+                <div class="contact-section">
+                    <h2>Matrix</h2>
+                    <p>@swight.:matrix.org</p>
+                </div>
             </div>
         </div>
 

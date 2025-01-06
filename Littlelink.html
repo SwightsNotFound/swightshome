@@ -29,7 +29,7 @@
       color: #333;
       display: flex;
       flex-direction: column;
-      min-height: 100vh; /* Ensures the footer is pushed to the bottom */
+      min-height: 100vh;
     }
 
     /* Topbar styling */
@@ -40,6 +40,7 @@
       align-items: center;
       padding: 15px 0;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      position: relative;
     }
 
     /* Styling for the links in the topbar */
@@ -54,19 +55,19 @@
       transition: all 0.3s ease;
     }
 
-/* Return button styling */
-.topbar .return-button {
-            position: absolute;
-            left: 10px; /* Adjust this value to control how far from the left edge */
-            color: white;
-            text-align: center;
-            padding: 12px 20px;
-            text-decoration: none;
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: all 0.3s ease;
-        }
+    /* Return button styling */
+    .topbar .return-button {
+      position: absolute;
+      left: 10px;
+      color: white;
+      text-align: center;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: all 0.3s ease;
+    }
 
     /* Hover effect for links */
     .topbar a:hover {
@@ -127,7 +128,6 @@
     footer a:hover {
       text-decoration: underline;
     }
-
   </style>
 </head>
 
@@ -135,10 +135,9 @@
 
   <!-- Topbar with links -->
   <div class="topbar">
-    <div class="topbar">
-      <a href="Services" class="return-button">Return</a>
-      <a href="swightshome.xyz">Homepage</a>
-      <a href="Contact">Contact</a>
+    <a href="Services" class="return-button">Return</a>
+    <a href="https://swightshome.xyz">Homepage</a>
+    <a href="Contact">Contact</a>
   </div>
 
   <!-- Primary Page Layout -->
@@ -153,7 +152,7 @@
         <h1 role="heading">Swight</h1>
 
         <!-- Short Bio -->
-        <p>Hi, my names Swight/SwightsNotFound/SwightUnkown, yea i know thats a lot of aliases but thats kinda what i do. Anyway to the bio part, im a Minecraft fan, a privacy advocate, and a massive open-source enthusiast, and here are some links (probable) containing to such.</p>
+        <p>Hi, my name's Swight/SwightsNotFound/SwightUnknown, yea I know that's a lot of aliases but that's kinda what I do. Anyway, to the bio part, I'm a Minecraft fan, a privacy advocate, and a massive open-source enthusiast, and here are some links (probably) containing to such.</p>
 
         <p><b>Socials:</b></p>
 
@@ -166,11 +165,11 @@
         
         <p><b>Projects and sources:</b></p>
        
-        <a class="button button-gofundme" href="https://modrinth.com/user/SwightsNotFound" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/custom/modrinth.svg" alt="GitHub Logo">Modrinth</a><br>
+        <a class="button button-gofundme" href="https://modrinth.com/user/SwightsNotFound" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/custom/modrinth.svg" alt="Modrinth Logo">Modrinth</a><br>
 
-        <a class="button button-etsy" href="https://www.curseforge.com/members/swighttv/projects" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/custom/curseforge.svg" alt="GitHub Logo">Curseforge</a><br>
+        <a class="button button-etsy" href="https://www.curseforge.com/members/swighttv/projects" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/custom/curseforge.svg" alt="Curseforge Logo">Curseforge</a><br>
        
-        <a class="button button-upwork" href="https://mcpedl.com/user/swight/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/custom/mcpedl.svg" alt="GitHub Logo">MCPEDL</a><br>
+        <a class="button button-upwork" href="https://mcpedl.com/user/swight/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/custom/mcpedl.svg" alt="MCPEDL Logo">MCPEDL</a><br>
 
         <a class="button button-github" href="https://github.com/SwightsNotFound" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/github.svg" alt="GitHub Logo">GitHub</a><br>
 
@@ -180,7 +179,7 @@
 
   <!-- Footer -->
   <footer>
-    <p>This page is made with <a href="https://pages.github.com/" target="_blank" rel="noopener" role="button">Littlelink</a>. | Hosted using <a href="https://pages.github.com/" target="_blank" rel="noopener" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" target="_blank" rel="noopener" role="button">Cloudflare</a>.</p>
+    <p>This page is made with <a href="https://littlelink.io/" target="_blank" rel="noopener" role="button">Littlelink</a>. | Hosted using <a href="https://pages.github.com/" target="_blank" rel="noopener" role="button">GitHub Pages</a> and <a href="https://www.cloudflare.com/" target="_blank" rel="noopener" role="button">Cloudflare</a>.</p>
     <p><a href="https://github.com/SwightsNotFound/swightshome" target="_blank" rel="noopener" role="button">Source Code</a>. | <a href="Privacy">Privacy Policy</a>.</p>
   </footer>
 

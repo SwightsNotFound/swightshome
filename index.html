@@ -69,7 +69,7 @@
             line-height: 1.6;
         }
 
-        /* Section for icons (Jellyfin & Jellyseerr) */
+        /* Section for icons */
         .icon-section {
             display: flex;
             justify-content: center;
@@ -121,7 +121,15 @@
             letter-spacing: 1px;
         }
 
-        
+        /* Styling for the private stuff text inside the button */
+        .bottom-button .private-stuff {
+            display: block;
+            font-size: 0.7rem; /* Adjusted font size to match the smaller button */
+            color: #ffffff; /* White color */
+            margin-top: 3px; /* Adjust margin to position it correctly */
+            opacity: 0.8; /* Slightly transparent to differentiate from main text */
+        }
+
         /* Unavailability message styling */
         .unavailable {
             color: #e74c3c;
@@ -204,6 +212,33 @@
         footer a:hover {
             text-decoration: underline;
         }
+
+        /* Bottom button styling */
+        .button-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .bottom-button {
+            display: inline-block;
+            padding: 10px 20px; /* Adjusted padding to make the button smaller */
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            position: relative; /* Ensure the private text is positioned correctly */
+            font-size: 0.9rem; /* Adjusted font size to make the button smaller */
+        }
+
+        .bottom-button:hover {
+            background-color: #2980b9;
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body>
@@ -232,6 +267,16 @@
                 <div class="status-dot" id="redlib-status"></div>
                 <div class="popup" id="redlib-popup"></div>
             </div>
+
+            <!-- redlib Box -->
+            <div class="icon-box">
+                <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/rimgo.png" alt="redlib Icon">
+                <h3>Rimgo</h3>
+                <p>A fast, private image viewer for Imgur.</p>
+                <a href="https://rimgo.swightshome.xyz" target="_blank">Open</a>
+                <div class="status-dot" id="rimgo-status"></div>
+                <div class="popup" id="rimgo-popup"></div>
+            </div>
         </div>
     </div>
 
@@ -239,6 +284,14 @@
     <footer>
         <p>Hosted using <a href="https://pages.github.com/" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" role="button">Cloudflare</a>.</p>
         <p><a href="https://github.com/SwightsNotFound/swightshome" role="button">Source Code</a>. | <a href="Privacy">Privacy Policy</a>.</p>
+
+        <!-- Bottom button -->
+        <div class="button-container">
+            <a href="https://homelab.swightshome.xyz" target="_blank" class="bottom-button">
+                Homelab
+                <span class="private-stuff">(Private stuff)</span>
+            </a>
+        </div>
     </footer>
 
     <script>
@@ -301,6 +354,7 @@
         // Check the status of each link on page load
         window.onload = function() {
             checkStatus('https://redlib.swightshome.xyz', 'redlib-status', 'redlib-popup');
+            checkStatus('https://rimgo.swightshome.xyz', 'rimgo-status', 'rimgo-popup');
         };
     </script>
 </body>

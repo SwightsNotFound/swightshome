@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swightshome - Minecraft Vanilla Server</title>
+    <title>Swightshome - Privacy Policy</title>
     <link rel="icon" href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" type="image/x-icon">
 
     <style>
@@ -18,6 +18,13 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh; /* This ensures the footer stays at the bottom */
+            transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+        }
+
+        /* Dark mode body styling */
+        body.dark-mode {
+            background-color: #333;
+            color: #f4f4f9;
         }
 
         /* Topbar styling */
@@ -28,6 +35,11 @@
             align-items: center;
             padding: 15px 0;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .topbar.dark-mode {
+            background-color: #1a252f;
         }
 
         /* Styling for the links in the topbar */
@@ -49,6 +61,18 @@
             border-radius: 5px;
         }
 
+        /* Dark mode toggle button styling */
+        .dark-mode-toggle {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: absolute;
+            left: 10px; /* Align to the left */
+        }
+
         /* Main content area */
         .content {
             max-width: 1000px;
@@ -58,24 +82,14 @@
             flex-grow: 1; /* This will ensure content fills available space */
         }
 
-         /* Return button styling */
-         .topbar .return-button {
-            position: absolute;
-            left: 10px; /* Adjust this value to control how far from the left edge */
-            color: white;
-            text-align: center;
-            padding: 12px 20px;
-            text-decoration: none;
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: all 0.3s ease;
-        }
-
         .content h1 {
             font-size: 3rem;
             color: #2c3e50;
             margin-bottom: 20px;
+        }
+
+        .content.dark-mode h1 {
+            color: #f4f4f9;
         }
 
         .content p {
@@ -107,6 +121,10 @@
             text-align: center;
         }
 
+        footer.dark-mode {
+            background-color: #1a252f;
+        }
+
         footer a {
             color: #3498db;
             text-decoration: none;
@@ -135,6 +153,12 @@
 
             .content p {
                 font-size: 1rem;
+            }
+
+            .dark-mode-toggle, .return-button {
+                position: relative;
+                top: 10px;
+                left: auto;
             }
         }
 
@@ -210,51 +234,99 @@
 <body>
 
     <!-- Topbar with links -->
-    <div class="topbar">
-        <div class="topbar">
-            <a href="Services" class="return-button">Services</a>
-            <a href="https://swightshome.xyz">Homepage</a>
-            <a href="Littlelink">Links</a>
-            <a href="Contact">Contact</a>
-        </div>
+    <div class="topbar" id="topbar">
+        <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
+        <a href="Services">Services</a>        
+        <a href="https://swightshome.xyz">Homepage</a>
+        <a href="Littlelink">Links</a>
+        <a href="Contact">Contact</a>
     </div>
 
     <!-- Main content -->
-    <div class="content">
+    <div class="content" id="content">
         <div class="section">
             <h1>🔒 Privacy Policy</h1>
             <p>I don't personally collect any identifiable data about you, but both <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's</a> and <a href="https://docs.github.com/en/site-policy/privacy-policies">Github Page's</a>  Privacy Policy applies.</p>
         </div>
-        </div>
-
+    </div>
 
     <!-- Footer -->
-    <footer>
+    <footer id="footer">
         <p>Hosted using <a href="https://pages.github.com/" target="_blank" rel="noopener" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" target="_blank" rel="noopener" role="button">Cloudflare</a>.</p>
         <p><a href="https://github.com/SwightsNotFound/swightshome" target="_blank" rel="noopener" role="button">Source Code</a>.</p>
     </footer>
 
-<script>
-    function copyToClipboard() {
-        var copyText = document.getElementById("serverAddress");
-        var clipboardIcon = document.getElementById("clipboardIcon");
-        var checkmarkIcon = document.getElementById("checkmarkIcon");
+    <script>
+        // Utility functions for handling cookies
+        function setCookie(name, value, days) {
+            const d = new Date();
+            d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+            const expires = "expires=" + d.toUTCString();
+            document.cookie = name + "=" + value + ";" + expires + ";path=/";
+        }
 
-        // Select the text field
-        copyText.select();
-        copyText.setSelectionRange(0, 99999); // For mobile devices
+        function getCookie(name) {
+            const cname = name + "=";
+            const decodedCookie = decodeURIComponent(document.cookie);
+            const ca = decodedCookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(cname) == 0) {
+                    return c.substring(cname.length, c.length);
+                }
+            }
+            return "";
+        }
 
-        // Execute the copy command
-        document.execCommand("copy");
+        // Apply dark mode based on preference before the page loads
+        (function() {
+            const darkModePreference = getCookie("darkMode");
+            const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
-        // Change the icon to the checkmark icon
-        clipboardIcon.classList.add("hidden");
-        checkmarkIcon.classList.add("visible");
+            if (darkModePreference === "enabled" || (darkModePreference === "" && prefersDarkScheme)) {
+                document.documentElement.classList.add('dark-mode');
+            }
+        })();
 
-        // After 2 seconds, reset the icons
-        setTimeout(function() {
-            clipboardIcon.classList.remove("hidden");
-            checkmarkIcon.classList.remove("visible");
-        }, 2000);
-    }
-</script>
+        // Function to apply dark mode based on preference
+        function applyDarkModePreference() {
+            const darkModePreference = getCookie("darkMode");
+            const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+            if (darkModePreference === "enabled" || (darkModePreference === "" && prefersDarkScheme)) {
+                document.body.classList.add('dark-mode');
+                document.getElementById('topbar').classList.add('dark-mode');
+                document.getElementById('content').classList.add('dark-mode');
+                document.getElementById('footer').classList.add('dark-mode');
+
+                // Set the dark mode toggle button to sun
+                document.getElementById('darkModeToggle').textContent = '☀️';
+            }
+        }
+
+        // Apply dark mode preference on load
+        document.addEventListener('DOMContentLoaded', (event) => {
+            applyDarkModePreference();
+        });
+
+        // Toggle dark mode
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        darkModeToggle.addEventListener('click', () => {
+            const isDarkMode = document.body.classList.toggle('dark-mode');
+            document.getElementById('topbar').classList.toggle('dark-mode');
+            document.getElementById('content').classList.toggle('dark-mode');
+            document.getElementById('footer').classList.toggle('dark-mode');
+
+            // Change the icon of the dark mode toggle button
+            darkModeToggle.textContent = isDarkMode ? '☀️' : '🌙';
+
+            // Set the dark mode preference in a cookie
+            setCookie("darkMode", isDarkMode ? "enabled" : "disabled", 365);
+        });
+    </script>
+</body>
+
+</html>

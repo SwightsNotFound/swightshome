@@ -16,6 +16,13 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh; /* This ensures the footer stays at the bottom */
+            transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+        }
+
+        /* Dark mode body styling */
+        body.dark-mode {
+            background-color: #333;
+            color: #f4f4f9;
         }
 
         /* Topbar styling */
@@ -27,6 +34,10 @@
             padding: 15px 0;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             position: relative; /* This ensures the absolute positioning of the return button works correctly */
+        }
+
+        .topbar.dark-mode {
+            background-color: #1a252f;
         }
 
         /* Styling for the links in the topbar */
@@ -48,22 +59,24 @@
             border-radius: 5px;
         }
 
-        /* Return button styling */
-        .topbar .return-button {
-            position: absolute;
-            left: 10px; /* Adjust this value to control how far from the left edge */
+        /* Dark mode toggle button styling */
+        .dark-mode-toggle {
+            background: none;
+            border: none;
             color: white;
-            text-align: center;
-            padding: 12px 20px;
-            text-decoration: none;
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            font-size: 20px;
+            cursor: pointer;
             transition: all 0.3s ease;
+            padding: 12px 20px;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: 1px;
+            position: absolute;
+            left: 10px;
         }
 
-        /* Hover effect for return button */
-        .topbar .return-button:hover {
+        .dark-mode-toggle:hover {
             background-color: #3498db;
             color: white;
             border-radius: 5px;
@@ -82,6 +95,10 @@
             font-size: 3rem;
             color: #2c3e50;
             margin-bottom: 20px;
+        }
+
+        .content.dark-mode h1 {
+            color: #f4f4f9;
         }
 
         .content p {
@@ -113,6 +130,10 @@
             text-align: center;
         }
 
+        footer.dark-mode {
+            background-color: #1a252f;
+        }
+
         footer a {
             color: #3498db;
             text-decoration: none;
@@ -141,6 +162,12 @@
 
             .content p {
                 font-size: 1rem;
+            }
+
+            .dark-mode-toggle, .return-button {
+                position: relative;
+                top: 10px;
+                left: auto;
             }
         }
 
@@ -214,13 +241,16 @@
 </head>
 <body>
     <!-- Topbar with links -->
-    <div class="topbar">
-        <a href="Services" class="return-button">Return</a>
+    <div class="topbar" id="topbar">
+        <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
         <a href="https://swightshome.xyz">Homepage</a>
+        <a href="Services">Services</a>
+        <a href="Littlelink">Links</a>
+        <a href="Contact">Contact</a>
     </div>
 
     <!-- Main content -->
-    <div class="content">
+    <div class="content" id="content">
         <div class="section">
             <h1>How to join The Vanilla Minecraft server</h1>
             <p>(Do note that you need to have been added to the whitelist to join.)</p>
@@ -236,7 +266,7 @@
         </div>
 
         <div class="section">
-            <p>Once installed, download one of these client modpack <a href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/Downloads/Swightshome.mrpack" download>Fabric (Recommended)</a> or <a href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/Downloads/Swightshome (NeoForge).mrpack" download>Neoforge (Only if you experience issues with Fabric), then import it into your launcher,
+            <p>Once installed, download one of these client modpack <a href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/Downloads/Swightshome.mrpack" download>Fabric (Recommended)</a> or <a href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/Downloads/Swightshome (NeoForge).mrpack" download>Neoforge (Only if you experience issues with Fabric)</a>, then import it into your launcher,
             once done simply boot up the new instance and press play in the menu.</p>
             <p style="font-size: 1rem; color: #7f8c8d;">These mods are all completely client side and help boost your in-game performance, it also has the one required mod Modflared.</p>
         </div>
@@ -263,7 +293,7 @@
     </div>
 
     <!-- Footer -->
-    <footer>
+    <footer id="footer">
         <p>Hosted using <a href="https://pages.github.com/" target="_blank" rel="noopener" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" target="_blank" rel="noopener" role="button">Cloudflare</a>.</p>
         <p><a href="https://github.com/SwightsNotFound/swightshome" target="_blank" rel="noopener" role="button">Source Code</a>.</p>
     </footer>
@@ -291,6 +321,76 @@
             checkmarkIcon.classList.remove("visible");
         }, 2000);
     }
+
+    // Utility functions for handling cookies
+    function setCookie(name, value, days) {
+        const d = new Date();
+        d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+        const expires = "expires=" + d.toUTCString();
+        document.cookie = name + "=" + value + ";" + expires + ";path=/";
+    }
+
+    function getCookie(name) {
+        const cname = name + "=";
+        const decodedCookie = decodeURIComponent(document.cookie);
+        const ca = decodedCookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(cname) == 0) {
+                return c.substring(cname.length, c.length);
+            }
+        }
+        return "";
+    }
+
+    // Apply dark mode based on preference before the page loads
+    (function() {
+        const darkModePreference = getCookie("darkMode");
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+        if (darkModePreference === "enabled" || (darkModePreference === "" && prefersDarkScheme)) {
+            document.documentElement.classList.add('dark-mode');
+        }
+    })();
+
+    // Function to apply dark mode based on preference
+    function applyDarkModePreference() {
+        const darkModePreference = getCookie("darkMode");
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+        if (darkModePreference === "enabled" || (darkModePreference === "" && prefersDarkScheme)) {
+            document.body.classList.add('dark-mode');
+            document.getElementById('topbar').classList.add('dark-mode');
+            document.getElementById('content').classList.add('dark-mode');
+            document.getElementById('footer').classList.add('dark-mode');
+
+            // Set the dark mode toggle button to sun
+            document.getElementById('darkModeToggle').textContent = '☀️';
+        }
+    }
+
+    // Apply dark mode preference on load
+    document.addEventListener('DOMContentLoaded', (event) => {
+        applyDarkModePreference();
+    });
+
+    // Toggle dark mode
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    darkModeToggle.addEventListener('click', () => {
+        const isDarkMode = document.body.classList.toggle('dark-mode');
+        document.getElementById('topbar').classList.toggle('dark-mode');
+        document.getElementById('content').classList.toggle('dark-mode');
+        document.getElementById('footer').classList.toggle('dark-mode');
+
+        // Change the icon of the dark mode toggle button
+        darkModeToggle.textContent = isDarkMode ? '☀️' : '🌙';
+
+        // Set the dark mode preference in a cookie
+        setCookie("darkMode", isDarkMode ? "enabled" : "disabled", 365);
+    });
 </script>
 </body>
 </html>

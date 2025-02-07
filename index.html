@@ -17,6 +17,13 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh;
+            transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+        }
+
+        /* Dark mode body styling */
+        body.dark-mode {
+            background-color: #333;
+            color: #f4f4f9;
         }
 
         /* Topbar styling */
@@ -27,6 +34,12 @@
             align-items: center;
             padding: 15px 0;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        /* Dark mode topbar styling */
+        .topbar.dark-mode {
+            background-color: #1a252f;
         }
 
         /* Styling for the links in the topbar */
@@ -46,6 +59,18 @@
             background-color: #3498db;
             color: white;
             border-radius: 5px;
+        }
+
+        /* Dark mode toggle button styling */
+        .dark-mode-toggle {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: absolute;
+            left: 20px;
         }
 
         /* Main content area */
@@ -101,6 +126,11 @@
             margin-top: auto;
         }
 
+        /* Dark mode footer styling */
+        footer.dark-mode {
+            background-color: #1a252f;
+        }
+
         footer a {
             color: #3498db;
             text-decoration: none;
@@ -114,7 +144,8 @@
 <body>
 
     <!-- Topbar with links -->
-    <div class="topbar">
+    <div class="topbar" id="topbar">
+        <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
         <a href="Services">Services</a>
         <a href="https://homelab.swightshome.xyz">Homelab</a>
         <a href="Littlelink">Links</a>
@@ -122,7 +153,7 @@
     </div>
 
     <!-- Main content -->
-    <div class="content">
+    <div class="content" id="content">
         <div class="image-container">
             <img src="https://picsum.photos/1600/900" alt="picsum">
             <div class="centered-text">
@@ -133,9 +164,71 @@
     </div>
 
     <!-- Footer -->
-    <footer>
+    <footer id="footer">
         <p>Hosted using <a href="https://pages.github.com/" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" role="button">Cloudflare</a>.</p>
         <p><a href="https://github.com/SwightsNotFound/swightshome" role="button">Source Code</a>. | <a href="Privacy">Privacy Policy</a>.</p>
     </footer>
+
+    <script>
+        // Utility functions for handling cookies
+        function setCookie(name, value, days) {
+            const d = new Date();
+            d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+            const expires = "expires=" + d.toUTCString();
+            document.cookie = name + "=" + value + ";" + expires + ";path=/";
+        }
+
+        function getCookie(name) {
+            const cname = name + "=";
+            const decodedCookie = decodeURIComponent(document.cookie);
+            const ca = decodedCookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(cname) == 0) {
+                    return c.substring(cname.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        // Function to apply dark mode based on preference
+        function applyDarkModePreference() {
+            const darkModePreference = getCookie("darkMode");
+            const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+            if (darkModePreference === "enabled" || (darkModePreference === "" && prefersDarkScheme)) {
+                document.body.classList.add('dark-mode');
+                document.getElementById('topbar').classList.add('dark-mode');
+                document.getElementById('content').classList.add('dark-mode');
+                document.getElementById('footer').classList.add('dark-mode');
+
+                // Set the dark mode toggle button to sun
+                document.getElementById('darkModeToggle').textContent = '☀️';
+            }
+        }
+
+        // Apply dark mode preference on load
+        window.onload = function() {
+            applyDarkModePreference();
+        };
+
+        // Toggle dark mode
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        darkModeToggle.addEventListener('click', () => {
+            const isDarkMode = document.body.classList.toggle('dark-mode');
+            document.getElementById('topbar').classList.toggle('dark-mode');
+            document.getElementById('content').classList.toggle('dark-mode');
+            document.getElementById('footer').classList.toggle('dark-mode');
+
+            // Change the icon of the dark mode toggle button
+            darkModeToggle.textContent = isDarkMode ? '☀️' : '🌙';
+
+            // Set the dark mode preference in a cookie
+            setCookie("darkMode", isDarkMode ? "enabled" : "disabled", 365);
+        });
+    </script>
 </body>
 </html>

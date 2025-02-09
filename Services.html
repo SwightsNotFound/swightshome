@@ -338,6 +338,28 @@
             color: #b0b0b0;
         }
 
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
     </style>
 </head>
 <body>
@@ -350,134 +372,134 @@
         <a href="Contact">Contact</a>
     </div>
 
-    <!-- Main content -->
-    <div class="content" id="content">
-        <h1>This is a page for various services I host on my Homelab.</h1>
-        <p>While all Front-ends are public, the rest are not.</p>
 
-        <h1>Front-ends</h1>
-        <!-- Boxes -->
-        <div class="icon-section">
-            <!-- redlib Box -->
-            <div class="icon-box">
-                <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/redlib.svg" alt="redlib Icon">
-                <h3>Redlib</h3>
-                <p>A private front-end for Reddit.</p>
-                <a href="https://redlib.swightshome.xyz" target="_blank">Open</a>
-                <div class="status-dot" id="redlib-status"></div>
-                <div class="popup" id="redlib-popup"></div>
-            </div>
+<div class="content fade-in" id="content">
+    <h1>This is a page for various services I host on my Homelab.</h1>
+    <p>While all Front-ends are public, the rest are not.</p>
+
+    <h1>Front-ends</h1>
+    <!-- Boxes -->
+    <div class="icon-section fade-in">
+        <!-- redlib Box -->
+        <div class="icon-box fade-in">
+            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/redlib.svg" alt="redlib Icon">
+            <h3>Redlib</h3>
+            <p>A private front-end for Reddit.</p>
+            <a href="https://redlib.swightshome.xyz" target="_blank">Open</a>
+            <div class="status-dot" id="redlib-status"></div>
+            <div class="popup" id="redlib-popup"></div>
+        </div>
         
-            
-            <!-- rimgo Box -->
-            <div class="icon-box">
-                <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/rimgo.png" alt="redlib Icon">
-                <h3>Rimgo</h3>
-                <p>A fast, private image viewer for Imgur.</p>
-                <a href="https://rimgo.swightshome.xyz" target="_blank">Open</a>
-                <div class="status-dot" id="rimgo-status"></div>
-                <div class="popup" id="rimgo-popup"></div>
-            </div>
+        <!-- rimgo Box -->
+        <div class="icon-box fade-in">
+            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/rimgo.png" alt="redlib Icon">
+            <h3>Rimgo</h3>
+            <p>A fast, private image viewer for Imgur.</p>
+            <a href="https://rimgo.swightshome.xyz" target="_blank">Open</a>
+            <div class="status-dot" id="rimgo-status"></div>
+            <div class="popup" id="rimgo-popup"></div>
+        </div>
         
-            <!-- gothub Box -->
-        <div class="icon-box">
+        <!-- gothub Box -->
+        <div class="icon-box fade-in">
             <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/gothub.svg" alt="gothub Icon">
             <h3>Gothub</h3>
             <p>An alternative front-end for GitHub.</p>
             <a href="https://gothub.swightshome.xyz" target="_blank">Open</a>
             <div class="status-dot" id="gothub-status"></div>
             <div class="popup" id="gothub-popup"></div>
-            </div>
+        </div>
         
-            <!-- lingva Box -->
-            <div class="icon-box">
-                <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/lingva.svg" alt="lingva Icon">
-                <h3>Lingva</h3>
-                <p>An alternative front-end for Google Translate.</p>
-                <a href="https://lingva.swightshome.xyz" target="_blank">Open</a>
-                <div class="status-dot" id="lingva-status"></div>
-                <div class="popup" id="lingva-popup"></div>
-            </div>
-                <!-- feishin Box -->
-            <div class="icon-box">
-                <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/feishin.png" alt="lingva Icon">
-                <h3>feishin</h3>
-                <p>A modern fully-featured Navidrome/Jellyfin frontend for music.
-                    (Also has a <a href="https://github.com/jeffvli/feishin/releases">desktop</a> app)
-                </p>
-                <a href="https://feishin.swightshome.xyz" target="_blank">Open</a>
-                <div class="status-dot" id="feishin-status"></div>
-                <div class="popup" id="feishin-popup"></div>
-            </div>
+        <!-- lingva Box -->
+        <div class="icon-box fade-in">
+            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/lingva.svg" alt="lingva Icon">
+            <h3>Lingva</h3>
+            <p>An alternative front-end for Google Translate.</p>
+            <a href="https://lingva.swightshome.xyz" target="_blank">Open</a>
+            <div class="status-dot" id="lingva-status"></div>
+            <div class="popup" id="lingva-popup"></div>
+        </div>
         
-                <!-- Jellyfinvue Box -->
-                <div class="icon-box">
-                    <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/jellyfin-vue.png" alt="lingva Icon">
-                    <h3>Jellyfin-Vue</h3>
-                    <p>Jellyfin Vue is an experimental, alternative browser-based web client for Jellyfin written using Vue.js.</p>
-                    <a href="https://jellyfinvue.swightshome.xyz" target="_blank">Open</a>
-                    <div class="status-dot" id="jellyfinvue-status"></div>
-                    <div class="popup" id="jellyfinvue-popup"></div>
-                </div>
-            </div>
-       
-        <h1>Media</h1>
-
-        <!-- Jellyfin, Jellyseerr, and new third box Section -->
-        <div class="icon-section">
-            <!-- Jellyfin Box -->
-            <div class="icon-box">
-                <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/jellyfin.svg" alt="Jellyfin Icon">
-                <h3>Jellyfin</h3>
-                <p>A media server that streams media.</p>
-                <a href="https://jellyfin.swightshome.xyz" target="_blank">Open</a>
-                <div class="status-dot" id="jellyfin-status"></div>
-                <div class="popup" id="jellyfin-popup"></div>
-            </div>
-
-            <!-- Jellyseerr Box -->
-            <div class="icon-box">
-                <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/jellyseerr.svg" alt="Jellyseerr Icon">
-                <h3>Jellyseerr</h3>
-                <p>Jellyseerr is a request manager that allows users to easily request media for jellyfin.</p>
-                <a href="https://jellyseerr.swightshome.xyz" target="_blank">Open</a>
-                <div class="status-dot" id="jellyseerr-status"></div>
-                <div class="popup" id="jellyseerr-popup"></div>
-            </div>
-
-            <!-- Navidrome Box -->
-            <div class="icon-box">
-                <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/navidrome.svg" alt="navidrome Icon">
-                <h3>Navidrome</h3>
-                <p>Navidrome is a music collection streamer.</p>
-                <a href="https://navidrome.swightshome.xyz" target="_blank">Open</a>
-                <div class="status-dot" id="navidrome-status"></div>
-                <div class="popup" id="navidrome-popup"></div>
-              </div>
-             </div>
+        <!-- feishin Box -->
+        <div class="icon-box fade-in">
+            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/feishin.png" alt="lingva Icon">
+            <h3>feishin</h3>
+            <p>A modern fully-featured Navidrome/Jellyfin frontend for music.
+                (Also has a <a href="https://github.com/jeffvli/feishin/releases">desktop</a> app)
+            </p>
+            <a href="https://feishin.swightshome.xyz" target="_blank">Open</a>
+            <div class="status-dot" id="feishin-status"></div>
+            <div class="popup" id="feishin-popup"></div>
+        </div>
         
-        <h1>Game servers</h1>
-
-        <!-- Minecraft Server Section -->
-        <div class="minecraft-section">
-            <!-- Minecraft Server Box 1 -->
-            <div class="icon-box">
-                <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/minecraftvanilla.png" alt="Minecraftvanilla">
-                <h3>Vanilla Minecraft server</h3>
-                <p>A vanilla survival server.</p>
-                <a href="MC">How to join</a>
-                <p class="unavailable"></p> <!-- Unavailability message -->
-            </div>
-
-            <!-- Minecraft Server Box 2 -->
-            <div class="icon-box">
-                <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/minecraftorigin.png" alt="Minecraftorigin">
-                <h3>The Origins Minecraft Server</h3>
-                <p>A modded fabric server based on the Origins mod.</p>
-                <a href="Origin">How to join</a>
-            </div>
+        <!-- Jellyfinvue Box -->
+        <div class="icon-box fade-in">
+            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/jellyfin-vue.png" alt="lingva Icon">
+            <h3>Jellyfin-Vue</h3>
+            <p>Jellyfin Vue is an experimental, alternative browser-based web client for Jellyfin written using Vue.js.</p>
+            <a href="https://jellyfinvue.swightshome.xyz" target="_blank">Open</a>
+            <div class="status-dot" id="jellyfinvue-status"></div>
+            <div class="popup" id="jellyfinvue-popup"></div>
         </div>
     </div>
+   
+    <h1>Media</h1>
+
+    <!-- Jellyfin, Jellyseerr, and new third box Section -->
+    <div class="icon-section fade-in">
+        <!-- Jellyfin Box -->
+        <div class="icon-box fade-in">
+            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/jellyfin.svg" alt="Jellyfin Icon">
+            <h3>Jellyfin</h3>
+            <p>A media server that streams media.</p>
+            <a href="https://jellyfin.swightshome.xyz" target="_blank">Open</a>
+            <div class="status-dot" id="jellyfin-status"></div>
+            <div class="popup" id="jellyfin-popup"></div>
+        </div>
+
+        <!-- Jellyseerr Box -->
+        <div class="icon-box fade-in">
+            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/jellyseerr.svg" alt="Jellyseerr Icon">
+            <h3>Jellyseerr</h3>
+            <p>Jellyseerr is a request manager that allows users to easily request media for jellyfin.</p>
+            <a href="https://jellyseerr.swightshome.xyz" target="_blank">Open</a>
+            <div class="status-dot" id="jellyseerr-status"></div>
+            <div class="popup" id="jellyseerr-popup"></div>
+        </div>
+
+        <!-- Navidrome Box -->
+        <div class="icon-box fade-in">
+            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/navidrome.svg" alt="navidrome Icon">
+            <h3>Navidrome</h3>
+            <p>Navidrome is a music collection streamer.</p>
+            <a href="https://navidrome.swightshome.xyz" target="_blank">Open</a>
+            <div class="status-dot" id="navidrome-status"></div>
+            <div class="popup" id="navidrome-popup"></div>
+        </div>
+    </div>
+    
+    <h1>Game servers</h1>
+
+    <!-- Minecraft Server Section -->
+    <div class="minecraft-section fade-in">
+        <!-- Minecraft Server Box 1 -->
+        <div class="icon-box fade-in">
+            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/minecraftvanilla.png" alt="Minecraftvanilla">
+            <h3>Vanilla Minecraft server</h3>
+            <p>A vanilla survival server.</p>
+            <a href="MC">How to join</a>
+            <p class="unavailable"></p> <!-- Unavailability message -->
+        </div>
+
+        <!-- Minecraft Server Box 2 -->
+        <div class="icon-box fade-in">
+            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/minecraftorigin.png" alt="Minecraftorigin">
+            <h3>The Origins Minecraft Server</h3>
+            <p>A modded fabric server based on the Origins mod.</p>
+            <a href="Origin">How to join</a>
+        </div>
+    </div>
+</div>
 
     <!-- Footer -->
     <footer id="footer">
@@ -633,6 +655,28 @@
             // Set the dark mode preference in a cookie
             setCookie("darkMode", isDarkMode ? "enabled" : "disabled", 365);
         });
-    </script>
+
+document.addEventListener('DOMContentLoaded', () => {
+    const fadeInElements = document.querySelectorAll('.fade-in');
+
+    const checkVisibility = () => {
+        fadeInElements.forEach(element => {
+            const elementTop = element.getBoundingClientRect().top;
+            const elementBottom = element.getBoundingClientRect().bottom;
+
+            // Check if the element is in the viewport
+            if (elementTop < window.innerHeight && elementBottom > 0) {
+                element.classList.add('visible');
+            }
+        });
+    };
+
+    // Initial check
+    checkVisibility();
+
+    // Check on scroll
+    window.addEventListener('scroll', checkVisibility);
+});
+     </script>
 </body>
 </html>

@@ -35,6 +35,7 @@
             padding: 15px 0;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             position: relative;
+            transition: background-color 0.3s; /* Smooth transition */
         }
 
         /* Dark mode topbar styling */
@@ -138,6 +139,7 @@
             padding: 20px 0;
             text-align: center;
             margin-top: auto;
+            transition: background-color 0.3s; /* Smooth transition */
         }
 
         /* Dark mode footer styling */
@@ -153,35 +155,18 @@
         footer a:hover {
             text-decoration: underline;
         }
+
+        /* Flex container for footer links */
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
     </style>
 </head>
 <body>
-
-    <!-- Topbar with links -->
-    <div class="topbar" id="topbar">
-        <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
-        <a href="Services">Services</a>
-        <a href="Links">Links</a>
-        <a href="Contact">Contact</a>
-    </div>
-
-    <!-- Main content -->
-    <div class="content" id="content">
-        <div class="image-container">
-            <img src="https://picsum.photos/1600/900" alt="picsum">
-            <div class="centered-text">
-                <p><span id="typing-text-1"></span></p>
-                <p class="small-text"><span id="typing-text-2"></span></p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <footer id="footer">
-        <p>Hosted using <a href="https://pages.github.com/" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" role="button">Cloudflare</a>.</p>
-        <p><a href="https://github.com/SwightsNotFound/swightshome" role="button">Source Code</a>. | <a href="Privacy">Privacy Policy</a>.</p>
-    </footer>
-
+    <!-- Apply dark mode preference immediately -->
     <script>
         // Utility functions for handling cookies
         function setCookie(name, value, days) {
@@ -220,20 +205,49 @@
 
                 // Set the dark mode toggle button to sun
                 document.getElementById('darkModeToggle').textContent = '☀️';
+            } else {
+                document.getElementById('darkModeToggle').textContent = '🌙';
             }
         }
 
-        // Apply dark mode preference on load
-        window.onload = function() {
-            applyDarkModePreference();
-            typeText("Welcome to Swightshome!", "typing-text-1", 100, () => {
-                typeText("A website for things I host.", "typing-text-2", 100);
-            });
-        };
+        // Apply dark mode preference immediately
+        applyDarkModePreference();
+    </script>
 
-        // Toggle dark mode
-        const darkModeToggle = document.getElementById('darkModeToggle');
-        darkModeToggle.addEventListener('click', () => {
+    <!-- Topbar with links -->
+    <div class="topbar" id="topbar">
+        <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
+        <a href="Services">Services</a>
+        <a href="Links">Links</a>
+        <a href="Contact">Contact</a>
+    </div>
+
+    <!-- Main content -->
+    <div class="content" id="content">
+        <div class="image-container">
+            <img src="https://picsum.photos/1600/900" alt="picsum">
+            <div class="centered-text">
+                <p><span id="typing-text-1"></span></p>
+                <p class="small-text"><span id="typing-text-2"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">        
+        <p>Hosted using <a href="https://pages.github.com/" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" role="button">Cloudflare</a>.</p>
+        <div class="footer-links">
+            <a href="https://status.swightshome.xyz/status/swightshome" role="button">Status Page</a>
+            <span>|</span>
+            <a href="https://github.com/SwightsNotFound/swightshome" role="button">Source Code</a>
+            <span>|</span>
+            <a href="Privacy" role="button">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script>
+        // Function to toggle dark mode
+        function toggleDarkMode() {
             const isDarkMode = document.body.classList.toggle('dark-mode');
             document.getElementById('topbar').classList.toggle('dark-mode');
             document.getElementById('content').classList.toggle('dark-mode');
@@ -244,7 +258,11 @@
 
             // Set the dark mode preference in a cookie
             setCookie("darkMode", isDarkMode ? "enabled" : "disabled", 365);
-        });
+        }
+
+        // Attach the toggle function to the dark mode button
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        darkModeToggle.addEventListener('click', toggleDarkMode);
 
         // Typing animation function
         function typeText(text, elementId, speed, callback) {
@@ -265,6 +283,13 @@
             typingElement.classList.add('typing'); // Add cursor before typing starts
             type();
         }
+
+        // Typing animation on load
+        window.onload = function() {
+            typeText("Welcome to Swightshome!", "typing-text-1", 60, () => {
+                typeText("A website for things I host.", "typing-text-2", 70);
+            });
+        };
     </script>
 </body>
 </html>

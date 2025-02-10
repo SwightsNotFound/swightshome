@@ -111,6 +111,14 @@
         /* Add space between sections */
         .section {
             margin-bottom: 40px;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+
+        .section.visible {
+            opacity: 1;
+            transform: translateY(0);
         }
 
         /* Footer Styling */
@@ -291,6 +299,31 @@
             }
         })();
 
+        // Function to check visibility of elements and add the 'visible' class
+        function checkVisibility() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                const sectionTop = section.getBoundingClientRect().top;
+                const sectionBottom = section.getBoundingClientRect().bottom;
+
+                // Check if the section is in the viewport
+                if (sectionTop < window.innerHeight && sectionBottom > 0) {
+                    section.classList.add('visible');
+                }
+            });
+        }
+
+        // Apply dark mode preference on load
+        document.addEventListener('DOMContentLoaded', (event) => {
+            applyDarkModePreference();
+
+            // Initial check for visibility
+            checkVisibility();
+
+            // Check visibility on scroll
+            window.addEventListener('scroll', checkVisibility);
+        });
+
         // Function to apply dark mode based on preference
         function applyDarkModePreference() {
             const darkModePreference = getCookie("darkMode");
@@ -306,11 +339,6 @@
                 document.getElementById('darkModeToggle').textContent = '☀️';
             }
         }
-
-        // Apply dark mode preference on load
-        document.addEventListener('DOMContentLoaded', (event) => {
-            applyDarkModePreference();
-        });
 
         // Toggle dark mode
         const darkModeToggle = document.getElementById('darkModeToggle');

@@ -121,7 +121,8 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 20px;
-            margin: 20px 0;
+            margin: 20px auto;
+            max-width: 400px;
             opacity: 0;
             transform: translateY(20px);
             transition: opacity 0.6s ease-out, transform 0.6s ease-out;
@@ -163,6 +164,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 20px;
             margin: 20px 0;
+            max-width: 800px;
             opacity: 0;
             transform: translateY(20px);
             transition: opacity 0.6s ease-out, transform 0.6s ease-out;
@@ -175,6 +177,18 @@
 
         .utterances-section.dark-mode {
             background-color: #444;
+        }
+
+        /* Custom styling for comment notice */
+        .comment-notice {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: -10px;
+            margin-bottom: 20px;
+        }
+
+        .comment-notice.dark-mode {
+            color: #ccc;
         }
 
         /* Custom styling for utterances comment */
@@ -371,6 +385,7 @@
                 <!-- Utterances Comment Section -->
                 <div class="utterances-section" id="utterances-section">
                     <h2>Comments</h2>
+                    <p class="comment-notice">Please note that all comments are public and are stored on this site's GitHub issues.</p>
                     <script src="https://utteranc.es/client.js"
                             repo="SwightsNotFound/swightshome"
                             issue-term="pathname"

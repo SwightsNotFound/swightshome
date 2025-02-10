@@ -30,6 +30,11 @@
             display: flex;
             flex-direction: column;
             min-height: 100%;
+            background-color: #f4f4f9;
+        }
+
+        .wrapper.dark-mode {
+            background-color: #333;
         }
 
         .content {
@@ -172,6 +177,17 @@
             background-color: #444;
         }
 
+        /* Custom styling for utterances comment */
+        .utterances-comment {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .utterances-comment .avatar {
+            margin-right: 10px;
+        }
+
         /* Footer styling */
         footer {
             text-align: center;
@@ -296,6 +312,7 @@
                 document.getElementById('contact-section-email').classList.add('dark-mode');
                 document.getElementById('contact-section-matrix').classList.add('dark-mode');
                 document.getElementById('utterances-section').classList.add('dark-mode');
+                document.getElementById('wrapper').classList.add('dark-mode');
 
                 // Set the dark mode toggle button to sun
                 document.getElementById('darkModeToggle').textContent = '☀️';
@@ -312,6 +329,7 @@
             document.getElementById('contact-section-email').classList.toggle('dark-mode');
             document.getElementById('contact-section-matrix').classList.toggle('dark-mode');
             document.getElementById('utterances-section').classList.toggle('dark-mode');
+            document.getElementById('wrapper').classList.toggle('dark-mode');
 
             // Change the icon of the dark mode toggle button
             darkModeToggle.textContent = isDarkMode ? '☀️' : '🌙';
@@ -324,7 +342,7 @@
 
 <body>
 
-    <div class="wrapper">
+    <div class="wrapper" id="wrapper">
         <!-- Topbar with links -->
         <div class="topbar" id="topbar">
             <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>

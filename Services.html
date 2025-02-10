@@ -392,7 +392,7 @@
         
         <!-- rimgo Box -->
         <div class="icon-box fade-in">
-            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/rimgo.png" alt="redlib Icon">
+            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/rimgo-nowhite.png" alt="redlib Icon">
             <h3>Rimgo</h3>
             <p>A fast, private image viewer for Imgur.</p>
             <a href="https://rimgo.swightshome.xyz" target="_blank">Open</a>
@@ -445,7 +445,7 @@
    
     <h1>Media</h1>
 
-    <!-- Jellyfin, Jellyseerr, and new third box Section -->
+    <!-- Jellyfin, Jellyseerr -->
     <div class="icon-section fade-in">
         <!-- Jellyfin Box -->
         <div class="icon-box fade-in">
@@ -476,6 +476,26 @@
             <div class="status-dot" id="navidrome-status"></div>
             <div class="popup" id="navidrome-popup"></div>
         </div>
+    
+    <!-- Audiobookshelf Box -->
+    <div class="icon-box fade-in">
+        <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/audiobookshelf.svg" alt="Audiobookshelf Icon">
+        <h3>Audiobookshelf</h3>
+        <p>A audiobook and podcast server.</p>
+        <a href="https://audiobookshelf.swightshome.xyz" target="_blank">Open</a>
+        <div class="status-dot" id="audiobookshelf-status"></div>
+        <div class="popup" id="audiobookshelf-popup"></div>
+    </div>
+
+    <!-- Calibre-Web Box -->
+    <div class="icon-box fade-in">
+        <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/calibre-web.svg" alt="Calibre-web Icon">
+        <h3>Calibre-web</h3>
+        <p>Web app for browsing, reading and downloading eBooks stored in a Calibre database.</p>
+        <a href="https://calibreweb.swightshome.xyz" target="_blank">Open</a>
+        <div class="status-dot" id="calibreweb-status"></div>
+        <div class="popup" id="calibreweb-popup"></div>
+    </div>
     </div>
     
     <h1>Game servers</h1>
@@ -631,6 +651,8 @@
             checkStatus('https://jellyfin.swightshome.xyz', 'jellyfin-status', 'jellyfin-popup');
             checkStatus('https://jellyseerr.swightshome.xyz', 'jellyseerr-status', 'jellyseerr-popup');
             checkStatus('https://navidrome.swightshome.xyz', 'navidrome-status', 'navidrome-popup');
+            checkStatus('https://audiobookshelf.swightshome.xyz', 'audiobookshelf-status', 'audiobookshelf-popup');
+            checkStatus('https://calibreweb.swightshome.xyz', 'calibreweb-status', 'calibreweb-popup');
 
             // Apply dark mode preference
             applyDarkModePreference();

@@ -5,30 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swightshome - Status Detector Redirect</title>
     <link rel="icon" href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" type="image/x-icon">
-    
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Roboto', sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f4f4f9;
-            color: #333;
+            background: linear-gradient(135deg, #ececec, #f4f4f9);
+            overflow: hidden;
         }
 
         .message {
             text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transform: scale(0.8);
+            animation: popUp 0.5s forwards;
         }
 
         .message h1 {
-            font-size: 2rem;
+            font-size: 2.5rem;
             margin-bottom: 20px;
+            color: #2c3e50;
         }
 
         .message p {
             font-size: 1.2rem;
+            color: #7f8c8d;
+        }
+
+        @keyframes popUp {
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
         }
     </style>
 </head>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swightshome - Status Detector Redirect</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" type="image/x-icon">
+    
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        .message {
+            text-align: center;
+        }
+
+        .message h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .message p {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="message" id="message">
+    <h1>Checking site status...</h1>
+    <p>Please wait, this shouldn't take long.</p>
+</div>
+
+<script>
+    const proxyUrl = 'https://corsproxy.io/?url=';
+    const siteUrl = 'https://status.swightshome.xyz/status/swightshome'; // Replace with the actual URL to check
+    const redirectUrl = 'https://status.swightshome.xyz/status/swightshome'; // Replace with the actual URL to redirect to
+
+    function checkStatus(url, redirectUrl) {
+        fetch(proxyUrl + encodeURIComponent(url))
+            .then(response => {
+                if (response.ok) {
+                    // Site is online, redirect to the site
+                    window.location.href = redirectUrl;
+                } else {
+                    // Site is offline, display the offline message
+                    displayOfflineMessage();
+                }
+            })
+            .catch(error => {
+                console.error('Fetch error:', error); // Log any fetch errors
+                displayOfflineMessage();
+            });
+    }
+
+    function displayOfflineMessage() {
+        const message = document.getElementById('message');
+        message.innerHTML = `
+            <h1>Site is currently offline.</h1>
+            <p>This most likely means my homelab is down, possible because my internet and/or power is out, if you see this you shouldn't be able to use any of my services.</p>
+        `;
+    }
+
+    // Check the status of the site on page load
+    window.onload = function() {
+        checkStatus(siteUrl, redirectUrl);
+    };
+</script>
+
+</body>
+</html>

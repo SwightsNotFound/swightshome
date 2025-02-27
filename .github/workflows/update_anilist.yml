@@ -31,3 +31,5 @@ jobs:
         git add anime_list.json
         git commit -m 'Update anime list'
         git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,2623 @@
+[
+  {
+    "name": "Planning",
+    "entries": [
+      {
+        "title": "March comes in like a lion",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21366-qp94AxKx6ZaM.jpg",
+        "averageScore": 83,
+        "episodes": 22
+      },
+      {
+        "title": "Amagami SS",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx8676-rpRpE8lD4tbw.png",
+        "averageScore": 69,
+        "episodes": 25
+      },
+      {
+        "title": "Anohana: The Flower We Saw That Day",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9989-hImMg6kCMm6I.jpg",
+        "averageScore": 80,
+        "episodes": 11
+      },
+      {
+        "title": "Another",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11111-Y4QgkX8gJQCa.png",
+        "averageScore": 70,
+        "episodes": 12
+      },
+      {
+        "title": "Assassination Classroom",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20755-q0b3Ok1cAbPd.jpg",
+        "averageScore": 79,
+        "episodes": 22
+      },
+      {
+        "title": "The Boy and The Beast",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20981-D6PAJAOC4jPc.jpg",
+        "averageScore": 79,
+        "episodes": 1
+      },
+      {
+        "title": "Bakemonogatari",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5081-WNUrgxsHoE4V.jpg",
+        "averageScore": 82,
+        "episodes": 15
+      },
+      {
+        "title": "Bleach",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx269-wc062RMqud8B.png",
+        "averageScore": 78,
+        "episodes": 366
+      },
+      {
+        "title": "BLEACH: Thousand-Year Blood War",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx116674-p3zK4PUX2Aag.jpg",
+        "averageScore": 88,
+        "episodes": 13
+      },
+      {
+        "title": "ERASED",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21234-bCvWk2f58LCv.jpg",
+        "averageScore": 81,
+        "episodes": 12
+      },
+      {
+        "title": "Charlotte",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx20997-FGhaAtfnXCsH.jpg",
+        "averageScore": 75,
+        "episodes": 13
+      },
+      {
+        "title": "Scissor Seven",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx107912-pvFwhGx4Bpzc.jpg",
+        "averageScore": 78,
+        "episodes": 10
+      },
+      {
+        "title": "Cowboy Bebop",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1-CXtrrkMpJ8Zq.png",
+        "averageScore": 86,
+        "episodes": 26
+      },
+      {
+        "title": "Daily Lives of High School Boys",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx11843-KK3X2ccAlUwI.jpg",
+        "averageScore": 80,
+        "episodes": 12
+      },
+      {
+        "title": "Death Parade",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx20931-bktYqOcxPERi.jpg",
+        "averageScore": 80,
+        "episodes": 12
+      },
+      {
+        "title": "Fairy Tail",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b6702-1FZrcyOB4NfH.png",
+        "averageScore": 71,
+        "episodes": 175
+      },
+      {
+        "title": "Gintama",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx918-hRbQHIkRUebX.jpg",
+        "averageScore": 85,
+        "episodes": 201
+      },
+      {
+        "title": "Pom Poko",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1030-epXaUwnycmQE.jpg",
+        "averageScore": 70,
+        "episodes": 1
+      },
+      {
+        "title": "Tokubetsu-hen Hibike! Euphonium: Ensemble Contest",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx150429-5KvbB5BBt2Yz.jpg",
+        "averageScore": 78,
+        "episodes": 1
+      },
+      {
+        "title": "Hi Score Girl",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20574-cUPxastH5vAm.jpg",
+        "averageScore": 75,
+        "episodes": 12
+      },
+      {
+        "title": "Teasing Master Takagi-san",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99468-XayCplkIL3Gf.png",
+        "averageScore": 74,
+        "episodes": 12
+      },
+      {
+        "title": "Kill la Kill",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx18679-zE07Y4SFaOiO.png",
+        "averageScore": 79,
+        "episodes": 24
+      },
+      {
+        "title": "Boarding School Juliet",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx101310-w1PLPsyg0XHr.jpg",
+        "averageScore": 72,
+        "episodes": 12
+      },
+      {
+        "title": "Kiznaiver",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21421-5y8ryXsMB7aJ.jpg",
+        "averageScore": 71,
+        "episodes": 12
+      },
+      {
+        "title": "KONOSUBA -God's blessing on this wonderful world!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21202-TfzXuWQf2oLQ.png",
+        "averageScore": 79,
+        "episodes": 10
+      },
+      {
+        "title": "The Place Promised in Our Early Days",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx433-bU0c8iHxoL2G.jpg",
+        "averageScore": 68,
+        "episodes": 1
+      },
+      {
+        "title": "Lupin The 3rd: The Castle of Cagliostro",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1430-aHneeSPBCeHR.jpg",
+        "averageScore": 80,
+        "episodes": 1
+      },
+      {
+        "title": "Puella Magi Madoka Magica",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9756-qnR83EYPzY1Z.jpg",
+        "averageScore": 83,
+        "episodes": 12
+      },
+      {
+        "title": "Megalobox",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100298-d6y12PJuzoO0.jpg",
+        "averageScore": 77,
+        "episodes": 13
+      },
+      {
+        "title": "Mononoke",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2246-WHkSkgyuxfgD.jpg",
+        "averageScore": 81,
+        "episodes": 12
+      },
+      {
+        "title": "Princess Mononoke",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx164-QYmGmG2k09pL.jpg",
+        "averageScore": 84,
+        "episodes": 1
+      },
+      {
+        "title": "MUSHI-SHI",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx457-Si9avlyStAXj.png",
+        "averageScore": 85,
+        "episodes": 26
+      },
+      {
+        "title": "Nichijou - My Ordinary Life",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10165-1j2Qn8wIIn5S.png",
+        "averageScore": 83,
+        "episodes": 26
+      },
+      {
+        "title": "Wolf Children",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx12355-wNsvhEsXEgrH.png",
+        "averageScore": 83,
+        "episodes": 1
+      },
+      {
+        "title": "Spice and Wolf II",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5341-L9BdlYjFRjDs.jpg",
+        "averageScore": 81,
+        "episodes": 12
+      },
+      {
+        "title": "Photo Kano",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16397-dSCC0RzWjWnk.jpg",
+        "averageScore": 57,
+        "episodes": 13
+      },
+      {
+        "title": "Ping Pong the Animation",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20607-naYLIcMOea11.jpg",
+        "averageScore": 85,
+        "episodes": 11
+      },
+      {
+        "title": "PSYCHO-PASS",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx13601-tgjUlf4eQOyx.jpg",
+        "averageScore": 81,
+        "episodes": 22
+      },
+      {
+        "title": "Serial Experiments Lain",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx339-4438BQupScYO.png",
+        "averageScore": 80,
+        "episodes": 13
+      },
+      {
+        "title": "From the New World",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx13125-NdLjbmyHmoAD.png",
+        "averageScore": 80,
+        "episodes": 25
+      },
+      {
+        "title": "Girls' Last Tour",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99420-ROmwm2suzoNJ.png",
+        "averageScore": 81,
+        "episodes": 12
+      },
+      {
+        "title": "Summer Wars",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5681-3DmxUVn3grD0.jpg",
+        "averageScore": 77,
+        "episodes": 1
+      },
+      {
+        "title": "Trigun",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6-Zzun7PHNNgPt.jpg",
+        "averageScore": 80,
+        "episodes": 26
+      },
+      {
+        "title": "Uzaki-chan Wants to Hang Out!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx115113-bJDZV7kP0XrP.png",
+        "averageScore": 67,
+        "episodes": 12
+      },
+      {
+        "title": "Welcome to Pia Carrot! Sayaka's Love Story",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/216.jpg",
+        "averageScore": 56,
+        "episodes": 1
+      },
+      {
+        "title": "BLUE LOCK THE MOVIE -EPISODE NAGI-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163147-yyu5aEoO96Jg.jpg",
+        "averageScore": 74,
+        "episodes": 1
+      },
+      {
+        "title": "Kono Oto Tomare!: Sounds of Life",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103302-RVGwGRDGdMQq.jpg",
+        "averageScore": 78,
+        "episodes": 13
+      },
+      {
+        "title": "Mysterious Disappearances",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx160090-EHP57CniSa7I.jpg",
+        "averageScore": 66,
+        "episodes": 12
+      },
+      {
+        "title": "MAKE A GIRL",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154064-qYnRF4BQsuM6.png",
+        "averageScore": null,
+        "episodes": 1
+      },
+      {
+        "title": "Oomuro-ke: dear sisters",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx167984-vZELUFDNk0Ax.jpg",
+        "averageScore": 77,
+        "episodes": 1
+      },
+      {
+        "title": "Tower of God",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx115230-QHOdSN7yt8ab.jpg",
+        "averageScore": 74,
+        "episodes": 13
+      },
+      {
+        "title": "Makeine: Too Many Losing Heroines!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171457-Z8tZRk7LhcZk.jpg",
+        "averageScore": 81,
+        "episodes": 12
+      },
+      {
+        "title": "Blue Exorcist -Beyond the Snow Saga-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176311-OZudERHrpJJ0.jpg",
+        "averageScore": 74,
+        "episodes": 12
+      },
+      {
+        "title": "Loner Life in Another World",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx173693-tRLdDE1BieXe.png",
+        "averageScore": 65,
+        "episodes": 12
+      },
+      {
+        "title": "Revue Starlight: The Movie",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113024-01t7qfNhHWo9.png",
+        "averageScore": 87,
+        "episodes": 1
+      },
+      {
+        "title": "Pseudo Harem",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163623-pzR6vIHoJh0b.jpg",
+        "averageScore": 76,
+        "episodes": 12
+      },
+      {
+        "title": "Kaoru Hana wa Rin to Saku",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx181444-3GzgdpbqBtKW.jpg",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "Ranma1/2 (2024)",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178533-md2BV8esGezM.jpg",
+        "averageScore": 80,
+        "episodes": 12
+      },
+      {
+        "title": "The Magical Girl and the Evil Lieutenant Used to Be Archenemies",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170938-kkeDCKGSUNaV.jpg",
+        "averageScore": 75,
+        "episodes": 12
+      },
+      {
+        "title": "Yofukashi no Uta 2nd Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx175914-ezILt2YpFyFn.png",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "Trapped in a Dating Sim: The World of Otome Games Is Tough for Mobs",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142074-pHe4bX791PJh.jpg",
+        "averageScore": 71,
+        "episodes": 12
+      },
+      {
+        "title": "NANA",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx877-rgaDbTMM9R59.png",
+        "averageScore": 85,
+        "episodes": 47
+      },
+      {
+        "title": "Paradise Kiss",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx322-4OvRw6V7JTiK.png",
+        "averageScore": 77,
+        "episodes": 12
+      },
+      {
+        "title": "SHOSHIMIN: How to Become Ordinary",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx173295-5DIOnrTYiF0a.jpg",
+        "averageScore": 73,
+        "episodes": 10
+      },
+      {
+        "title": "WIND BREAKER Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178680-tA0ZAqw8l0sP.jpg",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "Versailles no Bara Movie",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154392-Z2HQYstZMZ23.jpg",
+        "averageScore": null,
+        "episodes": 1
+      },
+      {
+        "title": "Kanojo, Okarishimasu 4th Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx179344-bKIcCKDWDJdO.png",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "Girlfriend, Girlfriend",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx126192-3fFbZJFSwrHH.jpg",
+        "averageScore": 63,
+        "episodes": 12
+      },
+      {
+        "title": "Girlfriend, Girlfriend Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154692-UcFM4rM3ehwE.jpg",
+        "averageScore": 69,
+        "episodes": 12
+      },
+      {
+        "title": "Aharen-san wa Hakarenai Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx179979-YEX5Gpr6h4M9.png",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "WITCH WATCH",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx180367-GlRuB2lG7Kaa.jpg",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "Lazarus",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx167336-mnhqBT3vDtcv.png",
+        "averageScore": null,
+        "episodes": 13
+      },
+      {
+        "title": "The Beginning After the End",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183161-vCQ4hTakFiKW.jpg",
+        "averageScore": null,
+        "episodes": 24
+      },
+      {
+        "title": "DAN DA DAN Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185660-4AlO6t78Bp3j.png",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "Kaiju No.8 SEASON 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178754-OduDgtHsdFPD.jpg",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "SAKAMOTO DAYS Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx184237-7OLZM74tEoeW.jpg",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "The Summer Hikaru Died",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177689-M0FYQVXsPQlX.jpg",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "My Hero Academia FINAL SEASON",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx182896-QZ46awXcGJq7.jpg",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "SPY×FAMILY Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177937-HDZQqDqXQqxs.jpg",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "Tomodachi no Imouto ga Ore ni dake Uzai",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx129195-l0IrnvF1cCDz.jpg",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "Disney Twisted-Wonderland The Animation",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140291-Cb1GtmuDWyE5.png",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "With You, Our Love Will Make It Through",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx186161-nRJptSuYKEQP.jpg",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "SANDA",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx179302-lJuSmBRwnNsS.jpg",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "Peleliu: Rakuen no Guernica",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx132776-U34wk1Zbx7pU.png",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "Akujiki Reijou to Kyouketsu Koushaku: Sono Mamono, Watashi ga Oishiku Itadakimasu!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183291-EDtdJLW13yV0.jpg",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "Hell’s Paradise",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128893-l0R0GFHplDKW.jpg",
+        "averageScore": 80,
+        "episodes": 13
+      },
+      {
+        "title": "Rascal Does Not Dream of a Knapsack Kid",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161474-ZDfmmlJQQngN.jpg",
+        "averageScore": 83,
+        "episodes": 1
+      },
+      {
+        "title": "The Boy and the Heron",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx109979-4mRtecc44nah.jpg",
+        "averageScore": 77,
+        "episodes": 1
+      },
+      {
+        "title": "Rascal Does Not Dream of a Sister Venturing Out",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154967-W9cIm0qlz6fj.jpg",
+        "averageScore": 79,
+        "episodes": 1
+      },
+      {
+        "title": "Cyberpunk: Edgerunners",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx120377-GdoVPT4ZVxJn.jpg",
+        "averageScore": 85,
+        "episodes": 10
+      },
+      {
+        "title": "Akebi’s Sailor Uniform",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131548-4OXik3SWOaee.jpg",
+        "averageScore": 75,
+        "episodes": 12
+      },
+      {
+        "title": "Yakuza Fiancé: Raise wa Tanin ga Ii",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170468-kD2X9O2XM9KH.jpg",
+        "averageScore": 71,
+        "episodes": 12
+      },
+      {
+        "title": "That Time I Got Reincarnated as a Slime",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101280-ezBXqEHi8pg0.jpg",
+        "averageScore": 80,
+        "episodes": 24
+      },
+      {
+        "title": "No Game, No Life",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx19815-bIo51RMWWhLv.jpg",
+        "averageScore": 77,
+        "episodes": 12
+      },
+      {
+        "title": "Bocchi the Rock! 2nd Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx186712-pCA3TyPcVoZh.jpg",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "Kaijuu 8-gou Movie",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx179998-hbLOxbjh6ev5.jpg",
+        "averageScore": null,
+        "episodes": 1
+      },
+      {
+        "title": "Mononoke: Hinezumi",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx179852-tPwGOkCxA8em.jpg",
+        "averageScore": null,
+        "episodes": 1
+      },
+      {
+        "title": "Noragami",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20447-EoQXeygHaVCK.jpg",
+        "averageScore": 77,
+        "episodes": 12
+      },
+      {
+        "title": "Yu Yu Hakusho: Ghostfiles",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx392-z90299zIvYmx.png",
+        "averageScore": 82,
+        "episodes": 112
+      },
+      {
+        "title": "Hunter x Hunter",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx136-gj0bbCpDNrKG.jpg",
+        "averageScore": 82,
+        "episodes": 62
+      },
+      {
+        "title": "Yu☆Gi☆Oh!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx550-aXb7NoghEGab.png",
+        "averageScore": 69,
+        "episodes": 27
+      },
+      {
+        "title": "Dragon Ball",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx223-Ld6vrSnd081L.png",
+        "averageScore": 78,
+        "episodes": 153
+      },
+      {
+        "title": "Solo Leveling -ReAwakening-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx184694-EmVoCuV4uAGv.png",
+        "averageScore": 80,
+        "episodes": 1
+      },
+      {
+        "title": "Skip and Loafer Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185657-A0aog1C8G3OF.jpg",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "Sailor Moon",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx530-DsF6LirJUEii.jpg",
+        "averageScore": 75,
+        "episodes": 46
+      },
+      {
+        "title": "Kaijuu 8-gou: Hoshina no Kyuujitsu",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx179999-8FuSR5TlOCD1.jpg",
+        "averageScore": null,
+        "episodes": 1
+      },
+      {
+        "title": "Summer Pockets",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143200-42OaDCS6VEy3.png",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "Uzumaki",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx111314-wcXR5AyJmkiQ.jpg",
+        "averageScore": 56,
+        "episodes": 4
+      },
+      {
+        "title": "[Oshi no Ko] 3rd Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx182587-GS3eZdxY8PVA.png",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "Fire Force Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx149118-AOQb0xuTssGl.jpg",
+        "averageScore": null,
+        "episodes": null
+      },
+      {
+        "title": "Chobits",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx59-0J95ZHgt4uyP.jpg",
+        "averageScore": 70,
+        "episodes": 26
+      },
+      {
+        "title": "Fruits Basket",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx120-Z5i1sw1xboQP.jpg",
+        "averageScore": 74,
+        "episodes": 26
+      },
+      {
+        "title": "Blue Exorcist",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9919-nXS7JOZrWHfS.jpg",
+        "averageScore": 72,
+        "episodes": 25
+      },
+      {
+        "title": "Soul Eater",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx3588-CA8LE5gjm9Qx.png",
+        "averageScore": 77,
+        "episodes": 51
+      },
+      {
+        "title": "Kobato",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5678-yqeedxnJLoT8.jpg",
+        "averageScore": 76,
+        "episodes": 24
+      }
+    ]
+  },
+  {
+    "name": "Completed",
+    "entries": [
+      {
+        "title": "Real Girl",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100526-Hw6U34Hw2TDb.jpg",
+        "averageScore": 65,
+        "episodes": 12
+      },
+      {
+        "title": "Real Girl 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx102882-lKp3ExWNzoE6.jpg",
+        "averageScore": 74,
+        "episodes": 12
+      },
+      {
+        "title": "The Quintessential Quintuplets",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103572-2MXV30htoCSh.png",
+        "averageScore": 75,
+        "episodes": 12
+      },
+      {
+        "title": "The Quintessential Quintuplets 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx109261-65rKxMDlcU9r.png",
+        "averageScore": 79,
+        "episodes": 12
+      },
+      {
+        "title": "Snow White with the Red Hair",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21058-IAIOIhkmKSBG.jpg",
+        "averageScore": 76,
+        "episodes": 12
+      },
+      {
+        "title": "Snow White with the Red Hair Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21258-6UnmYMTMH0f7.jpg",
+        "averageScore": 78,
+        "episodes": 12
+      },
+      {
+        "title": "Yona of the Dawn",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20770-brCDvhTXlums.png",
+        "averageScore": 79,
+        "episodes": 24
+      },
+      {
+        "title": "Angel Beats!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6547-3jWzWyXg34Et.png",
+        "averageScore": 77,
+        "episodes": 13
+      },
+      {
+        "title": "Blue Spring Ride",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20596-fJdMHV8xRMgY.png",
+        "averageScore": 74,
+        "episodes": 12
+      },
+      {
+        "title": "Ao Haru Ride: unwritten",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20837-yK7SvUj1Tg7l.jpg",
+        "averageScore": 72,
+        "episodes": 1
+      },
+      {
+        "title": "Arte",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx110547-TjB8wJRdnSaw.jpg",
+        "averageScore": 69,
+        "episodes": 12
+      },
+      {
+        "title": "My Hero Academia",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21459-RoPwgrZ32gM3.jpg",
+        "averageScore": 76,
+        "episodes": 13
+      },
+      {
+        "title": "My Hero Academia Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21856-gutauxhWAwn6.png",
+        "averageScore": 79,
+        "episodes": 25
+      },
+      {
+        "title": "My Hero Academia Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100166-jUCZYbzn2XLw.jpg",
+        "averageScore": 79,
+        "episodes": 25
+      },
+      {
+        "title": "My Hero Academia Season 4",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104276-SnEowMvesWIE.png",
+        "averageScore": 78,
+        "episodes": 25
+      },
+      {
+        "title": "My Hero Academia Season 5",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx117193-E75BlZmDh1aB.jpg",
+        "averageScore": 73,
+        "episodes": 25
+      },
+      {
+        "title": "My Hero Academia Season 6",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx139630-3v4gxWtNZxLV.jpg",
+        "averageScore": 82,
+        "episodes": 25
+      },
+      {
+        "title": "My Hero Academia: Two Heroes",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100723-7f5e1BCTCDoB.jpg",
+        "averageScore": 74,
+        "episodes": 1
+      },
+      {
+        "title": "My Hero Academia: World Heroes' Mission",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx126659-i6c1PsXHGyke.jpg",
+        "averageScore": 76,
+        "episodes": 1
+      },
+      {
+        "title": "We Were There",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1222-kRIt3mFjuDaW.png",
+        "averageScore": 67,
+        "episodes": 26
+      },
+      {
+        "title": "Remake Our Life!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114065-YPPyW7ZSxfYU.jpg",
+        "averageScore": 72,
+        "episodes": 12
+      },
+      {
+        "title": "Love, Chunibyo & Other Delusions",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx14741-alxqoP4yx6WF.jpg",
+        "averageScore": 75,
+        "episodes": 12
+      },
+      {
+        "title": "Love, Chunibyo & Other Delusions - Heart Throb -",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx18671-RVIY9TGd737H.jpg",
+        "averageScore": 73,
+        "episodes": 12
+      },
+      {
+        "title": "Love, Chunibyo & Other Delusions - Heart Throb -: The Rikka Wars/ Apocalypse of the Wicked Lord Shingan Reborn",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/20889.jpg",
+        "averageScore": 72,
+        "episodes": 1
+      },
+      {
+        "title": "Words Bubble Up Like Soda Pop",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx107625-2UIAI4TRwXz0.jpg",
+        "averageScore": 74,
+        "episodes": 1
+      },
+      {
+        "title": "Clannad",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2167-ubU2875AFRTH.jpg",
+        "averageScore": 76,
+        "episodes": 23
+      },
+      {
+        "title": "Clannad: After Story",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4181-V1LCtX1rJgbR.png",
+        "averageScore": 87,
+        "episodes": 24
+      },
+      {
+        "title": "Clannad: Another World, Kyou Chapter",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/6351.jpg",
+        "averageScore": 74,
+        "episodes": 1
+      },
+      {
+        "title": "Clannad: Another World, Tomoyo Chapter",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b4059-mrA0Wky7bTgz.jpg",
+        "averageScore": 76,
+        "episodes": 1
+      },
+      {
+        "title": "Fruits Basket (2019)",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105334-dYqd4I5cTzRy.jpg",
+        "averageScore": 82,
+        "episodes": 25
+      },
+      {
+        "title": "Fruits Basket Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx111762-C8TNf5uRlVNQ.jpg",
+        "averageScore": 85,
+        "episodes": 25
+      },
+      {
+        "title": "Fruits Basket The Final Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124194-5eUjfzDYUboz.jpg",
+        "averageScore": 89,
+        "episodes": 13
+      },
+      {
+        "title": "Looking Up at the Half-Moon",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx587-Y2r6jh7QNccg.png",
+        "averageScore": 70,
+        "episodes": 6
+      },
+      {
+        "title": "HINAMATSURI",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100077-B4bfXz0wVOPO.jpg",
+        "averageScore": 80,
+        "episodes": 12
+      },
+      {
+        "title": "Hiyokoi",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/8768.jpg",
+        "averageScore": 68,
+        "episodes": 1
+      },
+      {
+        "title": "Horimiya",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124080-h8EPH92nyRfS.jpg",
+        "averageScore": 81,
+        "episodes": 13
+      },
+      {
+        "title": "Children who Chase Lost Voices",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9760-Ur2uU0HuF1Iz.jpg",
+        "averageScore": 71,
+        "episodes": 1
+      },
+      {
+        "title": "Howl‘s Moving Castle",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx431-dDgk19xDZjVX.jpg",
+        "averageScore": 85,
+        "episodes": 1
+      },
+      {
+        "title": "Hyouka",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx12189-eBb6fcM21Zh7.jpg",
+        "averageScore": 79,
+        "episodes": 22
+      },
+      {
+        "title": "DON'T TOY WITH ME, MISS NAGATORO",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx120697-72Sf22C9PTQn.jpg",
+        "averageScore": 70,
+        "episodes": 12
+      },
+      {
+        "title": "ItaKiss",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx3731-aCN5LnCn08qm.png",
+        "averageScore": 69,
+        "episodes": 25
+      },
+      {
+        "title": "Bottom-Tier Character Tomozaki",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx112443-UVB1oKdblsIx.jpg",
+        "averageScore": 70,
+        "episodes": 12
+      },
+      {
+        "title": "Toilet-bound Hanako-kun",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108463-knWkFUR311ho.jpg",
+        "averageScore": 77,
+        "episodes": 12
+      },
+      {
+        "title": "Just Because!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98820-EVHeNEUOWkh3.jpg",
+        "averageScore": 69,
+        "episodes": 12
+      },
+      {
+        "title": "Kaguya-sama: Love is War",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101921-VvdGQy1ZySYf.jpg",
+        "averageScore": 83,
+        "episodes": 12
+      },
+      {
+        "title": "Kaguya-sama: Love is War -Ultra Romantic-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx125367-vV8WqtLQpT2J.png",
+        "averageScore": 89,
+        "episodes": 13
+      },
+      {
+        "title": "Kaguya-sama: Love is War -Ultra Romantic- \"Yu Ishigami Wants to Chat\"",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b165557-q7A6HcZD0CHs.png",
+        "averageScore": 79,
+        "episodes": 1
+      },
+      {
+        "title": "Kaguya-sama: Love is War?",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx112641-zoGC8d6FaPXU.jpg",
+        "averageScore": 86,
+        "episodes": 12
+      },
+      {
+        "title": "Maid-Sama!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx7054-GW4D7VAZG19W.png",
+        "averageScore": 77,
+        "episodes": 26
+      },
+      {
+        "title": "Fena: Pirate Princess",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx122052-nb8cfAe7pniT.jpg",
+        "averageScore": 69,
+        "episodes": 12
+      },
+      {
+        "title": "A Couple of Cuckoos",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx132052-3gDTi19HyW6E.png",
+        "averageScore": 67,
+        "episodes": 24
+      },
+      {
+        "title": "Kamisama Kiss",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx14713-RyZ7bA7CdvGw.jpg",
+        "averageScore": 80,
+        "episodes": 13
+      },
+      {
+        "title": "Kamisama Hajimemashita OVA",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx18661-HkN94pt43WUQ.jpg",
+        "averageScore": 78,
+        "episodes": 2
+      },
+      {
+        "title": "Kamisama Kiss◎ OVA",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/21186-v6A5xZwvomDK.jpg",
+        "averageScore": 82,
+        "episodes": 4
+      },
+      {
+        "title": "Kamisama Hajimemashita: Kamisama, Shiawase ni Naru",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98033-eYXBKsmDhTUD.png",
+        "averageScore": 80,
+        "episodes": 1
+      },
+      {
+        "title": "Kamisama Kiss◎",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20801-2wtvmLpaM8hY.jpg",
+        "averageScore": 81,
+        "episodes": 12
+      },
+      {
+        "title": "His and Her Circumstances",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx145-PBhmfYZ0gHdq.png",
+        "averageScore": 75,
+        "episodes": 26
+      },
+      {
+        "title": "Shikimori's Not Just a Cutie",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127911-cQVL0dhldFwn.jpg",
+        "averageScore": 68,
+        "episodes": 12
+      },
+      {
+        "title": "Demon Slayer: Kimetsu no Yaiba",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101922-WBsBl0ClmgYL.jpg",
+        "averageScore": 83,
+        "episodes": 26
+      },
+      {
+        "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx112151-1qlQwPB1RrJe.png",
+        "averageScore": 84,
+        "episodes": 1
+      },
+      {
+        "title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx145139-rRimpHGWLhym.png",
+        "averageScore": 81,
+        "episodes": 11
+      },
+      {
+        "title": "Demon Slayer: Kimetsu no Yaiba Mugen Train Arc",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx129874-g6ZKXB94Hui1.jpg",
+        "averageScore": 82,
+        "episodes": 7
+      },
+      {
+        "title": "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142329-kET1PIXJv2eW.jpg",
+        "averageScore": 86,
+        "episodes": 11
+      },
+      {
+        "title": "Kimi dake ni Motetainda.",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx111290-GhO0VIUb2hlB.jpg",
+        "averageScore": 48,
+        "episodes": 1
+      },
+      {
+        "title": "Kimi ni Todoke: From Me to You",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6045-txJOukR5Qve4.jpg",
+        "averageScore": 79,
+        "episodes": 25
+      },
+      {
+        "title": "Kimi ni Todoke: From Me to You Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9656-vckh2wNj3FwY.jpg",
+        "averageScore": 79,
+        "episodes": 13
+      },
+      {
+        "title": "Kimi ni Todoke 2nd Season Specials",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10536-OWWiu3VOlJn9.jpg",
+        "averageScore": 70,
+        "episodes": 3
+      },
+      {
+        "title": "Your Name.",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21519-fPhvy69vnQqS.png",
+        "averageScore": 85,
+        "episodes": 1
+      },
+      {
+        "title": "I Want to Eat Your Pancreas",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99750-NHafozHS8zRp.jpg",
+        "averageScore": 84,
+        "episodes": 1
+      },
+      {
+        "title": "Ride Your Wave",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105018-XM7rFyryltjb.jpg",
+        "averageScore": 75,
+        "episodes": 1
+      },
+      {
+        "title": "Kino's Journey -the Beautiful World- the Animated Series",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx98448-OdfxrjAhkYvp.jpg",
+        "averageScore": 73,
+        "episodes": 12
+      },
+      {
+        "title": "Vermeil in Gold",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146210-ZnIithxFLLHn.jpg",
+        "averageScore": 67,
+        "episodes": 12
+      },
+      {
+        "title": "A Silent Voice",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20954-UMb6Kl7ZL8Ke.jpg",
+        "averageScore": 88,
+        "episodes": 1
+      },
+      {
+        "title": "After the Rain",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98385-GYmOoxtwWVhz.jpg",
+        "averageScore": 73,
+        "episodes": 12
+      },
+      {
+        "title": "Kokoro Connect",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11887-h8SRoEslkQYX.jpg",
+        "averageScore": 75,
+        "episodes": 13
+      },
+      {
+        "title": "Kokoro Connect ~ The OVAs",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16001-XLc5ZdWeM3fp.png",
+        "averageScore": 76,
+        "episodes": 4
+      },
+      {
+        "title": "Komi Can’t Communicate",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx133965-9TZBS4m4yvED.png",
+        "averageScore": 77,
+        "episodes": 12
+      },
+      {
+        "title": "Komi Can't Communicate Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142984-nv2MWVWZ1yYH.jpg",
+        "averageScore": 79,
+        "episodes": 12
+      },
+      {
+        "title": "Lovely Complex",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2034-to85QywohtUL.png",
+        "averageScore": 77,
+        "episodes": 24
+      },
+      {
+        "title": "Masamune-kun's Revenge",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21857-haPDVD7DKDpg.jpg",
+        "averageScore": 65,
+        "episodes": 12
+      },
+      {
+        "title": "Ao-chan Can't Study!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105989-Jooq6bqkeeiP.jpg",
+        "averageScore": 64,
+        "episodes": 12
+      },
+      {
+        "title": "Mob Psycho 100",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21507-BICFCVZY3xQb.jpg",
+        "averageScore": 84,
+        "episodes": 12
+      },
+      {
+        "title": "Bibliophile Princess",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx144533-DqgPeBmWZPYQ.jpg",
+        "averageScore": 66,
+        "episodes": 12
+      },
+      {
+        "title": "The Seven Deadly Sins",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20789-SsAI4pvvI9EU.jpg",
+        "averageScore": 73,
+        "episodes": 24
+      },
+      {
+        "title": "Naruto",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20-LxrhhIQyiE60.jpg",
+        "averageScore": 79,
+        "episodes": 220
+      },
+      {
+        "title": "Naruto the Movie: Ninja Clash in the Land of Snow",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx442-VJbmIVTgmne3.png",
+        "averageScore": 67,
+        "episodes": 1
+      },
+      {
+        "title": "Naruto the Movie: Legend of the Stone of Gelel",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx936-P1ogcIs07UR8.jpg",
+        "averageScore": 65,
+        "episodes": 1
+      },
+      {
+        "title": "Naruto the Movie: Guardians of the Crescent Moon Kingdom",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2144-9FITEzdGnlWC.jpg",
+        "averageScore": 65,
+        "episodes": 1
+      },
+      {
+        "title": "Naruto: Shippuden",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1735-tdIgU840YJHA.png",
+        "averageScore": 81,
+        "episodes": 500
+      },
+      {
+        "title": "Recovery of an MMO Junkie",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99726-tta6v7TKGYKa.jpg",
+        "averageScore": 73,
+        "episodes": 10
+      },
+      {
+        "title": "Recovery of an MMO Junkie OVA",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100684-dTFSHninTMEg.jpg",
+        "averageScore": 71,
+        "episodes": 1
+      },
+      {
+        "title": "Nisekoi",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx18897-G2Fx2ZACsXBU.jpg",
+        "averageScore": 73,
+        "episodes": 20
+      },
+      {
+        "title": "Nodame Cantabile",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx1698-VhVaiOLkcGCp.jpg",
+        "averageScore": 80,
+        "episodes": 23
+      },
+      {
+        "title": "One-Punch Man",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21087-2OkAdgfnQown.jpg",
+        "averageScore": 83,
+        "episodes": 12
+      },
+      {
+        "title": "Orange",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21647-n89DLaXbCovR.png",
+        "averageScore": 74,
+        "episodes": 13
+      },
+      {
+        "title": "My Love Story!!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20946-AC3RxlUqZB0M.png",
+        "averageScore": 77,
+        "episodes": 24
+      },
+      {
+        "title": "A Galaxy Next Door",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx148098-MI9Rm8JVhSh0.jpg",
+        "averageScore": 70,
+        "episodes": 12
+      },
+      {
+        "title": "Plastic Memories",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20872-j5PBzzVtrYDM.jpg",
+        "averageScore": 77,
+        "episodes": 13
+      },
+      {
+        "title": "ReLIFE",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21049-4AHSLeiDE9eg.png",
+        "averageScore": 78,
+        "episodes": 13
+      },
+      {
+        "title": "ReLIFE: Final Arc",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98635-U7XClVuynqfY.png",
+        "averageScore": 80,
+        "episodes": 4
+      },
+      {
+        "title": "Shagahai ReLIFE Kenkyuujo Support-ka",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b108939-t99SwYtxtBuR.jpg",
+        "averageScore": 69,
+        "episodes": 2
+      },
+      {
+        "title": "Romantic Killer",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx153930-kQUdZWRpcVwo.jpg",
+        "averageScore": 79,
+        "episodes": 12
+      },
+      {
+        "title": "The Disastrous Life of Saiki K.",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21804-AAjWfz9JY1EO.jpg",
+        "averageScore": 82,
+        "episodes": 120
+      },
+      {
+        "title": "Patema Inverted",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx12477-KtZm8BuvrPYo.jpg",
+        "averageScore": 76,
+        "episodes": 1
+      },
+      {
+        "title": "The Pet Girl of Sakurasou",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx13759-44TVZe8xNOJx.jpg",
+        "averageScore": 78,
+        "episodes": 24
+      },
+      {
+        "title": "Maquia: When the Promised Flower Blooms",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99457-yLAalBQ2Srkh.png",
+        "averageScore": 82,
+        "episodes": 1
+      },
+      {
+        "title": "Spirited Away",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx199-ilRRfrty7HrJ.jpg",
+        "averageScore": 86,
+        "episodes": 1
+      },
+      {
+        "title": "Your lie in April",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20665-zuhC5OO6XgZ7.png",
+        "averageScore": 84,
+        "episodes": 22
+      },
+      {
+        "title": "SPY x FAMILY",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140960-vN39AmOWrVB5.jpg",
+        "averageScore": 84,
+        "episodes": 12
+      },
+      {
+        "title": "SPY x FAMILY Cour 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142838-26JrqcFU1ljB.jpg",
+        "averageScore": 82,
+        "episodes": 13
+      },
+      {
+        "title": "Steins;Gate",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9253-7pdcVzQSkKxT.jpg",
+        "averageScore": 89,
+        "episodes": 24
+      },
+      {
+        "title": "The Moment You Fall in Love",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21757-zH78HtS4b0GU.png",
+        "averageScore": 68,
+        "episodes": 1
+      },
+      {
+        "title": "Say \"I love you\".",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx14289-vRTzC8u4XuvW.png",
+        "averageScore": 71,
+        "episodes": 13
+      },
+      {
+        "title": "Sukitte Ii na yo.: Dareka ga",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/16868.jpg",
+        "averageScore": 68,
+        "episodes": 1
+      },
+      {
+        "title": "Sword Art Online",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx11757-Q9P2zjCPICq5.jpg",
+        "averageScore": 69,
+        "episodes": 25
+      },
+      {
+        "title": "Taisho Otome Fairy Tale",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127412-dpHXV2X9tskV.jpg",
+        "averageScore": 76,
+        "episodes": 12
+      },
+      {
+        "title": "Tamako -love story-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20519-YdNUizVJJIWI.png",
+        "averageScore": 78,
+        "episodes": 1
+      },
+      {
+        "title": "Weathering With You",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx106286-5COcpd0J9VbL.png",
+        "averageScore": 81,
+        "episodes": 1
+      },
+      {
+        "title": "The Last: Naruto the Movie",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16870-Wg0XQKHcwV1r.jpg",
+        "averageScore": 75,
+        "episodes": 1
+      },
+      {
+        "title": "Tokyo Ghoul",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx20605-fmnHdfurM7m6.jpg",
+        "averageScore": 75,
+        "episodes": 12
+      },
+      {
+        "title": "My Little Monster",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx14227-VGxPG1xDZG7v.jpg",
+        "averageScore": 72,
+        "episodes": 13
+      },
+      {
+        "title": "TONIKAWA: Over The Moon For You",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx116267-CSAkFXN2Zsai.jpg",
+        "averageScore": 77,
+        "episodes": 12
+      },
+      {
+        "title": "TONIKAWA: Over The Moon For You Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141208-On0qHKxo6P5t.png",
+        "averageScore": 76,
+        "episodes": 12
+      },
+      {
+        "title": "TONIKAWA: Over The Moon For You ~SNS~",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127371-sQvD9sILl7Lc.jpg",
+        "averageScore": 79,
+        "episodes": 1
+      },
+      {
+        "title": "Toradora!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4224-3Bh0rm99N6Vl.jpg",
+        "averageScore": 78,
+        "episodes": 25
+      },
+      {
+        "title": "Tsukigakirei",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98202-H6RtsIMZPALF.png",
+        "averageScore": 78,
+        "episodes": 12
+      },
+      {
+        "title": "Tsuki ga Kirei Special",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100305-CRu6RZ5eINHP.jpg",
+        "averageScore": 70,
+        "episodes": 1
+      },
+      {
+        "title": "Tsuredure Children",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98291-LY6txxZTX8We.jpg",
+        "averageScore": 74,
+        "episodes": 12
+      },
+      {
+        "title": "Violet Evergarden: Eternity and the Auto Memory Doll",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx109190-e8mv1qdmpjLW.jpg",
+        "averageScore": 83,
+        "episodes": 1
+      },
+      {
+        "title": "Violet Evergarden: the Movie",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103047-odblDHHEdehK.jpg",
+        "averageScore": 87,
+        "episodes": 1
+      },
+      {
+        "title": "Violet Evergarden: Special",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101432-NQSedsCDQ6dP.png",
+        "averageScore": 82,
+        "episodes": 1
+      },
+      {
+        "title": "Wotakoi: Love is Hard for Otaku",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx99578-oO5KChtfhzln.png",
+        "averageScore": 78,
+        "episodes": 11
+      },
+      {
+        "title": "My Teen Romantic Comedy SNAFU",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx14813-BC8aanHK9fju.jpg",
+        "averageScore": 78,
+        "episodes": 13
+      },
+      {
+        "title": "My Teen Romantic Comedy SNAFU Climax!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108489-UqIzSjJ4eOMD.png",
+        "averageScore": 82,
+        "episodes": 12
+      },
+      {
+        "title": "My Teen Romantic Comedy SNAFU TOO!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20698-YZIYor2zW3Ta.png",
+        "averageScore": 81,
+        "episodes": 13
+      },
+      {
+        "title": "SING \"YESTERDAY\" FOR ME",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx109020-sRBusiVXbsLH.jpg",
+        "averageScore": 67,
+        "episodes": 12
+      },
+      {
+        "title": "Yesterday wo Utatte Extras",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx117496-CP35rVXw69hq.png",
+        "averageScore": 65,
+        "episodes": 6
+      },
+      {
+        "title": "Call of the Night",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141391-JQbTOGJOGpZC.jpg",
+        "averageScore": 79,
+        "episodes": 13
+      },
+      {
+        "title": "I've Always Liked You",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21296-WtdIXdg64GCK.jpg",
+        "averageScore": 69,
+        "episodes": 1
+      },
+      {
+        "title": "Horimiya: The Missing Pieces",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163132-C220CO5UrTxY.jpg",
+        "averageScore": 82,
+        "episodes": 13
+      },
+      {
+        "title": "Rurouni Kenshin (2023)",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142877-wNH2KPu6LYF4.jpg",
+        "averageScore": 75,
+        "episodes": 24
+      },
+      {
+        "title": "My Happy Marriage",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx147103-Om2LOXlhHNAe.png",
+        "averageScore": 77,
+        "episodes": 12
+      },
+      {
+        "title": "Frieren: Beyond Journey’s End",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154587-gHSraOSa0nBG.jpg",
+        "averageScore": 91,
+        "episodes": 28
+      },
+      {
+        "title": "A Sign of Affection",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166794-veSLL0zrrBhp.jpg",
+        "averageScore": 82,
+        "episodes": 12
+      },
+      {
+        "title": "One-Punch Man Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97668-nC8gQrXVxt7k.png",
+        "averageScore": 74,
+        "episodes": 12
+      },
+      {
+        "title": "Tokyo Ghoul:re",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100240-vJNaKd5HwPJ2.jpg",
+        "averageScore": 61,
+        "episodes": 12
+      },
+      {
+        "title": "Tokyo Ghoul:re 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx102351-yD3Ty9YZFMsf.jpg",
+        "averageScore": 61,
+        "episodes": 12
+      },
+      {
+        "title": "The Seven Deadly Sins: Revival of the Commandments",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99539-caPX28RSsgRP.jpg",
+        "averageScore": 73,
+        "episodes": 24
+      },
+      {
+        "title": "The Seven Deadly Sins: Imperial Wrath of the Gods",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108928-DuyUzi0JyPIr.jpg",
+        "averageScore": 62,
+        "episodes": 24
+      },
+      {
+        "title": "The Seven Deadly Sins: Dragon's Judgement",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx116752-yIJuKp88adqt.jpg",
+        "averageScore": 65,
+        "episodes": 24
+      },
+      {
+        "title": "The Seven Deadly Sins the Movie: Prisoners of the Sky",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx99540-QnY48c1oifvY.jpg",
+        "averageScore": 69,
+        "episodes": 1
+      },
+      {
+        "title": "The Seven Deadly Sins: Cursed by Light",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128740-xpjfCO2kpFdz.png",
+        "averageScore": 70,
+        "episodes": 1
+      },
+      {
+        "title": "When Marnie Was There",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20555-QGbWQC3Kfpok.jpg",
+        "averageScore": 78,
+        "episodes": 1
+      },
+      {
+        "title": "The Wind Rises",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16662-6rqh55mNFY3n.jpg",
+        "averageScore": 80,
+        "episodes": 1
+      },
+      {
+        "title": "Kiki's Delivery Service",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx512-cHbcJH0bT0iY.png",
+        "averageScore": 81,
+        "episodes": 1
+      },
+      {
+        "title": "Whisper of the Heart",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx585-5uq7j2xNNVmN.jpg",
+        "averageScore": 81,
+        "episodes": 1
+      },
+      {
+        "title": "TONIKAWA: Over The Moon For You ~Uniform~",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141212-653p6mvmOCgz.jpg",
+        "averageScore": 77,
+        "episodes": 1
+      },
+      {
+        "title": "5 Centimeters per Second",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1689-k9lxlCgPU4Zb.jpg",
+        "averageScore": 71,
+        "episodes": 3
+      },
+      {
+        "title": "The Garden of Words",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16782-1AekGIzlPy8a.jpg",
+        "averageScore": 75,
+        "episodes": 1
+      },
+      {
+        "title": "Fruits Basket -prelude-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx136192-hxeNRzBHizBZ.jpg",
+        "averageScore": 83,
+        "episodes": 1
+      },
+      {
+        "title": "Into the Forest of Fireflies' Light",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10408-PlKJ6DAyvMk2.png",
+        "averageScore": 79,
+        "episodes": 1
+      },
+      {
+        "title": "A Whisker Away",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114963-QWMbi5ttovSK.png",
+        "averageScore": 72,
+        "episodes": 1
+      },
+      {
+        "title": "BLUE LOCK",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx137822-1JgEIoQ081G8.png",
+        "averageScore": 81,
+        "episodes": 24
+      },
+      {
+        "title": "JUJUTSU KAISEN",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113415-bbBWj4pEFseh.jpg",
+        "averageScore": 85,
+        "episodes": 24
+      },
+      {
+        "title": "JUJUTSU KAISEN Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx145064-5U30gu2LSOv8.jpg",
+        "averageScore": 87,
+        "episodes": 23
+      },
+      {
+        "title": "The Promised Neverland",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101759-G9I2ymYrFS8o.jpg",
+        "averageScore": 83,
+        "episodes": 12
+      },
+      {
+        "title": "The Promised Neverland Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108725-ZKivuyr4Jtc9.jpg",
+        "averageScore": 51,
+        "episodes": 11
+      },
+      {
+        "title": "Vinland Saga",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101348-msJS8z91mG0P.jpg",
+        "averageScore": 87,
+        "episodes": 24
+      },
+      {
+        "title": "Tokyo Revengers",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx120120-mBmQUtMloszF.jpg",
+        "averageScore": 77,
+        "episodes": 24
+      },
+      {
+        "title": "Tokyo Revengers Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142853-nxEZDE9oDRLG.png",
+        "averageScore": 76,
+        "episodes": 13
+      },
+      {
+        "title": "Tokyo Revengers Season 2 Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163329-lGJRnYV9dcjc.jpg",
+        "averageScore": 78,
+        "episodes": 13
+      },
+      {
+        "title": "Steins;Gate 0",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21127-7ARWZkDXKiiD.jpg",
+        "averageScore": 84,
+        "episodes": 23
+      },
+      {
+        "title": "A Condition Called Love",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx165855-uJ0Hq5EFUlz8.jpg",
+        "averageScore": 66,
+        "episodes": 12
+      },
+      {
+        "title": "Solo Leveling",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151807-yxY3olrjZH4k.png",
+        "averageScore": 82,
+        "episodes": 12
+      },
+      {
+        "title": "Demon Slayer: Kimetsu no Yaiba Hashira Training Arc",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166240-PBV7zukIHW7V.png",
+        "averageScore": 81,
+        "episodes": 8
+      },
+      {
+        "title": "My Hero Academia Season 7",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163139-JchZhUFlNTWU.jpg",
+        "averageScore": 81,
+        "episodes": 21
+      },
+      {
+        "title": "Attack on Titan",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16498-73IhOXpJZiMF.jpg",
+        "averageScore": 84,
+        "episodes": 25
+      },
+      {
+        "title": "Attack on Titan Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20958-HuFJyr54Mmir.jpg",
+        "averageScore": 84,
+        "episodes": 12
+      },
+      {
+        "title": "Attack on Titan Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99147-AiPDD8cwlCfi.jpg",
+        "averageScore": 85,
+        "episodes": 12
+      },
+      {
+        "title": "Attack on Titan: Lost Girls",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx99634-9u4hdvWwmC2s.png",
+        "averageScore": 76,
+        "episodes": 3
+      },
+      {
+        "title": "Attack on Titan Season 3 Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104578-LaZYFkmhinfB.jpg",
+        "averageScore": 89,
+        "episodes": 10
+      },
+      {
+        "title": "Attack on Titan Final Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx110277-8KkJy3Cvj9aO.jpg",
+        "averageScore": 86,
+        "episodes": 16
+      },
+      {
+        "title": "Attack On Titan: The Final Season Specials",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx139754-tws6cBmwEWPF.jpg",
+        "averageScore": 77,
+        "episodes": 2
+      },
+      {
+        "title": "Attack on Titan Final Season Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131681-wY63AzNuMRoO.jpg",
+        "averageScore": 86,
+        "episodes": 12
+      },
+      {
+        "title": "Attack on Titan Final Season THE FINAL CHAPTERS Special 1",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146984-GXrLeT6vQqyP.jpg",
+        "averageScore": 87,
+        "episodes": 1
+      },
+      {
+        "title": "Attack on Titan Final Season THE FINAL CHAPTERS Special 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162314-ocaEhYmvznFO.jpg",
+        "averageScore": 87,
+        "episodes": 1
+      },
+      {
+        "title": "Boku no Hero Academia THE MOVIE: Heroes:Rising - Epilogue Plus: Yume wo Genjitsu ni",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx126661-61SI7n5njMNM.jpg",
+        "averageScore": 73,
+        "episodes": 1
+      },
+      {
+        "title": "Boku no Hero Academia THE MOVIE: World Heroes' Mission - Tabidachi",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142411-Hb2c6mMLs6Jb.png",
+        "averageScore": 73,
+        "episodes": 1
+      },
+      {
+        "title": "WIND BREAKER",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163270-oxwgbe43Cpog.jpg",
+        "averageScore": 78,
+        "episodes": 13
+      },
+      {
+        "title": "Kaguya-sama: Love is War -The First Kiss That Never Ends-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151384-gv0q8wOE6D58.jpg",
+        "averageScore": 87,
+        "episodes": 4
+      },
+      {
+        "title": "Rascal Does Not Dream of Bunny Girl Senpai",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101291-L71WpAkZPtgm.jpg",
+        "averageScore": 80,
+        "episodes": 13
+      },
+      {
+        "title": "Rascal Does Not Dream of a Dreaming Girl",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104157-rk99XI56PaIC.jpg",
+        "averageScore": 84,
+        "episodes": 1
+      },
+      {
+        "title": "The Dangers in My Heart",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx153152-JPNLmFmlu2d8.jpg",
+        "averageScore": 81,
+        "episodes": 12
+      },
+      {
+        "title": "The Dangers in My Heart Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166216-JVyN7PHel5K9.jpg",
+        "averageScore": 87,
+        "episodes": 13
+      },
+      {
+        "title": "Skip and Loafer",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141911-LqaNFCgfcj3M.jpg",
+        "averageScore": 81,
+        "episodes": 12
+      },
+      {
+        "title": "My Love Story with Yamada-kun at Lv999",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154965-vZbBRjtmLp7S.jpg",
+        "averageScore": 78,
+        "episodes": 13
+      },
+      {
+        "title": "The Quintessential Quintuplets Movie",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131520-kCOY9XBAbMcX.png",
+        "averageScore": 78,
+        "episodes": 1
+      },
+      {
+        "title": "The Tunnel to Summer, the Exit of Goodbyes",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142769-kNyyqpwC9gGV.jpg",
+        "averageScore": 78,
+        "episodes": 1
+      },
+      {
+        "title": "The Angel Next Door Spoils Me Rotten",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143338-zhyDVYgEzsm5.png",
+        "averageScore": 77,
+        "episodes": 12
+      },
+      {
+        "title": "Bottom-Tier Character Tomozaki 2nd Stage",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143866-75E3G6nYEUVr.jpg",
+        "averageScore": 70,
+        "episodes": 13
+      },
+      {
+        "title": "Black Clover",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97940-O2LWFOG8bK1u.jpg",
+        "averageScore": 78,
+        "episodes": 170
+      },
+      {
+        "title": "Sacrificial Princess and the King of Beasts",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128715-T4Tne2TcqfVx.jpg",
+        "averageScore": 77,
+        "episodes": 24
+      },
+      {
+        "title": "Why Raeliana Ended Up at the Duke’s Mansion",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151847-OnTYbvb4y4mp.jpg",
+        "averageScore": 74,
+        "episodes": 12
+      },
+      {
+        "title": "Josee, the Tiger and the Fish",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113596-LKA0bYJGjLnB.jpg",
+        "averageScore": 82,
+        "episodes": 1
+      },
+      {
+        "title": "Kaiju No.8",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx153288-tD2OmKy5CJab.jpg",
+        "averageScore": 83,
+        "episodes": 12
+      },
+      {
+        "title": "BARTENDER Glass of God",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b155890-vhEzaBeY5ysw.jpg",
+        "averageScore": 73,
+        "episodes": 12
+      },
+      {
+        "title": "An Archdemon's Dilemma: How to Love Your Elf Bride",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx156023-cY4NC8gCcAg7.jpg",
+        "averageScore": 73,
+        "episodes": 12
+      },
+      {
+        "title": "Unnamed Memory",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx158709-WFA0RHloDvPl.jpg",
+        "averageScore": 66,
+        "episodes": 12
+      },
+      {
+        "title": "Dororo",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx101347-2J2p8qJpxpfZ.jpg",
+        "averageScore": 81,
+        "episodes": 24
+      },
+      {
+        "title": "Kimi ni Todoke: From Me to You Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx168872-ls6UwxFAw212.jpg",
+        "averageScore": 85,
+        "episodes": 5
+      },
+      {
+        "title": "Vinland Saga Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx136430-YrQ8nBDW7gT0.jpg",
+        "averageScore": 88,
+        "episodes": 24
+      },
+      {
+        "title": "Mob Psycho 100 II",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101338-7qOfIaEKSjgl.jpg",
+        "averageScore": 88,
+        "episodes": 13
+      },
+      {
+        "title": "Mob Psycho 100 III",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140439-qpBzXkvVqSx3.jpg",
+        "averageScore": 87,
+        "episodes": 12
+      },
+      {
+        "title": "SPY x FAMILY Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b158927-lfO85WVguYgc.png",
+        "averageScore": 81,
+        "episodes": 12
+      },
+      {
+        "title": "The Apothecary Diaries",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161645-bX5S28Cc1Nnk.jpg",
+        "averageScore": 88,
+        "episodes": 24
+      },
+      {
+        "title": "Violet Evergarden",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21827-10F6m50H4GJK.png",
+        "averageScore": 85,
+        "episodes": 13
+      },
+      {
+        "title": "You are Ms. Servant",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172190-i1IqizIUcKkN.jpg",
+        "averageScore": 69,
+        "episodes": 12
+      },
+      {
+        "title": "The Do-Over Damsel Conquers the Dragon Emperor",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx164299-j4yHiK4j1ON7.jpg",
+        "averageScore": 69,
+        "episodes": 12
+      },
+      {
+        "title": "Alya Sometimes Hides Her Feelings in Russian",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162804-TBeptcAfvqTd.jpg",
+        "averageScore": 76,
+        "episodes": 12
+      },
+      {
+        "title": "Mushoku Tensei: Jobless Reincarnation",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108465-B9S9zC68eS5j.jpg",
+        "averageScore": 82,
+        "episodes": 11
+      },
+      {
+        "title": "Mushoku Tensei: Jobless Reincarnation Cour 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127720-ADJgIrUVMdU9.jpg",
+        "averageScore": 85,
+        "episodes": 12
+      },
+      {
+        "title": "Mushoku Tensei: Jobless Reincarnation Season 2 Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166873-xO0BRPkmwFll.png",
+        "averageScore": 84,
+        "episodes": 12
+      },
+      {
+        "title": "I’ll Become a Villainess Who Goes Down in History",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx168139-nGLXIdSksKCI.jpg",
+        "averageScore": 72,
+        "episodes": 13
+      },
+      {
+        "title": "Sword Art Online II",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx20594-FhRgZ1H9Istt.jpg",
+        "averageScore": 65,
+        "episodes": 24
+      },
+      {
+        "title": "Mushoku Tensei: Jobless Reincarnation Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146065-IjirxRK26O03.png",
+        "averageScore": 82,
+        "episodes": 13
+      },
+      {
+        "title": "Kubo Won't Let Me Be Invisible",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx148969-3vPgXpMpQvba.jpg",
+        "averageScore": 75,
+        "episodes": 12
+      },
+      {
+        "title": "The Ice Guy and His Cool Female Colleague",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151252-ywrMmJG1Loc3.jpg",
+        "averageScore": 72,
+        "episodes": 12
+      },
+      {
+        "title": "Chainsaw Man",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127230-NuHM32a3VJsb.png",
+        "averageScore": 84,
+        "episodes": 12
+      },
+      {
+        "title": "Sword Art Online: Alicization",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100182-KctPmCJ2smHQ.jpg",
+        "averageScore": 75,
+        "episodes": 24
+      },
+      {
+        "title": "DAN DA DAN",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171018-2ldCj6QywuOa.jpg",
+        "averageScore": 85,
+        "episodes": 12
+      },
+      {
+        "title": "Sword Art Online: Alicization - War of Underworld",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108759-jcXbDf9BJTcb.jpg",
+        "averageScore": 75,
+        "episodes": 12
+      },
+      {
+        "title": "Rent-a-Girlfriend",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113813-1hraQMAxU4VG.jpg",
+        "averageScore": 66,
+        "episodes": 12
+      },
+      {
+        "title": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162694-7dx7dawGFylP.png",
+        "averageScore": 77,
+        "episodes": 12
+      },
+      {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5114-Dilr312jctdJ.jpg",
+        "averageScore": 90,
+        "episodes": 64
+      },
+      {
+        "title": "LOOK BACK",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx174788-tuw7KozIDS8a.jpg",
+        "averageScore": 87,
+        "episodes": 1
+      },
+      {
+        "title": "Suzume",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142770-dDaDIRnsv5jN.jpg",
+        "averageScore": 82,
+        "episodes": 1
+      },
+      {
+        "title": "My Neighbor Totoro",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx523-hTtHgMXI9hLw.jpg",
+        "averageScore": 80,
+        "episodes": 1
+      },
+      {
+        "title": "Rent-a-Girlfriend Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124410-iScdHzzEqdmk.png",
+        "averageScore": 66,
+        "episodes": 12
+      },
+      {
+        "title": "Rent-a-Girlfriend Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154745-xBr65cJsL3uW.jpg",
+        "averageScore": 69,
+        "episodes": 12
+      },
+      {
+        "title": "Higehiro: After Being Rejected, I Shaved and Took in a High School Runaway",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114232-2rm50ZD1cQgP.jpg",
+        "averageScore": 70,
+        "episodes": 13
+      },
+      {
+        "title": "Aharen-san wa Hakarenai",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx137281-kSbcUUCqUf8m.jpg",
+        "averageScore": 71,
+        "episodes": 12
+      },
+      {
+        "title": "BLUE LOCK Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163146-f2vYhmiGn6dM.png",
+        "averageScore": 76,
+        "episodes": 14
+      },
+      {
+        "title": "Sugar Apple Fairy Tale",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx139821-RC4PW7KPY1DU.jpg",
+        "averageScore": 73,
+        "episodes": 12
+      },
+      {
+        "title": "Insomniacs After School",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143653-h6NEdWxKIRza.png",
+        "averageScore": 79,
+        "episodes": 13
+      },
+      {
+        "title": "More than a Married Couple, but Not Lovers.",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141949-tViCIRHPZAyG.jpg",
+        "averageScore": 75,
+        "episodes": 12
+      },
+      {
+        "title": "Mushoku Tensei: Jobless Reincarnation Cour 2 - Eris the Goblin Slayer",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141534-Tmnlz4mvYhaU.jpg",
+        "averageScore": 78,
+        "episodes": 1
+      },
+      {
+        "title": "Zom 100: Bucket List of the Dead",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx159831-cJUNqCqzuApc.png",
+        "averageScore": 77,
+        "episodes": 12
+      },
+      {
+        "title": "Sword Art Online: Alicization - War of Underworld Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114308-8UBiS7U9buzu.jpg",
+        "averageScore": 74,
+        "episodes": 11
+      },
+      {
+        "title": "Nisekoi:",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20876-CCVVLTSsnKC8.jpg",
+        "averageScore": 71,
+        "episodes": 12
+      },
+      {
+        "title": "Nisekoi: OVA",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx119947-yU16iRo7CPAM.png",
+        "averageScore": 67,
+        "episodes": 2
+      },
+      {
+        "title": "Nisekoi OVA",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20728-gBiGaxCy0HF2.png",
+        "averageScore": 71,
+        "episodes": 3
+      },
+      {
+        "title": "Dr. STONE: STONE WARS",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113936-41Lz6Vtmfh1A.jpg",
+        "averageScore": 81,
+        "episodes": 11
+      },
+      {
+        "title": "Dr. STONE New World",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131518-RU7RoUmGb2sP.jpg",
+        "averageScore": 81,
+        "episodes": 11
+      },
+      {
+        "title": "Dr. STONE Special Episode – RYUSUI",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142876-izO35hPP2DZ9.jpg",
+        "averageScore": 81,
+        "episodes": 1
+      },
+      {
+        "title": "Dr. STONE New World Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162670-07XrFq2hreTx.jpg",
+        "averageScore": 83,
+        "episodes": 11
+      },
+      {
+        "title": "Nisekoimonogatari",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx106495-gEnPvRaS5HoU.jpg",
+        "averageScore": 64,
+        "episodes": 1
+      },
+      {
+        "title": "Shelter",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx97731-gYxm0WorfNPM.png",
+        "averageScore": 80,
+        "episodes": 1
+      }
+    ]
+  },
+  {
+    "name": "Dropped",
+    "entries": [
+      {
+        "title": "BEASTARS",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx107660-nANW2Fco3aDK.png",
+        "averageScore": 77,
+        "episodes": 12
+      }
+    ]
+  },
+  {
+    "name": "Rewatching",
+    "entries": [
+      {
+        "title": "Death Note",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1535-4r88a1tsBEIz.jpg",
+        "averageScore": 84,
+        "episodes": 37
+      },
+      {
+        "title": "Dr. STONE",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105333-02NGkx1vey2C.jpg",
+        "averageScore": 81,
+        "episodes": 24
+      }
+    ]
+  },
+  {
+    "name": "Watching",
+    "entries": [
+      {
+        "title": "Hunter x Hunter (2011)",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11061-NpIIobuQNbJW.png",
+        "averageScore": 89,
+        "episodes": 148
+      },
+      {
+        "title": "Honey Lemon Soda",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx175443-yeamxYxCwLSe.jpg",
+        "averageScore": 67,
+        "episodes": 12
+      },
+      {
+        "title": "Tying the Knot with an Amagami Sister",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx164172-GY2aqItIuqtR.jpg",
+        "averageScore": 68,
+        "episodes": 24
+      },
+      {
+        "title": "Blue Box",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170942-B77wUSM1jQTu.jpg",
+        "averageScore": 81,
+        "episodes": 25
+      },
+      {
+        "title": "Orb: On the Movements of the Earth",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151514-BcU5RmSWhvv0.jpg",
+        "averageScore": 82,
+        "episodes": 25
+      },
+      {
+        "title": "Unnamed Memory Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178550-1mjYHtOwiqkC.jpg",
+        "averageScore": 68,
+        "episodes": 12
+      },
+      {
+        "title": "My Happy Marriage Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx169441-wIQe1xfCc1XS.jpg",
+        "averageScore": 76,
+        "episodes": 13
+      },
+      {
+        "title": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172258-CFvhqor0blLV.jpg",
+        "averageScore": 79,
+        "episodes": 12
+      },
+      {
+        "title": "The Apothecary Diaries Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176301-AclxpmzlKoBM.jpg",
+        "averageScore": 85,
+        "episodes": 24
+      },
+      {
+        "title": "Solo Leveling Season 2 -Arise from the Shadow-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176496-xCNtU4llsUpu.png",
+        "averageScore": 87,
+        "episodes": 13
+      },
+      {
+        "title": "Toilet-bound Hanako-kun Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170892-VFCGRI41xFUF.jpg",
+        "averageScore": 78,
+        "episodes": 12
+      },
+      {
+        "title": "I Want to Escape from Princess Lessons",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170650-iVQC67atMVj3.png",
+        "averageScore": 50,
+        "episodes": 12
+      },
+      {
+        "title": "I'm Getting Married to a Girl I Hate in My Class",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178462-YW6BgSGGP4az.jpg",
+        "averageScore": 68,
+        "episodes": 12
+      },
+      {
+        "title": "ZENSHU",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176273-whKlFCswinEm.jpg",
+        "averageScore": 68,
+        "episodes": 12
+      },
+      {
+        "title": "SAKAMOTO DAYS",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177709-jBQ965JZG0l8.png",
+        "averageScore": 76,
+        "episodes": 11
+      },
+      {
+        "title": "Welcome to Japan, Ms. Elf!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172439-sTda7baXB0Fh.jpg",
+        "averageScore": 69,
+        "episodes": 12
+      },
+      {
+        "title": "Flower and Asura",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178022-gB3zAfazGBJ6.jpg",
+        "averageScore": 71,
+        "episodes": 12
+      },
+      {
+        "title": "Medaka Kuroiwa is Impervious to My Charms",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177552-JPx2rIXeprne.jpg",
+        "averageScore": 61,
+        "episodes": 12
+      },
+      {
+        "title": "Fire Force",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105310-x4o2xMlfxIwb.jpg",
+        "averageScore": 76,
+        "episodes": 24
+      },
+      {
+        "title": "Re:ZERO -Starting Life in Another World-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21355-IHaS50pvLYd0.jpg",
+        "averageScore": 81,
+        "episodes": 25
+      },
+      {
+        "title": "Dr. STONE SCIENCE FUTURE",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172019-y0dLlAdingR2.jpg",
+        "averageScore": 81,
+        "episodes": 12
+      },
+      {
+        "title": "Medalist",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx165171-nTOHsbh3pThN.jpg",
+        "averageScore": 79,
+        "episodes": 13
+      },
+      {
+        "title": "I Have a Crush at Work",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx179696-1MAqXYVXT7IT.jpg",
+        "averageScore": 72,
+        "episodes": 12
+      },
+      {
+        "title": "I May Be a Guild Receptionist, but I’ll Solo Any Boss to Clock Out on Time",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx167143-SoFo5kOvlkbO.jpg",
+        "averageScore": 67,
+        "episodes": 12
+      },
+      {
+        "title": "Rurouni Kenshin -Kyoto Disturbance-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b171637-h17RbEFtR0rQ.png",
+        "averageScore": 78,
+        "episodes": 23
+      }
+    ]
+  },
+  {
+    "name": "Paused",
+    "entries": [
+      {
+        "title": "Sugar Apple Fairy Tale Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163079-DaSvbq0mdtVf.png",
+        "averageScore": 76,
+        "episodes": 12
+      },
+      {
+        "title": "Tokyo Ghoul √A",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20850-HO9hwgvavYtw.jpg",
+        "averageScore": 66,
+        "episodes": 12
+      },
+      {
+        "title": "Ocean Waves",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx743-xfazT4FawOmX.png",
+        "averageScore": 63,
+        "episodes": 1
+      },
+      {
+        "title": "Rurouni Kenshin",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx45-DEFgZRCxiGmF.png",
+        "averageScore": 79,
+        "episodes": 94
+      },
+      {
+        "title": "Jellyfish Can’t Swim in the Night",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163078-kIhCmQARcoOD.jpg",
+        "averageScore": 77,
+        "episodes": 12
+      },
+      {
+        "title": "Mission: Yozakura Family",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx158898-O3egiBNkxLQO.png",
+        "averageScore": 73,
+        "episodes": 27
+      },
+      {
+        "title": "ATRI -My Dear Moments-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154963-Ju6Ey3P5YHs2.jpg",
+        "averageScore": 70,
+        "episodes": 13
+      },
+      {
+        "title": "Saekano: How to Raise a Boring Girlfriend",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx20657-pMZBj6K6mLhi.jpg",
+        "averageScore": 73,
+        "episodes": 13
+      },
+      {
+        "title": "BOCCHI THE ROCK!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx130003-OBj8AZKPvnV9.png",
+        "averageScore": 87,
+        "episodes": 12
+      }
+    ]
+  },
+  {
+    "name": "Watched using Miru",
+    "entries": [
+      {
+        "title": "Honey Lemon Soda",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx175443-yeamxYxCwLSe.jpg",
+        "averageScore": 67,
+        "episodes": 12
+      },
+      {
+        "title": "Tying the Knot with an Amagami Sister",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx164172-GY2aqItIuqtR.jpg",
+        "averageScore": 68,
+        "episodes": 24
+      },
+      {
+        "title": "Blue Box",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170942-B77wUSM1jQTu.jpg",
+        "averageScore": 81,
+        "episodes": 25
+      },
+      {
+        "title": "Orb: On the Movements of the Earth",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151514-BcU5RmSWhvv0.jpg",
+        "averageScore": 82,
+        "episodes": 25
+      },
+      {
+        "title": "Unnamed Memory Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178550-1mjYHtOwiqkC.jpg",
+        "averageScore": 68,
+        "episodes": 12
+      },
+      {
+        "title": "My Happy Marriage Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx169441-wIQe1xfCc1XS.jpg",
+        "averageScore": 76,
+        "episodes": 13
+      },
+      {
+        "title": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172258-CFvhqor0blLV.jpg",
+        "averageScore": 79,
+        "episodes": 12
+      },
+      {
+        "title": "The Apothecary Diaries Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176301-AclxpmzlKoBM.jpg",
+        "averageScore": 85,
+        "episodes": 24
+      },
+      {
+        "title": "Solo Leveling Season 2 -Arise from the Shadow-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176496-xCNtU4llsUpu.png",
+        "averageScore": 87,
+        "episodes": 13
+      },
+      {
+        "title": "Toilet-bound Hanako-kun Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170892-VFCGRI41xFUF.jpg",
+        "averageScore": 78,
+        "episodes": 12
+      },
+      {
+        "title": "I Want to Escape from Princess Lessons",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170650-iVQC67atMVj3.png",
+        "averageScore": 50,
+        "episodes": 12
+      },
+      {
+        "title": "I'm Getting Married to a Girl I Hate in My Class",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178462-YW6BgSGGP4az.jpg",
+        "averageScore": 68,
+        "episodes": 12
+      },
+      {
+        "title": "ZENSHU",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176273-whKlFCswinEm.jpg",
+        "averageScore": 68,
+        "episodes": 12
+      },
+      {
+        "title": "SAKAMOTO DAYS",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177709-jBQ965JZG0l8.png",
+        "averageScore": 76,
+        "episodes": 11
+      },
+      {
+        "title": "Welcome to Japan, Ms. Elf!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172439-sTda7baXB0Fh.jpg",
+        "averageScore": 69,
+        "episodes": 12
+      },
+      {
+        "title": "Flower and Asura",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178022-gB3zAfazGBJ6.jpg",
+        "averageScore": 71,
+        "episodes": 12
+      },
+      {
+        "title": "Medaka Kuroiwa is Impervious to My Charms",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177552-JPx2rIXeprne.jpg",
+        "averageScore": 61,
+        "episodes": 12
+      },
+      {
+        "title": "Dr. STONE SCIENCE FUTURE",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172019-y0dLlAdingR2.jpg",
+        "averageScore": 81,
+        "episodes": 12
+      },
+      {
+        "title": "Medalist",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx165171-nTOHsbh3pThN.jpg",
+        "averageScore": 79,
+        "episodes": 13
+      },
+      {
+        "title": "I Have a Crush at Work",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx179696-1MAqXYVXT7IT.jpg",
+        "averageScore": 72,
+        "episodes": 12
+      },
+      {
+        "title": "I May Be a Guild Receptionist, but I’ll Solo Any Boss to Clock Out on Time",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx167143-SoFo5kOvlkbO.jpg",
+        "averageScore": 67,
+        "episodes": 12
+      },
+      {
+        "title": "Rurouni Kenshin -Kyoto Disturbance-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b171637-h17RbEFtR0rQ.png",
+        "averageScore": 78,
+        "episodes": 23
+      }
+    ]
+  }
+]

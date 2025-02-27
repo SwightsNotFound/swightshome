@@ -45,6 +45,7 @@
             align-items: center;
             padding: 10px 0;
             border-bottom: 1px solid #eee;
+            position: relative;
         }
 
         .anime-item img {
@@ -65,6 +66,16 @@
         .anime-info p {
             margin: 5px 0;
             color: #777;
+        }
+
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            background-color: green;
+            border-radius: 50%;
+            position: absolute;
+            top: 10px;
+            left: 60px;
         }
 
         html {
@@ -145,6 +156,12 @@
                     img.alt = anime.title;
                     li.appendChild(img);
 
+                    if (anime.status === "RELEASING") {
+                        const statusDot = document.createElement('div');
+                        statusDot.classList.add('status-dot');
+                        li.appendChild(statusDot);
+                    }
+
                     const infoDiv = document.createElement('div');
                     infoDiv.classList.add('anime-info');
 
@@ -153,11 +170,11 @@
                     infoDiv.appendChild(title);
 
                     const score = document.createElement('p');
-                    score.textContent = `Score: ${anime.averageScore}`;
+                    score.textContent = `Score: ${anime.personalScore || 'N/A'}`;
                     infoDiv.appendChild(score);
 
                     const episodes = document.createElement('p');
-                    episodes.textContent = `Episodes: ${anime.episodes}`;
+                    episodes.textContent = `Episodes: ${anime.progress}/${anime.episodes}`;
                     infoDiv.appendChild(episodes);
 
                     li.appendChild(infoDiv);

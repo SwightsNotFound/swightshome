@@ -4,26 +4,29 @@ const path = require('path');
 
 async function fetchUserAnimeList() {
     const query = `
-    query ($userName: String) {
-        MediaListCollection(userName: $userName, type: ANIME) {
-            lists {
-                name
-                entries {
-                    media {
-                        title {
-                            english
-                            romaji
+        query ($userName: String) {
+            MediaListCollection(userName: $userName, type: ANIME) {
+                lists {
+                    name
+                    entries {
+                        media {
+                            title {
+                                english
+                                romaji
+                            }
+                            coverImage {
+                                medium
+                            }
+                            averageScore
+                            episodes
+                            status
                         }
-                        coverImage {
-                            medium
-                        }
-                        averageScore
-                        episodes
+                        score
+                        progress
                     }
                 }
             }
         }
-    }
     `;
 
     const variables = {
@@ -45,7 +48,10 @@ async function fetchUserAnimeList() {
                 title: entry.media.title.english || entry.media.title.romaji,
                 coverImage: entry.media.coverImage.medium,
                 averageScore: entry.media.averageScore,
-                episodes: entry.media.episodes
+                episodes: entry.media.episodes,
+                status: entry.media.status,
+                personalScore: entry.score,
+                progress: entry.progress
             }))
         }));
 

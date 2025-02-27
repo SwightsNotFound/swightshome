@@ -33,7 +33,9 @@
             align-items: center;
             padding: 15px 0;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            position: relative; /* This ensures the absolute positioning of the return button works correctly */
+            position: sticky; /* This ensures the top bar stays at the top */
+            top: 0;
+            z-index: 1000;
         }
 
         .topbar.dark-mode {
@@ -76,10 +78,9 @@
             left: 10px;
         }
 
+        /* Remove blue background on hover for dark mode toggle button */
         .dark-mode-toggle:hover {
-            background-color: #3498db;
             color: white;
-            border-radius: 5px;
         }
 
         /* Main content area */
@@ -261,17 +262,22 @@
     <div class="content" id="content">
         <div class="section">
             <h1>How to join The Origins Minecraft server</h1>
-            <p>(Do note that you need to have been added to the whitelist to join.)</p>
+            <p>Do note that you need to have been added to the whitelist to join.</p>
+            <p>I also support cracked players, so if you don’t own a legit copy of minecraft you can still play.</p>
         </div>
-        <div class="section">  
-            <p>You will need a custom Minecraft launcher, I would recommend either <a href="https://atlauncher.com/" target="_blank">Atlauncher</a> or <a href="https://prismlauncher.org/" target="_blank">Prism Launcher</a>.</p>
-        </div>
-        
+
         <div class="section">
-            <p>Once installed, download the server's modpack <a href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/Downloads/The Origins..mrpack" download>here</a>, then import it into your launcher,
-            once done simply boot up the new instance and press play in the menu.</p>
+            <h2>You will want/need a custom minecraft launcher, I would use one of these:</h2>
+            <p>• <a href="https://prismlauncher.org/" role="button">Prism Launcher</a></p>
+            <p>• <a href="https://modrinth.com/app" role="button">Modrinth Launcher/App</a></p> <p style="font-size: 0.9rem; color: #7f8c8d;">(or this <a href="https://github.com/DIDIRUS4/AstralRinth" role="button">fork</a> that removes some of its bloat, also works as a cracked client).</p>
+            <p>• <a href="https://atlauncher.com/" role="button">Atlauncher</a>.</p>
         </div>
-    </div>
+
+        <div class="section">
+            <h2>Download the modpack:</h2>
+            <p>• <a href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/Downloads/The Origins..mrpack" download>The Origins (Fabric)</a></p>
+        </div>
+      </div>
 
     <!-- Footer -->
     <footer id="footer">

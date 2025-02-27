@@ -1,4 +1,4 @@
-​<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -33,7 +33,9 @@
             align-items: center;
             padding: 15px 0;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            position: relative; /* This ensures the absolute positioning of the return button works correctly */
+            position: sticky; /* This ensures the top bar stays at the top */
+            top: 0;
+            z-index: 1000;
         }
 
         .topbar.dark-mode {
@@ -76,10 +78,9 @@
             left: 10px;
         }
 
+        /* Remove blue background on hover for dark mode toggle button */
         .dark-mode-toggle:hover {
-            background-color: #3498db;
             color: white;
-            border-radius: 5px;
         }
 
         /* Main content area */
@@ -179,81 +180,81 @@
             }
         }
 
-/* Modern input and button styling */
-.copy-container {
-    position: relative;
-    width: 300px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    transition: box-shadow 0.3s ease;
-}
+        /* Modern input and button styling */
+        .copy-container {
+            position: relative;
+            width: 300px;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: box-shadow 0.3s ease;
+        }
 
-.copy-container:hover {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
+        .copy-container:hover {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
 
-.copy-container input {
-    padding: 10px;
-    font-size: 1rem;
-    border: 2px solid #3498db;
-    border-radius: 5px;
-    width: calc(100% - 50px); /* Adjust width to leave space for the button */
-    background-color: #fff;
-    color: #333;
-    transition: all 0.3s ease;
-    outline: none;
-}
+        .copy-container input {
+            padding: 10px;
+            font-size: 1rem;
+            border: 2px solid #3498db;
+            border-radius: 5px;
+            width: calc(100% - 50px); /* Adjust width to leave space for the button */
+            background-color: #fff;
+            color: #333;
+            transition: all 0.3s ease;
+            outline: none;
+        }
 
-.copy-container input:focus {
-    border-color: #2980b9;
-}
+        .copy-container input:focus {
+            border-color: #2980b9;
+        }
 
-.copy-container button {
-    padding: 10px;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: background-color 0.3s ease;
-}
+        .copy-container button {
+            padding: 10px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 0.3s ease;
+        }
 
-.copy-container button:hover {
-    background-color: #2980b9;
-}
+        .copy-container button:hover {
+            background-color: #2980b9;
+        }
 
-.copy-container button img {
-    width: 20px;
-    height: 20px;
-}
+        .copy-container button img {
+            width: 20px;
+            height: 20px;
+        }
 
-/* Visibility control for button states */
-.copy-container .copied {
-    display: none;
-}
+        /* Visibility control for button states */
+        .copy-container .copied {
+            display: none;
+        }
 
-.copy-container .copied.visible {
-    display: block;
-}
+        .copy-container .copied.visible {
+            display: block;
+        }
 
-.copy-container .clipboard-icon.visible {
-    display: block;
-}
+        .copy-container .clipboard-icon.visible {
+            display: block;
+        }
 
-.copy-container .clipboard-icon.hidden {
-    display: none;
-}
+        .copy-container .clipboard-icon.hidden {
+            display: none;
+        }
     </style>
 </head>
 <body>

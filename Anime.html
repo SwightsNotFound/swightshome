@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Anime List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #555;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .anime-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .anime-item {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .anime-item img {
+            width: 50px;
+            height: 70px;
+            margin-right: 20px;
+        }
+
+        .anime-info {
+            flex-grow: 1;
+        }
+
+        .anime-info h3 {
+            margin: 0;
+            color: #333;
+        }
+
+        .anime-info p {
+            margin: 5px 0;
+            color: #777;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Anime List</h1>
+        <div class="section" id="watching">
+            <h2>Watching</h2>
+            <ul class="anime-list"></ul>
+        </div>
+        <div class="section" id="completed">
+            <h2>Completed</h2>
+            <ul class="anime-list"></ul>
+        </div>
+        <div class="section" id="dropped">
+            <h2>Dropped</h2>
+            <ul class="anime-list"></ul>
+        </div>
+        <div class="section" id="paused">
+            <h2>Paused</h2>
+            <ul class="anime-list"></ul>
+        </div>
+        <div class="section" id="planning">
+            <h2>Planning</h2>
+            <ul class="anime-list"></ul>
+        </div>
+    </div>
+
+    <script>
+        async function fetchAnimeList() {
+            try {
+                const response = await fetch('anime_list.json');
+                const animeList = await response.json();
+                return animeList;
+            } catch (error) {
+                console.error('Error fetching anime list:', error);
+                return [];
+            }
+        }
+
+        async function populateAnimeList() {
+            const animeList = await fetchAnimeList();
+
+            animeList.forEach(list => {
+                let sectionId;
+                switch (list.name) {
+                    case "Watching":
+                        sectionId = "watching";
+                        break;
+                    case "Completed":
+                        sectionId = "completed";
+                        break;
+                    case "Dropped":
+                        sectionId = "dropped";
+                        break;
+                    case "Paused":
+                        sectionId = "paused";
+                        break;
+                    case "Planning":
+                        sectionId = "planning";
+                        break;
+                    default:
+                        return;
+                }
+                const section = document.getElementById(sectionId);
+                const ul = section.querySelector('.anime-list');
+
+                list.entries.forEach(anime => {
+                    const li = document.createElement('li');
+                    li.classList.add('anime-item');
+
+                    const img = document.createElement('img');
+                    img.src = anime.coverImage;
+                    img.alt = anime.title;
+                    li.appendChild(img);
+
+                    const infoDiv = document.createElement('div');
+                    infoDiv.classList.add('anime-info');
+
+                    const title = document.createElement('h3');
+                    title.textContent = anime.title;
+                    infoDiv.appendChild(title);
+
+                    const score = document.createElement('p');
+                    score.textContent = `Score: ${anime.averageScore}`;
+                    infoDiv.appendChild(score);
+
+                    const episodes = document.createElement('p');
+                    episodes.textContent = `Episodes: ${anime.episodes}`;
+                    infoDiv.appendChild(episodes);
+
+                    li.appendChild(infoDiv);
+                    ul.appendChild(li);
+                });
+            });
+        }
+
+        // Populate the anime list on page load
+        populateAnimeList();
+    </script>
+</body>
+</html>

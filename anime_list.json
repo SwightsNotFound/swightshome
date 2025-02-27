@@ -1043,31 +1043,436 @@
     "name": "Completed",
     "entries": [
       {
-        "title": "Real Girl",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100526-Hw6U34Hw2TDb.jpg",
-        "averageScore": 65,
+        "title": "Fruits Basket The Final Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124194-5eUjfzDYUboz.jpg",
+        "averageScore": 89,
+        "episodes": 13,
+        "status": "FINISHED",
+        "personalScore": 10,
+        "progress": 13
+      },
+      {
+        "title": "A Silent Voice",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20954-UMb6Kl7ZL8Ke.jpg",
+        "averageScore": 88,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 10,
+        "progress": 1
+      },
+      {
+        "title": "Attack on Titan",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16498-73IhOXpJZiMF.jpg",
+        "averageScore": 84,
+        "episodes": 25,
+        "status": "FINISHED",
+        "personalScore": 10,
+        "progress": 25
+      },
+      {
+        "title": "Attack on Titan Season 3 Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104578-LaZYFkmhinfB.jpg",
+        "averageScore": 89,
+        "episodes": 10,
+        "status": "FINISHED",
+        "personalScore": 10,
+        "progress": 10
+      },
+      {
+        "title": "Josee, the Tiger and the Fish",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113596-LKA0bYJGjLnB.jpg",
+        "averageScore": 82,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 10,
+        "progress": 1
+      },
+      {
+        "title": "Dororo",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx101347-2J2p8qJpxpfZ.jpg",
+        "averageScore": 81,
+        "episodes": 24,
+        "status": "FINISHED",
+        "personalScore": 10,
+        "progress": 24
+      },
+      {
+        "title": "Vinland Saga Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx136430-YrQ8nBDW7gT0.jpg",
+        "averageScore": 88,
+        "episodes": 24,
+        "status": "FINISHED",
+        "personalScore": 10,
+        "progress": 24
+      },
+      {
+        "title": "Snow White with the Red Hair Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21258-6UnmYMTMH0f7.jpg",
+        "averageScore": 78,
         "episodes": 12,
         "status": "FINISHED",
-        "personalScore": 5,
+        "personalScore": 9,
         "progress": 12
       },
       {
-        "title": "Real Girl 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx102882-lKp3ExWNzoE6.jpg",
-        "averageScore": 74,
+        "title": "Clannad: After Story",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4181-V1LCtX1rJgbR.png",
+        "averageScore": 87,
+        "episodes": 24,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 24
+      },
+      {
+        "title": "Horimiya",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124080-h8EPH92nyRfS.jpg",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 13
+      },
+      {
+        "title": "Howl‘s Moving Castle",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx431-dDgk19xDZjVX.jpg",
+        "averageScore": 85,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 1
+      },
+      {
+        "title": "Hyouka",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx12189-eBb6fcM21Zh7.jpg",
+        "averageScore": 79,
+        "episodes": 22,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 22
+      },
+      {
+        "title": "Kaguya-sama: Love is War -Ultra Romantic-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx125367-vV8WqtLQpT2J.png",
+        "averageScore": 89,
+        "episodes": 13,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 13
+      },
+      {
+        "title": "Kimi ni Todoke: From Me to You",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6045-txJOukR5Qve4.jpg",
+        "averageScore": 79,
+        "episodes": 25,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 25
+      },
+      {
+        "title": "Your Name.",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21519-fPhvy69vnQqS.png",
+        "averageScore": 85,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 1
+      },
+      {
+        "title": "I Want to Eat Your Pancreas",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99750-NHafozHS8zRp.jpg",
+        "averageScore": 84,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 1
+      },
+      {
+        "title": "Maquia: When the Promised Flower Blooms",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99457-yLAalBQ2Srkh.png",
+        "averageScore": 82,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 1
+      },
+      {
+        "title": "Your lie in April",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20665-zuhC5OO6XgZ7.png",
+        "averageScore": 84,
+        "episodes": 22,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 22
+      },
+      {
+        "title": "SPY x FAMILY",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140960-vN39AmOWrVB5.jpg",
+        "averageScore": 84,
         "episodes": 12,
         "status": "FINISHED",
-        "personalScore": 6,
+        "personalScore": 9,
         "progress": 12
       },
       {
-        "title": "The Quintessential Quintuplets",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103572-2MXV30htoCSh.png",
-        "averageScore": 75,
+        "title": "Steins;Gate",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9253-7pdcVzQSkKxT.jpg",
+        "averageScore": 89,
+        "episodes": 24,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 24
+      },
+      {
+        "title": "Tamako -love story-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20519-YdNUizVJJIWI.png",
+        "averageScore": 78,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 1
+      },
+      {
+        "title": "Weathering With You",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx106286-5COcpd0J9VbL.png",
+        "averageScore": 81,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 1
+      },
+      {
+        "title": "Toradora!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4224-3Bh0rm99N6Vl.jpg",
+        "averageScore": 78,
+        "episodes": 25,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 25
+      },
+      {
+        "title": "Violet Evergarden: the Movie",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103047-odblDHHEdehK.jpg",
+        "averageScore": 87,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 1
+      },
+      {
+        "title": "Frieren: Beyond Journey’s End",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154587-gHSraOSa0nBG.jpg",
+        "averageScore": 91,
+        "episodes": 28,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 28
+      },
+      {
+        "title": "When Marnie Was There",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20555-QGbWQC3Kfpok.jpg",
+        "averageScore": 78,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 1
+      },
+      {
+        "title": "The Wind Rises",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16662-6rqh55mNFY3n.jpg",
+        "averageScore": 80,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 1
+      },
+      {
+        "title": "Whisper of the Heart",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx585-5uq7j2xNNVmN.jpg",
+        "averageScore": 81,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 1
+      },
+      {
+        "title": "Into the Forest of Fireflies' Light",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10408-PlKJ6DAyvMk2.png",
+        "averageScore": 79,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 1
+      },
+      {
+        "title": "JUJUTSU KAISEN",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113415-bbBWj4pEFseh.jpg",
+        "averageScore": 85,
+        "episodes": 24,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 24
+      },
+      {
+        "title": "JUJUTSU KAISEN Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx145064-5U30gu2LSOv8.jpg",
+        "averageScore": 87,
+        "episodes": 23,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 23
+      },
+      {
+        "title": "The Promised Neverland",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101759-G9I2ymYrFS8o.jpg",
+        "averageScore": 83,
         "episodes": 12,
         "status": "FINISHED",
-        "personalScore": 7,
+        "personalScore": 9,
         "progress": 12
+      },
+      {
+        "title": "Attack on Titan Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20958-HuFJyr54Mmir.jpg",
+        "averageScore": 84,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 12
+      },
+      {
+        "title": "Attack on Titan Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99147-AiPDD8cwlCfi.jpg",
+        "averageScore": 85,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 12
+      },
+      {
+        "title": "Attack on Titan Final Season Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131681-wY63AzNuMRoO.jpg",
+        "averageScore": 86,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 12
+      },
+      {
+        "title": "Attack on Titan Final Season THE FINAL CHAPTERS Special 1",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146984-GXrLeT6vQqyP.jpg",
+        "averageScore": 87,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 1
+      },
+      {
+        "title": "Attack on Titan Final Season THE FINAL CHAPTERS Special 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162314-ocaEhYmvznFO.jpg",
+        "averageScore": 87,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 1
+      },
+      {
+        "title": "The Apothecary Diaries",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161645-bX5S28Cc1Nnk.jpg",
+        "averageScore": 88,
+        "episodes": 24,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 24
+      },
+      {
+        "title": "Violet Evergarden",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21827-10F6m50H4GJK.png",
+        "averageScore": 85,
+        "episodes": 13,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 13
+      },
+      {
+        "title": "Alya Sometimes Hides Her Feelings in Russian",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162804-TBeptcAfvqTd.jpg",
+        "averageScore": 76,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 12
+      },
+      {
+        "title": "Chainsaw Man",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127230-NuHM32a3VJsb.png",
+        "averageScore": 84,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 12
+      },
+      {
+        "title": "DAN DA DAN",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171018-2ldCj6QywuOa.jpg",
+        "averageScore": 85,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 12
+      },
+      {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5114-Dilr312jctdJ.jpg",
+        "averageScore": 90,
+        "episodes": 64,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 64
+      },
+      {
+        "title": "My Neighbor Totoro",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx523-hTtHgMXI9hLw.jpg",
+        "averageScore": 80,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 1
+      },
+      {
+        "title": "Dr. STONE: STONE WARS",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113936-41Lz6Vtmfh1A.jpg",
+        "averageScore": 81,
+        "episodes": 11,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 2
+      },
+      {
+        "title": "Dr. STONE New World",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131518-RU7RoUmGb2sP.jpg",
+        "averageScore": 81,
+        "episodes": 11,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 11
+      },
+      {
+        "title": "Dr. STONE Special Episode – RYUSUI",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142876-izO35hPP2DZ9.jpg",
+        "averageScore": 81,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 1
+      },
+      {
+        "title": "Dr. STONE New World Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162670-07XrFq2hreTx.jpg",
+        "averageScore": 83,
+        "episodes": 11,
+        "status": "FINISHED",
+        "personalScore": 9,
+        "progress": 11
       },
       {
         "title": "The Quintessential Quintuplets 2",
@@ -1085,15 +1490,6 @@
         "episodes": 12,
         "status": "FINISHED",
         "personalScore": 8,
-        "progress": 12
-      },
-      {
-        "title": "Snow White with the Red Hair Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21258-6UnmYMTMH0f7.jpg",
-        "averageScore": 78,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 9,
         "progress": 12
       },
       {
@@ -1115,42 +1511,6 @@
         "progress": 13
       },
       {
-        "title": "Blue Spring Ride",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20596-fJdMHV8xRMgY.png",
-        "averageScore": 74,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 12
-      },
-      {
-        "title": "Ao Haru Ride: unwritten",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20837-yK7SvUj1Tg7l.jpg",
-        "averageScore": 72,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 2
-      },
-      {
-        "title": "Arte",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx110547-TjB8wJRdnSaw.jpg",
-        "averageScore": 69,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 12
-      },
-      {
-        "title": "My Hero Academia",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21459-RoPwgrZ32gM3.jpg",
-        "averageScore": 76,
-        "episodes": 13,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 13
-      },
-      {
         "title": "My Hero Academia Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21856-gutauxhWAwn6.png",
         "averageScore": 79,
@@ -1169,33 +1529,6 @@
         "progress": 25
       },
       {
-        "title": "My Hero Academia Season 4",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104276-SnEowMvesWIE.png",
-        "averageScore": 78,
-        "episodes": 25,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 25
-      },
-      {
-        "title": "My Hero Academia Season 5",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx117193-E75BlZmDh1aB.jpg",
-        "averageScore": 73,
-        "episodes": 25,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 25
-      },
-      {
-        "title": "My Hero Academia Season 6",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx139630-3v4gxWtNZxLV.jpg",
-        "averageScore": 82,
-        "episodes": 25,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 25
-      },
-      {
         "title": "My Hero Academia: Two Heroes",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100723-7f5e1BCTCDoB.jpg",
         "averageScore": 74,
@@ -1203,42 +1536,6 @@
         "status": "FINISHED",
         "personalScore": 8,
         "progress": 1
-      },
-      {
-        "title": "My Hero Academia: World Heroes' Mission",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx126659-i6c1PsXHGyke.jpg",
-        "averageScore": 76,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 1
-      },
-      {
-        "title": "We Were There",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1222-kRIt3mFjuDaW.png",
-        "averageScore": 67,
-        "episodes": 26,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 26
-      },
-      {
-        "title": "Remake Our Life!",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114065-YPPyW7ZSxfYU.jpg",
-        "averageScore": 72,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 12
-      },
-      {
-        "title": "Love, Chunibyo & Other Delusions",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx14741-alxqoP4yx6WF.jpg",
-        "averageScore": 75,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 12
       },
       {
         "title": "Love, Chunibyo & Other Delusions - Heart Throb -",
@@ -1250,24 +1547,6 @@
         "progress": 12
       },
       {
-        "title": "Love, Chunibyo & Other Delusions - Heart Throb -: The Rikka Wars/ Apocalypse of the Wicked Lord Shingan Reborn",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/20889.jpg",
-        "averageScore": 72,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 1
-      },
-      {
-        "title": "Words Bubble Up Like Soda Pop",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx107625-2UIAI4TRwXz0.jpg",
-        "averageScore": 74,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 1
-      },
-      {
         "title": "Clannad",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2167-ubU2875AFRTH.jpg",
         "averageScore": 76,
@@ -1275,33 +1554,6 @@
         "status": "FINISHED",
         "personalScore": 8,
         "progress": 23
-      },
-      {
-        "title": "Clannad: After Story",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4181-V1LCtX1rJgbR.png",
-        "averageScore": 87,
-        "episodes": 24,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 24
-      },
-      {
-        "title": "Clannad: Another World, Kyou Chapter",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/6351.jpg",
-        "averageScore": 74,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 1
-      },
-      {
-        "title": "Clannad: Another World, Tomoyo Chapter",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b4059-mrA0Wky7bTgz.jpg",
-        "averageScore": 76,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 1
       },
       {
         "title": "Fruits Basket (2019)",
@@ -1322,24 +1574,6 @@
         "progress": 25
       },
       {
-        "title": "Fruits Basket The Final Season",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124194-5eUjfzDYUboz.jpg",
-        "averageScore": 89,
-        "episodes": 13,
-        "status": "FINISHED",
-        "personalScore": 10,
-        "progress": 13
-      },
-      {
-        "title": "Looking Up at the Half-Moon",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx587-Y2r6jh7QNccg.png",
-        "averageScore": 70,
-        "episodes": 6,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 6
-      },
-      {
         "title": "HINAMATSURI",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100077-B4bfXz0wVOPO.jpg",
         "averageScore": 80,
@@ -1349,93 +1583,12 @@
         "progress": 12
       },
       {
-        "title": "Hiyokoi",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/8768.jpg",
-        "averageScore": 68,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 1
-      },
-      {
-        "title": "Horimiya",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124080-h8EPH92nyRfS.jpg",
-        "averageScore": 81,
-        "episodes": 13,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 13
-      },
-      {
-        "title": "Children who Chase Lost Voices",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9760-Ur2uU0HuF1Iz.jpg",
-        "averageScore": 71,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 1
-      },
-      {
-        "title": "Howl‘s Moving Castle",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx431-dDgk19xDZjVX.jpg",
-        "averageScore": 85,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 1
-      },
-      {
-        "title": "Hyouka",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx12189-eBb6fcM21Zh7.jpg",
-        "averageScore": 79,
-        "episodes": 22,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 22
-      },
-      {
-        "title": "DON'T TOY WITH ME, MISS NAGATORO",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx120697-72Sf22C9PTQn.jpg",
-        "averageScore": 70,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 12
-      },
-      {
-        "title": "ItaKiss",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx3731-aCN5LnCn08qm.png",
-        "averageScore": 69,
-        "episodes": 25,
-        "status": "FINISHED",
-        "personalScore": 4,
-        "progress": 25
-      },
-      {
         "title": "Bottom-Tier Character Tomozaki",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx112443-UVB1oKdblsIx.jpg",
         "averageScore": 70,
         "episodes": 12,
         "status": "FINISHED",
         "personalScore": 8,
-        "progress": 12
-      },
-      {
-        "title": "Toilet-bound Hanako-kun",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108463-knWkFUR311ho.jpg",
-        "averageScore": 77,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 12
-      },
-      {
-        "title": "Just Because!",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98820-EVHeNEUOWkh3.jpg",
-        "averageScore": 69,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 5,
         "progress": 12
       },
       {
@@ -1448,24 +1601,6 @@
         "progress": 12
       },
       {
-        "title": "Kaguya-sama: Love is War -Ultra Romantic-",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx125367-vV8WqtLQpT2J.png",
-        "averageScore": 89,
-        "episodes": 13,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 13
-      },
-      {
-        "title": "Kaguya-sama: Love is War -Ultra Romantic- \"Yu Ishigami Wants to Chat\"",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b165557-q7A6HcZD0CHs.png",
-        "averageScore": 79,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 1
-      },
-      {
         "title": "Kaguya-sama: Love is War?",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx112641-zoGC8d6FaPXU.jpg",
         "averageScore": 86,
@@ -1473,33 +1608,6 @@
         "status": "FINISHED",
         "personalScore": 8,
         "progress": 12
-      },
-      {
-        "title": "Maid-Sama!",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx7054-GW4D7VAZG19W.png",
-        "averageScore": 77,
-        "episodes": 26,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 26
-      },
-      {
-        "title": "Fena: Pirate Princess",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx122052-nb8cfAe7pniT.jpg",
-        "averageScore": 69,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 12
-      },
-      {
-        "title": "A Couple of Cuckoos",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx132052-3gDTi19HyW6E.png",
-        "averageScore": 67,
-        "episodes": 24,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 24
       },
       {
         "title": "Kamisama Kiss",
@@ -1547,24 +1655,6 @@
         "progress": 12
       },
       {
-        "title": "His and Her Circumstances",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx145-PBhmfYZ0gHdq.png",
-        "averageScore": 75,
-        "episodes": 26,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 26
-      },
-      {
-        "title": "Shikimori's Not Just a Cutie",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127911-cQVL0dhldFwn.jpg",
-        "averageScore": 68,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 12
-      },
-      {
         "title": "Demon Slayer: Kimetsu no Yaiba",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101922-WBsBl0ClmgYL.jpg",
         "averageScore": 83,
@@ -1572,33 +1662,6 @@
         "status": "FINISHED",
         "personalScore": 8,
         "progress": 26
-      },
-      {
-        "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx112151-1qlQwPB1RrJe.png",
-        "averageScore": 84,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 1
-      },
-      {
-        "title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx145139-rRimpHGWLhym.png",
-        "averageScore": 81,
-        "episodes": 11,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 11
-      },
-      {
-        "title": "Demon Slayer: Kimetsu no Yaiba Mugen Train Arc",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx129874-g6ZKXB94Hui1.jpg",
-        "averageScore": 82,
-        "episodes": 7,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 7
       },
       {
         "title": "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
@@ -1610,24 +1673,6 @@
         "progress": 11
       },
       {
-        "title": "Kimi dake ni Motetainda.",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx111290-GhO0VIUb2hlB.jpg",
-        "averageScore": 48,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 1
-      },
-      {
-        "title": "Kimi ni Todoke: From Me to You",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6045-txJOukR5Qve4.jpg",
-        "averageScore": 79,
-        "episodes": 25,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 25
-      },
-      {
         "title": "Kimi ni Todoke: From Me to You Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9656-vckh2wNj3FwY.jpg",
         "averageScore": 79,
@@ -1635,96 +1680,6 @@
         "status": "FINISHED",
         "personalScore": 8,
         "progress": 12
-      },
-      {
-        "title": "Kimi ni Todoke 2nd Season Specials",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10536-OWWiu3VOlJn9.jpg",
-        "averageScore": 70,
-        "episodes": 3,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 3
-      },
-      {
-        "title": "Your Name.",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21519-fPhvy69vnQqS.png",
-        "averageScore": 85,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 1
-      },
-      {
-        "title": "I Want to Eat Your Pancreas",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99750-NHafozHS8zRp.jpg",
-        "averageScore": 84,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 1
-      },
-      {
-        "title": "Ride Your Wave",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105018-XM7rFyryltjb.jpg",
-        "averageScore": 75,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 1
-      },
-      {
-        "title": "Kino's Journey -the Beautiful World- the Animated Series",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx98448-OdfxrjAhkYvp.jpg",
-        "averageScore": 73,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 12
-      },
-      {
-        "title": "Vermeil in Gold",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146210-ZnIithxFLLHn.jpg",
-        "averageScore": 67,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 12
-      },
-      {
-        "title": "A Silent Voice",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20954-UMb6Kl7ZL8Ke.jpg",
-        "averageScore": 88,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 10,
-        "progress": 1
-      },
-      {
-        "title": "After the Rain",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98385-GYmOoxtwWVhz.jpg",
-        "averageScore": 73,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 12
-      },
-      {
-        "title": "Kokoro Connect",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11887-h8SRoEslkQYX.jpg",
-        "averageScore": 75,
-        "episodes": 13,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 13
-      },
-      {
-        "title": "Kokoro Connect ~ The OVAs",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16001-XLc5ZdWeM3fp.png",
-        "averageScore": 76,
-        "episodes": 4,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 4
       },
       {
         "title": "Komi Can’t Communicate",
@@ -1745,33 +1700,6 @@
         "progress": 12
       },
       {
-        "title": "Lovely Complex",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2034-to85QywohtUL.png",
-        "averageScore": 77,
-        "episodes": 24,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 24
-      },
-      {
-        "title": "Masamune-kun's Revenge",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21857-haPDVD7DKDpg.jpg",
-        "averageScore": 65,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 12
-      },
-      {
-        "title": "Ao-chan Can't Study!",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105989-Jooq6bqkeeiP.jpg",
-        "averageScore": 64,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 12
-      },
-      {
         "title": "Mob Psycho 100",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21507-BICFCVZY3xQb.jpg",
         "averageScore": 84,
@@ -1779,96 +1707,6 @@
         "status": "FINISHED",
         "personalScore": 8,
         "progress": 12
-      },
-      {
-        "title": "Bibliophile Princess",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx144533-DqgPeBmWZPYQ.jpg",
-        "averageScore": 66,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 12
-      },
-      {
-        "title": "The Seven Deadly Sins",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20789-SsAI4pvvI9EU.jpg",
-        "averageScore": 73,
-        "episodes": 24,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 24
-      },
-      {
-        "title": "Naruto",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20-LxrhhIQyiE60.jpg",
-        "averageScore": 79,
-        "episodes": 220,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 220
-      },
-      {
-        "title": "Naruto the Movie: Ninja Clash in the Land of Snow",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx442-VJbmIVTgmne3.png",
-        "averageScore": 67,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 1
-      },
-      {
-        "title": "Naruto the Movie: Legend of the Stone of Gelel",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx936-P1ogcIs07UR8.jpg",
-        "averageScore": 65,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 1
-      },
-      {
-        "title": "Naruto the Movie: Guardians of the Crescent Moon Kingdom",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2144-9FITEzdGnlWC.jpg",
-        "averageScore": 65,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 1
-      },
-      {
-        "title": "Naruto: Shippuden",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1735-tdIgU840YJHA.png",
-        "averageScore": 81,
-        "episodes": 500,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 500
-      },
-      {
-        "title": "Recovery of an MMO Junkie",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99726-tta6v7TKGYKa.jpg",
-        "averageScore": 73,
-        "episodes": 10,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 10
-      },
-      {
-        "title": "Recovery of an MMO Junkie OVA",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100684-dTFSHninTMEg.jpg",
-        "averageScore": 71,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 1
-      },
-      {
-        "title": "Nisekoi",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx18897-G2Fx2ZACsXBU.jpg",
-        "averageScore": 73,
-        "episodes": 20,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 20
       },
       {
         "title": "Nodame Cantabile",
@@ -1889,15 +1727,6 @@
         "progress": 12
       },
       {
-        "title": "Orange",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21647-n89DLaXbCovR.png",
-        "averageScore": 74,
-        "episodes": 13,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 13
-      },
-      {
         "title": "My Love Story!!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20946-AC3RxlUqZB0M.png",
         "averageScore": 77,
@@ -1905,51 +1734,6 @@
         "status": "FINISHED",
         "personalScore": 8,
         "progress": 24
-      },
-      {
-        "title": "A Galaxy Next Door",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx148098-MI9Rm8JVhSh0.jpg",
-        "averageScore": 70,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 12
-      },
-      {
-        "title": "Plastic Memories",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20872-j5PBzzVtrYDM.jpg",
-        "averageScore": 77,
-        "episodes": 13,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 13
-      },
-      {
-        "title": "ReLIFE",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21049-4AHSLeiDE9eg.png",
-        "averageScore": 78,
-        "episodes": 13,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 13
-      },
-      {
-        "title": "ReLIFE: Final Arc",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98635-U7XClVuynqfY.png",
-        "averageScore": 80,
-        "episodes": 4,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 4
-      },
-      {
-        "title": "Shagahai ReLIFE Kenkyuujo Support-ka",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b108939-t99SwYtxtBuR.jpg",
-        "averageScore": 69,
-        "episodes": 2,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 2
       },
       {
         "title": "Romantic Killer",
@@ -1979,24 +1763,6 @@
         "progress": 1
       },
       {
-        "title": "The Pet Girl of Sakurasou",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx13759-44TVZe8xNOJx.jpg",
-        "averageScore": 78,
-        "episodes": 24,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 24
-      },
-      {
-        "title": "Maquia: When the Promised Flower Blooms",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99457-yLAalBQ2Srkh.png",
-        "averageScore": 82,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 1
-      },
-      {
         "title": "Spirited Away",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx199-ilRRfrty7HrJ.jpg",
         "averageScore": 86,
@@ -2004,24 +1770,6 @@
         "status": "FINISHED",
         "personalScore": 8,
         "progress": 1
-      },
-      {
-        "title": "Your lie in April",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20665-zuhC5OO6XgZ7.png",
-        "averageScore": 84,
-        "episodes": 22,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 22
-      },
-      {
-        "title": "SPY x FAMILY",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140960-vN39AmOWrVB5.jpg",
-        "averageScore": 84,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 12
       },
       {
         "title": "SPY x FAMILY Cour 2",
@@ -2033,78 +1781,6 @@
         "progress": 13
       },
       {
-        "title": "Steins;Gate",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9253-7pdcVzQSkKxT.jpg",
-        "averageScore": 89,
-        "episodes": 24,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 24
-      },
-      {
-        "title": "The Moment You Fall in Love",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21757-zH78HtS4b0GU.png",
-        "averageScore": 68,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 1
-      },
-      {
-        "title": "Say \"I love you\".",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx14289-vRTzC8u4XuvW.png",
-        "averageScore": 71,
-        "episodes": 13,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 13
-      },
-      {
-        "title": "Sukitte Ii na yo.: Dareka ga",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/16868.jpg",
-        "averageScore": 68,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 1
-      },
-      {
-        "title": "Sword Art Online",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx11757-Q9P2zjCPICq5.jpg",
-        "averageScore": 69,
-        "episodes": 25,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 25
-      },
-      {
-        "title": "Taisho Otome Fairy Tale",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127412-dpHXV2X9tskV.jpg",
-        "averageScore": 76,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 12
-      },
-      {
-        "title": "Tamako -love story-",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20519-YdNUizVJJIWI.png",
-        "averageScore": 78,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 1
-      },
-      {
-        "title": "Weathering With You",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx106286-5COcpd0J9VbL.png",
-        "averageScore": 81,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 1
-      },
-      {
         "title": "The Last: Naruto the Movie",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16870-Wg0XQKHcwV1r.jpg",
         "averageScore": 75,
@@ -2114,39 +1790,12 @@
         "progress": 1
       },
       {
-        "title": "Tokyo Ghoul",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx20605-fmnHdfurM7m6.jpg",
-        "averageScore": 75,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 12
-      },
-      {
-        "title": "My Little Monster",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx14227-VGxPG1xDZG7v.jpg",
-        "averageScore": 72,
-        "episodes": 13,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 13
-      },
-      {
         "title": "TONIKAWA: Over The Moon For You",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx116267-CSAkFXN2Zsai.jpg",
         "averageScore": 77,
         "episodes": 12,
         "status": "FINISHED",
         "personalScore": 8,
-        "progress": 12
-      },
-      {
-        "title": "TONIKAWA: Over The Moon For You Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141208-On0qHKxo6P5t.png",
-        "averageScore": 76,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 7,
         "progress": 12
       },
       {
@@ -2159,15 +1808,6 @@
         "progress": 1
       },
       {
-        "title": "Toradora!",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4224-3Bh0rm99N6Vl.jpg",
-        "averageScore": 78,
-        "episodes": 25,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 25
-      },
-      {
         "title": "Tsukigakirei",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98202-H6RtsIMZPALF.png",
         "averageScore": 78,
@@ -2177,39 +1817,12 @@
         "progress": 12
       },
       {
-        "title": "Tsuki ga Kirei Special",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100305-CRu6RZ5eINHP.jpg",
-        "averageScore": 70,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 1
-      },
-      {
-        "title": "Tsuredure Children",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98291-LY6txxZTX8We.jpg",
-        "averageScore": 74,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 12
-      },
-      {
         "title": "Violet Evergarden: Eternity and the Auto Memory Doll",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx109190-e8mv1qdmpjLW.jpg",
         "averageScore": 83,
         "episodes": 1,
         "status": "FINISHED",
         "personalScore": 8,
-        "progress": 1
-      },
-      {
-        "title": "Violet Evergarden: the Movie",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103047-odblDHHEdehK.jpg",
-        "averageScore": 87,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 9,
         "progress": 1
       },
       {
@@ -2258,48 +1871,12 @@
         "progress": 13
       },
       {
-        "title": "SING \"YESTERDAY\" FOR ME",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx109020-sRBusiVXbsLH.jpg",
-        "averageScore": 67,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 12
-      },
-      {
-        "title": "Yesterday wo Utatte Extras",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx117496-CP35rVXw69hq.png",
-        "averageScore": 65,
-        "episodes": 6,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 6
-      },
-      {
         "title": "Call of the Night",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141391-JQbTOGJOGpZC.jpg",
         "averageScore": 79,
         "episodes": 13,
         "status": "FINISHED",
         "personalScore": 8,
-        "progress": 13
-      },
-      {
-        "title": "I've Always Liked You",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21296-WtdIXdg64GCK.jpg",
-        "averageScore": 69,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 1
-      },
-      {
-        "title": "Horimiya: The Missing Pieces",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163132-C220CO5UrTxY.jpg",
-        "averageScore": 82,
-        "episodes": 13,
-        "status": "FINISHED",
-        "personalScore": 7,
         "progress": 13
       },
       {
@@ -2312,147 +1889,12 @@
         "progress": 24
       },
       {
-        "title": "My Happy Marriage",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx147103-Om2LOXlhHNAe.png",
-        "averageScore": 77,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 12
-      },
-      {
-        "title": "Frieren: Beyond Journey’s End",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154587-gHSraOSa0nBG.jpg",
-        "averageScore": 91,
-        "episodes": 28,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 28
-      },
-      {
-        "title": "A Sign of Affection",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166794-veSLL0zrrBhp.jpg",
-        "averageScore": 82,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 12
-      },
-      {
-        "title": "One-Punch Man Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97668-nC8gQrXVxt7k.png",
-        "averageScore": 74,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 12
-      },
-      {
-        "title": "Tokyo Ghoul:re",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100240-vJNaKd5HwPJ2.jpg",
-        "averageScore": 61,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 12
-      },
-      {
-        "title": "Tokyo Ghoul:re 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx102351-yD3Ty9YZFMsf.jpg",
-        "averageScore": 61,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 12
-      },
-      {
-        "title": "The Seven Deadly Sins: Revival of the Commandments",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99539-caPX28RSsgRP.jpg",
-        "averageScore": 73,
-        "episodes": 24,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 24
-      },
-      {
-        "title": "The Seven Deadly Sins: Imperial Wrath of the Gods",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108928-DuyUzi0JyPIr.jpg",
-        "averageScore": 62,
-        "episodes": 24,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 24
-      },
-      {
-        "title": "The Seven Deadly Sins: Dragon's Judgement",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx116752-yIJuKp88adqt.jpg",
-        "averageScore": 65,
-        "episodes": 24,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 24
-      },
-      {
-        "title": "The Seven Deadly Sins the Movie: Prisoners of the Sky",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx99540-QnY48c1oifvY.jpg",
-        "averageScore": 69,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 1
-      },
-      {
-        "title": "The Seven Deadly Sins: Cursed by Light",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128740-xpjfCO2kpFdz.png",
-        "averageScore": 70,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 1
-      },
-      {
-        "title": "When Marnie Was There",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20555-QGbWQC3Kfpok.jpg",
-        "averageScore": 78,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 1
-      },
-      {
-        "title": "The Wind Rises",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16662-6rqh55mNFY3n.jpg",
-        "averageScore": 80,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 1
-      },
-      {
         "title": "Kiki's Delivery Service",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx512-cHbcJH0bT0iY.png",
         "averageScore": 81,
         "episodes": 1,
         "status": "FINISHED",
         "personalScore": 8,
-        "progress": 1
-      },
-      {
-        "title": "Whisper of the Heart",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx585-5uq7j2xNNVmN.jpg",
-        "averageScore": 81,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 1
-      },
-      {
-        "title": "TONIKAWA: Over The Moon For You ~Uniform~",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141212-653p6mvmOCgz.jpg",
-        "averageScore": 77,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 5,
         "progress": 1
       },
       {
@@ -2483,24 +1925,6 @@
         "progress": 1
       },
       {
-        "title": "Into the Forest of Fireflies' Light",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10408-PlKJ6DAyvMk2.png",
-        "averageScore": 79,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 1
-      },
-      {
-        "title": "A Whisker Away",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114963-QWMbi5ttovSK.png",
-        "averageScore": 72,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 1
-      },
-      {
         "title": "BLUE LOCK",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx137822-1JgEIoQ081G8.png",
         "averageScore": 81,
@@ -2508,42 +1932,6 @@
         "status": "FINISHED",
         "personalScore": 8,
         "progress": 24
-      },
-      {
-        "title": "JUJUTSU KAISEN",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113415-bbBWj4pEFseh.jpg",
-        "averageScore": 85,
-        "episodes": 24,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 24
-      },
-      {
-        "title": "JUJUTSU KAISEN Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx145064-5U30gu2LSOv8.jpg",
-        "averageScore": 87,
-        "episodes": 23,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 23
-      },
-      {
-        "title": "The Promised Neverland",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101759-G9I2ymYrFS8o.jpg",
-        "averageScore": 83,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 12
-      },
-      {
-        "title": "The Promised Neverland Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108725-ZKivuyr4Jtc9.jpg",
-        "averageScore": 51,
-        "episodes": 11,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 11
       },
       {
         "title": "Vinland Saga",
@@ -2591,15 +1979,6 @@
         "progress": 23
       },
       {
-        "title": "A Condition Called Love",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx165855-uJ0Hq5EFUlz8.jpg",
-        "averageScore": 66,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 12
-      },
-      {
         "title": "Solo Leveling",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151807-yxY3olrjZH4k.png",
         "averageScore": 82,
@@ -2607,15 +1986,6 @@
         "status": "FINISHED",
         "personalScore": 8,
         "progress": 12
-      },
-      {
-        "title": "Demon Slayer: Kimetsu no Yaiba Hashira Training Arc",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166240-PBV7zukIHW7V.png",
-        "averageScore": 81,
-        "episodes": 8,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 8
       },
       {
         "title": "My Hero Academia Season 7",
@@ -2627,33 +1997,6 @@
         "progress": 21
       },
       {
-        "title": "Attack on Titan",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16498-73IhOXpJZiMF.jpg",
-        "averageScore": 84,
-        "episodes": 25,
-        "status": "FINISHED",
-        "personalScore": 10,
-        "progress": 25
-      },
-      {
-        "title": "Attack on Titan Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20958-HuFJyr54Mmir.jpg",
-        "averageScore": 84,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 12
-      },
-      {
-        "title": "Attack on Titan Season 3",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99147-AiPDD8cwlCfi.jpg",
-        "averageScore": 85,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 12
-      },
-      {
         "title": "Attack on Titan: Lost Girls",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx99634-9u4hdvWwmC2s.png",
         "averageScore": 76,
@@ -2661,15 +2004,6 @@
         "status": "FINISHED",
         "personalScore": 8,
         "progress": 3
-      },
-      {
-        "title": "Attack on Titan Season 3 Part 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104578-LaZYFkmhinfB.jpg",
-        "averageScore": 89,
-        "episodes": 10,
-        "status": "FINISHED",
-        "personalScore": 10,
-        "progress": 10
       },
       {
         "title": "Attack on Titan Final Season",
@@ -2690,51 +2024,6 @@
         "progress": 2
       },
       {
-        "title": "Attack on Titan Final Season Part 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131681-wY63AzNuMRoO.jpg",
-        "averageScore": 86,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 12
-      },
-      {
-        "title": "Attack on Titan Final Season THE FINAL CHAPTERS Special 1",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146984-GXrLeT6vQqyP.jpg",
-        "averageScore": 87,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 1
-      },
-      {
-        "title": "Attack on Titan Final Season THE FINAL CHAPTERS Special 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162314-ocaEhYmvznFO.jpg",
-        "averageScore": 87,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 1
-      },
-      {
-        "title": "Boku no Hero Academia THE MOVIE: Heroes:Rising - Epilogue Plus: Yume wo Genjitsu ni",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx126661-61SI7n5njMNM.jpg",
-        "averageScore": 73,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 1
-      },
-      {
-        "title": "Boku no Hero Academia THE MOVIE: World Heroes' Mission - Tabidachi",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142411-Hb2c6mMLs6Jb.png",
-        "averageScore": 73,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 1
-      },
-      {
         "title": "WIND BREAKER",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163270-oxwgbe43Cpog.jpg",
         "averageScore": 78,
@@ -2744,15 +2033,6 @@
         "progress": 13
       },
       {
-        "title": "Kaguya-sama: Love is War -The First Kiss That Never Ends-",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151384-gv0q8wOE6D58.jpg",
-        "averageScore": 87,
-        "episodes": 4,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 4
-      },
-      {
         "title": "Rascal Does Not Dream of Bunny Girl Senpai",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101291-L71WpAkZPtgm.jpg",
         "averageScore": 80,
@@ -2760,15 +2040,6 @@
         "status": "FINISHED",
         "personalScore": 8,
         "progress": 13
-      },
-      {
-        "title": "Rascal Does Not Dream of a Dreaming Girl",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104157-rk99XI56PaIC.jpg",
-        "averageScore": 84,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 1
       },
       {
         "title": "The Dangers in My Heart",
@@ -2789,60 +2060,6 @@
         "progress": 13
       },
       {
-        "title": "Skip and Loafer",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141911-LqaNFCgfcj3M.jpg",
-        "averageScore": 81,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 12
-      },
-      {
-        "title": "My Love Story with Yamada-kun at Lv999",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154965-vZbBRjtmLp7S.jpg",
-        "averageScore": 78,
-        "episodes": 13,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 13
-      },
-      {
-        "title": "The Quintessential Quintuplets Movie",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131520-kCOY9XBAbMcX.png",
-        "averageScore": 78,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 1
-      },
-      {
-        "title": "The Tunnel to Summer, the Exit of Goodbyes",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142769-kNyyqpwC9gGV.jpg",
-        "averageScore": 78,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 1
-      },
-      {
-        "title": "The Angel Next Door Spoils Me Rotten",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143338-zhyDVYgEzsm5.png",
-        "averageScore": 77,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 12
-      },
-      {
-        "title": "Bottom-Tier Character Tomozaki 2nd Stage",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143866-75E3G6nYEUVr.jpg",
-        "averageScore": 70,
-        "episodes": 13,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 13
-      },
-      {
         "title": "Black Clover",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97940-O2LWFOG8bK1u.jpg",
         "averageScore": 78,
@@ -2850,33 +2067,6 @@
         "status": "FINISHED",
         "personalScore": 8,
         "progress": 170
-      },
-      {
-        "title": "Sacrificial Princess and the King of Beasts",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128715-T4Tne2TcqfVx.jpg",
-        "averageScore": 77,
-        "episodes": 24,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 24
-      },
-      {
-        "title": "Why Raeliana Ended Up at the Duke’s Mansion",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151847-OnTYbvb4y4mp.jpg",
-        "averageScore": 74,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 12
-      },
-      {
-        "title": "Josee, the Tiger and the Fish",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113596-LKA0bYJGjLnB.jpg",
-        "averageScore": 82,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 10,
-        "progress": 1
       },
       {
         "title": "Kaiju No.8",
@@ -2895,51 +2085,6 @@
         "status": "FINISHED",
         "personalScore": 8,
         "progress": 12
-      },
-      {
-        "title": "An Archdemon's Dilemma: How to Love Your Elf Bride",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx156023-cY4NC8gCcAg7.jpg",
-        "averageScore": 73,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 12
-      },
-      {
-        "title": "Unnamed Memory",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx158709-WFA0RHloDvPl.jpg",
-        "averageScore": 66,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 12
-      },
-      {
-        "title": "Dororo",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx101347-2J2p8qJpxpfZ.jpg",
-        "averageScore": 81,
-        "episodes": 24,
-        "status": "FINISHED",
-        "personalScore": 10,
-        "progress": 24
-      },
-      {
-        "title": "Kimi ni Todoke: From Me to You Season 3",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx168872-ls6UwxFAw212.jpg",
-        "averageScore": 85,
-        "episodes": 5,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 5
-      },
-      {
-        "title": "Vinland Saga Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx136430-YrQ8nBDW7gT0.jpg",
-        "averageScore": 88,
-        "episodes": 24,
-        "status": "FINISHED",
-        "personalScore": 10,
-        "progress": 24
       },
       {
         "title": "Mob Psycho 100 II",
@@ -2969,60 +2114,6 @@
         "progress": 12
       },
       {
-        "title": "The Apothecary Diaries",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161645-bX5S28Cc1Nnk.jpg",
-        "averageScore": 88,
-        "episodes": 24,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 24
-      },
-      {
-        "title": "Violet Evergarden",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21827-10F6m50H4GJK.png",
-        "averageScore": 85,
-        "episodes": 13,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 13
-      },
-      {
-        "title": "You are Ms. Servant",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172190-i1IqizIUcKkN.jpg",
-        "averageScore": 69,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 12
-      },
-      {
-        "title": "The Do-Over Damsel Conquers the Dragon Emperor",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx164299-j4yHiK4j1ON7.jpg",
-        "averageScore": 69,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 12
-      },
-      {
-        "title": "Alya Sometimes Hides Her Feelings in Russian",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162804-TBeptcAfvqTd.jpg",
-        "averageScore": 76,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 12
-      },
-      {
-        "title": "Mushoku Tensei: Jobless Reincarnation",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108465-B9S9zC68eS5j.jpg",
-        "averageScore": 82,
-        "episodes": 11,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 11
-      },
-      {
         "title": "Mushoku Tensei: Jobless Reincarnation Cour 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127720-ADJgIrUVMdU9.jpg",
         "averageScore": 85,
@@ -3041,24 +2132,6 @@
         "progress": 12
       },
       {
-        "title": "I’ll Become a Villainess Who Goes Down in History",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx168139-nGLXIdSksKCI.jpg",
-        "averageScore": 72,
-        "episodes": 13,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 13
-      },
-      {
-        "title": "Sword Art Online II",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx20594-FhRgZ1H9Istt.jpg",
-        "averageScore": 65,
-        "episodes": 24,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 24
-      },
-      {
         "title": "Mushoku Tensei: Jobless Reincarnation Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146065-IjirxRK26O03.png",
         "averageScore": 82,
@@ -3068,8 +2141,17 @@
         "progress": 13
       },
       {
-        "title": "Kubo Won't Let Me Be Invisible",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx148969-3vPgXpMpQvba.jpg",
+        "title": "LOOK BACK",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx174788-tuw7KozIDS8a.jpg",
+        "averageScore": 87,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 8,
+        "progress": 1
+      },
+      {
+        "title": "The Quintessential Quintuplets",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103572-2MXV30htoCSh.png",
         "averageScore": 75,
         "episodes": 12,
         "status": "FINISHED",
@@ -3077,57 +2159,444 @@
         "progress": 12
       },
       {
-        "title": "The Ice Guy and His Cool Female Colleague",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151252-ywrMmJG1Loc3.jpg",
+        "title": "Arte",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx110547-TjB8wJRdnSaw.jpg",
+        "averageScore": 69,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 12
+      },
+      {
+        "title": "My Hero Academia",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21459-RoPwgrZ32gM3.jpg",
+        "averageScore": 76,
+        "episodes": 13,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 13
+      },
+      {
+        "title": "My Hero Academia Season 4",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104276-SnEowMvesWIE.png",
+        "averageScore": 78,
+        "episodes": 25,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 25
+      },
+      {
+        "title": "My Hero Academia Season 5",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx117193-E75BlZmDh1aB.jpg",
+        "averageScore": 73,
+        "episodes": 25,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 25
+      },
+      {
+        "title": "My Hero Academia Season 6",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx139630-3v4gxWtNZxLV.jpg",
+        "averageScore": 82,
+        "episodes": 25,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 25
+      },
+      {
+        "title": "My Hero Academia: World Heroes' Mission",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx126659-i6c1PsXHGyke.jpg",
+        "averageScore": 76,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 1
+      },
+      {
+        "title": "Love, Chunibyo & Other Delusions",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx14741-alxqoP4yx6WF.jpg",
+        "averageScore": 75,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 12
+      },
+      {
+        "title": "Love, Chunibyo & Other Delusions - Heart Throb -: The Rikka Wars/ Apocalypse of the Wicked Lord Shingan Reborn",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/20889.jpg",
         "averageScore": 72,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 1
+      },
+      {
+        "title": "Clannad: Another World, Tomoyo Chapter",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b4059-mrA0Wky7bTgz.jpg",
+        "averageScore": 76,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 1
+      },
+      {
+        "title": "Looking Up at the Half-Moon",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx587-Y2r6jh7QNccg.png",
+        "averageScore": 70,
+        "episodes": 6,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 6
+      },
+      {
+        "title": "Toilet-bound Hanako-kun",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108463-knWkFUR311ho.jpg",
+        "averageScore": 77,
         "episodes": 12,
         "status": "FINISHED",
-        "personalScore": 6,
+        "personalScore": 7,
         "progress": 12
       },
       {
-        "title": "Chainsaw Man",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127230-NuHM32a3VJsb.png",
+        "title": "Kaguya-sama: Love is War -Ultra Romantic- \"Yu Ishigami Wants to Chat\"",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b165557-q7A6HcZD0CHs.png",
+        "averageScore": 79,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 1
+      },
+      {
+        "title": "Maid-Sama!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx7054-GW4D7VAZG19W.png",
+        "averageScore": 77,
+        "episodes": 26,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 26
+      },
+      {
+        "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx112151-1qlQwPB1RrJe.png",
         "averageScore": 84,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 1
+      },
+      {
+        "title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx145139-rRimpHGWLhym.png",
+        "averageScore": 81,
+        "episodes": 11,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 11
+      },
+      {
+        "title": "Demon Slayer: Kimetsu no Yaiba Mugen Train Arc",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx129874-g6ZKXB94Hui1.jpg",
+        "averageScore": 82,
+        "episodes": 7,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 7
+      },
+      {
+        "title": "Kimi ni Todoke 2nd Season Specials",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10536-OWWiu3VOlJn9.jpg",
+        "averageScore": 70,
+        "episodes": 3,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 3
+      },
+      {
+        "title": "Kino's Journey -the Beautiful World- the Animated Series",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx98448-OdfxrjAhkYvp.jpg",
+        "averageScore": 73,
         "episodes": 12,
         "status": "FINISHED",
-        "personalScore": 9,
+        "personalScore": 7,
         "progress": 12
       },
       {
-        "title": "Sword Art Online: Alicization",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100182-KctPmCJ2smHQ.jpg",
+        "title": "Kokoro Connect",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11887-h8SRoEslkQYX.jpg",
         "averageScore": 75,
-        "episodes": 24,
+        "episodes": 13,
         "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 24
+        "personalScore": 7,
+        "progress": 13
       },
       {
-        "title": "DAN DA DAN",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171018-2ldCj6QywuOa.jpg",
-        "averageScore": 85,
-        "episodes": 12,
+        "title": "Kokoro Connect ~ The OVAs",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16001-XLc5ZdWeM3fp.png",
+        "averageScore": 76,
+        "episodes": 4,
         "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 12
+        "personalScore": 7,
+        "progress": 4
       },
       {
-        "title": "Sword Art Online: Alicization - War of Underworld",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108759-jcXbDf9BJTcb.jpg",
-        "averageScore": 75,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 5,
-        "progress": 12
-      },
-      {
-        "title": "Rent-a-Girlfriend",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113813-1hraQMAxU4VG.jpg",
+        "title": "Bibliophile Princess",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx144533-DqgPeBmWZPYQ.jpg",
         "averageScore": 66,
         "episodes": 12,
         "status": "FINISHED",
-        "personalScore": 5,
+        "personalScore": 7,
+        "progress": 12
+      },
+      {
+        "title": "The Seven Deadly Sins",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20789-SsAI4pvvI9EU.jpg",
+        "averageScore": 73,
+        "episodes": 24,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 24
+      },
+      {
+        "title": "Naruto: Shippuden",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1735-tdIgU840YJHA.png",
+        "averageScore": 81,
+        "episodes": 500,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 500
+      },
+      {
+        "title": "Recovery of an MMO Junkie",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99726-tta6v7TKGYKa.jpg",
+        "averageScore": 73,
+        "episodes": 10,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 10
+      },
+      {
+        "title": "Nisekoi",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx18897-G2Fx2ZACsXBU.jpg",
+        "averageScore": 73,
+        "episodes": 20,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 20
+      },
+      {
+        "title": "Orange",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21647-n89DLaXbCovR.png",
+        "averageScore": 74,
+        "episodes": 13,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 13
+      },
+      {
+        "title": "A Galaxy Next Door",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx148098-MI9Rm8JVhSh0.jpg",
+        "averageScore": 70,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 12
+      },
+      {
+        "title": "Plastic Memories",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20872-j5PBzzVtrYDM.jpg",
+        "averageScore": 77,
+        "episodes": 13,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 13
+      },
+      {
+        "title": "ReLIFE",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21049-4AHSLeiDE9eg.png",
+        "averageScore": 78,
+        "episodes": 13,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 13
+      },
+      {
+        "title": "ReLIFE: Final Arc",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98635-U7XClVuynqfY.png",
+        "averageScore": 80,
+        "episodes": 4,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 4
+      },
+      {
+        "title": "Sword Art Online",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx11757-Q9P2zjCPICq5.jpg",
+        "averageScore": 69,
+        "episodes": 25,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 25
+      },
+      {
+        "title": "Tokyo Ghoul",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx20605-fmnHdfurM7m6.jpg",
+        "averageScore": 75,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 12
+      },
+      {
+        "title": "TONIKAWA: Over The Moon For You Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141208-On0qHKxo6P5t.png",
+        "averageScore": 76,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 12
+      },
+      {
+        "title": "Tsuki ga Kirei Special",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100305-CRu6RZ5eINHP.jpg",
+        "averageScore": 70,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 1
+      },
+      {
+        "title": "Horimiya: The Missing Pieces",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163132-C220CO5UrTxY.jpg",
+        "averageScore": 82,
+        "episodes": 13,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 13
+      },
+      {
+        "title": "My Happy Marriage",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx147103-Om2LOXlhHNAe.png",
+        "averageScore": 77,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 12
+      },
+      {
+        "title": "One-Punch Man Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97668-nC8gQrXVxt7k.png",
+        "averageScore": 74,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 12
+      },
+      {
+        "title": "The Seven Deadly Sins: Revival of the Commandments",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99539-caPX28RSsgRP.jpg",
+        "averageScore": 73,
+        "episodes": 24,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 24
+      },
+      {
+        "title": "Kaguya-sama: Love is War -The First Kiss That Never Ends-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151384-gv0q8wOE6D58.jpg",
+        "averageScore": 87,
+        "episodes": 4,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 4
+      },
+      {
+        "title": "Rascal Does Not Dream of a Dreaming Girl",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104157-rk99XI56PaIC.jpg",
+        "averageScore": 84,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 1
+      },
+      {
+        "title": "My Love Story with Yamada-kun at Lv999",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154965-vZbBRjtmLp7S.jpg",
+        "averageScore": 78,
+        "episodes": 13,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 13
+      },
+      {
+        "title": "The Quintessential Quintuplets Movie",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131520-kCOY9XBAbMcX.png",
+        "averageScore": 78,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 1
+      },
+      {
+        "title": "The Tunnel to Summer, the Exit of Goodbyes",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142769-kNyyqpwC9gGV.jpg",
+        "averageScore": 78,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 1
+      },
+      {
+        "title": "Bottom-Tier Character Tomozaki 2nd Stage",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143866-75E3G6nYEUVr.jpg",
+        "averageScore": 70,
+        "episodes": 13,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 13
+      },
+      {
+        "title": "Sacrificial Princess and the King of Beasts",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128715-T4Tne2TcqfVx.jpg",
+        "averageScore": 77,
+        "episodes": 24,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 24
+      },
+      {
+        "title": "Why Raeliana Ended Up at the Duke’s Mansion",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151847-OnTYbvb4y4mp.jpg",
+        "averageScore": 74,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 12
+      },
+      {
+        "title": "Kimi ni Todoke: From Me to You Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx168872-ls6UwxFAw212.jpg",
+        "averageScore": 85,
+        "episodes": 5,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 5
+      },
+      {
+        "title": "Mushoku Tensei: Jobless Reincarnation",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108465-B9S9zC68eS5j.jpg",
+        "averageScore": 82,
+        "episodes": 11,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 11
+      },
+      {
+        "title": "Kubo Won't Let Me Be Invisible",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx148969-3vPgXpMpQvba.jpg",
+        "averageScore": 75,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 7,
         "progress": 12
       },
       {
@@ -3140,24 +2609,6 @@
         "progress": 12
       },
       {
-        "title": "Fullmetal Alchemist: Brotherhood",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5114-Dilr312jctdJ.jpg",
-        "averageScore": 90,
-        "episodes": 64,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 64
-      },
-      {
-        "title": "LOOK BACK",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx174788-tuw7KozIDS8a.jpg",
-        "averageScore": 87,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 8,
-        "progress": 1
-      },
-      {
         "title": "Suzume",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142770-dDaDIRnsv5jN.jpg",
         "averageScore": 82,
@@ -3167,30 +2618,372 @@
         "progress": 1
       },
       {
-        "title": "My Neighbor Totoro",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx523-hTtHgMXI9hLw.jpg",
-        "averageScore": 80,
-        "episodes": 1,
+        "title": "Insomniacs After School",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143653-h6NEdWxKIRza.png",
+        "averageScore": 79,
+        "episodes": 13,
         "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 1
+        "personalScore": 7,
+        "progress": 13
       },
       {
-        "title": "Rent-a-Girlfriend Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124410-iScdHzzEqdmk.png",
-        "averageScore": 66,
+        "title": "Zom 100: Bucket List of the Dead",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx159831-cJUNqCqzuApc.png",
+        "averageScore": 77,
         "episodes": 12,
         "status": "FINISHED",
-        "personalScore": 5,
+        "personalScore": 7,
         "progress": 12
       },
       {
-        "title": "Rent-a-Girlfriend Season 3",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154745-xBr65cJsL3uW.jpg",
+        "title": "Nisekoi:",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20876-CCVVLTSsnKC8.jpg",
+        "averageScore": 71,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 7,
+        "progress": 12
+      },
+      {
+        "title": "Real Girl 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx102882-lKp3ExWNzoE6.jpg",
+        "averageScore": 74,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 12
+      },
+      {
+        "title": "Blue Spring Ride",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20596-fJdMHV8xRMgY.png",
+        "averageScore": 74,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 12
+      },
+      {
+        "title": "Remake Our Life!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114065-YPPyW7ZSxfYU.jpg",
+        "averageScore": 72,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 12
+      },
+      {
+        "title": "Words Bubble Up Like Soda Pop",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx107625-2UIAI4TRwXz0.jpg",
+        "averageScore": 74,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 1
+      },
+      {
+        "title": "Clannad: Another World, Kyou Chapter",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/6351.jpg",
+        "averageScore": 74,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 1
+      },
+      {
+        "title": "Children who Chase Lost Voices",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9760-Ur2uU0HuF1Iz.jpg",
+        "averageScore": 71,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 1
+      },
+      {
+        "title": "DON'T TOY WITH ME, MISS NAGATORO",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx120697-72Sf22C9PTQn.jpg",
+        "averageScore": 70,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 12
+      },
+      {
+        "title": "Fena: Pirate Princess",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx122052-nb8cfAe7pniT.jpg",
         "averageScore": 69,
         "episodes": 12,
         "status": "FINISHED",
-        "personalScore": 5,
+        "personalScore": 6,
+        "progress": 12
+      },
+      {
+        "title": "A Couple of Cuckoos",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx132052-3gDTi19HyW6E.png",
+        "averageScore": 67,
+        "episodes": 24,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 24
+      },
+      {
+        "title": "His and Her Circumstances",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx145-PBhmfYZ0gHdq.png",
+        "averageScore": 75,
+        "episodes": 26,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 26
+      },
+      {
+        "title": "Shikimori's Not Just a Cutie",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127911-cQVL0dhldFwn.jpg",
+        "averageScore": 68,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 12
+      },
+      {
+        "title": "Ride Your Wave",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105018-XM7rFyryltjb.jpg",
+        "averageScore": 75,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 1
+      },
+      {
+        "title": "After the Rain",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98385-GYmOoxtwWVhz.jpg",
+        "averageScore": 73,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 12
+      },
+      {
+        "title": "Lovely Complex",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2034-to85QywohtUL.png",
+        "averageScore": 77,
+        "episodes": 24,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 24
+      },
+      {
+        "title": "Ao-chan Can't Study!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105989-Jooq6bqkeeiP.jpg",
+        "averageScore": 64,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 12
+      },
+      {
+        "title": "Naruto",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20-LxrhhIQyiE60.jpg",
+        "averageScore": 79,
+        "episodes": 220,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 220
+      },
+      {
+        "title": "Naruto the Movie: Ninja Clash in the Land of Snow",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx442-VJbmIVTgmne3.png",
+        "averageScore": 67,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 1
+      },
+      {
+        "title": "Naruto the Movie: Legend of the Stone of Gelel",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx936-P1ogcIs07UR8.jpg",
+        "averageScore": 65,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 1
+      },
+      {
+        "title": "Naruto the Movie: Guardians of the Crescent Moon Kingdom",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2144-9FITEzdGnlWC.jpg",
+        "averageScore": 65,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 1
+      },
+      {
+        "title": "Recovery of an MMO Junkie OVA",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100684-dTFSHninTMEg.jpg",
+        "averageScore": 71,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 1
+      },
+      {
+        "title": "The Pet Girl of Sakurasou",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx13759-44TVZe8xNOJx.jpg",
+        "averageScore": 78,
+        "episodes": 24,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 24
+      },
+      {
+        "title": "The Moment You Fall in Love",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21757-zH78HtS4b0GU.png",
+        "averageScore": 68,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 1
+      },
+      {
+        "title": "Taisho Otome Fairy Tale",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127412-dpHXV2X9tskV.jpg",
+        "averageScore": 76,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 12
+      },
+      {
+        "title": "My Little Monster",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx14227-VGxPG1xDZG7v.jpg",
+        "averageScore": 72,
+        "episodes": 13,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 13
+      },
+      {
+        "title": "Tsuredure Children",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98291-LY6txxZTX8We.jpg",
+        "averageScore": 74,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 12
+      },
+      {
+        "title": "I've Always Liked You",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21296-WtdIXdg64GCK.jpg",
+        "averageScore": 69,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 1
+      },
+      {
+        "title": "A Sign of Affection",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166794-veSLL0zrrBhp.jpg",
+        "averageScore": 82,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 12
+      },
+      {
+        "title": "Tokyo Ghoul:re",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100240-vJNaKd5HwPJ2.jpg",
+        "averageScore": 61,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 12
+      },
+      {
+        "title": "The Seven Deadly Sins: Imperial Wrath of the Gods",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108928-DuyUzi0JyPIr.jpg",
+        "averageScore": 62,
+        "episodes": 24,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 24
+      },
+      {
+        "title": "The Seven Deadly Sins: Dragon's Judgement",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx116752-yIJuKp88adqt.jpg",
+        "averageScore": 65,
+        "episodes": 24,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 24
+      },
+      {
+        "title": "Boku no Hero Academia THE MOVIE: Heroes:Rising - Epilogue Plus: Yume wo Genjitsu ni",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx126661-61SI7n5njMNM.jpg",
+        "averageScore": 73,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 1
+      },
+      {
+        "title": "Boku no Hero Academia THE MOVIE: World Heroes' Mission - Tabidachi",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142411-Hb2c6mMLs6Jb.png",
+        "averageScore": 73,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 1
+      },
+      {
+        "title": "Skip and Loafer",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141911-LqaNFCgfcj3M.jpg",
+        "averageScore": 81,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 12
+      },
+      {
+        "title": "An Archdemon's Dilemma: How to Love Your Elf Bride",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx156023-cY4NC8gCcAg7.jpg",
+        "averageScore": 73,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 12
+      },
+      {
+        "title": "Unnamed Memory",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx158709-WFA0RHloDvPl.jpg",
+        "averageScore": 66,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 12
+      },
+      {
+        "title": "You are Ms. Servant",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172190-i1IqizIUcKkN.jpg",
+        "averageScore": 69,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 12
+      },
+      {
+        "title": "Sword Art Online II",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx20594-FhRgZ1H9Istt.jpg",
+        "averageScore": 65,
+        "episodes": 24,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 24
+      },
+      {
+        "title": "The Ice Guy and His Cool Female Colleague",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151252-ywrMmJG1Loc3.jpg",
+        "averageScore": 72,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 6,
         "progress": 12
       },
       {
@@ -3201,15 +2994,6 @@
         "status": "FINISHED",
         "personalScore": 6,
         "progress": 13
-      },
-      {
-        "title": "Aharen-san wa Hakarenai",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx137281-kSbcUUCqUf8m.jpg",
-        "averageScore": 71,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 0,
-        "progress": 12
       },
       {
         "title": "BLUE LOCK Season 2",
@@ -3230,13 +3014,283 @@
         "progress": 12
       },
       {
-        "title": "Insomniacs After School",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143653-h6NEdWxKIRza.png",
-        "averageScore": 79,
+        "title": "Mushoku Tensei: Jobless Reincarnation Cour 2 - Eris the Goblin Slayer",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141534-Tmnlz4mvYhaU.jpg",
+        "averageScore": 78,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 1
+      },
+      {
+        "title": "Nisekoimonogatari",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx106495-gEnPvRaS5HoU.jpg",
+        "averageScore": 64,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 6,
+        "progress": 1
+      },
+      {
+        "title": "Real Girl",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100526-Hw6U34Hw2TDb.jpg",
+        "averageScore": 65,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 12
+      },
+      {
+        "title": "Ao Haru Ride: unwritten",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20837-yK7SvUj1Tg7l.jpg",
+        "averageScore": 72,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 2
+      },
+      {
+        "title": "We Were There",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1222-kRIt3mFjuDaW.png",
+        "averageScore": 67,
+        "episodes": 26,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 26
+      },
+      {
+        "title": "Hiyokoi",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/8768.jpg",
+        "averageScore": 68,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 1
+      },
+      {
+        "title": "Just Because!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98820-EVHeNEUOWkh3.jpg",
+        "averageScore": 69,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 12
+      },
+      {
+        "title": "Kimi dake ni Motetainda.",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx111290-GhO0VIUb2hlB.jpg",
+        "averageScore": 48,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 1
+      },
+      {
+        "title": "Vermeil in Gold",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146210-ZnIithxFLLHn.jpg",
+        "averageScore": 67,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 12
+      },
+      {
+        "title": "Masamune-kun's Revenge",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21857-haPDVD7DKDpg.jpg",
+        "averageScore": 65,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 12
+      },
+      {
+        "title": "Shagahai ReLIFE Kenkyuujo Support-ka",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b108939-t99SwYtxtBuR.jpg",
+        "averageScore": 69,
+        "episodes": 2,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 2
+      },
+      {
+        "title": "Say \"I love you\".",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx14289-vRTzC8u4XuvW.png",
+        "averageScore": 71,
         "episodes": 13,
         "status": "FINISHED",
-        "personalScore": 7,
+        "personalScore": 5,
         "progress": 13
+      },
+      {
+        "title": "Sukitte Ii na yo.: Dareka ga",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/16868.jpg",
+        "averageScore": 68,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 1
+      },
+      {
+        "title": "SING \"YESTERDAY\" FOR ME",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx109020-sRBusiVXbsLH.jpg",
+        "averageScore": 67,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 12
+      },
+      {
+        "title": "Yesterday wo Utatte Extras",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx117496-CP35rVXw69hq.png",
+        "averageScore": 65,
+        "episodes": 6,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 6
+      },
+      {
+        "title": "Tokyo Ghoul:re 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx102351-yD3Ty9YZFMsf.jpg",
+        "averageScore": 61,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 12
+      },
+      {
+        "title": "The Seven Deadly Sins the Movie: Prisoners of the Sky",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx99540-QnY48c1oifvY.jpg",
+        "averageScore": 69,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 1
+      },
+      {
+        "title": "The Seven Deadly Sins: Cursed by Light",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128740-xpjfCO2kpFdz.png",
+        "averageScore": 70,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 1
+      },
+      {
+        "title": "TONIKAWA: Over The Moon For You ~Uniform~",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141212-653p6mvmOCgz.jpg",
+        "averageScore": 77,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 1
+      },
+      {
+        "title": "A Whisker Away",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114963-QWMbi5ttovSK.png",
+        "averageScore": 72,
+        "episodes": 1,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 1
+      },
+      {
+        "title": "The Promised Neverland Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108725-ZKivuyr4Jtc9.jpg",
+        "averageScore": 51,
+        "episodes": 11,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 11
+      },
+      {
+        "title": "A Condition Called Love",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx165855-uJ0Hq5EFUlz8.jpg",
+        "averageScore": 66,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 12
+      },
+      {
+        "title": "Demon Slayer: Kimetsu no Yaiba Hashira Training Arc",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166240-PBV7zukIHW7V.png",
+        "averageScore": 81,
+        "episodes": 8,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 8
+      },
+      {
+        "title": "The Angel Next Door Spoils Me Rotten",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143338-zhyDVYgEzsm5.png",
+        "averageScore": 77,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 12
+      },
+      {
+        "title": "The Do-Over Damsel Conquers the Dragon Emperor",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx164299-j4yHiK4j1ON7.jpg",
+        "averageScore": 69,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 12
+      },
+      {
+        "title": "I’ll Become a Villainess Who Goes Down in History",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx168139-nGLXIdSksKCI.jpg",
+        "averageScore": 72,
+        "episodes": 13,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 13
+      },
+      {
+        "title": "Sword Art Online: Alicization",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100182-KctPmCJ2smHQ.jpg",
+        "averageScore": 75,
+        "episodes": 24,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 24
+      },
+      {
+        "title": "Sword Art Online: Alicization - War of Underworld",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108759-jcXbDf9BJTcb.jpg",
+        "averageScore": 75,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 12
+      },
+      {
+        "title": "Rent-a-Girlfriend",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113813-1hraQMAxU4VG.jpg",
+        "averageScore": 66,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 12
+      },
+      {
+        "title": "Rent-a-Girlfriend Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124410-iScdHzzEqdmk.png",
+        "averageScore": 66,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 12
+      },
+      {
+        "title": "Rent-a-Girlfriend Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154745-xBr65cJsL3uW.jpg",
+        "averageScore": 69,
+        "episodes": 12,
+        "status": "FINISHED",
+        "personalScore": 5,
+        "progress": 12
       },
       {
         "title": "More than a Married Couple, but Not Lovers.",
@@ -3248,24 +3302,6 @@
         "progress": 12
       },
       {
-        "title": "Mushoku Tensei: Jobless Reincarnation Cour 2 - Eris the Goblin Slayer",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141534-Tmnlz4mvYhaU.jpg",
-        "averageScore": 78,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 1
-      },
-      {
-        "title": "Zom 100: Bucket List of the Dead",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx159831-cJUNqCqzuApc.png",
-        "averageScore": 77,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 12
-      },
-      {
         "title": "Sword Art Online: Alicization - War of Underworld Part 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114308-8UBiS7U9buzu.jpg",
         "averageScore": 74,
@@ -3273,15 +3309,6 @@
         "status": "FINISHED",
         "personalScore": 5,
         "progress": 11
-      },
-      {
-        "title": "Nisekoi:",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20876-CCVVLTSsnKC8.jpg",
-        "averageScore": 71,
-        "episodes": 12,
-        "status": "FINISHED",
-        "personalScore": 7,
-        "progress": 12
       },
       {
         "title": "Nisekoi: OVA",
@@ -3302,49 +3329,22 @@
         "progress": 3
       },
       {
-        "title": "Dr. STONE: STONE WARS",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113936-41Lz6Vtmfh1A.jpg",
-        "averageScore": 81,
-        "episodes": 11,
+        "title": "ItaKiss",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx3731-aCN5LnCn08qm.png",
+        "averageScore": 69,
+        "episodes": 25,
         "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 2
+        "personalScore": 4,
+        "progress": 25
       },
       {
-        "title": "Dr. STONE New World",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131518-RU7RoUmGb2sP.jpg",
-        "averageScore": 81,
-        "episodes": 11,
+        "title": "Aharen-san wa Hakarenai",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx137281-kSbcUUCqUf8m.jpg",
+        "averageScore": 71,
+        "episodes": 12,
         "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 11
-      },
-      {
-        "title": "Dr. STONE Special Episode – RYUSUI",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142876-izO35hPP2DZ9.jpg",
-        "averageScore": 81,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 1
-      },
-      {
-        "title": "Dr. STONE New World Part 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162670-07XrFq2hreTx.jpg",
-        "averageScore": 83,
-        "episodes": 11,
-        "status": "FINISHED",
-        "personalScore": 9,
-        "progress": 11
-      },
-      {
-        "title": "Nisekoimonogatari",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx106495-gEnPvRaS5HoU.jpg",
-        "averageScore": 64,
-        "episodes": 1,
-        "status": "FINISHED",
-        "personalScore": 6,
-        "progress": 1
+        "personalScore": 0,
+        "progress": 12
       },
       {
         "title": "Shelter",
@@ -3375,15 +3375,6 @@
     "name": "Rewatching",
     "entries": [
       {
-        "title": "Death Note",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1535-4r88a1tsBEIz.jpg",
-        "averageScore": 84,
-        "episodes": 37,
-        "status": "FINISHED",
-        "personalScore": 8,
-        "progress": 19
-      },
-      {
         "title": "Dr. STONE",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105333-02NGkx1vey2C.jpg",
         "averageScore": 81,
@@ -3391,84 +3382,21 @@
         "status": "FINISHED",
         "personalScore": 9,
         "progress": 11
+      },
+      {
+        "title": "Death Note",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1535-4r88a1tsBEIz.jpg",
+        "averageScore": 84,
+        "episodes": 37,
+        "status": "FINISHED",
+        "personalScore": 8,
+        "progress": 19
       }
     ]
   },
   {
     "name": "Watching",
     "entries": [
-      {
-        "title": "Hunter x Hunter (2011)",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11061-NpIIobuQNbJW.png",
-        "averageScore": 89,
-        "episodes": 148,
-        "status": "FINISHED",
-        "personalScore": 0,
-        "progress": 41
-      },
-      {
-        "title": "Honey Lemon Soda",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx175443-yeamxYxCwLSe.jpg",
-        "averageScore": 67,
-        "episodes": 12,
-        "status": "RELEASING",
-        "personalScore": 7,
-        "progress": 8
-      },
-      {
-        "title": "Tying the Knot with an Amagami Sister",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx164172-GY2aqItIuqtR.jpg",
-        "averageScore": 68,
-        "episodes": 24,
-        "status": "RELEASING",
-        "personalScore": 6,
-        "progress": 20
-      },
-      {
-        "title": "Blue Box",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170942-B77wUSM1jQTu.jpg",
-        "averageScore": 81,
-        "episodes": 25,
-        "status": "RELEASING",
-        "personalScore": 8,
-        "progress": 21
-      },
-      {
-        "title": "Orb: On the Movements of the Earth",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151514-BcU5RmSWhvv0.jpg",
-        "averageScore": 82,
-        "episodes": 25,
-        "status": "RELEASING",
-        "personalScore": 5,
-        "progress": 22
-      },
-      {
-        "title": "Unnamed Memory Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178550-1mjYHtOwiqkC.jpg",
-        "averageScore": 68,
-        "episodes": 12,
-        "status": "RELEASING",
-        "personalScore": 5,
-        "progress": 8
-      },
-      {
-        "title": "My Happy Marriage Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx169441-wIQe1xfCc1XS.jpg",
-        "averageScore": 76,
-        "episodes": 13,
-        "status": "RELEASING",
-        "personalScore": 8,
-        "progress": 8
-      },
-      {
-        "title": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172258-CFvhqor0blLV.jpg",
-        "averageScore": 79,
-        "episodes": 12,
-        "status": "RELEASING",
-        "personalScore": 6,
-        "progress": 7
-      },
       {
         "title": "The Apothecary Diaries Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176301-AclxpmzlKoBM.jpg",
@@ -3488,12 +3416,102 @@
         "progress": 8
       },
       {
+        "title": "Blue Box",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170942-B77wUSM1jQTu.jpg",
+        "averageScore": 81,
+        "episodes": 25,
+        "status": "RELEASING",
+        "personalScore": 8,
+        "progress": 21
+      },
+      {
+        "title": "My Happy Marriage Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx169441-wIQe1xfCc1XS.jpg",
+        "averageScore": 76,
+        "episodes": 13,
+        "status": "RELEASING",
+        "personalScore": 8,
+        "progress": 8
+      },
+      {
+        "title": "SAKAMOTO DAYS",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177709-jBQ965JZG0l8.png",
+        "averageScore": 76,
+        "episodes": 11,
+        "status": "RELEASING",
+        "personalScore": 8,
+        "progress": 8
+      },
+      {
+        "title": "Dr. STONE SCIENCE FUTURE",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172019-y0dLlAdingR2.jpg",
+        "averageScore": 81,
+        "episodes": 12,
+        "status": "RELEASING",
+        "personalScore": 8,
+        "progress": 7
+      },
+      {
+        "title": "Medalist",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx165171-nTOHsbh3pThN.jpg",
+        "averageScore": 79,
+        "episodes": 13,
+        "status": "RELEASING",
+        "personalScore": 8,
+        "progress": 8
+      },
+      {
+        "title": "Rurouni Kenshin -Kyoto Disturbance-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b171637-h17RbEFtR0rQ.png",
+        "averageScore": 78,
+        "episodes": 23,
+        "status": "RELEASING",
+        "personalScore": 8,
+        "progress": 19
+      },
+      {
+        "title": "Honey Lemon Soda",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx175443-yeamxYxCwLSe.jpg",
+        "averageScore": 67,
+        "episodes": 12,
+        "status": "RELEASING",
+        "personalScore": 7,
+        "progress": 8
+      },
+      {
         "title": "Toilet-bound Hanako-kun Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170892-VFCGRI41xFUF.jpg",
         "averageScore": 78,
         "episodes": 12,
         "status": "RELEASING",
         "personalScore": 7,
+        "progress": 7
+      },
+      {
+        "title": "ZENSHU",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176273-whKlFCswinEm.jpg",
+        "averageScore": 68,
+        "episodes": 12,
+        "status": "RELEASING",
+        "personalScore": 7,
+        "progress": 8
+      },
+      {
+        "title": "Tying the Knot with an Amagami Sister",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx164172-GY2aqItIuqtR.jpg",
+        "averageScore": 68,
+        "episodes": 24,
+        "status": "RELEASING",
+        "personalScore": 6,
+        "progress": 20
+      },
+      {
+        "title": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172258-CFvhqor0blLV.jpg",
+        "averageScore": 79,
+        "episodes": 12,
+        "status": "RELEASING",
+        "personalScore": 6,
         "progress": 7
       },
       {
@@ -3515,21 +3533,39 @@
         "progress": 8
       },
       {
-        "title": "ZENSHU",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176273-whKlFCswinEm.jpg",
-        "averageScore": 68,
+        "title": "Flower and Asura",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178022-gB3zAfazGBJ6.jpg",
+        "averageScore": 71,
         "episodes": 12,
         "status": "RELEASING",
-        "personalScore": 7,
+        "personalScore": 6,
         "progress": 8
       },
       {
-        "title": "SAKAMOTO DAYS",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177709-jBQ965JZG0l8.png",
-        "averageScore": 76,
-        "episodes": 11,
+        "title": "I Have a Crush at Work",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx179696-1MAqXYVXT7IT.jpg",
+        "averageScore": 72,
+        "episodes": 12,
         "status": "RELEASING",
-        "personalScore": 8,
+        "personalScore": 6,
+        "progress": 8
+      },
+      {
+        "title": "Orb: On the Movements of the Earth",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151514-BcU5RmSWhvv0.jpg",
+        "averageScore": 82,
+        "episodes": 25,
+        "status": "RELEASING",
+        "personalScore": 5,
+        "progress": 22
+      },
+      {
+        "title": "Unnamed Memory Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178550-1mjYHtOwiqkC.jpg",
+        "averageScore": 68,
+        "episodes": 12,
+        "status": "RELEASING",
+        "personalScore": 5,
         "progress": 8
       },
       {
@@ -3542,15 +3578,6 @@
         "progress": 8
       },
       {
-        "title": "Flower and Asura",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178022-gB3zAfazGBJ6.jpg",
-        "averageScore": 71,
-        "episodes": 12,
-        "status": "RELEASING",
-        "personalScore": 6,
-        "progress": 8
-      },
-      {
         "title": "Medaka Kuroiwa is Impervious to My Charms",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177552-JPx2rIXeprne.jpg",
         "averageScore": 61,
@@ -3558,6 +3585,24 @@
         "status": "RELEASING",
         "personalScore": 5,
         "progress": 8
+      },
+      {
+        "title": "I May Be a Guild Receptionist, but I’ll Solo Any Boss to Clock Out on Time",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx167143-SoFo5kOvlkbO.jpg",
+        "averageScore": 67,
+        "episodes": 12,
+        "status": "RELEASING",
+        "personalScore": 5,
+        "progress": 7
+      },
+      {
+        "title": "Hunter x Hunter (2011)",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11061-NpIIobuQNbJW.png",
+        "averageScore": 89,
+        "episodes": 148,
+        "status": "FINISHED",
+        "personalScore": 0,
+        "progress": 41
       },
       {
         "title": "Fire Force",
@@ -3576,51 +3621,6 @@
         "status": "FINISHED",
         "personalScore": 0,
         "progress": 15
-      },
-      {
-        "title": "Dr. STONE SCIENCE FUTURE",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172019-y0dLlAdingR2.jpg",
-        "averageScore": 81,
-        "episodes": 12,
-        "status": "RELEASING",
-        "personalScore": 8,
-        "progress": 7
-      },
-      {
-        "title": "Medalist",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx165171-nTOHsbh3pThN.jpg",
-        "averageScore": 79,
-        "episodes": 13,
-        "status": "RELEASING",
-        "personalScore": 8,
-        "progress": 8
-      },
-      {
-        "title": "I Have a Crush at Work",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx179696-1MAqXYVXT7IT.jpg",
-        "averageScore": 72,
-        "episodes": 12,
-        "status": "RELEASING",
-        "personalScore": 6,
-        "progress": 8
-      },
-      {
-        "title": "I May Be a Guild Receptionist, but I’ll Solo Any Boss to Clock Out on Time",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx167143-SoFo5kOvlkbO.jpg",
-        "averageScore": 67,
-        "episodes": 12,
-        "status": "RELEASING",
-        "personalScore": 5,
-        "progress": 7
-      },
-      {
-        "title": "Rurouni Kenshin -Kyoto Disturbance-",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b171637-h17RbEFtR0rQ.png",
-        "averageScore": 78,
-        "episodes": 23,
-        "status": "RELEASING",
-        "personalScore": 8,
-        "progress": 19
       }
     ]
   },
@@ -3714,69 +3714,6 @@
     "name": "Watched using Miru",
     "entries": [
       {
-        "title": "Honey Lemon Soda",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx175443-yeamxYxCwLSe.jpg",
-        "averageScore": 67,
-        "episodes": 12,
-        "status": "RELEASING",
-        "personalScore": 7,
-        "progress": 8
-      },
-      {
-        "title": "Tying the Knot with an Amagami Sister",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx164172-GY2aqItIuqtR.jpg",
-        "averageScore": 68,
-        "episodes": 24,
-        "status": "RELEASING",
-        "personalScore": 6,
-        "progress": 20
-      },
-      {
-        "title": "Blue Box",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170942-B77wUSM1jQTu.jpg",
-        "averageScore": 81,
-        "episodes": 25,
-        "status": "RELEASING",
-        "personalScore": 8,
-        "progress": 21
-      },
-      {
-        "title": "Orb: On the Movements of the Earth",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151514-BcU5RmSWhvv0.jpg",
-        "averageScore": 82,
-        "episodes": 25,
-        "status": "RELEASING",
-        "personalScore": 5,
-        "progress": 22
-      },
-      {
-        "title": "Unnamed Memory Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178550-1mjYHtOwiqkC.jpg",
-        "averageScore": 68,
-        "episodes": 12,
-        "status": "RELEASING",
-        "personalScore": 5,
-        "progress": 8
-      },
-      {
-        "title": "My Happy Marriage Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx169441-wIQe1xfCc1XS.jpg",
-        "averageScore": 76,
-        "episodes": 13,
-        "status": "RELEASING",
-        "personalScore": 8,
-        "progress": 8
-      },
-      {
-        "title": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172258-CFvhqor0blLV.jpg",
-        "averageScore": 79,
-        "episodes": 12,
-        "status": "RELEASING",
-        "personalScore": 6,
-        "progress": 7
-      },
-      {
         "title": "The Apothecary Diaries Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176301-AclxpmzlKoBM.jpg",
         "averageScore": 85,
@@ -3795,39 +3732,21 @@
         "progress": 8
       },
       {
-        "title": "Toilet-bound Hanako-kun Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170892-VFCGRI41xFUF.jpg",
-        "averageScore": 78,
-        "episodes": 12,
+        "title": "Blue Box",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170942-B77wUSM1jQTu.jpg",
+        "averageScore": 81,
+        "episodes": 25,
         "status": "RELEASING",
-        "personalScore": 7,
-        "progress": 7
+        "personalScore": 8,
+        "progress": 21
       },
       {
-        "title": "I Want to Escape from Princess Lessons",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170650-iVQC67atMVj3.png",
-        "averageScore": 50,
-        "episodes": 12,
+        "title": "My Happy Marriage Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx169441-wIQe1xfCc1XS.jpg",
+        "averageScore": 76,
+        "episodes": 13,
         "status": "RELEASING",
-        "personalScore": 6,
-        "progress": 8
-      },
-      {
-        "title": "I'm Getting Married to a Girl I Hate in My Class",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178462-YW6BgSGGP4az.jpg",
-        "averageScore": 68,
-        "episodes": 12,
-        "status": "RELEASING",
-        "personalScore": 6,
-        "progress": 8
-      },
-      {
-        "title": "ZENSHU",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176273-whKlFCswinEm.jpg",
-        "averageScore": 68,
-        "episodes": 12,
-        "status": "RELEASING",
-        "personalScore": 7,
+        "personalScore": 8,
         "progress": 8
       },
       {
@@ -3837,33 +3756,6 @@
         "episodes": 11,
         "status": "RELEASING",
         "personalScore": 8,
-        "progress": 8
-      },
-      {
-        "title": "Welcome to Japan, Ms. Elf!",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172439-sTda7baXB0Fh.jpg",
-        "averageScore": 69,
-        "episodes": 12,
-        "status": "RELEASING",
-        "personalScore": 5,
-        "progress": 8
-      },
-      {
-        "title": "Flower and Asura",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178022-gB3zAfazGBJ6.jpg",
-        "averageScore": 71,
-        "episodes": 12,
-        "status": "RELEASING",
-        "personalScore": 6,
-        "progress": 8
-      },
-      {
-        "title": "Medaka Kuroiwa is Impervious to My Charms",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177552-JPx2rIXeprne.jpg",
-        "averageScore": 61,
-        "episodes": 12,
-        "status": "RELEASING",
-        "personalScore": 5,
         "progress": 8
       },
       {
@@ -3885,12 +3777,129 @@
         "progress": 8
       },
       {
+        "title": "Rurouni Kenshin -Kyoto Disturbance-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b171637-h17RbEFtR0rQ.png",
+        "averageScore": 78,
+        "episodes": 23,
+        "status": "RELEASING",
+        "personalScore": 8,
+        "progress": 19
+      },
+      {
+        "title": "Honey Lemon Soda",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx175443-yeamxYxCwLSe.jpg",
+        "averageScore": 67,
+        "episodes": 12,
+        "status": "RELEASING",
+        "personalScore": 7,
+        "progress": 8
+      },
+      {
+        "title": "Toilet-bound Hanako-kun Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170892-VFCGRI41xFUF.jpg",
+        "averageScore": 78,
+        "episodes": 12,
+        "status": "RELEASING",
+        "personalScore": 7,
+        "progress": 7
+      },
+      {
+        "title": "ZENSHU",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176273-whKlFCswinEm.jpg",
+        "averageScore": 68,
+        "episodes": 12,
+        "status": "RELEASING",
+        "personalScore": 7,
+        "progress": 8
+      },
+      {
+        "title": "Tying the Knot with an Amagami Sister",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx164172-GY2aqItIuqtR.jpg",
+        "averageScore": 68,
+        "episodes": 24,
+        "status": "RELEASING",
+        "personalScore": 6,
+        "progress": 20
+      },
+      {
+        "title": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172258-CFvhqor0blLV.jpg",
+        "averageScore": 79,
+        "episodes": 12,
+        "status": "RELEASING",
+        "personalScore": 6,
+        "progress": 7
+      },
+      {
+        "title": "I Want to Escape from Princess Lessons",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170650-iVQC67atMVj3.png",
+        "averageScore": 50,
+        "episodes": 12,
+        "status": "RELEASING",
+        "personalScore": 6,
+        "progress": 8
+      },
+      {
+        "title": "I'm Getting Married to a Girl I Hate in My Class",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178462-YW6BgSGGP4az.jpg",
+        "averageScore": 68,
+        "episodes": 12,
+        "status": "RELEASING",
+        "personalScore": 6,
+        "progress": 8
+      },
+      {
+        "title": "Flower and Asura",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178022-gB3zAfazGBJ6.jpg",
+        "averageScore": 71,
+        "episodes": 12,
+        "status": "RELEASING",
+        "personalScore": 6,
+        "progress": 8
+      },
+      {
         "title": "I Have a Crush at Work",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx179696-1MAqXYVXT7IT.jpg",
         "averageScore": 72,
         "episodes": 12,
         "status": "RELEASING",
         "personalScore": 6,
+        "progress": 8
+      },
+      {
+        "title": "Orb: On the Movements of the Earth",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151514-BcU5RmSWhvv0.jpg",
+        "averageScore": 82,
+        "episodes": 25,
+        "status": "RELEASING",
+        "personalScore": 5,
+        "progress": 22
+      },
+      {
+        "title": "Unnamed Memory Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178550-1mjYHtOwiqkC.jpg",
+        "averageScore": 68,
+        "episodes": 12,
+        "status": "RELEASING",
+        "personalScore": 5,
+        "progress": 8
+      },
+      {
+        "title": "Welcome to Japan, Ms. Elf!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172439-sTda7baXB0Fh.jpg",
+        "averageScore": 69,
+        "episodes": 12,
+        "status": "RELEASING",
+        "personalScore": 5,
+        "progress": 8
+      },
+      {
+        "title": "Medaka Kuroiwa is Impervious to My Charms",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177552-JPx2rIXeprne.jpg",
+        "averageScore": 61,
+        "episodes": 12,
+        "status": "RELEASING",
+        "personalScore": 5,
         "progress": 8
       },
       {
@@ -3901,15 +3910,6 @@
         "status": "RELEASING",
         "personalScore": 5,
         "progress": 7
-      },
-      {
-        "title": "Rurouni Kenshin -Kyoto Disturbance-",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b171637-h17RbEFtR0rQ.png",
-        "averageScore": 78,
-        "episodes": 23,
-        "status": "RELEASING",
-        "personalScore": 8,
-        "progress": 19
       }
     ]
   }

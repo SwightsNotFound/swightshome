@@ -52,7 +52,7 @@ async function fetchUserAnimeList() {
                 status: entry.media.status,
                 personalScore: entry.score,
                 progress: entry.progress
-            }))
+            })).sort((a, b) => b.personalScore - a.personalScore)
         }));
 
         fs.writeFileSync(path.join(__dirname, '../anime_list.json'), JSON.stringify(animeList, null, 2));

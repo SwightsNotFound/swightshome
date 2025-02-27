@@ -10,12 +10,40 @@
             background-color: #f5f5f5;
             margin: 0;
             padding: 0;
+            display: flex;
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            height: 100%;
+        }
+
+        .sidebar h2 {
+            color: #fff;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+
+        .sidebar ul li a {
+            color: #fff;
+            text-decoration: none;
         }
 
         .container {
-            width: 80%;
-            margin: 0 auto;
+            margin-left: 220px;
             padding: 20px;
+            width: calc(100% - 220px);
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -33,11 +61,13 @@
             color: #555;
             border-bottom: 2px solid #ddd;
             padding-bottom: 10px;
+            cursor: pointer;
         }
 
         .anime-list {
             list-style: none;
             padding: 0;
+            display: none; /* Hide by default */
         }
 
         .anime-item {
@@ -54,6 +84,16 @@
             margin-right: 20px;
         }
 
+        .anime-item .status-dot {
+            width: 10px;
+            height: 10px;
+            background-color: green;
+            border-radius: 50%;
+            position: absolute;
+            top: 30px;
+            left: -20px;
+        }
+
         .anime-info {
             flex-grow: 1;
         }
@@ -68,22 +108,23 @@
             color: #777;
         }
 
-        .status-dot {
-            width: 10px;
-            height: 10px;
-            background-color: green;
-            border-radius: 50%;
-            position: absolute;
-            top: 10px;
-            left: 60px;
-        }
-
         html {
             scroll-behavior: smooth;
         }
     </style>
 </head>
 <body>
+    <div class="sidebar">
+        <h2>Sections</h2>
+        <ul>
+            <li><a href="#watching">Watching</a></li>
+            <li><a href="#completed">Completed</a></li>
+            <li><a href="#dropped">Dropped</a></li>
+            <li><a href="#paused">Paused</a></li>
+            <li><a href="#planning">Planning</a></li>
+        </ul>
+    </div>
+
     <div class="container">
         <h1>My Anime List</h1>
         <div class="section" id="watching">
@@ -151,16 +192,16 @@
                     const li = document.createElement('li');
                     li.classList.add('anime-item');
 
-                    const img = document.createElement('img');
-                    img.src = anime.coverImage;
-                    img.alt = anime.title;
-                    li.appendChild(img);
-
                     if (anime.status === "RELEASING") {
                         const statusDot = document.createElement('div');
                         statusDot.classList.add('status-dot');
                         li.appendChild(statusDot);
                     }
+
+                    const img = document.createElement('img');
+                    img.src = anime.coverImage;
+                    img.alt = anime.title;
+                    li.appendChild(img);
 
                     const infoDiv = document.createElement('div');
                     infoDiv.classList.add('anime-info');
@@ -182,6 +223,21 @@
                 });
             });
         }
+
+        // Function to toggle the display of anime lists
+        function toggleSection(event) {
+            const animeList = event.target.nextElementSibling;
+            if (animeList.style.display === "none" || animeList.style.display === "") {
+                animeList.style.display = "block";
+            } else {
+                animeList.style.display = "none";
+            }
+        }
+
+        // Add event listeners to section headers
+        document.querySelectorAll('.section h2').forEach(header => {
+            header.addEventListener('click', toggleSection);
+        });
 
         // Populate the anime list on page load
         populateAnimeList();

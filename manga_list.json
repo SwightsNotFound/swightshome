@@ -1,0 +1,481 @@
+[
+  {
+    "name": "Reading",
+    "entries": [
+      {
+        "title": "Dengeki Daisy",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx35255-30ZO1gj8HOON.png",
+        "averageScore": 77,
+        "chapters": 80,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 43
+      },
+      {
+        "title": "Tokyo Ghoul",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx63327-4KfhQ64AklrK.png",
+        "averageScore": 84,
+        "chapters": 144,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Horror",
+          "Mystery",
+          "Psychological",
+          "Supernatural"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 1
+      },
+      {
+        "title": "The Fragrant Flower Blooms With Dignity",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx140475-QEGtrmdvbpOv.jpg",
+        "averageScore": 87,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 50
+      },
+      {
+        "title": "Tsuiraku JK to Haijin Kyoushi",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx99737-fmQITnDd3cUU.jpg",
+        "averageScore": 77,
+        "chapters": 139,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 33
+      },
+      {
+        "title": "Ao Haru Ride",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx54294-Nabu5Ag0L2ay.jpg",
+        "averageScore": 78,
+        "chapters": 53,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 2
+      }
+    ]
+  },
+  {
+    "name": "Planning",
+    "entries": [
+      {
+        "title": "Land of the Lustrous",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx74489-bTNWsnzztzmI.jpg",
+        "averageScore": 89,
+        "chapters": 108,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Mystery",
+          "Psychological",
+          "Sci-Fi"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0
+      },
+      {
+        "title": "Omniscient Reader",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx119257-KzlNZtgbRzxF.jpg",
+        "averageScore": 85,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "format": "MANGA",
+        "country": "KR",
+        "personalScore": 0,
+        "progress": 0
+      },
+      {
+        "title": "Her and My Home",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx38439-NGqOMfNbPIzf.png",
+        "averageScore": 62,
+        "chapters": 4,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0
+      },
+      {
+        "title": "Daytime Shooting Star",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx57231-EBobSNzMi3iV.jpg",
+        "averageScore": 78,
+        "chapters": 86,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0
+      },
+      {
+        "title": "Death Note",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx30021-FE6kmrfpuKyb.jpg",
+        "averageScore": 84,
+        "chapters": 108,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Psychological",
+          "Supernatural",
+          "Thriller"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0
+      },
+      {
+        "title": "Demon Slayer: Kimetsu no Yaiba",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx87216-c9bSNVD10UuD.png",
+        "averageScore": 79,
+        "chapters": 207,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Supernatural"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0
+      },
+      {
+        "title": "Honey Lemon Soda",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx96767-byZGxMjQUXLu.jpg",
+        "averageScore": 76,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0
+      },
+      {
+        "title": "Jumyou wo Kaitotte Moratta. Ichinen ni Tsuki, Ichimanen de.",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx97553-vqJj5DFS8v2p.jpg",
+        "averageScore": 86,
+        "chapters": 18,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0
+      },
+      {
+        "title": "She and Her Cat",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx96791-AnTA12TsBgf1.jpg",
+        "averageScore": 72,
+        "chapters": 5,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0
+      },
+      {
+        "title": "the gods lie.",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx80217-QGyYpWc3qcpI.png",
+        "averageScore": 76,
+        "chapters": 5,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0
+      },
+      {
+        "title": "Tokyo Ghoul:re",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx85611-Asb0BNP23NsJ.png",
+        "averageScore": 82,
+        "chapters": 181,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Horror",
+          "Mystery",
+          "Psychological",
+          "Supernatural"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0
+      },
+      {
+        "title": "Yona of the Dawn",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx51525-wZ1AjkbXrKns.png",
+        "averageScore": 87,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0
+      },
+      {
+        "title": "Dreamin' Sun",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx39607-NcdvThhTLcV5.jpg",
+        "averageScore": 70,
+        "chapters": 53,
+        "status": "FINISHED",
+        "genres": [
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0
+      },
+      {
+        "title": "Fruits Basket",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx30102-MJuQ0e0k2CgU.png",
+        "averageScore": 84,
+        "chapters": 137,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Psychological",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0
+      },
+      {
+        "title": "Fruits Basket: Another",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx86691-XyfIpcLGAP2d.jpg",
+        "averageScore": 69,
+        "chapters": 39,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0
+      },
+      {
+        "title": "Teenage Mercenary",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx126297-SPiM7QtUnJ4P.jpg",
+        "averageScore": 80,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "format": "MANGA",
+        "country": "KR",
+        "personalScore": 0,
+        "progress": 0
+      },
+      {
+        "title": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx114416-XtRJ8tI9GtuI.jpg",
+        "averageScore": 76,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Comedy",
+          "Ecchi",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0
+      },
+      {
+        "title": "I Shall Master this Family!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx130429-m3PuqOmxBgoo.png",
+        "averageScore": 83,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "KR",
+        "personalScore": 0,
+        "progress": 0
+      }
+    ]
+  },
+  {
+    "name": "Dropped",
+    "entries": [
+      {
+        "title": "Blue Box",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx132182-QWwhGEBUV7DG.jpg",
+        "averageScore": 80,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Romance",
+          "Slice of Life",
+          "Sports"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 1
+      },
+      {
+        "title": "Town of Evening Calm, Country of Cherry Blossoms",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx31487-jbvE9DvgzArT.jpg",
+        "averageScore": 70,
+        "chapters": 3,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 1
+      }
+    ]
+  },
+  {
+    "name": "Paused",
+    "entries": [
+      {
+        "title": "Horimiya",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx72451-vVXtRwyttjGG.png",
+        "averageScore": 82,
+        "chapters": 152,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 5
+      },
+      {
+        "title": "Snow White with the Red Hair",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx34571-uRvqh90mPuGS.jpg",
+        "averageScore": 79,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 16
+      },
+      {
+        "title": "Midori no Tomari Ki",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx112813-FqVZqltw0Uv4.jpg",
+        "averageScore": 56,
+        "chapters": 19,
+        "status": "FINISHED",
+        "genres": [
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 16
+      }
+    ]
+  }
+]

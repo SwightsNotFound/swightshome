@@ -310,32 +310,33 @@ body.dark-mode .anime-item {
     border-radius: 50%;
     position: absolute;
     top: 50%;
-    left: -10px;
-    transform: translateY(-50%);
+    left: 0;
+    transform: translateX(10px) translateY(-50%);
 }
 
 .anime-item .status-dot:hover::after {
     content: 'Releasing';
     position: absolute;
     top: 50%;
-    left: 25px;
-    background-color: #333;
-    color: #fff;
-    padding: 2px 5px;
-    border-radius: 3px;
+    left: 20px;
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
     font-size: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     white-space: nowrap;
     transform: translateY(-50%);
-    z-index: 1;
+    z-index: 1000;
 }
 
 .anime-item .flag {
     width: 20px;
     height: auto;
     position: absolute;
-    top: 55%;
-    left: -10px;
-    transform: translateY(-50%);
+    top: 65%;
+    left: 0;
+    transform: translateX(10px) translateY(-50%);
     margin: 0;
 }
 

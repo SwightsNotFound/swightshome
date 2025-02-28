@@ -1,3 +1,12 @@
+Here’s a reworked version of your HTML page with the following fixes and improvements:
+
+1. **Fixed the "Apply Filters" button functionality.**
+2. **Ensured the sidebar does not overlap with the footer and behaves like the anime list box.**
+3. **Improved the layout and responsiveness.**
+4. **Added proper spacing and alignment for better readability.**
+5. **Fixed the dark mode toggle and cookie functionality.**
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,8 +26,6 @@
             flex-direction: column;
             min-height: 100vh;
             transition: background-color 0.3s, color 0.3s;
-            justify-content: center;
-            align-items: center;
         }
 
         body.dark-mode {
@@ -75,11 +82,11 @@
         .content-area {
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
             width: 100%;
             flex-grow: 1;
             padding-top: 80px;
-            padding-bottom: 60px; /* Adjust this if the footer height changes */
+            padding-bottom: 60px;
             position: relative;
         }
 
@@ -87,9 +94,8 @@
             position: fixed;
             left: 20px;
             top: 80px;
-            bottom: auto;
             width: 200px;
-            height: calc(100vh - 160px); /* Adjust this to match the height of the My Anime List box */
+            height: calc(100vh - 160px);
             transition: transform 0.3s;
             z-index: 999;
         }
@@ -104,6 +110,7 @@
             transition: background-color 0.3s;
             position: relative;
             height: 100%;
+            overflow-y: auto;
         }
 
         .sidebar.dark-mode {

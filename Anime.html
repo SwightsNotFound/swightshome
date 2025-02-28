@@ -88,7 +88,7 @@
             max-width: 800px;
             width: 100%;
             transition: background-color 0.3s;
-            margin: 0 auto;
+            margin-left: 220px; /* Adjust margin to make space for the fixed sidebar */
         }
 
         body.dark-mode .container {
@@ -98,12 +98,15 @@
         .sidebar {
             padding: 20px;
             position: fixed;
+            top: 80px; /* Adjust to position below the topbar */
+            left: 0;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
             max-width: 200px;
             width: 100%;
-            margin-right: 20px;
+            height: calc(100% - 80px); /* Adjust to fit within the viewport height */
+            overflow-y: auto;
             transition: background-color 0.3s;
         }
 
@@ -353,7 +356,7 @@
 
     <div class="content-area">
         <div class="sidebar">
-            <h1>Sections</h1>
+            <h2>Sections</h2>
             <input type="text" id="searchBar" class="search-bar" placeholder="Search...">
             <ul>
                 <li><a href="#watching">Watching</a></li>
@@ -471,7 +474,7 @@
                 const ul = section.querySelector('.anime-list');
 
                 list.entries.forEach(anime => {
-                    genres.add(...anime.genres);
+                    anime.genres.forEach(genre => genres.add(genre));
                     formats.add(anime.format);
                     countries.add(anime.country);
 

@@ -46,8 +46,11 @@ const userId = 6405416;  // Replace with your AniList user ID
 
 fetchAnilistStats(userId)
     .then(stats => {
+        console.log('Fetched stats:', stats);  // Log the fetched stats
         try {
-            fs.writeFileSync(path.join(__dirname, 'stats.json'), JSON.stringify(stats, null, 4));
+            const filePath = path.join(process.cwd(), 'stats.json');
+            console.log('Writing to file:', filePath);  // Log the file path
+            fs.writeFileSync(filePath, JSON.stringify(stats, null, 4));
             console.log("Stats fetched and saved to stats.json");
         } catch (writeError) {
             console.error('Error writing to file:', writeError);

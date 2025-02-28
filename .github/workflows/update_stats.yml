@@ -3,7 +3,7 @@ name: Fetch AniList Stats
 on:
   schedule:
     - cron: '0 */12 * * *'
-  workflow_dispatch: # Allows manual triggering
+  workflow_dispatch:
 
 jobs:
   fetch_stats:
@@ -25,7 +25,7 @@ jobs:
       run: python scripts/fetch_stats.py
 
     - name: Upload stats.json
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: stats-json
         path: stats.json

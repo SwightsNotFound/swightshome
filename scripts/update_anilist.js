@@ -20,6 +20,9 @@ async function fetchUserAnimeList() {
                             averageScore
                             episodes
                             status
+                            genres
+                            format
+                            countryOfOrigin
                         }
                         score
                         progress
@@ -50,6 +53,9 @@ async function fetchUserAnimeList() {
                 averageScore: entry.media.averageScore,
                 episodes: entry.media.episodes,
                 status: entry.media.status,
+                genres: entry.media.genres,
+                format: entry.media.format,
+                country: entry.media.countryOfOrigin,
                 personalScore: entry.score,
                 progress: entry.progress
             })).sort((a, b) => b.personalScore - a.personalScore)

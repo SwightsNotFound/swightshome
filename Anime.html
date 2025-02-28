@@ -4,26 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Anime List</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
             display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            transition: background-color 0.3s, color 0.3s;
+            justify-content: center;
+            align-items: center;
+        }
+
+        body.dark-mode {
+            background-color: #333;
+            color: #f4f4f9;
+        }
+
+        .topbar {
+            background-color: #2c3e50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: background-color 0.3s;
+        }
+
+        .topbar.dark-mode {
+            background-color: #1a252f;
+        }
+
+        .topbar a {
+            color: white;
+            text-align: center;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+
+        .topbar a:hover {
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .dark-mode-toggle {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: absolute;
+            left: 20px;
+        }
+
+        .content-area {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            flex-grow: 1;
+            padding-top: 80px;
+            padding-bottom: 60px; /* Adjust this if the footer height changes */
+            position: relative;
+        }
+
+        .sidebar-container {
+            position: fixed;
+            left: 20px;
+            top: 80px;
+            bottom: auto;
+            width: 200px;
+            height: calc(100vh - 160px); /* Adjust this to match the height of the My Anime List box */
+            transition: transform 0.3s;
+            z-index: 999;
         }
 
         .sidebar {
             width: 200px;
-            background-color: #333;
+            background-color: #2c3e50;
             color: #fff;
-            padding: 10px;
-            position: fixed;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+            position: relative;
             height: 100%;
+        }
+
+        .sidebar.dark-mode {
+            background-color: #1a252f;
         }
 
         .sidebar h2 {
             color: #fff;
+            text-align: center;
         }
 
         .sidebar ul {
@@ -38,14 +127,69 @@
         .sidebar ul li a {
             color: #fff;
             text-decoration: none;
+            display: block;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .sidebar ul li a:hover {
+            background-color: #3498db;
+        }
+
+        .sidebar input[type="text"] {
+            width: calc(100% - 40px);
+            padding: 5px 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #fff;
+            color: #333;
+        }
+
+        .sidebar input[type="text"].dark-mode {
+            background-color: #444;
+            color: #fff;
+        }
+
+        .filter-section {
+            margin-top: 20px;
+        }
+
+        .filter-section h2 {
+            color: #fff;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .filter-section select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #fff;
+            color: #333;
+        }
+
+        .filter-section select.dark-mode {
+            background-color: #444;
+            color: #fff;
         }
 
         .container {
-            margin-left: 220px;
             padding: 20px;
-            width: calc(100% - 220px);
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            max-width: 800px;
+            width: 100%;
+            transition: background-color 0.3s;
+            margin: 0 auto;
+        }
+
+        body.dark-mode .container {
+            background-color: #444;
         }
 
         h1 {
@@ -58,16 +202,35 @@
         }
 
         h2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             color: #555;
             border-bottom: 2px solid #ddd;
             padding-bottom: 10px;
             cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        h2::after {
+            content: '▲';
+            font-size: 12px;
+            transition: transform 0.3s;
+        }
+
+        .section.collapsed h2::after {
+            transform: rotate(180deg);
+        }
+
+        body.dark-mode h2 {
+            color: #ccc;
         }
 
         .anime-list {
             list-style: none;
             padding: 0;
-            display: none; /* Hide by default */
+            display: none;
+            transition: max-height 0.3s ease, visibility 0.3s ease;
         }
 
         .anime-item {
@@ -76,6 +239,10 @@
             padding: 10px 0;
             border-bottom: 1px solid #eee;
             position: relative;
+        }
+
+        body.dark-mode .anime-item {
+            border-bottom: 1px solid #555;
         }
 
         .anime-item img {
@@ -103,9 +270,57 @@
             color: #333;
         }
 
+        body.dark-mode .anime-info h3 {
+            color: #fff;
+        }
+
         .anime-info p {
             margin: 5px 0;
             color: #777;
+        }
+
+        body.dark-mode .anime-info p {
+            color: #ccc;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            transition: background-color 0.3s;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+
+        footer.dark-mode {
+            background-color: #1a252f;
+        }
+
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.5s ease-in-out;
         }
 
         html {
@@ -114,42 +329,140 @@
     </style>
 </head>
 <body>
-    <div class="sidebar">
-        <h2>Sections</h2>
-        <ul>
-            <li><a href="#watching">Watching</a></li>
-            <li><a href="#completed">Completed</a></li>
-            <li><a href="#dropped">Dropped</a></li>
-            <li><a href="#paused">Paused</a></li>
-            <li><a href="#planning">Planning</a></li>
-        </ul>
+    <script>
+        function setCookie(name, value, days) {
+            const d = new Date();
+            d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+            const expires = "expires=" + d.toUTCString();
+            document.cookie = name + "=" + value + ";" + expires + ";path=/";
+        }
+
+        function getCookie(name) {
+            const cname = name + "=";
+            const decodedCookie = decodeURIComponent(document.cookie);
+            const ca = decodedCookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(cname) == 0) {
+                    return c.substring(cname.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        function applyDarkModePreference() {
+            const darkModePreference = getCookie("darkMode");
+            const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+            if (darkModePreference === "enabled" || (darkModePreference === "" && prefersDarkScheme)) {
+                document.body.classList.add('dark-mode');
+                document.getElementById('topbar').classList.add('dark-mode');
+                document.getElementById('footer').classList.add('dark-mode');
+                document.getElementById('searchBar').classList.add('dark-mode');
+                document.getElementById('formatFilter').classList.add('dark-mode');
+                document.getElementById('genresFilter').classList.add('dark-mode');
+                document.getElementById('countryFilter').classList.add('dark-mode');
+
+                document.getElementById('darkModeToggle').textContent = '☀️';
+            } else {
+                document.getElementById('darkModeToggle').textContent = '🌙';
+            }
+        }
+
+        applyDarkModePreference();
+    </script>
+
+    <div class="topbar" id="topbar">
+        <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
+        <a href="Services">Services</a>
+        <a href="Links">Links</a>
+        <a href="Contact">Contact</a>
     </div>
 
-    <div class="container">
-        <h1>My Anime List</h1>
-        <div class="section" id="watching">
-            <h2>Watching</h2>
-            <ul class="anime-list"></ul>
-        </div>
-        <div class="section" id="completed">
-            <h2>Completed</h2>
-            <ul class="anime-list"></ul>
-        </div>
-        <div class="section" id="dropped">
-            <h2>Dropped</h2>
-            <ul class="anime-list"></ul>
-        </div>
-        <div class="section" id="paused">
-            <h2>Paused</h2>
-            <ul class="anime-list"></ul>
-        </div>
-        <div class="section" id="planning">
-            <h2>Planning</h2>
-            <ul class="anime-list"></ul>
+    <div class="sidebar-container" id="sidebarContainer">
+        <div class="sidebar" id="sidebar">
+            <input type="text" id="searchBar" placeholder="Search anime...">
+            <h2>Sections</h2>
+            <ul>
+                <li><a href="#watching">Watching</a></li>
+                <li><a href="#completed">Completed</a></li>
+                <li><a href="#dropped">Dropped</a></li>
+                <li><a href="#paused">Paused</a></li>
+                <li><a href="#planning">Planning</a></li>
+            </ul>
+            <div class="filter-section">
+                <h2>Filters</h2>
+                <select id="formatFilter">
+                    <option value="">Select Format</option>
+                </select>
+                <select id="genresFilter">
+                    <option value="">Select Genre</option>
+                </select>
+                <select id="countryFilter">
+                    <option value="">Select Country</option>
+                </select>
+            </div>
         </div>
     </div>
+
+    <div class="content-area">
+        <div class="container">
+            <h1>My Anime List</h1>
+            <div class="section" id="watching">
+                <h2>Watching</h2>
+                <ul class="anime-list"></ul>
+            </div>
+            <div class="section" id="completed">
+                <h2>Completed</h2>
+                <ul class="anime-list"></ul>
+            </div>
+            <div class="section" id="dropped">
+                <h2>Dropped</h2>
+                <ul class="anime-list"></ul>
+            </div>
+            <div class="section" id="paused">
+                <h2>Paused</h2>
+                <ul class="anime-list"></ul>
+            </div>
+            <div class="section" id="planning">
+                <h2>Planning</h2>
+                <ul class="anime-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">        
+        <p>Hosted using <a href="https://pages.github.com/" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" role="button">Cloudflare</a>.</p>
+        <div class="footer-links">
+            <a href="https://swightshome.xyz/Status" role="button">Status Page</a>
+            <span>|</span>
+            <a href="https://github.com/SwightsNotFound/swightshome" role="button">Source Code</a>
+            <span>|</span>
+            <a href="Privacy" role="button">Privacy Policy</a>
+        </div>
+    </footer>
 
     <script>
+        function toggleDarkMode() {
+            const isDarkMode = document.body.classList.toggle('dark-mode');
+            document.getElementById('topbar').classList.toggle('dark-mode');
+            document.getElementById('footer').classList.toggle('dark-mode');
+            document.getElementById('searchBar').classList.toggle('dark-mode');
+            document.getElementById('formatFilter').classList.toggle('dark-mode');
+            document.getElementById('genresFilter').classList.toggle('dark-mode');
+            document.getElementById('countryFilter').classList.toggle('dark-mode');
+
+            darkModeToggle.textContent = isDarkMode ? '☀️' : '🌙';
+
+            setCookie("darkMode", isDarkMode ? "enabled" : "disabled", 365);
+        }
+
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        darkModeToggle.addEventListener('click', toggleDarkMode);
+
         async function fetchAnimeList() {
             try {
                 const response = await fetch('anime_list.json');
@@ -163,6 +476,10 @@
 
         async function populateAnimeList() {
             const animeList = await fetchAnimeList();
+
+            const formats = new Set();
+            const genres = new Set();
+            const countries = new Set();
 
             animeList.forEach(list => {
                 let sectionId;
@@ -190,7 +507,7 @@
 
                 list.entries.forEach(anime => {
                     const li = document.createElement('li');
-                    li.classList.add('anime-item');
+                    li.classList.add('anime-item', 'fade-in');
 
                     if (anime.status === "RELEASING") {
                         const statusDot = document.createElement('div');
@@ -218,29 +535,86 @@
                     episodes.textContent = `Episodes: ${anime.progress}/${anime.episodes}`;
                     infoDiv.appendChild(episodes);
 
+                    const genre = document.createElement('p');
+                    genre.textContent = `Genres: ${anime.genres.join(', ')}`;
+                    infoDiv.appendChild(genre);
+
+                    const format = document.createElement('p');
+                    format.textContent = `Format: ${anime.format}`;
+                    infoDiv.appendChild(format);
+
+                    const country = document.createElement('p');
+                    country.textContent = `Country: ${anime.country}`;
+                    infoDiv.appendChild(country);
+
                     li.appendChild(infoDiv);
                     ul.appendChild(li);
+
+                    anime.genres.forEach(g => genres.add(g));
+                    formats.add(anime.format);
+                    countries.add(anime.country);
                 });
+            });
+
+            // Populate filters with unique values
+            const formatFilter = document.getElementById('formatFilter');
+            formats.forEach(format => {
+                const option = document.createElement('option');
+                option.value = format;
+                option.textContent = format;
+                formatFilter.appendChild(option);
+            });
+
+            const genresFilter = document.getElementById('genresFilter');
+            genres.forEach(genre => {
+                const option = document.createElement('option');
+                option.value = genre;
+                option.textContent = genre;
+                genresFilter.appendChild(option);
+            });
+
+            const countryFilter = document.getElementById('countryFilter');
+            countries.forEach(country => {
+                const option = document.createElement('option');
+                option.value = country;
+                option.textContent = country;
+                countryFilter.appendChild(option);
             });
         }
 
-        // Function to toggle the display of anime lists
         function toggleSection(event) {
-            const animeList = event.target.nextElementSibling;
-            if (animeList.style.display === "none" || animeList.style.display === "") {
-                animeList.style.display = "block";
-            } else {
+            const section = event.target.closest('.section');
+            const animeList = section.querySelector('.anime-list');
+            if (animeList.style.display === "block") {
                 animeList.style.display = "none";
+                section.classList.add('collapsed');
+            } else {
+                animeList.style.display = "block";
+                section.classList.remove('collapsed');
             }
         }
 
-        // Add event listeners to section headers
         document.querySelectorAll('.section h2').forEach(header => {
             header.addEventListener('click', toggleSection);
+            header.click(); // Collapse all sections on load
+            header.click(); // Expand all sections on load to fix the double click issue
         });
 
-        // Populate the anime list on page load
         populateAnimeList();
-    </script>
+
+const searchBar = document.getElementById('searchBar');
+searchBar.addEventListener('input', function() {
+    const query = searchBar.value.toLowerCase();
+    const animeItems = document.querySelectorAll('.anime-item');
+    animeItems.forEach(item => {
+        const title = item.querySelector('.anime-info h3').textContent.toLowerCase();
+        if (title.includes(query)) {
+            item.style.display = 'flex';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+});
+</script>
 </body>
 </html>

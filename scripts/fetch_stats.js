@@ -1,5 +1,6 @@
 const axios = require('axios');
 const fs = require('fs');
+const path = require('path');
 
 async function fetchAnilistStats(userId) {
     const query = `
@@ -36,7 +37,7 @@ async function fetchAnilistStats(userId) {
         });
         return response.data;
     } catch (error) {
-        console.error('Error fetching AniList stats:', error);
+        console.error('Error fetching AniList stats:', error.response ? error.response.data : error.message);
         throw error;
     }
 }
@@ -44,10 +45,14 @@ async function fetchAnilistStats(userId) {
 const userId = 6405416;  // Replace with your AniList user ID
 
 fetchAnilistStats(userId)
-.then(stats => {
-    fs.writeFileSync('stats.json', JSON.stringify(stats, null, 4));
-    console.log("Stats fetched and saved to stats.json");
-})
-.catch(error => {
-    console.error('Error:', error);
-});
+    .then(stats => {
+        try {
+            fs.writeFileSync(path.join(__dirname, 'stats.json'), JSON.stringify(stats, null, 4));
+            console.log("Stats fetched and saved to stats.json");
+        } catch (writeError) {
+            console.error('Error writing to file:', writeError);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });

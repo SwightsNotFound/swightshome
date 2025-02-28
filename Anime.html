@@ -286,16 +286,18 @@
 
         .anime-item {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding: 10px 0;
     border-bottom: 1px solid #eee;
     position: relative;
 }
 
 
+
         body.dark-mode .anime-item {
             border-bottom: 1px solid #555;
         }
+
 
         .anime-item img {
     width: 50px;
@@ -303,6 +305,7 @@
     margin-right: 20px;
     position: relative;
 }
+
 .anime-item .status-dot {
     width: 10px;
     height: 10px;
@@ -329,15 +332,16 @@
 
         .anime-info {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
     flex-grow: 1;
 }
 
 .anime-info h3 {
-    margin: 0;
+    margin: 0 20px 0 0;
     color: #333;
 }
+
 
 
 body.dark-mode .anime-info h3 {
@@ -345,11 +349,11 @@ body.dark-mode .anime-info h3 {
 }
 
 .anime-info p {
-    margin: 5px 0;
+    margin: 0 20px 0 0;
     color: #777;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 body.dark-mode .anime-info p {
@@ -361,6 +365,7 @@ body.dark-mode .anime-info p {
     color: #333;
 }
 
+
 body.dark-mode .anime-info p span {
     color: #fff;
 }
@@ -369,6 +374,15 @@ body.dark-mode .anime-info p span {
     width: 20px;
     height: auto;
     margin-right: 5px;
+}
+
+.anime-item .flag {
+    width: 20px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 5px;
 }
 
 

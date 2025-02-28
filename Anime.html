@@ -397,6 +397,37 @@
         html {
             scroll-behavior: smooth;
         }
+
+        .stats-section {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            padding: 20px;
+            max-width: 250px;
+            width: 100%;
+            margin-left: 20px; /* Adjust margin to make space between the sidebar and stats box */
+        }
+
+        .stats-section h2 {
+            font-size: 1.8em;
+            color: #34495e;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .stat-item {
+            font-size: 1.2em;
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .stat-item span {
+            font-weight: bold;
+            color: #2980b9;
+        }
     </style>
 </head>
 <body>
@@ -457,7 +488,7 @@
             <p>This is a list of all the anime I have watched over the years (since 2021-22) this page is really just a mirror of my Anilist profile that I made for fun, all the information is stored in this <a href="https://github.com/SwightsNotFound/swightshome/blob/main/anime_list.json" target="_blank">file</a> which is updated every 12 hours.</p>
             <p>All of this information can also be found on Anilist, MAL and kitsu.</p>
             <div class="logo-links">
-                <a href="ttps://anilist.co/user/Swight/" target="_blank">
+                <a href="https://anilist.co/user/Swight/" target="_blank">
                     <img src="https://anilist.co/img/logo_al.png" alt="Anilist Logo">
                 </a>
                 <a href="https://myanimelist.net/profile/SwightUnkown" target="_blank">
@@ -497,6 +528,13 @@
                     <option value="">Country</option>
                 </select>
             </ul>
+        </div>
+        <div class="stats-section" id="anime-stats">
+            <h2>Anime Stats</h2>
+            <div class="stat-item"><span>Count:</span><span id="anime-count"></span></div>
+            <div class="stat-item"><span>Mean Score:</span><span id="anime-meanScore"></span></div>
+            <div class="stat-item"><span>Days Watched:</span><span id="anime-daysWatched"></span></div>
+            <div class="stat-item"><span>Episodes Watched:</span><span id="anime-episodesWatched"></span></div>
         </div>
         <div class="container">
             <h1>My Anime List</h1>

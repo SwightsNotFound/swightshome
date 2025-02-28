@@ -302,6 +302,12 @@
         html {
             scroll-behavior: smooth;
         }
+
+    .country-flag {
+        width: 30px;
+        height: 20px;
+        margin-bottom: 5px;
+    }
     </style>
 </head>
 <body>
@@ -440,93 +446,79 @@
         }
 
         async function populateAnimeList() {
-            const animeList = await fetchAnimeList();
-            const genres = new Set();
-            const formats = new Set();
-            const countries = new Set();
+    const animeList = await fetchAnimeList();
+    const genres = new Set();
+    const formats = new Set();
+    const countries = new Set();
 
-            animeList.forEach(list => {
-                let sectionId;
-                switch (list.name) {
-                    case "Watching":
-                        sectionId = "watching";
-                        break;
-                    case "Completed":
-                        sectionId = "completed";
-                        break;
-                    case "Dropped":
-                        sectionId = "dropped";
-                        break;
-                    case "Paused":
-                        sectionId = "paused";
-                        break;
-                    case "Planning":
-                        sectionId = "planning";
-                        break;
-                    case "Rewatching":
-                        sectionId = "rewatching";
-                        break;
-                    default:
-                        return;
-                }
-                const section = document.getElementById(sectionId);
-                const ul = section.querySelector('.anime-list');
-
-                list.entries.forEach(anime => {
-                    anime.genres.forEach(genre => genres.add(genre));
-                    formats.add(anime.format);
-                    countries.add(anime.country);
-
-                    const li = document.createElement('li');
-                    li.classList.add('anime-item', 'fade-in');
-
-                    if (anime.status === "RELEASING") {
-                        const statusDot = document.createElement('div');
-                        statusDot.classList.add('status-dot');
-                        li.appendChild(statusDot);
-                    }
-
-                    const img = document.createElement('img');
-                    img.src = anime.coverImage;
-                    img.alt = anime.title;
-                    li.appendChild(img);
-
-                    const infoDiv = document.createElement('div');
-                    infoDiv.classList.add('anime-info');
-
-                    const title = document.createElement('h3');
-                    title.textContent = anime.title;
-                    infoDiv.appendChild(title);
-
-                    const score = document.createElement('p');
-                    score.textContent = `Score: ${anime.personalScore || 'N/A'}`;
-                    infoDiv.appendChild(score);
-
-                    const episodes = document.createElement('p');
-                    episodes.textContent = `Episodes: ${anime.progress}/${anime.episodes}`;
-                    infoDiv.appendChild(episodes);
-
-                    const genre = document.createElement('p');
-                    genre.textContent = `Genres: ${anime.genres.join(', ')}`;
-                    infoDiv.appendChild(genre);
-
-                    const format = document.createElement('p');
-                    format.textContent = `Format: ${anime.format}`;
-                    infoDiv.appendChild(format);
-
-                    const country = document.createElement('p');
-                    country.textContent = `Country: ${anime.country}`;
-                    infoDiv.appendChild(country);
-
-                    li.appendChild(infoDiv);
-                    ul.appendChild(li);
-                });
-            });
-
-            populateFilterOptions(genres, 'genreFilter');
-            populateFilterOptions(formats, 'formatFilter');
-            populateFilterOptions(countries, 'countryFilter');
+    animeList.forEach(list => {
+        let sectionId;
+        switch (list.name) {
+            // ... existing cases ...
+            default:
+                return;
         }
+        const section = document.getElementById(sectionId);
+        const ul = section.querySelector('.anime-list');
+
+        list.entries.forEach(anime => {
+            anime.genres.forEach(genre => genres.add(genre));
+            formats.add(anime.format);
+            countries.add(anime.country);
+
+            const li = document.createElement('li');
+            li.classList.add('anime-item', 'fade-in');
+
+            if (anime.status === "RELEASING") {
+                const statusDot = document.createElement('div');
+                statusDot.classList.add('status-dot');
+                li.appendChild(statusDot);
+            }
+
+            const img = document.createElement('img');
+            img.src = anime.coverImage;
+            img.alt = anime.title;
+            li.appendChild(img);
+
+            const infoDiv = document.createElement('div');
+            infoDiv.classList.add('anime-info');
+
+            const title = document.createElement('h3');
+            title.textContent = anime.title;
+            infoDiv.appendChild(title);
+
+            const score = document.createElement('p');
+            score.textContent = `Score: ${anime.personalScore || 'N/A'}`;
+            infoDiv.appendChild(score);
+
+            const episodes = document.createElement('p');
+            episodes.textContent = `Episodes: ${anime.progress}/${anime.episodes}`;
+            infoDiv.appendChild(episodes);
+
+            const genre = document.createElement('p');
+            genre.textContent = `Genres: ${anime.genres.join(', ')}`;
+            infoDiv.appendChild(genre);
+
+            const format = document.createElement('p');
+            format.textContent = `Format: ${anime.format}`;
+            infoDiv.appendChild(format);
+
+            // Add country flag
+            const countryFlag = document.createElement('img');
+            countryFlag.src = `https://flagcdn.com/16x12/${anime.country.toLowerCase()}.png`; // Use appropriate flag image source
+            countryFlag.alt = anime.country;
+            countryFlag.classList.add('country-flag');
+            li.insertBefore(countryFlag, img);
+
+            li.appendChild(infoDiv);
+            ul.appendChild(li);
+        });
+    });
+
+    populateFilterOptions(genres, 'genreFilter');
+    populateFilterOptions(formats, 'formatFilter');
+    populateFilterOptions(countries, 'countryFilter');
+}
 
         function populateFilterOptions(options, elementId) {
             const filterElement = document.getElementById(elementId);

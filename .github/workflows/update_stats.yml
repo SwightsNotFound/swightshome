@@ -1,0 +1,30 @@
+name: Fetch AniList Stats
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+
+jobs:
+  fetch_stats:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python environment
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+
+    - name: Install requests library
+      run: pip install requests
+
+    - name: Run fetch_stats.py script
+      run: python scripts/fetch_stats.py
+
+    - name: Upload stats.json
+      uses: actions/upload-artifact@v2
+      with:
+        name: stats-json
+        path: stats.json

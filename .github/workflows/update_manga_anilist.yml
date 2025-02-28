@@ -1,8 +1,8 @@
-name: Update AniList
+name: Update (manga) AniList
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs every day at midnight
+    - cron: '0 */12 * * *' # Runs every 12 hourss
   workflow_dispatch: # Allows manual triggering
 
 permissions:

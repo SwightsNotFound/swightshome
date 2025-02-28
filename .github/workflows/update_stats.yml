@@ -3,6 +3,7 @@ name: Fetch AniList Stats
 on:
   schedule:
     - cron: '0 */12 * * *'
+  workflow_dispatch: # Allows manual triggering
 
 jobs:
   fetch_stats:

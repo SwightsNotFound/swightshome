@@ -285,11 +285,11 @@
         }
 
         .anime-item {
-    display: block;
+    display: flex;
+    align-items: center;
     padding: 10px 0;
     border-bottom: 1px solid #eee;
     position: relative;
-    margin-bottom: 20px;
 }
 
 
@@ -298,19 +298,21 @@
         }
 
         .anime-item img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+    width: 50px;
+    height: 70px;
+    margin-right: 20px;
+    position: relative;
 }
-        .anime-item .status-dot {
-            width: 10px;
-            height: 10px;
-            background-color: green;
-            border-radius: 50%;
-            position: absolute;
-            top: 30px;
-            left: -20px;
-        }
+.anime-item .status-dot {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+}
 
         .anime-item .status-dot:hover::after {
             content: 'Releasing';
@@ -326,26 +328,49 @@
         }
 
         .anime-info {
-    display: block;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
 }
 
 .anime-info h3 {
-    margin: 10px 0;
+    margin: 0;
+    color: #333;
 }
 
 
-        body.dark-mode .anime-info h3 {
-            color: #fff;
-        }
+body.dark-mode .anime-info h3 {
+    color: #fff;
+}
 
-        .anime-info p {
+.anime-info p {
     margin: 5px 0;
+    color: #777;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-        body.dark-mode .anime-info p {
-            color: #ccc;
-        }
+body.dark-mode .anime-info p {
+    color: #ccc;
+}
+
+.anime-info p span {
+    font-weight: bold;
+    color: #333;
+}
+
+body.dark-mode .anime-info p span {
+    color: #fff;
+}
+
+.anime-info p img.flag {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+}
+
 
         footer {
             background-color: #2c3e50;
@@ -658,54 +683,56 @@
                 const ul = section.querySelector('.anime-list');
 
                 list.entries.forEach(anime => {
-                    anime.genres.forEach(genre => genres.add(genre));
-                    formats.add(anime.format);
-                    countries.add(anime.country);
+    anime.genres.forEach(genre => genres.add(genre));
+    formats.add(anime.format);
+    countries.add(anime.country);
 
-                    const li = document.createElement('li');
-                    li.classList.add('anime-item', 'fade-in');
+    const li = document.createElement('li');
+    li.classList.add('anime-item', 'fade-in');
 
-                    if (anime.status === "RELEASING") {
-                        const statusDot = document.createElement('div');
-                        statusDot.classList.add('status-dot');
-                        li.appendChild(statusDot);
-                    }
+    if (anime.status === "RELEASING") {
+        const statusDot = document.createElement('div');
+        statusDot.classList.add('status-dot');
+        li.appendChild(statusDot);
+    }
 
-                    const img = document.createElement('img');
-                    img.src = anime.coverImage;
-                    img.alt = anime.title;
-                    li.appendChild(img);
+    const img = document.createElement('img');
+    img.src = anime.coverImage;
+    img.alt = anime.title;
+    li.appendChild(img);
 
-                    const infoDiv = document.createElement('div');
-                    infoDiv.classList.add('anime-info');
+    const flagImg = document.createElement('img');
+    flagImg.src = `https://flagcdn.com/${anime.country.toLowerCase()}.svg`;
+    flagImg.alt = anime.country;
+    flagImg.classList.add('flag');
+    li.appendChild(flagImg);
 
-                    const title = document.createElement('h3');
-                    title.textContent = anime.title;
-                    infoDiv.appendChild(title);
+    const infoDiv = document.createElement('div');
+    infoDiv.classList.add('anime-info');
 
-                    const score = document.createElement('p');
-                    score.textContent = `Score: ${anime.personalScore || 'N/A'}`;
-                    infoDiv.appendChild(score);
+    const title = document.createElement('h3');
+    title.textContent = anime.title;
+    infoDiv.appendChild(title);
 
-                    const episodes = document.createElement('p');
-                    episodes.textContent = `Episodes: ${anime.progress}/${anime.episodes}`;
-                    infoDiv.appendChild(episodes);
+    const score = document.createElement('p');
+    score.innerHTML = `Score<br><span>${anime.personalScore || 'N/A'}</span>`;
+    infoDiv.appendChild(score);
 
-                    const genre = document.createElement('p');
-                    genre.textContent = `Genres: ${anime.genres.join(', ')}`;
-                    infoDiv.appendChild(genre);
+    const episodes = document.createElement('p');
+    episodes.innerHTML = `Episodes<br><span>${anime.progress}/${anime.episodes}</span>`;
+    infoDiv.appendChild(episodes);
 
-                    const format = document.createElement('p');
-                    format.textContent = `Format: ${anime.format}`;
-                    infoDiv.appendChild(format);
+    const genre = document.createElement('p');
+    genre.innerHTML = `Genres<br><span>${anime.genres.join(', ')}</span>`;
+    infoDiv.appendChild(genre);
 
-                    const country = document.createElement('p');
-                    country.textContent = `Country: ${anime.country}`;
-                    infoDiv.appendChild(country);
+    const format = document.createElement('p');
+    format.innerHTML = `Format<br><span>${anime.format}</span>`;
+    infoDiv.appendChild(format);
 
-                    li.appendChild(infoDiv);
-                    ul.appendChild(li);
-                });
+    li.appendChild(infoDiv);
+    ul.appendChild(li);
+});
             });
 
             populateFilterOptions(genres, 'genreFilter');

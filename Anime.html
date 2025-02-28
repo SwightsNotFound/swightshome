@@ -314,12 +314,25 @@ body.dark-mode .anime-item {
     transform: translateY(-50%);
 }
 
+.anime-item .status-dot:hover::after {
+    content: 'Releasing';
+    position: absolute;
+    top: -20px;
+    left: 15px;
+    background-color: #333;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
 .anime-item .flag {
     width: 20px;
     height: auto;
     position: absolute;
-    bottom: 5px;
-    left: 5px;
+    bottom: -10px;
+    left: -20px;
     margin: 0;
 }
 
@@ -333,8 +346,9 @@ body.dark-mode .anime-item {
 
 .anime-info h3 {
     margin: 0;
+    font-size: 1rem;
     color: #333;
-    flex: 1;
+    flex: 2;
 }
 
 body.dark-mode .anime-info h3 {
@@ -689,11 +703,13 @@ html {
     const img = document.createElement('img');
     img.src = anime.coverImage;
     img.alt = anime.title;
+    li.appendChild(img);
 
     const flagImg = document.createElement('img');
     flagImg.src = `https://flagcdn.com/${anime.country.toLowerCase()}.svg`;
     flagImg.alt = anime.country;
     flagImg.classList.add('flag');
+    li.appendChild(flagImg);
 
     const infoDiv = document.createElement('div');
     infoDiv.classList.add('anime-info');
@@ -718,8 +734,6 @@ html {
     format.innerHTML = `Format<br><span>${anime.format}</span>`;
     infoDiv.appendChild(format);
 
-    li.appendChild(img);
-    li.appendChild(flagImg);
     li.appendChild(infoDiv);
     ul.appendChild(li);
 });
@@ -760,35 +774,34 @@ html {
 
         // Filter functions
         function filterAnimeList() {
-            const searchBar = document.getElementById('searchBar').value.toLowerCase();
-            const genreFilter = document.getElementById('genreFilter').value;
-            const formatFilter = document.getElementById('formatFilter').value;
-            const countryFilter = document.getElementById('countryFilter').value;
+    const searchBar = document.getElementById('searchBar').value.toLowerCase();
+    const genreFilter = document.getElementById('genreFilter').value;
+    const formatFilter = document.getElementById('formatFilter').value;
+    const countryFilter = document.getElementById('countryFilter').value;
 
-            document.querySelectorAll('.anime-item').forEach(item => {
-                const title = item.querySelector('h3').textContent.toLowerCase();
-                const genre = item.querySelector('p:nth-child(4)').textContent.split(': ')[1];
-                const format = item.querySelector('p:nth-child(5)').textContent.split(': ')[1];
-                const country = item.querySelector('p:nth-child(6)').textContent.split(': ')[1];
+    document.querySelectorAll('.anime-item').forEach(item => {
+        const title = item.querySelector('h3').textContent.toLowerCase();
+        const genre = item.querySelector('p:nth-child(4) span').textContent.toLowerCase();
+        const format = item.querySelector('p:nth-child(5) span').textContent.toLowerCase();
+        const country = item.querySelector('.flag').alt.toLowerCase();
 
-                const matchesSearch = title.includes(searchBar);
-                const matchesGenre = genreFilter ? genre.includes(genreFilter) : true;
-                const matchesFormat = formatFilter ? format.includes(formatFilter) : true;
-                const matchesCountry = countryFilter ? country.includes(countryFilter) : true;
+        const matchesSearch = title.includes(searchBar);
+        const matchesGenre = genreFilter ? genre.includes(genreFilter.toLowerCase()) : true;
+        const matchesFormat = formatFilter ? format.includes(formatFilter.toLowerCase()) : true;
+        const matchesCountry = countryFilter ? country.includes(countryFilter.toLowerCase()) : true;
 
-                if (matchesSearch && matchesGenre && matchesFormat && matchesCountry) {
-                    item.style.display = 'flex';
-                } else {
-                    item.style.display = 'none';
-                }
-            });
+        if (matchesSearch && matchesGenre && matchesFormat && matchesCountry) {
+            item.style.display = 'flex';
+        } else {
+            item.style.display = 'none';
         }
+    });
+}
 
-        document.getElementById('searchBar').addEventListener('input', filterAnimeList);
-        document.getElementById('genreFilter').addEventListener('change', filterAnimeList);
-       
-        document.getElementById('formatFilter').addEventListener('change', filterAnimeList);
-        document.getElementById('countryFilter').addEventListener('change', filterAnimeList);
+document.getElementById('searchBar').addEventListener('input', filterAnimeList);
+document.getElementById('genreFilter').addEventListener('change', filterAnimeList);
+document.getElementById('formatFilter').addEventListener('change', filterAnimeList);
+document.getElementById('countryFilter').addEventListener('change', filterAnimeList);
 
         populateAnimeList();
         

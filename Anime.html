@@ -768,9 +768,40 @@
             topbar.style.transition = `top ${scrollSpeed}s`;
             topbar.style.top = '0';
         }
-        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling 
     });
 });
+
+fetch('stats.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data && data.data && data.data.User && data.data.User.statistics) {
+                    const animeStats = data.data.User.statistics.anime;
+                    const mangaStats = data.data.User.statistics.manga;
+
+                    document.getElementById('anime-count').textContent = animeStats.count;
+                    document.getElementById('anime-meanScore').textContent = animeStats.meanScore;
+                    const daysWatched = (animeStats.minutesWatched / 60 / 24).toFixed(2);
+                    document.getElementById('anime-daysWatched').textContent = daysWatched;
+                    document.getElementById('anime-episodesWatched').textContent = animeStats.episodesWatched;
+
+                    document.getElementById('manga-count').textContent = mangaStats.count;
+                    document.getElementById('manga-meanScore').textContent = mangaStats.meanScore;
+                    document.getElementById('manga-chaptersRead').textContent = mangaStats.chaptersRead;
+                    document.getElementById('manga-volumesRead').textContent = mangaStats.volumesRead;
+                } else {
+                    throw new Error('Invalid data structure');
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching stats:', error);
+                document.getElementById('error-message').textContent = `Error: ${error.message}`;
+            });
     </script>
 </body>
 </html>

@@ -397,6 +397,37 @@
         html {
             scroll-behavior: smooth;
         }
+
+        .stats-section {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            padding: 20px;
+            max-width: 250px;
+            width: 100%;
+            margin-left: 20px; /* Adjust margin to make space between the sidebar and stats box */
+        }
+
+        .stats-section h2 {
+            font-size: 1.8em;
+            color: #34495e;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .stat-item {
+            font-size: 1.2em;
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .stat-item span {
+            font-weight: bold;
+            color: #2980b9;
+        }
     </style>
 </head>
 <body>
@@ -497,6 +528,13 @@
                     <option value="">Country</option>
                 </select>
             </ul>
+        </div>
+        <div class="stats-section" id="manga-stats">
+            <h2>Manga Stats</h2>
+            <div class="stat-item"><span>Count:</span><span id="manga-count"></span></div>
+            <div class="stat-item"><span>Chapters Read:</span><span id="manga-chaptersRead"></span></div>
+            <div class="stat-item"><span>Volumes Read:</span><span id="manga-volumesRead"></span></div>
+            <div class="stat-item"><span>Mean Score:</span><span id="manga-meanScore"></span></div>
         </div>
         <div class="container">
             <h1>My Manga List</h1>
@@ -772,6 +810,37 @@
             lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
         });
     });
+
+    fetch('stats.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data && data.data && data.data.User && data.data.User.statistics) {
+                    const animeStats = data.data.User.statistics.anime;
+                    const mangaStats = data.data.User.statistics.manga;
+
+                    document.getElementById('anime-count').textContent = animeStats.count;
+                    document.getElementById('anime-meanScore').textContent = animeStats.meanScore;
+                    const daysWatched = (animeStats.minutesWatched / 60 / 24).toFixed(2);
+                    document.getElementById('anime-daysWatched').textContent = daysWatched;
+                    document.getElementById('anime-episodesWatched').textContent = animeStats.episodesWatched;
+
+                    document.getElementById('manga-count').textContent = mangaStats.count;
+                    document.getElementById('manga-meanScore').textContent = mangaStats.meanScore;
+                    document.getElementById('manga-chaptersRead').textContent = mangaStats.chaptersRead;
+                    document.getElementById('manga-volumesRead').textContent = mangaStats.volumesRead;
+                } else {
+                    throw new Error('Invalid data structure');
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching stats:', error);
+                document.getElementById('error-message').textContent = `Error: ${error.message}`;
+            });
 </script>
 </body>
 </html>

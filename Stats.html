@@ -6,28 +6,53 @@
     <title>My AniList Stats</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f9fc;
+            color: #333;
+            margin: 0;
+            padding: 40px;
         }
 
         h1 {
-            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            text-align: center;
         }
 
         .stats-section {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             margin-bottom: 30px;
+            padding: 20px;
         }
 
         .stats-section h2 {
-            color: #555;
+            font-size: 1.8em;
+            color: #34495e;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
         }
 
         .stat-item {
+            font-size: 1.2em;
             margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .stat-item span {
+            font-weight: bold;
+            color: #2980b9;
         }
 
         .error {
-            color: red;
+            color: #e74c3c;
+            text-align: center;
+            font-size: 1.2em;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -36,18 +61,18 @@
 
     <div class="stats-section" id="anime-stats">
         <h2>Anime Stats</h2>
-        <div class="stat-item" id="anime-count"></div>
-        <div class="stat-item" id="anime-meanScore"></div>
-        <div class="stat-item" id="anime-minutesWatched"></div>
-        <div class="stat-item" id="anime-episodesWatched"></div>
+        <div class="stat-item"><span>Count:</span><span id="anime-count"></span></div>
+        <div class="stat-item"><span>Mean Score:</span><span id="anime-meanScore"></span></div>
+        <div class="stat-item"><span>Days Watched:</span><span id="anime-daysWatched"></span></div>
+        <div class="stat-item"><span>Episodes Watched:</span><span id="anime-episodesWatched"></span></div>
     </div>
 
     <div class="stats-section" id="manga-stats">
         <h2>Manga Stats</h2>
-        <div class="stat-item" id="manga-count"></div>
-        <div class="stat-item" id="manga-meanScore"></div>
-        <div class="stat-item" id="manga-chaptersRead"></div>
-        <div class="stat-item" id="manga-volumesRead"></div>
+        <div class="stat-item"><span>Count:</span><span id="manga-count"></span></div>
+        <div class="stat-item"><span>Mean Score:</span><span id="manga-meanScore"></span></div>
+        <div class="stat-item"><span>Chapters Read:</span><span id="manga-chaptersRead"></span></div>
+        <div class="stat-item"><span>Volumes Read:</span><span id="manga-volumesRead"></span></div>
     </div>
 
     <div class="error" id="error-message"></div>
@@ -65,15 +90,16 @@
                     const animeStats = data.data.User.statistics.anime;
                     const mangaStats = data.data.User.statistics.manga;
 
-                    document.getElementById('anime-count').textContent = `Count: ${animeStats.count}`;
-                    document.getElementById('anime-meanScore').textContent = `Mean Score: ${animeStats.meanScore}`;
-                    document.getElementById('anime-minutesWatched').textContent = `Minutes Watched: ${animeStats.minutesWatched}`;
-                    document.getElementById('anime-episodesWatched').textContent = `Episodes Watched: ${animeStats.episodesWatched}`;
+                    document.getElementById('anime-count').textContent = animeStats.count;
+                    document.getElementById('anime-meanScore').textContent = animeStats.meanScore;
+                    const daysWatched = (animeStats.minutesWatched / 60 / 24).toFixed(2);
+                    document.getElementById('anime-daysWatched').textContent = daysWatched;
+                    document.getElementById('anime-episodesWatched').textContent = animeStats.episodesWatched;
 
-                    document.getElementById('manga-count').textContent = `Count: ${mangaStats.count}`;
-                    document.getElementById('manga-meanScore').textContent = `Mean Score: ${mangaStats.meanScore}`;
-                    document.getElementById('manga-chaptersRead').textContent = `Chapters Read: ${mangaStats.chaptersRead}`;
-                    document.getElementById('manga-volumesRead').textContent = `Volumes Read: ${mangaStats.volumesRead}`;
+                    document.getElementById('manga-count').textContent = mangaStats.count;
+                    document.getElementById('manga-meanScore').textContent = mangaStats.meanScore;
+                    document.getElementById('manga-chaptersRead').textContent = mangaStats.chaptersRead;
+                    document.getElementById('manga-volumesRead').textContent = mangaStats.volumesRead;
                 } else {
                     throw new Error('Invalid data structure');
                 }

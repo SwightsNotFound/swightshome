@@ -177,6 +177,22 @@
             color: #fff;
         }
 
+        .filter-section button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #3498db;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .filter-section button:hover {
+            background-color: #2980b9;
+        }
+
         .container {
             padding: 20px;
             background-color: #fff;
@@ -404,6 +420,7 @@
                 <select id="countryFilter">
                     <option value="">Select Country</option>
                 </select>
+                <button id="applyFilters">Apply Filters</button>
             </div>
         </div>
     </div>

@@ -95,6 +95,76 @@
             background-color: #444;
         }
 
+        .sidebar {
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            max-width: 200px;
+            width: 100%;
+            margin-right: 20px;
+            transition: background-color 0.3s;
+        }
+
+        body.dark-mode .sidebar {
+            background-color: #444;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar ul li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        body.dark-mode .sidebar ul li a {
+            color: #f4f4f9;
+        }
+
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .search-bar {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .search-bar:focus {
+            border-color: #3498db;
+            outline: none;
+        }
+
+        .filter-select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .filter-select:focus {
+            border-color: #3498db;
+            outline: none;
+        }
+
         h1 {
             text-align: center;
             color: #333;
@@ -281,22 +351,48 @@
     </div>
 
     <div class="content-area">
+        <div class="sidebar">
+            <h1>Sections</h1>
+            <input type="text" id="searchBar" class="search-bar" placeholder="Search...">
+            <ul>
+                <li><a href="#watching">Watching</a></li>
+                <li><a href="#rewatching">Rewatching</a></li>
+                <li><a href="#completed">Completed</a></li>
+                <li><a href="#paused">Paused</a></li>
+                <li><a href="#dropped">Dropped</a></li>
+                <li><a href="#planning">Planning</a></li>
+                <h2>Sort By</h2>
+                <select id="genreFilter" class="filter-select">
+                    <option value="">Genre</option>
+                </select>
+                <select id="formatFilter" class="filter-select">
+                    <option value="">Format</option>
+                </select>
+                <select id="countryFilter" class="filter-select">
+                    <option value="">Country</option>
+                </select>
+            </ul>
+        </div>
         <div class="container">
             <h1>My Anime List</h1>
             <div class="section" id="watching">
                 <h2>Watching</h2>
                 <ul class="anime-list"></ul>
             </div>
+            <div class="section" id="rewatching">
+                <h2>Rewatching</h2>
+                <ul class="anime-list"></ul>
+            </div>
             <div class="section" id="completed">
                 <h2>Completed</h2>
                 <ul class="anime-list"></ul>
             </div>
-            <div class="section" id="dropped">
-                <h2>Dropped</h2>
-                <ul class="anime-list"></ul>
-            </div>
             <div class="section" id="paused">
                 <h2>Paused</h2>
+                <ul class="anime-list"></ul>
+            </div>
+            <div class="section" id="dropped">
+                <h2>Dropped</h2>
                 <ul class="anime-list"></ul>
             </div>
             <div class="section" id="planning">
@@ -342,6 +438,9 @@
 
         async function populateAnimeList() {
             const animeList = await fetchAnimeList();
+            const genres = new Set();
+            const formats = new Set();
+            const countries = new Set();
 
             animeList.forEach(list => {
                 let sectionId;
@@ -361,6 +460,9 @@
                     case "Planning":
                         sectionId = "planning";
                         break;
+                    case "Rewatching":
+                        sectionId = "rewatching";
+                        break;
                     default:
                         return;
                 }
@@ -368,6 +470,10 @@
                 const ul = section.querySelector('.anime-list');
 
                 list.entries.forEach(anime => {
+                    genres.add(...anime.genres);
+                    formats.add(anime.format);
+                    countries.add(anime.country);
+
                     const li = document.createElement('li');
                     li.classList.add('anime-item', 'fade-in');
 
@@ -413,6 +519,20 @@
                     ul.appendChild(li);
                 });
             });
+
+            populateFilterOptions(genres, 'genreFilter');
+            populateFilterOptions(formats, 'formatFilter');
+            populateFilterOptions(countries, 'countryFilter');
+        }
+
+        function populateFilterOptions(options, elementId) {
+            const filterElement = document.getElementById(elementId);
+            options.forEach(option => {
+                const opt = document.createElement('option');
+                opt.value = option;
+                opt.textContent = option;
+                filterElement.appendChild(opt);
+            });
         }
 
         function toggleSection(event) {
@@ -432,6 +552,38 @@
             header.click(); // Collapse all sections on load
             header.click(); // Expand all sections on load to fix the double click issue
         });
+
+        // Filter functions
+        function filterAnimeList() {
+            const searchBar = document.getElementById('searchBar').value.toLowerCase();
+            const genreFilter = document.getElementById('genreFilter').value;
+            const formatFilter = document.getElementById('formatFilter').value;
+            const countryFilter = document.getElementById('countryFilter').value;
+
+            document.querySelectorAll('.anime-item').forEach(item => {
+                const title = item.querySelector('h3').textContent.toLowerCase();
+                const genre = item.querySelector('p:nth-child(4)').textContent.split(': ')[1];
+                const format = item.querySelector('p:nth-child(5)').textContent.split(': ')[1];
+                const country = item.querySelector('p:nth-child(6)').textContent.split(': ')[1];
+
+                const matchesSearch = title.includes(searchBar);
+                const matchesGenre = genreFilter ? genre.includes(genreFilter) : true;
+                const matchesFormat = formatFilter ? format.includes(formatFilter) : true;
+                const matchesCountry = countryFilter ? country.includes(countryFilter) : true;
+
+                if (matchesSearch && matchesGenre && matchesFormat && matchesCountry) {
+                    item.style.display = 'flex';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        document.getElementById('searchBar').addEventListener('input', filterAnimeList);
+        document.getElementById('genreFilter').addEventListener('change', filterAnimeList);
+       
+        document.getElementById('formatFilter').addEventListener('change', filterAnimeList);
+        document.getElementById('countryFilter').addEventListener('change', filterAnimeList);
 
         populateAnimeList();
     </script>

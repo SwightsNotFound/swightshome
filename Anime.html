@@ -105,7 +105,7 @@
             border-radius: 10px;
             max-width: 200px;
             width: 100%;
-            height: calc(100% - 80px); /* Adjust to fit within the viewport height */
+            height: calc(77% - 80px); /* Adjust to fit within the viewport height */
             overflow-y: auto;
             transition: background-color 0.3s;
         }
@@ -267,7 +267,6 @@
             text-align: center;
             transition: background-color 0.3s;
             width: 100%;
-            position: fixed;
             bottom: 0;
         }
 
@@ -590,6 +589,27 @@
         document.getElementById('countryFilter').addEventListener('change', filterAnimeList);
 
         populateAnimeList();
+        
+        document.addEventListener('DOMContentLoaded', (event) => {
+    let lastScrollTop = 0;
+    const topbar = document.getElementById('topbar');
+    const scrollSpeed = 0.5; // Adjust this value for smoother or faster animations
+
+    window.addEventListener('scroll', () => {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > lastScrollTop) {
+            // Scroll down
+            topbar.style.transition = `top ${scrollSpeed}s`;
+            topbar.style.top = `-${topbar.offsetHeight}px`;
+        } else {
+            // Scroll up
+            topbar.style.transition = `top ${scrollSpeed}s`;
+            topbar.style.top = '0';
+        }
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+    });
+});
     </script>
 </body>
 </html>

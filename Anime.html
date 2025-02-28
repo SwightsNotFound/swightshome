@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,6 +50,7 @@
         .header-content h1 {
             margin: 0;
             font-size: 3em;
+            color: white; /* Make Swight's name white */
         }
 
         .header-content p {
@@ -148,7 +150,8 @@
             width: 100%;
             flex-grow: 1;
             padding-top: 80px;
-            padding-bottom: 60px; /* Ensure footer doesn't overlap */
+            padding-bottom: 60px;
+            gap: 20px;
         }
 
         .container {
@@ -159,7 +162,7 @@
             max-width: 800px;
             width: 100%;
             transition: background-color 0.3s;
-            margin-left: 220px; /* Adjust margin to make space for the fixed sidebar */
+            flex-grow: 1;
         }
 
         body.dark-mode .container {
@@ -168,16 +171,17 @@
 
         .sidebar {
             padding: 20px;
-            top: 140px; /* Adjust to position below the new topbar */
-            left: 0;
+            top: 140px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
             max-width: 250px;
             width: 100%;
-            height: calc(77% - 140px); /* Adjust to fit within the viewport height */
+            height: calc(77% - 140px);
             overflow-y: auto;
             transition: background-color 0.3s;
+            position: sticky;
+            align-self: flex-start;
         }
 
         body.dark-mode .sidebar {
@@ -308,6 +312,19 @@
             left: -20px;
         }
 
+        .anime-item .status-dot:hover::after {
+            content: 'Releasing';
+            position: absolute;
+            top: -20px;
+            left: 15px;
+            background-color: #333;
+            color: #fff;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-size: 12px;
+            white-space: nowrap;
+        }
+
         .anime-info {
             flex-grow: 1;
         }
@@ -370,15 +387,15 @@
 
         .logo-links a {
             display: inline-block;
-            width: 40px; /* Ensure logos are the same size */
-            height: 40px; /* Ensure logos are the same size */
+            width: 40px;
+            height: 40px;
             transition: transform 0.3s;
         }
 
         .logo-links img {
             width: 100%;
             height: 100%;
-            object-fit: contain; /* Keep logos looking good */
+            object-fit: contain;
         }
 
         .logo-links a:hover {
@@ -386,8 +403,13 @@
         }
 
         @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
         }
 
         .fade-in {
@@ -406,7 +428,8 @@
             padding: 20px;
             max-width: 250px;
             width: 100%;
-            margin-left: 20px; /* Adjust margin to make space between the sidebar and stats box */
+            position: sticky;
+            align-self: flex-start;
         }
 
         .stats-section h2 {
@@ -430,6 +453,7 @@
         }
     </style>
 </head>
+
 <body>
     <script>
         function setCookie(name, value, days) {
@@ -483,7 +507,8 @@
     <div class="header">
         <div class="overlay"></div>
         <div class="header-content">
-            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" alt="Logo" style="width: 150px; height: auto;">
+            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" alt="Logo"
+                style="width: 150px; height: auto;">
             <h1>Swight</h1>
             <p>This is a list of all the anime I have watched over the years (since 2021-22) this page is really just a mirror of my Anilist profile that I made for fun, all the information is stored in this <a href="https://github.com/SwightsNotFound/swightshome/blob/main/anime_list.json" target="_blank">file</a> which is updated every 12 hours.</p>
             <p>All of this information can also be found on Anilist, MAL and kitsu.</p>
@@ -529,13 +554,6 @@
                 </select>
             </ul>
         </div>
-        <div class="stats-section" id="anime-stats">
-            <h2>Anime Stats</h2>
-            <div class="stat-item"><span>Count:</span><span id="anime-count"></span></div>
-            <div class="stat-item"><span>Mean Score:</span><span id="anime-meanScore"></span></div>
-            <div class="stat-item"><span>Days Watched:</span><span id="anime-daysWatched"></span></div>
-            <div class="stat-item"><span>Episodes Watched:</span><span id="anime-episodesWatched"></span></div>
-        </div>
         <div class="container">
             <h1>My Anime List</h1>
             <div class="section" id="watching">
@@ -563,9 +581,15 @@
                 <ul class="anime-list"></ul>
             </div>
         </div>
-    </div>
-
-    <footer id="footer">        
+        <div class="stats-section" id="anime-stats">
+            <h2>Anime Stats</h2>
+            <div class="stat-item"><span>Count:</span><span id="anime-count"></span></div>
+            <div class="stat-item"><span>Mean Score:</span><span id="anime-meanScore"></span></div>
+            <div class="stat-item"><span>Days Watched:</span><span id="anime-daysWatched"></span></div>
+            <div class="stat-item"><span>Episodes Watched:</span><span id="anime-episodesWatched"></span></div>
+        </div>
+        </div>
+         <footer id="footer">        
         <p>Hosted using <a href="https://pages.github.com/" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" role="button">Cloudflare</a>.</p>
         <div class="footer-links">
             <a href="https://swightshome.xyz/Status" role="button">Status Page</a>

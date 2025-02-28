@@ -1,0 +1,20 @@
+{
+    "data": {
+        "User": {
+            "statistics": {
+                "anime": {
+                    "count": 295,
+                    "meanScore": 72.3,
+                    "minutesWatched": 131600,
+                    "episodesWatched": 5449
+                },
+                "manga": {
+                    "count": 14,
+                    "meanScore": 72.5,
+                    "chaptersRead": 456,
+                    "volumesRead": 48
+                }
+            }
+        }
+    }
+}

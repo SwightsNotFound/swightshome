@@ -89,6 +89,73 @@
     ]
   },
   {
+    "name": "Completed",
+    "entries": [
+      {
+        "title": "House of the Sun",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx56736-qYpc12PAQMxi.jpg",
+        "averageScore": 79,
+        "chapters": 70,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 70
+      },
+      {
+        "title": "LOVE SO LIFE",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx44236-MaTi4D6Pc6kh.jpg",
+        "averageScore": 80,
+        "chapters": 111,
+        "status": "FINISHED",
+        "genres": [
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 111
+      },
+      {
+        "title": "Tsubaki-chou Lonely Planet",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx86243-VNz7YlbNI6ao.jpg",
+        "averageScore": 77,
+        "chapters": 85,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 7,
+        "progress": 85
+      },
+      {
+        "title": "Hajimari no Niina",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx56021-3i9syQ7tHlVU.jpg",
+        "averageScore": 74,
+        "chapters": 22,
+        "status": "FINISHED",
+        "genres": [
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 6,
+        "progress": 22
+      }
+    ]
+  },
+  {
     "name": "Planning",
     "entries": [
       {

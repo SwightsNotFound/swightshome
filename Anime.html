@@ -354,6 +354,31 @@
             gap: 10px;
         }
 
+        .logo-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .logo-links a {
+            display: inline-block;
+            width: 40px; /* Ensure logos are the same size */
+            height: 40px; /* Ensure logos are the same size */
+            transition: transform 0.3s;
+        }
+
+        .logo-links img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain; /* Keep logos looking good */
+        }
+
+        .logo-links a:hover {
+            transform: scale(1.1);
+        }
+
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
@@ -422,8 +447,20 @@
         <div class="overlay"></div>
         <div class="header-content">
             <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" alt="Logo" style="width: 150px; height: auto;">
-            <h1>SwightsNotFound</h1>
-            <p>Your favorite place for Anime and Manga lists</p>
+            <h1>Swight</h1>
+            <p>This is a list of all the anime I have watched over the years (since 2021-22) this page is really just a mirror of my Anilist profile that I made for fun, all the information is stored in this <a href="https://github.com/SwightsNotFound/swightshome/blob/main/anime_list.json" role="button"> file</a> which is updated everywhere 24 hours.</p>
+            <p>All of this information can also be found on Anilist, MAL and kitsu.</p>
+            <div class="logo-links">
+                <a href="https://anilist.co/user/Swight/" target="_blank">
+                    <img src="https://anilist.co/img/logo_al.png" alt="Anilist Logo">
+                </a>
+                <a href="https://myanimelist.net/profile/SwightUnkown" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/MyAnimeList_Logo.png" alt="MyAnimeList Logo">
+                </a>
+                <a href="https://kitsu.app/users/Swight" target="_blank">
+                    <img src="https://kitsu.io/favicon.ico" alt="Kitsu Logo">
+                </a>
+            </div>
         </div>
     </div>
 
@@ -536,7 +573,7 @@
                         break;
                     case "Dropped":
                         sectionId = "dropped";
-                        break;
+                        break
                     case "Paused":
                         sectionId = "paused";
                         break;

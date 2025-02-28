@@ -24,6 +24,37 @@
             color: #f4f4f9;
         }
 
+        .header {
+            background: url('https://s4.anilist.co/file/anilistcdn/user/banner/b6405416-UYzbDK9v9lca.jpg') no-repeat center center/cover;
+            padding: 100px 20px;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+        .header .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .header-content h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        .header-content p {
+            font-size: 1.2em;
+        }
+
         .topbar {
             background-color: #2c3e50;
             display: flex;
@@ -70,6 +101,40 @@
             left: 20px;
         }
 
+        .navbar {
+            background-color: #2c3e50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+            width: 100%;
+            z-index: 1000;
+            transition: background-color 0.3s;
+        }
+
+        .navbar.dark-mode {
+            background-color: #1a252f;
+        }
+
+        .navbar a {
+            color: white;
+            text-align: center;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+
+        .navbar a:hover {
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+        }
+
         .content-area {
             display: flex;
             justify-content: center;
@@ -97,15 +162,14 @@
 
         .sidebar {
             padding: 20px;
-            position: fixed;
-            top: 80px; /* Adjust to position below the topbar */
+            top: 140px; /* Adjust to position below the new topbar */
             left: 0;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
-            max-width: 200px;
+            max-width: 250px;
             width: 100%;
-            height: calc(77% - 80px); /* Adjust to fit within the viewport height */
+            height: calc(77% - 140px); /* Adjust to fit within the viewport height */
             overflow-y: auto;
             transition: background-color 0.3s;
         }
@@ -335,6 +399,7 @@
 
             if (darkModePreference === "enabled" || (darkModePreference === "" && prefersDarkScheme)) {
                 document.body.classList.add('dark-mode');
+                document.getElementById('navbar').classList.add('dark-mode');
                 document.getElementById('topbar').classList.add('dark-mode');
                 document.getElementById('footer').classList.add('dark-mode');
                 document.getElementById('darkModeToggle').textContent = '☀️';
@@ -353,8 +418,22 @@
         <a href="Contact">Contact</a>
     </div>
 
+    <div class="header">
+        <div class="overlay"></div>
+        <div class="header-content">
+            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" alt="Logo" style="width: 150px; height: auto;">
+            <h1>SwightsNotFound</h1>
+            <p>Your favorite place for Anime and Manga lists</p>
+        </div>
+    </div>
+
+    <div class="navbar" id="navbar">
+        <a href="Anime">Anime</a>
+        <a href="Manga">Manga</a>
+    </div>
+
     <div class="content-area">
-        <div class="sidebar">
+        <div class="sidebar" id="sidebar">
             <h2>Sections</h2>
             <input type="text" id="searchBar" class="search-bar" placeholder="Search...">
             <ul>
@@ -419,6 +498,7 @@
     <script>
         function toggleDarkMode() {
             const isDarkMode = document.body.classList.toggle('dark-mode');
+            document.getElementById('navbar').classList.toggle('dark-mode');
             document.getElementById('topbar').classList.toggle('dark-mode');
             document.getElementById('footer').classList.toggle('dark-mode');
             darkModeToggle.textContent = isDarkMode ? '☀️' : '🌙';

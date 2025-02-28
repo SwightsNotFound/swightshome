@@ -80,38 +80,38 @@ Here’s a reworked version of your HTML page with the following fixes and impro
         }
 
         .content-area {
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            width: 100%;
-            flex-grow: 1;
-            padding-top: 80px;
-            padding-bottom: 60px;
-            position: relative;
-        }
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    flex-grow: 1;
+    padding-top: 80px;
+    padding-bottom: 60px; /* Ensure footer doesn't overlap */
+    margin-left: 240px; /* Add margin to avoid sidebar overlap */
+}
 
         .sidebar-container {
-            position: fixed;
-            left: 20px;
-            top: 80px;
-            width: 200px;
-            height: calc(100vh - 160px);
-            transition: transform 0.3s;
-            z-index: 999;
-        }
+    position: fixed;
+    left: 20px;
+    top: 80px;
+    width: 200px;
+    height: calc(100vh - 160px); /* Adjust height to avoid footer */
+    overflow-y: auto; /* Add scroll if content overflows */
+    z-index: 999;
+}
 
-        .sidebar {
-            width: 200px;
-            background-color: #2c3e50;
-            color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.3s;
-            position: relative;
-            height: 100%;
-            overflow-y: auto;
-        }
+.sidebar {
+    width: 200px;
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    position: relative;
+    height: 100%;
+    overflow-y: auto; /* Add scroll if content overflows */
+}
 
         .sidebar.dark-mode {
             background-color: #1a252f;
@@ -470,19 +470,19 @@ Here’s a reworked version of your HTML page with the following fixes and impro
     </footer>
 
     <script>
-        function toggleDarkMode() {
-            const isDarkMode = document.body.classList.toggle('dark-mode');
-            document.getElementById('topbar').classList.toggle('dark-mode');
-            document.getElementById('footer').classList.toggle('dark-mode');
-            document.getElementById('searchBar').classList.toggle('dark-mode');
-            document.getElementById('formatFilter').classList.toggle('dark-mode');
-            document.getElementById('genresFilter').classList.toggle('dark-mode');
-            document.getElementById('countryFilter').classList.toggle('dark-mode');
+function toggleDarkMode() {
+    const isDarkMode = document.body.classList.toggle('dark-mode');
+    document.getElementById('topbar').classList.toggle('dark-mode');
+    document.getElementById('footer').classList.toggle('dark-mode');
+    document.getElementById('searchBar').classList.toggle('dark-mode');
+    document.getElementById('formatFilter').classList.toggle('dark-mode');
+    document.getElementById('genresFilter').classList.toggle('dark-mode');
+    document.getElementById('countryFilter').classList.toggle('dark-mode');
 
-            darkModeToggle.textContent = isDarkMode ? '☀️' : '🌙';
+    darkModeToggle.textContent = isDarkMode ? '☀️' : '🌙';
 
-            setCookie("darkMode", isDarkMode ? "enabled" : "disabled", 365);
-        }
+    setCookie("darkMode", isDarkMode ? "enabled" : "disabled", 365);
+}
 
         const darkModeToggle = document.getElementById('darkModeToggle');
         darkModeToggle.addEventListener('click', toggleDarkMode);
@@ -607,27 +607,27 @@ Here’s a reworked version of your HTML page with the following fixes and impro
         }
 
         function toggleSection(event) {
-            const section = event.target.closest('.section');
-            const animeList = section.querySelector('.anime-list');
-            if (animeList.style.display === "block") {
-                animeList.style.display = "none";
-                section.classList.add('collapsed');
-            } else {
-                animeList.style.display = "block";
-                section.classList.remove('collapsed');
-            }
-        }
+    const section = event.target.closest('.section');
+    const animeList = section.querySelector('.anime-list');
+    if (animeList.style.display === "block") {
+        animeList.style.display = "none";
+        section.classList.add('collapsed');
+    } else {
+        animeList.style.display = "block";
+        section.classList.remove('collapsed');
+    }
+}
 
-        document.querySelectorAll('.section h2').forEach(header => {
-            header.addEventListener('click', toggleSection);
-            header.click(); // Collapse all sections on load
-            header.click(); // Expand all sections on load to fix the double click issue
-        });
+document.querySelectorAll('.section h2').forEach(header => {
+    header.addEventListener('click', toggleSection);
+    header.click(); // Collapse all sections on load
+    header.click(); // Expand all sections on load to fix the double click issue
+});
 
         populateAnimeList();
 
-const searchBar = document.getElementById('searchBar');
-searchBar.addEventListener('input', function() {
+        const searchBar = document.getElementById('searchBar');
+searchBar.addEventListener('input', function () {
     const query = searchBar.value.toLowerCase();
     const animeItems = document.querySelectorAll('.anime-item');
     animeItems.forEach(item => {
@@ -639,6 +639,70 @@ searchBar.addEventListener('input', function() {
         }
     });
 });
+
+document.getElementById('applyFilters').addEventListener('click', function () {
+    const formatFilter = document.getElementById('formatFilter').value;
+    const genresFilter = document.getElementById('genresFilter').value;
+    const countryFilter = document.getElementById('countryFilter').value;
+
+    const animeItems = document.querySelectorAll('.anime-item');
+    animeItems.forEach(item => {
+        const format = item.querySelector('.anime-info p:nth-child(4)').textContent.split(': ')[1];
+        const genres = item.querySelector('.anime-info p:nth-child(3)').textContent.split(': ')[1];
+        const country = item.querySelector('.anime-info p:nth-child(5)').textContent.split(': ')[1];
+
+        const matchesFormat = !formatFilter || format === formatFilter;
+        const matchesGenres = !genresFilter || genres.includes(genresFilter);
+        const matchesCountry = !countryFilter || country === countryFilter;
+
+        if (matchesFormat && matchesGenres && matchesCountry) {
+            item.style.display = 'flex';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+});
+
+async function populateFilters() {
+    const animeList = await fetchAnimeList();
+    const formats = new Set();
+    const genres = new Set();
+    const countries = new Set();
+
+    animeList.forEach(list => {
+        list.entries.forEach(anime => {
+            anime.genres.forEach(g => genres.add(g));
+            formats.add(anime.format);
+            countries.add(anime.country);
+        });
+    });
+
+    const formatFilter = document.getElementById('formatFilter');
+    formats.forEach(format => {
+        const option = document.createElement('option');
+        option.value = format;
+        option.textContent = format;
+        formatFilter.appendChild(option);
+    });
+
+    const genresFilter = document.getElementById('genresFilter');
+    genres.forEach(genre => {
+        const option = document.createElement('option');
+        option.value = genre;
+        option.textContent = genre;
+        genresFilter.appendChild(option);
+    });
+
+    const countryFilter = document.getElementById('countryFilter');
+    countries.forEach(country => {
+        const option = document.createElement('option');
+        option.value = country;
+        option.textContent = country;
+        countryFilter.appendChild(option);
+    });
+}
+
+populateFilters();
 </script>
 </body>
 </html>

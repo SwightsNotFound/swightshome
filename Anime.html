@@ -285,23 +285,23 @@
         }
 
         .anime-item {
-            display: flex;
-            align-items: center;
-            padding: 10px 0;
-            border-bottom: 1px solid #eee;
-            position: relative;
-        }
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    margin-bottom: 20px;
+}
+
 
         body.dark-mode .anime-item {
             border-bottom: 1px solid #555;
         }
 
         .anime-item img {
-            width: 50px;
-            height: 70px;
-            margin-right: 20px;
-        }
-
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
         .anime-item .status-dot {
             width: 10px;
             height: 10px;
@@ -326,22 +326,22 @@
         }
 
         .anime-info {
-            flex-grow: 1;
-        }
+    display: block;
+    text-align: center;
+}
 
-        .anime-info h3 {
-            margin: 0;
-            color: #333;
-        }
+.anime-info h3 {
+    margin: 10px 0;
+}
+
 
         body.dark-mode .anime-info h3 {
             color: #fff;
         }
 
         .anime-info p {
-            margin: 5px 0;
-            color: #777;
-        }
+    margin: 5px 0;
+}
 
         body.dark-mode .anime-info p {
             color: #ccc;

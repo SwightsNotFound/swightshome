@@ -21,9 +21,10 @@ jobs:
       with:
         node-version: '16'  # Use Node.js 16 for compatibility
 
-    - name: Install dependencies
-      run: npm install puppeteer
-      run: npm install axios
+    - name: Install Puppeteer and Axios
+      run: |
+        npm install puppeteer
+        npm install axios
 
     - name: Scrape StoryGraph and update JSON
       run: node scripts/update_storygraph.js

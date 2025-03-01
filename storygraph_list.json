@@ -3,7 +3,6 @@
     "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
     "coverImage": "https://cdn.thestorygraph.com/ykna33xeoq5zn8aljp13hk1at1da",
-    "averageRating": "N/A",
     "pages": "10 hours, 25 minutes",
     "status": "Currently reading",
     "genres": [
@@ -24,14 +23,13 @@
       "classics",
       "fantasy"
     ],
-    "format": "Format:",
-    "publicationDate": "Publication date:"
+    "format": "Audiobook",
+    "publicationDate": "N/A"
   },
   {
     "title": "The Martian",
     "author": "Andy Weir",
     "coverImage": "https://cdn.thestorygraph.com/joslm6haahsurvyc8i86mhwzuf3g",
-    "averageRating": "N/A",
     "pages": "369 pages",
     "status": "Currently reading",
     "genres": [
@@ -64,14 +62,13 @@
       "tense",
       "medium-paced"
     ],
-    "format": "Format:",
-    "publicationDate": "Publication date:"
+    "format": "Book",
+    "publicationDate": 2011
   },
   {
     "title": "The Secret Garden",
     "author": "Frances Hodgson Burnett",
     "coverImage": "https://cdn.thestorygraph.com/xj9ushc5gnbpeexk6dmr0qfaxxl4",
-    "averageRating": "N/A",
     "pages": "331 pages",
     "status": "Currently reading",
     "genres": [
@@ -104,14 +101,13 @@
       "lighthearted",
       "medium-paced"
     ],
-    "format": "Format:",
-    "publicationDate": "Publication date:"
+    "format": "Book",
+    "publicationDate": 1911
   },
   {
     "title": "The Last Olympian",
     "author": "Rick Riordan",
     "coverImage": "https://cdn.thestorygraph.com/lwdbaw1492drnen7t077pwer1q5s",
-    "averageRating": "N/A",
     "pages": "381 pages",
     "status": "Currently reading",
     "genres": [
@@ -144,14 +140,13 @@
       "funny",
       "fast-paced"
     ],
-    "format": "Format:",
-    "publicationDate": "Publication date:"
+    "format": "Book",
+    "publicationDate": 2009
   },
   {
     "title": "Tsuiraku JK to Haijin Kyoushi, Volume 6",
     "author": "Sora Mizuki",
     "coverImage": "https://cdn.thestorygraph.com/ai3wl7ty5m6kuriicp0ee9w65aut",
-    "averageRating": "N/A",
     "pages": "169 pages",
     "status": "Currently reading",
     "genres": [
@@ -168,14 +163,13 @@
       "manga",
       "romance"
     ],
-    "format": "Format:",
-    "publicationDate": "Publication date:"
+    "format": "Book",
+    "publicationDate": "N/A"
   },
   {
     "title": "Tokyo Ghoul, Vol. 1",
     "author": "Sui Ishida",
     "coverImage": "https://cdn.thestorygraph.com/ts2a1cyztowjnjqc9sdmngch96o4",
-    "averageRating": "N/A",
     "pages": "224 pages",
     "status": "Currently reading",
     "genres": [
@@ -216,14 +210,13 @@
       "tense",
       "fast-paced"
     ],
-    "format": "Format:",
-    "publicationDate": "Publication date:"
+    "format": "Book",
+    "publicationDate": 2015
   },
   {
     "title": "Kaoru Hana wa Rin to Saku, Volume 7",
     "author": "Saka Mikami",
     "coverImage": "https://cdn.thestorygraph.com/iv3n544z2307nm19sdpdrbvxkr69",
-    "averageRating": "N/A",
     "pages": "192 pages",
     "status": "Currently reading",
     "genres": [
@@ -252,14 +245,13 @@
       "lighthearted",
       "slow-paced"
     ],
-    "format": "Format:",
-    "publicationDate": "Publication date:"
+    "format": "Book",
+    "publicationDate": "N/A"
   },
   {
     "title": "Ao Haru Ride, Vol. 1",
     "author": "Io Sakisaka",
     "coverImage": "https://cdn.thestorygraph.com/hehjizewio37ekwkzvq9lgrcm5cr",
-    "averageRating": "N/A",
     "pages": "184 pages",
     "status": "Currently reading",
     "genres": [
@@ -288,14 +280,13 @@
       "lighthearted",
       "fast-paced"
     ],
-    "format": "Format:",
-    "publicationDate": "Publication date:"
+    "format": "Book",
+    "publicationDate": "N/A"
   },
   {
     "title": "Dengeki Daisy, Volume 9",
     "author": "Kyousuke Motomi",
     "coverImage": "https://cdn.thestorygraph.com/5topn0jap3wda1vh79nysbr8bta3",
-    "averageRating": "N/A",
     "pages": "200 pages",
     "status": "Currently reading",
     "genres": [
@@ -320,14 +311,13 @@
       "adventurous",
       "medium-paced"
     ],
-    "format": "Format:",
-    "publicationDate": "Publication date:"
+    "format": "Book",
+    "publicationDate": "N/A"
   },
   {
     "title": "The Battle of the Labyrinth",
     "author": "Rick Riordan",
     "coverImage": "https://cdn.thestorygraph.com/aj051gye0eiqyb29dup0diqwxpv7",
-    "averageRating": "N/A",
     "pages": "361 pages",
     "status": "Read recently",
     "genres": [
@@ -356,14 +346,13 @@
       "funny",
       "fast-paced"
     ],
-    "format": "Format:",
-    "publicationDate": "Publication date:"
+    "format": "Book",
+    "publicationDate": 2005
   },
   {
     "title": "The Titan's Curse",
     "author": "Rick Riordan",
     "coverImage": "https://cdn.thestorygraph.com/476w1uqrkfqeod52mf6lqfz53vk5",
-    "averageRating": "N/A",
     "pages": "294 pages",
     "status": "Read recently",
     "genres": [
@@ -392,14 +381,13 @@
       "funny",
       "fast-paced"
     ],
-    "format": "Format:",
-    "publicationDate": "Publication date:"
+    "format": "Book",
+    "publicationDate": 2007
   },
   {
     "title": "The Lightning Thief",
     "author": "Rick Riordan",
     "coverImage": "https://cdn.thestorygraph.com/fiajoj7wx6s7lrobv8qbdfxbtqzf",
-    "averageRating": "N/A",
     "pages": "377 pages",
     "status": "Read recently",
     "genres": [
@@ -432,14 +420,13 @@
       "lighthearted",
       "fast-paced"
     ],
-    "format": "Format:",
-    "publicationDate": "Publication date:"
+    "format": "Book",
+    "publicationDate": 2005
   },
   {
     "title": "The Sea of Monsters",
     "author": "Rick Riordan",
     "coverImage": "https://cdn.thestorygraph.com/adpi22yz4wobsaoht9uswpkcvusq",
-    "averageRating": "N/A",
     "pages": "279 pages",
     "status": "Read recently",
     "genres": [
@@ -472,14 +459,13 @@
       "lighthearted",
       "fast-paced"
     ],
-    "format": "Format:",
-    "publicationDate": "Publication date:"
+    "format": "Book",
+    "publicationDate": 2005
   },
   {
     "title": "Artemis",
     "author": "Andy Weir",
     "coverImage": "https://cdn.thestorygraph.com/1ln6pkaos0nx006sp7j300h0i1vj",
-    "averageRating": "N/A",
     "pages": "305 pages",
     "status": "To read",
     "genres": [
@@ -504,14 +490,13 @@
       "funny",
       "fast-paced"
     ],
-    "format": "Format:",
-    "publicationDate": "Publication date:"
+    "format": "Book",
+    "publicationDate": 2017
   },
   {
     "title": "The Andromeda Strain",
     "author": "Michael Crichton",
     "coverImage": "https://cdn.thestorygraph.com/287gxbusdoy6re00on2manpqenk8",
-    "averageRating": "N/A",
     "pages": "331 pages",
     "status": "To read",
     "genres": [
@@ -540,14 +525,13 @@
       "tense",
       "medium-paced"
     ],
-    "format": "Format:",
-    "publicationDate": "Publication date:"
+    "format": "Book",
+    "publicationDate": 1969
   },
   {
     "title": "Children of Time",
     "author": "Adrian Tchaikovsky",
     "coverImage": "https://cdn.thestorygraph.com/9czej9ocu7skkzg7zw5y5fnhmr1u",
-    "averageRating": "N/A",
     "pages": "629 pages",
     "status": "To read",
     "genres": [
@@ -572,14 +556,13 @@
       "tense",
       "medium-paced"
     ],
-    "format": "Format:",
-    "publicationDate": "Publication date:"
+    "format": "Book",
+    "publicationDate": 2015
   },
   {
     "title": "Wool",
     "author": "Hugh Howey",
     "coverImage": "https://cdn.thestorygraph.com/5tqr0pojfzp6cmidzhwgjvr0thzw",
-    "averageRating": "N/A",
     "pages": "561 pages",
     "status": "To read",
     "genres": [
@@ -612,14 +595,13 @@
       "tense",
       "medium-paced"
     ],
-    "format": "Format:",
-    "publicationDate": "Publication date:"
+    "format": "Book",
+    "publicationDate": 2011
   },
   {
     "title": "Under the Dome",
     "author": "Stephen King",
     "coverImage": "https://cdn.thestorygraph.com/vrdujd7o0xd23u79zkkposa42gw2",
-    "averageRating": "N/A",
     "pages": "1074 pages",
     "status": "To read",
     "genres": [
@@ -648,7 +630,7 @@
       "tense",
       "medium-paced"
     ],
-    "format": "Format:",
-    "publicationDate": "Publication date:"
+    "format": "Book",
+    "publicationDate": 1925
   }
 ]

@@ -305,6 +305,12 @@
                 const section = header.parentElement;
                 section.classList.toggle('books-section-collapsed');
                 section.classList.toggle('books-section-expanded');
+                if(section.classList.contains('books-section-expanded')) {
+                    const sectionId = section.id.replace('-section', '');
+                    if (!section.querySelector('.books-list').innerHTML) {
+                        loadBooks();
+                    }
+                }
             });
         });
 

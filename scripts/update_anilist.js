@@ -10,6 +10,7 @@ async function fetchUserAnimeList() {
                     name
                     entries {
                         media {
+                            id
                             title {
                                 english
                                 romaji
@@ -48,6 +49,7 @@ async function fetchUserAnimeList() {
         const animeList = lists.map(list => ({
             name: list.name,
             entries: list.entries.map(entry => ({
+                id: entry.media.id,
                 title: entry.media.title.english || entry.media.title.romaji,
                 coverImage: entry.media.coverImage.medium,
                 averageScore: entry.media.averageScore,
@@ -57,7 +59,12 @@ async function fetchUserAnimeList() {
                 format: entry.media.format,
                 country: entry.media.countryOfOrigin,
                 personalScore: entry.score,
-                progress: entry.progress
+                progress: entry.progress,
+                links: {
+                    anilist: `https://anilist.co/anime/${entry.media.id}/`,
+                    mal: `https://myanimelist.net/anime/${entry.media.id}`,
+                    kitsu: `https://kitsu.io/anime/${entry.media.id}`
+                }
             })).sort((a, b) => b.personalScore - a.personalScore)
         }));
 

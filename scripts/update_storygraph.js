@@ -2,10 +2,35 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
+async function scrollPage(page) {
+    await page.evaluate(async () => {
+        await new Promise((resolve) => {
+            let totalHeight = 0;
+            const distance = 100;
+            const timer = setInterval(() => {
+                const scrollHeight = document.body.scrollHeight;
+                window.scrollBy(0, distance);
+                totalHeight += distance;
+
+                if (totalHeight >= scrollHeight) {
+                    clearInterval(timer);
+                    resolve();
+                }
+            }, 100);
+        });
+    });
+}
+
 async function scrapePage(url, status) {
     const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
     await page.goto(url, { waitUntil: 'networkidle2' });
+
+    // Scroll down to load more content
+    await scrollPage(page);
+
+    // Wait for the book panes to load
+    await page.waitForSelector('.book-pane', { timeout: 60000 });
 
     const books = await page.evaluate((status) => {
         return Array.from(document.querySelectorAll('.book-pane')).map(book => ({
@@ -32,7 +57,7 @@ async function fetchUserStoryGraphList() {
         const toRead = await scrapePage('https://app.thestorygraph.com/to-read/swight', 'To read');
 
         const books = [...currentlyReading, ...readRecently, ...toRead];
-        const filePath = path.join(process.cwd(), 'storygraph_list.json');
+        const filePath = path.join(__dirname, '..', 'storygraph_list.json');
         console.log(`Saving to: ${filePath}`);
         console.log(`Current working directory: ${process.cwd()}`);
         fs.writeFileSync(filePath, JSON.stringify(books, null, 2));

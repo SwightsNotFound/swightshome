@@ -75,6 +75,10 @@
             cursor: pointer;
         }
 
+        .books-section-collapsed .books-list-container {
+            display: none;
+        }
+
         .books-section-collapsed h2:after {
             content: ' ▼';
         }
@@ -260,7 +264,7 @@
 
         // Function to display books in the specified section
         function displayBooks(books, sectionId) {
-            const section = document.getElementById(sectionId);
+            const section = document.getElementById(sectionId).querySelector('.books-list');
             const booksHtml = books.map(book => `
                 <div class="book-item">
                     <img src="${book.coverImage}" alt="${book.title} by ${book.author}">
@@ -306,13 +310,13 @@
 
         // Function to scroll left
         function scrollLeft(sectionId) {
-            const section = document.getElementById(sectionId);
+            const section = document.getElementById(sectionId).querySelector('.books-list');
             section.scrollBy({ left: -300, behavior: 'smooth' });
         }
 
         // Function to scroll right
         function scrollRight(sectionId) {
-            const section = document.getElementById(sectionId);
+            const section = document.getElementById(sectionId).querySelector('.books-list');
             section.scrollBy({ left: 300, behavior: 'smooth' });
         }
 

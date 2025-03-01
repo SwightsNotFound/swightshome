@@ -610,8 +610,6 @@
                 <select id="genreFilter" class="filter-select">
                     <option value="">Genre</option>
                 </select>
-                <select id="formatFilter" class="filter-select">
-                    <option value="">Format</option>
                 </select>
                 <select id="countryFilter" class="filter-select">
                     <option value="">Country</option>
@@ -758,13 +756,25 @@
                     genre.innerHTML = `Genres<br><span>${manga.genres.join(', ')}</span>`;
                     infoDiv.appendChild(genre);
 
-                    const format = document.createElement('p');
-                    format.innerHTML = `Format<br><span>${manga.format}</span>`;
-                    infoDiv.appendChild(format);
+                   // const format = document.createElement('p');
+                    //format.innerHTML = `Format<br><span>${manga.format}</span>`;
+                    //infoDiv.appendChild(format);
 
                     li.appendChild(infoDiv);
                     ul.appendChild(li);
-                });
+
+               // Add Anilist logo and link
+               const anilistLink = document.createElement('a');
+    anilistLink.href = manga.links.anilist;
+    anilistLink.target = '_blank';
+    const anilistLogo = document.createElement('img');
+    anilistLogo.src = 'images/AniList.svg.png';
+    anilistLogo.alt = 'Anilist Logo';
+    anilistLogo.style.width = '20px';
+    anilistLogo.style.height = '20px';
+    anilistLink.appendChild(anilistLogo);
+    li.appendChild(anilistLink);
+});
             });
 
             populateFilterOptions(genres, 'genreFilter');

@@ -10,6 +10,7 @@ async function fetchUserMangaList() {
                 name
                 entries {
                     media {
+                        id
                         title {
                             english
                             romaji
@@ -22,7 +23,7 @@ async function fetchUserMangaList() {
                         status
                         genres
                         format
-                            countryOfOrigin
+                        countryOfOrigin
                     }
                     score
                     progress
@@ -48,6 +49,7 @@ async function fetchUserMangaList() {
         const mangaList = lists.map(list => ({
             name: list.name,
             entries: list.entries.map(entry => ({
+                id: entry.media.id,
                 title: entry.media.title.english || entry.media.title.romaji,
                 coverImage: entry.media.coverImage.medium,
                 averageScore: entry.media.averageScore,
@@ -55,9 +57,14 @@ async function fetchUserMangaList() {
                 status: entry.media.status,
                 genres: entry.media.genres,
                 format: entry.media.format,
-                    country: entry.media.countryOfOrigin,
-                    personalScore: entry.score,
-                    progress: entry.progress
+                country: entry.media.countryOfOrigin,
+                personalScore: entry.score,
+                progress: entry.progress,
+                links: {
+                    anilist: `https://anilist.co/manga/${entry.media.id}/`,
+                    mal: `https://myanimelist.net/manga/${entry.media.id}`,
+                    kitsu: `https://kitsu.io/manga/${entry.media.id}`
+                }
             })).sort((a, b) => b.personalScore - a.personalScore)
         }));
 

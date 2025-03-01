@@ -75,17 +75,13 @@
             cursor: pointer;
         }
 
-        .books-section-collapsed h2:after {
-            content: ' ▼';
-        }
-
-        .books-section-expanded h2:after {
+        .books-section h2:after {
             content: ' ▲';
         }
 
         .books-list-container {
             position: relative;
-            display: none;
+            display: block;
         }
 
         .books-list {
@@ -209,7 +205,7 @@
         </header>
 
         <main>
-            <section class="books-section books-section-collapsed" id="currently-reading-section">
+            <section class="books-section books-section-expanded" id="currently-reading-section">
                 <h2>Currently Reading</h2>
                 <div class="scroll-buttons" id="currently-reading-scroll-buttons">
                     <button class="scroll-button" onclick="scrollLeft('currently-reading')">◀</button>
@@ -220,7 +216,7 @@
                 </div>
             </section>
 
-            <section class="books-section books-section-collapsed" id="read-recently-section">
+            <section class="books-section books-section-expanded" id="read-recently-section">
                 <h2>Read</h2>
                 <div class="scroll-buttons" id="read-recently-scroll-buttons">
                     <button class="scroll-button" onclick="scrollLeft('read-recently')">◀</button>
@@ -231,7 +227,7 @@
                 </div>
             </section>
 
-            <section class="books-section books-section-collapsed" id="to-read-section">
+            <section class="books-section books-section-expanded" id="to-read-section">
                 <h2>Planning to Read</h2>
                 <div class="scroll-buttons" id="to-read-scroll-buttons">
                     <button class="scroll-button" onclick="scrollLeft('to-read')">◀</button>
@@ -282,7 +278,7 @@
 
             // Show scroll buttons if necessary
             const scrollButtons = document.getElementById(`${sectionId}-scroll-buttons`);
-            if (section.scrollWidth > section.clientWidth) {
+            if (section.querySelector('.books-list').scrollWidth > section.querySelector('.books-list').clientWidth) {
                 scrollButtons.style.display = 'flex';
             } else {
                 scrollButtons.style.display = 'none';
@@ -304,20 +300,21 @@
                 const booksListContainer = section.querySelector('.books-list-container');
                 section.classList.toggle('books-section-collapsed');
                 section.classList.toggle('books-section-expanded');
-                booksListContainer.style.display = booksListContainer.style.display === 'none' ? 'block' : 'none';
+                booksListContainer.style.display = section.classList.contains('books-section-collapsed') ? 'none' : 'block';
+                header.querySelector('after').textContent = section.classList.contains('books-section-collapsed') ? ' ▼' : ' ▲';
             });
         });
 
         // Function to scroll left
         function scrollLeft(sectionId) {
             const section = document.getElementById(sectionId);
-            section.scrollBy({ left: -300, behavior: 'smooth' });
+            section.querySelector('.books-list').scrollBy({ left: -300, behavior: 'smooth' });
         }
 
         // Function to scroll right
         function scrollRight(sectionId) {
             const section = document.getElementById(sectionId);
-            section.scrollBy({ left: 300, behavior: 'smooth' });
+            section.querySelector('.books-list').scrollBy({ left: 300, behavior: 'smooth' });
         }
 
         // Load books on page load

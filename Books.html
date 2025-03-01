@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StoryGraph Profile</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
@@ -95,12 +97,42 @@
         .book-item h3 {
             font-size: 1.1em;
             margin: 0 0 5px 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .book-item p {
             margin: 0;
             font-size: 0.9em;
             color: #555;
+        }
+
+        .book-item .author {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .book-item .details {
+            margin-top: 10px;
+            font-size: 0.8em;
+            color: #777;
+        }
+
+        .book-item .genres {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 5px;
+            margin-top: 5px;
+        }
+
+        .book-item .genre {
+            background-color: #007bff;
+            color: #fff;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-size: 0.7em;
         }
     </style>
 </head>
@@ -158,11 +190,15 @@
                 <div class="book-item">
                     <img src="${book.coverImage}" alt="${book.title} by ${book.author}">
                     <h3>${book.title}</h3>
-                    <p>by ${book.author}</p>
-                    <p>${book.pages}</p>
-                    <p>${book.genres.join(', ')}</p>
-                    <p>${book.format}</p>
-                    <p>${book.publicationDate}</p>
+                    <p class="author">${book.author}</p>
+                    <div class="details">
+                        <p>${book.pages} pages</p>
+                        <p>${book.format}</p>
+                        <p>${book.publicationDate}</p>
+                    </div>
+                    <div class="genres">
+                        ${book.genres.slice(0, 3).map(genre => `<span class="genre">${genre}</span>`).join('')}
+                    </div>
                 </div>
             `).join('');
         }

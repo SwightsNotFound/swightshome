@@ -669,10 +669,10 @@
             darkModeToggle.textContent = isDarkMode ? '☀️' : '🌙';
             setCookie("darkMode", isDarkMode ? "enabled" : "disabled", 365);
         }
-    
+
         const darkModeToggle = document.getElementById('darkModeToggle');
         darkModeToggle.addEventListener('click', toggleDarkMode);
-    
+
         async function fetchMangaList() {
             try {
                 const response = await fetch('manga_list.json');
@@ -683,13 +683,13 @@
                 return [];
             }
         }
-    
+
         async function populateMangaList() {
             const mangaList = await fetchMangaList();
             const genres = new Set();
             const formats = new Set();
             const countries = new Set();
-    
+
             mangaList.forEach(list => {
                 let sectionId;
                 switch (list.name) {
@@ -713,77 +713,77 @@
                 }
                 const section = document.getElementById(sectionId);
                 const ul = section.querySelector('.manga-list');
-    
+
                 list.entries.forEach(manga => {
                     manga.genres.forEach(genre => genres.add(genre));
                     formats.add(manga.format);
                     countries.add(manga.country);
-    
+
                     const li = document.createElement('li');
                     li.classList.add('manga-item', 'fade-in');
-    
+
                     if (manga.status === "RELEASING") {
                         const statusDot = document.createElement('div');
                         statusDot.classList.add('status-dot');
                         li.appendChild(statusDot);
                     }
-    
+
                     const img = document.createElement('img');
                     img.src = manga.coverImage;
                     img.alt = manga.title;
                     li.appendChild(img);
-    
+
                     const flagImg = document.createElement('img');
                     flagImg.src = `https://flagcdn.com/${manga.country.toLowerCase()}.svg`;
                     flagImg.alt = manga.country;
                     flagImg.classList.add('flag');
                     li.appendChild(flagImg);
-    
+
                     const infoDiv = document.createElement('div');
                     infoDiv.classList.add('manga-info');
-    
+
                     const title = document.createElement('h3');
                     title.textContent = manga.title;
                     infoDiv.appendChild(title);
-    
+
                     const score = document.createElement('p');
                     score.innerHTML = `Score<br><span>${manga.personalScore || 'N/A'}</span>`;
                     infoDiv.appendChild(score);
-    
+
                     const chapters = document.createElement('p');
                     chapters.innerHTML = `Chapters<br><span>${manga.progress}/${manga.chapters || 'Unknown'}</span>`;
                     infoDiv.appendChild(chapters);
-    
+
                     const genre = document.createElement('p');
                     genre.innerHTML = `Genres<br><span>${manga.genres.join(', ')}</span>`;
                     infoDiv.appendChild(genre);
-    
+
                     const format = document.createElement('p');
                     format.innerHTML = `Format<br><span>${manga.format}</span>`;
                     infoDiv.appendChild(format);
-    
-                    // Add Anilist logo and link
-                    const anilistLink = document.createElement('a');
-                    anilistLink.href = manga.links.anilist; // Assuming `manga.links.anilist` contains the URL to the Anilist page
-                    anilistLink.target = '_blank';
-                    const anilistLogo = document.createElement('img');
-                    anilistLogo.src = 'https://anilist.co/img/logo_al.png'; // URL to the Anilist logo
-                    anilistLogo.alt = 'Anilist Logo';
-                    anilistLogo.style.width = '20px';
-                    anilistLogo.style.height = '20px';
-                    anilistLink.appendChild(anilistLogo);
-                    li.appendChild(anilistLink);
-    
+
                     li.appendChild(infoDiv);
                     ul.appendChild(li);
-                });
+
+                // Add Anilist logo and link
+                const anilistLink = document.createElement('a');
+    anilistLink.href = anime.links.anilist;
+    anilistLink.target = '_blank';
+    const anilistLogo = document.createElement('img');
+    anilistLogo.src = 'images/AniList.svg.png';
+    anilistLogo.alt = 'Anilist Logo';
+    anilistLogo.style.width = '20px';
+    anilistLogo.style.height = '20px';
+    anilistLink.appendChild(anilistLogo);
+    li.appendChild(anilistLink);
+});
             });
-    
+
             populateFilterOptions(genres, 'genreFilter');
             populateFilterOptions(formats, 'formatFilter');
             populateFilterOptions(countries, 'countryFilter');
         }
-    
+
         function populateFilterOptions(options, elementId) {
             const filterElement = document.getElementById(elementId);
             options.forEach(option => {
@@ -793,7 +793,7 @@
                 filterElement.appendChild(opt);
             });
         }
-    
+
         function toggleSection(event) {
             const section = event.target.closest('.section');
             const mangaList = section.querySelector('.manga-list');
@@ -805,29 +805,29 @@
                 section.classList.remove('collapsed');
             }
         }
-    
+
         document.querySelectorAll('.section h2').forEach(header => {
             header.addEventListener('click', toggleSection);
             header.click(); // Collapse all sections on load
         });
-    
+
         function filterMangaList() {
             const searchBar = document.getElementById('searchBar').value.toLowerCase();
             const genreFilter = document.getElementById('genreFilter').value;
             const formatFilter = document.getElementById('formatFilter').value;
             const countryFilter = document.getElementById('countryFilter').value;
-    
+
             document.querySelectorAll('.manga-item').forEach(item => {
                 const title = item.querySelector('h3').textContent.toLowerCase();
                 const genre = item.querySelector('p:nth-child(4) span').textContent.toLowerCase();
                 const format = item.querySelector('p:nth-child(5) span').textContent.toLowerCase();
                 const country = item.querySelector('.flag').alt.toLowerCase();
-    
+
                 const matchesSearch = title.includes(searchBar);
                 const matchesGenre = genreFilter ? genre.includes(genreFilter.toLowerCase()) : true;
                 const matchesFormat = formatFilter ? format.includes(formatFilter.toLowerCase()) : true;
                 const matchesCountry = countryFilter ? country.includes(countryFilter.toLowerCase()) : true;
-    
+
                 if (matchesSearch && matchesGenre && matchesFormat && matchesCountry) {
                     item.style.display = 'flex';
                 } else {
@@ -835,22 +835,22 @@
                 }
             });
         }
-    
+
         document.getElementById('searchBar').addEventListener('input', filterMangaList);
         document.getElementById('genreFilter').addEventListener('change', filterMangaList);
         document.getElementById('formatFilter').addEventListener('change', filterMangaList);
         document.getElementById('countryFilter').addEventListener('change', filterMangaList);
-    
+
         populateMangaList();
-    
+
         document.addEventListener('DOMContentLoaded', (event) => {
             let lastScrollTop = 0;
             const topbar = document.getElementById('topbar');
             const scrollSpeed = 0.5;
-    
+
             window.addEventListener('scroll', () => {
                 let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    
+
                 if (scrollTop > lastScrollTop) {
                     topbar.style.transition = `top ${scrollSpeed}s`;
                     topbar.style.top = `-${topbar.offsetHeight}px`;
@@ -861,7 +861,7 @@
                 lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
             });
         });
-    
+
         fetch('stats.json')
             .then(response => {
                 if (!response.ok) {
@@ -872,7 +872,7 @@
             .then(data => {
                 if (data && data.data && data.data.User && data.data.User.statistics) {
                     const mangaStats = data.data.User.statistics.manga;
-    
+
                     document.getElementById('manga-count').textContent = mangaStats.count;
                     document.getElementById('manga-meanScore').textContent = mangaStats.meanScore;
                     document.getElementById('manga-chaptersRead').textContent = mangaStats.chaptersRead;

@@ -23,6 +23,7 @@ jobs:
 
     - name: Install dependencies
       run: npm install puppeteer
+      run: npm install axios
 
     - name: Scrape StoryGraph and update JSON
       run: node scripts/update_storygraph.js

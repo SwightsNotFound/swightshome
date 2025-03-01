@@ -764,19 +764,7 @@
 
                     li.appendChild(infoDiv);
                     ul.appendChild(li);
-
-                // Add Anilist logo and link
-                const anilistLink = document.createElement('a');
-    anilistLink.href = anime.links.anilist;
-    anilistLink.target = '_blank';
-    const anilistLogo = document.createElement('img');
-    anilistLogo.src = 'images/AniList.svg.png';
-    anilistLogo.alt = 'Anilist Logo';
-    anilistLogo.style.width = '20px';
-    anilistLogo.style.height = '20px';
-    anilistLink.appendChild(anilistLogo);
-    li.appendChild(anilistLink);
-});
+                });
             });
 
             populateFilterOptions(genres, 'genreFilter');

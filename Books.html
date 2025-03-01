@@ -72,30 +72,12 @@
         .books-section h2 {
             font-size: 1.5em;
             margin-bottom: 10px;
-            cursor: pointer;
         }
 
-        .books-section-collapsed .books-list-container {
-            display: none;
-        }
-
-        .books-section-collapsed h2:after {
-            content: ' ▼';
-        }
-
-        .books-section-expanded h2:after {
-            content: ' ▲';
-        }
-
-        .books-list-container {
-            position: relative;
-        }
-
-        .books-list {
-            display: flex;
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
             gap: 20px;
-            padding: 10px 0;
-            overflow-x: auto;
         }
 
         .book-item {
@@ -104,8 +86,6 @@
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             text-align: center;
-            min-width: 150px;
-            max-width: 150px;
         }
 
         .book-item img {
@@ -162,39 +142,6 @@
             border-radius: 3px;
             font-size: 0.7em;
         }
-
-        .scroll-buttons {
-            display: none;
-            gap: 5px;
-            margin-bottom: 10px;
-        }
-
-        .scroll-button {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            padding: 10px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .scroll-button:hover {
-            background-color: #0056b3;
-        }
-
-        .show-more-genres {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            padding: 5px;
-            border-radius: 3px;
-            cursor: pointer;
-            font-size: 0.7em;
-        }
-
-        .show-more-genres:hover {
-            background-color: #0056b3;
-        }
     </style>
 </head>
 
@@ -212,37 +159,19 @@
         </header>
 
         <main>
-            <section class="books-section books-section-collapsed" id="currently-reading-section">
+            <section class="books-section">
                 <h2>Currently Reading</h2>
-                <div class="scroll-buttons" id="currently-reading-scroll-buttons">
-                    <button class="scroll-button" onclick="scrollLeft('currently-reading')">◀</button>
-                    <button class="scroll-button" onclick="scrollRight('currently-reading')">▶</button>
-                </div>
-                <div class="books-list-container">
-                    <div class="books-list" id="currently-reading"></div>
-                </div>
+                <div class="books-grid" id="currently-reading"></div>
             </section>
 
-            <section class="books-section books-section-collapsed" id="read-recently-section">
+            <section class="books-section">
                 <h2>Read</h2>
-                <div class="scroll-buttons" id="read-recently-scroll-buttons">
-                    <button class="scroll-button" onclick="scrollLeft('read-recently')">◀</button>
-                    <button class="scroll-button" onclick="scrollRight('read-recently')">▶</button>
-                </div>
-                <div class="books-list-container">
-                    <div class="books-list" id="read-recently"></div>
-                </div>
+                <div class="books-grid" id="read-recently"></div>
             </section>
 
-            <section class="books-section books-section-collapsed" id="to-read-section">
+            <section class="books-section">
                 <h2>Planning to Read</h2>
-                <div class="scroll-buttons" id="to-read-scroll-buttons">
-                    <button class="scroll-button" onclick="scrollLeft('to-read')">◀</button>
-                    <button class="scroll-button" onclick="scrollRight('to-read')">▶</button>
-                </div>
-                <div class="books-list-container">
-                    <div class="books-list" id="to-read"></div>
-                </div>
+                <div class="books-grid" id="to-read"></div>
             </section>
         </main>
     </div>
@@ -264,8 +193,8 @@
 
         // Function to display books in the specified section
         function displayBooks(books, sectionId) {
-            const section = document.getElementById(sectionId).querySelector('.books-list');
-            const booksHtml = books.map(book => `
+            const section = document.getElementById(sectionId);
+            section.innerHTML = books.map(book => `
                 <div class="book-item">
                     <img src="${book.coverImage}" alt="${book.title} by ${book.author}">
                     <h3>${book.title}</h3>
@@ -277,53 +206,9 @@
                     </div>
                     <div class="genres">
                         ${book.genres.slice(0, 3).map(genre => `<span class="genre">${genre}</span>`).join('')}
-                        ${book.genres.length > 3 ? `<button class="show-more-genres" onclick="showMoreGenres(this, ${JSON.stringify(book.genres.slice(3))})">More</button>` : ''}
                     </div>
                 </div>
             `).join('');
-            section.innerHTML = booksHtml;
-
-            // Show scroll buttons if necessary
-            const scrollButtons = document.getElementById(`${sectionId}-scroll-buttons`);
-            if (section.scrollWidth > section.clientWidth) {
-                scrollButtons.style.display = 'flex';
-            } else {
-                scrollButtons.style.display = 'none';
-            }
-        }
-
-        // Function to show more genres
-        function showMoreGenres(button, genres) {
-            const genresHtml = genres.map(genre => `<span class="genre">${genre}</span>`).join('');
-            button.insertAdjacentHTML('beforebegin', genresHtml);
-            button.remove();
-        }
-
-        // Function to toggle section visibility
-        document.querySelectorAll('.books-section h2').forEach(header => {
-            header.addEventListener('click', () => {
-                const section = header.parentElement;
-                section.classList.toggle('books-section-collapsed');
-                section.classList.toggle('books-section-expanded');
-                if(section.classList.contains('books-section-expanded')) {
-                    const sectionId = section.id.replace('-section', '');
-                    if (!section.querySelector('.books-list').innerHTML) {
-                        loadBooks();
-                    }
-                }
-            });
-        });
-
-        // Function to scroll left
-        function scrollLeft(sectionId) {
-            const section = document.getElementById(sectionId).querySelector('.books-list');
-            section.scrollBy({ left: -300, behavior: 'smooth' });
-        }
-
-        // Function to scroll right
-        function scrollRight(sectionId) {
-            const section = document.getElementById(sectionId).querySelector('.books-list');
-            section.scrollBy({ left: 300, behavior: 'smooth' });
         }
 
         // Load books on page load

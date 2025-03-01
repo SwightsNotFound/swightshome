@@ -32,7 +32,7 @@ async function fetchUserStoryGraphList() {
         const toRead = await scrapePage('https://app.thestorygraph.com/to-read/swight', 'To read');
 
         const books = [...currentlyReading, ...readRecently, ...toRead];
-        const filePath = path.join(__dirname, '../storygraph_list.json');
+        const filePath = path.join(process.cwd(), 'storygraph_list.json');
         console.log(`Saving to: ${filePath}`);
         console.log(`Current working directory: ${process.cwd()}`);
         fs.writeFileSync(filePath, JSON.stringify(books, null, 2));

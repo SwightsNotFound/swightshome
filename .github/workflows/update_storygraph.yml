@@ -27,6 +27,9 @@ jobs:
     - name: Scrape StoryGraph and update JSON
       run: node scripts/update_storygraph.js
 
+    - name: List directory contents
+      run: ls -R
+
     - name: Commit and push changes
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

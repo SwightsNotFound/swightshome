@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StoryGraph Profile</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .profile-header {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+
+        .profile-header h1 {
+            font-size: 2em;
+            margin: 0;
+            flex: 1;
+        }
+
+        .profile-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .profile-actions button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .profile-actions button:hover {
+            background-color: #0056b3;
+        }
+
+        .books-section {
+            margin-bottom: 20px;
+        }
+
+        .books-section h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 20px;
+        }
+
+        .book-item {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .book-item img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .book-item h3 {
+            font-size: 1.1em;
+            margin: 0 0 5px 0;
+        }
+
+        .book-item p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="profile-header">
+                <img src="https://cdn.thestorygraph.com/tj18i6d6yo7inv0kkloh8ezwruje" alt="Profile Picture" class="profile-pic">
+                <h1>@SwightsNotFound</h1>
+                <div class="profile-actions">
+                    <button>Add friend</button>
+                    <button>Follow</button>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <section class="books-section">
+                <h2>Currently Reading</h2>
+                <div class="books-grid" id="currently-reading"></div>
+            </section>
+
+            <section class="books-section">
+                <h2>Read</h2>
+                <div class="books-grid" id="read-recently"></div>
+            </section>
+
+            <section class="books-section">
+                <h2>Planning to Read</h2>
+                <div class="books-grid" id="to-read"></div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        // Function to load books from JSON file
+        async function loadBooks() {
+            const response = await fetch('storygraph_list.json');
+            const books = await response.json();
+
+            const currentlyReading = books.filter(book => book.status === 'Currently reading');
+            const readRecently = books.filter(book => book.status === 'Read recently');
+            const toRead = books.filter(book => book.status === 'To read');
+
+            displayBooks(currentlyReading, 'currently-reading');
+            displayBooks(readRecently, 'read-recently');
+            displayBooks(toRead, 'to-read');
+        }
+
+        // Function to display books in the specified section
+        function displayBooks(books, sectionId) {
+            const section = document.getElementById(sectionId);
+            section.innerHTML = books.map(book => `
+                <div class="book-item">
+                    <img src="${book.coverImage}" alt="${book.title} by ${book.author}">
+                    <h3>${book.title}</h3>
+                    <p>by ${book.author}</p>
+                    <p>${book.pages}</p>
+                    <p>${book.genres.join(', ')}</p>
+                    <p>${book.format}</p>
+                    <p>${book.publicationDate}</p>
+                </div>
+            `).join('');
+        }
+
+        // Load books on page load
+        window.onload = loadBooks;
+    </script>
+</body>
+
+</html>

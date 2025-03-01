@@ -75,13 +75,16 @@
             cursor: pointer;
         }
 
-        .books-section h2:after {
+        .books-section-collapsed h2:after {
+            content: ' ▼';
+        }
+
+        .books-section-expanded h2:after {
             content: ' ▲';
         }
 
         .books-list-container {
             position: relative;
-            display: block;
         }
 
         .books-list {
@@ -205,7 +208,7 @@
         </header>
 
         <main>
-            <section class="books-section books-section-expanded" id="currently-reading-section">
+            <section class="books-section books-section-collapsed" id="currently-reading-section">
                 <h2>Currently Reading</h2>
                 <div class="scroll-buttons" id="currently-reading-scroll-buttons">
                     <button class="scroll-button" onclick="scrollLeft('currently-reading')">◀</button>
@@ -216,7 +219,7 @@
                 </div>
             </section>
 
-            <section class="books-section books-section-expanded" id="read-recently-section">
+            <section class="books-section books-section-collapsed" id="read-recently-section">
                 <h2>Read</h2>
                 <div class="scroll-buttons" id="read-recently-scroll-buttons">
                     <button class="scroll-button" onclick="scrollLeft('read-recently')">◀</button>
@@ -227,7 +230,7 @@
                 </div>
             </section>
 
-            <section class="books-section books-section-expanded" id="to-read-section">
+            <section class="books-section books-section-collapsed" id="to-read-section">
                 <h2>Planning to Read</h2>
                 <div class="scroll-buttons" id="to-read-scroll-buttons">
                     <button class="scroll-button" onclick="scrollLeft('to-read')">◀</button>
@@ -243,23 +246,16 @@
     <script>
         // Function to load books from JSON file
         async function loadBooks() {
-            try {
-                const response = await fetch('storygraph_list.json');
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                const books = await response.json();
+            const response = await fetch('storygraph_list.json');
+            const books = await response.json();
 
-                const currentlyReading = books.filter(book => book.status === 'Currently reading');
-                const readRecently = books.filter(book => book.status === 'Read recently');
-                const toRead = books.filter(book => book.status === 'To read');
+            const currentlyReading = books.filter(book => book.status === 'Currently reading');
+            const readRecently = books.filter(book => book.status === 'Read recently');
+            const toRead = books.filter(book => book.status === 'To read');
 
-                displayBooks(currentlyReading, 'currently-reading');
-                displayBooks(readRecently, 'read-recently');
-                displayBooks(toRead, 'to-read');
-            } catch (error) {
-                console.error('Error loading books:', error);
-            }
+            displayBooks(currentlyReading, 'currently-reading');
+            displayBooks(readRecently, 'read-recently');
+            displayBooks(toRead, 'to-read');
         }
 
         // Function to display books in the specified section
@@ -277,15 +273,15 @@
                     </div>
                     <div class="genres">
                         ${book.genres.slice(0, 3).map(genre => `<span class="genre">${genre}</span>`).join('')}
-                        ${book.genres.length > 3 ? `<button class="show-more-genres" onclick="showMoreGenres(this, '${encodeURIComponent(JSON.stringify(book.genres.slice(3)))}')">More</button>` : ''}
+                        ${book.genres.length > 3 ? `<button class="show-more-genres" onclick="showMoreGenres(this, ${JSON.stringify(book.genres.slice(3))})">More</button>` : ''}
                     </div>
                 </div>
             `).join('');
-            section.querySelector('.books-list').innerHTML = booksHtml;
+            section.innerHTML = booksHtml;
 
             // Show scroll buttons if necessary
             const scrollButtons = document.getElementById(`${sectionId}-scroll-buttons`);
-            if (section.querySelector('.books-list').scrollWidth > section.querySelector('.books-list').clientWidth) {
+            if (section.scrollWidth > section.clientWidth) {
                 scrollButtons.style.display = 'flex';
             } else {
                 scrollButtons.style.display = 'none';
@@ -294,8 +290,7 @@
 
         // Function to show more genres
         function showMoreGenres(button, genres) {
-            const decodedGenres = JSON.parse(decodeURIComponent(genres));
-            const genresHtml = decodedGenres.map(genre => `<span class="genre">${genre}</span>`).join('');
+            const genresHtml = genres.map(genre => `<span class="genre">${genre}</span>`).join('');
             button.insertAdjacentHTML('beforebegin', genresHtml);
             button.remove();
         }
@@ -304,24 +299,21 @@
         document.querySelectorAll('.books-section h2').forEach(header => {
             header.addEventListener('click', () => {
                 const section = header.parentElement;
-                const booksListContainer = section.querySelector('.books-list-container');
                 section.classList.toggle('books-section-collapsed');
                 section.classList.toggle('books-section-expanded');
-                booksListContainer.style.display = section.classList.contains('books-section-collapsed') ? 'none' : 'block';
-                header.querySelector('after').textContent = section.classList.contains('books-section-collapsed') ? ' ▼' : ' ▲';
             });
         });
 
         // Function to scroll left
         function scrollLeft(sectionId) {
             const section = document.getElementById(sectionId);
-            section.querySelector('.books-list').scrollBy({ left: -300, behavior: 'smooth' });
+            section.scrollBy({ left: -300, behavior: 'smooth' });
         }
 
         // Function to scroll right
         function scrollRight(sectionId) {
             const section = document.getElementById(sectionId);
-            section.querySelector('.books-list').scrollBy({ left: 300, behavior: 'smooth' });
+            section.scrollBy({ left: 300, behavior: 'smooth' });
         }
 
         // Load books on page load

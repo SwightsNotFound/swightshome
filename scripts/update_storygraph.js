@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
-async function scrollPage(page) {
+async function autoScroll(page) {
     await page.evaluate(async () => {
         await new Promise((resolve) => {
             let totalHeight = 0;
@@ -27,7 +27,7 @@ async function scrapePage(url, status) {
     await page.goto(url, { waitUntil: 'networkidle2' });
 
     // Scroll down to load more content
-    await scrollPage(page);
+    await autoScroll(page);
 
     // Wait for the book panes to load
     await page.waitForSelector('.book-pane', { timeout: 60000 });

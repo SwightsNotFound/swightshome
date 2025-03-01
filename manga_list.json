@@ -3,6 +3,7 @@
     "name": "Reading",
     "entries": [
       {
+        "id": 35255,
         "title": "Dengeki Daisy",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx35255-30ZO1gj8HOON.png",
         "averageScore": 77,
@@ -16,9 +17,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 43
+        "progress": 43,
+        "links": {
+          "anilist": "https://anilist.co/manga/35255/",
+          "mal": "https://myanimelist.net/manga/35255",
+          "kitsu": "https://kitsu.io/manga/35255"
+        }
       },
       {
+        "id": 63327,
         "title": "Tokyo Ghoul",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx63327-4KfhQ64AklrK.png",
         "averageScore": 84,
@@ -34,9 +41,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 1
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/manga/63327/",
+          "mal": "https://myanimelist.net/manga/63327",
+          "kitsu": "https://kitsu.io/manga/63327"
+        }
       },
       {
+        "id": 140475,
         "title": "The Fragrant Flower Blooms With Dignity",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx140475-QEGtrmdvbpOv.jpg",
         "averageScore": 87,
@@ -50,9 +63,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 50
+        "progress": 50,
+        "links": {
+          "anilist": "https://anilist.co/manga/140475/",
+          "mal": "https://myanimelist.net/manga/140475",
+          "kitsu": "https://kitsu.io/manga/140475"
+        }
       },
       {
+        "id": 99737,
         "title": "Tsuiraku JK to Haijin Kyoushi",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx99737-fmQITnDd3cUU.jpg",
         "averageScore": 77,
@@ -67,9 +86,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 33
+        "progress": 33,
+        "links": {
+          "anilist": "https://anilist.co/manga/99737/",
+          "mal": "https://myanimelist.net/manga/99737",
+          "kitsu": "https://kitsu.io/manga/99737"
+        }
       },
       {
+        "id": 54294,
         "title": "Ao Haru Ride",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx54294-Nabu5Ag0L2ay.jpg",
         "averageScore": 78,
@@ -84,7 +109,12 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 2
+        "progress": 2,
+        "links": {
+          "anilist": "https://anilist.co/manga/54294/",
+          "mal": "https://myanimelist.net/manga/54294",
+          "kitsu": "https://kitsu.io/manga/54294"
+        }
       }
     ]
   },
@@ -92,6 +122,7 @@
     "name": "Completed",
     "entries": [
       {
+        "id": 56736,
         "title": "House of the Sun",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx56736-qYpc12PAQMxi.jpg",
         "averageScore": 79,
@@ -105,9 +136,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 8,
-        "progress": 70
+        "progress": 70,
+        "links": {
+          "anilist": "https://anilist.co/manga/56736/",
+          "mal": "https://myanimelist.net/manga/56736",
+          "kitsu": "https://kitsu.io/manga/56736"
+        }
       },
       {
+        "id": 44236,
         "title": "LOVE SO LIFE",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx44236-MaTi4D6Pc6kh.jpg",
         "averageScore": 80,
@@ -120,9 +157,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 8,
-        "progress": 111
+        "progress": 111,
+        "links": {
+          "anilist": "https://anilist.co/manga/44236/",
+          "mal": "https://myanimelist.net/manga/44236",
+          "kitsu": "https://kitsu.io/manga/44236"
+        }
       },
       {
+        "id": 86243,
         "title": "Tsubaki-chou Lonely Planet",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx86243-VNz7YlbNI6ao.jpg",
         "averageScore": 77,
@@ -137,9 +180,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 7,
-        "progress": 85
+        "progress": 85,
+        "links": {
+          "anilist": "https://anilist.co/manga/86243/",
+          "mal": "https://myanimelist.net/manga/86243",
+          "kitsu": "https://kitsu.io/manga/86243"
+        }
       },
       {
+        "id": 56021,
         "title": "Hajimari no Niina",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx56021-3i9syQ7tHlVU.jpg",
         "averageScore": 73,
@@ -151,7 +200,12 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 6,
-        "progress": 22
+        "progress": 22,
+        "links": {
+          "anilist": "https://anilist.co/manga/56021/",
+          "mal": "https://myanimelist.net/manga/56021",
+          "kitsu": "https://kitsu.io/manga/56021"
+        }
       }
     ]
   },
@@ -159,6 +213,7 @@
     "name": "Planning",
     "entries": [
       {
+        "id": 74489,
         "title": "Land of the Lustrous",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx74489-bTNWsnzztzmI.jpg",
         "averageScore": 89,
@@ -175,9 +230,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/74489/",
+          "mal": "https://myanimelist.net/manga/74489",
+          "kitsu": "https://kitsu.io/manga/74489"
+        }
       },
       {
+        "id": 119257,
         "title": "Omniscient Reader",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx119257-KzlNZtgbRzxF.jpg",
         "averageScore": 85,
@@ -191,9 +252,15 @@
         "format": "MANGA",
         "country": "KR",
         "personalScore": 0,
-        "progress": 0
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/119257/",
+          "mal": "https://myanimelist.net/manga/119257",
+          "kitsu": "https://kitsu.io/manga/119257"
+        }
       },
       {
+        "id": 38439,
         "title": "Her and My Home",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx38439-NGqOMfNbPIzf.png",
         "averageScore": 62,
@@ -206,9 +273,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/38439/",
+          "mal": "https://myanimelist.net/manga/38439",
+          "kitsu": "https://kitsu.io/manga/38439"
+        }
       },
       {
+        "id": 57231,
         "title": "Daytime Shooting Star",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx57231-EBobSNzMi3iV.jpg",
         "averageScore": 78,
@@ -223,9 +296,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/57231/",
+          "mal": "https://myanimelist.net/manga/57231",
+          "kitsu": "https://kitsu.io/manga/57231"
+        }
       },
       {
+        "id": 30021,
         "title": "Death Note",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx30021-FE6kmrfpuKyb.jpg",
         "averageScore": 84,
@@ -241,9 +320,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/30021/",
+          "mal": "https://myanimelist.net/manga/30021",
+          "kitsu": "https://kitsu.io/manga/30021"
+        }
       },
       {
+        "id": 87216,
         "title": "Demon Slayer: Kimetsu no Yaiba",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx87216-c9bSNVD10UuD.png",
         "averageScore": 79,
@@ -258,9 +343,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/87216/",
+          "mal": "https://myanimelist.net/manga/87216",
+          "kitsu": "https://kitsu.io/manga/87216"
+        }
       },
       {
+        "id": 96767,
         "title": "Honey Lemon Soda",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx96767-byZGxMjQUXLu.jpg",
         "averageScore": 76,
@@ -272,9 +363,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/96767/",
+          "mal": "https://myanimelist.net/manga/96767",
+          "kitsu": "https://kitsu.io/manga/96767"
+        }
       },
       {
+        "id": 97553,
         "title": "Jumyou wo Kaitotte Moratta. Ichinen ni Tsuki, Ichimanen de.",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx97553-vqJj5DFS8v2p.jpg",
         "averageScore": 86,
@@ -289,9 +386,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/97553/",
+          "mal": "https://myanimelist.net/manga/97553",
+          "kitsu": "https://kitsu.io/manga/97553"
+        }
       },
       {
+        "id": 96791,
         "title": "She and Her Cat",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx96791-AnTA12TsBgf1.jpg",
         "averageScore": 72,
@@ -304,9 +407,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/96791/",
+          "mal": "https://myanimelist.net/manga/96791",
+          "kitsu": "https://kitsu.io/manga/96791"
+        }
       },
       {
+        "id": 80217,
         "title": "the gods lie.",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx80217-QGyYpWc3qcpI.png",
         "averageScore": 76,
@@ -320,9 +429,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/80217/",
+          "mal": "https://myanimelist.net/manga/80217",
+          "kitsu": "https://kitsu.io/manga/80217"
+        }
       },
       {
+        "id": 85611,
         "title": "Tokyo Ghoul:re",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx85611-Asb0BNP23NsJ.png",
         "averageScore": 82,
@@ -339,9 +454,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/85611/",
+          "mal": "https://myanimelist.net/manga/85611",
+          "kitsu": "https://kitsu.io/manga/85611"
+        }
       },
       {
+        "id": 51525,
         "title": "Yona of the Dawn",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx51525-wZ1AjkbXrKns.png",
         "averageScore": 87,
@@ -357,9 +478,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/51525/",
+          "mal": "https://myanimelist.net/manga/51525",
+          "kitsu": "https://kitsu.io/manga/51525"
+        }
       },
       {
+        "id": 39607,
         "title": "Dreamin' Sun",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx39607-NcdvThhTLcV5.jpg",
         "averageScore": 70,
@@ -371,9 +498,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/39607/",
+          "mal": "https://myanimelist.net/manga/39607",
+          "kitsu": "https://kitsu.io/manga/39607"
+        }
       },
       {
+        "id": 30102,
         "title": "Fruits Basket",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx30102-MJuQ0e0k2CgU.png",
         "averageScore": 84,
@@ -389,9 +522,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/30102/",
+          "mal": "https://myanimelist.net/manga/30102",
+          "kitsu": "https://kitsu.io/manga/30102"
+        }
       },
       {
+        "id": 86691,
         "title": "Fruits Basket: Another",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx86691-XyfIpcLGAP2d.jpg",
         "averageScore": 69,
@@ -405,9 +544,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/86691/",
+          "mal": "https://myanimelist.net/manga/86691",
+          "kitsu": "https://kitsu.io/manga/86691"
+        }
       },
       {
+        "id": 126297,
         "title": "Teenage Mercenary",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx126297-SPiM7QtUnJ4P.jpg",
         "averageScore": 80,
@@ -420,9 +565,15 @@
         "format": "MANGA",
         "country": "KR",
         "personalScore": 0,
-        "progress": 0
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/126297/",
+          "mal": "https://myanimelist.net/manga/126297",
+          "kitsu": "https://kitsu.io/manga/126297"
+        }
       },
       {
+        "id": 114416,
         "title": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx114416-XtRJ8tI9GtuI.jpg",
         "averageScore": 76,
@@ -437,9 +588,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/114416/",
+          "mal": "https://myanimelist.net/manga/114416",
+          "kitsu": "https://kitsu.io/manga/114416"
+        }
       },
       {
+        "id": 130429,
         "title": "I Shall Master this Family!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx130429-m3PuqOmxBgoo.png",
         "averageScore": 83,
@@ -453,7 +610,12 @@
         "format": "MANGA",
         "country": "KR",
         "personalScore": 0,
-        "progress": 0
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/130429/",
+          "mal": "https://myanimelist.net/manga/130429",
+          "kitsu": "https://kitsu.io/manga/130429"
+        }
       }
     ]
   },
@@ -461,6 +623,7 @@
     "name": "Dropped",
     "entries": [
       {
+        "id": 132182,
         "title": "Blue Box",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx132182-QWwhGEBUV7DG.jpg",
         "averageScore": 80,
@@ -474,9 +637,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 1
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/manga/132182/",
+          "mal": "https://myanimelist.net/manga/132182",
+          "kitsu": "https://kitsu.io/manga/132182"
+        }
       },
       {
+        "id": 31487,
         "title": "Town of Evening Calm, Country of Cherry Blossoms",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx31487-jbvE9DvgzArT.jpg",
         "averageScore": 70,
@@ -489,7 +658,12 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 1
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/manga/31487/",
+          "mal": "https://myanimelist.net/manga/31487",
+          "kitsu": "https://kitsu.io/manga/31487"
+        }
       }
     ]
   },
@@ -497,6 +671,7 @@
     "name": "Paused",
     "entries": [
       {
+        "id": 72451,
         "title": "Horimiya",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx72451-vVXtRwyttjGG.png",
         "averageScore": 82,
@@ -510,9 +685,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 5
+        "progress": 5,
+        "links": {
+          "anilist": "https://anilist.co/manga/72451/",
+          "mal": "https://myanimelist.net/manga/72451",
+          "kitsu": "https://kitsu.io/manga/72451"
+        }
       },
       {
+        "id": 34571,
         "title": "Snow White with the Red Hair",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx34571-uRvqh90mPuGS.jpg",
         "averageScore": 79,
@@ -526,9 +707,15 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 16
+        "progress": 16,
+        "links": {
+          "anilist": "https://anilist.co/manga/34571/",
+          "mal": "https://myanimelist.net/manga/34571",
+          "kitsu": "https://kitsu.io/manga/34571"
+        }
       },
       {
+        "id": 112813,
         "title": "Midori no Tomari Ki",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx112813-FqVZqltw0Uv4.jpg",
         "averageScore": 56,
@@ -541,7 +728,12 @@
         "format": "MANGA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 16
+        "progress": 16,
+        "links": {
+          "anilist": "https://anilist.co/manga/112813/",
+          "mal": "https://myanimelist.net/manga/112813",
+          "kitsu": "https://kitsu.io/manga/112813"
+        }
       }
     ]
   }

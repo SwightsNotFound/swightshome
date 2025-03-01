@@ -46,6 +46,7 @@ async function scrapePage(url, status) {
         }));
     }, status);
 
+    console.log(`Found ${books.length} books for status: ${status}`);
     await browser.close();
     return books;
 }
@@ -57,6 +58,12 @@ async function fetchUserStoryGraphList() {
         const toRead = await scrapePage('https://app.thestorygraph.com/to-read/swight', 'To read');
 
         const books = [...currentlyReading, ...readRecently, ...toRead];
+        console.log(`Total books found: ${books.length}`);
+
+        if (books.length === 0) {
+            throw new Error('No books found. Scraping might have failed.');
+        }
+
         const filePath = path.join(__dirname, '..', 'storygraph_list.json');
         console.log(`Saving to: ${filePath}`);
         console.log(`Current working directory: ${process.cwd()}`);
@@ -68,6 +75,7 @@ async function fetchUserStoryGraphList() {
         console.log('Directory contents:', dirContents);
     } catch (error) {
         console.error('Error fetching user StoryGraph list:', error);
+        fs.writeFileSync(path.join(__dirname, '..', 'storygraph_list.json'), '{}');
     }
 }
 

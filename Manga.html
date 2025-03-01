@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manga List</title>
+    <title>Swightshome - Manga List</title>
     <link rel="icon" href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f9;
@@ -27,7 +26,7 @@
         }
 
         .header {
-            background: url('https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/cover-books.jpg') no-repeat center center/cover;
+            background: url('https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/anime-cover.jpg') no-repeat center center/cover;
             padding: 100px 20px;
             text-align: center;
             color: white;
@@ -172,78 +171,217 @@
             background-color: #444;
         }
 
-        .manga-section {
-            margin-bottom: 20px;
+        .sidebar {
+            padding: 20px;
+            top: 140px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            max-width: 250px;
+            width: 100%;
+            height: calc(77% - 140px);
+            overflow-y: auto;
+            transition: background-color 0.3s;
+            position: sticky;
+            align-self: flex-start;
         }
 
-        .manga-section h2 {
-            font-size: 1.5em;
+        body.dark-mode .sidebar {
+            background-color: #444;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar ul li {
             margin-bottom: 10px;
         }
 
-        .manga-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 20px;
+        .sidebar ul li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        body.dark-mode .sidebar ul li a {
+            color: #f4f4f9;
+        }
+
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .search-bar {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .search-bar:focus {
+            border-color: #3498db;
+            outline: none;
+        }
+
+        .filter-select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .filter-select:focus {
+            border-color: #3498db;
+            outline: none;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #555;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        h2::after {
+            content: '▲';
+            font-size: 12px;
+            transition: transform 0.3s;
+        }
+
+        .section.collapsed h2::after {
+            transform: rotate(180deg);
+        }
+
+        body.dark-mode h2 {
+            color: #ccc;
+        }
+
+        .manga-list {
+            list-style: none;
+            padding: 0;
+            display: none;
+            transition: max-height 0.3s ease, visibility 0.3s ease;
         }
 
         .manga-item {
-            background-color: #fff;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            text-align: center;
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            position: relative;
+            z-index: 1;
+        }
+
+        body.dark-mode .manga-item {
+            border-bottom: 1px solid #555;
         }
 
         .manga-item img {
-            max-width: 100%;
-            border-radius: 5px;
-            margin-bottom: 10px;
+            width: 50px;
+            height: 70px;
+            margin-right: 20px;
+            position: relative;
+            z-index: 0;
         }
 
-        .manga-item h3 {
-            font-size: 1.1em;
-            margin: 0 0 5px 0;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        .manga-item p {
-            margin: 0;
-            font-size: 0.9em;
-            color: #555;
-        }
-
-        .manga-item .details {
-            margin-top: 10px;
-            font-size: 0.8em;
-            color: #777;
-        }
-
-        .manga-item .genres {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 5px;
-            margin-top: 5px;
-        }
-
-        .manga-item .genre {
-            background-color: #007bff;
-            color: #fff;
-            padding: 2px 5px;
-            border-radius: 3px;
-            font-size: 0.7em;
-        }
-
-        .status-dot {
-            height: 10px;
+        .manga-item .status-dot {
             width: 10px;
+            height: 10px;
             background-color: green;
             border-radius: 50%;
-            display: inline-block;
-            margin-right: 5px;
+            position: absolute;
+            top: 50%;
+            left: -15px;
+            transform: translateY(-50%);
+        }
+
+        .manga-item .status-dot:hover::after {
+            content: 'Releasing';
+            position: absolute;
+            top: -30px;
+            left: -200%;
+            transform: translateX(-50%);
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            white-space: nowrap;
+            z-index: 2;
+        }
+
+        .manga-item .flag {
+            width: 20px;
+            height: auto;
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            margin: 0;
+            z-index: 1;
+        }
+
+        .manga-info {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            flex-grow: 1;
+        }
+
+        .manga-info h3 {
+            margin: 0;
+            font-size: 1rem;
+            color: #333;
+            flex: 2;
+        }
+
+        body.dark-mode .manga-info h3 {
+            color: #fff;
+        }
+
+        .manga-info p {
+            margin: 0 20px;
+            color: #777;
+            text-align: center;
+            flex: 1;
+        }
+
+        body.dark-mode .manga-info p {
+            color: #ccc;
+        }
+
+        .manga-info p span {
+            display: block;
+            font-weight: bold;
+            color: #333;
+        }
+
+        body.dark-mode .manga-info p span {
+            color: #fff;
         }
 
         footer {
@@ -299,6 +437,85 @@
 
         .logo-links a:hover {
             transform: scale(1.1);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .stats-section {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            padding: 20px;
+            max-width: 250px;
+            width: 100%;
+            position: sticky;
+            top: 140px;
+            align-self: flex-start;
+        }
+
+        .stats-section h2 {
+            font-size: 1.8em;
+            color: #34495e;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .stat-item {
+            font-size: 1.2em;
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .stat-item span {
+            font-weight: bold;
+            color: #2980b9;
+        }
+
+        .links {
+            display: flex;
+            gap: 5px;
+            position: absolute;
+            bottom: 5px;
+            left: 10px;
+        }
+
+        .links img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .manga-item .flag:hover::after {
+            content: attr(alt);
+            position: absolute;
+            top: -30px;
+            right: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            white-space: nowrap;
+            z-index: 2;
         }
     </style>
 </head>
@@ -360,8 +577,14 @@
             <h1>Swight</h1>
             <p>This is a list of all the manga I have read over the years. All of this information is stored in this <a href="https://github.com/SwightsNotFound/swightshome/blob/main/manga_list.json" target="_blank">file</a> which is updated every 12 hours.</p>
             <div class="logo-links">
-                <a href="https://app.thestorygraph.com/profile/swight/" target="_blank">
-                    <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/storygraph.png" alt="Storygraph Logo">
+                <a href="https://anilist.co/user/Swight/" target="_blank">
+                    <img src="https://anilist.co/img/logo_al.png" alt="Anilist Logo">
+                </a>
+                <a href="https://myanimelist.net/profile/SwightUnkown" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/MyAnimeList_Logo.png" alt="MyAnimeList Logo">
+                </a>
+                <a href="https://kitsu.app/users/Swight" target="_blank">
+                    <img src="https://kitsu.io/favicon.ico" alt="Kitsu Logo">
                 </a>
             </div>
         </div>
@@ -374,30 +597,58 @@
     </div>
 
     <div class="content-area">
+        <div class="sidebar" id="sidebar">
+            <h2>Sections</h2>
+            <input type="text" id="searchBar" class="search-bar" placeholder="Search...">
+            <ul>
+                <li><a href="#reading">Reading</a></li>
+                <li><a href="#completed">Completed</a></li>
+                <li><a href="#paused">Paused</a></li>
+                <li><a href="#dropped">Dropped</a></li>
+                <li><a href="#planning">Planning</a></li>
+                <h2>Sort By</h2>
+                <select id="genreFilter" class="filter-select">
+                    <option value="">Genre</option>
+                </select>
+                <select id="formatFilter" class="filter-select">
+                    <option value="">Format</option>
+                </select>
+                <select id="countryFilter" class="filter-select">
+                    <option value="">Country</option>
+                </select>
+            </ul>
+        </div>
         <div class="container">
-            <section class="manga-section">
+            <h1>My Manga List</h1>
+            <div class="section" id="reading">
                 <h2>Reading</h2>
-                <div class="manga-grid" id="reading"></div>
-            </section>
-            <section class="manga-section">
+                <ul class="manga-list"></ul>
+            </div>
+            <div class="section" id="completed">
                 <h2>Completed</h2>
-                <div class="manga-grid" id="completed"></div>
-            </section>
-            <section class="manga-section">
+                <ul class="manga-list"></ul>
+            </div>
+            <div class="section" id="paused">
                 <h2>Paused</h2>
-                <div class="manga-grid" id="paused"></div>
-            </section>
-            <section class="manga-section">
+                <ul class="manga-list"></ul>
+            </div>
+            <div class="section" id="dropped">
                 <h2>Dropped</h2>
-                <div class="manga-grid" id="dropped"></div>
-            </section>
-            <section class="manga-section">
-                <h2>Planning to Read</h2>
-                <div class="manga-grid" id="planning"></div>
-            </section>
+                <ul class="manga-list"></ul>
+            </div>
+            <div class="section" id="planning">
+                <h2>Planning</h2>
+                <ul class="manga-list"></ul>
+            </div>
+        </div>
+        <div class="stats-section" id="manga-stats">
+            <h2>Manga Stats</h2>
+            <div class="stat-item"><span>Count:</span><span id="manga-count"></span></div>
+            <div class="stat-item"><span>Mean Score:</span><span id="manga-meanScore"></span></div>
+            <div class="stat-item"><span>Chapters Read:</span><span id="manga-chaptersRead"></span></div>
+            <div class="stat-item"><span>Volumes Read:</span><span id="manga-volumesRead"></span></div>
         </div>
     </div>
-
     <footer id="footer">        
         <p>Hosted using <a href="https://pages.github.com/" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" role="button">Cloudflare</a>.</p>
         <div class="footer-links">
@@ -422,46 +673,206 @@
         const darkModeToggle = document.getElementById('darkModeToggle');
         darkModeToggle.addEventListener('click', toggleDarkMode);
 
-        // Function to load manga from JSON file
-        async function loadManga() {
-            const response = await fetch('manga_list.json');
-            const mangaList = await response.json();
-
-            const reading = mangaList.find(list => list.name === 'Reading').entries;
-            const completed = mangaList.find(list => list.name === 'Completed').entries;
-            const paused = mangaList.find(list => list.name === 'Paused').entries;
-            const dropped = mangaList.find(list => list.name === 'Dropped').entries;
-            const planning = mangaList.find(list => list.name === 'Planning').entries;
-
-            displayManga(reading, 'reading');
-            displayManga(completed, 'completed');
-            displayManga(paused, 'paused');
-            displayManga(dropped, 'dropped');
-            displayManga(planning, 'planning');
+        async function fetchMangaList() {
+            try {
+                const response = await fetch('manga_list.json');
+                const mangaList = await response.json();
+                return mangaList;
+            } catch (error) {
+                console.error('Error fetching manga list:', error);
+                return [];
+            }
         }
 
-        // Function to display manga in the specified section
-        function displayManga(manga, sectionId) {
-            const section = document.getElementById(sectionId);
-            section.innerHTML = manga.map(item => `
-                <div class="manga-item">
-                    <img src="${item.coverImage}" alt="${item.title}">
-                    <h3>${item.title}</h3>
-                    <p class="details">
-                        <span>Score: ${item.averageScore}</span>
-                        <span>Chapters: ${item.chapters !== null ? item.chapters : 'Unknown'}</span>
-                        <span>Progress: ${item.progress}</span>
-                    </p>
-                    ${item.status === 'RELEASING' ? '<div class="status-dot"></div>' : ''}
-                    <div class="genres">
-                        ${item.genres.slice(0, 3).map(genre => `<span class="genre">${genre}</span>`).join('')}
-                    </div>
-                </div>
-            `).join('');
+        async function populateMangaList() {
+            const mangaList = await fetchMangaList();
+            const genres = new Set();
+            const formats = new Set();
+            const countries = new Set();
+
+            mangaList.forEach(list => {
+                let sectionId;
+                switch (list.name) {
+                    case "Reading":
+                        sectionId = "reading";
+                        break;
+                    case "Completed":
+                        sectionId = "completed";
+                        break;
+                    case "Dropped":
+                        sectionId = "dropped";
+                        break;
+                    case "Paused":
+                        sectionId = "paused";
+                        break;
+                    case "Planning":
+                        sectionId = "planning";
+                        break;
+                    default:
+                        return;
+                }
+                const section = document.getElementById(sectionId);
+                const ul = section.querySelector('.manga-list');
+
+                list.entries.forEach(manga => {
+                    manga.genres.forEach(genre => genres.add(genre));
+                    formats.add(manga.format);
+                    countries.add(manga.country);
+
+                    const li = document.createElement('li');
+                    li.classList.add('manga-item', 'fade-in');
+
+                    if (manga.status === "RELEASING") {
+                        const statusDot = document.createElement('div');
+                        statusDot.classList.add('status-dot');
+                        li.appendChild(statusDot);
+                    }
+
+                    const img = document.createElement('img');
+                    img.src = manga.coverImage;
+                    img.alt = manga.title;
+                    li.appendChild(img);
+
+                    const flagImg = document.createElement('img');
+                    flagImg.src = `https://flagcdn.com/${manga.country.toLowerCase()}.svg`;
+                    flagImg.alt = manga.country;
+                    flagImg.classList.add('flag');
+                    li.appendChild(flagImg);
+
+                    const infoDiv = document.createElement('div');
+                    infoDiv.classList.add('manga-info');
+
+                    const title = document.createElement('h3');
+                    title.textContent = manga.title;
+                    infoDiv.appendChild(title);
+
+                    const score = document.createElement('p');
+                    score.innerHTML = `Score<br><span>${manga.personalScore || 'N/A'}</span>`;
+                    infoDiv.appendChild(score);
+
+                    const chapters = document.createElement('p');
+                    chapters.innerHTML = `Chapters<br><span>${manga.progress}/${manga.chapters || 'Unknown'}</span>`;
+                    infoDiv.appendChild(chapters);
+
+                    const genre = document.createElement('p');
+                    genre.innerHTML = `Genres<br><span>${manga.genres.join(', ')}</span>`;
+                    infoDiv.appendChild(genre);
+
+                    const format = document.createElement('p');
+                    format.innerHTML = `Format<br><span>${manga.format}</span>`;
+                    infoDiv.appendChild(format);
+
+                    li.appendChild(infoDiv);
+                    ul.appendChild(li);
+                });
+            });
+
+            populateFilterOptions(genres, 'genreFilter');
+            populateFilterOptions(formats, 'formatFilter');
+            populateFilterOptions(countries, 'countryFilter');
         }
 
-        // Load manga on page load
-        window.onload = loadManga;
+        function populateFilterOptions(options, elementId) {
+            const filterElement = document.getElementById(elementId);
+            options.forEach(option => {
+                const opt = document.createElement('option');
+                opt.value = option;
+                opt.textContent = option;
+                filterElement.appendChild(opt);
+            });
+        }
+
+        function toggleSection(event) {
+            const section = event.target.closest('.section');
+            const mangaList = section.querySelector('.manga-list');
+            if (mangaList.style.display === "block") {
+                mangaList.style.display = "none";
+                section.classList.add('collapsed');
+            } else {
+                mangaList.style.display = "block";
+                section.classList.remove('collapsed');
+            }
+        }
+
+        document.querySelectorAll('.section h2').forEach(header => {
+            header.addEventListener('click', toggleSection);
+            header.click(); // Collapse all sections on load
+        });
+
+        function filterMangaList() {
+            const searchBar = document.getElementById('searchBar').value.toLowerCase();
+            const genreFilter = document.getElementById('genreFilter').value;
+            const formatFilter = document.getElementById('formatFilter').value;
+            const countryFilter = document.getElementById('countryFilter').value;
+
+            document.querySelectorAll('.manga-item').forEach(item => {
+                const title = item.querySelector('h3').textContent.toLowerCase();
+                const genre = item.querySelector('p:nth-child(4) span').textContent.toLowerCase();
+                const format = item.querySelector('p:nth-child(5) span').textContent.toLowerCase();
+                const country = item.querySelector('.flag').alt.toLowerCase();
+
+                const matchesSearch = title.includes(searchBar);
+                const matchesGenre = genreFilter ? genre.includes(genreFilter.toLowerCase()) : true;
+                const matchesFormat = formatFilter ? format.includes(formatFilter.toLowerCase()) : true;
+                const matchesCountry = countryFilter ? country.includes(countryFilter.toLowerCase()) : true;
+
+                if (matchesSearch && matchesGenre && matchesFormat && matchesCountry) {
+                    item.style.display = 'flex';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        document.getElementById('searchBar').addEventListener('input', filterMangaList);
+        document.getElementById('genreFilter').addEventListener('change', filterMangaList);
+        document.getElementById('formatFilter').addEventListener('change', filterMangaList);
+        document.getElementById('countryFilter').addEventListener('change', filterMangaList);
+
+        populateMangaList();
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            let lastScrollTop = 0;
+            const topbar = document.getElementById('topbar');
+            const scrollSpeed = 0.5;
+
+            window.addEventListener('scroll', () => {
+                let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+                if (scrollTop > lastScrollTop) {
+                    topbar.style.transition = `top ${scrollSpeed}s`;
+                    topbar.style.top = `-${topbar.offsetHeight}px`;
+                } else {
+                    topbar.style.transition = `top ${scrollSpeed}s`;
+                    topbar.style.top = '0';
+                }
+                lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+            });
+        });
+
+        fetch('stats.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data && data.data && data.data.User && data.data.User.statistics) {
+                    const mangaStats = data.data.User.statistics.manga;
+
+                    document.getElementById('manga-count').textContent = mangaStats.count;
+                    document.getElementById('manga-meanScore').textContent = mangaStats.meanScore;
+                    document.getElementById('manga-chaptersRead').textContent = mangaStats.chaptersRead;
+                    document.getElementById('manga-volumesRead').textContent = mangaStats.volumesRead;
+                } else {
+                    throw new Error('Invalid data structure');
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching stats:', error);
+                document.getElementById('error-message').textContent = `Error: ${error.message}`;
+            });
     </script>
 </body>
 

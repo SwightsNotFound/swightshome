@@ -85,6 +85,7 @@
 
         .books-list-container {
             position: relative;
+            display: none;
         }
 
         .books-list {
@@ -273,11 +274,11 @@
                     </div>
                     <div class="genres">
                         ${book.genres.slice(0, 3).map(genre => `<span class="genre">${genre}</span>`).join('')}
-                        ${book.genres.length > 3 ? `<button class="show-more-genres" onclick="showMoreGenres(this, ${JSON.stringify(book.genres.slice(3))})">More</button>` : ''}
+                        ${book.genres.length > 3 ? `<button class="show-more-genres" onclick="showMoreGenres(this, ${encodeURIComponent(JSON.stringify(book.genres.slice(3)))})">More</button>` : ''}
                     </div>
                 </div>
             `).join('');
-            section.innerHTML = booksHtml;
+            section.querySelector('.books-list').innerHTML = booksHtml;
 
             // Show scroll buttons if necessary
             const scrollButtons = document.getElementById(`${sectionId}-scroll-buttons`);
@@ -290,7 +291,8 @@
 
         // Function to show more genres
         function showMoreGenres(button, genres) {
-            const genresHtml = genres.map(genre => `<span class="genre">${genre}</span>`).join('');
+            const decodedGenres = JSON.parse(decodeURIComponent(genres));
+            const genresHtml = decodedGenres.map(genre => `<span class="genre">${genre}</span>`).join('');
             button.insertAdjacentHTML('beforebegin', genresHtml);
             button.remove();
         }
@@ -299,14 +301,10 @@
         document.querySelectorAll('.books-section h2').forEach(header => {
             header.addEventListener('click', () => {
                 const section = header.parentElement;
+                const booksListContainer = section.querySelector('.books-list-container');
                 section.classList.toggle('books-section-collapsed');
                 section.classList.toggle('books-section-expanded');
-                const booksListContainer = section.querySelector('.books-list-container');
-                if (section.classList.contains('books-section-expanded')) {
-                    booksListContainer.style.display = 'block';
-                } else {
-                    booksListContainer.style.display = 'none';
-                }
+                booksListContainer.style.display = booksListContainer.style.display === 'none' ? 'block' : 'none';
             });
         });
 

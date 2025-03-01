@@ -134,6 +134,14 @@
             border-radius: 3px;
             font-size: 0.7em;
         }
+
+        .audiobook {
+            background-color: #ff9800;
+            color: #fff;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-size: 0.7em;
+        }
     </style>
 </head>
 
@@ -149,7 +157,7 @@
                 </div>
             </div>
         </header>
-        
+
         <main>
             <section class="books-section">
                 <h2>Currently Reading</h2>
@@ -192,8 +200,8 @@
                     <h3>${book.title}</h3>
                     <p class="author">${book.author}</p>
                     <div class="details">
-                        <p>${book.pages} pages</p>
-                        <p>${book.format}</p>
+                        <p>${book.pages}</p>
+                        <p class="${book.format === 'Audiobook' ? 'audiobook' : ''}">${book.format}</p>
                         <p>${book.publicationDate}</p>
                     </div>
                     <div class="genres">

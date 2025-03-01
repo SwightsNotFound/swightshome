@@ -1,6 +1,7 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
+const axios = require('axios');
 
 async function autoScroll(page) {
     await page.evaluate(async () => {
@@ -21,6 +22,49 @@ async function autoScroll(page) {
     });
 }
 
+async function getPublicationDateFromOpenLibrary(title, author) {
+    try {
+        const searchUrl = `https://openlibrary.org/search.json?title=${encodeURIComponent(title)}&author=${encodeURIComponent(author)}`;
+        const response = await axios.get(searchUrl);
+        const book = response.data.docs[0];
+        if (book) {
+            const publicationDate = book.first_publish_year || 'N/A';
+            return publicationDate;
+        }
+        return 'N/A';
+    } catch (error) {
+        console.error(`Error fetching details for ${title} by ${author}:`, error);
+        return 'N/A';
+    }
+}
+
+async function getPublicationDateFromAudible(title, author) {
+    try {
+        const searchUrl = `https://www.audible.com/search?keywords=${encodeURIComponent(title + ' ' + author)}`;
+        const browser = await puppeteer.launch({ headless: true });
+        const page = await browser.newPage();
+        await page.goto(searchUrl, { waitUntil: 'networkidle2' });
+
+        const publicationDate = await page.evaluate(() => {
+            const dateElement = document.querySelector('.releaseDateLabel span');
+            if (dateElement) {
+                const dateText = dateElement.textContent.trim();
+                const yearMatch = dateText.match(/\d{2}-\d{2}-(\d{2})/);
+                if (yearMatch) {
+                    return `20${yearMatch[1]}`; // Assuming 20xx for the year
+                }
+            }
+            return 'N/A';
+        });
+
+        await browser.close();
+        return publicationDate;
+    } catch (error) {
+        console.error(`Error fetching details for ${title} by ${author} from Audible:`, error);
+        return 'N/A';
+    }
+}
+
 async function scrapePage(url, status) {
     const browser = await puppeteer.launch({
         headless: true,
@@ -36,20 +80,36 @@ async function scrapePage(url, status) {
     await page.waitForSelector('.book-pane', { timeout: 60000 });
 
     const books = await page.evaluate((status) => {
-        return Array.from(document.querySelectorAll('.book-pane')).map(book => ({
-            title: book.querySelector('.book-title-author-and-series a').innerText,
-            author: book.querySelector('.book-title-author-and-series a[href^="/authors"]').innerText,
-            coverImage: book.querySelector('.book-cover img').src,
-            averageRating: book.querySelector('.average-rating')?.innerText || 'N/A',
-            pages: book.querySelector('.text-xs').innerText.split(' • ')[0],
-            status: status,
-            genres: Array.from(book.querySelectorAll('.book-pane-tag-section .inline-block')).map(tag => tag.innerText),
-            format: book.querySelector('.edition-info .text-xs:nth-child(2) span')?.innerText || 'N/A',
-            publicationDate: book.querySelector('.edition-info .text-xs:nth-child(5) span')?.innerText || 'N/A'
-        }));
+        return Array.from(document.querySelectorAll('.book-pane')).map(book => {
+            const pagesText = book.querySelector('.text-xs').innerText.split(' • ')[0];
+            let format = 'N/A';
+            if (pagesText.includes('pages')) {
+                format = 'Book';
+            } else if (pagesText.includes('minutes')) {
+                format = 'Audiobook';
+            }
+
+            return {
+                title: book.querySelector('.book-title-author-and-series a').innerText,
+                author: book.querySelector('.book-title-author-and-series a[href^="/authors"]').innerText,
+                coverImage: book.querySelector('.book-cover img').src,
+                pages: pagesText,
+                status: status,
+                genres: Array.from(book.querySelectorAll('.book-pane-tag-section .inline-block')).map(tag => tag.innerText),
+                format: format,
+            };
+        });
     }, status);
 
-    console.log(`Found ${books.length} books for status: ${status}`);
+    for (const book of books) {
+        if (book.format === 'Audiobook') {
+            book.publicationDate = await getPublicationDateFromAudible(book.title, book.author);
+        } else {
+            book.publicationDate = await getPublicationDateFromOpenLibrary(book.title, book.author);
+        }
+        console.log(`Fetched details for ${book.title}: Publication Date - ${book.publicationDate}`);
+    }
+
     await browser.close();
     return books;
 }

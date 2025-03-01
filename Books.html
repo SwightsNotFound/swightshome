@@ -243,16 +243,20 @@
     <script>
         // Function to load books from JSON file
         async function loadBooks() {
-            const response = await fetch('storygraph_list.json');
-            const books = await response.json();
+            try {
+                const response = await fetch('storygraph_list.json');
+                const books = await response.json();
 
-            const currentlyReading = books.filter(book => book.status === 'Currently reading');
-            const readRecently = books.filter(book => book.status === 'Read recently');
-            const toRead = books.filter(book => book.status === 'To read');
+                const currentlyReading = books.filter(book => book.status === 'Currently reading');
+                const readRecently = books.filter(book => book.status === 'Read recently');
+                const toRead = books.filter(book => book.status === 'To read');
 
-            displayBooks(currentlyReading, 'currently-reading');
-            displayBooks(readRecently, 'read-recently');
-            displayBooks(toRead, 'to-read');
+                displayBooks(currentlyReading, 'currently-reading');
+                displayBooks(readRecently, 'read-recently');
+                displayBooks(toRead, 'to-read');
+            } catch (error) {
+                console.error('Error loading books:', error);
+            }
         }
 
         // Function to display books in the specified section

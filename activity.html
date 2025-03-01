@@ -90,10 +90,20 @@
                 const daysInYear = 365;
                 const currentYear = new Date().getFullYear();
 
+                const excludedStatuses = [
+                    "paused watching", 
+                    "paused reading", 
+                    "dropped", 
+                    "plans to read", 
+                    "plans to watch"
+                ];
+
                 for (let i = 0; i < daysInYear; i++) {
                     const date = new Date(currentYear, 0, 1 + i);
                     const dateString = date.toISOString().split('T')[0];
-                    const activities = activityData[dateString] || [];
+                    const activities = (activityData[dateString] || []).filter(activity => 
+                        !excludedStatuses.includes(activity.status?.toLowerCase())
+                    );
                     const activityCount = activities.length;
                     let activityLevel = 0;
 

@@ -170,6 +170,7 @@
                     dayDiv.addEventListener('click', () => {
                         activityDetails.innerHTML = '';
                         activities.forEach(activity => {
+                            console.log(activity); // Debug log
                             const activityDiv = document.createElement('div');
                             activityDiv.className = 'activity';
                             const title = activity.media.title.english || activity.media.title.romaji;

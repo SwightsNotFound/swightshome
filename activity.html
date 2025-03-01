@@ -11,12 +11,18 @@
             color: #333;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
             height: 100vh;
             margin: 0;
+            padding: 20px;
         }
 
-        .stats-section {
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .stats-section, .activity-section {
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -24,7 +30,7 @@
             width: 300px;
         }
 
-        .stats-section h2 {
+        .stats-section h2, .activity-section h2 {
             font-size: 1.5em;
             color: #34495e;
             border-bottom: 2px solid #ecf0f1;
@@ -54,7 +60,7 @@
         .day[data-activity="3"] { background-color: #6baed6; }
         .day[data-activity="4"] { background-color: #3182bd; }
 
-        .tooltip {
+        .tooltip, .activity-tooltip {
             visibility: hidden;
             background-color: #333;
             color: #fff;
@@ -70,16 +76,58 @@
             transition: opacity 0.3s;
         }
 
-        .day:hover .tooltip {
+        .day:hover .tooltip, .activity:hover .activity-tooltip {
             visibility: visible;
             opacity: 1;
+        }
+
+        .activity {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ecf0f1;
+            padding-bottom: 10px;
+        }
+
+        .activity img {
+            width: 50px;
+            height: 70px;
+            border-radius: 4px;
+        }
+
+        .activity-details {
+            flex-grow: 1;
+        }
+
+        .activity-title {
+            font-size: 1em;
+            color: #34495e;
+            margin: 0;
+        }
+
+        .activity-meta {
+            font-size: 0.8em;
+            color: #7f8c8d;
+            margin: 0;
+        }
+
+        .activity-time {
+            font-size: 0.8em;
+            color: #95a5a6;
         }
     </style>
 </head>
 <body>
-    <div class="stats-section">
-        <h2>Activity History</h2>
-        <div class="heatmap" id="heatmap"></div>
+    <div class="container">
+        <div class="stats-section">
+            <h2>Activity History</h2>
+            <div class="heatmap" id="heatmap"></div>
+        </div>
+        <div class="activity-section">
+            <h2>Activity Details</h2>
+            <div id="activityDetails"></div>
+        </div>
     </div>
 
     <script>
@@ -87,6 +135,7 @@
             .then(response => response.json())
             .then(activityData => {
                 const heatmap = document.getElementById('heatmap');
+                const activityDetails = document.getElementById('activityDetails');
                 const daysInYear = 365;
                 const currentYear = new Date().getFullYear();
 
@@ -117,6 +166,28 @@
                     dayDiv.dataset.activity = activityLevel;
                     dayDiv.innerHTML = `<span class="tooltip">${dateString}: ${activityCount} activities</span>`;
                     heatmap.appendChild(dayDiv);
+
+                    dayDiv.addEventListener('click', () => {
+                        activityDetails.innerHTML = '';
+                        activities.forEach(activity => {
+                            const activityDiv = document.createElement('div');
+                            activityDiv.className = 'activity';
+                            const title = activity.media.title.english || activity.media.title.romaji;
+                            const cover = activity.media.coverImage.large;
+                            const progress = activity.progress ? `Episode ${activity.progress}` : '';
+                            const time = new Date(activity.createdAt * 1000).toLocaleString('en-US', { timeZone: 'America/Chicago' });
+
+                            activityDiv.innerHTML = `
+                                <img src="${cover}" alt="${title}">
+                                <div class="activity-details">
+                                    <p class="activity-title">${title}</p>
+                                    <p class="activity-meta">${progress}</p>
+                                    <p class="activity-time">${time}</p>
+                                </div>
+                            `;
+                            activityDetails.appendChild(activityDiv);
+                        });
+                    });
                 }
             })
             .catch(error => console.error('Error loading activity data:', error));

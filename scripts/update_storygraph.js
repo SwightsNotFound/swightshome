@@ -33,6 +33,8 @@ async function fetchUserStoryGraphList() {
 
         const books = [...currentlyReading, ...readRecently, ...toRead];
         const filePath = path.join(__dirname, '../storygraph_list.json');
+        console.log(`Saving to: ${filePath}`);
+        console.log(`Current working directory: ${process.cwd()}`);
         fs.writeFileSync(filePath, JSON.stringify(books, null, 2));
         console.log('StoryGraph list updated successfully.');
     } catch (error) {

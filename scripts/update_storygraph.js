@@ -41,9 +41,9 @@ async function getPublicationDateFromOpenLibrary(title, author) {
 async function getPublicationDateFromAudible(title, author) {
     try {
         const searchUrl = `https://www.audible.com/search?keywords=${encodeURIComponent(title + ' ' + author)}`;
-        const browser = await puppeteer.launch({ headless: true });
+        const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
         const page = await browser.newPage();
-        await page.goto(searchUrl, { waitUntil: 'networkidle2' });
+        await page.goto(searchUrl, { waitUntil: 'networkidle2', timeout: 60000 });
 
         const publicationDate = await page.evaluate(() => {
             const dateElement = document.querySelector('.releaseDateLabel span');
@@ -68,10 +68,12 @@ async function getPublicationDateFromAudible(title, author) {
 async function scrapePage(url, status) {
     const browser = await puppeteer.launch({
         headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        timeout: 60000
     });
     const page = await browser.newPage();
-    await page.goto(url, { waitUntil: 'networkidle2' });
+    page.setDefaultNavigationTimeout(60000);
+    await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
 
     // Scroll down to load more content
     await autoScroll(page);

@@ -758,6 +758,19 @@ html {
 
     li.appendChild(infoDiv);
     ul.appendChild(li);
+
+                // Add Anilist logo and link
+                const anilistLink = document.createElement('a');
+            anilistLink.href = anime.links.anilist;
+            anilistLink.target = '_blank';
+            const anilistLogo = document.createElement('img');
+            anilistLogo.src = 'https://anilist.co/img/logo_al.png';
+            anilistLogo.alt = 'Anilist Logo';
+            anilistLogo.style.width = '20px';
+            anilistLogo.style.height = '20px';
+            anilistLink.appendChild(anilistLogo);
+
+            li.appendChild(anilistLink);
 });
             });
 
@@ -879,40 +892,6 @@ fetch('stats.json')
                 document.getElementById('error-message').textContent = `Error: ${error.message}`;
 
 
-                // Add links to Anilist, MAL, and Kitsu
-                const linksDiv = document.createElement('div');
-                linksDiv.classList.add('links');
-
-                const anilistLink = document.createElement('a');
-                anilistLink.href = anime.links.anilist;
-                anilistLink.target = '_blank';
-                const anilistLogo = document.createElement('img');
-                anilistLogo.src = 'https://anilist.co/img/logo_al.png';
-                anilistLogo.alt = 'Anilist Logo';
-                anilistLink.appendChild(anilistLogo);
-                linksDiv.appendChild(anilistLink);
-
-                const malLink = document.createElement('a');
-                malLink.href = anime.links.mal;
-                malLink.target = '_blank';
-                const malLogo = document.createElement('img');
-                malLogo.src = 'https://upload.wikimedia.org/wikipedia/commons/7/7a/MyAnimeList_Logo.png';
-                malLogo.alt = 'MyAnimeList Logo';
-                malLink.appendChild(malLogo);
-                linksDiv.appendChild(malLink);
-
-                const kitsuLink = document.createElement('a');
-                kitsuLink.href = anime.links.kitsu;
-                kitsuLink.target = '_blank';
-                const kitsuLogo = document.createElement('img');
-                kitsuLogo.src = 'https://kitsu.io/favicon.ico';
-                kitsuLogo.alt = 'Kitsu Logo';
-                kitsuLink.appendChild(kitsuLogo);
-                linksDiv.appendChild(kitsuLink);
-
-                li.appendChild(linksDiv);
-
-                ul.appendChild(li);
             });
     </script>
 </body>

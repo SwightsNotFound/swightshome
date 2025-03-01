@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # Allows manual triggering
 
 permissions:
-  contents: write # Ensure the token has write permissions
+  contents: write  # Ensure the token has write permissions
 
 jobs:
   update-storygraph:
@@ -27,8 +27,14 @@ jobs:
     - name: Scrape StoryGraph and update JSON
       run: node scripts/update_storygraph.js
 
-    - name: List directory contents
+    - name: List directory contents after scraping
       run: ls -alh
+
+    - name: Ensure storygraph_list.json exists
+      run: |
+        if [ ! -f storygraph_list.json ]; then
+          echo '{}' > storygraph_list.json
+        fi
 
     - name: Commit and push changes
       env:

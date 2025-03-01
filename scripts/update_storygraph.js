@@ -62,6 +62,10 @@ async function fetchUserStoryGraphList() {
         console.log(`Current working directory: ${process.cwd()}`);
         fs.writeFileSync(filePath, JSON.stringify(books, null, 2));
         console.log('StoryGraph list updated successfully.');
+
+        // List directory contents to verify file creation
+        const dirContents = fs.readdirSync(path.dirname(filePath));
+        console.log('Directory contents:', dirContents);
     } catch (error) {
         console.error('Error fetching user StoryGraph list:', error);
     }

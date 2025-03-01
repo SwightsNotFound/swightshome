@@ -502,6 +502,21 @@ html {
         width: 20px;
         height: 20px;
     }
+
+    .anime-item .flag:hover::after {
+    content: attr(alt); /* Display the full country name stored in the alt attribute */
+    position: absolute;
+    top: -30px; /* Position above the flag */
+    right: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+    z-index: 2; /* Ensure it's above other elements */
+}
     </style>
 </head>
 
@@ -761,16 +776,15 @@ html {
 
                 // Add Anilist logo and link
                 const anilistLink = document.createElement('a');
-            anilistLink.href = anime.links.anilist;
-            anilistLink.target = '_blank';
-            const anilistLogo = document.createElement('img');
-            anilistLogo.src = 'images/AniList.svg.png';
-            anilistLogo.alt = 'Anilist Logo';
-            anilistLogo.style.width = '20px';
-            anilistLogo.style.height = '20px';
-            anilistLink.appendChild(anilistLogo);
-
-            li.appendChild(anilistLink);
+    anilistLink.href = anime.links.anilist;
+    anilistLink.target = '_blank';
+    const anilistLogo = document.createElement('img');
+    anilistLogo.src = 'images/AniList.svg.png';
+    anilistLogo.alt = 'Anilist Logo';
+    anilistLogo.style.width = '20px';
+    anilistLogo.style.height = '20px';
+    anilistLink.appendChild(anilistLogo);
+    li.appendChild(anilistLink);
 });
             });
 

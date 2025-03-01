@@ -72,12 +72,22 @@
         .books-section h2 {
             font-size: 1.5em;
             margin-bottom: 10px;
+            cursor: pointer;
         }
 
-        .books-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        .books-section-collapsed h2:after {
+            content: ' ▼';
+        }
+
+        .books-section-expanded h2:after {
+            content: ' ▲';
+        }
+
+        .books-list {
+            display: flex;
+            overflow-x: auto;
             gap: 20px;
+            padding: 10px 0;
         }
 
         .book-item {
@@ -86,6 +96,7 @@
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             text-align: center;
+            min-width: 150px;
         }
 
         .book-item img {
@@ -142,6 +153,26 @@
             border-radius: 3px;
             font-size: 0.7em;
         }
+
+        .scroll-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .scroll-button.left {
+            left: 0;
+        }
+
+        .scroll-button.right {
+            right: 0;
+        }
     </style>
 </head>
 
@@ -159,19 +190,25 @@
         </header>
 
         <main>
-            <section class="books-section">
+            <section class="books-section books-section-collapsed" id="currently-reading-section">
                 <h2>Currently Reading</h2>
-                <div class="books-grid" id="currently-reading"></div>
+                <button class="scroll-button left" onclick="scrollLeft('currently-reading')">◀</button>
+                <div class="books-list" id="currently-reading"></div>
+                <button class="scroll-button right" onclick="scrollRight('currently-reading')">▶</button>
             </section>
 
-            <section class="books-section">
+            <section class="books-section books-section-collapsed" id="read-recently-section">
                 <h2>Read</h2>
-                <div class="books-grid" id="read-recently"></div>
+                <button class="scroll-button left" onclick="scrollLeft('read-recently')">◀</button>
+                <div class="books-list" id="read-recently"></div>
+                <button class="scroll-button right" onclick="scrollRight('read-recently')">▶</button>
             </section>
 
-            <section class="books-section">
+            <section class="books-section books-section-collapsed" id="to-read-section">
                 <h2>Planning to Read</h2>
-                <div class="books-grid" id="to-read"></div>
+                <button class="scroll-button left" onclick="scrollLeft('to-read')">◀</button>
+                <div class="books-list" id="to-read"></div>
+                <button class="scroll-button right" onclick="scrollRight('to-read')">▶</button>
             </section>
         </main>
     </div>
@@ -201,14 +238,43 @@
                     <p class="author">${book.author}</p>
                     <div class="details">
                         <p>${book.pages}</p>
-                        <p class="${book.format === 'Audiobook' ? 'audiobook' : ''}">${book.format}</p>
+                        ${book.format === 'Audiobook' ? `<p class="audiobook">${book.format}</p>` : ''}
                         <p>${book.publicationDate}</p>
                     </div>
                     <div class="genres">
                         ${book.genres.slice(0, 3).map(genre => `<span class="genre">${genre}</span>`).join('')}
+                        ${book.genres.length > 3 ? `<button onclick="showMoreGenres(this, ${JSON.stringify(book.genres.slice(3))})">More</button>` : ''}
                     </div>
                 </div>
             `).join('');
+        }
+
+        // Function to show more genres
+        function showMoreGenres(button, genres) {
+            const genresHtml = genres.map(genre => `<span class="genre">${genre}</span>`).join('');
+            button.insertAdjacentHTML('beforebegin', genresHtml);
+            button.remove();
+        }
+
+        // Function to toggle section visibility
+        document.querySelectorAll('.books-section h2').forEach(header => {
+            header.addEventListener('click', () => {
+                const section = header.parentElement;
+                section.classList.toggle('books-section-collapsed');
+                section.classList.toggle('books-section-expanded');
+            });
+        });
+
+        // Function to scroll left
+        function scrollLeft(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollBy({ left: -300, behavior: 'smooth' });
+        }
+
+        // Function to scroll right
+        function scrollRight(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollBy({ left: 300, behavior: 'smooth' });
         }
 
         // Load books on page load

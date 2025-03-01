@@ -237,6 +237,15 @@
             font-size: 0.7em;
         }
 
+        .status-dot {
+            height: 10px;
+            width: 10px;
+            background-color: green;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 5px;
+        }
+
         footer {
             background-color: #2c3e50;
             color: white;
@@ -370,6 +379,22 @@
                 <h2>Reading</h2>
                 <div class="manga-grid" id="reading"></div>
             </section>
+            <section class="manga-section">
+                <h2>Completed</h2>
+                <div class="manga-grid" id="completed"></div>
+            </section>
+            <section class="manga-section">
+                <h2>Paused</h2>
+                <div class="manga-grid" id="paused"></div>
+            </section>
+            <section class="manga-section">
+                <h2>Dropped</h2>
+                <div class="manga-grid" id="dropped"></div>
+            </section>
+            <section class="manga-section">
+                <h2>Planning to Read</h2>
+                <div class="manga-grid" id="planning"></div>
+            </section>
         </div>
     </div>
 
@@ -403,8 +428,16 @@
             const mangaList = await response.json();
 
             const reading = mangaList.find(list => list.name === 'Reading').entries;
+            const completed = mangaList.find(list => list.name === 'Completed').entries;
+            const paused = mangaList.find(list => list.name === 'Paused').entries;
+            const dropped = mangaList.find(list => list.name === 'Dropped').entries;
+            const planning = mangaList.find(list => list.name === 'Planning').entries;
 
             displayManga(reading, 'reading');
+            displayManga(completed, 'completed');
+            displayManga(paused, 'paused');
+            displayManga(dropped, 'dropped');
+            displayManga(planning, 'planning');
         }
 
         // Function to display manga in the specified section
@@ -417,9 +450,9 @@
                     <p class="details">
                         <span>Score: ${item.averageScore}</span>
                         <span>Chapters: ${item.chapters !== null ? item.chapters : 'Unknown'}</span>
-                        <span>Status: ${item.status}</span>
                         <span>Progress: ${item.progress}</span>
                     </p>
+                    ${item.status === 'RELEASING' ? '<div class="status-dot"></div>' : ''}
                     <div class="genres">
                         ${item.genres.slice(0, 3).map(genre => `<span class="genre">${genre}</span>`).join('')}
                     </div>

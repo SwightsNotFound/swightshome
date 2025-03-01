@@ -1188,7 +1188,7 @@
       },
       {
         "title": "Lazarus",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx167336-mnhqBT3vDtcv.png",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx167336-hMpEKtKTemuJ.png",
         "averageScore": null,
         "episodes": 13,
         "status": "NOT_YET_RELEASED",
@@ -1196,7 +1196,7 @@
           "Action",
           "Sci-Fi"
         ],
-        "format": null,
+        "format": "TV",
         "country": "JP",
         "personalScore": 0,
         "progress": 0
@@ -2840,7 +2840,7 @@
       {
         "title": "Love, Chunibyo & Other Delusions - Heart Throb -",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx18671-RVIY9TGd737H.jpg",
-        "averageScore": 73,
+        "averageScore": 74,
         "episodes": 12,
         "status": "FINISHED",
         "genres": [
@@ -4845,6 +4845,23 @@
         "progress": 1
       },
       {
+        "title": "Fire Force",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105310-x4o2xMlfxIwb.jpg",
+        "averageScore": 76,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Sci-Fi",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 7,
+        "progress": 24
+      },
+      {
         "title": "Insomniacs After School",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143653-h6NEdWxKIRza.png",
         "averageScore": 79,
@@ -6211,7 +6228,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 11
+        "progress": 17
       },
       {
         "title": "Death Note",
@@ -6238,7 +6255,7 @@
       {
         "title": "The Apothecary Diaries Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176301-AclxpmzlKoBM.jpg",
-        "averageScore": 85,
+        "averageScore": 86,
         "episodes": 24,
         "status": "RELEASING",
         "genres": [
@@ -6248,7 +6265,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 7
+        "progress": 8
       },
       {
         "title": "Solo Leveling Season 2 -Arise from the Shadow-",
@@ -6602,23 +6619,6 @@
         "progress": 41
       },
       {
-        "title": "Fire Force",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105310-x4o2xMlfxIwb.jpg",
-        "averageScore": 76,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Sci-Fi",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 18
-      },
-      {
         "title": "Re:ZERO -Starting Life in Another World-",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21355-IHaS50pvLYd0.jpg",
         "averageScore": 81,
@@ -6637,6 +6637,23 @@
         "country": "JP",
         "personalScore": 0,
         "progress": 15
+      },
+      {
+        "title": "Fire Force Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114236-wfQOWF0Ii3h2.png",
+        "averageScore": 78,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Sci-Fi",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 17
       }
     ]
   },
@@ -6800,7 +6817,7 @@
       {
         "title": "The Apothecary Diaries Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176301-AclxpmzlKoBM.jpg",
-        "averageScore": 85,
+        "averageScore": 86,
         "episodes": 24,
         "status": "RELEASING",
         "genres": [
@@ -6810,7 +6827,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 7
+        "progress": 8
       },
       {
         "title": "Solo Leveling Season 2 -Arise from the Shadow-",

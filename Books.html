@@ -245,6 +245,9 @@
         async function loadBooks() {
             try {
                 const response = await fetch('storygraph_list.json');
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
                 const books = await response.json();
 
                 const currentlyReading = books.filter(book => book.status === 'Currently reading');
@@ -274,7 +277,7 @@
                     </div>
                     <div class="genres">
                         ${book.genres.slice(0, 3).map(genre => `<span class="genre">${genre}</span>`).join('')}
-                        ${book.genres.length > 3 ? `<button class="show-more-genres" onclick="showMoreGenres(this, ${encodeURIComponent(JSON.stringify(book.genres.slice(3)))})">More</button>` : ''}
+                        ${book.genres.length > 3 ? `<button class="show-more-genres" onclick="showMoreGenres(this, '${encodeURIComponent(JSON.stringify(book.genres.slice(3)))}')">More</button>` : ''}
                     </div>
                 </div>
             `).join('');

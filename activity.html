@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activity Heatmap</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .heatmap {
+      display: grid;
+      grid-template-columns: repeat(7, 20px);
+      gap: 2px;
+    }
+    .day {
+      width: 20px;
+      height: 20px;
+      background-color: #ebedf0;
+      position: relative;
+      cursor: pointer;
+    }
+    .day[data-activity="1"] { background-color: #c6e48b; }
+    .day[data-activity="2"] { background-color: #7bc96f; }
+    .day[data-activity="3"] { background-color: #239a3b; }
+    .day[data-activity="4"] { background-color: #196127; }
+    .tooltip {
+      visibility: hidden;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      border-radius: 5px;
+      padding: 5px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .day:hover .tooltip {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="heatmap" id="heatmap"></div>
+
+  <script>
+    fetch('activityHistory.json')
+      .then(response => response.json())
+      .then(activityData => {
+        const heatmap = document.getElementById('heatmap');
+        const daysInYear = 365;
+        const currentYear = new Date().getFullYear();
+
+        for (let i = 0; i < daysInYear; i++) {
+          const date = new Date(currentYear, 0, 1 + i);
+          const dateString = date.toISOString().split('T')[0];
+          const activities = activityData[dateString] || [];
+          const activityCount = activities.length;
+          let activityLevel = 0;
+
+          if (activityCount > 0) activityLevel = 1;
+          if (activityCount > 2) activityLevel = 2;
+          if (activityCount > 5) activityLevel = 3;
+          if (activityCount > 10) activityLevel = 4;
+
+          const dayDiv = document.createElement('div');
+          dayDiv.className = 'day';
+          dayDiv.dataset.activity = activityLevel;
+          dayDiv.innerHTML = `<span class="tooltip">${dateString}: ${activityCount} activities</span>`;
+          heatmap.appendChild(dayDiv);
+        }
+      })
+      .catch(error => console.error('Error loading activity data:', error));
+  </script>
+</body>
+</html>

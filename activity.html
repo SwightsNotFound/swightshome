@@ -43,6 +43,18 @@
             text-align: center;
         }
 
+        .stat-item {
+            font-size: 1.2em;
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .stat-item span {
+            font-weight: bold;
+            color: #2980b9;
+        }
+
         .heatmap {
             display: grid;
             grid-template-columns: repeat(7, 10px);
@@ -143,10 +155,29 @@
 </head>
 <body>
     <div class="container">
-        <div class="stats-section">
-            <h2>Activity History</h2>
-            <div class="heatmap" id="heatmap"></div>
+        <div>
+            <div class="stats-section" id="anime-stats">
+                <h2>Anime Stats</h2>
+                <div class="stat-item"><span>Count:</span><span id="anime-count"></span></div>
+                <div class="stat-item"><span>Mean Score:</span><span id="anime-meanScore"></span></div>
+                <div class="stat-item"><span>Days Watched:</span><span id="anime-daysWatched"></span></div>
+                <div class="stat-item"><span>Episodes Watched:</span><span id="anime-episodesWatched"></span></div>
+            </div>
+
+            <div class="stats-section" id="manga-stats">
+                <h2>Manga Stats</h2>
+                <div class="stat-item"><span>Count:</span><span id="manga-count"></span></div>
+                <div class="stat-item"><span>Mean Score:</span><span id="manga-meanScore"></span></div>
+                <div class="stat-item"><span>Chapters Read:</span><span id="manga-chaptersRead"></span></div>
+                <div class="stat-item"><span>Volumes Read:</span><span id="manga-volumesRead"></span></div>
+            </div>
+
+            <div class="stats-section">
+                <h2>Activity History</h2>
+                <div class="heatmap" id="heatmap"></div>
+            </div>
         </div>
+        
         <div class="activity-section">
             <h2>Recent Activities</h2>
             <div class="activity-list" id="activityList"></div>
@@ -247,6 +278,37 @@
             activitiesToShow += 10;
             displayActivities();
         });
+
+        fetch('stats.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data && data.data && data.data.User && data.data.User.statistics) {
+                    const animeStats = data.data.User.statistics.anime;
+                    const mangaStats = data.data.User.statistics.manga;
+
+                    document.getElementById('anime-count').textContent = animeStats.count;
+                    document.getElementById('anime-meanScore').textContent = animeStats.meanScore;
+                    const daysWatched = (animeStats.minutesWatched / 60 / 24).toFixed(2);
+                    document.getElementById('anime-daysWatched').textContent = daysWatched;
+                    document.getElementById('anime-episodesWatched').textContent = animeStats.episodesWatched;
+
+                    document.getElementById('manga-count').textContent = mangaStats.count;
+                    document.getElementById('manga-meanScore').textContent = mangaStats.meanScore;
+                    document.getElementById('manga-chaptersRead').textContent = mangaStats.chaptersRead;
+                    document.getElementById('manga-volumesRead').textContent = mangaStats.volumesRead;
+                } else {
+                    throw new Error('Invalid data structure');
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching stats:', error);
+                document.getElementById('error-message').textContent = `Error: ${error.message}`;
+            });
     </script>
 </body>
 </html>

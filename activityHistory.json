@@ -16443,6 +16443,21 @@
         },
         "siteUrl": "https://anilist.co/anime/170892"
       }
+    },
+    {
+      "status": "watched episode",
+      "progress": "20",
+      "createdAt": 1740951390,
+      "media": {
+        "title": {
+          "english": "Rurouni Kenshin -Kyoto Disturbance-",
+          "romaji": "Rurouni Kenshin: Meiji Kenkaku Romantan - Kyoto Douran"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b171637-h17RbEFtR0rQ.png"
+        },
+        "siteUrl": "https://anilist.co/anime/171637"
+      }
     }
   ]
 }

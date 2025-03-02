@@ -444,27 +444,17 @@
             z-index: 2; /* Ensure it's above other elements */
         }
 
-        .profile-description-section {
-    background-color: #fff;
+        .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 300px;
-    margin-bottom: 20px;
-}
-
-.profile-description-section h2 {
-    font-size: 1.5em;
-    color: #34495e;
-    border-bottom: 2px solid #ecf0f1;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.markdown-content {
-    font-size: 1em;
-    color: #333;
 }
 
     </style>
@@ -515,9 +505,13 @@
             <div>
                 <div class="profile-description-section" id="profile-description">
                     <h2>Profile Description</h2>
-                    <div id="profile-description-content" class="markdown-content"></div>
+                    <div class="image-grid">
+                        <img src="https://i.postimg.cc/W4wgMgXf/3-Ani-Comp250.png" alt="Image 1">
+                        <img src="https://i.postimg.cc/76c201Sq/2-Eps5-000.png" alt="Image 2">
+                        <img src="https://i.postimg.cc/qqXV5RrZ/25_Movies_Watched_ReVamp.png" alt="Image 3">
+                        <img src="https://i.postimg.cc/wjK7HkBZ/3-Man-Read250.png" alt="Image 4">
+                    </div>
                 </div>
-                
             
                 <div class="stats-section" id="anime-stats">
                     <h2>Anime Stats</h2>

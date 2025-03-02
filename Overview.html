@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swightshome - List Overview</title>
     <link rel="icon" href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" type="image/x-icon">
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -465,6 +464,7 @@
 
     </style>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
     <div class="topbar" id="topbar">
@@ -508,6 +508,10 @@
     <div class="content-area">
         <div class="container">
             <div>
+                <div class="profile-description-section" id="profile-description">
+                    <h2>Profile Description</h2>
+                    <div id="profile-description-content"></div>
+                </div> 
                 <div class="stats-section" id="anime-stats">
                     <h2>Anime Stats</h2>
                     <div class="stat-item"><span>Count:</span><span id="anime-count"></span></div>
@@ -540,11 +544,7 @@
                     <h3>Top 5 Genres</h3>
                     <div id="top-genres"></div>
                     <canvas id="genreChart"></canvas>
-                </div>
-                <div class="profile-description-section" id="profile-description">
-                    <h2>Profile Description</h2>
-                    <div id="profile-description-content"></div>
-                </div>                
+                </div>               
             </div>
 
             <div class="activity-section">

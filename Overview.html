@@ -569,56 +569,56 @@
         ];
 
         fetch('activityHistory.json')
-            .then(response => response.json())
-            .then(activityData => {
-                const currentDate = new Date();
-                const last365Days = [];
+    .then(response => response.json())
+    .then(activityData => {
+        const currentDate = new Date();
+        const last365Days = [];
 
-                for (let i = 0; i < 365; i++) {
-                    const date = new Date(currentDate);
-                    date.setDate(date.getDate() - i);
-                    last365Days.push(date.toISOString().split('T')[0]);
-                }
-
-                last365Days.forEach(dateString => {
-                    const activities = (activityData[dateString] || []).filter(activity => 
-                        !excludedStatuses.includes(activity.status                    ?.toLowerCase())
-                    );
-                    allActivities.push(...activities);
-                });
-
-                allActivities.sort((a, b) => b.createdAt - a.createdAt);
-                displayActivities();
-                displayHeatmap(activityData);
-            })
-            .catch(error => console.error('Error loading activity data:', error));
-
-        function displayActivities() {
-            const activityList = document.getElementById('activityList');
-            activityList.innerHTML = '';
-
-            const activitiesToDisplay = allActivities.slice(0, activitiesToShow);
-
-            activitiesToDisplay.forEach(activity => {
-                const activityDiv = document.createElement('div');
-                activityDiv.className = 'activity';
-                const title = activity.media.title.english || activity.media.title.romaji;
-                const cover = activity.media.coverImage.large;
-                const progress = activity.progress ? `Episode ${activity.progress}` : '';
-                const time = new Date(activity.createdAt * 1000).toLocaleString('en-US', { timeZone: 'America/Chicago' });
-                const siteUrl = activity.media.siteUrl;
-
-                activityDiv.innerHTML = `
-                    <img src="${cover}" alt="${title}" onclick="window.open('${siteUrl}', '_blank')">
-                    <div class="activity-details">
-                        <p class="activity-title" onclick="window.open('${siteUrl}', '_blank')">${title}</p>
-                        <p class="activity-meta">${progress}</p>
-                        <p class="activity-time">${time}</p>
-                    </div>
-                `;
-                activityList.appendChild(activityDiv);
-            });
+        for (let i = 0; i < 365; i++) {
+            const date = new Date(currentDate);
+            date.setDate(date.getDate() - i);
+            last365Days.push(date.toISOString().split('T')[0]);
         }
+
+        last365Days.forEach(dateString => {
+            const activities = (activityData[dateString] || []).filter(activity => 
+                !excludedStatuses.includes(activity.status?.toLowerCase())
+            );
+            allActivities.push(...activities);
+        });
+
+        allActivities.sort((a, b) => b.createdAt - a.createdAt);
+        displayActivities();
+        displayHeatmap(activityData);
+    })
+    .catch(error => console.error('Error loading activity data:', error));
+
+    function displayActivities() {
+    const activityList = document.getElementById('activityList');
+    activityList.innerHTML = '';
+
+    const activitiesToDisplay = allActivities.slice(0, activitiesToShow);
+
+    activitiesToDisplay.forEach(activity => {
+        const activityDiv = document.createElement('div');
+        activityDiv.className = 'activity';
+        const title = activity.media?.title?.english || activity.media?.title?.romaji || 'No title available';
+        const cover = activity.media?.coverImage?.large || 'default-cover.jpg';
+        const progress = activity.progress ? `Episode ${activity.progress}` : '';
+        const time = new Date(activity.createdAt * 1000).toLocaleString('en-US', { timeZone: 'America/Chicago' });
+        const siteUrl = activity.media?.siteUrl || '#';
+
+        activityDiv.innerHTML = `
+            <img src="${cover}" alt="${title}" onclick="window.open('${siteUrl}', '_blank')">
+            <div class="activity-details">
+                <p class="activity-title" onclick="window.open('${siteUrl}', '_blank')">${title}</p>
+                <p class="activity-meta">${progress}</p>
+                <p class="activity-time">${time}</p>
+            </div>
+        `;
+        activityList.appendChild(activityDiv);
+    });
+}
 
         function displayHeatmap(activityData) {
             const heatmap = document.getElementById('heatmap');

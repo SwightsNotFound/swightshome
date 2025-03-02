@@ -21,10 +21,12 @@ jobs:
       with:
         node-version: '14'
 
-    - name: Install dependencies
-      run: npm install axios
+    - name: Install moment-timezone and Axios
+      run: |
+        npm install moment-timezone
+        npm install axios
 
-    - name: Scrape AniList and update JSON
+    - name: fetchActivity
       run: node scripts/fetchActivity.js
 
     - name: Commit and push changes

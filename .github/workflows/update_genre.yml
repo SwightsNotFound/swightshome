@@ -24,7 +24,7 @@ jobs:
     - name: Install dependencies
       run: npm install axios
 
-    - name: Scrape AniList and update JSON
+    - name: Update genre
       run: node scripts/fetchGenreOverview.js
 
     - name: Commit and push changes

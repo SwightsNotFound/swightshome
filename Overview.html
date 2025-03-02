@@ -466,14 +466,45 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+        /* Home button styling */
+        .home-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 20px;
+            transition: all 0.3s ease;
+            position: absolute;
+            left: 60px; /* Adjusted position to be next to dark mode toggle */
+        }
+
+        .home-icon {
+            width: 24px;
+            height: 24px;
+            transition: transform 0.3s ease;
+        }
+
+        .home-button:hover .home-icon {
+            transform: scale(1.2);
+        }
+
+        .topbar a.home-button:hover {
+            background-color: transparent; /* Remove background color change on hover */
+        }
+
 
     </style>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
+    <!-- Topbar with links -->
     <div class="topbar" id="topbar">
         <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
+        <a href="https://swightshome.xyz" class="home-button" title="Home">
+            <svg class="home-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9L12 3l9 6v12a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V12H9v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9z"/>
+            </svg>
+        </a>
         <a href="Services">Services</a>
         <a href="Links">Links</a>
         <a href="Contact">Contact</a>

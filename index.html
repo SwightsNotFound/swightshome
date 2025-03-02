@@ -74,29 +74,21 @@
             left: 20px;
         }
 
-        /* Home button styling */
-        .home-button {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 0 20px;
-            transition: all 0.3s ease;
-            position: absolute;
-            left: 60px; /* Adjusted position to be next to dark mode toggle */
+        /* Notification bar styling */
+        .notification-bar {
+            width: 100%;
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, color 0.3s;
         }
 
-        .home-icon {
-            width: 24px;
-            height: 24px;
-            transition: transform 0.3s ease;
-        }
-
-        .home-button:hover .home-icon {
-            transform: scale(1.2);
-        }
-
-        .topbar a.home-button:hover {
-            background-color: transparent; /* Remove background color change on hover */
+        /* Dark mode notification bar styling */
+        .notification-bar.dark-mode {
+            background-color: #2980b9;
         }
 
         /* Main content area */
@@ -225,6 +217,7 @@
             if (darkModePreference === "enabled" || (darkModePreference === "" && prefersDarkScheme)) {
                 document.body.classList.add('dark-mode');
                 document.getElementById('topbar').classList.add('dark-mode');
+                document.getElementById('notification-bar').classList.add('dark-mode');
                 document.getElementById('content').classList.add('dark-mode');
                 document.getElementById('footer').classList.add('dark-mode');
 
@@ -242,15 +235,15 @@
     <!-- Topbar with links -->
     <div class="topbar" id="topbar">
         <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
-        <a href="https://swightshome.xyz" class="home-button" title="Home">
-            <svg class="home-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 9L12 3l9 6v12a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V12H9v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9z"/>
-            </svg>
-        </a>
         <a href="Services">Services</a>
         <a href="Overview">Lists</a>
         <a href="Links">Links</a>
         <a href="Contact">Contact</a>
+    </div>
+
+    <!-- Notification bar -->
+    <div class="notification-bar" id="notification-bar">
+        This site is still being devoloped, things like the dark mode is in beta, expect many pages to not look right if its on.
     </div>
 
     <!-- Main content -->
@@ -281,6 +274,7 @@
         function toggleDarkMode() {
             const isDarkMode = document.body.classList.toggle('dark-mode');
             document.getElementById('topbar').classList.toggle('dark-mode');
+            document.getElementById('notification-bar').classList.toggle('dark-mode');
             document.getElementById('content').classList.toggle('dark-mode');
             document.getElementById('footer').classList.toggle('dark-mode');
 

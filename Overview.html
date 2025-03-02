@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swightshome - List Overview</title>
     <link rel="icon" href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -443,6 +444,25 @@
             white-space: nowrap;
             z-index: 2; /* Ensure it's above other elements */
         }
+
+        .profile-description-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.profile-description-section h2 {
+    font-size: 1.5em;
+    color: #34495e;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
     </style>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
@@ -836,6 +856,14 @@
                 lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling 
             });
         });
+
+        fetch('profile_description.json')
+    .then(response => response.json())
+    .then(data => {
+        const profileDescription = data.description;
+        document.getElementById('profile-description-content').innerHTML = marked(profileDescription);
+    })
+    .catch(error => console.error('Error loading profile description:', error));
     </script>
 </body>
 </html>

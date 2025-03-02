@@ -111,7 +111,7 @@ const saveActivitiesToFile = (activities) => {
     return acc;
   }, {});
 
-  const filePath = path.join(__dirname, 'activityHistory.json');
+  const filePath = path.join(__dirname, '..', 'activityHistory.json');
   fs.writeFileSync(filePath, JSON.stringify(sortedActivitiesByDay, null, 2));
 
   console.log(`Activity history saved to ${filePath}`);

@@ -511,10 +511,6 @@
                 <div class="profile-description-section" id="profile-description">
                     <h2>Profile Description</h2>
                     <div id="profile-description-content"></div>
-                    <script type="text/template" id="profile-description-markdown">
-                        # Profile Description
-                        This is **Swight's** profile description.
-                    </script>
                 </div>
                 
             
@@ -868,9 +864,12 @@
         });
 
         document.addEventListener('DOMContentLoaded', () => {
-            const markdownContent = document.getElementById('profile-description-markdown').textContent;
-            document.getElementById('profile-description-content').innerHTML = marked(markdownContent);
-        });
+    const markdownContent = `
+# Profile Description
+This is **Swight's** profile description.
+`;
+    document.getElementById('profile-description-content').innerHTML = marked(markdownContent);
+});
     </script>
 </body>
 </html>

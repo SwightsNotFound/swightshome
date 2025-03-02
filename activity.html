@@ -166,6 +166,55 @@
         .bar-chart-container canvas {
             max-width: 100%;
         }
+
+        .favorites-section {
+            margin-top: 20px;
+        }
+
+        .favorites-section h2 {
+            font-size: 1.5em;
+            color: #34495e;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .favorites-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .favorite-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px solid #ecf0f1;
+            padding-bottom: 10px;
+        }
+
+        .favorite-item img {
+            width: 50px;
+            height: 70px;
+            border-radius: 4px;
+        }
+
+        .favorite-details {
+            flex-grow: 1;
+        }
+
+        .favorite-title {
+            font-size: 1em;
+            color: #34495e;
+            margin: 0;
+        }
+
+        .favorite-meta {
+            font-size: 0.8em;
+            color: #7f8c8d;
+            margin: 0;
+        }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
@@ -204,6 +253,31 @@
             <h2>Recent Activities</h2>
             <div class="activity-list" id="activityList"></div>
             <button id="loadMoreBtn">Load More</button>
+        </div>
+    </div>
+
+    <div class="favorites-section">
+        <h2>Favorites</h2>
+        <div class="favorites-list">
+            <div class="stats-section" id="favorite-anime">
+                <h2>Favorite Anime</h2>
+                <div id="anime-favorites"></div>
+            </div>
+            
+            <div class="stats-section" id="favorite-manga">
+                <h2>Favorite Manga</h2>
+                <div id="manga-favorites"></div>
+            </div>
+            
+            <div class="stats-section" id="favorite-characters">
+                <h2>Favorite Characters</h2>
+                <div id="character-favorites"></div>
+            </div>
+            
+            <div class="stats-section" id="favorite-staff">
+                <h2>Favorite Staff</h2>
+                <div id="staff-favorites"></div>
+            </div>
         </div>
     </div>
 
@@ -371,6 +445,36 @@
                 });
             })
             .catch(error => console.error('Error loading genre overview:', error));
+
+        fetch('favorites.json')
+            .then(response => response.json())
+            .then(data => {
+                displayFavorites(data.anime.nodes, 'anime-favorites', 'title', 'coverImage');
+                displayFavorites(data.manga.nodes, 'manga-favorites', 'title', 'coverImage');
+                displayFavorites(data.characters.nodes, 'character-favorites', 'name', 'image');
+                displayFavorites(data.staff.nodes, 'staff-favorites', 'name', 'image');
+            })
+            .catch(error => console.error('Error loading favorites:', error));
+
+        function displayFavorites(favorites, containerId, titleKey, imageKey) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = '';
+
+            favorites.forEach(favorite => {
+                const favoriteDiv = document.createElement('div');
+                favoriteDiv.className = 'favorite-item';
+                const title = favorite[titleKey].romaji || favorite[titleKey].english || favorite[titleKey].full;
+                const cover = favorite[imageKey].large;
+
+                favoriteDiv.innerHTML = `
+                    <img src="${cover}" alt="${title}">
+                    <div class="favorite-details">
+                        <p class="favorite-title">${title}</p>
+                    </div>
+                `;
+                container.appendChild(favoriteDiv);
+            });
+        }
     </script>
 </body>
 </html>

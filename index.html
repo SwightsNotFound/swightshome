@@ -84,6 +84,8 @@
             font-size: 1rem;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             transition: background-color 0.3s, color 0.3s;
+            border-radius: 5px;
+            margin-bottom: 10px; /* Add spacing between notification bars */
         }
 
         /* Dark mode notification bar styling */
@@ -241,18 +243,18 @@
         <a href="Contact">Contact</a>
     </div>
 
-    <!-- Notification bar -->
-    <div class="notification-bar" id="notification-bar">
-        This site is still being devoloped, things like the dark mode is in beta, expect many pages to not look right if its on.
+    <!-- Notification bars -->
+    <div class="notification-bar" id="notification-bar-1">
+        This site is still being developed, things like the dark mode is in beta, expect many pages to not look right if it's on.
     </div>
-    <div class="notification-bar" id="notification-bar">
+    <div class="notification-bar" id="notification-bar-2">
         This site does not really support mobile, especially smaller screens, expect things to be broken if you use a phone.
     </div>
 
     <!-- Main content -->
     <div class="content" id="content">
         <div class="image-container">
-            <img id="random-image" src="images/walls/image_0.jpg" alt="Random Image">
+            <img id="random-image" alt="Random Image">
             <div class="centered-text">
                 <p><span id="typing-text-1"></span></p>
                 <p class="small-text"><span id="typing-text-2"></span></p>
@@ -277,7 +279,8 @@
         function toggleDarkMode() {
             const isDarkMode = document.body.classList.toggle('dark-mode');
             document.getElementById('topbar').classList.toggle('dark-mode');
-            document.getElementById('notification-bar').classList.toggle('dark-mode');
+            document.getElementById('notification-bar-1').classList.toggle('dark-mode');
+            document.getElementById('notification-bar-2').classList.toggle('dark-mode');
             document.getElementById('content').classList.toggle('dark-mode');
             document.getElementById('footer').classList.toggle('dark-mode');
 

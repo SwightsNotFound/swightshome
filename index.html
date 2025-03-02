@@ -77,20 +77,31 @@
         /* Notification bar styling */
         .notification-bar {
             width: 100%;
-            background-color: #3498db;
+            background-color: rgba(52, 152, 219, 0.7); /* Semi-transparent blue */
             color: white;
             text-align: center;
             padding: 10px 0;
             font-size: 1rem;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             transition: background-color 0.3s, color 0.3s;
-            border-radius: 5px;
+            border-radius: 10px; /* Rounded corners */
             margin-bottom: 10px; /* Add spacing between notification bars */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .notification-bar::before {
+            content: "ℹ️"; /* Info symbol */
+            position: absolute;
+            left: 15px;
+            font-size: 1.2rem;
         }
 
         /* Dark mode notification bar styling */
         .notification-bar.dark-mode {
-            background-color: #2980b9;
+            background-color: rgba(41, 128, 185, 0.7); /* Semi-transparent dark blue */
         }
 
         /* Main content area */
@@ -219,7 +230,8 @@
             if (darkModePreference === "enabled" || (darkModePreference === "" && prefersDarkScheme)) {
                 document.body.classList.add('dark-mode');
                 document.getElementById('topbar').classList.add('dark-mode');
-                document.getElementById('notification-bar').classList.add('dark-mode');
+                document.getElementById('notification-bar-1').classList.add('dark-mode');
+                document.getElementById('notification-bar-2').classList.add('dark-mode');
                 document.getElementById('content').classList.add('dark-mode');
                 document.getElementById('footer').classList.add('dark-mode');
 

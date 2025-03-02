@@ -76,7 +76,8 @@
 
         /* Notification bar styling */
         .notification-bar {
-            width: 100%;
+            width: 80%; /* Smaller width */
+            max-width: 1000px; /* Limit maximum width */
             background-color: rgba(52, 152, 219, 0.7); /* Semi-transparent blue */
             color: white;
             text-align: center;
@@ -85,7 +86,7 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             transition: background-color 0.3s, color 0.3s;
             border-radius: 10px; /* Rounded corners */
-            margin-bottom: 10px; /* Add spacing between notification bars */
+            margin: 20px auto 10px auto; /* Add spacing between notification bars and move down from topbar */
             display: flex;
             align-items: center;
             justify-content: center;

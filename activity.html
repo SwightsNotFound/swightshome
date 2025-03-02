@@ -22,7 +22,7 @@
             gap: 20px;
         }
 
-        .stats-section, .activity-section {
+        .stats-section, .activity-section, .favorites-section {
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -34,7 +34,7 @@
             width: 600px;
         }
 
-        .stats-section h2, .activity-section h2 {
+        .stats-section h2, .activity-section h2, .favorites-section h2 {
             font-size: 1.5em;
             color: #34495e;
             border-bottom: 2px solid #ecf0f1;
@@ -115,6 +115,7 @@
             width: 50px;
             height: 70px;
             border-radius: 4px;
+            cursor: pointer;
         }
 
         .activity-details {
@@ -168,16 +169,8 @@
         }
 
         .favorites-section {
+            width: 600px;
             margin-top: 20px;
-        }
-
-        .favorites-section h2 {
-            font-size: 1.5em;
-            color: #34495e;
-            border-bottom: 2px solid #ecf0f1;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-            text-align: center;
         }
 
         .favorites-list {
@@ -198,6 +191,7 @@
             width: 50px;
             height: 70px;
             border-radius: 4px;
+            cursor: pointer;
         }
 
         .favorite-details {
@@ -208,6 +202,7 @@
             font-size: 1em;
             color: #34495e;
             margin: 0;
+            cursor: pointer;
         }
 
         .favorite-meta {
@@ -257,28 +252,17 @@
     </div>
 
     <div class="favorites-section">
-        <h2>Favorites</h2>
-        <div class="favorites-list">
-            <div class="stats-section" id="favorite-anime">
-                <h2>Favorite Anime</h2>
-                <div id="anime-favorites"></div>
-            </div>
-            
-            <div class="stats-section" id="favorite-manga">
-                <h2>Favorite Manga</h2>
-                <div id="manga-favorites"></div>
-            </div>
-            
-            <div class="stats-section" id="favorite-characters">
-                <h2>Favorite Characters</h2>
-                <div id="character-favorites"></div>
-            </div>
-            
-            <div class="stats-section" id="favorite-staff">
-                <h2>Favorite Staff</h2>
-                <div id="staff-favorites"></div>
-            </div>
-        </div>
+        <h2>Favorite Anime</h2>
+        <div id="anime-favorites" class="favorites-list"></div>
+
+        <h2>Favorite Manga</h2>
+        <div id="manga-favorites" class="favorites-list"></div>
+
+        <h2>Favorite Characters</h2>
+        <div id="character-favorites" class="favorites-list"></div>
+
+        <h2>Favorite Staff</h2>
+        <div id="staff-favorites" class="favorites-list"></div>
     </div>
 
     <script>
@@ -332,9 +316,9 @@
                 const time = new Date(activity.createdAt * 1000).toLocaleString('en-US', { timeZone: 'America/Chicago' });
 
                 activityDiv.innerHTML = `
-                    <img src="${cover}" alt="${title}">
+                    <img src="${cover}" alt="${title}" onclick="window.open('${activity.media.siteUrl}', '_blank')">
                     <div class="activity-details">
-                        <p class="activity-title">${title}</p>
+                        <p class="activity-title" onclick="window.open('${activity.media.siteUrl}', '_blank')">${title}</p>
                         <p class="activity-meta">${progress}</p>
                         <p class="activity-time">${time}</p>
                     </div>
@@ -449,27 +433,30 @@
         fetch('favorites.json')
             .then(response => response.json())
             .then(data => {
-                displayFavorites(data.anime.nodes, 'anime-favorites', 'title', 'coverImage');
-                displayFavorites(data.manga.nodes, 'manga-favorites', 'title', 'coverImage');
-                displayFavorites(data.characters.nodes, 'character-favorites', 'name', 'image');
-                displayFavorites(data.staff.nodes, 'staff-favorites', 'name', 'image');
+                displayFavorites(data.anime.nodes, 'anime-favorites', 'title', 'coverImage', 'siteUrl');
+                displayFavorites(data.manga.nodes, 'manga-favorites', 'title', 'coverImage', 'siteUrl');
+                displayFavorites(data.characters.nodes, 'character-favorites', 'name', 'image', 'siteUrl');
+                displayFavorites(data.staff.nodes, 'staff-favorites', 'name', 'image', 'siteUrl');
             })
             .catch(error => console.error('Error loading favorites:', error));
 
-        function displayFavorites(favorites, containerId, titleKey, imageKey) {
+        function displayFavorites(favorites, containerId, titleKey, imageKey, urlKey) {
             const container = document.getElementById(containerId);
             container.innerHTML = '';
 
             favorites.forEach(favorite => {
                 const favoriteDiv = document.createElement('div');
                 favoriteDiv.className = 'favorite-item';
-                const title = favorite[titleKey].romaji || favorite[titleKey].english || favorite[titleKey].full;
+                const title = favorite[titleKey].english || favorite[titleKey].romaji || favorite[titleKey].full;
+                const subtitle = favorite[titleKey].romaji || favorite[titleKey].native || '';
                 const cover = favorite[imageKey].large;
+                const url = favorite[urlKey];
 
                 favoriteDiv.innerHTML = `
-                    <img src="${cover}" alt="${title}">
+                    <img src="${cover}" alt="${title}" onclick="window.open('${url}', '_blank')">
                     <div class="favorite-details">
-                        <p class="favorite-title">${title}</p>
+                        <p class="favorite-title" onclick="window.open('${url}', '_blank')">${title}</p>
+                        <p class="favorite-meta">${subtitle}</p>
                     </div>
                 `;
                 container.appendChild(favoriteDiv);

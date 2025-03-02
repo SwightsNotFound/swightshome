@@ -226,6 +226,13 @@
                 <div class="stat-item"><span>Volumes Read:</span><span id="manga-volumesRead"></span></div>
             </div>
 
+            <div class="stats-section" id="book-stats">
+                <h2>Book Stats</h2>
+                <div class="stat-item"><span>Books Read:</span><span id="books-read"></span></div>
+                <div class="stat-item"><span>Pages Read:</span><span id="pages-read"></span></div>
+                <div class="stat-item"><span>Minutes Listened:</span><span id="minutes-listened"></span></div>
+            </div>
+
             <div class="stats-section">
                 <h2>Activity History</h2>
                 <div class="heatmap" id="heatmap"></div>
@@ -383,6 +390,15 @@
                 console.error('Error fetching stats:', error);
                 document.getElementById('error-message').textContent = `Error: ${error.message}`;
             });
+
+        fetch('storygraph_stats.json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('books-read').textContent = data.totalBooksRead;
+                document.getElementById('pages-read').textContent = data.totalPagesRead;
+                document.getElementById('minutes-listened').textContent = data.totalMinutesListened;
+            })
+            .catch(error => console.error('Error loading book stats:', error));
 
         fetch('genreOverview.json')
             .then(response => response.json())

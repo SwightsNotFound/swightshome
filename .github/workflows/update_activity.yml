@@ -1,4 +1,4 @@
-name: Update AniList
+name: Update activity
 
 on:
   schedule:

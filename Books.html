@@ -70,7 +70,7 @@
             width: 100%;
             top: 0;
             z-index: 1000;
-            transition: background-color 0.3s;
+            transition: top 0.3s, background-color 0.3s;
         }
 
         .topbar.dark-mode {
@@ -455,20 +455,21 @@
             `).join('');
         }
 
-        window.addEventListener('scroll', () => {
-        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        let lastScrollTop = 0;
 
-        if (scrollTop > lastScrollTop) {
-            // Scroll down
-            topbar.style.transition = `top ${scrollSpeed}s`;
-            topbar.style.top = `-${topbar.offsetHeight}px`;
-        } else {
-            // Scroll up
-            topbar.style.transition = `top ${scrollSpeed}s`;
-            topbar.style.top = '0';
-        }
-        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling 
-    });
+        window.addEventListener('scroll', () => {
+            const topbar = document.getElementById('topbar');
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTop > lastScrollTop) {
+                // Scroll down
+                topbar.style.top = `-${topbar.offsetHeight}px`;
+            } else {
+                // Scroll up
+                topbar.style.top = '0';
+            }
+            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling 
+        });
 
         // Load books on page load
         window.onload = loadBooks;

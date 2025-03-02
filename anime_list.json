@@ -6987,7 +6987,7 @@
         "id": 2034,
         "title": "Lovely Complex",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2034-to85QywohtUL.png",
-        "averageScore": 77,
+        "averageScore": 78,
         "episodes": 24,
         "status": "FINISHED",
         "genres": [
@@ -8632,7 +8632,7 @@
         "format": "ONA",
         "country": "JP",
         "personalScore": 8,
-        "progress": 8,
+        "progress": 9,
         "links": {
           "anilist": "https://anilist.co/anime/177709/",
           "mal": "https://myanimelist.net/anime/177709",
@@ -8811,7 +8811,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 6,
-        "progress": 7,
+        "progress": 8,
         "links": {
           "anilist": "https://anilist.co/anime/172258/",
           "mal": "https://myanimelist.net/anime/172258",
@@ -8833,7 +8833,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 6,
-        "progress": 8,
+        "progress": 9,
         "links": {
           "anilist": "https://anilist.co/anime/170650/",
           "mal": "https://myanimelist.net/anime/170650",
@@ -8854,7 +8854,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 6,
-        "progress": 8,
+        "progress": 9,
         "links": {
           "anilist": "https://anilist.co/anime/178462/",
           "mal": "https://myanimelist.net/anime/178462",
@@ -8917,7 +8917,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 5,
-        "progress": 22,
+        "progress": 23,
         "links": {
           "anilist": "https://anilist.co/anime/151514/",
           "mal": "https://myanimelist.net/anime/151514",
@@ -9007,7 +9007,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 5,
-        "progress": 7,
+        "progress": 8,
         "links": {
           "anilist": "https://anilist.co/anime/167143/",
           "mal": "https://myanimelist.net/anime/167143",
@@ -9060,6 +9060,27 @@
           "anilist": "https://anilist.co/anime/21355/",
           "mal": "https://myanimelist.net/anime/21355",
           "kitsu": "https://kitsu.io/anime/21355"
+        }
+      },
+      {
+        "id": 177506,
+        "title": "Possibly the Greatest Alchemist of All Time",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177506-in4J0GNzjOZL.jpg",
+        "averageScore": 65,
+        "episodes": 12,
+        "status": "RELEASING",
+        "genres": [
+          "Adventure",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/177506/",
+          "mal": "https://myanimelist.net/anime/177506",
+          "kitsu": "https://kitsu.io/anime/177506"
         }
       }
     ]
@@ -9376,7 +9397,7 @@
         "format": "ONA",
         "country": "JP",
         "personalScore": 8,
-        "progress": 8,
+        "progress": 9,
         "links": {
           "anilist": "https://anilist.co/anime/177709/",
           "mal": "https://myanimelist.net/anime/177709",
@@ -9555,7 +9576,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 6,
-        "progress": 7,
+        "progress": 8,
         "links": {
           "anilist": "https://anilist.co/anime/172258/",
           "mal": "https://myanimelist.net/anime/172258",
@@ -9577,7 +9598,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 6,
-        "progress": 8,
+        "progress": 9,
         "links": {
           "anilist": "https://anilist.co/anime/170650/",
           "mal": "https://myanimelist.net/anime/170650",
@@ -9598,7 +9619,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 6,
-        "progress": 8,
+        "progress": 9,
         "links": {
           "anilist": "https://anilist.co/anime/178462/",
           "mal": "https://myanimelist.net/anime/178462",
@@ -9661,7 +9682,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 5,
-        "progress": 22,
+        "progress": 23,
         "links": {
           "anilist": "https://anilist.co/anime/151514/",
           "mal": "https://myanimelist.net/anime/151514",
@@ -9751,7 +9772,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 5,
-        "progress": 7,
+        "progress": 8,
         "links": {
           "anilist": "https://anilist.co/anime/167143/",
           "mal": "https://myanimelist.net/anime/167143",

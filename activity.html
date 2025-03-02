@@ -154,41 +154,32 @@
         }
 
         .container {
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            max-width: 800px;
-            width: 100%;
-            transition: background-color 0.3s;
-            flex-grow: 1;
             display: flex;
             gap: 20px;
         }
 
-        body.dark-mode .container {
-            background-color: #444;
-        }
-
-        .stats-section {
-            background-color: white;
+        .stats-section, .activity-section, .favorites-section {
+            background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            margin-bottom: 30px;
             padding: 20px;
-            max-width: 250px;
-            width: 100%;
-            position: sticky;
-            top: 140px; /* Adjust this value as needed */
-            align-self: flex-start;
         }
 
-        .stats-section h2 {
-            font-size: 1.8em;
+        .stats-section, .favorites-section {
+            width: 300px;
+        }
+
+        .activity-section {
+            width: 600px;
+        }
+
+        .stats-section h2, .activity-section h2, .favorites-section h2 {
+            font-size: 1.5em;
             color: #34495e;
             border-bottom: 2px solid #ecf0f1;
             padding-bottom: 10px;
             margin-bottom: 20px;
+            text-align: center;
         }
 
         .stat-item {
@@ -203,16 +194,152 @@
             color: #2980b9;
         }
 
-        .activity-section {
-            width: 600px;
+        .heatmap {
+            display: grid;
+            grid-template-columns: repeat(7, 10px);
+            gap: 2px;
+            justify-content: center;
         }
 
-        .favorites-section {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            width: 300px;
+        .day {
+            width: 10px;
+            height: 10px;
+            background-color: #ebedf0;
+            border-radius: 2px;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .day[data-activity="1"] { background-color: #c6dbef; }
+        .day[data-activity="2"] { background-color: #9ecae1; }
+        .day[data-activity="3"] { background-color: #6baed6; }
+        .day[data-activity="4"] { background-color: #3182bd; }
+
+        .tooltip, .activity-tooltip {
+            visibility: hidden;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -60px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .day:hover .tooltip, .activity:hover .activity-tooltip {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .activity-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .activity {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px solid #ecf0f1;
+            padding-bottom: 10px;
+        }
+
+        .activity img {
+            width: 50px;
+            height: 70px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .activity-details {
+            flex-grow: 1;
+        }
+
+        .activity-title {
+            font-size: 1em;
+            color: #34495e;
+            margin: 0;
+            cursor: pointer;
+        }
+
+        .activity-meta {
+            font-size: 0.8em;
+            color: #7f8c8d;
+            margin: 0;
+        }
+
+        .activity-time {
+            font-size: 0.8em;
+            color: #95a5a6;
+        }
+
+        #loadMoreBtn {
+            background-color: #2980b9;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        #loadMoreBtn:hover {
+            background-color: #1c5980;
+        }
+
+        .bar-chart-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .bar-chart-container h3 {
+            font-size: 1.2em;
+            color: #34495e;
+            margin-bottom: 10px;
+        }
+
+        .bar-chart-container canvas {
+            max-width: 100%;
+        }
+
+        .favorites-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .favorite-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 60px;
+            text-align: center;
+        }
+
+        .favorite-item img {
+            width: 50px;
+            height: 70px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .favorite-title {
+            font-size: 0.7em;
+            color: #34495e;
+            margin: 5px 0 0;
+            cursor: pointer;
+        }
+
+        .favorite-meta {
+            font-size: 0.5em;
+            color: #7f8c8d;
+            margin: 0;
         }
 
         footer {
@@ -320,361 +447,392 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-  <div class="topbar" id="topbar">
-      <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
-      <a href="Services">Services</a>
-      <a href="Links">Links</a>
-      <a href="Contact">Contact</a>
-  </div>
+    <div class="topbar" id="topbar">
+        <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
+        <a href="Services">Services</a>
+        <a href="Links">Links</a>
+        <a href="Contact">Contact</a>
+    </div>
 
-  <div class="header">
-      <div class="overlay"></div>
-      <div class="header-content">
-          <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" alt="Logo"
-              style="width: 150px; height: auto;">
-          <h1>Swight</h1>
-          <p>This is a list of all the anime I have watched over the years, since 2021-2022, this page is really just a mirror of my Anilist profile that I made for fun, all the information is stored in this <a href="https://github.com/SwightsNotFound/swightshome/blob/main/anime_list.json" target="_blank">file</a> which is updated every 12 hours.</p>
-          <p>All of this information can also be found on Anilist, MAL and kitsu.</p>
-          <div class="logo-links">
-              <a href="https://anilist.co/user/Swight/" target="_blank">
-                  <img src="https://anilist.co/img/logo_al.png" alt="Anilist Logo">
-              </a>
-              <a href="https://myanimelist.net/profile/SwightUnkown" target="_blank">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/MyAnimeList_Logo.png" alt="MyAnimeList Logo">
-              </a>
-              <a href="https://kitsu.app/users/Swight" target="_blank">
-                  <img src="https://kitsu.io/favicon.ico" alt="Kitsu Logo">
-              </a>
-          </div>
-      </div>
-  </div>
+    <div class="header">
+        <div class="overlay"></div>
+        <div class="header-content">
+            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" alt="Logo"
+                style="width: 150px; height: auto;">
+            <h1>Swight</h1>
+            <p>This is a list of all the anime I have watched over the years, since 2021-2022, this page is really just a mirror of my Anilist profile that I made for fun, all the information is stored in this <a href="https://github.com/SwightsNotFound/swightshome/blob/main/anime_list.json" target="_blank">file</a> which is updated every 12 hours.</p>
+            <p>All of this information can also be found on Anilist, MAL and kitsu.</p>
+            <div class="logo-links">
+                <a href="https://anilist.co/user/Swight/" target="_blank">
+                    <img src="https://anilist.co/img/logo_al.png" alt="Anilist Logo">
+                </a>
+                <a href="https://myanimelist.net/profile/SwightUnkown" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/MyAnimeList_Logo.png" alt="MyAnimeList Logo">
+                </a>
+                <a href="https://kitsu.app/users/Swight" target="_blank">
+                    <img src="https://kitsu.io/favicon.ico" alt="Kitsu Logo">
+                </a>
+            </div>
+        </div>
+    </div>
 
-  <div class="navbar" id="navbar">
-      <a href="Anime" class="active">Anime</a>
-      <a href="Manga">Manga</a>
-      <a href="Books">Books</a>
-  </div>
+    <div class="navbar" id="navbar">
+        <a href="Anime" class="active">Anime</a>
+        <a href="Manga">Manga</a>
+        <a href="Books">Books</a>
+    </div>
 
-  <div class="content-area">
-      <div class="stats-section" id="anime-stats">
-          <h2>Anime Stats</h2>
-          <div class="stat-item"><span>Count:</span><span id="anime-count"></span></div>
-          <div class="stat-item"><span>Mean Score:</span><span id="anime-meanScore"></span></div>
-          <div class="stat-item"><span>Days Watched:</span><span id="anime-daysWatched"></span></div>
-          <div class="stat-item"><span>Episodes Watched:</span><span id="anime-episodesWatched"></span></div>
-      </div>
+    <div class="content-area">
+        <div class="container">
+            <div>
+                <div class="stats-section" id="anime-stats">
+                    <h2>Anime Stats</h2>
+                    <div class="stat-item"><span>Count:</span><span id="anime-count"></span></div>
+                    <div class="stat-item"><span>Mean Score:</span><span id="anime-meanScore"></span></div>
+                    <div class="stat-item"><span>Days Watched:</span><span id="anime-daysWatched"></span></div>
+                    <div class="stat-item"><span>Episodes Watched:</span><span id="anime-episodesWatched"></span></div>
+                </div>
 
-      <div class="activity-section">
-          <h2>Recent Activities</h2>
-          <div class="activity-list" id="activityList"></div>
-          <button id="loadMoreBtn">Load More</button>
-      </div>
+                <div class="stats-section" id="manga-stats">
+                    <h2>Manga Stats</h2>
+                    <div class="stat-item"><span>Count:</span><span id="manga-count"></span></div>
+                    <div class="stat-item"><span>Mean Score:</span><span id="manga-meanScore"></span></div>
+                    <div class="stat-item"><span>Chapters Read:</span><span id="manga-chaptersRead"></span></div>
+                    <div class="stat-item"><span>Volumes Read:</span><span id="manga-volumesRead"></span></div>
+                </div>
 
-      <div class="favorites-section">
-          <h2>Favorite Anime</h2>
-          <div id="anime-favorites" class="favorites-list"></div>
+                <div class="stats-section" id="book-stats">
+                    <h2>Book Stats</h2>
+                    <div class="stat-item"><span>Books Read:</span><span id="books-read"></span></div>
+                    <div class="stat-item"><span>Pages Read:</span><span id="pages-read"></span></div>
+                    <div class="stat-item"><span>Minutes Listened:</span><span id="minutes-listened"></span></div>
+                </div>
 
-          <h2>Favorite Manga</h2>
-          <div id="manga-favorites" class="favorites-list"></div>
+                <div class="stats-section">
+                    <h2>Activity History</h2>
+                    <div class="heatmap" id="heatmap"></div>
+                </div>
 
-          <h2>Favorite Characters</h2>
-          <div id="character-favorites" class="favorites-list"></div>
+                <div class="bar-chart-container">
+                    <h3>Top 5 Genres</h3>
+                    <div id="top-genres"></div>
+                    <canvas id="genreChart"></canvas>
+                </div>
+            </div>
 
-          <h2>Favorite Staff</h2>
-          <div id="staff-favorites" class="favorites-list"></div>
-      </div>
-  </div>
+            <div class="activity-section">
+                <h2>Recent Activities</h2>
+                <div class="activity-list" id="activityList"></div>
+                <button id="loadMoreBtn">Load More</button>
+            </div>
 
-  <footer id="footer">        
-      <p>Hosted using <a href="https://pages.github.com/" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" role="button">Cloudflare</a>.</p>
-      <div class="footer-links">
-          <a href="https://swightshome.xyz/Status" role="button">Status Page</a>
-          <span>|</span>
-          <a href="https://github.com/SwightsNotFound/swightshome" role="button">Source Code</a>
-          <span>|</span>
-          <a href="Privacy" role="button">Privacy Policy</a>
-      </div>
-  </footer>
+            <div class="favorites-section">
+                <h2>Favorite Anime</h2>
+                <div id="anime-favorites" class="favorites-list"></div>
 
-  <script>
-      let allActivities = [];
-      let activitiesToShow = 10;
-      const excludedStatuses = [
-          "paused watching", 
-          "paused reading", 
-          "dropped", 
-          "plans to read", 
-          "plans to watch"
-      ];
+                <h2>Favorite Manga</h2>
+                <div id="manga-favorites" class="favorites-list"></div>
 
-      fetch('activityHistory.json')
-          .then(response => response.json())
-          .then(activityData => {
-              const currentDate = new Date();
-              const last365Days = [];
+                <h2>Favorite Characters</h2>
+                <div id="character-favorites" class="favorites-list"></div>
 
-              for (let i = 0; i < 365; i++) {
-                  const date = new Date(currentDate);
-                  date.setDate(date.getDate() - i);
-                  last365Days.push(date.toISOString().split('T')[0]);
-              }
+                <h2>Favorite Staff</h2>
+                <div id="staff-favorites" class="favorites-list"></div>
+            </div>
+        </div>
+    </div>
 
-              last365Days.forEach(dateString => {
-                  const activities = (activityData[dateString] || []).filter(activity => 
-                      !excludedStatuses.includes(activity.status?.toLowerCase())
-                  );
-                  allActivities.push(...activities);
-              });
+    <footer id="footer">        
+        <p>Hosted using <a href="https://pages.github.com/" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" role="button">Cloudflare</a>.</p>
+        <div class="footer-links">
+            <a href="https://swightshome.xyz/Status" role="button">Status Page</a>
+            <span>|</span>
+            <a href="https://github.com/SwightsNotFound/swightshome" role="button">Source Code</a>
+            <span>|</span>
+            <a href="Privacy" role="button">Privacy Policy</a>
+        </div>
+    </footer>
 
-              allActivities.sort((a, b) => b.createdAt - a.createdAt);
-              displayActivities();
-              displayHeatmap(activityData);
-          })
-          .catch(error => console.error('Error loading activity data:', error));
+    <script>
+        let allActivities = [];
+        let activitiesToShow = 10;
+        const excludedStatuses = [
+            "paused watching", 
+            "paused reading", 
+            "dropped", 
+            "plans to read", 
+            "plans to watch"
+        ];
 
-      function displayActivities() {
-          const activityList = document.getElementById('activityList');
-          activityList.innerHTML = '';
+        fetch('activityHistory.json')
+            .then(response => response.json())
+            .then(activityData => {
+                const currentDate = new Date();
+                const last365Days = [];
 
-          const activitiesToDisplay = allActivities.slice(0, activitiesToShow);
+                for (let i = 0; i < 365; i++) {
+                    const date = new Date(currentDate);
+                    date.setDate(date.getDate() - i);
+                    last365Days.push(date.toISOString().split('T')[0]);
+                }
 
-          activitiesToDisplay.forEach(activity => {
-              const activityDiv = document.createElement('div');
-              activityDiv.className = 'activity';
-              const title = activity.media.title.english || activity.media.title.romaji;
-              const cover = activity.media.coverImage.large;
-              const progress = activity.progress ? `Episode ${activity.progress}` : '';
-              const time = new Date(activity.createdAt * 1000).toLocaleString('en-US', { timeZone: 'America/Chicago' });
-              const siteUrl = activity.media.siteUrl;
+                last365Days.forEach(dateString => {
+                    const activities = (activityData[dateString] || []).filter(activity => 
+                        !excludedStatuses.includes(activity.status                    ?.toLowerCase())
+                    );
+                    allActivities.push(...activities);
+                });
 
-              activityDiv.innerHTML = `
-                  <img src="${cover}" alt="${title}" onclick="window.open('${siteUrl}', '_blank')">
-                  <div class="activity-details">
-                      <p class="activity-title" onclick="window.open('${siteUrl}', '_blank')">${title}</p>
-                      <p class="activity-meta">${progress}</p>
-                      <p class="activity-time">${time}</p>
-                  </div>
-              `;
-              activityList.appendChild(activityDiv);
-          });
-      }
+                allActivities.sort((a, b) => b.createdAt - a.createdAt);
+                displayActivities();
+                displayHeatmap(activityData);
+            })
+            .catch(error => console.error('Error loading activity data:', error));
 
-      function displayHeatmap(activityData) {
-          const heatmap = document.getElementById('heatmap');
-          const daysInYear = 365;
-          const currentYear = new Date().getFullYear();
+        function displayActivities() {
+            const activityList = document.getElementById('activityList');
+            activityList.innerHTML = '';
 
-          for (let i = 0; i < daysInYear; i++) {
-              const date = new Date(currentYear, 0, 1 + i);
-              const dateString = date.toISOString().split('T')[0];
-              const activities = (activityData[dateString] || []).filter(activity => 
-                  !excludedStatuses.includes(activity.status?.toLowerCase())
-              );
-              const activityCount = activities.length;
-              let activityLevel = 0;
+            const activitiesToDisplay = allActivities.slice(0, activitiesToShow);
 
-              if (activityCount > 0) activityLevel = 1;
-              if (activityCount > 2) activityLevel = 2;
-              if (activityCount > 5) activityLevel = 3;
-              if (activityCount > 10) activityLevel = 4;
+            activitiesToDisplay.forEach(activity => {
+                const activityDiv = document.createElement('div');
+                activityDiv.className = 'activity';
+                const title = activity.media.title.english || activity.media.title.romaji;
+                const cover = activity.media.coverImage.large;
+                const progress = activity.progress ? `Episode ${activity.progress}` : '';
+                const time = new Date(activity.createdAt * 1000).toLocaleString('en-US', { timeZone: 'America/Chicago' });
+                const siteUrl = activity.media.siteUrl;
 
-              const dayDiv = document.createElement('div');
-              dayDiv.className = 'day';
-              dayDiv.dataset.activity = activityLevel;
-              dayDiv.innerHTML = `<span class="tooltip">${dateString}: ${activityCount} activities</span>`;
-              heatmap.appendChild(dayDiv);
-          }
-      }
+                activityDiv.innerHTML = `
+                    <img src="${cover}" alt="${title}" onclick="window.open('${siteUrl}', '_blank')">
+                    <div class="activity-details">
+                        <p class="activity-title" onclick="window.open('${siteUrl}', '_blank')">${title}</p>
+                        <p class="activity-meta">${progress}</p>
+                        <p class="activity-time">${time}</p>
+                    </div>
+                `;
+                activityList.appendChild(activityDiv);
+            });
+        }
 
-      document.getElementById('loadMoreBtn').addEventListener('click', () => {
-          activitiesToShow += 10;
-          displayActivities();
-      });
+        function displayHeatmap(activityData) {
+            const heatmap = document.getElementById('heatmap');
+            const daysInYear = 365;
+            const currentYear = new Date().getFullYear();
 
-      fetch('stats.json')
-          .then(response => {
-              if (!response.ok) {
-                  throw new Error(`HTTP error! Status: ${response.status}`);
-              }
-              return response.json();
-          })
-          .then(data => {
-              if (data && data.data && data.data.User && data.data.User.statistics) {
-                  const animeStats = data.data.User.statistics.anime;
-                  const mangaStats = data.data.User.statistics.manga;
+            for (let i = 0; i < daysInYear; i++) {
+                const date = new Date(currentYear, 0, 1 + i);
+                const dateString = date.toISOString().split('T')[0];
+                const activities = (activityData[dateString] || []).filter(activity => 
+                    !excludedStatuses.includes(activity.status?.toLowerCase())
+                );
+                const activityCount = activities.length;
+                let activityLevel = 0;
 
-                  document.getElementById('anime-count').textContent = animeStats.count;
-                  document.getElementById('anime-meanScore').textContent = animeStats.meanScore;
-                  const daysWatched = (animeStats.minutesWatched / 60 / 24).toFixed(2);
-                  document.getElementById('anime-daysWatched').textContent = daysWatched;
-                  document.getElementById('anime-episodesWatched').textContent = animeStats.episodesWatched;
+                if (activityCount > 0) activityLevel = 1;
+                if (activityCount > 2) activityLevel = 2;
+                if (activityCount > 5) activityLevel = 3;
+                if (activityCount > 10) activityLevel = 4;
 
-                  document.getElementById('manga-count').textContent = mangaStats.count;
-                  document.getElementById('manga-meanScore').textContent = mangaStats.meanScore;
-                  document.getElementById('manga-chaptersRead').textContent = mangaStats.chaptersRead;
-                  document.getElementById('manga-volumesRead').textContent = mangaStats.volumesRead;
-              } else {
-                  throw new Error('Invalid data structure');
-              }
-          })
-          .catch(error => {
-              console.error('Error fetching stats:', error);
-              document.getElementById('error-message').textContent = `Error: ${error.message}`;
-          });
+                const dayDiv = document.createElement('div');
+                dayDiv.className = 'day';
+                dayDiv.dataset.activity = activityLevel;
+                dayDiv.innerHTML = `<span class="tooltip">${dateString}: ${activityCount} activities</span>`;
+                heatmap.appendChild(dayDiv);
+            }
+        }
 
-      fetch('storygraph_stats.json')
-          .then(response => response.json())
-          .then(data => {
-              document.getElementById('books-read').textContent = data.totalBooksRead;
-              document.getElementById('pages-read').textContent = data.totalPagesRead;
-              document.getElementById('minutes-listened').textContent = data.totalMinutesListened;
-          })
-
-fetch('genreOverview.json')
-    .then(response => response.json())
-    .then(data => {
-        const genres = data.anime.genres;
-        const topGenres = genres.sort((a, b) => b.count - a.count).slice(0, 5);
-
-        const topGenresContainer = document.getElementById('top-genres');
-        topGenres.forEach(genre => {
-            const genreDiv = document.createElement('div');
-            genreDiv.textContent = `${genre.genre}: ${genre.count}`;
-            topGenresContainer.appendChild(genreDiv);
+        document.getElementById('loadMoreBtn').addEventListener('click', () => {
+            activitiesToShow += 10;
+            displayActivities();
         });
 
-        const ctx = document.getElementById('genreChart').getContext('2d');
-        const chartData = {
-            labels: genres.map(genre => genre.genre),
-            datasets: [{
-                label: 'Percentage of Anime Watched',
-                data: genres.map(genre => genre.count),
-                backgroundColor: genres.map(() => `#${Math.floor(Math.random()*16777215).toString(16)}`)
-            }]
-        };
+        fetch('stats.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data && data.data && data.data.User && data.data.User.statistics) {
+                    const animeStats = data.data.User.statistics.anime;
+                    const mangaStats = data.data.User.statistics.manga;
 
-        new Chart(ctx, {
-            type: 'bar',
-            data: chartData,
-            options: {
-                scales: {
-                    x: {
-                        beginAtZero: true
-                    },
-                    y: {
-                        beginAtZero: true
+                    document.getElementById('anime-count').textContent = animeStats.count;
+                    document.getElementById('anime-meanScore').textContent = animeStats.meanScore;
+                    const daysWatched = (animeStats.minutesWatched / 60 / 24).toFixed(2);
+                    document.getElementById('anime-daysWatched').textContent = daysWatched;
+                    document.getElementById('anime-episodesWatched').textContent = animeStats.episodesWatched;
+
+                    document.getElementById('manga-count').textContent = mangaStats.count;
+                    document.getElementById('manga-meanScore').textContent = mangaStats.meanScore;
+                    document.getElementById('manga-chaptersRead').textContent = mangaStats.chaptersRead;
+                    document.getElementById('manga-volumesRead').textContent = mangaStats.volumesRead;
+                } else {
+                    throw new Error('Invalid data structure');
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching stats:', error);
+                document.getElementById('error-message').textContent = `Error: ${error.message}`;
+            });
+
+        fetch('storygraph_stats.json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('books-read').textContent = data.totalBooksRead;
+                document.getElementById('pages-read').textContent = data.totalPagesRead;
+                document.getElementById('minutes-listened').textContent = data.totalMinutesListened;
+            })
+            .catch(error => console.error('Error loading book stats:', error));
+
+        fetch('genreOverview.json')
+            .then(response => response.json())
+            .then(data => {
+                const genres = data.anime.genres;
+                const topGenres = genres.sort((a, b) => b.count - a.count).slice(0, 5);
+
+                const topGenresContainer = document.getElementById('top-genres');
+                topGenres.forEach(genre => {
+                    const genreDiv = document.createElement('div');
+                    genreDiv.textContent = `${genre.genre}: ${genre.count}`;
+                    topGenresContainer.appendChild(genreDiv);
+                });
+
+                const ctx = document.getElementById('genreChart').getContext('2d');
+                const chartData = {
+                    labels: genres.map(genre => genre.genre),
+                    datasets: [{
+                        label: 'Percentage of Anime Watched',
+                        data: genres.map(genre => genre.count),
+                        backgroundColor: genres.map(() => `#${Math.floor(Math.random()*16777215).toString(16)}`)
+                    }]
+                };
+
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: chartData,
+                    options: {
+                        scales: {
+                            x: {
+                                beginAtZero: true
+                            },
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
                     }
+                });
+            })
+            .catch(error => console.error('Error loading genre overview:', error));
+
+        fetch('favorites.json')
+            .then(response => response.json())
+            .then(data => {
+                displayFavorites(data.anime.nodes, 'anime-favorites', 'title', 'coverImage', 'siteUrl');
+                displayFavorites(data.manga.nodes, 'manga-favorites', 'title', 'coverImage', 'siteUrl');
+                displayFavorites(data.characters.nodes, 'character-favorites', 'name', 'image', 'siteUrl');
+                displayFavorites(data.staff.nodes, 'staff-favorites', 'name', 'image', 'siteUrl');
+            })
+            .catch(error => console.error('Error loading favorites:', error));
+
+        function displayFavorites(favorites, containerId, titleKey, imageKey, urlKey) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = '';
+
+            favorites.forEach(favorite => {
+                const favoriteDiv = document.createElement('div');
+                favoriteDiv.className = 'favorite-item';
+                const title = favorite[titleKey].english || favorite[titleKey].romaji || favorite[titleKey].full;
+                const subtitle = favorite[titleKey].romaji || favorite[titleKey].native || '';
+                const cover = favorite[imageKey].large;
+                const url = favorite[urlKey];
+
+                favoriteDiv.innerHTML = `
+                    <img src="${cover}" alt="${title}" onclick="window.open('${url}', '_blank')">
+                    <div class="favorite-details">
+                        <p class="favorite-title" onclick="window.open('${url}', '_blank')">${title}</p>
+                        <p class="favorite-meta">${subtitle}</p>
+                    </div>
+                `;
+                container.appendChild(favoriteDiv);
+            });
+        }
+
+        function setCookie(name, value, days) {
+            const d = new Date();
+            d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+            const expires = "expires=" + d.toUTCString();
+            document.cookie = name + "=" + value + ";" + expires + ";path=/";
+        }
+
+        function getCookie(name) {
+            const cname = name + "=";
+            const decodedCookie = decodeURIComponent(document.cookie);
+            const ca = decodedCookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(cname) == 0) {
+                    return c.substring(cname.length, c.length);
                 }
             }
+            return "";
+        }
+
+        function applyDarkModePreference() {
+            const darkModePreference = getCookie("darkMode");
+            const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+            if (darkModePreference === "enabled" || (darkModePreference === "" && prefersDarkScheme)) {
+                document.body.classList.add('dark-mode');
+                document.getElementById('navbar').classList.add('dark-mode');
+                document.getElementById('topbar').classList.add('dark-mode');
+                document.getElementById('footer').classList.add('dark-mode');
+                document.getElementById('darkModeToggle').textContent = '☀️';
+            } else {
+                document.getElementById('darkModeToggle').textContent = '🌙';
+            }
+        }
+
+        applyDarkModePreference();
+
+        function toggleDarkMode() {
+            const isDarkMode = document.body.classList.toggle('dark-mode');
+            document.getElementById('navbar').classList.toggle('dark-mode');
+            document.getElementById('topbar').classList.toggle('dark-mode');
+            document.getElementById('footer').classList.toggle('dark-mode');
+            darkModeToggle.textContent = isDarkMode ? '☀️' : '🌙';
+            setCookie("darkMode", isDarkMode ? "enabled" : "disabled", 365);
+        }
+
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        darkModeToggle.addEventListener('click', toggleDarkMode);
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            let lastScrollTop = 0;
+            const topbar = document.getElementById('topbar');
+            const scrollSpeed = 0.5; // Adjust this value for smoother or faster animations
+
+            window.addEventListener('scroll', () => {
+                let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+                if (scrollTop > lastScrollTop) {
+                    // Scroll down
+                    topbar.style.transition = `top ${scrollSpeed}s`;
+                    topbar.style.top = `-${topbar.offsetHeight}px`;
+                } else {
+                    // Scroll up
+                    topbar.style.transition = `top ${scrollSpeed}s`;
+                    topbar.style.top = '0';
+                }
+                lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling 
+            });
         });
-    })
-    .catch(error => console.error('Error loading genre overview:', error));
-
-fetch('favorites.json')
-    .then(response => response.json())
-    .then(data => {
-        displayFavorites(data.anime.nodes, 'anime-favorites', 'title', 'coverImage', 'siteUrl');
-        displayFavorites(data.manga.nodes, 'manga-favorites', 'title', 'coverImage', 'siteUrl');
-        displayFavorites(data.characters.nodes, 'character-favorites', 'name', 'image', 'siteUrl');
-        displayFavorites(data.staff.nodes, 'staff-favorites', 'name', 'image', 'siteUrl');
-    })
-    .catch(error => console.error('Error loading favorites:', error));
-
-function displayFavorites(favorites, containerId, titleKey, imageKey, urlKey) {
-    const container = document.getElementById(containerId);
-    container.innerHTML = '';
-
-    favorites.forEach(favorite => {
-        const favoriteDiv = document.createElement('div');
-        favoriteDiv.className = 'favorite-item';
-        const title = favorite[titleKey].english || favorite[titleKey].romaji || favorite[titleKey].full;
-        const subtitle = favorite[titleKey].romaji || favorite[titleKey].native || '';
-        const cover = favorite[imageKey].large;
-        const url = favorite[urlKey];
-
-        favoriteDiv.innerHTML = `
-            <img src="${cover}" alt="${title}" onclick="window.open('${url}', '_blank')">
-            <div class="favorite-details">
-                <p class="favorite-title" onclick="window.open('${url}', '_blank')">${title}</p>
-                <p class="favorite-meta">${subtitle}</p>
-            </div>
-        `;
-        container.appendChild(favoriteDiv);
-    });
-}
-
-function setCookie(name, value, days) {
-    const d = new Date();
-    d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
-    const expires = "expires=" + d.toUTCString();
-    document.cookie = name + "=" + value + ";" + expires + ";path=/";
-}
-
-function getCookie(name) {
-    const cname = name + "=";
-    const decodedCookie = decodeURIComponent(document.cookie);
-    const ca = decodedCookie.split(';');
-    for (let i = 0; i < ca.length; i++) {
-        let c = ca[i];
-        while (c.charAt(0) == ' ') {
-            c = c.substring(1);
-        }
-        if (c.indexOf(cname) == 0) {
-            return c.substring(cname.length, c.length);
-        }
-    }
-    return "";
-}
-
-function applyDarkModePreference() {
-    const darkModePreference = getCookie("darkMode");
-    const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-    if (darkModePreference === "enabled" || (darkModePreference === "" && prefersDarkScheme)) {
-        document.body.classList.add('dark-mode');
-        document.getElementById('navbar').classList.add('dark-mode');
-        document.getElementById('topbar').classList.add('dark-mode');
-        document.getElementById('footer').classList.add('dark-mode');
-        document.getElementById('darkModeToggle').textContent = '☀️';
-    } else {
-        document.getElementById('darkModeToggle').textContent = '🌙';
-    }
-}
-
-applyDarkModePreference();
-
-function toggleDarkMode() {
-    const isDarkMode = document.body.classList.toggle('dark-mode');
-    document.getElementById('navbar').classList.toggle('dark-mode');
-    document.getElementById('topbar').classList.toggle('dark-mode');
-    document.getElementById('footer').classList.toggle('dark-mode');
-    darkModeToggle.textContent = isDarkMode ? '☀️' : '🌙';
-    setCookie("darkMode", isDarkMode ? "enabled" : "disabled", 365);
-}
-
-const darkModeToggle = document.getElementById('darkModeToggle');
-darkModeToggle.addEventListener('click', toggleDarkMode);
-
-document.addEventListener('DOMContentLoaded', (event) => {
-    let lastScrollTop = 0;
-    const topbar = document.getElementById('topbar');
-    const scrollSpeed = 0.5; // Adjust this value for smoother or faster animations
-
-    window.addEventListener('scroll', () => {
-        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-        if (scrollTop > lastScrollTop) {
-            // Scroll down
-            topbar.style.transition = `top ${scrollSpeed}s`;
-            topbar.style.top = `-${topbar.offsetHeight}px`;
-        } else {
-            // Scroll up
-            topbar.style.transition = `top ${scrollSpeed}s`;
-            topbar.style.top = '0';
-        }
-        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling 
-    });
-});
-</script>
+    </script>
 </body>
 </html>

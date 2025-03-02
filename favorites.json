@@ -1,0 +1,464 @@
+{
+  "anime": {
+    "nodes": [
+      {
+        "id": 16498,
+        "title": {
+          "romaji": "Shingeki no Kyojin",
+          "english": "Attack on Titan"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx16498-73IhOXpJZiMF.jpg"
+        }
+      },
+      {
+        "id": 103572,
+        "title": {
+          "romaji": "Go-toubun no Hanayome",
+          "english": "The Quintessential Quintuplets"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx103572-2MXV30htoCSh.png"
+        }
+      },
+      {
+        "id": 20954,
+        "title": {
+          "romaji": "Koe no Katachi",
+          "english": "A Silent Voice"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20954-UMb6Kl7ZL8Ke.jpg"
+        }
+      },
+      {
+        "id": 99750,
+        "title": {
+          "romaji": "Kimi no Suizou wo Tabetai",
+          "english": "I Want to Eat Your Pancreas"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99750-NHafozHS8zRp.jpg"
+        }
+      },
+      {
+        "id": 124080,
+        "title": {
+          "romaji": "Horimiya",
+          "english": "Horimiya"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx124080-h8EPH92nyRfS.jpg"
+        }
+      },
+      {
+        "id": 12189,
+        "title": {
+          "romaji": "Hyouka",
+          "english": "Hyouka"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx12189-eBb6fcM21Zh7.jpg"
+        }
+      },
+      {
+        "id": 6045,
+        "title": {
+          "romaji": "Kimi ni Todoke",
+          "english": "Kimi ni Todoke: From Me to You"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6045-txJOukR5Qve4.jpg"
+        }
+      },
+      {
+        "id": 9253,
+        "title": {
+          "romaji": "Steins;Gate",
+          "english": "Steins;Gate"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9253-7pdcVzQSkKxT.jpg"
+        }
+      },
+      {
+        "id": 140960,
+        "title": {
+          "romaji": "SPY×FAMILY",
+          "english": "SPY x FAMILY"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140960-vN39AmOWrVB5.jpg"
+        }
+      },
+      {
+        "id": 106286,
+        "title": {
+          "romaji": "Tenki no Ko",
+          "english": "Weathering With You"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx106286-5COcpd0J9VbL.png"
+        }
+      },
+      {
+        "id": 2167,
+        "title": {
+          "romaji": "CLANNAD",
+          "english": "Clannad"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2167-ubU2875AFRTH.jpg"
+        }
+      },
+      {
+        "id": 105334,
+        "title": {
+          "romaji": "Fruits Basket: 1st Season",
+          "english": "Fruits Basket (2019)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105334-dYqd4I5cTzRy.jpg"
+        }
+      },
+      {
+        "id": 21804,
+        "title": {
+          "romaji": "Saiki Kusuo no Ψ-nan",
+          "english": "The Disastrous Life of Saiki K."
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21804-AAjWfz9JY1EO.jpg"
+        }
+      }
+    ]
+  },
+  "manga": {
+    "nodes": [
+      {
+        "id": 56736,
+        "title": {
+          "romaji": "Taiyou no Ie",
+          "english": "House of the Sun"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx56736-qYpc12PAQMxi.jpg"
+        }
+      }
+    ]
+  },
+  "characters": {
+    "nodes": [
+      {
+        "id": 126373,
+        "name": {
+          "full": "Miku Nakano"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b126373-CWeyXb822uDN.png"
+        }
+      },
+      {
+        "id": 126371,
+        "name": {
+          "full": "Ichika Nakano"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b126371-0KQpl80s8kXQ.png"
+        }
+      },
+      {
+        "id": 126374,
+        "name": {
+          "full": "Yotsuba Nakano"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b126374-MiOaRIGQj4fg.png"
+        }
+      },
+      {
+        "id": 126372,
+        "name": {
+          "full": "Nino Nakano"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b126372-DtorHRgQaYUJ.png"
+        }
+      },
+      {
+        "id": 126375,
+        "name": {
+          "full": "Itsuki Nakano"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b126375-dEe9IyQ9By09.png"
+        }
+      },
+      {
+        "id": 80243,
+        "name": {
+          "full": "Shouko Nishimiya"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b80243-RzxE51iUU5eq.png"
+        }
+      },
+      {
+        "id": 80491,
+        "name": {
+          "full": "Shouya Ishida"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b80491-NK6pxb6oH61P.png"
+        }
+      },
+      {
+        "id": 6977,
+        "name": {
+          "full": "Sawako Kuronuma"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b6977-rCtlFRoYgE07.png"
+        }
+      },
+      {
+        "id": 13531,
+        "name": {
+          "full": "Shouta Kazehaya"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/n13531-z66ipM6nJioi.png"
+        }
+      },
+      {
+        "id": 138101,
+        "name": {
+          "full": "Loid Forger"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b138101-7NCB0Md8zA6G.png"
+        }
+      },
+      {
+        "id": 138102,
+        "name": {
+          "full": "Yor Forger"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b138102-ZOAu9jI2d5ke.png"
+        }
+      },
+      {
+        "id": 138100,
+        "name": {
+          "full": "Anya Forger"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b138100-cHmE7Xfn05Rs.png"
+        }
+      },
+      {
+        "id": 35252,
+        "name": {
+          "full": "Rintarou Okabe"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b35252-DY9TW6pusqeh.png"
+        }
+      },
+      {
+        "id": 34470,
+        "name": {
+          "full": "Kurisu Makise"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b34470-eFxpScPYCOUC.png"
+        }
+      },
+      {
+        "id": 90169,
+        "name": {
+          "full": "Violet Evergarden"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b90169-4wr1Zehnsac8.png"
+        }
+      },
+      {
+        "id": 124790,
+        "name": {
+          "full": "Gilbert Bougainvillea"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b124790-QR7zyemTK0zq.png"
+        }
+      },
+      {
+        "id": 40882,
+        "name": {
+          "full": "Eren Yeager"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b40882-dsj7IP943WFF.jpg"
+        }
+      },
+      {
+        "id": 40881,
+        "name": {
+          "full": "Mikasa Ackerman"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b40881-F3gr1PkreDvj.png"
+        }
+      },
+      {
+        "id": 46494,
+        "name": {
+          "full": "Armin Arlert"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b46494-g7xYYuBtYPnO.png"
+        }
+      },
+      {
+        "id": 45627,
+        "name": {
+          "full": "Levi"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b45627-CR68RyZmddGG.png"
+        }
+      },
+      {
+        "id": 45887,
+        "name": {
+          "full": "Sasha Blouse"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b45887-QPtJH0KwqthW.jpg"
+        }
+      },
+      {
+        "id": 88350,
+        "name": {
+          "full": "Roxy Migurdia"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b88350-msG5VZgxP5ux.png"
+        }
+      },
+      {
+        "id": 88346,
+        "name": {
+          "full": "Sylphiette"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b88346-h8kCL93AXj4n.png"
+        }
+      },
+      {
+        "id": 129928,
+        "name": {
+          "full": "Jin-U Seong"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b129928-BCEjVaP0AQSw.png"
+        }
+      },
+      {
+        "id": 173761,
+        "name": {
+          "full": "Shizuka Yoshimoto"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b173761-1FcQvX74KVW7.png"
+        }
+      }
+    ]
+  },
+  "staff": {
+    "nodes": [
+      {
+        "id": 106705,
+        "name": {
+          "full": "Hajime Isayama"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n106705-ttS2qZpF2FTZ.jpg"
+        }
+      },
+      {
+        "id": 96873,
+        "name": {
+          "full": "Natsuki Takaya"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/1873.jpg"
+        }
+      },
+      {
+        "id": 97885,
+        "name": {
+          "full": "Key"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/2885.jpg"
+        }
+      },
+      {
+        "id": 105951,
+        "name": {
+          "full": "Yoshitoki Ooima"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n105951-s6fagS5CkUWZ.png"
+        }
+      },
+      {
+        "id": 111703,
+        "name": {
+          "full": "HERO"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n111703-PSFw4W9kJoWP.png"
+        }
+      },
+      {
+        "id": 96117,
+        "name": {
+          "full": "Makoto Shinkai"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n96117-X0ivK1cAvdzA.png"
+        }
+      },
+      {
+        "id": 98543,
+        "name": {
+          "full": "Tatsuya Endou"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n98543-PbFshjbz7YpJ.png"
+        }
+      },
+      {
+        "id": 119140,
+        "name": {
+          "full": "Negi Haruba"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n119140-WP6VHXjFCxBA.jpg"
+        }
+      },
+      {
+        "id": 95118,
+        "name": {
+          "full": "Hiroshi Kamiya"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        }
+      }
+    ]
+  }
+}

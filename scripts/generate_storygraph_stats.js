@@ -1,7 +1,8 @@
 const fs = require('fs');
+const path = require('path');
 
-// Read the storygraph_list.json file
-fs.readFile('storygraph_list.json', 'utf8', (err, data) => {
+// Read the storygraph_list.json file from the root of the repository
+fs.readFile(path.join(__dirname, '../storygraph_list.json'), 'utf8', (err, data) => {
   if (err) {
     console.error('Error reading storygraph_list.json:', err);
     return;
@@ -43,8 +44,8 @@ fs.readFile('storygraph_list.json', 'utf8', (err, data) => {
     totalMinutesListened
   };
 
-  // Write the statistics to storygraph_stats.json
-  fs.writeFile('storygraph_stats.json', JSON.stringify(stats, null, 2), 'utf8', (err) => {
+  // Write the statistics to storygraph_stats.json in the root of the repository
+  fs.writeFile(path.join(__dirname, '../storygraph_stats.json'), JSON.stringify(stats, null, 2), 'utf8', (err) => {
     if (err) {
       console.error('Error writing storygraph_stats.json:', err);
       return;

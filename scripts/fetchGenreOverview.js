@@ -75,7 +75,7 @@ const fetchGenreOverview = async (userId) => {
 };
 
 const saveGenreOverviewToFile = (genreOverview) => {
-  const filePath = path.join(__dirname, 'genreOverview.json');
+  const filePath = path.join(__dirname, '..', 'genreOverview.json');
   fs.writeFileSync(filePath, JSON.stringify(genreOverview, null, 2));
   
   console.log(`Genre overview saved to ${filePath}`);

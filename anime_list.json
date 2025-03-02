@@ -4774,7 +4774,7 @@
         "id": 1689,
         "title": "5 Centimeters per Second",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1689-k9lxlCgPU4Zb.jpg",
-        "averageScore": 71,
+        "averageScore": 72,
         "episodes": 3,
         "status": "FINISHED",
         "genres": [
@@ -6674,6 +6674,29 @@
         }
       },
       {
+        "id": 114236,
+        "title": "Fire Force Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114236-wfQOWF0Ii3h2.png",
+        "averageScore": 78,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Sci-Fi",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 7,
+        "progress": 24,
+        "links": {
+          "anilist": "https://anilist.co/anime/114236/",
+          "mal": "https://myanimelist.net/anime/114236",
+          "kitsu": "https://kitsu.io/anime/114236"
+        }
+      },
+      {
         "id": 102882,
         "title": "Real Girl 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx102882-lKp3ExWNzoE6.jpg",
@@ -8544,7 +8567,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 8,
+        "progress": 9,
         "links": {
           "anilist": "https://anilist.co/anime/176496/",
           "mal": "https://myanimelist.net/anime/176496",
@@ -8566,7 +8589,7 @@
         "format": "ONA",
         "country": "JP",
         "personalScore": 8,
-        "progress": 21,
+        "progress": 22,
         "links": {
           "anilist": "https://anilist.co/anime/170942/",
           "mal": "https://myanimelist.net/anime/170942",
@@ -9005,7 +9028,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 41,
+        "progress": 53,
         "links": {
           "anilist": "https://anilist.co/anime/11061/",
           "mal": "https://myanimelist.net/anime/11061",
@@ -9036,29 +9059,6 @@
           "anilist": "https://anilist.co/anime/21355/",
           "mal": "https://myanimelist.net/anime/21355",
           "kitsu": "https://kitsu.io/anime/21355"
-        }
-      },
-      {
-        "id": 114236,
-        "title": "Fire Force Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114236-wfQOWF0Ii3h2.png",
-        "averageScore": 78,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Sci-Fi",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 23,
-        "links": {
-          "anilist": "https://anilist.co/anime/114236/",
-          "mal": "https://myanimelist.net/anime/114236",
-          "kitsu": "https://kitsu.io/anime/114236"
         }
       }
     ]
@@ -9310,7 +9310,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 8,
+        "progress": 9,
         "links": {
           "anilist": "https://anilist.co/anime/176496/",
           "mal": "https://myanimelist.net/anime/176496",
@@ -9332,7 +9332,7 @@
         "format": "ONA",
         "country": "JP",
         "personalScore": 8,
-        "progress": 21,
+        "progress": 22,
         "links": {
           "anilist": "https://anilist.co/anime/170942/",
           "mal": "https://myanimelist.net/anime/170942",

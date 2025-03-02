@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StoryGraph Profile</title>
     <link rel="icon" href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -373,6 +372,7 @@
     </div>
 
     <div class="navbar" id="navbar">
+        <a href="Overview">Overview</a>
         <a href="Anime">Anime</a>
         <a href="Manga">Manga</a>
         <a href="Books" class="active">Books</a>
@@ -454,6 +454,21 @@
                 </div>
             `).join('');
         }
+
+        window.addEventListener('scroll', () => {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > lastScrollTop) {
+            // Scroll down
+            topbar.style.transition = `top ${scrollSpeed}s`;
+            topbar.style.top = `-${topbar.offsetHeight}px`;
+        } else {
+            // Scroll up
+            topbar.style.transition = `top ${scrollSpeed}s`;
+            topbar.style.top = '0';
+        }
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling 
+    });
 
         // Load books on page load
         window.onload = loadBooks;

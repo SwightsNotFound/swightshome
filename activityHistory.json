@@ -16398,6 +16398,51 @@
         },
         "siteUrl": "https://anilist.co/anime/177709"
       }
+    },
+    {
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1740947071,
+      "media": {
+        "title": {
+          "english": "Medalist",
+          "romaji": "Medalist"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx165171-nTOHsbh3pThN.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/165171"
+      }
+    },
+    {
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1740948262,
+      "media": {
+        "title": {
+          "english": "ZENSHU",
+          "romaji": "Zenshuu."
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176273-whKlFCswinEm.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/176273"
+      }
+    },
+    {
+      "status": "watched episode",
+      "progress": "8",
+      "createdAt": 1740949641,
+      "media": {
+        "title": {
+          "english": "Toilet-bound Hanako-kun Season 2",
+          "romaji": "Jibaku Shounen Hanako-kun 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170892-VFCGRI41xFUF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/170892"
+      }
     }
   ]
 }

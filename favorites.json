@@ -9,7 +9,8 @@
         },
         "coverImage": {
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx16498-73IhOXpJZiMF.jpg"
-        }
+        },
+        "siteUrl": "https://anilist.co/anime/16498"
       },
       {
         "id": 103572,
@@ -19,7 +20,8 @@
         },
         "coverImage": {
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx103572-2MXV30htoCSh.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/anime/103572"
       },
       {
         "id": 20954,
@@ -29,7 +31,8 @@
         },
         "coverImage": {
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20954-UMb6Kl7ZL8Ke.jpg"
-        }
+        },
+        "siteUrl": "https://anilist.co/anime/20954"
       },
       {
         "id": 99750,
@@ -39,7 +42,8 @@
         },
         "coverImage": {
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99750-NHafozHS8zRp.jpg"
-        }
+        },
+        "siteUrl": "https://anilist.co/anime/99750"
       },
       {
         "id": 124080,
@@ -49,7 +53,8 @@
         },
         "coverImage": {
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx124080-h8EPH92nyRfS.jpg"
-        }
+        },
+        "siteUrl": "https://anilist.co/anime/124080"
       },
       {
         "id": 12189,
@@ -59,7 +64,8 @@
         },
         "coverImage": {
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx12189-eBb6fcM21Zh7.jpg"
-        }
+        },
+        "siteUrl": "https://anilist.co/anime/12189"
       },
       {
         "id": 6045,
@@ -69,7 +75,8 @@
         },
         "coverImage": {
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6045-txJOukR5Qve4.jpg"
-        }
+        },
+        "siteUrl": "https://anilist.co/anime/6045"
       },
       {
         "id": 9253,
@@ -79,7 +86,8 @@
         },
         "coverImage": {
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9253-7pdcVzQSkKxT.jpg"
-        }
+        },
+        "siteUrl": "https://anilist.co/anime/9253"
       },
       {
         "id": 140960,
@@ -89,7 +97,8 @@
         },
         "coverImage": {
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140960-vN39AmOWrVB5.jpg"
-        }
+        },
+        "siteUrl": "https://anilist.co/anime/140960"
       },
       {
         "id": 106286,
@@ -99,7 +108,8 @@
         },
         "coverImage": {
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx106286-5COcpd0J9VbL.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/anime/106286"
       },
       {
         "id": 2167,
@@ -109,7 +119,8 @@
         },
         "coverImage": {
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2167-ubU2875AFRTH.jpg"
-        }
+        },
+        "siteUrl": "https://anilist.co/anime/2167"
       },
       {
         "id": 105334,
@@ -119,7 +130,8 @@
         },
         "coverImage": {
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105334-dYqd4I5cTzRy.jpg"
-        }
+        },
+        "siteUrl": "https://anilist.co/anime/105334"
       },
       {
         "id": 21804,
@@ -129,7 +141,8 @@
         },
         "coverImage": {
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21804-AAjWfz9JY1EO.jpg"
-        }
+        },
+        "siteUrl": "https://anilist.co/anime/21804"
       }
     ]
   },
@@ -143,7 +156,8 @@
         },
         "coverImage": {
           "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx56736-qYpc12PAQMxi.jpg"
-        }
+        },
+        "siteUrl": "https://anilist.co/manga/56736"
       }
     ]
   },
@@ -152,227 +166,277 @@
       {
         "id": 126373,
         "name": {
-          "full": "Miku Nakano"
+          "full": "Miku Nakano",
+          "native": "中野三玖"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b126373-CWeyXb822uDN.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/126373"
       },
       {
         "id": 126371,
         "name": {
-          "full": "Ichika Nakano"
+          "full": "Ichika Nakano",
+          "native": "中野一花"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b126371-0KQpl80s8kXQ.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/126371"
       },
       {
         "id": 126374,
         "name": {
-          "full": "Yotsuba Nakano"
+          "full": "Yotsuba Nakano",
+          "native": "中野四葉"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b126374-MiOaRIGQj4fg.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/126374"
       },
       {
         "id": 126372,
         "name": {
-          "full": "Nino Nakano"
+          "full": "Nino Nakano",
+          "native": "中野二乃"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b126372-DtorHRgQaYUJ.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/126372"
       },
       {
         "id": 126375,
         "name": {
-          "full": "Itsuki Nakano"
+          "full": "Itsuki Nakano",
+          "native": "中野五月"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b126375-dEe9IyQ9By09.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/126375"
       },
       {
         "id": 80243,
         "name": {
-          "full": "Shouko Nishimiya"
+          "full": "Shouko Nishimiya",
+          "native": "西宮硝子"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b80243-RzxE51iUU5eq.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/80243"
       },
       {
         "id": 80491,
         "name": {
-          "full": "Shouya Ishida"
+          "full": "Shouya Ishida",
+          "native": "石田将也"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b80491-NK6pxb6oH61P.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/80491"
       },
       {
         "id": 6977,
         "name": {
-          "full": "Sawako Kuronuma"
+          "full": "Sawako Kuronuma",
+          "native": "黒沼爽子"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b6977-rCtlFRoYgE07.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/6977"
       },
       {
         "id": 13531,
         "name": {
-          "full": "Shouta Kazehaya"
+          "full": "Shouta Kazehaya",
+          "native": "風早翔太"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/n13531-z66ipM6nJioi.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/13531"
       },
       {
         "id": 138101,
         "name": {
-          "full": "Loid Forger"
+          "full": "Loid Forger",
+          "native": "ロイド・フォージャー"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b138101-7NCB0Md8zA6G.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/138101"
       },
       {
         "id": 138102,
         "name": {
-          "full": "Yor Forger"
+          "full": "Yor Forger",
+          "native": "ヨル・フォージャー"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b138102-ZOAu9jI2d5ke.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/138102"
       },
       {
         "id": 138100,
         "name": {
-          "full": "Anya Forger"
+          "full": "Anya Forger",
+          "native": "アーニャ・フォージャー"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b138100-cHmE7Xfn05Rs.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/138100"
       },
       {
         "id": 35252,
         "name": {
-          "full": "Rintarou Okabe"
+          "full": "Rintarou Okabe",
+          "native": "岡部倫太郎"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b35252-DY9TW6pusqeh.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/35252"
       },
       {
         "id": 34470,
         "name": {
-          "full": "Kurisu Makise"
+          "full": "Kurisu Makise",
+          "native": "牧瀬紅莉栖"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b34470-eFxpScPYCOUC.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/34470"
       },
       {
         "id": 90169,
         "name": {
-          "full": "Violet Evergarden"
+          "full": "Violet Evergarden",
+          "native": "ヴァイオレット・エヴァーガーデン"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b90169-4wr1Zehnsac8.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/90169"
       },
       {
         "id": 124790,
         "name": {
-          "full": "Gilbert Bougainvillea"
+          "full": "Gilbert Bougainvillea",
+          "native": "ギルベルト・ブーゲンビリア"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b124790-QR7zyemTK0zq.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/124790"
       },
       {
         "id": 40882,
         "name": {
-          "full": "Eren Yeager"
+          "full": "Eren Yeager",
+          "native": "エレン・イェーガー"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b40882-dsj7IP943WFF.jpg"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/40882"
       },
       {
         "id": 40881,
         "name": {
-          "full": "Mikasa Ackerman"
+          "full": "Mikasa Ackerman",
+          "native": "ミカサ・アッカーマン"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b40881-F3gr1PkreDvj.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/40881"
       },
       {
         "id": 46494,
         "name": {
-          "full": "Armin Arlert"
+          "full": "Armin Arlert",
+          "native": "アルミン・アルレルト"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b46494-g7xYYuBtYPnO.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/46494"
       },
       {
         "id": 45627,
         "name": {
-          "full": "Levi"
+          "full": "Levi",
+          "native": "リヴァイ"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b45627-CR68RyZmddGG.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/45627"
       },
       {
         "id": 45887,
         "name": {
-          "full": "Sasha Blouse"
+          "full": "Sasha Blouse",
+          "native": "サシャ・ブラウス"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b45887-QPtJH0KwqthW.jpg"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/45887"
       },
       {
         "id": 88350,
         "name": {
-          "full": "Roxy Migurdia"
+          "full": "Roxy Migurdia",
+          "native": "ロキシー・ミグルディア"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b88350-msG5VZgxP5ux.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/88350"
       },
       {
         "id": 88346,
         "name": {
-          "full": "Sylphiette"
+          "full": "Sylphiette",
+          "native": "シルフィエット"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b88346-h8kCL93AXj4n.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/88346"
       },
       {
         "id": 129928,
         "name": {
-          "full": "Jin-U Seong"
+          "full": "Jin-U Seong",
+          "native": "성진우"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b129928-BCEjVaP0AQSw.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/129928"
       },
       {
         "id": 173761,
         "name": {
-          "full": "Shizuka Yoshimoto"
+          "full": "Shizuka Yoshimoto",
+          "native": "好本静"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/character/large/b173761-1FcQvX74KVW7.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/character/173761"
       }
     ]
   },
@@ -381,83 +445,101 @@
       {
         "id": 106705,
         "name": {
-          "full": "Hajime Isayama"
+          "full": "Hajime Isayama",
+          "native": "諫山創"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n106705-ttS2qZpF2FTZ.jpg"
-        }
+        },
+        "siteUrl": "https://anilist.co/staff/106705"
       },
       {
         "id": 96873,
         "name": {
-          "full": "Natsuki Takaya"
+          "full": "Natsuki Takaya",
+          "native": "高屋奈月"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/staff/large/1873.jpg"
-        }
+        },
+        "siteUrl": "https://anilist.co/staff/96873"
       },
       {
         "id": 97885,
         "name": {
-          "full": "Key"
+          "full": "Key",
+          "native": "Key"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/staff/large/2885.jpg"
-        }
+        },
+        "siteUrl": "https://anilist.co/staff/97885"
       },
       {
         "id": 105951,
         "name": {
-          "full": "Yoshitoki Ooima"
+          "full": "Yoshitoki Ooima",
+          "native": "大今良時"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n105951-s6fagS5CkUWZ.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/staff/105951"
       },
       {
         "id": 111703,
         "name": {
-          "full": "HERO"
+          "full": "HERO",
+          "native": null
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n111703-PSFw4W9kJoWP.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/staff/111703"
       },
       {
         "id": 96117,
         "name": {
-          "full": "Makoto Shinkai"
+          "full": "Makoto Shinkai",
+          "native": "新海誠"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n96117-X0ivK1cAvdzA.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/staff/96117"
       },
       {
         "id": 98543,
         "name": {
-          "full": "Tatsuya Endou"
+          "full": "Tatsuya Endou",
+          "native": "遠藤達哉"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n98543-PbFshjbz7YpJ.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/staff/98543"
       },
       {
         "id": 119140,
         "name": {
-          "full": "Negi Haruba"
+          "full": "Negi Haruba",
+          "native": "春場ねぎ"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n119140-WP6VHXjFCxBA.jpg"
-        }
+        },
+        "siteUrl": "https://anilist.co/staff/119140"
       },
       {
         "id": 95118,
         "name": {
-          "full": "Hiroshi Kamiya"
+          "full": "Hiroshi Kamiya",
+          "native": "神谷浩史"
         },
         "image": {
           "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
-        }
+        },
+        "siteUrl": "https://anilist.co/staff/95118"
       }
     ]
   }

@@ -29,11 +29,15 @@
             padding: 20px;
         }
 
-        .favorites-section, .stats-section {
+        .stats-section {
             width: 300px;
         }
 
         .activity-section {
+            width: 600px;
+        }
+
+        .favorites-section {
             width: 600px;
         }
 
@@ -181,13 +185,13 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 120px;
+            width: 140px;
             text-align: center;
         }
 
         .favorite-item img {
-            width: 100px;
-            height: 140px;
+            width: 120px;
+            height: 160px;
             border-radius: 4px;
             cursor: pointer;
         }
@@ -209,37 +213,40 @@
 </head>
 <body>
     <div class="container">
-        <div>
-            <div class="stats-section" id="anime-stats">
-                <h2>Anime Stats</h2>
-                <div class="stat-item"><span>Count:</span><span id="anime-count"></span></div>
-                <div class="stat-item"><span>Mean Score:</span><span id="anime-meanScore"></span></div>
-                <div class="stat-item"><span>Days Watched:</span><span id="anime-daysWatched"></span></div>
-                <div class="stat-item"><span>Episodes Watched:</span><span id="anime-episodesWatched"></span></div>
-            </div>
+        <div class="stats-section">
+            <h2>Anime Stats</h2>
+            <div class="stat-item"><span>Count:</span><span id="anime-count"></span></div>
+            <div class="stat-item"><span>Mean Score:</span><span id="anime-meanScore"></span></div>
+            <div class="stat-item"><span>Days Watched:</span><span id="anime-daysWatched"></span></div>
+            <div class="stat-item"><span>Episodes Watched:</span><span id="anime-episodesWatched"></span></div>
+        </div>
 
-            <div class="stats-section" id="manga-stats">
-                <h2>Manga Stats</h2>
-                <div class="stat-item"><span>Count:</span><span id="manga-count"></span></div>
-                <div class="stat-item"><span>Mean Score:</span><span id="manga-meanScore"></span></div>
-                <div class="stat-item"><span>Chapters Read:</span><span id="manga-chaptersRead"></span></div>
-                <div class="stat-item"><span>Volumes Read:</span><span id="manga-volumesRead"></span></div>
-            </div>
+        <div class="stats-section">
+            <h2>Manga Stats</h2>
+            <div class="stat-item"><span>Count:</span><span id="manga-count"></span></div>
+            <div class="stat-item"><span>Mean Score:</span><span id="manga-meanScore"></span></div>
+            <div class="stat-item"><span>Chapters Read:</span><span id="manga-chaptersRead"></span></div>
+            <div class="stat-item"><span>Volumes Read:</span><span id="manga-volumesRead"></span></div>
+        </div>
 
-            <div class="stats-section">
-                <h2>Activity History</h2>
-                <div class="heatmap" id="heatmap"></div>
-            </div>
+        <div class="stats-section">
+            <h2>Activity History</h2>
+            <div class="heatmap" id="heatmap"></div>
+        </div>
 
-            <div class="bar-chart-container">
-                <h3>Top 5 Genres</h3>
-                <div id="top-genres"></div>
-                <canvas id="genreChart"></canvas>
-            </div>
+        <div class="bar-chart-container">
+            <h3>Top 5 Genres</h3>
+            <div id="top-genres"></div>
+            <canvas id="genreChart"></canvas>
         </div>
         
+        <div class="activity-section">
+            <h2>Recent Activities</h2>
+            <div class="activity-list" id="activityList"></div>
+            <button id="loadMoreBtn">Load More</button>
+        </div>
+
         <div class="favorites-section">
-            <h2>Favorites</h2>
             <h2>Favorite Anime</h2>
             <div id="anime-favorites" class="favorites-list"></div>
 
@@ -251,12 +258,6 @@
 
             <h2>Favorite Staff</h2>
             <div id="staff-favorites" class="favorites-list"></div>
-        </div>
-
-        <div class="activity-section">
-            <h2>Recent Activities</h2>
-            <div class="activity-list" id="activityList"></div>
-            <button id="loadMoreBtn">Load More</button>
         </div>
     </div>
 

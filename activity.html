@@ -151,7 +151,23 @@
         #loadMoreBtn:hover {
             background-color: #1c5980;
         }
+
+        .bar-chart-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .bar-chart-container h3 {
+            font-size: 1.2em;
+            color: #34495e;
+            margin-bottom: 10px;
+        }
+
+        .bar-chart-container canvas {
+            max-width: 100%;
+        }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <div class="container">
@@ -175,6 +191,12 @@
             <div class="stats-section">
                 <h2>Activity History</h2>
                 <div class="heatmap" id="heatmap"></div>
+            </div>
+
+            <div class="bar-chart-container">
+                <h3>Top 5 Genres</h3>
+                <div id="top-genres"></div>
+                <canvas id="genreChart"></canvas>
             </div>
         </div>
         
@@ -309,6 +331,46 @@
                 console.error('Error fetching stats:', error);
                 document.getElementById('error-message').textContent = `Error: ${error.message}`;
             });
+
+        fetch('genreOverview.json')
+            .then(response => response.json())
+            .then(data => {
+                const genres = data.anime.genres;
+                const topGenres = genres.sort((a, b) => b.count - a.count).slice(0, 5);
+
+                const topGenresContainer = document.getElementById('top-genres');
+                topGenres.forEach(genre => {
+                    const genreDiv = document.createElement('div');
+                    genreDiv.textContent = `${genre.genre}: ${genre.count}`;
+                    topGenresContainer.appendChild(genreDiv);
+                });
+
+                const ctx = document.getElementById('genreChart').getContext('2d');
+                const chartData = {
+                    labels: genres.map(genre => genre.genre),
+                    datasets: [{
+                        label: 'Percentage of Anime Watched',
+                        data: genres.map(genre => genre.count),
+                        backgroundColor: genres.map(() => `#${Math.floor(Math.random()*16777215).toString(16)}`)
+                    }]
+                };
+
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: chartData,
+                    options: {
+                        scales: {
+                            x: {
+                                beginAtZero: true
+                            },
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            })
+            .catch(error => console.error('Error loading genre overview:', error));
     </script>
 </body>
 </html>

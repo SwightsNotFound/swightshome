@@ -1,0 +1,148 @@
+{
+  "anime": {
+    "genres": [
+      {
+        "genre": "Drama",
+        "count": 159,
+        "meanScore": 75.5,
+        "minutesWatched": 87159
+      },
+      {
+        "genre": "Comedy",
+        "count": 141,
+        "meanScore": 72,
+        "minutesWatched": 70627
+      },
+      {
+        "genre": "Romance",
+        "count": 176,
+        "meanScore": 70.51,
+        "minutesWatched": 57396
+      },
+      {
+        "genre": "Action",
+        "count": 91,
+        "meanScore": 75.51,
+        "minutesWatched": 64433
+      },
+      {
+        "genre": "Slice of Life",
+        "count": 119,
+        "meanScore": 73.16,
+        "minutesWatched": 43426
+      },
+      {
+        "genre": "Fantasy",
+        "count": 80,
+        "meanScore": 73.53,
+        "minutesWatched": 54034
+      },
+      {
+        "genre": "Supernatural",
+        "count": 67,
+        "meanScore": 76.67,
+        "minutesWatched": 49260
+      },
+      {
+        "genre": "Adventure",
+        "count": 68,
+        "meanScore": 72.73,
+        "minutesWatched": 45327
+      },
+      {
+        "genre": "Mystery",
+        "count": 26,
+        "meanScore": 80.48,
+        "minutesWatched": 17341
+      },
+      {
+        "genre": "Psychological",
+        "count": 31,
+        "meanScore": 79.15,
+        "minutesWatched": 13775
+      },
+      {
+        "genre": "Sci-Fi",
+        "count": 22,
+        "meanScore": 79.44,
+        "minutesWatched": 7104
+      },
+      {
+        "genre": "Thriller",
+        "count": 6,
+        "meanScore": 77.5,
+        "minutesWatched": 4547
+      },
+      {
+        "genre": "Ecchi",
+        "count": 16,
+        "meanScore": 65.38,
+        "minutesWatched": 5300
+      },
+      {
+        "genre": "Horror",
+        "count": 8,
+        "meanScore": 68.57,
+        "minutesWatched": 2053
+      },
+      {
+        "genre": "Music",
+        "count": 5,
+        "meanScore": 73.33,
+        "minutesWatched": 1186
+      },
+      {
+        "genre": "Sports",
+        "count": 4,
+        "meanScore": 70,
+        "minutesWatched": 2016
+      },
+      {
+        "genre": "Mahou Shoujo",
+        "count": 1,
+        "meanScore": 50,
+        "minutesWatched": 26
+      }
+    ]
+  },
+  "manga": {
+    "genres": [
+      {
+        "genre": "Romance",
+        "count": 12,
+        "meanScore": 0,
+        "chaptersRead": 452
+      },
+      {
+        "genre": "Slice of Life",
+        "count": 9,
+        "meanScore": 0,
+        "chaptersRead": 322
+      },
+      {
+        "genre": "Drama",
+        "count": 8,
+        "meanScore": 0,
+        "chaptersRead": 298
+      },
+      {
+        "genre": "Comedy",
+        "count": 6,
+        "meanScore": 0,
+        "chaptersRead": 216
+      },
+      {
+        "genre": "Fantasy",
+        "count": 1,
+        "meanScore": 0,
+        "chaptersRead": 16
+      },
+      {
+        "genre": "Sports",
+        "count": 1,
+        "meanScore": 0,
+        "chaptersRead": 1
+      }
+    ]
+  }
+}

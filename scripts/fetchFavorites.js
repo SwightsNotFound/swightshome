@@ -111,7 +111,7 @@ const fetchFavorites = async (userId) => {
 };
 
 const saveFavoritesToFile = (favorites) => {
-  const filePath = path.join(__dirname, 'favorites.json');
+  const filePath = path.join(__dirname, '..', 'favorites.json');
   fs.writeFileSync(filePath, JSON.stringify(favorites, null, 2));
   
   console.log(`Favorites saved to ${filePath}`);

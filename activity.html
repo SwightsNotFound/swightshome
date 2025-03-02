@@ -17,11 +17,6 @@
             padding: 20px;
         }
 
-        .container {
-            display: flex;
-            gap: 20px;
-        }
-
         .stats-section, .activity-section, .favorites-section {
             background-color: #fff;
             border-radius: 8px;
@@ -343,15 +338,18 @@
 }
 
 .container {
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    max-width: 800px;
-    width: 100%;
-    transition: background-color 0.3s;
-    flex-grow: 1;
-}
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            max-width: 800px;
+            width: 100%;
+            transition: background-color 0.3s;
+            flex-grow: 1;
+            display: flex;
+            gap: 20px;
+        }
+
 
 body.dark-mode .container {
     background-color: #444;

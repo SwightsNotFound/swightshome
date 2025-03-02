@@ -143,6 +143,39 @@
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21804-AAjWfz9JY1EO.jpg"
         },
         "siteUrl": "https://anilist.co/anime/21804"
+      },
+      {
+        "id": 113596,
+        "title": {
+          "romaji": "Josee to Tora to Sakanatachi",
+          "english": "Josee, the Tiger and the Fish"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113596-LKA0bYJGjLnB.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113596"
+      },
+      {
+        "id": 101348,
+        "title": {
+          "romaji": "VINLAND SAGA",
+          "english": "Vinland Saga"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101348-msJS8z91mG0P.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101348"
+      },
+      {
+        "id": 101347,
+        "title": {
+          "romaji": "Dororo",
+          "english": "Dororo"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx101347-2J2p8qJpxpfZ.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101347"
       }
     ]
   },
@@ -158,6 +191,17 @@
           "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx56736-qYpc12PAQMxi.jpg"
         },
         "siteUrl": "https://anilist.co/manga/56736"
+      },
+      {
+        "id": 44236,
+        "title": {
+          "romaji": "LOVE SO LIFE",
+          "english": null
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx44236-MaTi4D6Pc6kh.jpg"
+        },
+        "siteUrl": "https://anilist.co/manga/44236"
       }
     ]
   },

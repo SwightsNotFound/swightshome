@@ -129,6 +129,7 @@
             font-size: 1em;
             color: #34495e;
             margin: 0;
+            cursor: pointer;
         }
 
         .activity-meta {
@@ -315,11 +316,12 @@
                 const cover = activity.media.coverImage.large;
                 const progress = activity.progress ? `Episode ${activity.progress}` : '';
                 const time = new Date(activity.createdAt * 1000).toLocaleString('en-US', { timeZone: 'America/Chicago' });
+                const siteUrl = activity.media.siteUrl;
 
                 activityDiv.innerHTML = `
-                    <img src="${cover}" alt="${title}" onclick="window.open('${activity.media.siteUrl}', '_blank')">
+                    <img src="${cover}" alt="${title}" onclick="window.open('${siteUrl}', '_blank')">
                     <div class="activity-details">
-                        <p class="activity-title" onclick="window.open('${activity.media.siteUrl}', '_blank')">${title}</p>
+                        <p class="activity-title" onclick="window.open('${siteUrl}', '_blank')">${title}</p>
                         <p class="activity-meta">${progress}</p>
                         <p class="activity-time">${time}</p>
                     </div>

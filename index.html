@@ -245,11 +245,14 @@
     <div class="notification-bar" id="notification-bar">
         This site is still being devoloped, things like the dark mode is in beta, expect many pages to not look right if its on.
     </div>
+    <div class="notification-bar" id="notification-bar">
+        This site does not really support mobile, especially smaller screens, expect things to be broken if you use a phone.
+    </div>
 
     <!-- Main content -->
     <div class="content" id="content">
         <div class="image-container">
-            <img src="https://picsum.photos/1600/900" alt="picsum">
+            <img id="random-image" src="images/walls/image_0.jpg" alt="Random Image">
             <div class="centered-text">
                 <p><span id="typing-text-1"></span></p>
                 <p class="small-text"><span id="typing-text-2"></span></p>
@@ -314,6 +317,10 @@
             typeText("Welcome to Swightshome!", "typing-text-1", 60, () => {
                 typeText("A website for things I host.", "typing-text-2", 70);
             });
+            
+            // Set random image
+            const randomIndex = Math.floor(Math.random() * 100);
+            document.getElementById('random-image').src = `images/walls/image_${randomIndex}.jpg`;
         };
     </script>
 </body>

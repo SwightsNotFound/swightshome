@@ -16564,5 +16564,37 @@
         "siteUrl": "https://anilist.co/anime/177506"
       }
     }
+  ],
+  "2025-03-03": [
+    {
+      "status": "watched episode",
+      "progress": "8",
+      "createdAt": 1741024164,
+      "media": {
+        "title": {
+          "english": "Possibly the Greatest Alchemist of All Time",
+          "romaji": "Izure Saikyou no Renkinjutsushi?"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177506-in4J0GNzjOZL.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177506"
+      }
+    },
+    {
+      "status": "watched episode",
+      "progress": "66",
+      "createdAt": 1741028690,
+      "media": {
+        "title": {
+          "english": "Hunter x Hunter (2011)",
+          "romaji": "HUNTER×HUNTER (2011)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11061-NpIIobuQNbJW.png"
+        },
+        "siteUrl": "https://anilist.co/anime/11061"
+      }
+    }
   ]
 }

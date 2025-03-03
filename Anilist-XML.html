@@ -65,6 +65,23 @@
             border-radius: 5px;
             white-space: pre-wrap;
             word-wrap: break-word;
+            max-height: 200px;
+            overflow: hidden;
+        }
+        #xml-output.collapsed {
+            max-height: 200px;
+            overflow: hidden;
+        }
+        #xml-output.expanded {
+            max-height: none;
+            overflow: visible;
+        }
+        .info-area {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #e9ecef;
         }
     </style>
 </head>
@@ -83,7 +100,12 @@
         </form>
         <div id="output">
             <p id="status-message"></p>
-            <pre id="xml-output"></pre>
+            <pre id="xml-output" class="collapsed"></pre>
+            <button id="toggle-button" style="display: none;">Show XML</button>
+            <a id="download-button" style="display: none;" href="#" download="anilist.xml">Download XML</a>
+        </div>
+        <div class="info-area" id="info-area">
+            <!-- Add your information here -->
         </div>
     </div>
     <script>
@@ -92,6 +114,8 @@
             const cancelButton = document.getElementById('cancel-button');
             const statusMessage = document.getElementById('status-message');
             const xmlOutput = document.getElementById('xml-output');
+            const toggleButton = document.getElementById('toggle-button');
+            const downloadButton = document.getElementById('download-button');
             let isConverting = false;
 
             form.addEventListener('submit', async (event) => {
@@ -99,8 +123,11 @@
                 if (isConverting) return;
 
                 isConverting = true;
-                statusMessage.textContent = "This will take a few minutes if you have a long list due to Jikan API rate limiting. Please wait...";
+                statusMessage.textContent = "Please wait...";
                 xmlOutput.textContent = "";
+                xmlOutput.classList.add('collapsed');
+                toggleButton.style.display = 'none';
+                downloadButton.style.display = 'none';
 
                 const formData = new FormData(form);
                 const anilistUsername = formData.get('anilist_username');
@@ -119,6 +146,11 @@
                     if (response.ok) {
                         xmlOutput.textContent = data.xml_content;
                         statusMessage.textContent = "MAL XML file created successfully.";
+                        toggleButton.style.display = 'inline-block';
+                        downloadButton.style.display = 'inline-block';
+                        const blob = new Blob([data.xml_content], { type: 'application/xml' });
+                        const url = URL.createObjectURL(blob);
+                        downloadButton.href = url;
                     } else {
                         statusMessage.textContent = `Error: ${data.error}`;
                     }
@@ -141,6 +173,18 @@
                     statusMessage.textContent = `Error: ${error.message}`;
                 } finally {
                     isConverting = false;
+                }
+            });
+
+            toggleButton.addEventListener('click', () => {
+                if (xmlOutput.classList.contains('collapsed')) {
+                    xmlOutput.classList.remove('collapsed');
+                    xmlOutput.classList.add('expanded');
+                    toggleButton.textContent = "Hide XML";
+                } else {
+                    xmlOutput.classList.remove('expanded');
+                    xmlOutput.classList.add('collapsed');
+                    toggleButton.textContent = "Show XML";
                 }
             });
         });

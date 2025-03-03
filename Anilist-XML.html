@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniList to XML Converter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 5px;
+            color: #555;
+        }
+        input {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        button#cancel-button {
+            background-color: #dc3545;
+        }
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        #output {
+            margin-top: 20px;
+        }
+        #status-message {
+            color: #333;
+        }
+        #xml-output {
+            background-color: #f8f8f8;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AniList to XML Converter</h1>
+        <form id="converter-form">
+            <label for="anilist-username">AniList Username:</label>
+            <input type="text" id="anilist-username" name="anilist_username" required>
+
+            <label for="xml-username">XML Username (This can be anything):</label>
+            <input type="text" id="xml-username" name="xml_username" required>
+
+            <button type="submit">Convert</button>
+            <button type="button" id="cancel-button">Cancel</button>
+        </form>
+        <div id="output">
+            <p id="status-message"></p>
+            <pre id="xml-output"></pre>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('converter-form');
+            const cancelButton = document.getElementById('cancel-button');
+            const statusMessage = document.getElementById('status-message');
+            const xmlOutput = document.getElementById('xml-output');
+            let isConverting = false;
+
+            form.addEventListener('submit', async (event) => {
+                event.preventDefault();
+                if (isConverting) return;
+
+                isConverting = true;
+                statusMessage.textContent = "This will take a few minutes if you have a long list due to Jikan API rate limiting. Please wait...";
+                xmlOutput.textContent = "";
+
+                const formData = new FormData(form);
+                const anilistUsername = formData.get('anilist_username');
+                const xmlUsername = formData.get('xml_username');
+
+                try {
+                    const response = await fetch('https://<your-backend-url>/convert', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ anilist_username: anilistUsername, xml_username: xmlUsername })
+                    });
+
+                    const data = await response.json();
+                    if (response.ok) {
+                        xmlOutput.textContent = data.xml_content;
+                        statusMessage.textContent = "MAL XML file created successfully.";
+                    } else {
+                        statusMessage.textContent = `Error: ${data.error}`;
+                    }
+                } catch (error) {
+                    statusMessage.textContent = `Error: ${error.message}`;
+                } finally {
+                    isConverting = false;
+                }
+            });
+
+            cancelButton.addEventListener('click', async () => {
+                if (!isConverting) return;
+
+                try {
+                    await fetch('https://<your-backend-url>/cancel', {
+                        method: 'POST'
+                    });
+                    statusMessage.textContent = "Process cancelled.";
+                } catch (error) {
+                    statusMessage.textContent = `Error: ${error.message}`;
+                } finally {
+                    isConverting = false;
+                }
+            });
+        });
+    </script>
+</body>
+</html>

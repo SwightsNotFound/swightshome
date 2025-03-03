@@ -16518,6 +16518,36 @@
         },
         "siteUrl": "https://anilist.co/anime/177506"
       }
+    },
+    {
+      "status": "watched episode",
+      "progress": "5",
+      "createdAt": 1740974005,
+      "media": {
+        "title": {
+          "english": "Possibly the Greatest Alchemist of All Time",
+          "romaji": "Izure Saikyou no Renkinjutsushi?"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177506-in4J0GNzjOZL.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177506"
+      }
+    },
+    {
+      "status": "watched episode",
+      "progress": "6",
+      "createdAt": 1740975447,
+      "media": {
+        "title": {
+          "english": "Possibly the Greatest Alchemist of All Time",
+          "romaji": "Izure Saikyou no Renkinjutsushi?"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177506-in4J0GNzjOZL.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177506"
+      }
     }
   ]
 }

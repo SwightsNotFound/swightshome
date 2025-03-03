@@ -107,7 +107,7 @@
                 const xmlUsername = formData.get('xml_username');
 
                 try {
-                    const response = await fetch('https://anilist-to-xml.vercel.app/convert', {
+                    const response = await fetch('https://anilistxml.swightshome.xyz//convert', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
@@ -133,7 +133,7 @@
                 if (!isConverting) return;
 
                 try {
-                    await fetch('https://anilist-to-xml.vercel.app/cancel', {
+                    await fetch('https://anilistxml.swightshome.xyz//cancel', {
                         method: 'POST'
                     });
                     statusMessage.textContent = "Process cancelled.";

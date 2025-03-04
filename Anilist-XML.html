@@ -16,13 +16,6 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-            transition: background-color 0.3s, color 0.3s; /* Smooth transition */
-        }
-
-        /* Dark mode body styling */
-        body.dark-mode {
-            background-color: #333;
-            color: #f4f4f9;
         }
 
         /* Topbar styling */
@@ -34,12 +27,6 @@
             padding: 15px 0;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             position: relative;
-            transition: background-color 0.3s; /* Smooth transition */
-        }
-
-        /* Dark mode topbar styling */
-        .topbar.dark-mode {
-            background-color: #1a252f;
         }
 
         /* Styling for the links in the topbar */
@@ -61,18 +48,6 @@
             border-radius: 5px;
         }
 
-        /* Dark mode toggle button styling */
-        .dark-mode-toggle {
-            background: none;
-            border: none;
-            color: white;
-            font-size: 20px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            position: absolute;
-            left: 20px;
-        }
-
         /* Notification bar styling */
         .notification-bar {
             width: 80%; /* Smaller width */
@@ -83,7 +58,6 @@
             padding: 10px 0;
             font-size: 1rem;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.3s, color 0.3s;
             border-radius: 10px; /* Rounded corners */
             margin: 20px auto 10px auto; /* Add spacing between notification bars and move down from topbar */
             display: flex;
@@ -99,11 +73,6 @@
             font-size: 1.2rem;
         }
 
-        /* Dark mode notification bar styling */
-        .notification-bar.dark-mode {
-            background-color: rgba(41, 128, 185, 0.7); /* Semi-transparent dark blue */
-        }
-
         /* Main content area */
         .container {
             max-width: 600px;
@@ -113,13 +82,6 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             flex-grow: 1;
             position: relative;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        /* Dark mode container styling */
-        .container.dark-mode {
-            background-color: #444;
-            color: #f4f4f9;
         }
 
         /* Image container styling */
@@ -175,11 +137,6 @@
             color: #333;
         }
 
-        /* Dark mode heading styling */
-        h1.dark-mode {
-            color: #f4f4f9;
-        }
-
         form {
             display: flex;
             flex-direction: column;
@@ -190,23 +147,13 @@
             color: #555;
         }
 
-        /* Dark mode label styling */
-        label.dark-mode {
-            color: #ddd;
-        }
-
         input {
             margin-bottom: 15px;
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
-        }
-
-        /* Dark mode input styling */
-        input.dark-mode {
-            background-color: #555;
-            color: #fff;
-            border: 1px solid #777;
+            background-color: #fff;
+            color: #333;
         }
 
         button {
@@ -236,11 +183,6 @@
             color: #333;
         }
 
-        /* Dark mode status message styling */
-        #status-message.dark-mode {
-            color: #f4f4f9;
-        }
-
         #xml-output {
             background-color: #f8f8f8;
             padding: 10px;
@@ -250,13 +192,7 @@
             word-wrap: break-word;
             max-height: 200px;
             overflow: hidden;
-        }
-
-        /* Dark mode XML output styling */
-        #xml-output.dark-mode {
-            background-color: #555;
-            color: #f4f4f9;
-            border: 1px solid #777;
+            color: #333;
         }
 
         #xml-output.collapsed {
@@ -275,13 +211,7 @@
             border: 1px solid #ccc;
             border-radius: 5px;
             background-color: #e9ecef;
-        }
-
-        /* Dark mode info area styling */
-        .info-area.dark-mode {
-            background-color: #555;
-            color: #f4f4f9;
-            border: 1px solid #777;
+            color: #333;
         }
 
         /* Footer Styling */
@@ -291,12 +221,6 @@
             padding: 20px 0;
             text-align: center;
             margin-top: auto;
-            transition: background-color 0.3s; /* Smooth transition */
-        }
-
-        /* Dark mode footer styling */
-        footer.dark-mode {
-            background-color: #1a252f;
         }
 
         footer a {
@@ -322,7 +246,6 @@
             align-items: center;
             justify-content: center;
             padding: 0 20px;
-            transition: all 0.3s ease;
             position: absolute;
             left: 60px; /* Adjusted position to be next to dark mode toggle */
         }
@@ -347,7 +270,6 @@
             align-items: center;
             justify-content: center;
             padding: 0 20px;
-            transition: all 0.3s ease;
             position: absolute;
             left: 120px; /* Positioned next to home button */
         }
@@ -368,59 +290,8 @@
     </style>
 </head>
 <body>
-    <!-- Apply dark mode preference immediately -->
-    <script>
-        // Utility functions for handling cookies
-        function setCookie(name, value, days) {
-            const d = new Date();
-            d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
-            const expires = "expires=" + d.toUTCString();
-            document.cookie = name + "=" + value + ";" + expires + ";path=/";
-        }
-
-        function getCookie(name) {
-            const cname = name + "=";
-            const decodedCookie = decodeURIComponent(document.cookie);
-            const ca = decodedCookie.split(';');
-            for (let i = 0; i < ca.length; i++) {
-                let c = ca[i];
-                while (c.charAt(0) == ' ') {
-                    c = c.substring(1);
-                }
-                if (c.indexOf(cname) == 0) {
-                    return c.substring(cname.length, c.length);
-                }
-            }
-            return "";
-        }
-
-        // Function to apply dark mode based on preference
-        function applyDarkModePreference() {
-            const darkModePreference = getCookie("darkMode");
-            const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-            if (darkModePreference === "enabled" || (darkModePreference === "" && prefersDarkScheme)) {
-                document.body.classList.add('dark-mode');
-                document.getElementById('topbar').classList.add('dark-mode');
-                document.getElementById('notification-bar-1').classList.add('dark-mode');
-                document.getElementById('notification-bar-2').classList.add('dark-mode');
-                document.getElementById('content').classList.add('dark-mode');
-                document.getElementById('footer').classList.add('dark-mode');
-
-                // Set the dark mode toggle button to sun
-                document.getElementById('darkModeToggle').textContent = '☀️';
-            } else {
-                document.getElementById('darkModeToggle').textContent = '🌙';
-            }
-        }
-
-        // Apply dark mode preference immediately
-        applyDarkModePreference();
-    </script>
-
     <!-- Topbar with links -->
     <div class="topbar" id="topbar">
-        <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
         <a href="https://swightshome.xyz" class="home-button" title="Home">
             <svg class="home-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M3 9L12 3l9 6v12a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V12H9v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9z"/>
@@ -447,17 +318,17 @@
         </div>
         <form id="converter-form">
             <label for="anilist-username">AniList Username:</label>
-            <input type="text" id="anilist-username" name="anilist_username" required class="dark-mode">
+            <input type="text" id="anilist-username" name="anilist_username" required>
 
             <label for="xml-username">XML Username (This can be anything):</label>
-            <input type="text" id="xml-username" name="xml_username" required class="dark-mode">
+            <input type="text" id="xml-username" name="xml_username" required>
 
             <button type="submit">Convert</button>
             <button type="button" id="cancel-button">Cancel</button>
         </form>
         <div id="output">
-            <p id="status-message" class="dark-mode"></p>
-            <pre id="xml-output" class="collapsed dark-mode"></pre>
+            <p id="status-message"></p>
+            <pre id="xml-output" class="collapsed"></pre>
             <button id="toggle-button" style="display: none;">Show XML</button>
             <a id="download-button" style="display: none;" href="#" download="anilist.xml">Download XML</a>
         </div>
@@ -476,26 +347,6 @@
     </footer>
 
     <script>
-        // Function to toggle dark mode
-        function toggleDarkMode() {
-            const isDarkMode = document.body.classList.toggle('dark-mode');
-            document.getElementById('topbar').classList.toggle('dark-mode');
-            document.getElementById('notification-bar-1').classList.toggle('dark-mode');
-            document.getElementById('notification-bar-2').classList.toggle('dark-mode');
-            document.getElementById('content').classList.toggle('dark-mode');
-            document.getElementById('footer').classList.toggle('dark-mode');
-
-            // Change the icon of the dark mode toggle button
-            darkModeToggle.textContent = isDarkMode ? '☀️' : '🌙';
-
-            // Set the dark mode preference in a cookie
-            setCookie("darkMode", isDarkMode ? "enabled" : "disabled", 365);
-        }
-
-        // Attach the toggle function to the dark mode button
-        const darkModeToggle = document.getElementById('darkModeToggle');
-        darkModeToggle.addEventListener('click', toggleDarkMode);
-
         document.addEventListener('DOMContentLoaded', () => {
             const form = document.getElementById('converter-form');
             const cancelButton = document.getElementById('cancel-button');

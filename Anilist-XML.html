@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AniList to XML Converter</title>
+    <title>Swightshome - AniList to XML Converter</title>
     <link rel="icon" href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" type="image/x-icon">
     <style>
         /* General body styling */
@@ -113,6 +113,13 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             flex-grow: 1;
             position: relative;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* Dark mode container styling */
+        .container.dark-mode {
+            background-color: #444;
+            color: #f4f4f9;
         }
 
         /* Image container styling */
@@ -168,6 +175,11 @@
             color: #333;
         }
 
+        /* Dark mode heading styling */
+        h1.dark-mode {
+            color: #f4f4f9;
+        }
+
         form {
             display: flex;
             flex-direction: column;
@@ -178,11 +190,23 @@
             color: #555;
         }
 
+        /* Dark mode label styling */
+        label.dark-mode {
+            color: #ddd;
+        }
+
         input {
             margin-bottom: 15px;
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
+        }
+
+        /* Dark mode input styling */
+        input.dark-mode {
+            background-color: #555;
+            color: #fff;
+            border: 1px solid #777;
         }
 
         button {
@@ -212,6 +236,11 @@
             color: #333;
         }
 
+        /* Dark mode status message styling */
+        #status-message.dark-mode {
+            color: #f4f4f9;
+        }
+
         #xml-output {
             background-color: #f8f8f8;
             padding: 10px;
@@ -221,6 +250,13 @@
             word-wrap: break-word;
             max-height: 200px;
             overflow: hidden;
+        }
+
+        /* Dark mode XML output styling */
+        #xml-output.dark-mode {
+            background-color: #555;
+            color: #f4f4f9;
+            border: 1px solid #777;
         }
 
         #xml-output.collapsed {
@@ -239,6 +275,13 @@
             border: 1px solid #ccc;
             border-radius: 5px;
             background-color: #e9ecef;
+        }
+
+        /* Dark mode info area styling */
+        .info-area.dark-mode {
+            background-color: #555;
+            color: #f4f4f9;
+            border: 1px solid #777;
         }
 
         /* Footer Styling */
@@ -271,6 +314,56 @@
             justify-content: center;
             align-items: center;
             gap: 10px;
+        }
+
+        /* Home button styling */
+        .home-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 20px;
+            transition: all 0.3s ease;
+            position: absolute;
+            left: 60px; /* Adjusted position to be next to dark mode toggle */
+        }
+
+        .home-icon {
+            width: 24px;
+            height: 24px;
+            transition: transform 0.3s ease;
+        }
+
+        .home-button:hover .home-icon {
+            transform: scale(1.2);
+        }
+
+        .topbar a.home-button:hover {
+            background-color: transparent; /* Remove background color change on hover */
+        }
+
+        /* Back to Projects button styling */
+        .back-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 20px;
+            transition: all 0.3s ease;
+            position: absolute;
+            left: 120px; /* Positioned next to home button */
+        }
+
+        .back-icon {
+            width: 24px;
+            height: 24px;
+            transition: transform 0.3s ease;
+        }
+
+        .back-button:hover .back-icon {
+            transform: scale(1.2);
+        }
+
+        .topbar a.back-button:hover {
+            background-color: transparent; /* Remove background color change on hover */
         }
     </style>
 </head>
@@ -328,6 +421,16 @@
     <!-- Topbar with links -->
     <div class="topbar" id="topbar">
         <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
+        <a href="https://swightshome.xyz" class="home-button" title="Home">
+            <svg class="home-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9L12 3l9 6v12a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V12H9v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9z"/>
+            </svg>
+        </a>
+        <a href="Projects" class="back-button" title="Back to Projects">
+            <svg class="back-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+        </a>
         <a href="Services">Services</a>
         <a href="Overview">Lists</a>
         <a href="Links">Links</a>
@@ -339,22 +442,22 @@
         <div class="info-area">
             <h2>Page Information</h2>
             <p>This page allows you to convert your AniList data to a MAL XML format. Simply enter your AniList username and a desired XML username, then click the "Convert" button.</p>
-            <p>Do note some things about this page, while the script gathers the animeID properly most of the time (like 98%) of the time, it does sometimes gather the wrong ID, also currently this script does not gather the number of times you have watched a show, or if your rewatching it.</p>
-            <p>If you have any issues or recommendation please open an issue <a href="https://github.com/SwightsNotFound/anilist-to-xml/issues/" role="button">here</a>, the source code for this script can also be found there, if you receive a network error when trying to run this the back-end is probable down, wait a while or you can run this locally by following this <a href="https://github.com/SwightsNotFound/anilist-to-xml/" role="button">guide</a></p>.</p>
+            <p>Do note some things about this page, while the script gathers the animeID properly most of the time (like 98% of the time), it does sometimes gather the wrong ID. Additionally, this script currently does not gather the number of times you have watched a show, or if you are rewatching it.</p>
+            <p>If you have any issues or recommendations, please open an issue <a href="https://github.com/SwightsNotFound/anilist-to-xml/issues/" role="button">here</a>. The source code for this script can also be found there. If you receive a network error when trying to run this, the backend is probably down. Wait a while or you can run this locally by following this <a href="https://github.com/SwightsNotFound/anilist-to-xml/" role="button">guide</a>.</p>
         </div>
         <form id="converter-form">
             <label for="anilist-username">AniList Username:</label>
-            <input type="text" id="anilist-username" name="anilist_username" required>
+            <input type="text" id="anilist-username" name="anilist_username" required class="dark-mode">
 
             <label for="xml-username">XML Username (This can be anything):</label>
-            <input type="text" id="xml-username" name="xml_username" required>
+            <input type="text" id="xml-username" name="xml_username" required class="dark-mode">
 
             <button type="submit">Convert</button>
             <button type="button" id="cancel-button">Cancel</button>
         </form>
         <div id="output">
-            <p id="status-message"></p>
-            <pre id="xml-output" class="collapsed"></pre>
+            <p id="status-message" class="dark-mode"></p>
+            <pre id="xml-output" class="collapsed dark-mode"></pre>
             <button id="toggle-button" style="display: none;">Show XML</button>
             <a id="download-button" style="display: none;" href="#" download="anilist.xml">Download XML</a>
         </div>

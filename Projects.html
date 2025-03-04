@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swightshome - Projects</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" type="image/x-icon">
+    <style>
+        /* General body styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* Dark mode body styling */
+        body.dark-mode {
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+
+        /* Topbar styling */
+        .topbar {
+            background-color: #2c3e50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+            transition: background-color 0.3s;
+        }
+
+        /* Dark mode topbar styling */
+        .topbar.dark-mode {
+            background-color: #1a252f;
+        }
+
+        /* Styling for the links in the topbar */
+        .topbar a {
+            color: white;
+            text-align: center;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+
+        /* Hover effect for links */
+        .topbar a:hover {
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+        }
+
+        /* Dark mode toggle button styling */
+        .dark-mode-toggle {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: absolute;
+            left: 20px;
+        }
+
+        /* Main content area */
+        .content {
+            max-width: 1200px;
+            margin: 50px auto;
+            text-align: center;
+            padding: 20px;
+            flex-grow: 1;
+            position: relative;
+        }
+
+        /* Grid container for project cards */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        /* Project card styling */
+        .project-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            flex-direction: column;
+            height: auto; /* Allow height to adjust based on content */
+            overflow: hidden; /* Hide overflow */
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Dark mode project card styling */
+        .project-card.dark-mode {
+            background-color: #333;
+            color: #e0e0e0;
+        }
+
+        /* Project title styling */
+        .project-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        /* Label styling */
+        .label {
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            position: absolute;
+            right: 0;
+            top: -10px; /* Move the labels up */
+            transform: translateY(-50%);
+        }
+
+        .label.python {
+            background-color: #3776ab;
+            color: white;
+            right: auto;
+            left: 0;
+        }
+
+        .label.minecraft {
+            background-color: #34c924;
+            color: white;
+            right: auto;
+            left: 0;
+        }
+
+        .label.modpack {
+            background-color: #ff9800;
+            color: white;
+            right: auto;
+            left: 70px;
+        }
+
+        .label.html {
+            background-color: #e34c26;
+            color: white;
+            right: auto;
+            left: 0;
+        }
+
+        .label.bedrock {
+            background-color: #e53935;
+            color: white;
+            right: auto;
+            left: 70px;
+        }
+
+        .label.archived {
+            background-color: #ffeb3b;
+            color: #333;
+        }
+
+        /* Dark mode label styling */
+        .label.dark-mode {
+            color: #e0e0e0;
+        }
+
+        .label.python.dark-mode {
+            background-color: #306998;
+        }
+
+        .label.minecraft.dark-mode {
+            background-color: #228b22;
+        }
+
+        .label.modpack.dark-mode {
+            background-color: #cc7a00;
+        }
+
+        .label.html.dark-mode {
+            background-color: #c0392b;
+        }
+
+        .label.bedrock.dark-mode {
+            background-color: #b71c1c;
+        }
+
+        .label.archived.dark-mode {
+            background-color: #b59e00;
+        }
+
+        /* Project description styling */
+        .project-description {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        /* Button styling */
+        .button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+            margin: 5px; /* Add margin to buttons */
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: auto;
+            transition: background-color 0.3s;
+        }
+
+        /* Dark mode footer styling */
+        footer.dark-mode {
+            background-color: #1a252f;
+        }
+
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Flex container for footer links */
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+                        /* Home button styling */
+                        .home-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 20px;
+            transition: all 0.3s ease;
+            position: absolute;
+            left: 60px; /* Adjusted position to be next to dark mode toggle */
+        }
+
+        .home-icon {
+            width: 24px;
+            height: 24px;
+            transition: transform 0.3s ease;
+        }
+
+        .home-button:hover .home-icon {
+            transform: scale(1.2);
+        }
+
+        .topbar a.home-button:hover {
+            background-color: transparent; /* Remove background color change on hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- Apply dark mode preference immediately -->
+    <script>
+        // Utility functions for handling cookies
+        function setCookie(name, value, days) {
+            const d = new Date();
+            d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+            const expires = "expires=" + d.toUTCString();
+            document.cookie = name + "=" + value + ";" + expires + ";path=/";
+        }
+
+        function getCookie(name) {
+            const cname = name + "=";
+            const decodedCookie = decodeURIComponent(document.cookie);
+            const ca = decodedCookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(cname) == 0) {
+                    return c.substring(cname.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        // Function to apply dark mode based on preference
+        function applyDarkModePreference() {
+            const darkModePreference = getCookie("darkMode");
+            const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+            if (darkModePreference === "enabled" || (darkModePreference === "" && prefersDarkScheme)) {
+                document.body.classList.add('dark-mode');
+                document.getElementById('topbar').classList.add('dark-mode');
+                document.querySelectorAll('.project-card').forEach(card => card.classList.add('dark-mode'));
+                document.querySelectorAll('.label').forEach(label => label.classList.add('dark-mode'));
+                document.getElementById('footer').classList.add('dark-mode');
+
+                // Set the dark mode toggle button to sun
+                document.getElementById('darkModeToggle').textContent = '☀️';
+            } else {
+                document.getElementById('darkModeToggle').textContent = '🌙';
+            }
+        }
+
+        // Apply dark mode preference immediately
+        applyDarkModePreference();
+    </script>
+
+    <!-- Topbar with links -->
+    <div class="topbar" id="topbar">
+        <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
+        <a href="https://swightshome.xyz" class="home-button" title="Home">
+            <svg class="home-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9L12 3l9 6v12a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V12H9v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9z"/>
+            </svg>
+        </a>
+        <a href="Services">Services</a>
+        <a href="Projects">Projects</a>
+        <a href="Overview">Lists</a>
+        <a href="Links">Links</a>
+        <a href="Contact">Contact</a>
+    </div>
+
+    <!-- Main content -->
+    <div class="content" id="content">
+        <h1>Projects</h1>
+        <!-- Grid container for project cards -->
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card" id="project1">
+                <h2 class="project-title">Anilist to XML <span class="label python">Python</span></h2>
+                <p class="project-description">A python script that converts your anilist profile to a importable MyAnimeList xml file.</p>
+                <a href="https://swightshome.xyz/Anilist-XML" class="button" target="_blank">View Project</a>
+                <a href="https://github.com/SwightsNotFound/anilist-to-xml" class="button" target="_blank">GitHub Repo</a>
+            </div>
+                        <!-- Project 4 -->
+            <div class="project-card" id="project4">
+                <h2 class="project-title">Swightshome <span class="label html">HTML</span></h2>
+                <p class="project-description">The website your on now!</p>
+                <a href="https://swightshome.xyz/" class="button" target="_blank">View Project</a>
+                <a href="https://github.com/SwightsNotFound/swightshome" class="button" target="_blank">GitHub Repo</a>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card" id="project2">
+                <h2 class="project-title">Simply Better <span class="label minecraft">Minecraft</span> </h2>
+                <p class="project-description">A modpack thats designed to make Minecraft Simply Better.</p>
+                <a href="https://modrinth.com/modpack/simply-better" class="button" target="_blank">View Project</a>
+                <a href="https://github.com/SwightsNotFound/Simply-Better" class="button" target="_blank">GitHub Repo</a>
+            </div>
+            <!-- Project 5 -->
+            <div class="project-card" id="project5">
+                <h2 class="project-title">TechnoStep <span class="label minecraft">Minecraft</span></h2>
+                <p class="project-description">Replaces pigstep with a Technoblade version!</p>
+                <a href="https://modrinth.com/resourcepack/technostep" class="button" target="_blank">View Project</a>
+                <a href="https://github.com/SwightsNotFound/TechnoStep" class="button" target="_blank">GitHub Repo</a>
+            </div>
+                        <!-- Project 3 (Archived) -->
+            <div class="project-card" id="project3">
+                <h2 class="project-title">Pink PVP <span class="label archived">Archived</span> <span class="label minecraft">Minecraft</span></h2>
+                <p class="project-description">A archive of my first Minecraft Bedrock texture pack originally released on MCPEDL.</p>
+                <a href="https://mcpedl.com/pink-pvp-texture-pack-1/" class="button" target="_blank">View Project</a>
+                <a href="https://github.com/SwightsNotFound/PinkPVP" class="button" target="_blank">GitHub Repo</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p>Hosted using <a href="https://pages.github.com/" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" role="button">Cloudflare</a>.</p>
+        <div class="footer-links">
+            <a href="https://swightshome.xyz/Status" role="button">Status Page</a>
+            <span>|</span>
+            <a href="https://github.com/SwightsNotFound/swightshome" role="button">Source Code</a>
+            <span>|</span>
+            <a href="Privacy" role="button">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script>
+        // Function to toggle dark mode
+        function toggleDarkMode() {
+            const isDarkMode = document.body.classList.toggle('dark-mode');
+            document.getElementById('topbar').classList.toggle('dark-mode');
+            document.querySelectorAll('.project-card').forEach(card => card.classList.toggle('dark-mode'));
+            document.querySelectorAll('.label').forEach(label => label.classList.toggle('dark-mode'));
+            document.getElementById('footer').classList.toggle('dark-mode');
+
+            // Change the icon of the dark mode toggle button
+            darkModeToggle.textContent = isDarkMode ? '☀️' : '🌙';
+
+            // Set the dark mode preference in a cookie
+            setCookie("darkMode", isDarkMode ? "enabled" : "disabled", 365);
+        }
+
+        // Attach the toggle function to the dark mode button
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        darkModeToggle.addEventListener('click', toggleDarkMode);
+    </script>
+</body>
+</html>

@@ -16640,6 +16640,66 @@
         },
         "siteUrl": "https://anilist.co/anime/169441"
       }
+    },
+    {
+      "status": "watched episode",
+      "progress": "69",
+      "createdAt": 1741046387,
+      "media": {
+        "title": {
+          "english": "Hunter x Hunter (2011)",
+          "romaji": "HUNTER×HUNTER (2011)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11061-NpIIobuQNbJW.png"
+        },
+        "siteUrl": "https://anilist.co/anime/11061"
+      }
+    },
+    {
+      "status": "rewatched episode",
+      "progress": "1",
+      "createdAt": 1741046424,
+      "media": {
+        "title": {
+          "english": "Fruits Basket (2019)",
+          "romaji": "Fruits Basket: 1st Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105334-dYqd4I5cTzRy.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105334"
+      }
+    },
+    {
+      "status": "rewatched episode",
+      "progress": "2",
+      "createdAt": 1741046425,
+      "media": {
+        "title": {
+          "english": "Fruits Basket (2019)",
+          "romaji": "Fruits Basket: 1st Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105334-dYqd4I5cTzRy.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105334"
+      }
+    },
+    {
+      "status": "rewatched episode",
+      "progress": "3",
+      "createdAt": 1741046425,
+      "media": {
+        "title": {
+          "english": "Fruits Basket (2019)",
+          "romaji": "Fruits Basket: 1st Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105334-dYqd4I5cTzRy.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105334"
+      }
     }
   ]
 }

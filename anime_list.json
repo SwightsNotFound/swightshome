@@ -2599,6 +2599,29 @@
           "mal": "https://myanimelist.net/anime/5678",
           "kitsu": "https://kitsu.io/anime/5678"
         }
+      },
+      {
+        "id": 15809,
+        "title": "The Devil is a Part-Timer!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15809-5Ddu3w7wq9F9.jpg",
+        "averageScore": 75,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/15809/",
+          "mal": "https://myanimelist.net/anime/15809",
+          "kitsu": "https://kitsu.io/anime/15809"
+        }
       }
     ]
   },

@@ -17049,6 +17049,51 @@
         },
         "siteUrl": "https://anilist.co/anime/177506"
       }
+    },
+    {
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1741225996,
+      "media": {
+        "title": {
+          "english": "Flower and Asura",
+          "romaji": "Hana wa Saku, Shura no Gotoku"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178022-gB3zAfazGBJ6.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/178022"
+      }
+    },
+    {
+      "status": "watched episode",
+      "progress": "5",
+      "createdAt": 1741227568,
+      "media": {
+        "title": {
+          "english": "No Game, No Life",
+          "romaji": "No Game No Life"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx19815-bIo51RMWWhLv.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/19815"
+      }
+    },
+    {
+      "status": "watched episode",
+      "progress": "6",
+      "createdAt": 1741229174,
+      "media": {
+        "title": {
+          "english": "No Game, No Life",
+          "romaji": "No Game No Life"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx19815-bIo51RMWWhLv.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/19815"
+      }
     }
   ]
 }

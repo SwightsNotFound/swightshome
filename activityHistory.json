@@ -17125,5 +17125,22 @@
         "siteUrl": "https://anilist.co/anime/19815"
       }
     }
+  ],
+  "2025-03-06": [
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741272796,
+      "media": {
+        "title": {
+          "english": "Land of the Lustrous",
+          "romaji": "Houseki no Kuni"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx98707-XbNWbL1VRihA.png"
+        },
+        "siteUrl": "https://anilist.co/anime/98707"
+      }
+    }
   ]
 }

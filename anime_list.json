@@ -2645,6 +2645,30 @@
           "mal": "https://myanimelist.net/anime/21875",
           "kitsu": "https://kitsu.io/anime/21875"
         }
+      },
+      {
+        "id": 98707,
+        "title": "Land of the Lustrous",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98707-XbNWbL1VRihA.png",
+        "averageScore": 83,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Mystery",
+          "Psychological"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/98707/",
+          "mal": "https://myanimelist.net/anime/98707",
+          "kitsu": "https://kitsu.io/anime/98707"
+        }
       }
     ]
   },

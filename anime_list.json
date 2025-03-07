@@ -2693,6 +2693,182 @@
           "mal": "https://myanimelist.net/anime/21",
           "kitsu": "https://kitsu.io/anime/21"
         }
+      },
+      {
+        "id": 14753,
+        "title": "Hori-san to Miyamura-kun",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b14753-FKgfBa6AO5wg.jpg",
+        "averageScore": 72,
+        "episodes": 6,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "OVA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/14753/",
+          "mal": "https://myanimelist.net/anime/14753",
+          "kitsu": "https://kitsu.io/anime/14753"
+        }
+      },
+      {
+        "id": 1723,
+        "title": "Clannad: The Motion Picture",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1723-PzMdQPvfcxxA.png",
+        "averageScore": 66,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/1723/",
+          "mal": "https://myanimelist.net/anime/1723",
+          "kitsu": "https://kitsu.io/anime/1723"
+        }
+      },
+      {
+        "id": 2994,
+        "title": "Death Note: Relight",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b2994-mlofkz5GpkIu.jpg",
+        "averageScore": 74,
+        "episodes": 2,
+        "status": "FINISHED",
+        "genres": [
+          "Mystery",
+          "Psychological",
+          "Supernatural",
+          "Thriller"
+        ],
+        "format": "SPECIAL",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/2994/",
+          "mal": "https://myanimelist.net/anime/2994",
+          "kitsu": "https://kitsu.io/anime/2994"
+        }
+      },
+      {
+        "id": 594,
+        "title": "Naruto: The Lost Story - Mission: Protect the Waterfall Village",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/594.jpg",
+        "averageScore": 64,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy"
+        ],
+        "format": "SPECIAL",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/594/",
+          "mal": "https://myanimelist.net/anime/594",
+          "kitsu": "https://kitsu.io/anime/594"
+        }
+      },
+      {
+        "id": 16417,
+        "title": "Tamako Market",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx16417-r8Njy5UnwvDE.png",
+        "averageScore": 72,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/16417/",
+          "mal": "https://myanimelist.net/anime/16417",
+          "kitsu": "https://kitsu.io/anime/16417"
+        }
+      },
+      {
+        "id": 165253,
+        "title": "BOCCHI THE ROCK! Recap Part 1",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx165253-nAwyrMZm4jBA.jpg",
+        "averageScore": 83,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Music",
+          "Slice of Life"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/165253/",
+          "mal": "https://myanimelist.net/anime/165253",
+          "kitsu": "https://kitsu.io/anime/165253"
+        }
+      },
+      {
+        "id": 171099,
+        "title": "BOCCHI THE ROCK! Recap Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171099-JexoHylkSZ6r.jpg",
+        "averageScore": 83,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Music",
+          "Slice of Life"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/171099/",
+          "mal": "https://myanimelist.net/anime/171099",
+          "kitsu": "https://kitsu.io/anime/171099"
+        }
+      },
+      {
+        "id": 5680,
+        "title": "K-ON!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5680-Hw0SQuKGa9kl.png",
+        "averageScore": 78,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Music",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/5680/",
+          "mal": "https://myanimelist.net/anime/5680",
+          "kitsu": "https://kitsu.io/anime/5680"
+        }
       }
     ]
   },

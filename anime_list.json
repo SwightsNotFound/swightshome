@@ -2869,6 +2869,316 @@
           "mal": "https://myanimelist.net/anime/5680",
           "kitsu": "https://kitsu.io/anime/5680"
         }
+      },
+      {
+        "id": 131573,
+        "title": "JUJUTSU KAISEN 0",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131573-rpl82vDEDRm6.jpg",
+        "averageScore": 84,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Supernatural"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/131573/",
+          "mal": "https://myanimelist.net/anime/131573",
+          "kitsu": "https://kitsu.io/anime/131573"
+        }
+      },
+      {
+        "id": 140596,
+        "title": "DON'T TOY WITH ME, MISS NAGATORO 2nd Attack",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140596-wBtzi7evAMlf.jpg",
+        "averageScore": 74,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/140596/",
+          "mal": "https://myanimelist.net/anime/140596",
+          "kitsu": "https://kitsu.io/anime/140596"
+        }
+      },
+      {
+        "id": 166104,
+        "title": "TONIKAWA: Over The Moon For You ~High School Days~",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166104-0oRQjclE7X3S.jpg",
+        "averageScore": 77,
+        "episodes": 4,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "ONA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/166104/",
+          "mal": "https://myanimelist.net/anime/166104",
+          "kitsu": "https://kitsu.io/anime/166104"
+        }
+      },
+      {
+        "id": 159074,
+        "title": "After-school Hanako-kun",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx159074-6sc64nKBa1wE.jpg",
+        "averageScore": 71,
+        "episodes": 4,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV_SHORT",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/159074/",
+          "mal": "https://myanimelist.net/anime/159074",
+          "kitsu": "https://kitsu.io/anime/159074"
+        }
+      },
+      {
+        "id": 170893,
+        "title": "After-school Hanako-kun Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170893-zqmpX7iYUumi.jpg",
+        "averageScore": 70,
+        "episodes": 4,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV_SHORT",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/170893/",
+          "mal": "https://myanimelist.net/anime/170893",
+          "kitsu": "https://kitsu.io/anime/170893"
+        }
+      },
+      {
+        "id": 10863,
+        "title": "Steins;Gate: Egoistic Poriomania",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10863-V6oW2kN8bBYf.png",
+        "averageScore": 80,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "format": "OVA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/10863/",
+          "mal": "https://myanimelist.net/anime/10863",
+          "kitsu": "https://kitsu.io/anime/10863"
+        }
+      },
+      {
+        "id": 11577,
+        "title": "Steins;Gate The Movie – Load Region of Déjà Vu",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11577-rhqsxLOAge4f.png",
+        "averageScore": 82,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/11577/",
+          "mal": "https://myanimelist.net/anime/11577",
+          "kitsu": "https://kitsu.io/anime/11577"
+        }
+      },
+      {
+        "id": 21624,
+        "title": "Steins;Gate 0: 23β -Divide by Zero-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21624-szbmwyC3sJos.jpg",
+        "averageScore": 81,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "format": "OVA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/21624/",
+          "mal": "https://myanimelist.net/anime/21624",
+          "kitsu": "https://kitsu.io/anime/21624"
+        }
+      },
+      {
+        "id": 104174,
+        "title": "Steins;Gate 0: Valentine's of Crystal Polymorphism -Bittersweet Intermedio-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104174-aoNLSSN6bT4L.png",
+        "averageScore": 71,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "format": "OVA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/104174/",
+          "mal": "https://myanimelist.net/anime/104174",
+          "kitsu": "https://kitsu.io/anime/104174"
+        }
+      },
+      {
+        "id": 486,
+        "title": "Kino's Journey",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx486-atZiTz3afpOO.jpg",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Psychological",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/486/",
+          "mal": "https://myanimelist.net/anime/486",
+          "kitsu": "https://kitsu.io/anime/486"
+        }
+      },
+      {
+        "id": 108973,
+        "title": "Kino no Tabi -the Beautiful World- Haikyo no Kuni",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b108973-X8YjEtEpkjmx.jpg",
+        "averageScore": 55,
+        "episodes": 27,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Slice of Life"
+        ],
+        "format": "SPECIAL",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/108973/",
+          "mal": "https://myanimelist.net/anime/108973",
+          "kitsu": "https://kitsu.io/anime/108973"
+        }
+      },
+      {
+        "id": 3466,
+        "title": "Kino no Tabi: the Beautiful World - Tou no Kuni: Free Lance",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx3466-L3DQqyjomYR1.png",
+        "averageScore": 73,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Psychological"
+        ],
+        "format": "OVA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/3466/",
+          "mal": "https://myanimelist.net/anime/3466",
+          "kitsu": "https://kitsu.io/anime/3466"
+        }
+      },
+      {
+        "id": 2175,
+        "title": "Kino no Tabi: the Beautiful World - Byouki no Kuni: For You",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx2175-ODWaMrFEJVCP.jpg",
+        "averageScore": 74,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Fantasy"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/2175/",
+          "mal": "https://myanimelist.net/anime/2175",
+          "kitsu": "https://kitsu.io/anime/2175"
+        }
+      },
+      {
+        "id": 1379,
+        "title": "Kino no Tabi: Nanika wo Suru Tame ni -life goes on.-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1379-poWbykTYlXzi.jpg",
+        "averageScore": 75,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Slice of Life"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/1379/",
+          "mal": "https://myanimelist.net/anime/1379",
+          "kitsu": "https://kitsu.io/anime/1379"
+        }
       }
     ]
   },

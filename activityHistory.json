@@ -17576,6 +17576,156 @@
         },
         "siteUrl": "https://anilist.co/anime/159074"
       }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741321482,
+      "media": {
+        "title": {
+          "english": "Steins;Gate: Egoistic Poriomania",
+          "romaji": "Steins;Gate: Oukoubakko no Poriomania"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx10863-V6oW2kN8bBYf.png"
+        },
+        "siteUrl": "https://anilist.co/anime/10863"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741321487,
+      "media": {
+        "title": {
+          "english": "Steins;Gate The Movie – Load Region of Déjà Vu",
+          "romaji": "Steins;Gate: Fuka Ryouiki no Déjà vu"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11577-rhqsxLOAge4f.png"
+        },
+        "siteUrl": "https://anilist.co/anime/11577"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741321492,
+      "media": {
+        "title": {
+          "english": "Steins;Gate 0: 23β -Divide by Zero-",
+          "romaji": "Steins;Gate: Kyoukaimenjou no Missing Link - Divide By Zero"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21624-szbmwyC3sJos.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/21624"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741321498,
+      "media": {
+        "title": {
+          "english": "Steins;Gate 0: Valentine's of Crystal Polymorphism -Bittersweet Intermedio-",
+          "romaji": "Steins;Gate 0: Kesshou Takei no Valentine - Bittersweet Day"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104174-aoNLSSN6bT4L.png"
+        },
+        "siteUrl": "https://anilist.co/anime/104174"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741321502,
+      "media": {
+        "title": {
+          "english": "Kino's Journey",
+          "romaji": "Kino no Tabi: the Beautiful World"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx486-atZiTz3afpOO.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/486"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741321507,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Kino no Tabi -the Beautiful World- Haikyo no Kuni"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b108973-X8YjEtEpkjmx.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/108973"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741321513,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Kino no Tabi: the Beautiful World - Tou no Kuni: Free Lance"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx3466-L3DQqyjomYR1.png"
+        },
+        "siteUrl": "https://anilist.co/anime/3466"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741321518,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Kino no Tabi: the Beautiful World - Byouki no Kuni: For You"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx2175-ODWaMrFEJVCP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/2175"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741321524,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Kino no Tabi: Nanika wo Suru Tame ni -life goes on.-"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1379-poWbykTYlXzi.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/1379"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741321535,
+      "media": {
+        "title": {
+          "english": "After-school Hanako-kun Season 2",
+          "romaji": "Houkago Shounen Hanako-kun 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170893-zqmpX7iYUumi.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/170893"
+      }
     }
   ]
 }

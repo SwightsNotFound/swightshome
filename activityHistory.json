@@ -17216,6 +17216,96 @@
         },
         "siteUrl": "https://anilist.co/anime/178550"
       }
+    },
+    {
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1741311837,
+      "media": {
+        "title": {
+          "english": "No Game, No Life",
+          "romaji": "No Game No Life"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx19815-bIo51RMWWhLv.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/19815"
+      }
+    },
+    {
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1741313099,
+      "media": {
+        "title": {
+          "english": "No Game, No Life",
+          "romaji": "No Game No Life"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx19815-bIo51RMWWhLv.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/19815"
+      }
+    },
+    {
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1741314444,
+      "media": {
+        "title": {
+          "english": "No Game, No Life",
+          "romaji": "No Game No Life"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx19815-bIo51RMWWhLv.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/19815"
+      }
+    },
+    {
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1741315791,
+      "media": {
+        "title": {
+          "english": "No Game, No Life",
+          "romaji": "No Game No Life"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx19815-bIo51RMWWhLv.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/19815"
+      }
+    },
+    {
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1741316128,
+      "media": {
+        "title": {
+          "english": "No Game No Life Specials",
+          "romaji": "No Game No Life Specials"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx20769-yn9crl5jlupz.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20769"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741316179,
+      "media": {
+        "title": {
+          "english": "Kakegurui",
+          "romaji": "Kakegurui"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx98314-BWpNNKOmiUoe.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/98314"
+      }
     }
   ]
 }

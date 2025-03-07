@@ -7882,6 +7882,31 @@
         }
       },
       {
+        "id": 20850,
+        "title": "Tokyo Ghoul √A",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20850-HO9hwgvavYtw.jpg",
+        "averageScore": 66,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Horror",
+          "Mystery",
+          "Psychological",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 6,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/20850/",
+          "mal": "https://myanimelist.net/anime/20850",
+          "kitsu": "https://kitsu.io/anime/20850"
+        }
+      },
+      {
         "id": 108928,
         "title": "The Seven Deadly Sins: Imperial Wrath of the Gods",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108928-DuyUzi0JyPIr.jpg",
@@ -9734,31 +9759,6 @@
           "anilist": "https://anilist.co/anime/163079/",
           "mal": "https://myanimelist.net/anime/163079",
           "kitsu": "https://kitsu.io/anime/163079"
-        }
-      },
-      {
-        "id": 20850,
-        "title": "Tokyo Ghoul √A",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20850-HO9hwgvavYtw.jpg",
-        "averageScore": 66,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Horror",
-          "Mystery",
-          "Psychological",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 3,
-        "links": {
-          "anilist": "https://anilist.co/anime/20850/",
-          "mal": "https://myanimelist.net/anime/20850",
-          "kitsu": "https://kitsu.io/anime/20850"
         }
       },
       {

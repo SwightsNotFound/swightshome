@@ -17727,5 +17727,22 @@
         "siteUrl": "https://anilist.co/anime/170893"
       }
     }
+  ],
+  "2025-03-07": [
+    {
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1741349618,
+      "media": {
+        "title": {
+          "english": "Tokyo Ghoul √A",
+          "romaji": "Tokyo Ghoul √A"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20850-HO9hwgvavYtw.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20850"
+      }
+    }
   ]
 }

@@ -17396,6 +17396,186 @@
         },
         "siteUrl": "https://anilist.co/anime/20769"
       }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741320374,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Hori-san to Miyamura-kun"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b14753-FKgfBa6AO5wg.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/14753"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741320385,
+      "media": {
+        "title": {
+          "english": "Clannad: The Motion Picture",
+          "romaji": "Clannad Movie"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1723-PzMdQPvfcxxA.png"
+        },
+        "siteUrl": "https://anilist.co/anime/1723"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741320390,
+      "media": {
+        "title": {
+          "english": "Death Note: Relight",
+          "romaji": "DEATH NOTE Rewrite"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2994-mlofkz5GpkIu.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/2994"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741320395,
+      "media": {
+        "title": {
+          "english": "Naruto: The Lost Story - Mission: Protect the Waterfall Village",
+          "romaji": "NARUTO: Takigakure no Shitou - Ore ga Eiyuu Dattebayo!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/594.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/594"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741320399,
+      "media": {
+        "title": {
+          "english": "Tamako Market",
+          "romaji": "Tamako Market"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx16417-r8Njy5UnwvDE.png"
+        },
+        "siteUrl": "https://anilist.co/anime/16417"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741320409,
+      "media": {
+        "title": {
+          "english": "BOCCHI THE ROCK! Recap Part 1",
+          "romaji": "Bocchi the Rock! Re:"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx165253-nAwyrMZm4jBA.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/165253"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741320444,
+      "media": {
+        "title": {
+          "english": "BOCCHI THE ROCK! Recap Part 2",
+          "romaji": "Bocchi the Rock! Re:Re:"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171099-JexoHylkSZ6r.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/171099"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741320490,
+      "media": {
+        "title": {
+          "english": "K-ON!",
+          "romaji": "K-ON!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx5680-Hw0SQuKGa9kl.png"
+        },
+        "siteUrl": "https://anilist.co/anime/5680"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741321370,
+      "media": {
+        "title": {
+          "english": "JUJUTSU KAISEN 0",
+          "romaji": "Jujutsu Kaisen 0"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131573-rpl82vDEDRm6.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/131573"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741321392,
+      "media": {
+        "title": {
+          "english": "DON'T TOY WITH ME, MISS NAGATORO 2nd Attack",
+          "romaji": "Ijiranaide, Nagatoro-san 2nd Attack"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140596-wBtzi7evAMlf.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/140596"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741321407,
+      "media": {
+        "title": {
+          "english": "TONIKAWA: Over The Moon For You ~High School Days~",
+          "romaji": "Tonikaku Kawaii: Joshikou-hen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166104-0oRQjclE7X3S.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/166104"
+      }
+    },
+    {
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1741321471,
+      "media": {
+        "title": {
+          "english": "After-school Hanako-kun",
+          "romaji": "Houkago Shounen Hanako-kun"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx159074-6sc64nKBa1wE.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/159074"
+      }
     }
   ]
 }

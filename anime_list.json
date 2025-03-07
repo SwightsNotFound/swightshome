@@ -8365,6 +8365,29 @@
         }
       },
       {
+        "id": 19815,
+        "title": "No Game, No Life",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx19815-bIo51RMWWhLv.jpg",
+        "averageScore": 77,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Ecchi",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 5,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/19815/",
+          "mal": "https://myanimelist.net/anime/19815",
+          "kitsu": "https://kitsu.io/anime/19815"
+        }
+      },
+      {
         "id": 114308,
         "title": "Sword Art Online: Alicization - War of Underworld Part 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114308-8UBiS7U9buzu.jpg",
@@ -9009,7 +9032,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 5,
-        "progress": 8,
+        "progress": 9,
         "links": {
           "anilist": "https://anilist.co/anime/178550/",
           "mal": "https://myanimelist.net/anime/178550",
@@ -9125,29 +9148,6 @@
           "anilist": "https://anilist.co/anime/11061/",
           "mal": "https://myanimelist.net/anime/11061",
           "kitsu": "https://kitsu.io/anime/11061"
-        }
-      },
-      {
-        "id": 19815,
-        "title": "No Game, No Life",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx19815-bIo51RMWWhLv.jpg",
-        "averageScore": 77,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Comedy",
-          "Ecchi",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 8,
-        "links": {
-          "anilist": "https://anilist.co/anime/19815/",
-          "mal": "https://myanimelist.net/anime/19815",
-          "kitsu": "https://kitsu.io/anime/19815"
         }
       },
       {
@@ -9797,7 +9797,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 5,
-        "progress": 8,
+        "progress": 9,
         "links": {
           "anilist": "https://anilist.co/anime/178550/",
           "mal": "https://myanimelist.net/anime/178550",

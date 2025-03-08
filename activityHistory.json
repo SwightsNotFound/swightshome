@@ -17805,6 +17805,21 @@
         },
         "siteUrl": "https://anilist.co/anime/177709"
       }
+    },
+    {
+      "status": "watched episode",
+      "progress": "24",
+      "createdAt": 1741472315,
+      "media": {
+        "title": {
+          "english": "Orb: On the Movements of the Earth",
+          "romaji": "Chi. Chikyuu no Undou ni Tsuite"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151514-BcU5RmSWhvv0.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/151514"
+      }
     }
   ]
 }

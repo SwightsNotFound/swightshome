@@ -17730,18 +17730,18 @@
   ],
   "2025-03-07": [
     {
-      "status": "completed",
-      "progress": null,
-      "createdAt": 1741349618,
+      "status": "watched episode",
+      "progress": "23",
+      "createdAt": 1741410065,
       "media": {
         "title": {
-          "english": "Tokyo Ghoul √A",
-          "romaji": "Tokyo Ghoul √A"
+          "english": "Blue Box",
+          "romaji": "Ao no Hako"
         },
         "coverImage": {
-          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20850-HO9hwgvavYtw.jpg"
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170942-B77wUSM1jQTu.jpg"
         },
-        "siteUrl": "https://anilist.co/anime/20850"
+        "siteUrl": "https://anilist.co/anime/170942"
       }
     }
   ]

@@ -17900,5 +17900,37 @@
         "siteUrl": "https://anilist.co/anime/175443"
       }
     }
+  ],
+  "2025-03-18": [
+    {
+      "status": "watched episode",
+      "progress": "12",
+      "createdAt": 1742300776,
+      "media": {
+        "title": {
+          "english": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 2",
+          "romaji": "Kimi no Koto ga Dai Dai Dai Dai Daisuki na 100-nin no Kanojo 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx172258-CFvhqor0blLV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/172258"
+      }
+    },
+    {
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1742300918,
+      "media": {
+        "title": {
+          "english": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 2",
+          "romaji": "Kimi no Koto ga Dai Dai Dai Dai Daisuki na 100-nin no Kanojo 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx172258-CFvhqor0blLV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/172258"
+      }
+    }
   ]
 }

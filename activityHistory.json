@@ -17946,6 +17946,21 @@
         },
         "siteUrl": "https://anilist.co/anime/176496"
       }
+    },
+    {
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1742336778,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries Season 2",
+          "romaji": "Kusuriya no Hitorigoto 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-AclxpmzlKoBM.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/176301"
+      }
     }
   ]
 }

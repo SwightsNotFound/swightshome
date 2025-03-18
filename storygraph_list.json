@@ -63,7 +63,7 @@
       "medium-paced"
     ],
     "format": "Book",
-    "publicationDate": 2011
+    "publicationDate": "N/A"
   },
   {
     "title": "The Secret Garden",
@@ -102,7 +102,7 @@
       "medium-paced"
     ],
     "format": "Book",
-    "publicationDate": 1911
+    "publicationDate": "N/A"
   },
   {
     "title": "The Last Olympian",
@@ -141,7 +141,7 @@
       "fast-paced"
     ],
     "format": "Book",
-    "publicationDate": 2009
+    "publicationDate": "N/A"
   },
   {
     "title": "The Battle of the Labyrinth",
@@ -176,7 +176,7 @@
       "fast-paced"
     ],
     "format": "Book",
-    "publicationDate": 2005
+    "publicationDate": "N/A"
   },
   {
     "title": "The Titan's Curse",
@@ -211,7 +211,7 @@
       "fast-paced"
     ],
     "format": "Book",
-    "publicationDate": 2007
+    "publicationDate": "N/A"
   },
   {
     "title": "The Lightning Thief",
@@ -250,7 +250,7 @@
       "fast-paced"
     ],
     "format": "Book",
-    "publicationDate": 2005
+    "publicationDate": "N/A"
   },
   {
     "title": "The Sea of Monsters",
@@ -320,7 +320,7 @@
       "fast-paced"
     ],
     "format": "Book",
-    "publicationDate": 2017
+    "publicationDate": "N/A"
   },
   {
     "title": "The Andromeda Strain",
@@ -355,7 +355,7 @@
       "medium-paced"
     ],
     "format": "Book",
-    "publicationDate": 1969
+    "publicationDate": "N/A"
   },
   {
     "title": "Children of Time",
@@ -425,7 +425,7 @@
       "medium-paced"
     ],
     "format": "Book",
-    "publicationDate": 2011
+    "publicationDate": "N/A"
   },
   {
     "title": "Under the Dome",
@@ -460,6 +460,6 @@
       "medium-paced"
     ],
     "format": "Book",
-    "publicationDate": 1925
+    "publicationDate": "N/A"
   }
 ]

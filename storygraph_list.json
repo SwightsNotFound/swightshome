@@ -141,7 +141,7 @@
       "fast-paced"
     ],
     "format": "Book",
-    "publicationDate": "N/A"
+    "publicationDate": 2009
   },
   {
     "title": "The Battle of the Labyrinth",
@@ -250,7 +250,7 @@
       "fast-paced"
     ],
     "format": "Book",
-    "publicationDate": "N/A"
+    "publicationDate": 2005
   },
   {
     "title": "The Sea of Monsters",
@@ -289,7 +289,7 @@
       "fast-paced"
     ],
     "format": "Book",
-    "publicationDate": "N/A"
+    "publicationDate": 2005
   },
   {
     "title": "Artemis",
@@ -320,7 +320,7 @@
       "fast-paced"
     ],
     "format": "Book",
-    "publicationDate": "N/A"
+    "publicationDate": 2017
   },
   {
     "title": "The Andromeda Strain",
@@ -355,7 +355,7 @@
       "medium-paced"
     ],
     "format": "Book",
-    "publicationDate": "N/A"
+    "publicationDate": 1969
   },
   {
     "title": "Children of Time",
@@ -460,6 +460,6 @@
       "medium-paced"
     ],
     "format": "Book",
-    "publicationDate": "N/A"
+    "publicationDate": 1925
   }
 ]

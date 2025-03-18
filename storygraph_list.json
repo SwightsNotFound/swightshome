@@ -63,7 +63,7 @@
       "medium-paced"
     ],
     "format": "Book",
-    "publicationDate": 2011
+    "publicationDate": "N/A"
   },
   {
     "title": "The Secret Garden",
@@ -102,7 +102,7 @@
       "medium-paced"
     ],
     "format": "Book",
-    "publicationDate": 1911
+    "publicationDate": "N/A"
   },
   {
     "title": "The Last Olympian",
@@ -141,7 +141,7 @@
       "fast-paced"
     ],
     "format": "Book",
-    "publicationDate": 2009
+    "publicationDate": "N/A"
   },
   {
     "title": "The Battle of the Labyrinth",
@@ -460,6 +460,6 @@
       "medium-paced"
     ],
     "format": "Book",
-    "publicationDate": "N/A"
+    "publicationDate": 1925
   }
 ]

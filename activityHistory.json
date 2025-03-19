@@ -18023,6 +18023,21 @@
         },
         "siteUrl": "https://anilist.co/anime/164172"
       }
+    },
+    {
+      "status": "watched episode",
+      "progress": "23",
+      "createdAt": 1742396347,
+      "media": {
+        "title": {
+          "english": "Tying the Knot with an Amagami Sister",
+          "romaji": "Amagami-san Chi no Enmusubi"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx164172-GY2aqItIuqtR.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/164172"
+      }
     }
   ]
 }

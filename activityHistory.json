@@ -18098,6 +18098,21 @@
         },
         "siteUrl": "https://anilist.co/anime/175443"
       }
+    },
+    {
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1742423742,
+      "media": {
+        "title": {
+          "english": "Flower and Asura",
+          "romaji": "Hana wa Saku, Shura no Gotoku"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178022-gB3zAfazGBJ6.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/178022"
+      }
     }
   ]
 }

@@ -18038,6 +18038,36 @@
         },
         "siteUrl": "https://anilist.co/anime/164172"
       }
+    },
+    {
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1742415892,
+      "media": {
+        "title": {
+          "english": "Medaka Kuroiwa is Impervious to My Charms",
+          "romaji": "Kuroiwa Medaka ni Watashi no Kawaii ga Tsuujinai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177552-JPx2rIXeprne.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177552"
+      }
+    },
+    {
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1742417771,
+      "media": {
+        "title": {
+          "english": "Medaka Kuroiwa is Impervious to My Charms",
+          "romaji": "Kuroiwa Medaka ni Watashi no Kawaii ga Tsuujinai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177552-JPx2rIXeprne.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177552"
+      }
     }
   ]
 }

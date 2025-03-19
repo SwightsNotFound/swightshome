@@ -17991,6 +17991,21 @@
         },
         "siteUrl": "https://anilist.co/anime/177709"
       }
+    },
+    {
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1742350257,
+      "media": {
+        "title": {
+          "english": "I Want to Escape from Princess Lessons",
+          "romaji": "Kisaki Kyouiku kara Nigetai Watashi"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170650-iVQC67atMVj3.png"
+        },
+        "siteUrl": "https://anilist.co/anime/170650"
+      }
     }
   ]
 }

@@ -18295,6 +18295,21 @@
         },
         "siteUrl": "https://anilist.co/anime/170892"
       }
+    },
+    {
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1742497420,
+      "media": {
+        "title": {
+          "english": "Toilet-bound Hanako-kun Season 2",
+          "romaji": "Jibaku Shounen Hanako-kun 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170892-VFCGRI41xFUF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/170892"
+      }
     }
   ]
 }

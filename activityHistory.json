@@ -18340,6 +18340,21 @@
         },
         "siteUrl": "https://anilist.co/anime/177506"
       }
+    },
+    {
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1742503007,
+      "media": {
+        "title": {
+          "english": "I May Be a Guild Receptionist, but I’ll Solo Any Boss to Clock Out on Time",
+          "romaji": "Guild no Uketsukejou desu ga, Zangyou wa Iya nanode Boss wo Solo Toubatsu Shiyou to Omoimasu"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx167143-SoFo5kOvlkbO.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/167143"
+      }
     }
   ]
 }

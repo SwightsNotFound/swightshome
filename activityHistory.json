@@ -18220,6 +18220,36 @@
         },
         "siteUrl": "https://anilist.co/anime/178550"
       }
+    },
+    {
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1742488383,
+      "media": {
+        "title": {
+          "english": "Medalist",
+          "romaji": "Medalist"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx165171-nTOHsbh3pThN.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/165171"
+      }
+    },
+    {
+      "status": "watched episode",
+      "progress": "24",
+      "createdAt": 1742489732,
+      "media": {
+        "title": {
+          "english": "Blue Box",
+          "romaji": "Ao no Hako"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170942-B77wUSM1jQTu.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/170942"
+      }
     }
   ]
 }

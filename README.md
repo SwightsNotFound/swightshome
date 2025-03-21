@@ -1,3 +1,6 @@
+# Moved
+This has been moved to my own self-hosted [Gitea server](https://git.swightshome.xyz/Swight/swightshome), whats on here is very out of date and not used on Swightshome anymore.
+
 # swightshome
 A website for things I host for people I know.
 This website is for various services on my Homelab aswell as my Links page.

@@ -1,0 +1,711 @@
+{
+  "anime": {
+    "nodes": [
+      {
+        "id": 16498,
+        "title": {
+          "romaji": "Shingeki no Kyojin",
+          "english": "Attack on Titan"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx16498-buvcRTBx4NSm.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/16498"
+      },
+      {
+        "id": 108465,
+        "title": {
+          "romaji": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+          "english": "Mushoku Tensei: Jobless Reincarnation"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108465-1ANspF1EWyFx.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/108465"
+      },
+      {
+        "id": 127720,
+        "title": {
+          "romaji": "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2",
+          "english": "Mushoku Tensei: Jobless Reincarnation Cour 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127720-ADJgIrUVMdU9.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/127720"
+      },
+      {
+        "id": 146065,
+        "title": {
+          "romaji": "Mushoku Tensei II: Isekai Ittara Honki Dasu",
+          "english": "Mushoku Tensei: Jobless Reincarnation Season 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx146065-IjirxRK26O03.png"
+        },
+        "siteUrl": "https://anilist.co/anime/146065"
+      },
+      {
+        "id": 166873,
+        "title": {
+          "romaji": "Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2",
+          "english": "Mushoku Tensei: Jobless Reincarnation Season 2 Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166873-xO0BRPkmwFll.png"
+        },
+        "siteUrl": "https://anilist.co/anime/166873"
+      },
+      {
+        "id": 185407,
+        "title": {
+          "romaji": "Takopii no Genzai",
+          "english": "Takopi's Original Sin"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185407-7uzY4fA3hokP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/185407"
+      },
+      {
+        "id": 103572,
+        "title": {
+          "romaji": "Go-toubun no Hanayome",
+          "english": "The Quintessential Quintuplets"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx103572-cchriAdH95cQ.png"
+        },
+        "siteUrl": "https://anilist.co/anime/103572"
+      },
+      {
+        "id": 105333,
+        "title": {
+          "romaji": "Dr. STONE",
+          "english": "Dr. STONE"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-GybuoSoOZfpH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105333"
+      },
+      {
+        "id": 20954,
+        "title": {
+          "romaji": "Koe no Katachi",
+          "english": "A Silent Voice"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20954-sYRfE5jQRtSB.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20954"
+      },
+      {
+        "id": 99750,
+        "title": {
+          "romaji": "Kimi no Suizou wo Tabetai",
+          "english": "I Want to Eat Your Pancreas"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99750-pNyly9d3MEgV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/99750"
+      },
+      {
+        "id": 124080,
+        "title": {
+          "romaji": "Horimiya",
+          "english": "Horimiya"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx124080-oeviACzGv5Vx.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/124080"
+      },
+      {
+        "id": 12189,
+        "title": {
+          "romaji": "Hyouka",
+          "english": "Hyouka"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx12189-zj5AWUYO53Fv.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/12189"
+      },
+      {
+        "id": 6045,
+        "title": {
+          "romaji": "Kimi ni Todoke",
+          "english": "Kimi ni Todoke: From Me to You"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6045-JujXjoWtslUM.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/6045"
+      },
+      {
+        "id": 9253,
+        "title": {
+          "romaji": "Steins;Gate",
+          "english": "Steins;Gate"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9253-tIUXF2gfU8Sg.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/9253"
+      },
+      {
+        "id": 140960,
+        "title": {
+          "romaji": "SPY×FAMILY",
+          "english": "SPY x FAMILY"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140960-Kb6R5nYQfjmP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/140960"
+      },
+      {
+        "id": 106286,
+        "title": {
+          "romaji": "Tenki no Ko",
+          "english": "Weathering With You"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx106286-5COcpd0J9VbL.png"
+        },
+        "siteUrl": "https://anilist.co/anime/106286"
+      },
+      {
+        "id": 2167,
+        "title": {
+          "romaji": "CLANNAD",
+          "english": "Clannad"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2167-pSDBcyc0vjej.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/2167"
+      },
+      {
+        "id": 105334,
+        "title": {
+          "romaji": "Fruits Basket: 1st Season",
+          "english": "Fruits Basket (2019)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105334-AZwEdMu4KFtV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105334"
+      },
+      {
+        "id": 21804,
+        "title": {
+          "romaji": "Saiki Kusuo no Ψ-nan",
+          "english": "The Disastrous Life of Saiki K."
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21804-As6tDLAvEvNY.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/21804"
+      },
+      {
+        "id": 113596,
+        "title": {
+          "romaji": "Josee to Tora to Sakanatachi",
+          "english": "Josee, the Tiger and the Fish"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113596-LKA0bYJGjLnB.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113596"
+      },
+      {
+        "id": 101348,
+        "title": {
+          "romaji": "VINLAND SAGA",
+          "english": "Vinland Saga"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101348-2fhDFPCuMNiz.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101348"
+      },
+      {
+        "id": 101347,
+        "title": {
+          "romaji": "Dororo",
+          "english": "Dororo"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101347-TGaDwEYqLfm1.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101347"
+      },
+      {
+        "id": 181444,
+        "title": {
+          "romaji": "Kaoru Hana wa Rin to Saku",
+          "english": "The Fragrant Flower Blooms With Dignity"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181444-Ut9DDUZdfHwg.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/181444"
+      },
+      {
+        "id": 4181,
+        "title": {
+          "romaji": "CLANNAD: After Story",
+          "english": "Clannad: After Story"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4181-zUKE7BZC62OF.png"
+        },
+        "siteUrl": "https://anilist.co/anime/4181"
+      }
+    ]
+  },
+  "manga": {
+    "nodes": [
+      {
+        "id": 97553,
+        "title": {
+          "romaji": "Jumyou wo Kaitotte Moratta. Ichinen ni Tsuki, Ichimanen de.",
+          "english": null
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx97553-vqJj5DFS8v2p.jpg"
+        },
+        "siteUrl": "https://anilist.co/manga/97553"
+      },
+      {
+        "id": 56736,
+        "title": {
+          "romaji": "Taiyou no Ie",
+          "english": "House of the Sun"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx56736-qYpc12PAQMxi.jpg"
+        },
+        "siteUrl": "https://anilist.co/manga/56736"
+      },
+      {
+        "id": 117620,
+        "title": {
+          "romaji": "Kimi to Tsuzuru Utakata",
+          "english": "The Summer You Were There"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx117620-cyvy8nO9GLm8.jpg"
+        },
+        "siteUrl": "https://anilist.co/manga/117620"
+      },
+      {
+        "id": 44236,
+        "title": {
+          "romaji": "LOVE SO LIFE",
+          "english": null
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx44236-MaTi4D6Pc6kh.jpg"
+        },
+        "siteUrl": "https://anilist.co/manga/44236"
+      }
+    ]
+  },
+  "characters": {
+    "nodes": [
+      {
+        "id": 88346,
+        "name": {
+          "full": "Sylphiette",
+          "native": "シルフィエット"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b88346-h8kCL93AXj4n.png"
+        },
+        "siteUrl": "https://anilist.co/character/88346"
+      },
+      {
+        "id": 88350,
+        "name": {
+          "full": "Roxy Migurdia",
+          "native": "ロキシー・ミグルディア"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b88350-QU1iwgZ887U8.png"
+        },
+        "siteUrl": "https://anilist.co/character/88350"
+      },
+      {
+        "id": 88349,
+        "name": {
+          "full": "Eris Boreas Greyrat",
+          "native": "エリス・ボレアス・グレイラット"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b88349-5dsNUah3oBj8.png"
+        },
+        "siteUrl": "https://anilist.co/character/88349"
+      },
+      {
+        "id": 88348,
+        "name": {
+          "full": "Rudeus Greyrat",
+          "native": "ルーデウス・グレイラット"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b88348-bIe5XnXdRpmX.png"
+        },
+        "siteUrl": "https://anilist.co/character/88348"
+      },
+      {
+        "id": 257562,
+        "name": {
+          "full": "Hitori Gotou",
+          "native": "後藤ひとり"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b257562-Ru35NYPfsqhY.png"
+        },
+        "siteUrl": "https://anilist.co/character/257562"
+      },
+      {
+        "id": 207,
+        "name": {
+          "full": "Tooru Honda",
+          "native": "本田透"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b207-RQ4EUdTD0K62.png"
+        },
+        "siteUrl": "https://anilist.co/character/207"
+      },
+      {
+        "id": 209,
+        "name": {
+          "full": "Kyou Souma",
+          "native": "草摩夾"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b209-NOAbiLvJt1QA.png"
+        },
+        "siteUrl": "https://anilist.co/character/209"
+      },
+      {
+        "id": 90169,
+        "name": {
+          "full": "Violet Evergarden",
+          "native": "ヴァイオレット・エヴァーガーデン"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b90169-4wr1Zehnsac8.png"
+        },
+        "siteUrl": "https://anilist.co/character/90169"
+      },
+      {
+        "id": 268676,
+        "name": {
+          "full": "Kaoruko Waguri",
+          "native": "和栗薫子"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b268676-aQmqvqj0DNoJ.png"
+        },
+        "siteUrl": "https://anilist.co/character/268676"
+      },
+      {
+        "id": 268677,
+        "name": {
+          "full": "Rintarou Tsumugi",
+          "native": "紬凛太郎"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b268677-oTCZrGWtenMv.png"
+        },
+        "siteUrl": "https://anilist.co/character/268677"
+      },
+      {
+        "id": 133676,
+        "name": {
+          "full": "Marin Kitagawa",
+          "native": "喜多川海夢"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b133676-kV2czE3C8Qls.png"
+        },
+        "siteUrl": "https://anilist.co/character/133676"
+      },
+      {
+        "id": 40882,
+        "name": {
+          "full": "Eren Yeager",
+          "native": "エレン・イェーガー"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b40882-dsj7IP943WFF.jpg"
+        },
+        "siteUrl": "https://anilist.co/character/40882"
+      },
+      {
+        "id": 126373,
+        "name": {
+          "full": "Miku Nakano",
+          "native": "中野三玖"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b126373-CWeyXb822uDN.png"
+        },
+        "siteUrl": "https://anilist.co/character/126373"
+      },
+      {
+        "id": 126371,
+        "name": {
+          "full": "Ichika Nakano",
+          "native": "中野一花"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b126371-0KQpl80s8kXQ.png"
+        },
+        "siteUrl": "https://anilist.co/character/126371"
+      },
+      {
+        "id": 126374,
+        "name": {
+          "full": "Yotsuba Nakano",
+          "native": "中野四葉"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b126374-Aal36iSQ5nKz.png"
+        },
+        "siteUrl": "https://anilist.co/character/126374"
+      },
+      {
+        "id": 126372,
+        "name": {
+          "full": "Nino Nakano",
+          "native": "中野二乃"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b126372-DtorHRgQaYUJ.png"
+        },
+        "siteUrl": "https://anilist.co/character/126372"
+      },
+      {
+        "id": 126375,
+        "name": {
+          "full": "Itsuki Nakano",
+          "native": "中野五月"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b126375-dEe9IyQ9By09.png"
+        },
+        "siteUrl": "https://anilist.co/character/126375"
+      },
+      {
+        "id": 80243,
+        "name": {
+          "full": "Shouko Nishimiya",
+          "native": "西宮硝子"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b80243-RzxE51iUU5eq.png"
+        },
+        "siteUrl": "https://anilist.co/character/80243"
+      },
+      {
+        "id": 80491,
+        "name": {
+          "full": "Shouya Ishida",
+          "native": "石田将也"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b80491-NK6pxb6oH61P.png"
+        },
+        "siteUrl": "https://anilist.co/character/80491"
+      },
+      {
+        "id": 6977,
+        "name": {
+          "full": "Sawako Kuronuma",
+          "native": "黒沼爽子"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b6977-rCtlFRoYgE07.png"
+        },
+        "siteUrl": "https://anilist.co/character/6977"
+      },
+      {
+        "id": 13531,
+        "name": {
+          "full": "Shouta Kazehaya",
+          "native": "風早翔太"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/n13531-z66ipM6nJioi.png"
+        },
+        "siteUrl": "https://anilist.co/character/13531"
+      },
+      {
+        "id": 138101,
+        "name": {
+          "full": "Loid Forger",
+          "native": "ロイド・フォージャー"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b138101-7NCB0Md8zA6G.png"
+        },
+        "siteUrl": "https://anilist.co/character/138101"
+      },
+      {
+        "id": 138102,
+        "name": {
+          "full": "Yor Forger",
+          "native": "ヨル・フォージャー"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b138102-ZOAu9jI2d5ke.png"
+        },
+        "siteUrl": "https://anilist.co/character/138102"
+      },
+      {
+        "id": 138100,
+        "name": {
+          "full": "Anya Forger",
+          "native": "アーニャ・フォージャー"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b138100-4Li0tWRCa5bQ.png"
+        },
+        "siteUrl": "https://anilist.co/character/138100"
+      },
+      {
+        "id": 35252,
+        "name": {
+          "full": "Rintarou Okabe",
+          "native": "岡部倫太郎"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b35252-DY9TW6pusqeh.png"
+        },
+        "siteUrl": "https://anilist.co/character/35252"
+      }
+    ]
+  },
+  "staff": {
+    "nodes": [
+      {
+        "id": 106705,
+        "name": {
+          "full": "Hajime Isayama",
+          "native": "諫山創"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n106705-ttS2qZpF2FTZ.jpg"
+        },
+        "siteUrl": "https://anilist.co/staff/106705"
+      },
+      {
+        "id": 118743,
+        "name": {
+          "full": "Rifujin na Magonote",
+          "native": "理不尽な孫の手"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n118743-ikzTCd1mLvgn.png"
+        },
+        "siteUrl": "https://anilist.co/staff/118743"
+      },
+      {
+        "id": 96873,
+        "name": {
+          "full": "Natsuki Takaya",
+          "native": "高屋奈月"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/1873.jpg"
+        },
+        "siteUrl": "https://anilist.co/staff/96873"
+      },
+      {
+        "id": 97885,
+        "name": {
+          "full": "Key",
+          "native": "Key"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/2885.jpg"
+        },
+        "siteUrl": "https://anilist.co/staff/97885"
+      },
+      {
+        "id": 105951,
+        "name": {
+          "full": "Yoshitoki Ooima",
+          "native": "大今良時"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n105951-s6fagS5CkUWZ.png"
+        },
+        "siteUrl": "https://anilist.co/staff/105951"
+      },
+      {
+        "id": 111703,
+        "name": {
+          "full": "HERO",
+          "native": null
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n111703-PSFw4W9kJoWP.png"
+        },
+        "siteUrl": "https://anilist.co/staff/111703"
+      },
+      {
+        "id": 96117,
+        "name": {
+          "full": "Makoto Shinkai",
+          "native": "新海誠"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n96117-X0ivK1cAvdzA.png"
+        },
+        "siteUrl": "https://anilist.co/staff/96117"
+      },
+      {
+        "id": 98543,
+        "name": {
+          "full": "Tatsuya Endou",
+          "native": "遠藤達哉"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n98543-PbFshjbz7YpJ.png"
+        },
+        "siteUrl": "https://anilist.co/staff/98543"
+      },
+      {
+        "id": 119140,
+        "name": {
+          "full": "Negi Haruba",
+          "native": "春場ねぎ"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n119140-WP6VHXjFCxBA.jpg"
+        },
+        "siteUrl": "https://anilist.co/staff/119140"
+      },
+      {
+        "id": 95118,
+        "name": {
+          "full": "Hiroshi Kamiya",
+          "native": "神谷浩史"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        },
+        "siteUrl": "https://anilist.co/staff/95118"
+      }
+    ]
+  }
+}

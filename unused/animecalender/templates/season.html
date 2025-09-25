@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Anime for {{ season.capitalize() }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <script>
+        function startCountdown() {
+            const elements = document.querySelectorAll('.countdown');
+            elements.forEach(element => {
+                const airingTime = new Date(element.dataset.airingAt * 1000);
+                const countdown = setInterval(() => {
+                    const now = new Date().getTime();
+                    const distance = airingTime - now;
+                    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                    element.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+                    if (distance < 0) {
+                        clearInterval(countdown);
+                        element.innerHTML = "Airing Now";
+                    }
+                }, 1000);
+            });
+        }
+        document.addEventListener('DOMContentLoaded', startCountdown);
+
+        function toggleDropdown() {
+            const dropdownMenu = document.getElementById('dropdown-menu');
+            dropdownMenu.classList.toggle('is-active');
+            if (dropdownMenu.classList.contains('is-active')) {
+                dropdownMenu.style.maxHeight = dropdownMenu.scrollHeight + "px";
+            } else {
+                dropdownMenu.style.maxHeight = 0;
+            }
+        }
+    </script>
+    <style>
+        .dropdown {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1000;
+        }
+
+        .dropdown-trigger button {
+            background-color: #00d1b2;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 24px;
+            padding: 10px 12px;
+            border-radius: 5px;
+        }
+
+        .dropdown-menu {
+            display: block;
+            position: absolute;
+            background-color: white;
+            color: #00d1b2;
+            border: 2px solid #00d1b2;
+            border-radius: 5px;
+            padding: 0;
+            margin-top: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, opacity 0.3s ease;
+            opacity: 0;
+        }
+
+        .dropdown-menu.is-active {
+            opacity: 1;
+            max-height: 300px;
+        }
+
+        .dropdown-menu .dropdown-item {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            color: #00d1b2;
+            text-decoration: none;
+            font-size: 24px;
+            transition: background 0.3s ease, color 0.3s ease, max-width 0.3s ease;
+        }
+
+        .dropdown-menu .dropdown-item .title {
+            margin-left: 10px;
+            font-size: 18px;
+            max-width: 0;
+            overflow: hidden;
+            white-space: nowrap;
+            transition: max-width 0.3s ease;
+        }
+
+        .dropdown-menu .dropdown-item:hover {
+            background-color: #00d1b2;
+            color: white;
+        }
+
+        .dropdown-menu .dropdown-item:hover .title {
+            max-width: 200px;
+        }
+
+        .dropdown-menu .separator {
+            padding: 10px;
+            color: #00d1b2;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .anime-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .anime-card {
+            margin-bottom: 1rem;
+            max-width: 150px;
+            flex: 1 0 21%;
+            /* Adjust the number of items per row */
+        }
+
+        .anime-card img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .countdown {
+            font-weight: bold;
+            color: #ff3860;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dropdown">
+        <div class="dropdown-trigger">
+            <button onclick="toggleDropdown()">
+                <span>☰</span>
+            </button>
+        </div>
+        <div id="dropdown-menu" class="dropdown-menu">
+            <div class="dropdown-content">
+                <div class="separator">Upcoming seasons this year</div>
+                {% if season != 'winter' and current_season != 'winter' %}
+                <a href="/season/winter" class="dropdown-item">
+                    <span class="icon">❄️</span>
+                    <span class="title">Winter</span>
+                </a>
+                {% endif %}
+                {% if season != 'spring' and current_season != 'spring' %}
+                <a href="/season/spring" class="dropdown-item">
+                    <span class="icon">🌸</span>
+                    <span class="title">Spring</span>
+                </a>
+                {% endif %}
+                {% if season != 'summer' and current_season != 'summer' %}
+                <a href="/season/summer" class="dropdown-item">
+                    <span class="icon">☀️</span>
+                    <span class="title">Summer</span>
+                </a>
+                {% endif %}
+                {% if season != 'fall' and current_season != 'fall' %}
+                <a href="/season/fall" class="dropdown-item">
+                    <span class="icon">🍂</span>
+                    <span class="title">Fall</span>
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container">
+            <h1 class="title has-text-centered">Upcoming Anime for {{ season.capitalize() }}</h1>
+            <div class="anime-list">
+                {% for anime in anime_list %}
+                <div class="card anime-card">
+                    <div class="card-image">
+                        <figure class="image is-2by3">
+                            <a href="{{ anime.site_url }}" target="_blank">
+                                <img src="{{ anime.cover_image }}" alt="{{ anime.title }}">
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <a href="{{ anime.site_url }}" target="_blank">
+                            <p class="title is-6">{{ anime.title }}</p>
+                        </a>
+                        {% if anime.start_date %}
+                        <p class="subtitle is-7">Starts on: {{ formatDateTime(anime.start_date) }}</p>
+                        {% else %}
+                        <p class="subtitle is-7">Start date unknown</p>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

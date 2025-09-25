@@ -1,0 +1,1004 @@
+[
+  {
+    "name": "Paused",
+    "entries": [
+      {
+        "id": 35255,
+        "title": "Dengeki Daisy",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx35255-30ZO1gj8HOON.png",
+        "averageScore": 77,
+        "chapters": 80,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 43,
+        "links": {
+          "anilist": "https://anilist.co/manga/35255/",
+          "mal": "https://myanimelist.net/manga/35255",
+          "kitsu": "https://kitsu.io/manga/35255"
+        }
+      },
+      {
+        "id": 112813,
+        "title": "Midori no Tomari Ki",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx112813-FqVZqltw0Uv4.jpg",
+        "averageScore": 56,
+        "chapters": 19,
+        "status": "FINISHED",
+        "genres": [
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 16,
+        "links": {
+          "anilist": "https://anilist.co/manga/112813/",
+          "mal": "https://myanimelist.net/manga/112813",
+          "kitsu": "https://kitsu.io/manga/112813"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Completed",
+    "entries": [
+      {
+        "id": 97553,
+        "title": "Jumyou wo Kaitotte Moratta. Ichinen ni Tsuki, Ichimanen de.",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx97553-vqJj5DFS8v2p.jpg",
+        "averageScore": 86,
+        "chapters": 18,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 10,
+        "progress": 18,
+        "links": {
+          "anilist": "https://anilist.co/manga/97553/",
+          "mal": "https://myanimelist.net/manga/97553",
+          "kitsu": "https://kitsu.io/manga/97553"
+        }
+      },
+      {
+        "id": 117620,
+        "title": "The Summer You Were There",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx117620-cyvy8nO9GLm8.jpg",
+        "averageScore": 86,
+        "chapters": 32,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 32,
+        "links": {
+          "anilist": "https://anilist.co/manga/117620/",
+          "mal": "https://myanimelist.net/manga/117620",
+          "kitsu": "https://kitsu.io/manga/117620"
+        }
+      },
+      {
+        "id": 174875,
+        "title": "Kimi ni Okuru Eien",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx174875-4dU2x0Rmtwqa.jpg",
+        "averageScore": 85,
+        "chapters": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Romance"
+        ],
+        "format": "ONE_SHOT",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/manga/174875/",
+          "mal": "https://myanimelist.net/manga/174875",
+          "kitsu": "https://kitsu.io/manga/174875"
+        }
+      },
+      {
+        "id": 56736,
+        "title": "House of the Sun",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx56736-qYpc12PAQMxi.jpg",
+        "averageScore": 79,
+        "chapters": 70,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 70,
+        "links": {
+          "anilist": "https://anilist.co/manga/56736/",
+          "mal": "https://myanimelist.net/manga/56736",
+          "kitsu": "https://kitsu.io/manga/56736"
+        }
+      },
+      {
+        "id": 44236,
+        "title": "LOVE SO LIFE",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx44236-MaTi4D6Pc6kh.jpg",
+        "averageScore": 80,
+        "chapters": 111,
+        "status": "FINISHED",
+        "genres": [
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 111,
+        "links": {
+          "anilist": "https://anilist.co/manga/44236/",
+          "mal": "https://myanimelist.net/manga/44236",
+          "kitsu": "https://kitsu.io/manga/44236"
+        }
+      },
+      {
+        "id": 86243,
+        "title": "Tsubaki-chou Lonely Planet",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx86243-VNz7YlbNI6ao.jpg",
+        "averageScore": 77,
+        "chapters": 85,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 7,
+        "progress": 85,
+        "links": {
+          "anilist": "https://anilist.co/manga/86243/",
+          "mal": "https://myanimelist.net/manga/86243",
+          "kitsu": "https://kitsu.io/manga/86243"
+        }
+      },
+      {
+        "id": 56021,
+        "title": "Hajimari no Niina",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx56021-3i9syQ7tHlVU.jpg",
+        "averageScore": 74,
+        "chapters": 22,
+        "status": "FINISHED",
+        "genres": [
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 6,
+        "progress": 22,
+        "links": {
+          "anilist": "https://anilist.co/manga/56021/",
+          "mal": "https://myanimelist.net/manga/56021",
+          "kitsu": "https://kitsu.io/manga/56021"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Planning",
+    "entries": [
+      {
+        "id": 74489,
+        "title": "Land of the Lustrous",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx74489-5HtDCFfut8Be.jpg",
+        "averageScore": 89,
+        "chapters": 108,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Mystery",
+          "Psychological",
+          "Sci-Fi"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/74489/",
+          "mal": "https://myanimelist.net/manga/74489",
+          "kitsu": "https://kitsu.io/manga/74489"
+        }
+      },
+      {
+        "id": 119257,
+        "title": "Omniscient Reader",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx119257-Pi21aq3ey9GG.jpg",
+        "averageScore": 86,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "format": "MANGA",
+        "country": "KR",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/119257/",
+          "mal": "https://myanimelist.net/manga/119257",
+          "kitsu": "https://kitsu.io/manga/119257"
+        }
+      },
+      {
+        "id": 38439,
+        "title": "Ano Ko to Boku no Ie",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx38439-NGqOMfNbPIzf.png",
+        "averageScore": 62,
+        "chapters": 4,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/38439/",
+          "mal": "https://myanimelist.net/manga/38439",
+          "kitsu": "https://kitsu.io/manga/38439"
+        }
+      },
+      {
+        "id": 57231,
+        "title": "Daytime Shooting Star",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx57231-EBobSNzMi3iV.jpg",
+        "averageScore": 78,
+        "chapters": 86,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/57231/",
+          "mal": "https://myanimelist.net/manga/57231",
+          "kitsu": "https://kitsu.io/manga/57231"
+        }
+      },
+      {
+        "id": 30021,
+        "title": "Death Note",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx30021-FE6kmrfpuKyb.jpg",
+        "averageScore": 84,
+        "chapters": 108,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Psychological",
+          "Supernatural",
+          "Thriller"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/30021/",
+          "mal": "https://myanimelist.net/manga/30021",
+          "kitsu": "https://kitsu.io/manga/30021"
+        }
+      },
+      {
+        "id": 87216,
+        "title": "Demon Slayer: Kimetsu no Yaiba",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx87216-c9bSNVD10UuD.png",
+        "averageScore": 79,
+        "chapters": 207,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Supernatural"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/87216/",
+          "mal": "https://myanimelist.net/manga/87216",
+          "kitsu": "https://kitsu.io/manga/87216"
+        }
+      },
+      {
+        "id": 96767,
+        "title": "Honey Lemon Soda",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx96767-byZGxMjQUXLu.jpg",
+        "averageScore": 77,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/96767/",
+          "mal": "https://myanimelist.net/manga/96767",
+          "kitsu": "https://kitsu.io/manga/96767"
+        }
+      },
+      {
+        "id": 96791,
+        "title": "She and Her Cat",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx96791-AnTA12TsBgf1.jpg",
+        "averageScore": 73,
+        "chapters": 5,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/96791/",
+          "mal": "https://myanimelist.net/manga/96791",
+          "kitsu": "https://kitsu.io/manga/96791"
+        }
+      },
+      {
+        "id": 80217,
+        "title": "the gods lie.",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx80217-QGyYpWc3qcpI.png",
+        "averageScore": 76,
+        "chapters": 5,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/80217/",
+          "mal": "https://myanimelist.net/manga/80217",
+          "kitsu": "https://kitsu.io/manga/80217"
+        }
+      },
+      {
+        "id": 85611,
+        "title": "Tokyo Ghoul:re",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx85611-Asb0BNP23NsJ.png",
+        "averageScore": 83,
+        "chapters": 181,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Horror",
+          "Mystery",
+          "Psychological",
+          "Supernatural"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/85611/",
+          "mal": "https://myanimelist.net/manga/85611",
+          "kitsu": "https://kitsu.io/manga/85611"
+        }
+      },
+      {
+        "id": 51525,
+        "title": "Yona of the Dawn",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx51525-wZ1AjkbXrKns.png",
+        "averageScore": 87,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/51525/",
+          "mal": "https://myanimelist.net/manga/51525",
+          "kitsu": "https://kitsu.io/manga/51525"
+        }
+      },
+      {
+        "id": 39607,
+        "title": "Dreamin' Sun",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx39607-NcdvThhTLcV5.jpg",
+        "averageScore": 71,
+        "chapters": 53,
+        "status": "FINISHED",
+        "genres": [
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/39607/",
+          "mal": "https://myanimelist.net/manga/39607",
+          "kitsu": "https://kitsu.io/manga/39607"
+        }
+      },
+      {
+        "id": 30102,
+        "title": "Fruits Basket",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx30102-MJuQ0e0k2CgU.png",
+        "averageScore": 85,
+        "chapters": 137,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Psychological",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/30102/",
+          "mal": "https://myanimelist.net/manga/30102",
+          "kitsu": "https://kitsu.io/manga/30102"
+        }
+      },
+      {
+        "id": 86691,
+        "title": "Fruits Basket: Another",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx86691-XyfIpcLGAP2d.jpg",
+        "averageScore": 70,
+        "chapters": 39,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/86691/",
+          "mal": "https://myanimelist.net/manga/86691",
+          "kitsu": "https://kitsu.io/manga/86691"
+        }
+      },
+      {
+        "id": 126297,
+        "title": "Teenage Mercenary",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx126297-SPiM7QtUnJ4P.jpg",
+        "averageScore": 80,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "format": "MANGA",
+        "country": "KR",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/126297/",
+          "mal": "https://myanimelist.net/manga/126297",
+          "kitsu": "https://kitsu.io/manga/126297"
+        }
+      },
+      {
+        "id": 114416,
+        "title": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx114416-XtRJ8tI9GtuI.jpg",
+        "averageScore": 77,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Comedy",
+          "Ecchi",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/114416/",
+          "mal": "https://myanimelist.net/manga/114416",
+          "kitsu": "https://kitsu.io/manga/114416"
+        }
+      },
+      {
+        "id": 130429,
+        "title": "I Shall Master this Family!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx130429-m3PuqOmxBgoo.png",
+        "averageScore": 82,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "KR",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/130429/",
+          "mal": "https://myanimelist.net/manga/130429",
+          "kitsu": "https://kitsu.io/manga/130429"
+        }
+      },
+      {
+        "id": 153513,
+        "title": "Tyrant of the Tower Defense Game",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx153513-dzG6p5H2wrN2.jpg",
+        "averageScore": 78,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy"
+        ],
+        "format": "MANGA",
+        "country": "KR",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/153513/",
+          "mal": "https://myanimelist.net/manga/153513",
+          "kitsu": "https://kitsu.io/manga/153513"
+        }
+      },
+      {
+        "id": 30642,
+        "title": "Vinland Saga",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx30642-0mjRDkf4THpo.jpg",
+        "averageScore": 90,
+        "chapters": 220,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/30642/",
+          "mal": "https://myanimelist.net/manga/30642",
+          "kitsu": "https://kitsu.io/manga/30642"
+        }
+      },
+      {
+        "id": 174790,
+        "title": "Learning to Love My Cat-like Classmate",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx174790-7wZ1sDAhcofd.jpg",
+        "averageScore": 77,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/174790/",
+          "mal": "https://myanimelist.net/manga/174790",
+          "kitsu": "https://kitsu.io/manga/174790"
+        }
+      },
+      {
+        "id": 101076,
+        "title": "Aozora to Kumorizora",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx101076-v9HXBpCv47Cm.jpg",
+        "averageScore": 75,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/101076/",
+          "mal": "https://myanimelist.net/manga/101076",
+          "kitsu": "https://kitsu.io/manga/101076"
+        }
+      },
+      {
+        "id": 98361,
+        "title": "Three Days of Happiness",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx98361-Zn6ICdUCq7pf.jpg",
+        "averageScore": 88,
+        "chapters": 15,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Romance",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "NOVEL",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/98361/",
+          "mal": "https://myanimelist.net/manga/98361",
+          "kitsu": "https://kitsu.io/manga/98361"
+        }
+      },
+      {
+        "id": 98071,
+        "title": "Itai no Itai no, Tonde Yuke",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx98071-2FLQk19x9Kxi.jpg",
+        "averageScore": 79,
+        "chapters": 10,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Horror",
+          "Mystery",
+          "Psychological",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "NOVEL",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/98071/",
+          "mal": "https://myanimelist.net/manga/98071",
+          "kitsu": "https://kitsu.io/manga/98071"
+        }
+      },
+      {
+        "id": 85135,
+        "title": "A Silent Voice",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx85135-11OOnyaqV71k.png",
+        "averageScore": 87,
+        "chapters": 64,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/85135/",
+          "mal": "https://myanimelist.net/manga/85135",
+          "kitsu": "https://kitsu.io/manga/85135"
+        }
+      },
+      {
+        "id": 117853,
+        "title": "The Tunnel to Summer, the Exit of Goodbyes",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx117853-xaXoWRQtAgyR.jpg",
+        "averageScore": 82,
+        "chapters": 6,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "NOVEL",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/117853/",
+          "mal": "https://myanimelist.net/manga/117853",
+          "kitsu": "https://kitsu.io/manga/117853"
+        }
+      },
+      {
+        "id": 111189,
+        "title": "A Sign of Affection",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx111189-tvPJRVj5nGic.png",
+        "averageScore": 84,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/111189/",
+          "mal": "https://myanimelist.net/manga/111189",
+          "kitsu": "https://kitsu.io/manga/111189"
+        }
+      },
+      {
+        "id": 99609,
+        "title": "I Want to Eat Your Pancreas",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx99609-hfnudDtTT1n5.jpg",
+        "averageScore": 83,
+        "chapters": 10,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/99609/",
+          "mal": "https://myanimelist.net/manga/99609",
+          "kitsu": "https://kitsu.io/manga/99609"
+        }
+      },
+      {
+        "id": 86218,
+        "title": "Bloom Into You",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx86218-sIl9tnqHZQyh.jpg",
+        "averageScore": 86,
+        "chapters": 53,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/86218/",
+          "mal": "https://myanimelist.net/manga/86218",
+          "kitsu": "https://kitsu.io/manga/86218"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Reading",
+    "entries": [
+      {
+        "id": 140475,
+        "title": "The Fragrant Flower Blooms With Dignity",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx140475-QEGtrmdvbpOv.jpg",
+        "averageScore": 88,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 50,
+        "links": {
+          "anilist": "https://anilist.co/manga/140475/",
+          "mal": "https://myanimelist.net/manga/140475",
+          "kitsu": "https://kitsu.io/manga/140475"
+        }
+      },
+      {
+        "id": 99737,
+        "title": "Tsuiraku JK to Haijin Kyoushi",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx99737-fmQITnDd3cUU.jpg",
+        "averageScore": 77,
+        "chapters": 139,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 37,
+        "links": {
+          "anilist": "https://anilist.co/manga/99737/",
+          "mal": "https://myanimelist.net/manga/99737",
+          "kitsu": "https://kitsu.io/manga/99737"
+        }
+      },
+      {
+        "id": 85470,
+        "title": "Mushoku Tensei: Jobless Reincarnation",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx85470-jt6BF9tDWB2X.jpg",
+        "averageScore": 87,
+        "chapters": 334,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Ecchi",
+          "Fantasy"
+        ],
+        "format": "NOVEL",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 2,
+        "links": {
+          "anilist": "https://anilist.co/manga/85470/",
+          "mal": "https://myanimelist.net/manga/85470",
+          "kitsu": "https://kitsu.io/manga/85470"
+        }
+      },
+      {
+        "id": 123777,
+        "title": "This Monster Wants to Eat Me",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx123777-sdb3Fts3FlVH.jpg",
+        "averageScore": 79,
+        "chapters": null,
+        "status": "RELEASING",
+        "genres": [
+          "Drama",
+          "Horror",
+          "Psychological",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/manga/123777/",
+          "mal": "https://myanimelist.net/manga/123777",
+          "kitsu": "https://kitsu.io/manga/123777"
+        }
+      },
+      {
+        "id": 107521,
+        "title": "Who Made Me a Princess",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx107521-M4x3AUb7UGIM.png",
+        "averageScore": 83,
+        "chapters": 125,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "KR",
+        "personalScore": 0,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/manga/107521/",
+          "mal": "https://myanimelist.net/manga/107521",
+          "kitsu": "https://kitsu.io/manga/107521"
+        }
+      },
+      {
+        "id": 105768,
+        "title": "Koisuru Kiseichuu",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx105768-Vh1iegsU5tJq.jpg",
+        "averageScore": 75,
+        "chapters": 16,
+        "status": "FINISHED",
+        "genres": [
+          "Psychological",
+          "Romance"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/105768/",
+          "mal": "https://myanimelist.net/manga/105768",
+          "kitsu": "https://kitsu.io/manga/105768"
+        }
+      },
+      {
+        "id": 100568,
+        "title": "The Horizon",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx100568-4BC0PsdwU4bL.png",
+        "averageScore": 85,
+        "chapters": 21,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Psychological"
+        ],
+        "format": "MANGA",
+        "country": "KR",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/100568/",
+          "mal": "https://myanimelist.net/manga/100568",
+          "kitsu": "https://kitsu.io/manga/100568"
+        }
+      }
+    ]
+  }
+]

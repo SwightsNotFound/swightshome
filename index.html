@@ -1,344 +1,1611 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swightshome</title>
-    <link rel="icon" href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" type="image/x-icon">
-
+    <title>Swightshome - Home</title>
     <style>
-        /* General body styling */
-        body {
-            font-family: 'Roboto', sans-serif;
+        @font-face {
+            font-family: 'Chinacat';
+            src: url('fonts/chinacat.ttf') format('truetype');
+        }
+        
+        body, html {
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
+            height: 100%;
+            font-family: 'Chinacat', Arial, sans-serif;
+            color: white;
+            scroll-behavior: smooth;
             display: flex;
             flex-direction: column;
-            min-height: 100vh;
-            transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+            overflow-x: hidden;
         }
-
-        /* Dark mode body styling */
-        body.dark-mode {
-            background-color: #333;
-            color: #f4f4f9;
-        }
-
-        /* Topbar styling */
-        .topbar {
-            background-color: #2c3e50;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 15px 0;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            position: relative;
-            transition: background-color 0.3s; /* Smooth transition */
-        }
-
-        /* Dark mode topbar styling */
-        .topbar.dark-mode {
-            background-color: #1a252f;
-        }
-
-        /* Styling for the links in the topbar */
-        .topbar a {
-            color: white;
-            text-align: center;
-            padding: 12px 20px;
-            text-decoration: none;
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: all 0.3s ease;
-        }
-
-        /* Hover effect for links */
-        .topbar a:hover {
-            background-color: #3498db;
-            color: white;
-            border-radius: 5px;
-        }
-
-        /* Dark mode toggle button styling */
-        .dark-mode-toggle {
-            background: none;
-            border: none;
-            color: white;
-            font-size: 20px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            position: absolute;
-            left: 20px;
-        }
-
-        /* Notification bar styling */
-        .notification-bar {
-            width: 80%; /* Smaller width */
-            max-width: 1000px; /* Limit maximum width */
-            background-color: rgba(52, 152, 219, 0.7); /* Semi-transparent blue */
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            font-size: 1rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.3s, color 0.3s;
-            border-radius: 10px; /* Rounded corners */
-            margin: 20px auto 10px auto; /* Add spacing between notification bars and move down from topbar */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-        }
-
-        .notification-bar::before {
-            content: "ℹ️"; /* Info symbol */
-            position: absolute;
-            left: 15px;
-            font-size: 1.2rem;
-        }
-
-        /* Dark mode notification bar styling */
-        .notification-bar.dark-mode {
-            background-color: rgba(41, 128, 185, 0.7); /* Semi-transparent dark blue */
-        }
-
-        /* Main content area */
-        .content {
-            max-width: 1000px;
-            margin: 50px auto;
-            text-align: center;
-            padding: 20px;
-            flex-grow: 1;
-            position: relative;
-        }
-
-        /* Image container styling */
-        .image-container {
-            position: relative;
-            text-align: center;
-            color: white;
-            overflow: hidden;
-            border-radius: 10px;
-        }
-
-        .image-container img {
+        
+        #backdrop {
+            position: fixed;
             width: 100%;
-            height: auto;
+            height: 100%;
+            object-fit: cover;
+            z-index: -2;
+        }
+        
+        #main-content {
+            flex: 1;
+            width: 100%;
+            position: relative;
+            z-index: 0;
+            transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        
+        #website-container {
+            background-color: rgba(30, 30, 30, 0.85);
+            width: 80%;
+            max-width: 1200px;
+            min-height: calc(100vh - 120px);
+            margin: 0 auto;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.8);
+        }
+        
+        /* Topbar styles */
+        #topbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            background-color: rgba(30, 30, 30, 0.9);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            box-sizing: border-box;
+            z-index: 1000;
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            transform: translateY(0);
+        }
+        
+        #topbar.scrolled {
+            background-color: rgba(30, 30, 30, 0.7);
+        }
+        
+        #topbar.hide {
+            transform: translateY(-100%);
+        }
+        
+        #topbar-title {
+            font-size: 24px;
+            font-weight: bold;
+            transition: transform 0.3s;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+        
+        #topbar-title:hover {
+            transform: scale(1.05);
+        }
+        
+        #topbar-logo {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            margin-right: 10px;
+            border: 2px solid #4d8ee6;
+        }
+        
+        #topbar-nav {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .topbar-link {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: all 0.3s;
+            position: relative;
+        }
+        
+        .topbar-link:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        
+        .topbar-link::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #4d8ee6;
+            transition: width 0.3s;
+        }
+        
+        .topbar-link:hover::after {
+            width: 100%;
+        }
+
+        #about-me, #activities, #services, #contacts {
+            scroll-margin-top: 70px;
+        }
+
+        /* About Me Section */
+        .about-section {
+            padding: 60px 0 40px;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .welcome-container {
+            text-align: center;
+            margin-bottom: 40px;
+            opacity: 0;
+            animation: fadeIn 1s 0.5s forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .welcome-text {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #4d8ee6;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .sub-welcome {
+            font-size: 1.5rem;
+            color: #aaa;
+        }
+
+        .about-section h3 {
+            font-size: 2rem;
+            color: #4d8ee6;
+            margin-bottom: 30px;
+            text-align: center;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            opacity: 0;
+            animation: fadeIn 0.8s 1s forwards;
+        }
+
+        .logo-name-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+            margin: 30px 0;
+            opacity: 0;
+            animation: fadeIn 0.8s 1.2s forwards;
+        }
+
+        .logo {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            margin-right: 20px;
+            object-fit: cover;
+            border: 3px solid #4d8ee6;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(77, 142, 230, 0.6);
+        }
+
+        .name-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-name {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: white;
+            transition: color 0.3s;
+        }
+
+        .main-name:hover {
+            color: #4d8ee6;
+        }
+
+        .sub-names {
+            font-size: 1.1rem;
+            color: #aaa;
+            margin-top: 3px;
+            transition: color 0.3s;
+        }
+
+        .sub-names:hover {
+            color: #fff;
+        }
+
+        .bio-text {
+            text-align: center;
+            margin: 20px auto;
+            max-width: 800px;
+            line-height: 1.6;
+            font-size: 1.1rem;
+            opacity: 0;
+            animation: fadeIn 0.8s 1.4s forwards;
+        }
+
+        .about-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+            opacity: 0;
+            animation: fadeIn 0.8s 1.6s forwards;
+        }
+
+        .links-container {
+            min-width: 250px;
+            width: 45%;
+            max-width: 400px;
+        }
+
+        .section-title {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            text-align: center;
+            color: #4d8ee6;
+            opacity: 0;
+            animation: fadeIn 0.5s 1.8s forwards;
+        }
+
+        .links {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .links li {
+            margin: 8px 0;
+            width: 100%;
+            opacity: 0;
+            transform: translateX(-20px);
+            animation: slideIn 0.4s forwards;
+        }
+
+        @keyframes slideIn {
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        .links li:nth-child(1) { animation-delay: 2s; }
+        .links li:nth-child(2) { animation-delay: 2.1s; }
+        .links li:nth-child(3) { animation-delay: 2.2s; }
+        .links li:nth-child(4) { animation-delay: 2.3s; }
+
+        .links a {
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 25px;
+            border-radius: 6px;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            display: flex;
+            align-items: center;
+            color: white;
+            width: 100%;
+            box-sizing: border-box;
+            background: rgba(255,255,255,0.1);
+        }
+
+        .links a img {
+            width: 22px;
+            height: 22px;
+            margin-right: 12px;
+            transition: transform 0.3s;
+        }
+
+        .links a:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .links a:hover img {
+            transform: scale(1.2);
+        }
+
+        /* Activities Section */
+        .activities-section {
+            padding: 40px 0;
+            margin: 0 auto;
+            width: 100%;
+            opacity: 0;
+            animation: fadeIn 0.8s 2s forwards;
+        }
+
+        .activities-section h3 {
+            font-size: 2rem;
+            color: #4d8ee6;
+            margin-bottom: 20px;
+            text-align: center;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .activity-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            opacity: 0;
+            animation: fadeIn 0.5s 2.2s forwards;
+        }
+
+        .activity-button {
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 6px;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            color: white;
+            background: rgba(77, 142, 230, 0.2);
+            border: 1px solid #4d8ee6;
+            font-weight: bold;
+        }
+
+        .activity-button:hover {
+            background: #4d8ee6;
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(77, 142, 230, 0.3);
+        }
+
+        .activities-subtitle {
+            font-size: 1.2rem;
+            color: #aaa;
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 0.5s 2.3s forwards;
+        }
+
+        .activity-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 30px auto;
+            max-width: 1000px;
+        }
+
+        .activity-item {
+            background-color: rgba(40, 40, 40, 0.6);
+            border-radius: 10px;
+            padding: 20px;
+            width: 180px;
+            text-align: center;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            position: relative;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.5s forwards;
+            border: 1px solid rgba(77, 142, 230, 0.2);
+        }
+
+        .activity-item:nth-child(1) { animation-delay: 2.4s; }
+        .activity-item:nth-child(2) { animation-delay: 2.5s; }
+        .activity-item:nth-child(3) { animation-delay: 2.6s; }
+
+        .activity-item:hover {
+            transform: translateY(-5px) scale(1.03);
+            background-color: rgba(50, 50, 50, 0.8);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            border-color: rgba(77, 142, 230, 0.4);
+        }
+
+        .activity-item img {
+            width: 120px;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            transition: transform 0.3s;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .activity-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .activity-title {
+            font-size: 1.1rem;
+            color: white;
+            margin-bottom: 5px;
+            font-weight: bold;
+            transition: color 0.3s;
+            cursor: pointer;
+        }
+
+        .activity-item:hover .activity-title {
+            color: #4d8ee6;
+        }
+
+        .activity-meta {
+            font-size: 0.9rem;
+            color: #aaa;
+            margin-bottom: 10px;
+        }
+
+        .activity-time {
+            font-size: 0.8rem;
+            color: #777;
+        }
+
+        /* Loading state */
+        .loading-activities {
+            text-align: center;
+            font-style: italic;
+            color: #777;
+            margin: 20px 0;
+        }
+
+        /* Mobile-specific adjustments */
+        @media (max-width: 768px) {
+            .activity-buttons {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+            
+            .activity-button {
+                width: 80%;
+                text-align: center;
+            }
+            
+            .activity-item {
+                width: 150px;
+            }
+            
+            .activity-item img {
+                width: 100px;
+                height: 150px;
+            }
+        }
+
+        /* Services Section */
+        .services-section {
+            padding: 40px 0;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .service-category {
+            margin-bottom: 50px;
+        }
+
+        .service-category h3 {
+            font-size: 1.8rem;
+            color: #4d8ee6;
+            margin-bottom: 5px;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 0.8s 2.7s forwards;
+        }
+
+        .service-category h4 {
+            font-size: 1.2rem;
+            color: #aaa;
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 0.8s 2.8s forwards;
+        }
+
+        .icon-section {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .icon-box {
+            background-color: rgba(40, 40, 40, 0.6);
+            border-radius: 10px;
+            padding: 20px;
+            width: 220px;
+            text-align: center;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            position: relative;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.5s forwards;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        @keyframes fadeInUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .icon-box:nth-child(1) { animation-delay: 2.9s; }
+        .icon-box:nth-child(2) { animation-delay: 3.0s; }
+        .icon-box:nth-child(3) { animation-delay: 3.1s; }
+        .icon-box:nth-child(4) { animation-delay: 3.2s; }
+        .icon-box:nth-child(5) { animation-delay: 3.3s; }
+
+        .icon-box:hover {
+            transform: translateY(-5px);
+            background-color: rgba(50, 50, 50, 0.8);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            border-color: rgba(77, 142, 230, 0.3);
+        }
+
+        .icon-box img {
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+            margin-bottom: 15px;
+            transition: transform 0.3s;
+        }
+
+        .icon-box:hover img {
+            transform: scale(1.1);
+        }
+
+        .icon-box h4 {
+            font-size: 1.3rem;
+            color: white;
+            margin-bottom: 5px;
+        }
+
+        .status-text {
+            font-size: 0.9rem;
+            color: #aaa;
+            margin-bottom: 10px;
+        }
+
+        .icon-box p {
+            font-size: 0.95rem;
+            color: #ccc;
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+
+        .icon-box a {
+            display: inline-block;
+            background: #4d8ee6;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+            margin: 5px 0;
+        }
+
+        .icon-box a:hover {
+            background: #3a7bc8;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .modpack-link {
+            display: block;
+            margin: 8px 0;
+        }
+
+        .status-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background-color: #777;
+            transition: all 0.3s;
+        }
+
+        .popup {
+            display: none;
+            position: absolute;
+            top: 35px;
+            right: 0;
+            background-color: #333;
+            border: 1px solid #4d8ee6;
+            padding: 8px 12px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            z-index: 10;
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
+
+        .status-dot:hover + .popup,
+        .popup:hover {
             display: block;
         }
 
-        .centered-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: rgba(0, 0, 0, 0.5);
-            padding: 20px;
-            border-radius: 10px;
-            font-size: 2rem;
+        /* Contacts Section */
+        .contacts-section {
+            padding: 40px 0;
+            margin: 0 auto;
+            width: 100%;
+            opacity: 0;
+            animation: fadeIn 0.8s 3.4s forwards;
         }
 
-        .centered-text p {
-            margin: 0;
-        }
-
-        .small-text {
-            font-size: 1rem; /* Smaller font size for the second line */
-        }
-
-        /* Typing animation */
-        .typing {
-            display: inline-block;
-            overflow: hidden;
-            white-space: nowrap;
-            border-right: 2px solid white; /* Blinking cursor */
-            animation: blink-caret 0.75s step-end infinite;
-        }
-
-        @keyframes blink-caret {
-            from, to { border-color: transparent }
-            50% { border-color: white; }
-        }
-
-        /* Footer Styling */
-        footer {
-            background-color: #2c3e50;
-            color: white;
-            padding: 20px 0;
+        .contacts-section h3 {
+            font-size: 1.8rem;
+            color: #4d8ee6;
+            margin-bottom: 30px;
             text-align: center;
-            margin-top: auto;
-            transition: background-color 0.3s; /* Smooth transition */
         }
 
-        /* Dark mode footer styling */
-        footer.dark-mode {
-            background-color: #1a252f;
+        .contact-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 0 auto;
         }
 
-        footer a {
-            color: #3498db;
+        .contact-item {
+            background-color: rgba(40, 40, 40, 0.6);
+            border-radius: 10px;
+            padding: 20px;
+            width: 220px;
+            text-align: center;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            position: relative;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.5s forwards;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .contact-item:nth-child(1) { animation-delay: 3.5s; }
+        .contact-item:nth-child(2) { animation-delay: 3.6s; }
+
+        .contact-item:hover {
+            transform: translateY(-5px);
+            background-color: rgba(50, 50, 50, 0.8);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            border-color: rgba(77, 142, 230, 0.3);
+        }
+
+        .contact-item h4 {
+            font-size: 1.3rem;
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .contact-item p {
+            font-size: 1rem;
+            color: #ccc;
+            margin-bottom: 0;
+        }
+
+        .contact-item a {
+            color: #4d8ee6;
             text-decoration: none;
+            transition: all 0.3s;
         }
 
-        footer a:hover {
+        .contact-item a:hover {
+            color: #3a7bc8;
             text-decoration: underline;
         }
 
-        /* Flex container for footer links */
+        /* Footer */
+        .footer {
+            background: rgba(20, 20, 20, 0.9);
+            padding: 25px 0;
+            text-align: center;
+            width: 100%;
+            opacity: 0;
+            animation: fadeIn 1s 3.7s forwards;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            margin-top: auto;
+        }
+
+        .footer p {
+            margin: 0 0 15px 0;
+            font-size: 1rem;
+            color: #aaa;
+        }
+
         .footer-links {
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 10px;
+            gap: 15px;
+            flex-wrap: wrap;
         }
+
+        .footer-links a {
+            color: #4d8ee6;
+            text-decoration: none;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+
+        .footer-links a:hover {
+            color: #3a7bc8;
+            text-decoration: underline;
+        }
+
+        .footer-links span {
+            color: #555;
+        }
+
+        /* Privacy Policy Styles */
+        .privacy-policy, .versions-panel, .credits-panel {
+            position: fixed;
+            top: 0;
+            left: 100%;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(30, 30, 30, 0.95);
+            z-index: 2000;
+            overflow-y: auto;
+            padding: 80px 20px 40px;
+            transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        .privacy-policy.active, .versions-panel.active, .credits-panel.active {
+            transform: translateX(-100%);
+        }
+
+        .privacy-policy-content, .versions-content, .credits-content {
+            background-color: rgba(40, 40, 40, 0.8);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.4);
+            border: 1px solid rgba(77, 142, 230, 0.2);
+        }
+
+        .privacy-policy h1, .versions-panel h1, .credits-panel h1 {
+            color: #4d8ee6;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .privacy-policy p, .versions-panel p, .credits-panel p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .privacy-policy a, .versions-panel a, .credits-panel a {
+            color: #4d8ee6;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .privacy-policy a:hover, .versions-panel a:hover, .credits-panel a:hover {
+            color: #3a7bc8;
+            text-decoration: underline;
+        }
+
+        .close-privacy, .close-versions, .close-credits {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #4d8ee6;
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .close-privacy:hover, .close-versions:hover, .close-credits:hover {
+            background: #3a7bc8;
+            transform: rotate(90deg);
+        }
+
+        .versions-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .version-item {
+            background-color: rgba(50, 50, 50, 0.6);
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid rgba(77, 142, 230, 0.3);
+            transition: all 0.3s;
+        }
+
+        .version-item:hover {
+            background-color: rgba(60, 60, 60, 0.8);
+            border-color: rgba(77, 142, 230, 0.6);
+        }
+
+        .version-item h3 {
+            margin-top: 0;
+            color: #4d8ee6;
+        }
+
+        .version-item .download-btn {
+            display: inline-block;
+            background: #4d8ee6;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+            margin-top: 10px;
+        }
+
+        .version-item .download-btn:hover {
+            background: #3a7bc8;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Animation for main content when panels are active */
+        .privacy-active #main-content,
+        .credits-active #main-content,
+        .versions-active #main-content {
+            transform: translateX(-100%);
+            filter: blur(2px);
+            opacity: 0.7;
+        }
+
+        .privacy-active #topbar,
+        .credits-active #topbar,
+        .versions-active #topbar {
+            transform: translateX(-100%);
+            filter: blur(2px);
+            opacity: 0.7;
+        }
+
+        .privacy-active .footer,
+        .credits-active .footer,
+        .versions-active .footer {
+            transform: translateX(-100%);
+            filter: blur(2px);
+            opacity: 0.7;
+        }
+#services, #game-servers {
+    scroll-margin-top: 70px;
+}
     </style>
 </head>
 <body>
-    <!-- Apply dark mode preference immediately -->
-    <script>
-        // Utility functions for handling cookies
-        function setCookie(name, value, days) {
-            const d = new Date();
-            d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
-            const expires = "expires=" + d.toUTCString();
-            document.cookie = name + "=" + value + ";" + expires + ";path=/";
-        }
-
-        function getCookie(name) {
-            const cname = name + "=";
-            const decodedCookie = decodeURIComponent(document.cookie);
-            const ca = decodedCookie.split(';');
-            for (let i = 0; i < ca.length; i++) {
-                let c = ca[i];
-                while (c.charAt(0) == ' ') {
-                    c = c.substring(1);
-                }
-                if (c.indexOf(cname) == 0) {
-                    return c.substring(cname.length, c.length);
-                }
-            }
-            return "";
-        }
-
-        // Function to apply dark mode based on preference
-        function applyDarkModePreference() {
-            const darkModePreference = getCookie("darkMode");
-            const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-            if (darkModePreference === "enabled" || (darkModePreference === "" && prefersDarkScheme)) {
-                document.body.classList.add('dark-mode');
-                document.getElementById('topbar').classList.add('dark-mode');
-                document.getElementById('notification-bar-1').classList.add('dark-mode');
-                document.getElementById('notification-bar-2').classList.add('dark-mode');
-                document.getElementById('content').classList.add('dark-mode');
-                document.getElementById('footer').classList.add('dark-mode');
-
-                // Set the dark mode toggle button to sun
-                document.getElementById('darkModeToggle').textContent = '☀️';
-            } else {
-                document.getElementById('darkModeToggle').textContent = '🌙';
-            }
-        }
-
-        // Apply dark mode preference immediately
-        applyDarkModePreference();
-    </script>
-
-    <!-- Topbar with links -->
-    <div class="topbar" id="topbar">
-        <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
-        <a href="Services">Services</a>
-        <a href="Projects">Projects</a>
-        <a href="Overview">Lists</a>
-        <a href="Links">Links</a>
-        <a href="Contact">Contact</a>
+    <img id="backdrop" src="images/backdrop.jpg" alt="Fullscreen backdrop">
+    
+    <div id="topbar">
+        <div id="topbar-title" onclick="window.location.href='https://swightshome.xyz'">
+            <img src="images/littlelink.png" alt="Logo" id="topbar-logo">
+            Swightshome
+        </div>
+        <div id="topbar-nav">
+            <a href="#about-me" class="topbar-link">About</a>
+            <a href="#activities" class="topbar-link">Activities</a>
+            <a href="#services" class="topbar-link">Services</a>
+            <a href="#game-servers" class="topbar-link">Game Servers</a>
+            <a href="#contacts" class="topbar-link">Contacts</a>
+        </div>
     </div>
+    
+    <div id="main-content">
+        <div id="website-container">
+            <!-- About Me Section -->
+            <div class="about-section" id="about-me">
+                <div class="welcome-container">
+                    <div class="welcome-text">Welcome to my domain</div>
+                    <div class="sub-welcome">Swight's Digital Home</div>
+                </div>
+                
+                <h3>About Me</h3>
+                
+                <div class="logo-name-container">
+                    <img src="images/littlelink.png" alt="Logo" class="logo">
+                    <div class="name-container">
+                        <div class="main-name">Swight</div>
+                        <div class="sub-names">SwightsNotFound</div>
+                        <div class="sub-names">SwightUnkown</div>
+                    </div>
+                </div>
+                
+                <p class="bio-text">Hi, my name's Swight, I'm a massive weeb, Minecraft fan, privacy advocate, and a massive open-source enthusiast, and here are some links (probably) containing to such.</p>
 
-    <!-- Notification bars -->
-    <div class="notification-bar" id="notification-bar-1">
-        This site is still being developed, things like the dark mode is in beta, expect many pages to not look right if it's on.
-    </div>
-    <div class="notification-bar" id="notification-bar-2">
-        This site does not really support mobile, especially smaller screens, expect things to be broken if you use a phone.
-    </div>
+                <div class="about-links">
+                    <div class="links-container">
+                        <div class="section-title">Socials:</div>
+                        <ul class="links">
+                            <li><a href="https://anilist.co/user/Swight" target="_blank" class="anilist"><img src="images/AniList.svg.png" alt="Anilist Logo">Anilist</a></li>
+                            <li><a href="https://www.youtube.com/@swighttv" target="_blank" class="youtube"><img src="images/icons/youtube.svg" alt="Youtube Logo">Youtube</a></li>
+                            <li><a href="https://mastodon.social/@Swight" target="_blank" class="mastodon"><img src="images/icons/mastodon.svg" alt="Mastodon Logo">Mastodon</a></li>
+                            <li><a href="https://www.twitch.tv/swighttv" target="_blank" class="twitch"><img src="images/icons/twitch.svg" alt="Twitch Logo">Twitch</a></li>
+                        </ul>
+                    </div>
+                    <div class="links-container">
+                        <div class="section-title">Projects and Sources:</div>
+                        <ul class="links">
+                            <li><a href="https://modrinth.com/user/SwightsNotFound" target="_blank" class="modrinth"><img src="images/modrinth.svg" alt="Modrinth Logo">Modrinth</a></li>
+                            <li><a href="https://www.curseforge.com/members/swighttv/projects" target="_blank" class="curseforge"><img src="images/curseforge-white.png" alt="Curseforge Logo">Curseforge</a></li>
+                            <li><a href="https://mcpedl.com/user/swight" target="_blank" class="mcpedl"><img src="images/mcpedl.svg" alt="MCPEDL Logo">MCPEDL</a></li>
+                            <li><a href="https://github.com/SwightsNotFound" target="_blank" class="github"><img src="images/icons/github.svg" alt="Github Logo">Github</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-    <!-- Main content -->
-    <div class="content" id="content">
-        <div class="image-container">
-            <img id="random-image" alt="Random Image">
-            <div class="centered-text">
-                <p><span id="typing-text-1"></span></p>
-                <p class="small-text"><span id="typing-text-2"></span></p>
+            <!-- Activities Section -->
+            <div class="activities-section" id="activities">
+                <h3>Media Catalogue</h3>
+                
+                <div class="activity-buttons">
+                    <a href="Overview" class="activity-button">Overview</a>
+                    <a href="Anime" class="activity-button">Anime</a>
+                    <a href="Manga" class="activity-button">Manga</a>
+                    <a href="Books" class="activity-button">Books</a>
+                </div>
+                
+                <h4 class="activities-subtitle">Recent Activities from my Media Catalogue</h4>
+                
+                <div class="activity-container" id="activityContainer">
+                    <div class="loading-activities">Loading recent activities...</div>
+                </div>
+            </div>
+
+            <!-- Services Section -->
+            <div class="services-section">
+                <div class="service-category" id="services">
+                    <h3>Services</h3>
+                    <h4>Public 🔓</h4>
+                    <div class="icon-section">
+                        <div class="icon-box">
+                            <img src="images/gitea.svg" alt="Gitea Icon">
+                            <h4>Gitea</h4>
+                            <p class="status-text">Public</p>
+                            <p>Git with a cup of tea!</p>
+                            <p class="small-text">Not recommended for major projects.</p>
+                            <a href="https://git.swightshome.xyz/" target="_blank">Open</a>
+                            <div class="status-dot" id="gitea-status"></div>
+                            <div class="popup" id="gitea-popup">Checking status...</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-category">
+                    <h3></h3>
+                    <h4>Private 🔒</h4>
+                    <div class="icon-section">
+                        <div class="icon-box">
+                            <img src="images/jellyfin.svg" alt="Jellyfin Icon">
+                            <h4>Jellyfin</h4>
+                            <p class="status-text">Private</p>
+                            <p>A media server that streams media.</p>
+                            <a href="https://jellyfin.swightshome.xyz" target="_blank">Open</a>
+                            <div class="status-dot" id="jellyfin-status"></div>
+                            <div class="popup" id="jellyfin-popup">Checking status...</div>
+                        </div>
+
+                        <div class="icon-box">
+                            <img src="images/jellyseerr.svg" alt="Jellyseerr Icon">
+                            <h4>Jellyseerr</h4>
+                            <p class="status-text">Private</p>
+                            <p>Request manager for Jellyfin media.</p>
+                            <a href="https://jellyseerr.swightshome.xyz" target="_blank">Open</a>
+                            <div class="status-dot" id="jellyseerr-status"></div>
+                            <div class="popup" id="jellyseerr-popup">Checking status...</div>
+                        </div>
+
+                        <div class="icon-box">
+                            <img src="images/navidrome.svg" alt="Navidrome Icon">
+                            <h4>Navidrome</h4>
+                            <p class="status-text">Private</p>
+                            <p>Music collection streamer.</p>
+                            <a href="https://navidrome.swightshome.xyz" target="_blank">Open</a>
+                            <div class="status-dot" id="navidrome-status"></div>
+                            <div class="popup" id="navidrome-popup">Checking status...</div>
+                        </div>
+                    
+                        <div class="icon-box">
+                            <img src="images/audiobookshelf.svg" alt="Audiobookshelf Icon">
+                            <h4>Audiobookshelf</h4>
+                            <p class="status-text">Private</p>
+                            <p>Audiobook and podcast server.</p>
+                            <a href="https://audiobookshelf.swightshome.xyz" target="_blank">Open</a>
+                            <div class="status-dot" id="audiobookshelf-status"></div>
+                            <div class="popup" id="audiobookshelf-popup">Checking status...</div>
+                        </div>
+
+                        <div class="icon-box">
+                            <img src="images/calibre-web.svg" alt="Calibre-web Icon">
+                            <h4>Calibre-web</h4>
+                            <p class="status-text">Private</p>
+                            <p>Web app for browsing eBooks in a Calibre database.</p>
+                            <a href="https://calibreweb.swightshome.xyz" target="_blank">Open</a>
+                            <div class="status-dot" id="calibre-web-status"></div>
+                            <div class="popup" id="calibre-web-popup">Checking status...</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services-section" id="game-servers"></div>
+                <div class="service-category">
+                    <h3>Game Servers</h3>
+                    <h4>Private 🔒</h4>
+                    <div class="icon-section">
+                        <div class="icon-box">
+                            <img src="images/minecraftvanilla.png" alt="Minecraft Vanilla">
+                            <h4>Vanilla Minecraft</h4>
+                            <p class="status-text">Private</p>
+                            <p>A vanilla survival server.</p>
+                            <a href="downloads/Swightshome.mrpack" download class="modpack-link">Download Fabric</a>
+                            <a href="downloads/Swightshome (NeoForge).mrpack" download class="modpack-link">Download NeoForge</a>
+                        </div>
+
+                        <div class="icon-box">
+                            <img src="images/minecraftorigin.png" alt="Minecraft Origins">
+                            <h4>Origins Server</h4>
+                            <p class="status-text">Private</p>
+                            <p>Modded fabric server based on Origins mod.</p>
+                            <a href="downloads/The Origins.mrpack" download>Download Modpack</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contacts Section -->
+            <div class="contacts-section" id="contacts">
+                <h3>Contacts</h3>
+                <div class="contact-container">
+                    <div class="contact-item">
+                        <h4>Email</h4>
+                        <p><a href="mailto:mail@swightshome.xyz">mail@swightshome.xyz</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Matrix</h4>
+                        <p><a href="https://matrix.to/#/@swight.:matrix.org" target="_blank">@swight.:matrix.org</a></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- Footer -->
-    <footer id="footer">        
-        <p>Hosted using <a href="https://pages.github.com/" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" role="button">Cloudflare</a>.</p>
+    <div class="footer">
+        <p>Made with ❤️ by Swight.</p>
         <div class="footer-links">
-            <a href="https://swightshome.xyz/Status" role="button">Status Page</a>
+            <a href="https://status.swightshome.xyz/status/swightshome" target="_blank" role="button">Status Page</a>
             <span>|</span>
-            <a href="https://github.com/SwightsNotFound/swightshome" role="button">Source Code</a>
+            <a href="https://git.swightshome.xyz/Swight/swightshome" target="_blank" role="button">Source Code</a>
             <span>|</span>
-            <a href="Privacy" role="button">Privacy Policy</a>
+            <a href="#" id="privacy-btn" role="button">Privacy Policy</a>
+            <span>|</span>
+            <a href="#" id="credits-btn" role="button">Credits</a>
+            <span>|</span>
+            <a href="#" id="versions-btn" role="button">Versions</a>
         </div>
-    </footer>
+    </div>
+
+    <!-- Privacy Policy Panel -->
+    <div class="privacy-policy" id="privacy-policy">
+        <button class="close-privacy" id="close-privacy">×</button>
+        <div class="privacy-policy-content">
+            <h1>Privacy Policy</h1>
+            <p>If you create an account on any service, only the data you give that service will be stored.</p>
+            <p>To recieve all data collected on you, you can ask on one of my <a href="#contacts" class="privacy-contact-link">contacts</a>.</p>
+            <h1>No information is shared outside of swightshome.xyz</h1>
+            <p>Your information will never be shared with a third party unless requierd to by law.</p>
+    
+            <h1>Deleting your data</h1>
+            <p>You can delete any "identifiable" data, but there is a good chance I won't know who "you" are, so i can't delete that data.</p>
+            <p>But if I can, reach out to one of my <a href="#contacts" class="privacy-contact-link">contacts</a> and I'll get your data removed.</p>
+        </div>
+    </div>
+
+    <!-- Credits Panel -->
+    <div class="privacy-policy" id="credits-panel">
+        <button class="close-privacy" id="close-credits">×</button>
+        <div class="privacy-policy-content">
+            <h1>Credits</h1>
+            <p>Here are some credits for resources used on this website:</p>
+            <ul>
+                <li>This website is hosted on GitHub Pages, with all services routed through Cloudflare Tunnels.</li>
+                <li>All logos displayed on this site belong to their respective owners. I do not claim ownership of any logos other than my own.</li>
+                <li>Chart graphs are thank to <a href="https://www.chartjs.org/" target="_blank">Chart.js</a>.</li>
+                <li>Fonts used on this site include: Chinacat by Dogstar (Shareware, © 1998) Zen Maru Gothic (SIL Open Font License, © 2007)</li>
+                <li>All anime and manga metadata was taken from Anilist through there public API. All novel and audiobook metadata was scraped from StoryGraph.</li>
+                <li>The background of the website features the character Reimu Hakurei from the Touhou Project. Specifically, the background belongs to <a href="https://store.steampowered.com/app/882710/_TouHou_Makuka_Sai__Fantastic_Danmaku_Festival/" target="_blank">this game title</a>.</li>
+                <li>Various badges are by <a href="https://anilist.co/forum/thread/15027" target="_blank">Yggdorafuwu</a> and <a href="https://anilist.co/forum/thread/10224" target="_blank">Logia</a>.</li>
+            </ul>
+            <p>Special thanks to all of the above mentioned! :)</p>
+        </div>
+    </div>
+
+    <!-- Versions Panel -->
+    <div class="privacy-policy" id="versions-panel">
+        <button class="close-privacy" id="close-versions">×</button>
+        <div class="privacy-policy-content">
+            <h1>Website Versions</h1>
+            <p></p>
+            
+            <div class="versions-list">
+                <div class="version-item">
+                    <h3>Version 3.0 (Current)</h3>
+                    <p>The latest version completely reworked from the ground up, anime themed, has lots of animations and is much calmer on the eyes. However the site has been heavily downscaled from 2.0.</p>
+                    <a href="downloads/swightshome-v3.0.zip" class="download-btn">Download</a>
+                </div>
+                
+                <div class="version-item">
+                    <h3>Version 2.0</h3>
+                    <p>The most ambitious the site has ever been, made to be completely self-hosted in docker, uses a dark blue and black asthetic. Though in the end it was to much to host on my own.</p>
+                    <a href="downloads/swightshome-v2.0.zip" class="download-btn">Download</a>
+                </div>
+                
+                <div class="version-item">
+                    <h3>Version 1.0</h3>
+                    <p>My first website, and man was it crap, half of its functions where completely borked, but nonetheless it has meaning.</p>
+                    <a href="downloads/swightshome-v1.0.zip" class="download-btn">Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script>
-        // Function to toggle dark mode
-        function toggleDarkMode() {
-            const isDarkMode = document.body.classList.toggle('dark-mode');
-            document.getElementById('topbar').classList.toggle('dark-mode');
-            document.getElementById('notification-bar-1').classList.toggle('dark-mode');
-            document.getElementById('notification-bar-2').classList.toggle('dark-mode');
-            document.getElementById('content').classList.toggle('dark-mode');
-            document.getElementById('footer').classList.toggle('dark-mode');
+        // Service status checker with CORS proxy
+        const serviceStatus = {
+            'gitea': 'https://git.swightshome.xyz',
+            'jellyfin': 'https://jellyfin.swightshome.xyz',
+            'jellyseerr': 'https://jellyseerr.swightshome.xyz',
+            'navidrome': 'https://navidrome.swightshome.xyz',
+            'audiobookshelf': 'https://audiobookshelf.swightshome.xyz',
+            'calibre-web': 'https://calibreweb.swightshome.xyz'
+        };
 
-            // Change the icon of the dark mode toggle button
-            darkModeToggle.textContent = isDarkMode ? '☀️' : '🌙';
+        // Function to check service status using a CORS proxy
+        async function checkServiceStatus(serviceId, endpoint) {
+            const statusDot = document.getElementById(`${serviceId}-status`);
+            const popup = document.getElementById(`${serviceId}-popup`);
+            
+            // Default to checking state
+            statusDot.style.backgroundColor = '#FFA500'; // Orange for checking
+            popup.textContent = 'Checking status...';
 
-            // Set the dark mode preference in a cookie
-            setCookie("darkMode", isDarkMode ? "enabled" : "disabled", 365);
+            try {
+                // Using a CORS proxy to bypass CORS restrictions
+                const proxyUrl = 'https://corsproxy.io/?';
+                const response = await fetch(`${proxyUrl}${encodeURIComponent(endpoint)}`, {
+                    method: 'GET',
+                    headers: {
+                        'Accept': 'application/json',
+                    },
+                    mode: 'cors'
+                });
+
+                if (response.ok || response.status === 200 || response.status === 302) {
+                    statusDot.style.backgroundColor = '#4CAF50'; // Green for online
+                    popup.textContent = 'Online - All systems normal';
+                } else {
+                    statusDot.style.backgroundColor = '#F44336'; // Red for offline
+                    popup.textContent = 'Offline - Service unavailable';
+                }
+            } catch (error) {
+                console.error(`Error checking ${serviceId} status:`, error);
+                statusDot.style.backgroundColor = '#F44336'; // Red for error
+                popup.textContent = 'Error checking status';
+            }
         }
 
-        // Attach the toggle function to the dark mode button
-        const darkModeToggle = document.getElementById('darkModeToggle');
-        darkModeToggle.addEventListener('click', toggleDarkMode);
+        // Fetch activity history
+        function fetchActivityHistory() {
+            fetch('json/activityHistory.json')
+                .then(response => response.json())
+                .then(activityData => {
+                    const currentDate = new Date();
+                    const last365Days = [];
+                    const excludedStatuses = [
+                        "paused watching", 
+                        "paused reading", 
+                        "dropped", 
+                        "plans to read", 
+                        "plans to watch"
+                    ];
 
-        // Typing animation function
-        function typeText(text, elementId, speed, callback) {
-            const typingElement = document.getElementById(elementId);
-            let index = 0;
+                    for (let i = 0; i < 365; i++) {
+                        const date = new Date(currentDate);
+                        date.setDate(date.getDate() - i);
+                        last365Days.push(date.toISOString().split('T')[0]);
+                    }
 
-            function type() {
-                if (index < text.length) {
-                    typingElement.textContent += text.charAt(index);
-                    index++;
-                    setTimeout(type, speed); // Adjust typing speed here
-                } else {
-                    typingElement.classList.remove('typing'); // Remove cursor after typing
-                    if (callback) callback(); // Call the callback function if provided
-                }
+                    const allActivities = [];
+                    last365Days.forEach(dateString => {
+                        const activities = (activityData[dateString] || []).filter(activity =>
+                            !excludedStatuses.includes(activity.status?.toLowerCase())
+                        );
+                        allActivities.push(...activities);
+                    });
+
+                    allActivities.sort((a, b) => b.createdAt - a.createdAt);
+                    displayRecentActivities(allActivities.slice(0, 3)); // Display the last three activities
+                })
+                .catch(error => {
+                    console.error('Error loading activity data:', error);
+                    const activityContainer = document.getElementById('activityContainer');
+                    activityContainer.innerHTML = '<div class="loading-activities">Unable to load recent activities</div>';
+                });
+        }
+
+        function displayRecentActivities(activities) {
+            const activityContainer = document.getElementById('activityContainer');
+            
+            if (activities.length === 0) {
+                activityContainer.innerHTML = '<div class="loading-activities">No recent activities found</div>';
+                return;
             }
 
-            typingElement.classList.add('typing'); // Add cursor before typing starts
-            type();
+            activityContainer.innerHTML = '';
+            
+            activities.forEach((activity, index) => {
+                const activityDiv = document.createElement('div');
+                activityDiv.className = 'activity-item';
+                const title = activity.media?.title?.english || activity.media?.title?.romaji || 'No title available';
+                const cover = activity.media?.coverImage?.large || 'default-cover.jpg';
+                const progress = activity.progress ? `Episode ${activity.progress}` : '';
+                const time = new Date(activity.createdAt * 1000).toLocaleString('en-US', { timeZone: 'America/Chicago' });
+                const siteUrl = activity.media?.siteUrl || '#';
+
+                // Set animation delay based on index
+                activityDiv.style.animationDelay = `${2.4 + (index * 0.1)}s`;
+
+                activityDiv.innerHTML = `
+                    <img src="${cover}" alt="${title}" onerror="this.src='images/default-cover.jpg'">
+                    <div class="activity-title" onclick="window.open('${siteUrl}', '_blank')">${title}</div>
+                    <div class="activity-meta">${progress}</div>
+                    <div class="activity-time">${time}</div>
+                `;
+                activityContainer.appendChild(activityDiv);
+            });
         }
 
-        // Typing animation on load
-        window.onload = function() {
-            typeText("Welcome to Swightshome!", "typing-text-1", 60, () => {
-                typeText("A website for things I host.", "typing-text-2", 70);
-            });
+        // Check all services status on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            for (const [serviceId, endpoint] of Object.entries(serviceStatus)) {
+                checkServiceStatus(serviceId, endpoint);
+                
+                // Check every 5 minutes (300000 ms)
+                setInterval(() => checkServiceStatus(serviceId, endpoint), 300000);
+            }
+
+            // Fetch activity history
+            fetchActivityHistory();
+        });
+
+        // --- Improved Topbar hide-on-scroll ---
+        const topbar = document.getElementById('topbar');
+        let lastScroll = 0;
+        const scrollThreshold = 100; // Pixels before hiding
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
             
-            // Set random image
-            const randomIndex = Math.floor(Math.random() * 100);
-            document.getElementById('random-image').src = `images/walls/image_${randomIndex}.jpg`;
+            // At top of page - always show
+            if (currentScroll <= 0) {
+                topbar.classList.remove('hide', 'scrolled');
+                return;
+            }
+            
+            // Scrolling down - hide
+            if (currentScroll > lastScroll && currentScroll > scrollThreshold) {
+                topbar.classList.add('hide');
+            } 
+            // Scrolling up - show
+            else if (currentScroll < lastScroll) {
+                topbar.classList.remove('hide');
+                topbar.classList.add('scrolled');
+            }
+            
+            lastScroll = currentScroll;
+        });
+
+        // --- Privacy Policy Toggle ---
+        const privacyBtn = document.getElementById('privacy-btn');
+        const privacyPanel = document.getElementById('privacy-policy');
+        const closePrivacy = document.getElementById('close-privacy');
+        const body = document.body;
+
+        function closePrivacyPanel() {
+            body.classList.remove('privacy-active');
+            privacyPanel.classList.remove('active');
+        }
+
+        privacyBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            body.classList.add('privacy-active');
+            privacyPanel.classList.add('active');
+        });
+
+        closePrivacy.addEventListener('click', closePrivacyPanel);
+
+        privacyPanel.addEventListener('click', function(e) {
+            if (e.target === privacyPanel) {
+                closePrivacyPanel();
+            }
+        });
+
+        // --- Credits Toggle ---
+        const creditsBtn = document.getElementById('credits-btn');
+        const creditsPanel = document.getElementById('credits-panel');
+        const closeCredits = document.getElementById('close-credits');
+
+        function closeCreditsPanel() {
+            body.classList.remove('credits-active');
+            creditsPanel.classList.remove('active');
+        }
+
+        creditsBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            body.classList.add('credits-active');
+            creditsPanel.classList.add('active');
+        });
+
+        closeCredits.addEventListener('click', closeCreditsPanel);
+
+        creditsPanel.addEventListener('click', function(e) {
+            if (e.target === creditsPanel) {
+                closeCreditsPanel();
+            }
+        });
+
+        // --- Versions Toggle ---
+        const versionsBtn = document.getElementById('versions-btn');
+        const versionsPanel = document.getElementById('versions-panel');
+        const closeVersions = document.getElementById('close-versions');
+
+        function closeVersionsPanel() {
+            body.classList.remove('versions-active');
+            versionsPanel.classList.remove('active');
+        }
+
+        versionsBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            body.classList.add('versions-active');
+            versionsPanel.classList.add('active');
+        });
+
+        closeVersions.addEventListener('click', closeVersionsPanel);
+
+        versionsPanel.addEventListener('click', function(e) {
+            if (e.target === versionsPanel) {
+                closeVersionsPanel();
+            }
+        });
+
+        // Close panels when clicking contact links inside them
+document.querySelectorAll('.privacy-contact-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+        // Only handle if it's specifically a privacy contact link
+        if (this.classList.contains('privacy-contact-link')) {
+            e.preventDefault();
+            closePrivacyPanel();
+            closeCreditsPanel();
+            closeVersionsPanel();
+            const targetId = this.getAttribute('href');
+            setTimeout(() => {
+                document.querySelector(targetId).scrollIntoView({ behavior: 'smooth' });
+            }, 100);
+        }
+    });
+});
+// fix downloads on version page
+// Update the download button handling
+document.querySelectorAll('.download-btn').forEach(btn => {
+    btn.addEventListener('click', function(e) {
+        // Only prevent default if it's a download button
+        if (this.classList.contains('download-btn')) {
+            e.preventDefault();
+            const url = this.href;
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = url.split('/').pop();
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+    });
+});
+
+        // --- Dynamic URL hash updating when scrolling ---
+        const sections = document.querySelectorAll('[id^="about-me"], [id^="activities"], [id^="services"], [id^="game-servers"], [id^="contacts"]');
+        const options = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.5
         };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    if (id && window.location.hash !== `#${id}`) {
+                        history.replaceState(null, null, `#${id}`);
+                    }
+                }
+            });
+        }, options);
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+
+        // --- Smooth scrolling for anchor links (with offset for topbar height) ---
+        function scrollToAnchorWithOffset(hash) {
+            if (!hash || hash === "#") return;
+            const targetElement = document.querySelector(hash);
+            if (targetElement) {
+                const topbarHeight = document.getElementById('topbar').offsetHeight;
+                const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - topbarHeight + 2;
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        }
+
+        // On click: update hash, scroll with offset
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const targetId = this.getAttribute('href');
+                if (!targetId || targetId === '#') return;
+                e.preventDefault();
+                // This will trigger the hashchange event
+                location.hash = targetId;
+                // For immediate feedback (optional, but improves responsiveness)
+                scrollToAnchorWithOffset(targetId);
+            });
+        });
+
+        // On hashchange: scroll with offset
+        window.addEventListener('hashchange', function() {
+            scrollToAnchorWithOffset(location.hash);
+        });
+
+        // On page load: scroll if hash exists
+        window.addEventListener('DOMContentLoaded', function() {
+            if (location.hash) {
+                // Timeout ensures elements are rendered
+                setTimeout(() => {
+                    scrollToAnchorWithOffset(location.hash);
+                }, 10);
+            }
+        });
+
+        // --- Topbar Title click handler ---
+        document.getElementById('topbar-title').addEventListener('click', function() {
+            window.location.href = 'https://swightshome.xyz';
+        });
+
+// --------- NOANIM DETECTION AND PATCHES ---------
+function isNoAnimActive() {
+    const path = window.location.pathname;
+    const hash = window.location.hash;
+    return (
+        /(^|\/)noanim(\/|$)/i.test(path) ||
+        /(^|\/)noanim(\/|$)/i.test(hash)
+    );
+}
+
+// Inject style to fully disable entrance anims, but keep topbar correct
+if (isNoAnimActive()) {
+    document.documentElement.classList.add('noanim');
+    const styles = document.createElement('style');
+    styles.innerHTML = `
+        .welcome-container,
+        .about-section h3,
+        .logo-name-container,
+        .bio-text,
+        .about-links,
+        .section-title,
+        .links li,
+        .activities-section,
+        .activity-buttons,
+        .activities-subtitle,
+        .activity-item,
+        .service-category h3,
+        .service-category h4,
+        .icon-box,
+        .contacts-section,
+        .contact-item,
+        .footer,
+        .privacy-policy,
+        .versions-panel,
+        .credits-panel {
+            opacity: 1 !important;
+            animation: none !important;
+            transition: none !important;
+            transform: none !important;
+        }
+        .links li,
+        .activity-item,
+        .icon-box,
+        .contact-item {
+            transform: none !important;
+        }
+        #topbar {
+            transform: none !important;
+            transition: none !important;
+        }
+        #topbar.hide {
+            transform: translateY(-100%) !important;
+        }
+    `;
+    document.head.appendChild(styles);
+}
+
+// --------- HASH SECTION SCROLLING EVEN WITH /noanim ---------
+function extractSectionFromHash(hash) {
+    if (!hash || hash === "#") return "";
+    let clean = hash.substring(1);
+    if (clean.charAt(0) === "/") clean = clean.substring(1);
+    let section = clean.split("/")[0];
+    return section ? "#" + section : "";
+}
+
+function scrollToAnchorWithOffset(hash, isInstant) {
+    let sectionHash = extractSectionFromHash(hash);
+    if (!sectionHash) return;
+    const targetElement = document.querySelector(sectionHash);
+    if (targetElement) {
+        const topbarHeight = document.getElementById('topbar').offsetHeight;
+        const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - topbarHeight + 2;
+        window.scrollTo({
+            top: targetPosition,
+            behavior: isInstant ? "auto" : "smooth"
+        });
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    // On click: update hash and scroll with offset
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            const targetId = this.getAttribute('href');
+            if (!targetId || targetId === '#') return;
+            e.preventDefault();
+            let hash = targetId;
+            // If current hash has /noanim, preserve it on the clicked anchor unless already present
+            if (/\/noanim(\/|$)/i.test(location.hash)) {
+                if (!/\/noanim(\/|$)/i.test(hash)) hash += '/noanim';
+            }
+            // This will trigger the hashchange event
+            location.hash = hash;
+            // For immediate feedback
+            scrollToAnchorWithOffset(hash, false);
+        });
+    });
+
+    // On page load: scroll if hash exists (with /noanim support)
+    if (location.hash) {
+        setTimeout(() => {
+            scrollToAnchorWithOffset(location.hash, true);
+        }, 10);
+    }
+});
+
+// On hashchange: scroll with offset, even with /noanim in hash
+window.addEventListener('hashchange', function() {
+    scrollToAnchorWithOffset(location.hash, false);
+});
     </script>
 </body>
 </html>

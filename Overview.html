@@ -2,36 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swightshome - List Overview</title>
-    <link rel="icon" href="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" type="image/x-icon">
+    <meta name="viewport" content="width=320, initial-scale=1.0">
+    <title>Swightshome - Overview</title>
+    <link rel="icon" href="images/littlelink.png" type="image/x-icon">
+    <script src="js/chart.js"></script>
     <style>
-        body {
-            font-family: 'Roboto', sans-serif;
+        @font-face {
+            font-family: 'Chinacat';
+            src: url('fonts/chinacat.ttf') format('truetype');
+        }
+        @font-face {
+    font-family: 'ZenMaruGothic';
+    src: url('fonts/ZenMaruGothic-Regular.ttf') format('truetype');
+}
+        html, body {
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            transition: background-color 0.3s, color 0.3s;
+            height: 100%;
+            font-family: 'Chinacat', Arial, sans-serif;
+            color: white;
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+            background-color: transparent;
         }
-
-        body.dark-mode {
-            background-color: #333;
-            color: #f4f4f9;
+        #backdrop {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -2;
         }
-
         .header {
-            background: url('https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/overview-cover.jpg') no-repeat center center/cover;
-            padding: 100px 20px;
+            background: url('images/overview-cover.jpg') no-repeat center center/cover;
+            padding: 120px 20px 80px;
             text-align: center;
             color: white;
             position: relative;
             z-index: 1;
+            animation: fadeIn 1s 0.5s forwards;
+            opacity: 0;
+            margin-top: 0;
         }
-
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
         .header .overlay {
             background-color: rgba(0, 0, 0, 0.5);
             position: absolute;
@@ -41,876 +56,1256 @@
             height: 100%;
             z-index: -1;
         }
-
         .header-content {
             position: relative;
             z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
         }
-
+        .header-content img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            border: 3px solid #4d8ee6;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .header-content img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(77, 142, 230, 0.6);
+        }
         .header-content h1 {
-            margin: 0;
             font-size: 3em;
-            color: white; /* Make Swight's name white */
+            margin: 20px 0;
+            color: #4d8ee6;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
         }
-
         .header-content p {
             font-size: 1.2em;
+            color: #aaa;
+            max-width: 800px;
+            margin: 0 auto 30px;
+            line-height: 1.6;
         }
-
-        .topbar {
-            background-color: #2c3e50;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 15px 0;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-            transition: background-color 0.3s;
-        }
-
-        .topbar.dark-mode {
-            background-color: #1a252f;
-        }
-
-        .topbar a {
-            color: white;
-            text-align: center;
-            padding: 12px 20px;
-            text-decoration: none;
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: all 0.3s ease;
-        }
-
-        .topbar a:hover {
-            background-color: #3498db;
-            color: white;
-            border-radius: 5px;
-        }
-
-        .dark-mode-toggle {
-            background: none;
-            border: none;
-            color: white;
-            font-size: 20px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            position: absolute;
-            left: 20px;
-        }
-
-        .navbar {
-            background-color: #2c3e50;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 15px 0;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            position: relative;
-            width: 100%;
-            z-index: 1000;
-            transition: background-color 0.3s;
-        }
-
-        .navbar.dark-mode {
-            background-color: #1a252f;
-        }
-
-        .navbar a {
-            color: white;
-            text-align: center;
-            padding: 12px 20px;
-            text-decoration: none;
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: all 0.3s ease;
-        }
-
-        .navbar a:hover {
-            background-color: #3498db;
-            color: white;
-            border-radius: 5px;
-        }
-
-        .navbar a.active {
-            background-color: #3498db;
-            color: white;
-            border-radius: 5px;
-        }
-
-        .content-area {
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            width: 100%;
-            flex-grow: 1;
-            padding-top: 80px;
-            padding-bottom: 60px;
-            gap: 20px;
-        }
-
-        .container {
-            display: flex;
-            gap: 20px;
-        }
-
-        .stats-section, .activity-section, .favorites-section {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-        }
-
-        .stats-section, .favorites-section {
-            width: 300px;
-        }
-
-        .activity-section {
-            width: 600px;
-        }
-
-        .stats-section h2, .activity-section h2, .favorites-section h2 {
-            font-size: 1.5em;
-            color: #34495e;
-            border-bottom: 2px solid #ecf0f1;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        .stat-item {
-            font-size: 1.2em;
-            margin: 10px 0;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .stat-item span {
-            font-weight: bold;
-            color: #2980b9;
-        }
-
-        .heatmap {
-            display: grid;
-            grid-template-columns: repeat(7, 10px);
-            gap: 2px;
-            justify-content: center;
-        }
-
-        .day {
-            width: 10px;
-            height: 10px;
-            background-color: #ebedf0;
-            border-radius: 2px;
-            position: relative;
-            cursor: pointer;
-        }
-
-        .day[data-activity="1"] { background-color: #c6dbef; }
-        .day[data-activity="2"] { background-color: #9ecae1; }
-        .day[data-activity="3"] { background-color: #6baed6; }
-        .day[data-activity="4"] { background-color: #3182bd; }
-
-        .tooltip, .activity-tooltip {
-            visibility: hidden;
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            border-radius: 5px;
-            padding: 5px;
-            position: absolute;
-            z-index: 1;
-            bottom: 125%;
-            left: 50%;
-            margin-left: -60px;
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
-
-        .day:hover .tooltip, .activity:hover .activity-tooltip {
-            visibility: visible;
-            opacity: 1;
-        }
-
-        .activity-list {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        .activity {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            border-bottom: 1px solid #ecf0f1;
-            padding-bottom: 10px;
-        }
-
-        .activity img {
-            width: 50px;
-            height: 70px;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        .activity-details {
-            flex-grow: 1;
-        }
-
-        .activity-title {
-            font-size: 1em;
-            color: #34495e;
-            margin: 0;
-            cursor: pointer;
-        }
-
-        .activity-meta {
-            font-size: 0.8em;
-            color: #7f8c8d;
-            margin: 0;
-        }
-
-        .activity-time {
-            font-size: 0.8em;
-            color: #95a5a6;
-        }
-
-        #loadMoreBtn {
-            background-color: #2980b9;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            text-align: center;
-        }
-
-        #loadMoreBtn:hover {
-            background-color: #1c5980;
-        }
-
-        .bar-chart-container {
-            margin-top: 20px;
-            text-align: center;
-        }
-
-        .bar-chart-container h3 {
-            font-size: 1.2em;
-            color: #34495e;
-            margin-bottom: 10px;
-        }
-
-        .bar-chart-container canvas {
-            max-width: 100%;
-        }
-
-        .favorites-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .favorite-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 60px;
-            text-align: center;
-        }
-
-        .favorite-item img {
-            width: 50px;
-            height: 70px;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        .favorite-title {
-            font-size: 0.7em;
-            color: #34495e;
-            margin: 5px 0 0;
-            cursor: pointer;
-        }
-
-        .favorite-meta {
-            font-size: 0.5em;
-            color: #7f8c8d;
-            margin: 0;
-        }
-
-        footer {
-            background-color: #2c3e50;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-            transition: background-color 0.3s;
-            width: 100%;
-            bottom: 0;
-        }
-
-        footer.dark-mode {
-            background-color: #1a252f;
-        }
-
-        footer a {
-            color: #3498db;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        .footer-links {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-        }
-
         .logo-links {
             display: flex;
             justify-content: center;
-            align-items: center;
             gap: 20px;
-            margin-top: 10px;
+            margin-top: 20px;
         }
-
-        .logo-links a {
-            display: inline-block;
+        .logo-links img {
             width: 40px;
             height: 40px;
             transition: transform 0.3s;
         }
-
-        .logo-links img {
+        .logo-links a:hover img {
+            transform: scale(1.2);
+        }
+        .navbar {
+            background-color: #23272e;
+            min-height: 60px;
+            width: 100vw;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0;
+            animation: navbarFadeIn 0.8s 0.2s forwards;
+            opacity: 0;
+        }
+        @keyframes navbarFadeIn {
+            from { opacity: 0; transform: translateY(-40px);}
+            to { opacity: 1; transform: translateY(0);}
+        }
+        .navbar-logo-wrap {
+            flex: 0 0 auto;
+            margin-right: 0;
+            padding-left: 0;
+            display: flex;
+            align-items: center;
+            height: 60px;
+        }
+        .navbar-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.8rem;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            margin: 0;
+            height: 60px;
+            padding-left: 20px;
+            padding-right: 25px;
+            transition: transform 0.2s;
+        }
+        .navbar-logo img {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: 2px solid #4d8ee6;
+        }
+        .navbar-logo:hover {
+            transform: scale(1.04);
+            text-shadow: 0 2px 10px rgba(77,142,230,0.3);
+        }
+        .navbar-nav {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            height: 60px;
+        }
+        .navbar-link {
+            color: #4d8ee6;
+            text-align: center;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            border: 2px solid #4d8ee6;
+            border-radius: 5px;
+            margin: 0 5px;
+            background: transparent;
+            min-width: 100px;
+            box-sizing: border-box;
+            font-size: 1rem;
+        }
+        .navbar-link:hover {
+            background-color: #4d8ee6;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(77, 142, 230, 0.3);
+        }
+        .navbar-link.active {
+            background-color: #4d8ee6;
+            color: white;
+        }
+        @media (max-width: 800px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+                height: auto;
+            }
+            .navbar-logo-wrap {
+                width: 100%;
+                justify-content: flex-start;
+                height: 60px;
+            }
+            .navbar-nav {
+                position: static;
+                left: auto;
+                top: auto;
+                transform: none;
+                margin-left: 0;
+                width: 100%;
+                justify-content: flex-start;
+                height: auto;
+                padding-left: 20px;
+                margin-bottom: 6px;
+            }
+        }
+        .content-area {
+            padding: 40px 20px;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        .centered-true-flex-row {
+            display: grid;
+            grid-template-columns: 1fr minmax(340px, 540px) 1fr;
+            gap: 30px;
+            align-items: flex-start;
+            width: 100%;
+            max-width: 1800px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .left-column, .right-column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .left-column {
+            justify-self: end;
+            max-width: 350px;
+            min-width: 250px;
+            width: 100%;
+        }
+        .center-column {
+            justify-self: center;
+            min-width: 340px;
+            max-width: 540px;
+            width: 100%;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .right-column {
+            justify-self: start;
+            max-width: 500px;
+            min-width: 440px;
+            width: 100%;
+        }
+        .profile-description-section,
+        .stats-section,
+        .bar-chart-container,
+        .activity-section,
+        .favorites-section {
+            background-color: rgba(30, 30, 30, 0.7);
+            border-radius: 10px;
+            padding: 20px;
+            border: 1px solid rgba(77, 142, 230, 0.3);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            animation: fadeInUp 0.5s forwards;
+            opacity: 0;
+            transform: translateY(20px);
+            width: 100%;
+            box-sizing: border-box;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+        }
+        .stats-section, .profile-description-section, .bar-chart-container {
+            max-width: 400px;
+        }
+        .activity-section {
+            max-width: 540px;
+        }
+        .favorites-section {
+            width: 480px;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+        @keyframes fadeInUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .profile-description-section { animation-delay: 1.2s; }
+        .stats-section:nth-of-type(1) { animation-delay: 1.3s; }
+        .stats-section:nth-of-type(2) { animation-delay: 1.4s; }
+        .stats-section:nth-of-type(3) { animation-delay: 1.5s; }
+        .bar-chart-container { animation-delay: 1.6s; }
+        .activity-section { animation-delay: 1.7s; }
+        .favorites-section:nth-of-type(1) { animation-delay: 1.8s; }
+        .favorites-section:nth-of-type(2) { animation-delay: 1.9s; }
+        .favorites-section:nth-of-type(3) { animation-delay: 2.0s; }
+        .favorites-section:nth-of-type(4) { animation-delay: 2.1s; }
+        .stats-section h2, .profile-description-section h2, 
+        .bar-chart-container h2, .activity-section h2, .favorites-section h2 {
+            font-size: 1.6rem;
+            color: #4d8ee6;
+            margin-bottom: 20px;
+            text-align: center;
+            border-bottom: 1px solid rgba(77, 142, 230, 0.3);
+            padding-bottom: 10px;
+        }
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 0;
+            font-size: 1.05rem;
+        }
+        .stat-item span:first-child { color: #aaa; }
+        .stat-item span:last-child { color: white; font-weight: bold; }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .image-grid img {
+            width: 100%;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .image-grid img:hover { transform: scale(1.03); }
+        .down-heatmap-wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .down-heatmap {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr); /* 7 days horizontally */
+            grid-template-rows: repeat(52, 1fr);   /* 52 weeks vertically */
+            gap: 2px;
+            width: 140px;   /* wider for readability */
+            min-width: 100px;
+            max-width: 180px;
+            height: 520px;  /* tall for all weeks */
+            max-height: 520px;
+            min-height: 400px;
+            align-items: center;
+            justify-items: center;
+            background: none;
+        }
+        .down-day {
+            width: 16px;
+            height: 8px;
+            background-color: rgba(77, 142, 230, 0.08);
+            border-radius: 2px;
+            transition: all 0.2s;
+            box-sizing: border-box;
+        }
+        .down-day[data-activity="1"] { background-color: #b4d0f8; }
+        .down-day[data-activity="2"] { background-color: #5fa8e8; }
+        .down-day[data-activity="3"] { background-color: #397ddb; }
+        .down-day[data-activity="4"] { background-color: #174b8a; }
+        .down-day:hover {
+            transform: scale(1.6);
+            box-shadow: 0 0 12px #397ddb77;
+            z-index: 2;
+        }
+        .down-heatmap-labels, .down-heatmap-legend {
+            display: none !important;
+        }
+        .activity-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            width: 100%;
+        }
+        .activity-item {
+            display: flex;
+            background-color: rgba(40, 40, 40, 0.6);
+            border-radius: 8px;
+            padding: 6px 8px;
+            border: 1px solid rgba(77, 142, 230, 0.2);
+            transition: all 0.3s;
+            align-items: flex-start;
+        }
+        .activity-item:hover {
+            transform: translateY(-2px);
+            background-color: rgba(50, 50, 50, 0.8);
+            box-shadow: 0 2px 7px rgba(0,0,0,0.25);
+            border-color: rgba(77, 142, 230, 0.4);
+        }
+        .activity-cover {
+            width: 32px;
+            height: 46px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-right: 8px;
+            transition: transform 0.3s;
+            flex-shrink: 0;
+        }
+        .activity-item:hover .activity-cover {
+            transform: scale(1.05);
+        }
+        .activity-details {
+            flex: 1;
+            min-width: 0;
+        }
+        .activity-title {
+            font-size: 0.87rem;
+            color: white;
+            margin-bottom: 2px;
+            cursor: pointer;
+            transition: color 0.3s;
+            line-height: 1.1;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .activity-item:hover .activity-title {
+            color: #4d8ee6;
+        }
+        .activity-meta {
+            font-size: 0.74rem;
+            color: #aaa;
+            margin-bottom: 2px;
+            line-height: 1.1;
+        }
+        .activity-time {
+            font-size: 0.64rem;
+            color: #777;
+            line-height: 1.1;
+        }
+        #loadMoreBtn {
+            background-color: rgba(77, 142, 230, 0.2);
+            color: white;
+            border: 1px solid #4d8ee6;
+            padding: 7px 13px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 13px auto 0 auto;
+            display: block;
+            transition: all 0.3s;
+            opacity: 0;
+            animation: fadeIn 0.5s 2.2s forwards;
+        }
+        #loadMoreBtn:hover {
+            background-color: #4d8ee6;
+            transform: translateY(-2px);
+            box-shadow: 0 3px 8px rgba(77, 142, 230, 0.3);
+        }
+        .favorites-list {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 12px 10px;
+            justify-items: center;
+            align-items: start;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .favorite-item {
+            width: 72px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: all 0.3s;
+            margin-bottom: 8px;
+        }
+        .favorite-item:hover {
+            transform: translateY(-5px);
+        }
+        .favorite-cover {
+            width: 72px;
+            height: 102px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 6px;
+            transition: transform 0.3s;
+        }
+        .favorite-item:hover .favorite-cover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(77, 142, 230, 0.3);
+        }
+        .favorite-title {
+            font-size: 0.82rem;
+            color: white;
+            margin-bottom: 2px;
+            cursor: pointer;
+            transition: color 0.3s;
+            line-height: 1.1;
+            max-width: 100%;
+            word-break: break-word;
+            white-space: normal;
+        }
+        .favorite-item:hover .favorite-title {
+            color: #4d8ee6;
+        }
+        .favorite-meta {
+            font-size: 0.66rem;
+            color: #aaa;
+            line-height: 1.1;
+            max-width: 100%;
+            word-break: break-word;
+            margin-bottom: 1px;
+        }
+        .footer {
+            background: rgba(20, 20, 20, 0.9);
+            padding: 25px 0;
+            text-align: center;
+            width: 100%;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            margin-top: 40px;
+            animation: fadeIn 0.5s 2.3s forwards;
+            opacity: 0;
+        }
+        .footer p {
+            margin: 0 0 15px 0;
+            font-size: 1rem;
+            color: #aaa;
+        }
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .footer-links a {
+            color: #4d8ee6;
+            text-decoration: none;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+        .footer-links a:hover {
+            color: #3a7bc8;
+            text-decoration: underline;
+        }
+        .footer-links span {
+            color: #555;
+        }
+        
+        /* Privacy Policy Styles */
+        .privacy-policy, .versions-panel, .credits-panel {
+            position: fixed;
+            top: 0;
+            left: 100%;
             width: 100%;
             height: 100%;
-            object-fit: contain;
+            background-color: rgba(30, 30, 30, 0.95);
+            z-index: 2000;
+            overflow-y: auto;
+            padding: 80px 20px 40px;
+            transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
         }
 
-        .logo-links a:hover {
-            transform: scale(1.1);
+        .privacy-policy.active, .versions-panel.active, .credits-panel.active {
+            transform: translateX(-100%);
         }
 
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-
-            to {
-                opacity: 1;
-            }
+        .privacy-policy-content, .versions-content, .credits-content {
+            background-color: rgba(40, 40, 40, 0.8);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.4);
+            border: 1px solid rgba(77, 142, 230, 0.2);
         }
 
-        .fade-in {
-            animation: fadeIn 0.5s ease-in-out;
+        .privacy-policy h1, .versions-panel h1, .credits-panel h1 {
+            color: #4d8ee6;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
         }
 
-        html {
-            scroll-behavior: smooth;
+        .privacy-policy p, .versions-panel p, .credits-panel p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
         }
 
-        .links {
-            display: flex;
-            gap: 5px;
+        .privacy-policy a, .versions-panel a, .credits-panel a {
+            color: #4d8ee6;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .privacy-policy a:hover, .versions-panel a:hover, .credits-panel a:hover {
+            color: #3a7bc8;
+            text-decoration: underline;
+        }
+
+        .close-privacy, .close-versions, .close-credits {
             position: absolute;
-            bottom: 5px;
-            left: 10px;
-        }
-
-        .links img {
-            width: 20px;
-            height: 20px;
-        }
-
-        .anime-item .flag:hover::after {
-            content: attr(alt); /* Display the full country name stored in the alt attribute */
-            position: absolute;
-            top: -30px; /* Position above the flag */
-            right: 0;
-            background-color: #f4f4f9;
-            color: #333;
-            padding: 5px 10px;
-            border-radius: 5px;
-            font-size: 12px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            white-space: nowrap;
-            z-index: 2; /* Ensure it's above other elements */
-        }
-
-        .profile-description-section {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 300px;
-    margin-bottom: 20px;
-}
-
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-}
-
-.image-grid img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-        /* Home button styling */
-        .home-button {
+            top: 20px;
+            right: 20px;
+            background: #4d8ee6;
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s;
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 0 20px;
-            transition: all 0.3s ease;
-            position: absolute;
-            left: 60px; /* Adjusted position to be next to dark mode toggle */
         }
 
-        .home-icon {
-            width: 24px;
-            height: 24px;
-            transition: transform 0.3s ease;
+        .close-privacy:hover, .close-versions:hover, .close-credits:hover {
+            background: #3a7bc8;
+            transform: rotate(90deg);
         }
 
-        .home-button:hover .home-icon {
-            transform: scale(1.2);
+        .versions-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
         }
 
-        .topbar a.home-button:hover {
-            background-color: transparent; /* Remove background color change on hover */
+        .version-item {
+            background-color: rgba(50, 50, 50, 0.6);
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid rgba(77, 142, 230, 0.3);
+            transition: all 0.3s;
         }
 
+        .version-item:hover {
+            background-color: rgba(60, 60, 60, 0.8);
+            border-color: rgba(77, 142, 230, 0.6);
+        }
 
+        .version-item h3 {
+            margin-top: 0;
+            color: #4d8ee6;
+        }
+
+        .version-item .download-btn {
+            display: inline-block;
+            background: #4d8ee6;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+            margin-top: 10px;
+        }
+
+        .version-item .download-btn:hover {
+            background: #3a7bc8;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Animation for main content when panels are active */
+        .privacy-active #main-content,
+        .credits-active #main-content,
+        .versions-active #main-content {
+            transform: translateX(-100%);
+            filter: blur(2px);
+            opacity: 0.7;
+        }
+
+        .privacy-active #topbar,
+        .credits-active #topbar,
+        .versions-active #topbar {
+            transform: translateX(-100%);
+            filter: blur(2px);
+            opacity: 0.7;
+        }
+
+        .privacy-active .footer,
+        .credits-active .footer,
+        .versions-active .footer {
+            transform: translateX(-100%);
+            filter: blur(2px);
+            opacity: 0.7;
+        }
+
+        @media (max-width: 1400px) {
+            .centered-true-flex-row {
+                max-width: 100vw;
+            }
+            .right-column {
+                min-width: 350px;
+                max-width: 350px;
+            }
+            .favorites-section {
+                min-width: 320px;
+                max-width: 350px;
+            }
+        }
+        @media (max-width: 1200px) {
+            .centered-true-flex-row {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            .left-column, .right-column, .center-column {
+                max-width: 100%;
+                width: 100%;
+                align-items: center;
+            }
+        }
+        @media (max-width: 900px) {
+            .centered-true-flex-row {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            .left-column, .right-column, .center-column {
+                max-width: 100%;
+                width: 100%;
+                align-items: center;
+            }
+            .favorites-list {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            .down-heatmap { width: 110px; height: 360px; }
+        }
+        @media (max-width: 768px) {
+            .header {
+                padding: 80px 10px 40px;
+            }
+            .header-content img {
+                width: 100px;
+            }
+            .header-content h1 {
+                font-size: 2.0rem;
+            }
+            .navbar-logo {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .navbar-nav {
+                gap: 6px;
+            }
+            .centered-true-flex-row {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            .left-column, .right-column, .center-column {
+                max-width: 100%;
+                width: 100%;
+                align-items: center;
+            }
+            .favorites-list {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .favorites-section {
+                width: 100%;
+                min-width: unset;
+            }
+            .down-heatmap { width: 85px; height: 220px; }
+        }
     </style>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
-    <!-- Topbar with links -->
-    <div class="topbar" id="topbar">
-        <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
-        <a href="https://swightshome.xyz" class="home-button" title="Home">
-            <svg class="home-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 9L12 3l9 6v12a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V12H9v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9z"/>
-            </svg>
-        </a>
-        <a href="Services">Services</a>
-        <a href="Projects">Projects</a>
-        <a href="Links">Links</a>
-        <a href="Contact">Contact</a>
-    </div>
-
+    <img id="backdrop" src="images/backdrop.jpg" alt="Fullscreen backdrop">
+    <!-- Header -->
     <div class="header">
         <div class="overlay"></div>
         <div class="header-content">
-            <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/Logonowhite.png" alt="Logo"
-                style="width: 150px; height: auto;">
+            <img src="images/littlelink.png" alt="Logo">
             <h1>Swight</h1>
-            <p>A page I made for my Anilist and StoryGraph profiles, currently you can find all of my watched anime, read manga and all my read books, all of this information gets stored in multiple json files in the Github repo.</p>
+            <p>A group of scipts I made for fun that fetch information from both my Anilist and StoryGraph, store that information in JSON files, and these pages display that information fancily.</p>
             <div class="logo-links">
                 <a href="https://anilist.co/user/Swight/" target="_blank">
-                    <img src="https://anilist.co/img/logo_al.png" alt="Anilist Logo">
+                    <img src="images/AniList.svg.png" alt="Anilist Logo">
                 </a>
                 <a href="https://myanimelist.net/profile/SwightUnkown" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/MyAnimeList_Logo.png" alt="MyAnimeList Logo">
+                    <img src="images/myanimelist.png" alt="MyAnimeList Logo">
                 </a>
                 <a href="https://kitsu.app/users/Swight" target="_blank">
-                    <img src="https://kitsu.io/favicon.ico" alt="Kitsu Logo">
+                    <img src="images/kitsu.png" alt="Kitsu Logo">
                 </a>
                 <a href="https://app.thestorygraph.com/profile/swight" target="_blank">
-                    <img src="https://raw.githubusercontent.com/SwightsNotFound/swightshome/main/images/storygraph.png" alt="Storygraph Logo">
+                    <img src="images/storygraph.png" alt="Storygraph Logo">
                 </a>
             </div>
         </div>
     </div>
-
-    <div class="navbar" id="navbar">
-        <a href="Overview" class="active">Overview</a>
-        <a href="Anime">Anime</a>
-        <a href="Manga">Manga</a>
-        <a href="Books">Books</a>
+    <!-- Topbar/Navbar -->
+    <div class="navbar">
+        <div class="navbar-logo-wrap">
+            <a href="https://Swightshome.xyz" class="navbar-logo" onclick="event.preventDefault(); window.location.href='https://Swightshome.xyz';">
+                <img src="images/littlelink.png" alt="Swightshome Logo"> Swightshome
+            </a>
+        </div>
+        <nav class="navbar-nav">
+            <a href="Overview" class="navbar-link active">Overview</a>
+            <a href="Anime" class="navbar-link">Anime</a>
+            <a href="Manga" class="navbar-link">Manga</a>
+            <a href="Books" class="navbar-link">Books</a>
+        </nav>
     </div>
-
+    <!-- Content Area: TRUE CENTER layout with grid -->
     <div class="content-area">
-        <div class="container">
-            <div>
-                <div class="profile-description-section" id="profile-description">
+        <div class="centered-true-flex-row">
+            <!-- LEFT COLUMN: STATS AND GRAPHS -->
+            <div class="left-column">
+                <div class="profile-description-section">
                     <h2>Feats</h2>
                     <div class="image-grid">
-                        <img src="https://i.postimg.cc/W4wgMgXf/3-Ani-Comp250.png" alt="Image 1">
-                        <img src="https://i.postimg.cc/76c201Sq/2-Eps5-000.png" alt="Image 2">
-                        <img src="https://i.postimg.cc/qqXV5RrZ/25_Movies_Watched_ReVamp.png" alt="Image 3">
-                        <img src="https://i.postimg.cc/wjK7HkBZ/3-Man-Read250.png" alt="Image 4">
+                        <img src="images/completedanime.png" alt="Completed Anime">
+                        <img src="images/episodes.png" alt="Episodes Watched">
+                        <img src="images/totalmovie.png" alt="Total Movies">
+                        <img src="images/readchapters.png" alt="Chapters Read">
                     </div>
+                    <p style="text-align: center; color: #aaa; font-size: 0.9rem;">Badges by <a href="https://anilist.co/forum/thread/15027" style="color: #4d8ee6;">Yggdorafuwu</a> and <a href="https://anilist.co/forum/thread/10224" style="color: #4d8ee6;">Logia</a>.</p>
                 </div>
-            
-                <div class="stats-section" id="anime-stats">
+                <div class="stats-section">
                     <h2>Anime Stats</h2>
-                    <div class="stat-item"><span>Count:</span><span id="anime-count"></span></div>
-                    <div class="stat-item"><span>Mean Score:</span><span id="anime-meanScore"></span></div>
-                    <div class="stat-item"><span>Days Watched:</span><span id="anime-daysWatched"></span></div>
-                    <div class="stat-item"><span>Episodes Watched:</span><span id="anime-episodesWatched"></span></div>
+                    <div class="stat-item"><span>Count:</span><span id="anime-count">Loading...</span></div>
+                    <div class="stat-item"><span>Mean Score:</span><span id="anime-meanScore">Loading...</span></div>
+                    <div class="stat-item"><span>Days Watched:</span><span id="anime-daysWatched">Loading...</span></div>
+                    <div class="stat-item"><span>Episodes Watched:</span><span id="anime-episodesWatched">Loading...</span></div>
                 </div>
-
-                <div class="stats-section" id="manga-stats">
+                <div class="stats-section">
                     <h2>Manga Stats</h2>
-                    <div class="stat-item"><span>Count:</span><span id="manga-count"></span></div>
-                    <div class="stat-item"><span>Mean Score:</span><span id="manga-meanScore"></span></div>
-                    <div class="stat-item"><span>Chapters Read:</span><span id="manga-chaptersRead"></span></div>
-                    <div class="stat-item"><span>Volumes Read:</span><span id="manga-volumesRead"></span></div>
+                    <div class="stat-item"><span>Count:</span><span id="manga-count">Loading...</span></div>
+                    <div class="stat-item"><span>Mean Score:</span><span id="manga-meanScore">Loading...</span></div>
+                    <div class="stat-item"><span>Chapters Read:</span><span id="manga-chaptersRead">Loading...</span></div>
+                    <div class="stat-item"><span>Volumes Read:</span><span id="manga-volumesRead">Loading...</span></div>
                 </div>
-
-                <div class="stats-section" id="book-stats">
+                <div class="stats-section">
                     <h2>Book Stats</h2>
-                    <div class="stat-item"><span>Books Read:</span><span id="books-read"></span></div>
-                    <div class="stat-item"><span>Pages Read:</span><span id="pages-read"></span></div>
-                    <div class="stat-item"><span>Minutes Listened:</span><span id="minutes-listened"></span></div>
+                    <div class="stat-item"><span>Books Read:</span><span id="books-read">Loading...</span></div>
+                    <div class="stat-item"><span>Pages Read:</span><span id="pages-read">Loading...</span></div>
+                    <div class="stat-item"><span>Minutes Listened:</span><span id="minutes-listened">Loading...</span></div>
                 </div>
-
                 <div class="stats-section">
                     <h2>Activity History</h2>
-                    <div class="heatmap" id="heatmap"></div>
+                    <div class="down-heatmap-wrap">
+                        <div class="down-heatmap" id="downHeatmap"></div>
+                    </div>
                 </div>
-
                 <div class="bar-chart-container">
-                    <h3>Top 5 Genres</h3>
+                    <h2>Genres</h2>
                     <div id="top-genres"></div>
                     <canvas id="genreChart"></canvas>
-                </div>               
+                </div>
             </div>
-
-            <div class="activity-section">
-                <h2>Recent Activities</h2>
-                <div class="activity-list" id="activityList"></div>
-                <button id="loadMoreBtn">Load More</button>
+            <!-- CENTER COLUMN: RECENT ACTIVITIES -->
+            <div class="center-column">
+                <div class="activity-section">
+                    <h2>Recent Activities</h2>
+                    <div class="activity-list" id="activityList">
+                        <div class="activity-item">
+                            <div class="activity-details">
+                                <p class="activity-meta">Loading activities...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="loadMoreBtn">Load More</button>
+                </div>
             </div>
+            <!-- RIGHT COLUMN: FAVORITES -->
+            <div class="right-column">
+                <div class="favorites-section">
+                    <h2>Favorite Anime</h2>
+                    <div id="anime-favorites" class="favorites-list">Loading...</div>
+                </div>
+                <div class="favorites-section">
+                    <h2>Favorite Manga</h2>
+                    <div id="manga-favorites" class="favorites-list">Loading...</div>
+                </div>
+                <div class="favorites-section">
+                    <h2>Favorite Characters</h2>
+                    <div id="character-favorites" class="favorites-list">Loading...</div>
+                </div>
+                <div class="favorites-section">
+                    <h2>Favorite Staff</h2>
+                    <div id="staff-favorites" class="favorites-list">Loading...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Made with ❤️ by Swight.</p>
+        <div class="footer-links">
+            <a href="https://status.swightshome.xyz/status/swightshome" target="_blank" role="button">Status Page</a>
+            <span>|</span>
+            <a href="https://git.swightshome.xyz/Swight/swightshome" target="_blank" role="button">Source Code</a>
+            <span>|</span>
+            <a href="#" id="privacy-btn" role="button">Privacy Policy</a>
+            <span>|</span>
+            <a href="#" id="credits-btn" role="button">Credits</a>
+            <span>|</span>
+            <a href="#" id="versions-btn" role="button">Versions</a>
+        </div>
+    </div>
 
-            <div class="favorites-section">
-                <h2>Favorite Anime</h2>
-                <div id="anime-favorites" class="favorites-list"></div>
+    <!-- Privacy Policy Panel -->
+    <div class="privacy-policy" id="privacy-policy">
+        <button class="close-privacy" id="close-privacy">×</button>
+        <div class="privacy-policy-content">
+            <h1>Privacy Policy</h1>
+            <p>If you create an account on any service, only the data you give that service will be stored.</p>
+            <p>To recieve all data collected on you, you can ask on one of my <a href="#contacts" class="privacy-contact-link">contacts</a>.</p>
+            <h1>No information is shared outside of swightshome.xyz</h1>
+            <p>Your information will never be shared with a third party unless requierd to by law.</p>
+    
+            <h1>Deleting your data</h1>
+            <p>You can delete any "identifiable" data, but there is a good chance I won't know who "you" are, so i can't delete that data.</p>
+            <p>But if I can, reach out to one of my <a href="#contacts" class="privacy-contact-link">contacts</a> and I'll get your data removed.</p>
+        </div>
+    </div>
 
-                <h2>Favorite Manga</h2>
-                <div id="manga-favorites" class="favorites-list"></div>
+    <!-- Credits Panel -->
+    <div class="privacy-policy" id="credits-panel">
+        <button class="close-privacy" id="close-credits">×</button>
+        <div class="privacy-policy-content">
+            <h1>Credits</h1>
+            <p>Here are some credits for resources used on this website:</p>
+            <ul>
+                <li>This website is hosted on GitHub Pages, with all services routed through Cloudflare Tunnels.</li>
+                <li>All logos displayed on this site belong to their respective owners. I do not claim ownership of any logos other than my own.</li>
+                <li>Chart graphs are thank to <a href="https://www.chartjs.org/" target="_blank">Chart.js</a>.</li>
+                <li>Fonts used on this site include: Chinacat by Dogstar (Shareware, © 1998) Zen Maru Gothic (SIL Open Font License, © 2007)</li>
+                <li>All anime and manga metadata was taken from Anilist through there public API. All novel and audiobook metadata was scraped from StoryGraph.</li>
+                <li>The background of the website features the character Reimu Hakurei from the Touhou Project. Specifically, the background belongs to <a href="https://store.steampowered.com/app/882710/_TouHou_Makuka_Sai__Fantastic_Danmaku_Festival/" target="_blank">this game title</a>.</li>
+                <li>Various badges are by <a href="https://anilist.co/forum/thread/15027" target="_blank">Yggdorafuwu</a> and <a href="https://anilist.co/forum/thread/10224" target="_blank">Logia</a>.</li>
+            </ul>
+            <p>Special thanks to all of the above mentioned! :)</p>
+        </div>
+    </div>
 
-                <h2>Favorite Characters</h2>
-                <div id="character-favorites" class="favorites-list"></div>
-
-                <h2>Favorite Staff</h2>
-                <div id="staff-favorites" class="favorites-list"></div>
+    <!-- Versions Panel -->
+    <div class="privacy-policy" id="versions-panel">
+        <button class="close-privacy" id="close-versions">×</button>
+        <div class="privacy-policy-content">
+            <h1>Website Versions</h1>
+            <p></p>
+            
+            <div class="versions-list">
+                <div class="version-item">
+                    <h3>Version 3.0 (Current)</h3>
+                    <p>The latest version completely reworked from the ground up, anime themed, has lots of animations and is much calmer on the eyes. However the site has been heavily downscaled from 2.0.</p>
+                    <a href="downloads/swightshome-v3.0.zip" class="download-btn">Download</a>
+                </div>
+                
+                <div class="version-item">
+                    <h3>Version 2.0</h3>
+                    <p>The most ambitious the site has ever been, made to be completely self-hosted in docker, uses a dark blue and black asthetic. Though in the end it was to much to host on my own.</p>
+                    <a href="downloads/swightshome-v2.0.zip" class="download-btn">Download</a>
+                </div>
+                
+                <div class="version-item">
+                    <h3>Version 1.0</h3>
+                    <p>My first website, and man was it crap, half of its functions where completely borked, but nonetheless it has meaning.</p>
+                    <a href="downloads/swightshome-v1.0.zip" class="download-btn">Download</a>
+                </div>
             </div>
         </div>
     </div>
 
-    <footer id="footer">        
-        <p>Hosted using <a href="https://pages.github.com/" role="button">Github Pages</a> and <a href="https://www.cloudflare.com/" role="button">Cloudflare</a>.</p>
-        <div class="footer-links">
-            <a href="https://swightshome.xyz/Status" role="button">Status Page</a>
-            <span>|</span>
-            <a href="https://github.com/SwightsNotFound/swightshome" role="button">Source Code</a>
-            <span>|</span>
-            <a href="Privacy" role="button">Privacy Policy</a>
-        </div>
-    </footer>
-
     <script>
-        let allActivities = [];
-        let activitiesToShow = 20;
-        const excludedStatuses = [
-            "paused watching", 
-            "paused reading", 
-            "dropped", 
-            "plans to read", 
-            "plans to watch"
-        ];
-
-        fetch('activityHistory.json')
-    .then(response => response.json())
-    .then(activityData => {
-        const currentDate = new Date();
-        const last365Days = [];
-
-        for (let i = 0; i < 365; i++) {
-            const date = new Date(currentDate);
-            date.setDate(date.getDate() - i);
-            last365Days.push(date.toISOString().split('T')[0]);
-        }
-
-        last365Days.forEach(dateString => {
-            const activities = (activityData[dateString] || []).filter(activity => 
-                !excludedStatuses.includes(activity.status?.toLowerCase())
-            );
-            allActivities.push(...activities);
-        });
-
-        allActivities.sort((a, b) => b.createdAt - a.createdAt);
-        displayActivities();
-        displayHeatmap(activityData);
-    })
-    .catch(error => console.error('Error loading activity data:', error));
-
-    function displayActivities() {
-    const activityList = document.getElementById('activityList');
-    activityList.innerHTML = '';
-
-    const activitiesToDisplay = allActivities.slice(0, activitiesToShow);
-
-    activitiesToDisplay.forEach(activity => {
-        const activityDiv = document.createElement('div');
-        activityDiv.className = 'activity';
-        const title = activity.media?.title?.english || activity.media?.title?.romaji || 'No title available';
-        const cover = activity.media?.coverImage?.large || 'default-cover.jpg';
-        const progress = activity.progress ? `Episode ${activity.progress}` : '';
-        const time = new Date(activity.createdAt * 1000).toLocaleString('en-US', { timeZone: 'America/Chicago' });
-        const siteUrl = activity.media?.siteUrl || '#';
-
-        activityDiv.innerHTML = `
-            <img src="${cover}" alt="${title}" onclick="window.open('${siteUrl}', '_blank')">
-            <div class="activity-details">
-                <p class="activity-title" onclick="window.open('${siteUrl}', '_blank')">${title}</p>
-                <p class="activity-meta">${progress}</p>
-                <p class="activity-time">${time}</p>
-            </div>
-        `;
-        activityList.appendChild(activityDiv);
-    });
-}
-
-        function displayHeatmap(activityData) {
-            const heatmap = document.getElementById('heatmap');
-            const daysInYear = 365;
-            const currentYear = new Date().getFullYear();
-
-            for (let i = 0; i < daysInYear; i++) {
-                const date = new Date(currentYear, 0, 1 + i);
-                const dateString = date.toISOString().split('T')[0];
-                const activities = (activityData[dateString] || []).filter(activity => 
-                    !excludedStatuses.includes(activity.status?.toLowerCase())
-                );
-                const activityCount = activities.length;
-                let activityLevel = 0;
-
-                if (activityCount > 0) activityLevel = 1;
-                if (activityCount > 2) activityLevel = 2;
-                if (activityCount > 5) activityLevel = 3;
-                if (activityCount > 10) activityLevel = 4;
-
-                const dayDiv = document.createElement('div');
-                dayDiv.className = 'day';
-                dayDiv.dataset.activity = activityLevel;
-                dayDiv.innerHTML = `<span class="tooltip">${dateString}: ${activityCount} activities</span>`;
-                heatmap.appendChild(dayDiv);
-            }
-        }
-
-        document.getElementById('loadMoreBtn').addEventListener('click', () => {
-            activitiesToShow += 10;
-            displayActivities();
-        });
-
-        fetch('stats.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`HTTP error! Status: ${response.status}`);
-                }
-                return response.json();
-            })
-            .then(data => {
-                if (data && data.data && data.data.User && data.data.User.statistics) {
-                    const animeStats = data.data.User.statistics.anime;
-                    const mangaStats = data.data.User.statistics.manga;
-
-                    document.getElementById('anime-count').textContent = animeStats.count;
-                    document.getElementById('anime-meanScore').textContent = animeStats.meanScore;
-                    const daysWatched = (animeStats.minutesWatched / 60 / 24).toFixed(2);
-                    document.getElementById('anime-daysWatched').textContent = daysWatched;
-                    document.getElementById('anime-episodesWatched').textContent = animeStats.episodesWatched;
-
-                    document.getElementById('manga-count').textContent = mangaStats.count;
-                    document.getElementById('manga-meanScore').textContent = mangaStats.meanScore;
-                    document.getElementById('manga-chaptersRead').textContent = mangaStats.chaptersRead;
-                    document.getElementById('manga-volumesRead').textContent = mangaStats.volumesRead;
-                } else {
-                    throw new Error('Invalid data structure');
-                }
-            })
-            .catch(error => {
-                console.error('Error fetching stats:', error);
-                document.getElementById('error-message').textContent = `Error: ${error.message}`;
-            });
-
-        fetch('storygraph_stats.json')
-            .then(response => response.json())
-            .then(data => {
-                document.getElementById('books-read').textContent = data.totalBooksRead;
-                document.getElementById('pages-read').textContent = data.totalPagesRead;
-                document.getElementById('minutes-listened').textContent = data.totalMinutesListened;
-            })
-            .catch(error => console.error('Error loading book stats:', error));
-
-        fetch('genreOverview.json')
-            .then(response => response.json())
-            .then(data => {
-                const genres = data.anime.genres;
-                const topGenres = genres.sort((a, b) => b.count - a.count).slice(0, 5);
-
-                const topGenresContainer = document.getElementById('top-genres');
-                topGenres.forEach(genre => {
-                    const genreDiv = document.createElement('div');
-                    genreDiv.textContent = `${genre.genre}: ${genre.count}`;
-                    topGenresContainer.appendChild(genreDiv);
-                });
-
-                const ctx = document.getElementById('genreChart').getContext('2d');
-                const chartData = {
-                    labels: genres.map(genre => genre.genre),
-                    datasets: [{
-                        label: 'Percentage of Anime Watched',
-                        data: genres.map(genre => genre.count),
-                        backgroundColor: genres.map(() => `#${Math.floor(Math.random()*16777215).toString(16)}`)
-                    }]
-                };
-
-                new Chart(ctx, {
-                    type: 'bar',
-                    data: chartData,
-                    options: {
-                        scales: {
-                            x: {
-                                beginAtZero: true
-                            },
-                            y: {
-                                beginAtZero: true
-                            }
+        document.addEventListener('DOMContentLoaded', function () {
+            let allActivities = [];
+            let activitiesToShow = 25;
+            const activitiesPerLoad = 10;
+            const excludedStatuses = [
+                "paused watching", "paused reading", "dropped",
+                "plans to read", "plans to watch"
+            ];
+            // --- DOWNWARD ACTIVITY HISTORY GRAPH LOGIC (vertical orientation, 52 weeks, 7 days/week) ---
+            fetch('json/activityHistory.json')
+                .then(response => response.json())
+                .then(activityData => {
+                    // 52 weeks x 7 days = 364 days (full year)
+                    const currentDate = new Date();
+                    const days = [];
+                    for (let i = 0; i < 364; i++) {
+                        const d = new Date(currentDate);
+                        d.setDate(d.getDate() - (363 - i));
+                        days.push(d);
+                    }
+                    // Prepare 2D array: [row][col] = activity level -- row=week (vertical), col=day (Mon-Sun)
+                    const grid = Array.from({ length: 52 }, () => Array(7).fill({level:0, count:0, date:""}));
+                    for (let i = 0; i < days.length; i++) {
+                        const week = Math.floor(i / 7); // row index (vertical)
+                        const dayOfWeek = days[i].getDay(); // 0 (Sun) - 6 (Sat)
+                        const col = (dayOfWeek + 6) % 7; // Monday=0, Sunday=6 (horizontal col index)
+                        const dateString = days[i].toISOString().split('T')[0];
+                        const acts = (activityData[dateString] || []).filter(a =>
+                            !excludedStatuses.includes((a.status || "").toLowerCase())
+                        );
+                        let level = 0;
+                        if (acts.length > 0) level = 1;
+                        if (acts.length > 2) level = 2;
+                        if (acts.length > 5) level = 3;
+                        if (acts.length > 10) level = 4;
+                        grid[week][col] = { level, count: acts.length, date: dateString };
+                    }
+                    // Render downwards: columns = days (Mon-Sun), rows = weeks (oldest at top)
+                    const container = document.getElementById('downHeatmap');
+                    container.innerHTML = '';
+                    for (let week = 0; week < 52; week++) {
+                        for (let col = 0; col < 7; col++) {
+                            const cell = grid[week][col];
+                            const div = document.createElement('div');
+                            div.className = 'down-day';
+                            div.dataset.activity = cell.level;
+                            div.title = `${cell.date}: ${cell.count} activities`;
+                            container.appendChild(div);
                         }
                     }
+                    // Prepare allActivities for recent activity list: latest first
+                    const reversedDays = [...days].reverse();
+                    reversedDays.forEach(d => {
+                        const dateString = d.toISOString().split('T')[0];
+                        const acts = (activityData[dateString] || []).filter(a =>
+                            !excludedStatuses.includes((a.status || "").toLowerCase())
+                        );
+                        allActivities.push(...acts);
+                    });
+                    allActivities.sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0));
+                    displayActivities();
+                })
+                .catch(error => {
+                    const container = document.getElementById('downHeatmap');
+                    if (container) container.innerHTML = '';
+                    console.error('Error loading activity data:', error);
                 });
-            })
-            .catch(error => console.error('Error loading genre overview:', error));
 
-        fetch('favorites.json')
-            .then(response => response.json())
-            .then(data => {
-                displayFavorites(data.anime.nodes, 'anime-favorites', 'title', 'coverImage', 'siteUrl');
-                displayFavorites(data.manga.nodes, 'manga-favorites', 'title', 'coverImage', 'siteUrl');
-                displayFavorites(data.characters.nodes, 'character-favorites', 'name', 'image', 'siteUrl');
-                displayFavorites(data.staff.nodes, 'staff-favorites', 'name', 'image', 'siteUrl');
-            })
-            .catch(error => console.error('Error loading favorites:', error));
+            function displayActivities() {
+                const activityList = document.getElementById('activityList');
+                activityList.innerHTML = '';
+                const activitiesToDisplay = allActivities.slice(0, activitiesToShow);
+                if (activitiesToDisplay.length === 0) {
+                    activityList.innerHTML = '<div class="activity-item"><div class="activity-details"><p class="activity-meta">No activities found</p></div></div>';
+                    return;
+                }
+                activitiesToDisplay.forEach(activity => {
+                    const activityDiv = document.createElement('div');
+                    activityDiv.className = 'activity-item';
+                    const title = activity.media?.title?.english || activity.media?.title?.romaji || 'No title available';
+                    const cover = activity.media?.coverImage?.large || 'default-cover.jpg';
+                    const progress = activity.progress ? `Episode ${activity.progress}` : '';
+                    let time = '';
+                    if (activity.createdAt) {
+                        try {
+                            time = new Date(activity.createdAt * 1000).toLocaleString('en-US', { timeZone: 'America/Chicago' });
+                        } catch (e) { time = ''; }
+                    }
+                    const siteUrl = activity.media?.siteUrl || '#';
+                    activityDiv.innerHTML = `
+                        <img src="${cover}" alt="${title}" class="activity-cover" onclick="window.open('${siteUrl}', '_blank')">
+                        <div class="activity-details">
+                            <p class="activity-title" onclick="window.open('${siteUrl}', '_blank')">${title}</p>
+                            <p class="activity-meta">${progress}</p>
+                            <p class="activity-time">${time}</p>
+                        </div>
+                    `;
+                    activityList.appendChild(activityDiv);
+                });
+            }
+            const loadMoreBtn = document.getElementById('loadMoreBtn');
+            if (loadMoreBtn) {
+                loadMoreBtn.addEventListener('click', () => {
+                    activitiesToShow += activitiesPerLoad;
+                    displayActivities();
+                });
+            }
+            fetch('json/stats.json')
+                .then(response => {
+                    if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+                    return response.json();
+                })
+                .then(data => {
+                    if (data && data.data && data.data.User && data.data.User.statistics) {
+                        const animeStats = data.data.User.statistics.anime;
+                        const mangaStats = data.data.User.statistics.manga;
+                        document.getElementById('anime-count').textContent = animeStats.count;
+                        document.getElementById('anime-meanScore').textContent = animeStats.meanScore;
+                        const daysWatched = (animeStats.minutesWatched / 60 / 24).toFixed(2);
+                        document.getElementById('anime-daysWatched').textContent = daysWatched;
+                        document.getElementById('anime-episodesWatched').textContent = animeStats.episodesWatched;
+                        document.getElementById('manga-count').textContent = mangaStats.count;
+                        document.getElementById('manga-meanScore').textContent = mangaStats.meanScore;
+                        document.getElementById('manga-chaptersRead').textContent = mangaStats.chaptersRead;
+                        document.getElementById('manga-volumesRead').textContent = mangaStats.volumesRead;
+                    }
+                })
+                .catch(error => console.error('Error fetching stats:', error));
 
-        function displayFavorites(favorites, containerId, titleKey, imageKey, urlKey) {
-            const container = document.getElementById(containerId);
-            container.innerHTML = '';
+            fetch('json/storygraph_stats.json')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('books-read').textContent = data.totalBooksRead;
+                    document.getElementById('pages-read').textContent = data.totalPagesRead;
+                    document.getElementById('minutes-listened').textContent = data.totalMinutesListened;
+                })
+                .catch(error => console.error('Error loading book stats:', error));
 
-            favorites.forEach(favorite => {
-                const favoriteDiv = document.createElement('div');
-                favoriteDiv.className = 'favorite-item';
-                const title = favorite[titleKey].english || favorite[titleKey].romaji || favorite[titleKey].full;
-                const subtitle = favorite[titleKey].romaji || favorite[titleKey].native || '';
-                const cover = favorite[imageKey].large;
-                const url = favorite[urlKey];
-
-                favoriteDiv.innerHTML = `
-                    <img src="${cover}" alt="${title}" onclick="window.open('${url}', '_blank')">
-                    <div class="favorite-details">
+            fetch('json/genreOverview.json')
+                .then(response => response.json())
+                .then(data => {
+                    const genres = data.anime.genres;
+                    const genreColorMap = {
+                        "Drama": "#b56576",
+                        "Comedy": "#f4d35e",
+                        "Romance": "#e07a5f",
+                        "Action": "#3a86ff",
+                        "Fantasy": "#8ac926",
+                        "Slice of Life": "#f7b267",
+                        "Supernatural": "#9d4edd",
+                        "Adventure": "#43aa8b",
+                        "Mystery": "#22223b",
+                        "Psychological": "#495867",
+                        "Sci-Fi": "#118ab2",
+                        "Ecchi": "#ef476f",
+                        "Thriller": "#1b1b1e",
+                        "Sports": "#06d6a0",
+                        "Music": "#ffd166",
+                        "Horror": "#e63946",
+                        "Mahou Shoujo": "#ffb7b2"
+                    };
+                    const genreColors = genres.map(g => genreColorMap[g.genre] || "#888");
+                    const topGenres = genres.sort((a, b) => b.count - a.count).slice(0, 5);
+                    const topGenresContainer = document.getElementById('top-genres');
+                    if (topGenresContainer) {
+                        topGenresContainer.innerHTML = '<h3>Top 5 Genres</h3>';
+                        topGenres.forEach(genre => {
+                            const genreDiv = document.createElement('div');
+                            genreDiv.textContent = `${genre.genre}: ${genre.count}`;
+                            topGenresContainer.appendChild(genreDiv);
+                        });
+                    }
+                    const ctx = document.getElementById('genreChart')?.getContext('2d');
+                    if (ctx) {
+                        const chartData = {
+                            labels: genres.map(genre => genre.genre),
+                            datasets: [{
+                                label: 'Count',
+                                data: genres.map(genre => genre.count),
+                                backgroundColor: genreColors
+                            }]
+                        };
+                        new Chart(ctx, {
+                            type: 'bar',
+                            data: chartData,
+                            options: {
+                                responsive: true,
+                                indexAxis: 'y',
+                                plugins: {
+                                    legend: { display: false }
+                                },
+                                scales: {
+                                    y: {
+                                        ticks: { color: '#aaa' },
+                                        grid: { color: 'rgba(255,255,255,0.1)' }
+                                    },
+                                    x: {
+                                        beginAtZero: true,
+                                        ticks: { color: '#aaa' },
+                                        grid: { color: 'rgba(255,255,255,0.1)' }
+                                    }
+                                }
+                            }
+                        });
+                    }
+                })
+                .catch(error => console.error('Error loading genre overview:', error));
+            fetch('json/favorites.json')
+                .then(response => response.json())
+                .then(data => {
+                    displayFavorites(data.anime.nodes, 'anime-favorites', 'title', 'coverImage', 'siteUrl');
+                    displayFavorites(data.manga.nodes, 'manga-favorites', 'title', 'coverImage', 'siteUrl');
+                    displayFavorites(data.characters.nodes, 'character-favorites', 'name', 'image', 'siteUrl');
+                    displayFavorites(data.staff.nodes, 'staff-favorites', 'name', 'image', 'siteUrl');
+                })
+                .catch(error => console.error('Error loading favorites:', error));
+            function displayFavorites(favorites, containerId, titleKey, imageKey, urlKey) {
+                const container = document.getElementById(containerId);
+                if (!container) return;
+                container.innerHTML = '';
+                favorites.forEach(favorite => {
+                    const favoriteDiv = document.createElement('div');
+                    favoriteDiv.className = 'favorite-item';
+                    const title = favorite[titleKey]?.english || favorite[titleKey]?.romaji || favorite[titleKey]?.full || favorite[titleKey];
+                    const subtitle = favorite[titleKey]?.romaji || favorite[titleKey]?.native || '';
+                    const cover = favorite[imageKey]?.large || favorite[imageKey]?.medium || 'default-cover.jpg';
+                    const url = favorite[urlKey];
+                    favoriteDiv.innerHTML = `
+                        <img src="${cover}" alt="${title}" class="favorite-cover" onclick="window.open('${url}', '_blank')">
                         <p class="favorite-title" onclick="window.open('${url}', '_blank')">${title}</p>
                         <p class="favorite-meta">${subtitle}</p>
-                    </div>
-                `;
-                container.appendChild(favoriteDiv);
+                    `;
+                    container.appendChild(favoriteDiv);
+                });
+            }
+
+            // --- Privacy Policy Toggle ---
+            const privacyBtn = document.getElementById('privacy-btn');
+            const privacyPanel = document.getElementById('privacy-policy');
+            const closePrivacy = document.getElementById('close-privacy');
+            const body = document.body;
+
+            function closePrivacyPanel() {
+                body.classList.remove('privacy-active');
+                privacyPanel.classList.remove('active');
+            }
+
+            privacyBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                body.classList.add('privacy-active');
+                privacyPanel.classList.add('active');
             });
-        }
 
-        function setCookie(name, value, days) {
-            const d = new Date();
-            d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
-            const expires = "expires=" + d.toUTCString();
-            document.cookie = name + "=" + value + ";" + expires + ";path=/";
-        }
+            closePrivacy.addEventListener('click', closePrivacyPanel);
 
-        function getCookie(name) {
-            const cname = name + "=";
-            const decodedCookie = decodeURIComponent(document.cookie);
-            const ca = decodedCookie.split(';');
-            for (let i = 0; i < ca.length; i++) {
-                let c = ca[i];
-                while (c.charAt(0) == ' ') {
-                    c = c.substring(1);
+            privacyPanel.addEventListener('click', function(e) {
+                if (e.target === privacyPanel) {
+                    closePrivacyPanel();
                 }
-                if (c.indexOf(cname) == 0) {
-                    return c.substring(cname.length, c.length);
-                }
+            });
+
+            // --- Credits Toggle ---
+            const creditsBtn = document.getElementById('credits-btn');
+            const creditsPanel = document.getElementById('credits-panel');
+            const closeCredits = document.getElementById('close-credits');
+
+            function closeCreditsPanel() {
+                body.classList.remove('credits-active');
+                creditsPanel.classList.remove('active');
             }
-            return "";
-        }
 
-        function applyDarkModePreference() {
-            const darkModePreference = getCookie("darkMode");
-            const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            creditsBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                body.classList.add('credits-active');
+                creditsPanel.classList.add('active');
+            });
 
-            if (darkModePreference === "enabled" || (darkModePreference === "" && prefersDarkScheme)) {
-                document.body.classList.add('dark-mode');
-                document.getElementById('navbar').classList.add('dark-mode');
-                document.getElementById('topbar').classList.add('dark-mode');
-                document.getElementById('footer').classList.add('dark-mode');
-                document.getElementById('darkModeToggle').textContent = '☀️';
-            } else {
-                document.getElementById('darkModeToggle').textContent = '🌙';
-            }
-        }
+            closeCredits.addEventListener('click', closeCreditsPanel);
 
-        applyDarkModePreference();
-
-        function toggleDarkMode() {
-            const isDarkMode = document.body.classList.toggle('dark-mode');
-            document.getElementById('navbar').classList.toggle('dark-mode');
-            document.getElementById('topbar').classList.toggle('dark-mode');
-            document.getElementById('footer').classList.toggle('dark-mode');
-            darkModeToggle.textContent = isDarkMode ? '☀️' : '🌙';
-            setCookie("darkMode", isDarkMode ? "enabled" : "disabled", 365);
-        }
-
-        const darkModeToggle = document.getElementById('darkModeToggle');
-        darkModeToggle.addEventListener('click', toggleDarkMode);
-
-        document.addEventListener('DOMContentLoaded', (event) => {
-            let lastScrollTop = 0;
-            const topbar = document.getElementById('topbar');
-            const scrollSpeed = 0.5; // Adjust this value for smoother or faster animations
-
-            window.addEventListener('scroll', () => {
-                let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-                if (scrollTop > lastScrollTop) {
-                    // Scroll down
-                    topbar.style.transition = `top ${scrollSpeed}s`;
-                    topbar.style.top = `-${topbar.offsetHeight}px`;
-                } else {
-                    // Scroll up
-                    topbar.style.transition = `top ${scrollSpeed}s`;
-                    topbar.style.top = '0';
+            creditsPanel.addEventListener('click', function(e) {
+                if (e.target === creditsPanel) {
+                    closeCreditsPanel();
                 }
-                lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling 
+            });
+
+            // --- Versions Toggle ---
+            const versionsBtn = document.getElementById('versions-btn');
+            const versionsPanel = document.getElementById('versions-panel');
+            const closeVersions = document.getElementById('close-versions');
+
+            function closeVersionsPanel() {
+                body.classList.remove('versions-active');
+                versionsPanel.classList.remove('active');
+            }
+
+            versionsBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                body.classList.add('versions-active');
+                versionsPanel.classList.add('active');
+            });
+
+            closeVersions.addEventListener('click', closeVersionsPanel);
+
+            versionsPanel.addEventListener('click', function(e) {
+                if (e.target === versionsPanel) {
+                    closeVersionsPanel();
+                }
+            });
+
+            // Close panels when clicking contact links inside them
+            document.querySelectorAll('.privacy-contact-link').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    // Only handle if it's specifically a privacy contact link
+                    if (this.classList.contains('privacy-contact-link')) {
+                        e.preventDefault();
+                        closePrivacyPanel();
+                        closeCreditsPanel();
+                        closeVersionsPanel();
+                        const targetId = this.getAttribute('href');
+                        setTimeout(() => {
+                            document.querySelector(targetId).scrollIntoView({ behavior: 'smooth' });
+                        }, 100);
+                    }
+                });
+            });
+            
+            // fix downloads on version page
+            // Update the download button handling
+            document.querySelectorAll('.download-btn').forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    // Only prevent default if it's a download button
+                    if (this.classList.contains('download-btn')) {
+                        e.preventDefault();
+                        const url = this.href;
+                        const a = document.createElement('a');
+                        a.href = url;
+                        a.download = url.split('/').pop();
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                    }
+                });
             });
         });
-
-        document.addEventListener('DOMContentLoaded', () => {
-    const markdownContent = `
-# Profile Description
-This is **Swight's** profile description.
-`;
-    document.getElementById('profile-description-content').innerHTML = marked(markdownContent);
-});
     </script>
 </body>
 </html>

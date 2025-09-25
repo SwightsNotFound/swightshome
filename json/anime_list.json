@@ -11465,6 +11465,28 @@
         }
       },
       {
+        "id": 161964,
+        "title": "The Eminence in Shadow Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161964-JpkEbHI8ivaP.jpg",
+        "averageScore": 82,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 7,
+        "progress": 11,
+        "links": {
+          "anilist": "https://anilist.co/anime/161964/",
+          "mal": "https://myanimelist.net/anime/161964",
+          "kitsu": "https://kitsu.io/anime/161964"
+        }
+      },
+      {
         "id": 5081,
         "title": "Bakemonogatari",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5081-9GocceQ5Z865.jpg",
@@ -11719,28 +11741,6 @@
           "anilist": "https://anilist.co/anime/166531/",
           "mal": "https://myanimelist.net/anime/166531",
           "kitsu": "https://kitsu.io/anime/166531"
-        }
-      },
-      {
-        "id": 161964,
-        "title": "The Eminence in Shadow Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161964-JpkEbHI8ivaP.jpg",
-        "averageScore": 82,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 9,
-        "links": {
-          "anilist": "https://anilist.co/anime/161964/",
-          "mal": "https://myanimelist.net/anime/161964",
-          "kitsu": "https://kitsu.io/anime/161964"
         }
       }
     ]

@@ -9,33 +9,37 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
-
+    
+    # Add permissions for contents write
+    permissions:
+      contents: write
+    
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-
+      with:
+        # This is important for push access
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '18'
-        cache: 'npm'
-
+        
     - name: Install dependencies
-      run: |
-        npm install axios
-
+      run: npm install axios
+        
     - name: Run AniList sync
-      env:
-        ANILIST_USERNAME: 'Swight'
-        ANILIST_USER_ID: '6405416'
-      run: |
-        node anilist-sync.js
-
+      run: node anilist-sync.js
+        
     - name: Commit and push if changes
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        
+        # Check if there are changes to commit
         git add json/
+        
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else

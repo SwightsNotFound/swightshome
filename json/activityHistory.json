@@ -1,6 +1,22 @@
 {
   "2025-09-25": [
     {
+      "id": 960993022,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1758840699,
+      "media": {
+        "title": {
+          "english": "The Eminence in Shadow Season 2",
+          "romaji": "Kage no Jitsuryokusha ni Naritakute! 2nd season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx161964-JpkEbHI8ivaP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/161964"
+      }
+    },
+    {
       "id": 960974247,
       "status": "watched episode",
       "progress": "11",

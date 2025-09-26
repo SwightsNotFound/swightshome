@@ -39489,6 +39489,22 @@
   ],
   "2025-09-26": [
     {
+      "id": 961240625,
+      "status": "watched episode",
+      "progress": "17",
+      "createdAt": 1758894791,
+      "media": {
+        "title": {
+          "english": "That Time I Got Reincarnated as a Slime",
+          "romaji": "Tensei Shitara Slime Datta Ken"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101280-tDxCVJm714nt.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101280"
+      }
+    },
+    {
       "id": 961086848,
       "status": "watched episode",
       "progress": "16",

@@ -1,6 +1,38 @@
 {
   "2025-09-25": [
     {
+      "id": 961010678,
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1758843799,
+      "media": {
+        "title": {
+          "english": "That Time I Got Reincarnated as a Slime",
+          "romaji": "Tensei Shitara Slime Datta Ken"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101280-tDxCVJm714nt.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101280"
+      }
+    },
+    {
+      "id": 961003389,
+      "status": "watched episode",
+      "progress": "8",
+      "createdAt": 1758842463,
+      "media": {
+        "title": {
+          "english": "That Time I Got Reincarnated as a Slime",
+          "romaji": "Tensei Shitara Slime Datta Ken"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101280-tDxCVJm714nt.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101280"
+      }
+    },
+    {
       "id": 960993022,
       "status": "completed",
       "progress": null,
@@ -39452,6 +39484,88 @@
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx163132-C220CO5UrTxY.jpg"
         },
         "siteUrl": "https://anilist.co/anime/163132"
+      }
+    }
+  ],
+  "2025-09-26": [
+    {
+      "id": 961047710,
+      "status": "watched episode",
+      "progress": "13",
+      "createdAt": 1758851241,
+      "media": {
+        "title": {
+          "english": "That Time I Got Reincarnated as a Slime",
+          "romaji": "Tensei Shitara Slime Datta Ken"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101280-tDxCVJm714nt.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101280"
+      }
+    },
+    {
+      "id": 961043253,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1758850326,
+      "media": {
+        "title": {
+          "english": "Eden of the East",
+          "romaji": "Higashi no Eden"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx5630-l1YM9YDO8tpt.png"
+        },
+        "siteUrl": "https://anilist.co/anime/5630"
+      }
+    },
+    {
+      "id": 961040628,
+      "status": "watched episode",
+      "progress": "12",
+      "createdAt": 1758849787,
+      "media": {
+        "title": {
+          "english": "That Time I Got Reincarnated as a Slime",
+          "romaji": "Tensei Shitara Slime Datta Ken"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101280-tDxCVJm714nt.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101280"
+      }
+    },
+    {
+      "id": 961024704,
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1758846591,
+      "media": {
+        "title": {
+          "english": "That Time I Got Reincarnated as a Slime",
+          "romaji": "Tensei Shitara Slime Datta Ken"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101280-tDxCVJm714nt.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101280"
+      }
+    },
+    {
+      "id": 961017266,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1758845142,
+      "media": {
+        "title": {
+          "english": "That Time I Got Reincarnated as a Slime",
+          "romaji": "Tensei Shitara Slime Datta Ken"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101280-tDxCVJm714nt.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101280"
       }
     }
   ]

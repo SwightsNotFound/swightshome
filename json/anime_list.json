@@ -3241,29 +3241,6 @@
         }
       },
       {
-        "id": 108511,
-        "title": "That Time I Got Reincarnated as a Slime Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108511-PufFordLNyIb.jpg",
-        "averageScore": 83,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/108511/",
-          "mal": "https://myanimelist.net/anime/108511",
-          "kitsu": "https://kitsu.io/anime/108511"
-        }
-      },
-      {
         "id": 181447,
         "title": "May I Ask for One Final Thing?",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx181447-aCmaQmtdwuU5.jpg",
@@ -11746,6 +11723,29 @@
         }
       },
       {
+        "id": 108511,
+        "title": "That Time I Got Reincarnated as a Slime Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108511-PufFordLNyIb.jpg",
+        "averageScore": 83,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/108511/",
+          "mal": "https://myanimelist.net/anime/108511",
+          "kitsu": "https://kitsu.io/anime/108511"
+        }
+      },
+      {
         "id": 166531,
         "title": "Oshi no Ko Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166531-dAL5MsqDHUkj.jpg",
@@ -11766,6 +11766,29 @@
           "anilist": "https://anilist.co/anime/166531/",
           "mal": "https://myanimelist.net/anime/166531",
           "kitsu": "https://kitsu.io/anime/166531"
+        }
+      },
+      {
+        "id": 195153,
+        "title": "Dusk Beyond the End of the World",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx195153-yiRxZP5pPJLi.png",
+        "averageScore": 63,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Action",
+          "Drama",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/195153/",
+          "mal": "https://myanimelist.net/anime/195153",
+          "kitsu": "https://kitsu.io/anime/195153"
         }
       }
     ]

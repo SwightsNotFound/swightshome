@@ -39827,6 +39827,38 @@
   ],
   "2025-09-27": [
     {
+      "id": 961903367,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759010562,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Hikaru ga Shinda Natsu 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199342-T4ESffzfVCB5.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/199342"
+      }
+    },
+    {
+      "id": 961902969,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1759010502,
+      "media": {
+        "title": {
+          "english": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+          "romaji": "Kimetsu no Yaiba: Mugenjou-hen Movie 1 - Akaza Sairai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178788-zm3gtpB9TpRt.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/178788"
+      }
+    },
+    {
       "id": 961764571,
       "status": "read chapter",
       "progress": "3",

@@ -4302,6 +4302,30 @@
           "mal": "https://myanimelist.net/anime/199340",
           "kitsu": "https://kitsu.io/anime/199340"
         }
+      },
+      {
+        "id": 199342,
+        "title": "Hikaru ga Shinda Natsu 2nd Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx199342-T4ESffzfVCB5.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Horror",
+          "Mystery",
+          "Psychological",
+          "Supernatural",
+          "Thriller"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/199342/",
+          "mal": "https://myanimelist.net/anime/199342",
+          "kitsu": "https://kitsu.io/anime/199342"
+        }
       }
     ]
   },
@@ -8194,7 +8218,7 @@
         "id": 144533,
         "title": "Bibliophile Princess",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx144533-DqgPeBmWZPYQ.jpg",
-        "averageScore": 67,
+        "averageScore": 66,
         "episodes": 12,
         "status": "FINISHED",
         "genres": [
@@ -11476,6 +11500,30 @@
           "mal": "https://myanimelist.net/anime/97731",
           "kitsu": "https://kitsu.io/anime/97731"
         }
+      },
+      {
+        "id": 178788,
+        "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178788-zm3gtpB9TpRt.jpg",
+        "averageScore": 87,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/178788/",
+          "mal": "https://myanimelist.net/anime/178788",
+          "kitsu": "https://kitsu.io/anime/178788"
+        }
       }
     ]
   },
@@ -11780,30 +11828,6 @@
           "anilist": "https://anilist.co/anime/189326/",
           "mal": "https://myanimelist.net/anime/189326",
           "kitsu": "https://kitsu.io/anime/189326"
-        }
-      },
-      {
-        "id": 178788,
-        "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178788-zm3gtpB9TpRt.jpg",
-        "averageScore": 87,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Drama",
-          "Fantasy",
-          "Supernatural"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/178788/",
-          "mal": "https://myanimelist.net/anime/178788",
-          "kitsu": "https://kitsu.io/anime/178788"
         }
       },
       {

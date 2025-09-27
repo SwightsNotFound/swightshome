@@ -992,7 +992,7 @@
         "format": "MANGA",
         "country": "KR",
         "personalScore": 0,
-        "progress": 0,
+        "progress": 1,
         "links": {
           "anilist": "https://anilist.co/manga/100568/",
           "mal": "https://myanimelist.net/manga/100568",

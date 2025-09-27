@@ -524,31 +524,6 @@
         }
       },
       {
-        "id": 9756,
-        "title": "Puella Magi Madoka Magica",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9756-QnUGwlwwnsuN.jpg",
-        "averageScore": 83,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Fantasy",
-          "Mahou Shoujo",
-          "Psychological",
-          "Thriller"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/9756/",
-          "mal": "https://myanimelist.net/anime/9756",
-          "kitsu": "https://kitsu.io/anime/9756"
-        }
-      },
-      {
         "id": 100298,
         "title": "Megalobox",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b100298-A5VQUcw7ZC64.jpg",
@@ -1361,28 +1336,6 @@
           "anilist": "https://anilist.co/anime/167336/",
           "mal": "https://myanimelist.net/anime/167336",
           "kitsu": "https://kitsu.io/anime/167336"
-        }
-      },
-      {
-        "id": 183161,
-        "title": "The Beginning After the End",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183161-5M054tuPmZJX.jpg",
-        "averageScore": 59,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/183161/",
-          "mal": "https://myanimelist.net/anime/183161",
-          "kitsu": "https://kitsu.io/anime/183161"
         }
       },
       {
@@ -4325,6 +4278,30 @@
           "anilist": "https://anilist.co/anime/192507/",
           "mal": "https://myanimelist.net/anime/192507",
           "kitsu": "https://kitsu.io/anime/192507"
+        }
+      },
+      {
+        "id": 166617,
+        "title": "Fate/strange Fake",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166617-34fpC9y47tTx.png",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Mystery",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/166617/",
+          "mal": "https://myanimelist.net/anime/166617",
+          "kitsu": "https://kitsu.io/anime/166617"
         }
       }
     ]
@@ -7711,6 +7688,29 @@
           "anilist": "https://anilist.co/anime/130298/",
           "mal": "https://myanimelist.net/anime/130298",
           "kitsu": "https://kitsu.io/anime/130298"
+        }
+      },
+      {
+        "id": 108511,
+        "title": "That Time I Got Reincarnated as a Slime Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108511-PufFordLNyIb.jpg",
+        "averageScore": 83,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/108511/",
+          "mal": "https://myanimelist.net/anime/108511",
+          "kitsu": "https://kitsu.io/anime/108511"
         }
       },
       {
@@ -11643,6 +11643,31 @@
         }
       },
       {
+        "id": 9756,
+        "title": "Puella Magi Madoka Magica",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9756-QnUGwlwwnsuN.jpg",
+        "averageScore": 83,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Mahou Shoujo",
+          "Psychological",
+          "Thriller"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/9756/",
+          "mal": "https://myanimelist.net/anime/9756",
+          "kitsu": "https://kitsu.io/anime/9756"
+        }
+      },
+      {
         "id": 178533,
         "title": "Ranma1/2 (2024)",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178533-b88OLxm50jcH.jpg",
@@ -11686,6 +11711,28 @@
           "anilist": "https://anilist.co/anime/175914/",
           "mal": "https://myanimelist.net/anime/175914",
           "kitsu": "https://kitsu.io/anime/175914"
+        }
+      },
+      {
+        "id": 183161,
+        "title": "The Beginning After the End",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183161-5M054tuPmZJX.jpg",
+        "averageScore": 59,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/183161/",
+          "mal": "https://myanimelist.net/anime/183161",
+          "kitsu": "https://kitsu.io/anime/183161"
         }
       },
       {
@@ -11872,29 +11919,6 @@
           "anilist": "https://anilist.co/anime/137667/",
           "mal": "https://myanimelist.net/anime/137667",
           "kitsu": "https://kitsu.io/anime/137667"
-        }
-      },
-      {
-        "id": 108511,
-        "title": "That Time I Got Reincarnated as a Slime Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108511-PufFordLNyIb.jpg",
-        "averageScore": 83,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 10,
-        "links": {
-          "anilist": "https://anilist.co/anime/108511/",
-          "mal": "https://myanimelist.net/anime/108511",
-          "kitsu": "https://kitsu.io/anime/108511"
         }
       },
       {

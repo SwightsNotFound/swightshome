@@ -39827,6 +39827,150 @@
   ],
   "2025-09-27": [
     {
+      "id": 961509896,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1758941735,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Uruwashi no Yoi no Tsuki"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx192507-dkEzMbiqTkLL.png"
+        },
+        "siteUrl": "https://anilist.co/anime/192507"
+      }
+    },
+    {
+      "id": 961509328,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1758941608,
+      "media": {
+        "title": {
+          "english": "My Hero Academia: Vigilantes Season 2",
+          "romaji": "Vigilante: Boku no Hero Academia ILLEGALS 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195322-CVRCDw6T7wI9.png"
+        },
+        "siteUrl": "https://anilist.co/anime/195322"
+      }
+    },
+    {
+      "id": 961509165,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1758941572,
+      "media": {
+        "title": {
+          "english": "Black Clover Season 2",
+          "romaji": "Black Clover 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195604-tPjTyqwfrfne.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/195604"
+      }
+    },
+    {
+      "id": 961507481,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1758941228,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Bukiyou na Senpai."
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185575-moQeN8f5xRBv.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/185575"
+      }
+    },
+    {
+      "id": 961506705,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1758941073,
+      "media": {
+        "title": {
+          "english": "Dad is a Hero, Mom is a Spirit, I'm a Reincarnator",
+          "romaji": "Chichi wa Eiyuu, Haha wa Seirei, Musume no Watashi wa Tenseisha."
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx173692-shp7PGRQyCQl.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/173692"
+      }
+    },
+    {
+      "id": 961506598,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1758941045,
+      "media": {
+        "title": {
+          "english": "Wandance",
+          "romaji": "WanDance"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180436-KbHBZdUqLV1Q.png"
+        },
+        "siteUrl": "https://anilist.co/anime/180436"
+      }
+    },
+    {
+      "id": 961505041,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1758940719,
+      "media": {
+        "title": {
+          "english": "That Time I Got Reincarnated as a Slime Season 2",
+          "romaji": "Tensei Shitara Slime Datta Ken 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108511-PufFordLNyIb.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/108511"
+      }
+    },
+    {
+      "id": 961504615,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1758940627,
+      "media": {
+        "title": {
+          "english": "My Status as an Assassin Obviously Exceeds the Hero’s",
+          "romaji": "Ansatsusha de Aru Ore no Status ga Yuusha yori mo Akiraka ni Tsuyoi no da ga"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx186794-Ns8xWNdMdOxq.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/186794"
+      }
+    },
+    {
+      "id": 961498763,
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1758939393,
+      "media": {
+        "title": {
+          "english": "That Time I Got Reincarnated as a Slime Season 2",
+          "romaji": "Tensei Shitara Slime Datta Ken 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108511-PufFordLNyIb.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/108511"
+      }
+    },
+    {
       "id": 961487807,
       "status": "watched episode",
       "progress": "8",

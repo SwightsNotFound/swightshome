@@ -2723,30 +2723,6 @@
         }
       },
       {
-        "id": 178788,
-        "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178788-zm3gtpB9TpRt.jpg",
-        "averageScore": 87,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Drama",
-          "Fantasy",
-          "Supernatural"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/178788/",
-          "mal": "https://myanimelist.net/anime/178788",
-          "kitsu": "https://kitsu.io/anime/178788"
-        }
-      },
-      {
         "id": 171627,
         "title": "Chainsaw Man – The Movie: Reze Arc",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171627-smzCQpAP6UQE.jpg",
@@ -4302,6 +4278,29 @@
           "anilist": "https://anilist.co/anime/166617/",
           "mal": "https://myanimelist.net/anime/166617",
           "kitsu": "https://kitsu.io/anime/166617"
+        }
+      },
+      {
+        "id": 199340,
+        "title": "Seishun Buta Yarou wa Dear Friend no Yume wo Minai",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx199340-UPytrB6apzmA.png",
+        "averageScore": null,
+        "episodes": 1,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/199340/",
+          "mal": "https://myanimelist.net/anime/199340",
+          "kitsu": "https://kitsu.io/anime/199340"
         }
       }
     ]
@@ -11489,7 +11488,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx181444-Ut9DDUZdfHwg.jpg",
         "averageScore": 86,
         "episodes": 13,
-        "status": "RELEASING",
+        "status": "FINISHED",
         "genres": [
           "Comedy",
           "Drama",
@@ -11741,7 +11740,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177689-d0mB5nYgdnhi.jpg",
         "averageScore": 80,
         "episodes": 12,
-        "status": "RELEASING",
+        "status": "FINISHED",
         "genres": [
           "Horror",
           "Mystery",
@@ -11781,6 +11780,30 @@
           "anilist": "https://anilist.co/anime/189326/",
           "mal": "https://myanimelist.net/anime/189326",
           "kitsu": "https://kitsu.io/anime/189326"
+        }
+      },
+      {
+        "id": 178788,
+        "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178788-zm3gtpB9TpRt.jpg",
+        "averageScore": 87,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/178788/",
+          "mal": "https://myanimelist.net/anime/178788",
+          "kitsu": "https://kitsu.io/anime/178788"
         }
       },
       {

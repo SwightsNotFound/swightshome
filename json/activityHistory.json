@@ -39827,6 +39827,38 @@
   ],
   "2025-09-27": [
     {
+      "id": 961747513,
+      "status": "read chapter",
+      "progress": "2",
+      "createdAt": 1758989606,
+      "media": {
+        "title": {
+          "english": "The Horizon",
+          "romaji": "Supyeongseon"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx100568-4BC0PsdwU4bL.png"
+        },
+        "siteUrl": "https://anilist.co/manga/100568"
+      }
+    },
+    {
+      "id": 961744858,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1758989219,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Seishun Buta Yarou wa Dear Friend no Yume wo Minai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199340-UPytrB6apzmA.png"
+        },
+        "siteUrl": "https://anilist.co/anime/199340"
+      }
+    },
+    {
       "id": 961691988,
       "status": "watched episode",
       "progress": "3",

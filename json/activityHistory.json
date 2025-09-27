@@ -39827,6 +39827,22 @@
   ],
   "2025-09-27": [
     {
+      "id": 961764571,
+      "status": "read chapter",
+      "progress": "3",
+      "createdAt": 1758992022,
+      "media": {
+        "title": {
+          "english": "The Horizon",
+          "romaji": "Supyeongseon"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx100568-4BC0PsdwU4bL.png"
+        },
+        "siteUrl": "https://anilist.co/manga/100568"
+      }
+    },
+    {
       "id": 961747513,
       "status": "read chapter",
       "progress": "2",

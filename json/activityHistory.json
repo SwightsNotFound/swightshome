@@ -40293,6 +40293,22 @@
   ],
   "2025-09-28": [
     {
+      "id": 962185868,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759062012,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Blue Lock (Zoku-hen)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199404-8WEh09lJ7q2V.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/199404"
+      }
+    },
+    {
       "id": 962017227,
       "status": "completed",
       "progress": null,

@@ -4326,6 +4326,74 @@
           "mal": "https://myanimelist.net/anime/199342",
           "kitsu": "https://kitsu.io/anime/199342"
         }
+      },
+      {
+        "id": 123802,
+        "title": "The Saint's Magic Power is Omnipotent",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx123802-FpGzlfjebl0z.jpg",
+        "averageScore": 71,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Fantasy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/123802/",
+          "mal": "https://myanimelist.net/anime/123802",
+          "kitsu": "https://kitsu.io/anime/123802"
+        }
+      },
+      {
+        "id": 139820,
+        "title": "I'm the Villainess, So I'm Taming the Final Boss",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx139820-T8Nk5dRd3q9L.jpg",
+        "averageScore": 71,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/139820/",
+          "mal": "https://myanimelist.net/anime/139820",
+          "kitsu": "https://kitsu.io/anime/139820"
+        }
+      },
+      {
+        "id": 100388,
+        "title": "BANANA FISH",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100388-hjkg1AnlJR5z.jpg",
+        "averageScore": 83,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Psychological",
+          "Thriller"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/100388/",
+          "mal": "https://myanimelist.net/anime/100388",
+          "kitsu": "https://kitsu.io/anime/100388"
+        }
       }
     ]
   },
@@ -5584,6 +5652,30 @@
           "anilist": "https://anilist.co/anime/162670/",
           "mal": "https://myanimelist.net/anime/162670",
           "kitsu": "https://kitsu.io/anime/162670"
+        }
+      },
+      {
+        "id": 178788,
+        "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178788-zm3gtpB9TpRt.jpg",
+        "averageScore": 87,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/178788/",
+          "mal": "https://myanimelist.net/anime/178788",
+          "kitsu": "https://kitsu.io/anime/178788"
         }
       },
       {
@@ -11500,30 +11592,6 @@
           "mal": "https://myanimelist.net/anime/97731",
           "kitsu": "https://kitsu.io/anime/97731"
         }
-      },
-      {
-        "id": 178788,
-        "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178788-zm3gtpB9TpRt.jpg",
-        "averageScore": 87,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Drama",
-          "Fantasy",
-          "Supernatural"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/178788/",
-          "mal": "https://myanimelist.net/anime/178788",
-          "kitsu": "https://kitsu.io/anime/178788"
-        }
       }
     ]
   },
@@ -12142,7 +12210,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 3,
+        "progress": 8,
         "links": {
           "anilist": "https://anilist.co/anime/116742/",
           "mal": "https://myanimelist.net/anime/116742",

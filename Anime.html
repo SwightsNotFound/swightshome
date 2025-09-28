@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=320, initial-scale=1.0">
     <title>Swightshome - Anime</title>
-    <link rel="icon" href="images/littlelink.png" type="image/x-icon">
+    <link rel="icon" href="images/Logonowhite.png" type="image/x-icon">
     <style>
         @font-face {
             font-family: 'Chinacat';
@@ -32,6 +32,15 @@
             object-fit: cover;
             z-index: -2;
         }
+        
+        #main-content {
+            flex: 1;
+            width: 100%;
+            position: relative;
+            z-index: 0;
+            transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        
         .header {
             background: url('images/overview-cover.jpg') no-repeat center center/cover;
             padding: 120px 20px 80px;
@@ -42,6 +51,7 @@
             animation: fadeIn 1s 0.5s forwards;
             opacity: 0;
             margin-top: 0;
+            transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
         }
         @keyframes fadeIn {
             from { opacity: 0; }
@@ -114,6 +124,7 @@
             padding: 0;
             animation: navbarFadeIn 0.8s 0.2s forwards;
             opacity: 0;
+            transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
         }
         @keyframes navbarFadeIn {
             from { opacity: 0; transform: translateY(-40px);}
@@ -220,6 +231,7 @@
             flex-direction: column;
             align-items: center;
             box-sizing: border-box;
+            transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
         }
         .anime-container {
             width: 100%;
@@ -573,9 +585,17 @@
             opacity: 0.7;
         }
 
-        .privacy-active #topbar,
-        .credits-active #topbar,
-        .versions-active #topbar {
+        .privacy-active .header,
+        .credits-active .header,
+        .versions-active .header {
+            transform: translateX(-100%);
+            filter: blur(2px);
+            opacity: 0.7;
+        }
+
+        .privacy-active .navbar,
+        .credits-active .navbar,
+        .versions-active .navbar {
             transform: translateX(-100%);
             filter: blur(2px);
             opacity: 0.7;
@@ -598,6 +618,7 @@
             margin-top: 40px;
             animation: fadeIn 0.5s 1.5s forwards;
             opacity: 0;
+            transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
         }
         .footer p {
             margin: 0 0 15px 0;
@@ -663,108 +684,114 @@
 </head>
 <body>
     <img id="backdrop" src="images/backdrop.jpg" alt="Fullscreen backdrop">
-    <!-- Header -->
-    <div class="header">
-        <div class="overlay"></div>
-        <div class="header-content">
-            <img src="images/littlelink.png" alt="Logo">
-            <h1>Swight</h1>
-            <p>This is a list of all the anime I have watched over the years (since 2021-22), this page is really just a mirror of my Anilist profile that's updated every ten minutes.</p>
-            <p>All of this information can also be found on Anilist, MAL and kitsu.</p>
-            <div class="logo-links">
-                <a href="https://anilist.co/user/Swight/" target="_blank">
-                    <img src="images/AniList.svg.png" alt="Anilist Logo">
-                </a>
-                <a href="https://myanimelist.net/profile/SwightUnkown" target="_blank">
-                    <img src="images/myanimelist.png" alt="MyAnimeList Logo">
-                </a>
-                <a href="https://kitsu.app/users/Swight" target="_blank">
-                    <img src="images/kitsu.png" alt="Kitsu Logo">
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- Topbar/Navbar -->
-    <div class="navbar">
-        <div class="navbar-logo-wrap">
-            <a href="https://Swightshome.xyz" class="navbar-logo" onclick="event.preventDefault(); window.location.href='https://Swightshome.xyz';">
-                <img src="images/littlelink.png" alt="Swightshome Logo"> Swightshome
-            </a>
-        </div>
-        <nav class="navbar-nav">
-            <a href="Overview" class="navbar-link">Overview</a>
-            <a href="Anime" class="navbar-link active">Anime</a>
-            <a href="Manga" class="navbar-link">Manga</a>
-            <a href="Books" class="navbar-link">Books</a>
-        </nav>
-    </div>
-    <!-- Content Area -->
-    <div class="content-area">
-        <div class="anime-container">
-            <!-- Sidebar -->
-            <div class="anime-sidebar">
-                <input type="text" id="searchBar" class="search-bar" placeholder="Search anime...">
-                <select id="genreFilter" class="filter-select">
-                    <option value="">All Genres</option>
-                </select>
-                <select id="formatFilter" class="filter-select">
-                    <option value="">All Formats</option>
-                </select>
-                <select id="countryFilter" class="filter-select">
-                    <option value="">All Countries</option>
-                </select>
-                
-                <div class="stats-section">
-                    <h2>Anime Stats</h2>
-                    <div class="stat-item"><span>Count:</span><span id="anime-count">Loading...</span></div>
-                    <div class="stat-item"><span>Mean Score:</span><span id="anime-meanScore">Loading...</span></div>
-                    <div class="stat-item"><span>Days Watched:</span><span id="anime-daysWatched">Loading...</span></div>
-                    <div class="stat-item"><span>Episodes Watched:</span><span id="anime-episodesWatched">Loading...</span></div>
-                </div>
-            </div>
-            
-            <!-- Main Content -->
-            <div class="anime-main">
-                <div class="section" id="watching">
-                    <h2>Watching</h2>
-                    <div class="anime-list"></div>
-                </div>
-                <div class="section" id="rewatching">
-                    <h2>Rewatching</h2>
-                    <div class="anime-list"></div>
-                </div>
-                <div class="section" id="completed">
-                    <h2>Completed</h2>
-                    <div class="anime-list"></div>
-                </div>
-                <div class="section" id="paused">
-                    <h2>Paused</h2>
-                    <div class="anime-list"></div>
-                </div>
-                <div class="section" id="dropped">
-                    <h2>Dropped</h2>
-                    <div class="anime-list"></div>
-                </div>
-                <div class="section" id="planning">
-                    <h2>Planning</h2>
-                    <div class="anime-list"></div>
-                </div>
-            </div>
-        </div>
-    </div>
     
-    <div class="footer">
-        <p>Made with ❤️ by Swight.</p>
-        <div class="footer-links">
-            <a href="https://status.swightshome.xyz/status/swightshome" target="_blank" role="button">Status Page</a>
-            <span>|</span>
-            <a href="https://git.swightshome.xyz/Swight/swightshome" target="_blank" role="button">Source Code</a>
-            <span>|</span>
-            <a href="#" id="privacy-btn" role="button">Privacy Policy</a>
-            <span>|</span>
-            <a href="#" id="credits-btn" role="button">Credits</a>
-            <span>|</span>
-            <a href="#" id="versions-btn" role="button">Versions</a>
+    <div id="main-content">
+        <!-- Header -->
+        <div class="header">
+            <div class="overlay"></div>
+            <div class="header-content">
+                <img src="images/littlelink.png" alt="Logo">
+                <h1>Swight</h1>
+                <p>This is a list of all the anime I have watched over the years (since 2021-22), this page is really just a mirror of my Anilist profile that's updated every hour.</p>
+                <p>All of this information can also be found on Anilist, MAL and kitsu.</p>
+                <img src="https://count.getloli.com/@Swight?name=Swight&theme=gelbooru&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" 
+     alt="Moe Counter" 
+     style="display: none;">
+                <div class="logo-links">
+                    <a href="https://anilist.co/user/Swight/" target="_blank">
+                        <img src="images/AniList.svg.png" alt="Anilist Logo">
+                    </a>
+                    <a href="https://myanimelist.net/profile/SwightUnkown" target="_blank">
+                        <img src="images/myanimelist.png" alt="MyAnimeList Logo">
+                    </a>
+                    <a href="https://kitsu.app/users/Swight" target="_blank">
+                        <img src="images/kitsu.png" alt="Kitsu Logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar/Navbar -->
+        <div class="navbar">
+            <div class="navbar-logo-wrap">
+                <a href="https://Swightshome.xyz" class="navbar-logo" onclick="event.preventDefault(); window.location.href='https://Swightshome.xyz';">
+                    <img src="images/littlelink.png" alt="Swightshome Logo"> Swightshome
+                </a>
+            </div>
+            <nav class="navbar-nav">
+                <a href="Overview" class="navbar-link">Overview</a>
+                <a href="Anime" class="navbar-link active">Anime</a>
+                <a href="Manga" class="navbar-link">Manga</a>
+                <a href="Books" class="navbar-link">Books</a>
+            </nav>
+        </div>
+        <!-- Content Area -->
+        <div class="content-area">
+            <div class="anime-container">
+                <!-- Sidebar -->
+                <div class="anime-sidebar">
+                    <input type="text" id="searchBar" class="search-bar" placeholder="Search anime...">
+                    <select id="genreFilter" class="filter-select">
+                        <option value="">All Genres</option>
+                    </select>
+                    <select id="formatFilter" class="filter-select">
+                        <option value="">All Formats</option>
+                    </select>
+                    <select id="countryFilter" class="filter-select">
+                        <option value="">All Countries</option>
+                    </select>
+                    
+                    <div class="stats-section">
+                        <h2>Anime Stats</h2>
+                        <div class="stat-item"><span>Count:</span><span id="anime-count">Loading...</span></div>
+                        <div class="stat-item"><span>Mean Score:</span><span id="anime-meanScore">Loading...</span></div>
+                        <div class="stat-item"><span>Days Watched:</span><span id="anime-daysWatched">Loading...</span></div>
+                        <div class="stat-item"><span>Episodes Watched:</span><span id="anime-episodesWatched">Loading...</span></div>
+                    </div>
+                </div>
+                
+                <!-- Main Content -->
+                <div class="anime-main">
+                    <div class="section" id="watching">
+                        <h2>Watching</h2>
+                        <div class="anime-list"></div>
+                    </div>
+                    <div class="section" id="rewatching">
+                        <h2>Rewatching</h2>
+                        <div class="anime-list"></div>
+                    </div>
+                    <div class="section" id="completed">
+                        <h2>Completed</h2>
+                        <div class="anime-list"></div>
+                    </div>
+                    <div class="section" id="paused">
+                        <h2>Paused</h2>
+                        <div class="anime-list"></div>
+                    </div>
+                    <div class="section" id="dropped">
+                        <h2>Dropped</h2>
+                        <div class="anime-list"></div>
+                    </div>
+                    <div class="section" id="planning">
+                        <h2>Planning</h2>
+                        <div class="anime-list"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Made with ❤️ by Swight.</p>
+            <div class="footer-links">
+                <a href="https://status.swightshome.xyz/status/swightshome" target="_blank" role="button">Status Page</a>
+                <span>|</span>
+                <a href="https://git.swightshome.xyz/Swight/swightshome" target="_blank" role="button">Source Code</a>
+                <span>|</span>
+                <a href="#" id="privacy-btn" role="button">Privacy Policy</a>
+                <span>|</span>
+                <a href="#" id="credits-btn" role="button">Credits</a>
+                <span>|</span>
+                <a href="#" id="versions-btn" role="button">Versions</a>
+            </div>
         </div>
     </div>
 
@@ -774,13 +801,13 @@
         <div class="privacy-policy-content">
             <h1>Privacy Policy</h1>
             <p>If you create an account on any service, only the data you give that service will be stored.</p>
-            <p>To recieve all data collected on you, you can ask on one of my <a href="#contacts" class="privacy-contact-link">contacts</a>.</p>
+            <p>To recieve all data collected on you, you can ask on one of my <a href="https://swightshome.xyz/#contacts">contacts</a>.</p>
             <h1>No information is shared outside of swightshome.xyz</h1>
             <p>Your information will never be shared with a third party unless requierd to by law.</p>
     
             <h1>Deleting your data</h1>
             <p>You can delete any "identifiable" data, but there is a good chance I won't know who "you" are, so i can't delete that data.</p>
-            <p>But if I can, reach out to one of my <a href="#contacts" class="privacy-contact-link">contacts</a> and I'll get your data removed.</p>
+            <p>But if I can, reach out to one of my <a href="https://swightshome.xyz/#contacts">contacts</a> and I'll get your data removed.</p>
         </div>
     </div>
 
@@ -814,7 +841,7 @@
                 <div class="version-item">
                     <h3>Version 3.0 (Current)</h3>
                     <p>The latest version completely reworked from the ground up, anime themed, has lots of animations and is much calmer on the eyes. However the site has been heavily downscaled from 2.0.</p>
-                    <a href="downloads/swightshome-v3.0.zip" class="download-btn">Download</a>
+                    <a href="https://github.com/SwightsNotFound/swightshome/archive/refs/heads/main.zip" class="download-btn">Download</a>
                 </div>
                 
                 <div class="version-item">
@@ -1092,28 +1119,31 @@
                     console.error('Error fetching stats:', error);
                 });
 
-            // --- Privacy Policy Toggle ---
+            // --- Footer Panel Functionality ---
             const privacyBtn = document.getElementById('privacy-btn');
             const privacyPanel = document.getElementById('privacy-policy');
             const closePrivacy = document.getElementById('close-privacy');
             const body = document.body;
 
-            function closePrivacyPanel() {
-                body.classList.remove('privacy-active');
+            function closeAllPanels() {
+                body.classList.remove('privacy-active', 'credits-active', 'versions-active');
                 privacyPanel.classList.remove('active');
+                creditsPanel.classList.remove('active');
+                versionsPanel.classList.remove('active');
             }
 
             privacyBtn.addEventListener('click', function(e) {
                 e.preventDefault();
+                closeAllPanels();
                 body.classList.add('privacy-active');
                 privacyPanel.classList.add('active');
             });
 
-            closePrivacy.addEventListener('click', closePrivacyPanel);
+            closePrivacy.addEventListener('click', closeAllPanels);
 
             privacyPanel.addEventListener('click', function(e) {
                 if (e.target === privacyPanel) {
-                    closePrivacyPanel();
+                    closeAllPanels();
                 }
             });
 
@@ -1122,22 +1152,18 @@
             const creditsPanel = document.getElementById('credits-panel');
             const closeCredits = document.getElementById('close-credits');
 
-            function closeCreditsPanel() {
-                body.classList.remove('credits-active');
-                creditsPanel.classList.remove('active');
-            }
-
             creditsBtn.addEventListener('click', function(e) {
                 e.preventDefault();
+                closeAllPanels();
                 body.classList.add('credits-active');
                 creditsPanel.classList.add('active');
             });
 
-            closeCredits.addEventListener('click', closeCreditsPanel);
+            closeCredits.addEventListener('click', closeAllPanels);
 
             creditsPanel.addEventListener('click', function(e) {
                 if (e.target === creditsPanel) {
-                    closeCreditsPanel();
+                    closeAllPanels();
                 }
             });
 
@@ -1146,57 +1172,55 @@
             const versionsPanel = document.getElementById('versions-panel');
             const closeVersions = document.getElementById('close-versions');
 
-            function closeVersionsPanel() {
-                body.classList.remove('versions-active');
-                versionsPanel.classList.remove('active');
-            }
-
             versionsBtn.addEventListener('click', function(e) {
                 e.preventDefault();
+                closeAllPanels();
                 body.classList.add('versions-active');
                 versionsPanel.classList.add('active');
             });
 
-            closeVersions.addEventListener('click', closeVersionsPanel);
+            closeVersions.addEventListener('click', closeAllPanels);
 
             versionsPanel.addEventListener('click', function(e) {
                 if (e.target === versionsPanel) {
-                    closeVersionsPanel();
+                    closeAllPanels();
                 }
             });
 
-            // Close panels when clicking contact links inside them
-            document.querySelectorAll('.privacy-contact-link').forEach(link => {
-                link.addEventListener('click', function(e) {
-                    // Only handle if it's specifically a privacy contact link
-                    if (this.classList.contains('privacy-contact-link')) {
-                        e.preventDefault();
-                        closePrivacyPanel();
-                        closeCreditsPanel();
-                        closeVersionsPanel();
-                        const targetId = this.getAttribute('href');
-                        setTimeout(() => {
-                            document.querySelector(targetId).scrollIntoView({ behavior: 'smooth' });
-                        }, 100);
-                    }
-                });
-            });
-            
-            // fix downloads on version page
-            // Update the download button handling
+            // Fix downloads on version page - using the exact same method as index.html
             document.querySelectorAll('.download-btn').forEach(btn => {
                 btn.addEventListener('click', function(e) {
-                    // Only prevent default if it's a download button
-                    if (this.classList.contains('download-btn')) {
-                        e.preventDefault();
-                        const url = this.href;
+                    e.preventDefault();
+                    e.stopPropagation();
+                    
+                    console.log('Download clicked:', this.href);
+                    
+                    const url = this.href;
+                    const filename = url.split('/').pop();
+                    
+                    // For external URLs (like GitHub), we need to handle them differently
+                    if (url.startsWith('http') && !url.includes(window.location.hostname)) {
+                        // External URL - open in new tab for download
+                        window.open(url, '_blank');
+                    } else {
+                        // Internal URL - use the download attribute method
                         const a = document.createElement('a');
                         a.href = url;
-                        a.download = url.split('/').pop();
+                        a.download = filename;
+                        a.style.display = 'none';
                         document.body.appendChild(a);
                         a.click();
                         document.body.removeChild(a);
                     }
+                    
+                    return false;
+                });
+            });
+            
+            // Also prevent clicks inside version items from closing the panel
+            document.querySelectorAll('.version-item').forEach(item => {
+                item.addEventListener('click', function(e) {
+                    e.stopPropagation();
                 });
             });
         });

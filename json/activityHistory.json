@@ -40293,6 +40293,54 @@
   ],
   "2025-09-28": [
     {
+      "id": 962009536,
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1759028787,
+      "media": {
+        "title": {
+          "english": "That Time I Got Reincarnated as a Slime Season 2 Part 2",
+          "romaji": "Tensei Shitara Slime Datta Ken 2nd Season Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116742-jn0dW23ftehq.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/116742"
+      }
+    },
+    {
+      "id": 962001854,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1759027263,
+      "media": {
+        "title": {
+          "english": "That Time I Got Reincarnated as a Slime Season 2 Part 2",
+          "romaji": "Tensei Shitara Slime Datta Ken 2nd Season Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116742-jn0dW23ftehq.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/116742"
+      }
+    },
+    {
+      "id": 961993402,
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1759025681,
+      "media": {
+        "title": {
+          "english": "That Time I Got Reincarnated as a Slime Season 2 Part 2",
+          "romaji": "Tensei Shitara Slime Datta Ken 2nd Season Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116742-jn0dW23ftehq.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/116742"
+      }
+    },
+    {
       "id": 961986312,
       "status": "watched episode",
       "progress": "8",

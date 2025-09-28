@@ -12089,7 +12089,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx181841-9TcjIyZefot2.jpg",
         "averageScore": 78,
         "episodes": 13,
-        "status": "RELEASING",
+        "status": "FINISHED",
         "genres": [
           "Comedy",
           "Slice of Life"
@@ -12255,7 +12255,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 3,
+        "progress": 4,
         "links": {
           "anilist": "https://anilist.co/anime/156822/",
           "mal": "https://myanimelist.net/anime/156822",

@@ -8179,6 +8179,29 @@
         }
       },
       {
+        "id": 189117,
+        "title": "Dr. STONE SCIENCE FUTURE Cour 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx189117-TLtCXYT7JPoL.jpg",
+        "averageScore": 84,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/189117/",
+          "mal": "https://myanimelist.net/anime/189117",
+          "kitsu": "https://kitsu.io/anime/189117"
+        }
+      },
+      {
         "id": 184639,
         "title": "Anne Shirley",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx184639-tmj8NbTroNeI.jpg",
@@ -12154,29 +12177,6 @@
         }
       },
       {
-        "id": 189117,
-        "title": "Dr. STONE SCIENCE FUTURE Cour 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx189117-TLtCXYT7JPoL.jpg",
-        "averageScore": 84,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Sci-Fi"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 11,
-        "links": {
-          "anilist": "https://anilist.co/anime/189117/",
-          "mal": "https://myanimelist.net/anime/189117",
-          "kitsu": "https://kitsu.io/anime/189117"
-        }
-      },
-      {
         "id": 5081,
         "title": "Bakemonogatari",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5081-9GocceQ5Z865.jpg",
@@ -12859,7 +12859,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 10,
-        "progress": 19,
+        "progress": 22,
         "links": {
           "anilist": "https://anilist.co/anime/136430/",
           "mal": "https://myanimelist.net/anime/136430",

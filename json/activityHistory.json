@@ -40775,6 +40775,150 @@
   ],
   "2025-09-29": [
     {
+      "id": 962512978,
+      "status": "watched episode",
+      "progress": "3",
+      "createdAt": 1759114625,
+      "media": {
+        "title": {
+          "english": "The Beginning After the End",
+          "romaji": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx183161-5M054tuPmZJX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/183161"
+      }
+    },
+    {
+      "id": 962505012,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1759113346,
+      "media": {
+        "title": {
+          "english": "The Beginning After the End",
+          "romaji": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx183161-5M054tuPmZJX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/183161"
+      }
+    },
+    {
+      "id": 962503601,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759113139,
+      "media": {
+        "title": {
+          "english": "The Dark History of the Reincarnated Villainess",
+          "romaji": "Tensei Akujo no Kuro Rekishi"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx174914-RfPIqbrapByY.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/174914"
+      }
+    },
+    {
+      "id": 962503418,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759113113,
+      "media": {
+        "title": {
+          "english": "Scarlet",
+          "romaji": "Hateshinaki Scarlet"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185773-N7dLeWyB14VA.png"
+        },
+        "siteUrl": "https://anilist.co/anime/185773"
+      }
+    },
+    {
+      "id": 962502416,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759112973,
+      "media": {
+        "title": {
+          "english": "Tatsuki Fujimoto 17-26",
+          "romaji": "Fujimoto Tatsuki 17-26"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198188-mlScDGb4cucY.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/198188"
+      }
+    },
+    {
+      "id": 962499819,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759112588,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Uma Musume: Cinderella Gray Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195240-hKcmllV6YHQT.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/195240"
+      }
+    },
+    {
+      "id": 962499095,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759112477,
+      "media": {
+        "title": {
+          "english": "Yano-kun's Ordinary Days",
+          "romaji": "Yano-kun no Futsuu no Hibi"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx183965-7oMzkJp4FUyP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/183965"
+      }
+    },
+    {
+      "id": 962497104,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1759112136,
+      "media": {
+        "title": {
+          "english": "The Beginning After the End",
+          "romaji": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx183161-5M054tuPmZJX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/183161"
+      }
+    },
+    {
+      "id": 962489238,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1759110830,
+      "media": {
+        "title": {
+          "english": "That Time I Got Reincarnated as a Slime Season 3",
+          "romaji": "Tensei Shitara Slime Datta Ken 3rd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx156822-Jzo2ITWgm4kM.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/156822"
+      }
+    },
+    {
       "id": 962484309,
       "status": "watched episode",
       "progress": "23",

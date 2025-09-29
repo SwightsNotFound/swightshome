@@ -4580,6 +4580,109 @@
           "mal": "https://myanimelist.net/anime/97986",
           "kitsu": "https://kitsu.io/anime/97986"
         }
+      },
+      {
+        "id": 183965,
+        "title": "Yano-kun's Ordinary Days",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183965-7oMzkJp4FUyP.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/183965/",
+          "mal": "https://myanimelist.net/anime/183965",
+          "kitsu": "https://kitsu.io/anime/183965"
+        }
+      },
+      {
+        "id": 195240,
+        "title": "Uma Musume: Cinderella Gray Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx195240-hKcmllV6YHQT.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Drama",
+          "Sports"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/195240/",
+          "mal": "https://myanimelist.net/anime/195240",
+          "kitsu": "https://kitsu.io/anime/195240"
+        }
+      },
+      {
+        "id": 198188,
+        "title": "Tatsuki Fujimoto 17-26",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx198188-mlScDGb4cucY.jpg",
+        "averageScore": null,
+        "episodes": 8,
+        "status": "NOT_YET_RELEASED",
+        "genres": [],
+        "format": "ONA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/198188/",
+          "mal": "https://myanimelist.net/anime/198188",
+          "kitsu": "https://kitsu.io/anime/198188"
+        }
+      },
+      {
+        "id": 185773,
+        "title": "Scarlet",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185773-N7dLeWyB14VA.png",
+        "averageScore": null,
+        "episodes": 1,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Fantasy"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/185773/",
+          "mal": "https://myanimelist.net/anime/185773",
+          "kitsu": "https://kitsu.io/anime/185773"
+        }
+      },
+      {
+        "id": 174914,
+        "title": "The Dark History of the Reincarnated Villainess",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx174914-RfPIqbrapByY.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/174914/",
+          "mal": "https://myanimelist.net/anime/174914",
+          "kitsu": "https://kitsu.io/anime/174914"
+        }
       }
     ]
   },
@@ -9678,6 +9781,29 @@
         }
       },
       {
+        "id": 156822,
+        "title": "That Time I Got Reincarnated as a Slime Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx156822-Jzo2ITWgm4kM.jpg",
+        "averageScore": 77,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 7,
+        "progress": 24,
+        "links": {
+          "anilist": "https://anilist.co/anime/156822/",
+          "mal": "https://myanimelist.net/anime/156822",
+          "kitsu": "https://kitsu.io/anime/156822"
+        }
+      },
+      {
         "id": 102882,
         "title": "Real Girl 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx102882-lKp3ExWNzoE6.jpg",
@@ -11942,29 +12068,6 @@
         }
       },
       {
-        "id": 156822,
-        "title": "That Time I Got Reincarnated as a Slime Season 3",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx156822-Jzo2ITWgm4kM.jpg",
-        "averageScore": 77,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 7,
-        "progress": 23,
-        "links": {
-          "anilist": "https://anilist.co/anime/156822/",
-          "mal": "https://myanimelist.net/anime/156822",
-          "kitsu": "https://kitsu.io/anime/156822"
-        }
-      },
-      {
         "id": 5081,
         "title": "Bakemonogatari",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5081-9GocceQ5Z865.jpg",
@@ -12075,7 +12178,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0,
+        "progress": 3,
         "links": {
           "anilist": "https://anilist.co/anime/183161/",
           "mal": "https://myanimelist.net/anime/183161",
@@ -12489,6 +12592,71 @@
           "anilist": "https://anilist.co/anime/139498/",
           "mal": "https://myanimelist.net/anime/139498",
           "kitsu": "https://kitsu.io/anime/139498"
+        }
+      },
+      {
+        "id": 180516,
+        "title": "Umamusume: Cinderella Gray",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx180516-lebpoKLkw6E3.jpg",
+        "averageScore": 85,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Sports"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/180516/",
+          "mal": "https://myanimelist.net/anime/180516",
+          "kitsu": "https://kitsu.io/anime/180516"
+        }
+      },
+      {
+        "id": 180523,
+        "title": "A Wild Last Boss Appeared!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx180523-FjvW1XByUNMK.jpg",
+        "averageScore": 70,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "format": "ONA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/180523/",
+          "mal": "https://myanimelist.net/anime/180523",
+          "kitsu": "https://kitsu.io/anime/180523"
+        }
+      },
+      {
+        "id": 138060,
+        "title": "Star Wars: Visions",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx138060-8G02wer2Lsxo.jpg",
+        "averageScore": 71,
+        "episodes": 9,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "format": "ONA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/138060/",
+          "mal": "https://myanimelist.net/anime/138060",
+          "kitsu": "https://kitsu.io/anime/138060"
         }
       }
     ]

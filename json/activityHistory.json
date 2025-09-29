@@ -40775,6 +40775,86 @@
   ],
   "2025-09-29": [
     {
+      "id": 962708480,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759152318,
+      "media": {
+        "title": {
+          "english": "Bunny Drop",
+          "romaji": "Usagi Drop"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx10162-w4SG5oQSQwMn.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/10162"
+      }
+    },
+    {
+      "id": 962708015,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759152230,
+      "media": {
+        "title": {
+          "english": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+          "romaji": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20920-MTREwZOG4BAD.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20920"
+      }
+    },
+    {
+      "id": 962707705,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759152172,
+      "media": {
+        "title": {
+          "english": "Food Wars!",
+          "romaji": "Shokugeki no Souma"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20923-pNT38pjW3RFH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20923"
+      }
+    },
+    {
+      "id": 962707361,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759152111,
+      "media": {
+        "title": {
+          "english": "Gosick",
+          "romaji": "GOSICK"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx8425-Bn14ayPjnq9o.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/8425"
+      }
+    },
+    {
+      "id": 962702838,
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1759151299,
+      "media": {
+        "title": {
+          "english": "The Beginning After the End",
+          "romaji": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx183161-5M054tuPmZJX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/183161"
+      }
+    },
+    {
       "id": 962695313,
       "status": "watched episode",
       "progress": "8",

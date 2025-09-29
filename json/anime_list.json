@@ -3975,7 +3975,7 @@
         "id": 154391,
         "title": "Am I Actually the Strongest?",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154391-IEyLPkJBsMxO.jpg",
-        "averageScore": 63,
+        "averageScore": 64,
         "episodes": 12,
         "status": "FINISHED",
         "genres": [
@@ -4682,6 +4682,93 @@
           "anilist": "https://anilist.co/anime/174914/",
           "mal": "https://myanimelist.net/anime/174914",
           "kitsu": "https://kitsu.io/anime/174914"
+        }
+      },
+      {
+        "id": 8425,
+        "title": "Gosick",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx8425-Bn14ayPjnq9o.jpg",
+        "averageScore": 77,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/8425/",
+          "mal": "https://myanimelist.net/anime/8425",
+          "kitsu": "https://kitsu.io/anime/8425"
+        }
+      },
+      {
+        "id": 20923,
+        "title": "Food Wars!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20923-pNT38pjW3RFH.jpg",
+        "averageScore": 78,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Ecchi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/20923/",
+          "mal": "https://myanimelist.net/anime/20923",
+          "kitsu": "https://kitsu.io/anime/20923"
+        }
+      },
+      {
+        "id": 20920,
+        "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20920-MTREwZOG4BAD.jpg",
+        "averageScore": 73,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/20920/",
+          "mal": "https://myanimelist.net/anime/20920",
+          "kitsu": "https://kitsu.io/anime/20920"
+        }
+      },
+      {
+        "id": 10162,
+        "title": "Bunny Drop",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10162-w4SG5oQSQwMn.jpg",
+        "averageScore": 81,
+        "episodes": 11,
+        "status": "FINISHED",
+        "genres": [
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/10162/",
+          "mal": "https://myanimelist.net/anime/10162",
+          "kitsu": "https://kitsu.io/anime/10162"
         }
       }
     ]
@@ -12178,7 +12265,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 8,
+        "progress": 9,
         "links": {
           "anilist": "https://anilist.co/anime/183161/",
           "mal": "https://myanimelist.net/anime/183161",
@@ -12482,28 +12569,6 @@
         }
       },
       {
-        "id": 110733,
-        "title": "ZOMBIE LAND SAGA REVENGE",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx110733-mv2p0VBBD3jz.jpg",
-        "averageScore": 79,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Music",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/110733/",
-          "mal": "https://myanimelist.net/anime/110733",
-          "kitsu": "https://kitsu.io/anime/110733"
-        }
-      },
-      {
         "id": 154116,
         "title": "Undead Unluck",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154116-3ydDI9hhvPgw.png",
@@ -12679,6 +12744,28 @@
           "anilist": "https://anilist.co/anime/165530/",
           "mal": "https://myanimelist.net/anime/165530",
           "kitsu": "https://kitsu.io/anime/165530"
+        }
+      },
+      {
+        "id": 103871,
+        "title": "ZOMBIE LAND SAGA",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103871-KEWbn3fkz499.png",
+        "averageScore": 74,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Music",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/103871/",
+          "mal": "https://myanimelist.net/anime/103871",
+          "kitsu": "https://kitsu.io/anime/103871"
         }
       }
     ]

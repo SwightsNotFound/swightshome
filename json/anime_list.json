@@ -7911,6 +7911,27 @@
         }
       },
       {
+        "id": 178754,
+        "title": "Kaiju No. 8 Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178754-Dgrub8xgC03M.jpg",
+        "averageScore": 78,
+        "episodes": 11,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 11,
+        "links": {
+          "anilist": "https://anilist.co/anime/178754/",
+          "mal": "https://myanimelist.net/anime/178754",
+          "kitsu": "https://kitsu.io/anime/178754"
+        }
+      },
+      {
         "id": 184237,
         "title": "SAKAMOTO DAYS Part 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx184237-OJAksU2fsIPx.jpg",
@@ -12109,27 +12130,6 @@
           "anilist": "https://anilist.co/anime/180367/",
           "mal": "https://myanimelist.net/anime/180367",
           "kitsu": "https://kitsu.io/anime/180367"
-        }
-      },
-      {
-        "id": 178754,
-        "title": "Kaiju No. 8 Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178754-Dgrub8xgC03M.jpg",
-        "averageScore": 78,
-        "episodes": 11,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Sci-Fi"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 9,
-        "links": {
-          "anilist": "https://anilist.co/anime/178754/",
-          "mal": "https://myanimelist.net/anime/178754",
-          "kitsu": "https://kitsu.io/anime/178754"
         }
       },
       {

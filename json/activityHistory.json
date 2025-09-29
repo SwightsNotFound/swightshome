@@ -40775,6 +40775,38 @@
   ],
   "2025-09-29": [
     {
+      "id": 962767753,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1759162096,
+      "media": {
+        "title": {
+          "english": "Kaiju No. 8 Season 2",
+          "romaji": "Kaijuu 8-gou 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178754-Dgrub8xgC03M.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/178754"
+      }
+    },
+    {
+      "id": 962756789,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1759160450,
+      "media": {
+        "title": {
+          "english": "Kaiju No. 8 Season 2",
+          "romaji": "Kaijuu 8-gou 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178754-Dgrub8xgC03M.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/178754"
+      }
+    },
+    {
       "id": 962748108,
       "status": "completed",
       "progress": null,

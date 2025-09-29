@@ -12178,7 +12178,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 6,
+        "progress": 8,
         "links": {
           "anilist": "https://anilist.co/anime/183161/",
           "mal": "https://myanimelist.net/anime/183161",
@@ -12657,6 +12657,28 @@
           "anilist": "https://anilist.co/anime/138060/",
           "mal": "https://myanimelist.net/anime/138060",
           "kitsu": "https://kitsu.io/anime/138060"
+        }
+      },
+      {
+        "id": 165530,
+        "title": "The Fated Magical Princess: Who Made Me a Princess",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx165530-Ku7VZt2NCIgf.jpg",
+        "averageScore": 71,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "ONA",
+        "country": "CN",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/165530/",
+          "mal": "https://myanimelist.net/anime/165530",
+          "kitsu": "https://kitsu.io/anime/165530"
         }
       }
     ]

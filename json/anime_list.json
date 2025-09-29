@@ -10919,6 +10919,28 @@
         }
       },
       {
+        "id": 183161,
+        "title": "The Beginning After the End",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183161-5M054tuPmZJX.jpg",
+        "averageScore": 59,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 6,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/183161/",
+          "mal": "https://myanimelist.net/anime/183161",
+          "kitsu": "https://kitsu.io/anime/183161"
+        }
+      },
+      {
         "id": 163146,
         "title": "BLUE LOCK Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163146-BVZPgyzkqi82.png",
@@ -12251,28 +12273,6 @@
         }
       },
       {
-        "id": 183161,
-        "title": "The Beginning After the End",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183161-5M054tuPmZJX.jpg",
-        "averageScore": 59,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 10,
-        "links": {
-          "anilist": "https://anilist.co/anime/183161/",
-          "mal": "https://myanimelist.net/anime/183161",
-          "kitsu": "https://kitsu.io/anime/183161"
-        }
-      },
-      {
         "id": 177689,
         "title": "The Summer Hikaru Died",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177689-d0mB5nYgdnhi.jpg",
@@ -13215,7 +13215,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143200-42OaDCS6VEy3.png",
         "averageScore": 70,
         "episodes": 26,
-        "status": "RELEASING",
+        "status": "FINISHED",
         "genres": [
           "Drama",
           "Romance",

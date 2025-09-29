@@ -1620,27 +1620,6 @@
         }
       },
       {
-        "id": 179998,
-        "title": "Kaiju No. 8: Mission Recon",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx179998-2QNb7f6oXGUI.jpg",
-        "averageScore": 73,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Sci-Fi"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/179998/",
-          "mal": "https://myanimelist.net/anime/179998",
-          "kitsu": "https://kitsu.io/anime/179998"
-        }
-      },
-      {
         "id": 179852,
         "title": "Mononoke The Movie: Chapter II - The Ashes of Rage",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx179852-tPwGOkCxA8em.jpg",
@@ -3284,7 +3263,7 @@
         "title": "This Monster Wants to Eat Me",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183385-CEz1owTzcSwo.jpg",
         "averageScore": null,
-        "episodes": null,
+        "episodes": 13,
         "status": "NOT_YET_RELEASED",
         "genres": [
           "Drama",
@@ -4394,6 +4373,212 @@
           "anilist": "https://anilist.co/anime/199404/",
           "mal": "https://myanimelist.net/anime/199404",
           "kitsu": "https://kitsu.io/anime/199404"
+        }
+      },
+      {
+        "id": 199448,
+        "title": "Guimi Zhi Zhu Te Bie Pian: Liewu",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx199448-xi5Uh23Spzfe.png",
+        "averageScore": null,
+        "episodes": 2,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Mystery",
+          "Supernatural",
+          "Thriller"
+        ],
+        "format": "ONA",
+        "country": "CN",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/199448/",
+          "mal": "https://myanimelist.net/anime/199448",
+          "kitsu": "https://kitsu.io/anime/199448"
+        }
+      },
+      {
+        "id": 2605,
+        "title": "Sayonara, Zetsubou-Sensei",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2605-euXOWMmXtZMe.png",
+        "averageScore": 76,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/2605/",
+          "mal": "https://myanimelist.net/anime/2605",
+          "kitsu": "https://kitsu.io/anime/2605"
+        }
+      },
+      {
+        "id": 98596,
+        "title": "A Sister's All You Need.",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98596-E2aZouOyuQ8G.jpg",
+        "averageScore": 70,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Ecchi",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/98596/",
+          "mal": "https://myanimelist.net/anime/98596",
+          "kitsu": "https://kitsu.io/anime/98596"
+        }
+      },
+      {
+        "id": 192809,
+        "title": "JUJUTSU KAISEN: Hidden Inventory / Premature Death – The Movie",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx192809-wRlqABGsx2Qs.jpg",
+        "averageScore": 82,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Supernatural"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/192809/",
+          "mal": "https://myanimelist.net/anime/192809",
+          "kitsu": "https://kitsu.io/anime/192809"
+        }
+      },
+      {
+        "id": 110464,
+        "title": "Ne Zha",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx110464-gU0stanOBGIs.png",
+        "averageScore": 74,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama",
+          "Fantasy"
+        ],
+        "format": "MOVIE",
+        "country": "CN",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/110464/",
+          "mal": "https://myanimelist.net/anime/110464",
+          "kitsu": "https://kitsu.io/anime/110464"
+        }
+      },
+      {
+        "id": 182205,
+        "title": "Tensei Shitara Slime Datta Ken 4th Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx182205-fRXQPeQ98hql.png",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/182205/",
+          "mal": "https://myanimelist.net/anime/182205",
+          "kitsu": "https://kitsu.io/anime/182205"
+        }
+      },
+      {
+        "id": 182206,
+        "title": "Tensei Shitara Slime Datta Ken - Soukai no Namida-hen",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx182206-V8XxHcPDh7kx.jpg",
+        "averageScore": null,
+        "episodes": 1,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/182206/",
+          "mal": "https://myanimelist.net/anime/182206",
+          "kitsu": "https://kitsu.io/anime/182206"
+        }
+      },
+      {
+        "id": 192002,
+        "title": "Lost in Starlight",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx192002-sZCUa2OSDhZi.jpg",
+        "averageScore": 81,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "format": "MOVIE",
+        "country": "KR",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/192002/",
+          "mal": "https://myanimelist.net/anime/192002",
+          "kitsu": "https://kitsu.io/anime/192002"
+        }
+      },
+      {
+        "id": 97986,
+        "title": "Made in Abyss",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97986-TQ7dCgbS3y5s.jpg",
+        "averageScore": 85,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Mystery",
+          "Sci-Fi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/97986/",
+          "mal": "https://myanimelist.net/anime/97986",
+          "kitsu": "https://kitsu.io/anime/97986"
         }
       }
     ]
@@ -8311,7 +8496,7 @@
         "id": 144533,
         "title": "Bibliophile Princess",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx144533-DqgPeBmWZPYQ.jpg",
-        "averageScore": 66,
+        "averageScore": 67,
         "episodes": 12,
         "status": "FINISHED",
         "genres": [
@@ -11757,6 +11942,29 @@
         }
       },
       {
+        "id": 156822,
+        "title": "That Time I Got Reincarnated as a Slime Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx156822-Jzo2ITWgm4kM.jpg",
+        "averageScore": 77,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 7,
+        "progress": 23,
+        "links": {
+          "anilist": "https://anilist.co/anime/156822/",
+          "mal": "https://myanimelist.net/anime/156822",
+          "kitsu": "https://kitsu.io/anime/156822"
+        }
+      },
+      {
         "id": 5081,
         "title": "Bakemonogatari",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5081-9GocceQ5Z865.jpg",
@@ -11896,6 +12104,27 @@
           "anilist": "https://anilist.co/anime/177689/",
           "mal": "https://myanimelist.net/anime/177689",
           "kitsu": "https://kitsu.io/anime/177689"
+        }
+      },
+      {
+        "id": 179998,
+        "title": "Kaiju No. 8: Mission Recon",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx179998-2QNb7f6oXGUI.jpg",
+        "averageScore": 73,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/179998/",
+          "mal": "https://myanimelist.net/anime/179998",
+          "kitsu": "https://kitsu.io/anime/179998"
         }
       },
       {
@@ -12240,11 +12469,11 @@
         }
       },
       {
-        "id": 156822,
-        "title": "That Time I Got Reincarnated as a Slime Season 3",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx156822-Jzo2ITWgm4kM.jpg",
+        "id": 139498,
+        "title": "That Time I Got Reincarnated as a Slime the Movie: Scarlet Bond",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx139498-DdVASeAj7ag4.jpg",
         "averageScore": 77,
-        "episodes": 24,
+        "episodes": 1,
         "status": "FINISHED",
         "genres": [
           "Action",
@@ -12252,14 +12481,14 @@
           "Comedy",
           "Fantasy"
         ],
-        "format": "TV",
+        "format": "MOVIE",
         "country": "JP",
         "personalScore": 0,
-        "progress": 10,
+        "progress": 0,
         "links": {
-          "anilist": "https://anilist.co/anime/156822/",
-          "mal": "https://myanimelist.net/anime/156822",
-          "kitsu": "https://kitsu.io/anime/156822"
+          "anilist": "https://anilist.co/anime/139498/",
+          "mal": "https://myanimelist.net/anime/139498",
+          "kitsu": "https://kitsu.io/anime/139498"
         }
       }
     ]

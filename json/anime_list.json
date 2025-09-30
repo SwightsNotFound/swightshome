@@ -4587,7 +4587,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183965-7oMzkJp4FUyP.jpg",
         "averageScore": null,
         "episodes": null,
-        "status": "NOT_YET_RELEASED",
+        "status": "RELEASING",
         "genres": [
           "Comedy",
           "Romance",
@@ -12448,7 +12448,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 9,
+        "progress": 11,
         "links": {
           "anilist": "https://anilist.co/anime/114535/",
           "mal": "https://myanimelist.net/anime/114535",

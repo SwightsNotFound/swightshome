@@ -41577,6 +41577,38 @@
   ],
   "2025-09-30": [
     {
+      "id": 963344920,
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1759262816,
+      "media": {
+        "title": {
+          "english": "To Your Eternity",
+          "romaji": "Fumetsu no Anata e"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx114535-y3NnjexcqKG1.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/114535"
+      }
+    },
+    {
+      "id": 963334225,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1759261206,
+      "media": {
+        "title": {
+          "english": "To Your Eternity",
+          "romaji": "Fumetsu no Anata e"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx114535-y3NnjexcqKG1.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/114535"
+      }
+    },
+    {
       "id": 963320988,
       "status": "watched episode",
       "progress": "9",

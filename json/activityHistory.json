@@ -41577,6 +41577,22 @@
   ],
   "2025-09-30": [
     {
+      "id": 963026630,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1759202427,
+      "media": {
+        "title": {
+          "english": "Campfire Cooking in Another World with my Absurd Skill",
+          "romaji": "Tondemo Skill de Isekai Hourou Meshi"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx156067-Jovklss4VWIx.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/156067"
+      }
+    },
+    {
       "id": 963000962,
       "status": "watched episode",
       "progress": "9",

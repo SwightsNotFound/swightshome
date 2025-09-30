@@ -9182,6 +9182,30 @@
         }
       },
       {
+        "id": 166240,
+        "title": "Demon Slayer: Kimetsu no Yaiba Hashira Training Arc",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166240-PBV7zukIHW7V.png",
+        "averageScore": 80,
+        "episodes": 8,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 7,
+        "progress": 8,
+        "links": {
+          "anilist": "https://anilist.co/anime/166240/",
+          "mal": "https://myanimelist.net/anime/166240",
+          "kitsu": "https://kitsu.io/anime/166240"
+        }
+      },
+      {
         "id": 151384,
         "title": "Kaguya-sama: Love is War -The First Kiss That Never Ends-",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151384-gv0q8wOE6D58.jpg",
@@ -11621,30 +11645,6 @@
         }
       },
       {
-        "id": 166240,
-        "title": "Demon Slayer: Kimetsu no Yaiba Hashira Training Arc",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166240-PBV7zukIHW7V.png",
-        "averageScore": 80,
-        "episodes": 8,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Drama",
-          "Fantasy",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 5,
-        "progress": 8,
-        "links": {
-          "anilist": "https://anilist.co/anime/166240/",
-          "mal": "https://myanimelist.net/anime/166240",
-          "kitsu": "https://kitsu.io/anime/166240"
-        }
-      },
-      {
         "id": 143338,
         "title": "The Angel Next Door Spoils Me Rotten",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143338-zhyDVYgEzsm5.png",
@@ -12561,7 +12561,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 2,
+        "progress": 8,
         "links": {
           "anilist": "https://anilist.co/anime/156067/",
           "mal": "https://myanimelist.net/anime/156067",

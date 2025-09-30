@@ -4770,6 +4770,30 @@
           "mal": "https://myanimelist.net/anime/10162",
           "kitsu": "https://kitsu.io/anime/10162"
         }
+      },
+      {
+        "id": 138565,
+        "title": "To Your Eternity Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx138565-JzvDqH84ILzi.png",
+        "averageScore": 79,
+        "episodes": 20,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Psychological",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/138565/",
+          "mal": "https://myanimelist.net/anime/138565",
+          "kitsu": "https://kitsu.io/anime/138565"
+        }
       }
     ]
   },
@@ -8773,7 +8797,7 @@
         "id": 144533,
         "title": "Bibliophile Princess",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx144533-DqgPeBmWZPYQ.jpg",
-        "averageScore": 66,
+        "averageScore": 67,
         "episodes": 12,
         "status": "FINISHED",
         "genres": [
@@ -12448,7 +12472,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 16,
+        "progress": 17,
         "links": {
           "anilist": "https://anilist.co/anime/114535/",
           "mal": "https://myanimelist.net/anime/114535",
@@ -13213,7 +13237,7 @@
         "id": 143200,
         "title": "Summer Pockets",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143200-42OaDCS6VEy3.png",
-        "averageScore": 70,
+        "averageScore": 71,
         "episodes": 26,
         "status": "FINISHED",
         "genres": [

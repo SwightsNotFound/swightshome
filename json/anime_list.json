@@ -4772,12 +4772,34 @@
         }
       },
       {
-        "id": 138565,
-        "title": "To Your Eternity Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx138565-JzvDqH84ILzi.png",
-        "averageScore": 79,
-        "episodes": 20,
-        "status": "FINISHED",
+        "id": 170577,
+        "title": "Campfire Cooking in Another World with my Absurd Skill Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170577-ocYSFAcry7ty.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/170577/",
+          "mal": "https://myanimelist.net/anime/170577",
+          "kitsu": "https://kitsu.io/anime/170577"
+        }
+      },
+      {
+        "id": 162669,
+        "title": "To Your Eternity Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162669-kCweQfkr6bIu.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
         "genres": [
           "Adventure",
           "Drama",
@@ -4790,9 +4812,9 @@
         "personalScore": 0,
         "progress": 0,
         "links": {
-          "anilist": "https://anilist.co/anime/138565/",
-          "mal": "https://myanimelist.net/anime/138565",
-          "kitsu": "https://kitsu.io/anime/138565"
+          "anilist": "https://anilist.co/anime/162669/",
+          "mal": "https://myanimelist.net/anime/162669",
+          "kitsu": "https://kitsu.io/anime/162669"
         }
       }
     ]
@@ -8545,7 +8567,7 @@
         "id": 4059,
         "title": "Clannad: Another World, Tomoyo Chapter",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b4059-mrA0Wky7bTgz.jpg",
-        "averageScore": 76,
+        "averageScore": 77,
         "episodes": 1,
         "status": "FINISHED",
         "genres": [
@@ -12247,6 +12269,29 @@
         }
       },
       {
+        "id": 169969,
+        "title": "Hero Without a Class: Who Even Needs Skills?!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx169969-SqCjoqYT4A6Z.jpg",
+        "averageScore": 60,
+        "episodes": 12,
+        "status": "RELEASING",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "ONA",
+        "country": "JP",
+        "personalScore": 5,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/169969/",
+          "mal": "https://myanimelist.net/anime/169969",
+          "kitsu": "https://kitsu.io/anime/169969"
+        }
+      },
+      {
         "id": 5081,
         "title": "Bakemonogatari",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5081-9GocceQ5Z865.jpg",
@@ -12638,29 +12683,6 @@
         }
       },
       {
-        "id": 169969,
-        "title": "Hero Without a Class: Who Even Needs Skills?!",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx169969-SqCjoqYT4A6Z.jpg",
-        "averageScore": 60,
-        "episodes": 12,
-        "status": "RELEASING",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Fantasy"
-        ],
-        "format": "ONA",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/169969/",
-          "mal": "https://myanimelist.net/anime/169969",
-          "kitsu": "https://kitsu.io/anime/169969"
-        }
-      },
-      {
         "id": 139498,
         "title": "That Time I Got Reincarnated as a Slime the Movie: Scarlet Bond",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx139498-DdVASeAj7ag4.jpg",
@@ -12763,7 +12785,7 @@
         "format": "ONA",
         "country": "CN",
         "personalScore": 0,
-        "progress": 0,
+        "progress": 3,
         "links": {
           "anilist": "https://anilist.co/anime/165530/",
           "mal": "https://myanimelist.net/anime/165530",
@@ -12790,6 +12812,30 @@
           "anilist": "https://anilist.co/anime/103871/",
           "mal": "https://myanimelist.net/anime/103871",
           "kitsu": "https://kitsu.io/anime/103871"
+        }
+      },
+      {
+        "id": 138565,
+        "title": "To Your Eternity Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx138565-JzvDqH84ILzi.png",
+        "averageScore": 79,
+        "episodes": 20,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Psychological",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/138565/",
+          "mal": "https://myanimelist.net/anime/138565",
+          "kitsu": "https://kitsu.io/anime/138565"
         }
       }
     ]

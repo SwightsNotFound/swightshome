@@ -42011,6 +42011,86 @@
   ],
   "2025-10-01": [
     {
+      "id": 963484064,
+      "status": "watched episode",
+      "progress": "3",
+      "createdAt": 1759287107,
+      "media": {
+        "title": {
+          "english": "The Fated Magical Princess: Who Made Me a Princess",
+          "romaji": "Mofa Gongzhu De Xiao Fannao"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx165530-Ku7VZt2NCIgf.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/165530"
+      }
+    },
+    {
+      "id": 963481527,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759286568,
+      "media": {
+        "title": {
+          "english": "To Your Eternity Season 3",
+          "romaji": "Fumetsu no Anata e Season 3"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx162669-kCweQfkr6bIu.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/162669"
+      }
+    },
+    {
+      "id": 963481480,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759286558,
+      "media": {
+        "title": {
+          "english": "Campfire Cooking in Another World with my Absurd Skill Season 2",
+          "romaji": "Tondemo Skill de Isekai Hourou Meshi 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170577-ocYSFAcry7ty.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/170577"
+      }
+    },
+    {
+      "id": 963475876,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1759285449,
+      "media": {
+        "title": {
+          "english": "The Fated Magical Princess: Who Made Me a Princess",
+          "romaji": "Mofa Gongzhu De Xiao Fannao"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx165530-Ku7VZt2NCIgf.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/165530"
+      }
+    },
+    {
+      "id": 963468454,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1759283959,
+      "media": {
+        "title": {
+          "english": "The Fated Magical Princess: Who Made Me a Princess",
+          "romaji": "Mofa Gongzhu De Xiao Fannao"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx165530-Ku7VZt2NCIgf.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/165530"
+      }
+    },
+    {
       "id": 963454260,
       "status": "completed",
       "progress": null,

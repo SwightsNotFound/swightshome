@@ -1494,7 +1494,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183291-qm3bQT1wpmka.jpg",
         "averageScore": null,
         "episodes": null,
-        "status": "NOT_YET_RELEASED",
+        "status": "RELEASING",
         "genres": [
           "Fantasy",
           "Romance"
@@ -4838,6 +4838,117 @@
           "anilist": "https://anilist.co/anime/7674/",
           "mal": "https://myanimelist.net/anime/7674",
           "kitsu": "https://kitsu.io/anime/7674"
+        }
+      },
+      {
+        "id": 194317,
+        "title": "The Beginning After the End Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx194317-KFT14HClwT9T.jpg",
+        "averageScore": null,
+        "episodes": 12,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/194317/",
+          "mal": "https://myanimelist.net/anime/194317",
+          "kitsu": "https://kitsu.io/anime/194317"
+        }
+      },
+      {
+        "id": 167152,
+        "title": "Sentenced to Be a Hero",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx167152-wf4KjHbYIGG7.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/167152/",
+          "mal": "https://myanimelist.net/anime/167152",
+          "kitsu": "https://kitsu.io/anime/167152"
+        }
+      },
+      {
+        "id": 185039,
+        "title": "The Invisible Man and His Soon-to-Be Wife",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185039-n2U1KJsInPmT.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/185039/",
+          "mal": "https://myanimelist.net/anime/185039",
+          "kitsu": "https://kitsu.io/anime/185039"
+        }
+      },
+      {
+        "id": 180746,
+        "title": "Shibou Yuugi de Meshi wo Kuu.",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx180746-nSe3H4VsaLvV.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Mystery"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/180746/",
+          "mal": "https://myanimelist.net/anime/180746",
+          "kitsu": "https://kitsu.io/anime/180746"
+        }
+      },
+      {
+        "id": 99699,
+        "title": "Golden Kamuy",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99699-mBCjpoWpAVGX.jpg",
+        "averageScore": 77,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/99699/",
+          "mal": "https://myanimelist.net/anime/99699",
+          "kitsu": "https://kitsu.io/anime/99699"
         }
       }
     ]
@@ -12854,7 +12965,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 11,
+        "progress": 14,
         "links": {
           "anilist": "https://anilist.co/anime/138565/",
           "mal": "https://myanimelist.net/anime/138565",

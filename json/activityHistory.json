@@ -42011,6 +42011,134 @@
   ],
   "2025-10-01": [
     {
+      "id": 963731968,
+      "status": "watched episode",
+      "progress": "14",
+      "createdAt": 1759338994,
+      "media": {
+        "title": {
+          "english": "To Your Eternity Season 2",
+          "romaji": "Fumetsu no Anata e Season 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx138565-JzvDqH84ILzi.png"
+        },
+        "siteUrl": "https://anilist.co/anime/138565"
+      }
+    },
+    {
+      "id": 963731574,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759338919,
+      "media": {
+        "title": {
+          "english": "Golden Kamuy",
+          "romaji": "Golden Kamuy"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99699-mBCjpoWpAVGX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/99699"
+      }
+    },
+    {
+      "id": 963731180,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759338847,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Shibou Yuugi de Meshi wo Kuu."
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180746-nSe3H4VsaLvV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/180746"
+      }
+    },
+    {
+      "id": 963731054,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759338828,
+      "media": {
+        "title": {
+          "english": "The Invisible Man and His Soon-to-Be Wife",
+          "romaji": "Toumei Otoko to Ningen Onna: Sonouchi Fuufu ni Naru Futari"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185039-n2U1KJsInPmT.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/185039"
+      }
+    },
+    {
+      "id": 963730991,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759338816,
+      "media": {
+        "title": {
+          "english": "Sentenced to Be a Hero",
+          "romaji": "Yuusha Kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx167152-wf4KjHbYIGG7.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/167152"
+      }
+    },
+    {
+      "id": 963729795,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759338620,
+      "media": {
+        "title": {
+          "english": "The Beginning After the End Season 2",
+          "romaji": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru? 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx194317-KFT14HClwT9T.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/194317"
+      }
+    },
+    {
+      "id": 963723911,
+      "status": "watched episode",
+      "progress": "13",
+      "createdAt": 1759337674,
+      "media": {
+        "title": {
+          "english": "To Your Eternity Season 2",
+          "romaji": "Fumetsu no Anata e Season 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx138565-JzvDqH84ILzi.png"
+        },
+        "siteUrl": "https://anilist.co/anime/138565"
+      }
+    },
+    {
+      "id": 963715172,
+      "status": "watched episode",
+      "progress": "12",
+      "createdAt": 1759336331,
+      "media": {
+        "title": {
+          "english": "To Your Eternity Season 2",
+          "romaji": "Fumetsu no Anata e Season 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx138565-JzvDqH84ILzi.png"
+        },
+        "siteUrl": "https://anilist.co/anime/138565"
+      }
+    },
+    {
       "id": 963706993,
       "status": "watched episode",
       "progress": "11",

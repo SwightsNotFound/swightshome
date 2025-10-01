@@ -42011,6 +42011,54 @@
   ],
   "2025-10-01": [
     {
+      "id": 963511436,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1759292532,
+      "media": {
+        "title": {
+          "english": "A Wild Last Boss Appeared!",
+          "romaji": "Yasei no Last Boss ga Arawareta!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180523-FjvW1XByUNMK.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/180523"
+      }
+    },
+    {
+      "id": 963496473,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1759289549,
+      "media": {
+        "title": {
+          "english": "Hero Without a Class: Who Even Needs Skills?!",
+          "romaji": "Mushoku no Eiyuu: Betsu ni Skill nanka Ira Nakattan Daga"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx169969-SqCjoqYT4A6Z.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/169969"
+      }
+    },
+    {
+      "id": 963491357,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759288570,
+      "media": {
+        "title": {
+          "english": "Bakuman.",
+          "romaji": "Bakuman."
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7674-J0QHrtN50kzj.png"
+        },
+        "siteUrl": "https://anilist.co/anime/7674"
+      }
+    },
+    {
       "id": 963484064,
       "status": "watched episode",
       "progress": "3",

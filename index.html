@@ -1125,21 +1125,21 @@
     <a href="https://modrinth.com/modpack/simply-better" target="_blank">Download Simply Better</a>
 </div>
 
-                        <div class="icon-box">
-                            <img src="images/minecraftorigin.png" alt="Minecraft Origins">
-                            <h4>Origins Server</h4>
-                            <p class="status-text">Private</p>
-                            <p>Modded fabric server based on Origins mod.</p>
+<div class="icon-box">
+    <img src="images/minecraftorigin.png" alt="Minecraft Origins">
+    <h4>Origins Server</h4>
+    <p class="status-text">Private</p>
+    <p>Modded fabric server based on Origins mod.</p>
 
-                                <div class="server-ip-container">
+    <div class="server-ip-container">
         <div class="server-ip-label">Server IP:</div>
         <div class="server-ip-display" title="Click to copy">
-            <span id="server-ip-text">origin.swightshome.xyz</span>
+            <span id="origins-server-ip-text">origin.swightshome.xyz</span> <!-- CHANGED ID -->
             <div class="copy-notification">Copied!</div>
         </div>
     </div>
-                            <a href="downloads/The Origins.mrpack" download>Download Modpack</a>
-                        </div>
+    <a href="downloads/The Origins.mrpack" download>Download Modpack</a>
+</div>
                     </div>
                 </div>
             </div>
@@ -1752,45 +1752,51 @@ document.addEventListener('DOMContentLoaded', function() {
 window.addEventListener('hashchange', function() {
     scrollToAnchorWithOffset(location.hash, false);
 });
-// Server IP copy functionality - FIXED
+// Server IP copy functionality - FIXED FOR BOTH SERVERS
 document.addEventListener('DOMContentLoaded', function() {
-    const serverIpElement = document.querySelector('.server-ip-display');
-    const serverIpText = document.getElementById('server-ip-text');
-    const copyNotification = document.querySelector('.copy-notification');
-    
-    if (serverIpElement && serverIpText) {
-        serverIpElement.addEventListener('click', function() {
-            const ip = serverIpText.textContent.trim();
-            
-            // Copy to clipboard
-            navigator.clipboard.writeText(ip).then(function() {
-                // Show notification
-                copyNotification.classList.add('show');
+    // Function to handle copying for any server IP element
+    function setupServerIpCopy(serverIpElement) {
+        const serverIpText = serverIpElement.querySelector('span');
+        const copyNotification = serverIpElement.querySelector('.copy-notification');
+        
+        if (serverIpElement && serverIpText) {
+            serverIpElement.addEventListener('click', function() {
+                const ip = serverIpText.textContent.trim();
                 
-                // Hide notification after 2 seconds
-                setTimeout(function() {
-                    copyNotification.classList.remove('show');
-                }, 2000);
-            }).catch(function(err) {
-                console.error('Failed to copy IP: ', err);
-                // Fallback for older browsers
-                const textArea = document.createElement('textarea');
-                textArea.value = ip;
-                document.body.appendChild(textArea);
-                textArea.select();
-                document.execCommand('copy');
-                document.body.removeChild(textArea);
-                
-                // Show notification
-                copyNotification.classList.add('show');
-                
-                // Hide notification after 2 seconds
-                setTimeout(function() {
-                    copyNotification.classList.remove('show');
-                }, 2000);
+                // Copy to clipboard
+                navigator.clipboard.writeText(ip).then(function() {
+                    // Show notification
+                    copyNotification.classList.add('show');
+                    
+                    // Hide notification after 2 seconds
+                    setTimeout(function() {
+                        copyNotification.classList.remove('show');
+                    }, 2000);
+                }).catch(function(err) {
+                    console.error('Failed to copy IP: ', err);
+                    // Fallback for older browsers
+                    const textArea = document.createElement('textarea');
+                    textArea.value = ip;
+                    document.body.appendChild(textArea);
+                    textArea.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(textArea);
+                    
+                    // Show notification
+                    copyNotification.classList.add('show');
+                    
+                    // Hide notification after 2 seconds
+                    setTimeout(function() {
+                        copyNotification.classList.remove('show');
+                    }, 2000);
+                });
             });
-        });
+        }
     }
+    
+    // Set up copy functionality for ALL server IP displays
+    const serverIpElements = document.querySelectorAll('.server-ip-display');
+    serverIpElements.forEach(setupServerIpCopy);
 });
     </script>
 </body>

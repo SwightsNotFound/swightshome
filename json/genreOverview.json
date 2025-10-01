@@ -3,51 +3,57 @@
     "genres": [
       {
         "genre": "Drama",
-        "count": 193,
-        "meanScore": 75.79,
-        "minutesWatched": 105972
+        "count": 194,
+        "meanScore": 75.95,
+        "minutesWatched": 107170
       },
       {
         "genre": "Comedy",
-        "count": 186,
-        "meanScore": 70.77,
-        "minutesWatched": 89790
+        "count": 187,
+        "meanScore": 70.64,
+        "minutesWatched": 90269
       },
       {
         "genre": "Romance",
-        "count": 204,
+        "count": 205,
         "meanScore": 70.16,
-        "minutesWatched": 68862
+        "minutesWatched": 69005
       },
       {
         "genre": "Action",
         "count": 133,
-        "meanScore": 75.27,
-        "minutesWatched": 84905
+        "meanScore": 75.1,
+        "minutesWatched": 85239
       },
       {
         "genre": "Fantasy",
-        "count": 123,
-        "meanScore": 72.5,
-        "minutesWatched": 71307
+        "count": 125,
+        "meanScore": 72.48,
+        "minutesWatched": 72803
       },
       {
         "genre": "Adventure",
-        "count": 98,
-        "meanScore": 73.02,
-        "minutesWatched": 65413
+        "count": 99,
+        "meanScore": 72.97,
+        "minutesWatched": 67011
       },
       {
         "genre": "Slice of Life",
         "count": 138,
         "meanScore": 73.6,
-        "minutesWatched": 52482
+        "minutesWatched": 52529
       },
       {
         "genre": "Supernatural",
-        "count": 94,
-        "meanScore": 76.63,
-        "minutesWatched": 58898
+        "count": 95,
+        "meanScore": 76.94,
+        "minutesWatched": 59921
+      },
+      {
+        "genre": "Psychological",
+        "count": 43,
+        "meanScore": 81.09,
+        "minutesWatched": 17448
       },
       {
         "genre": "Mystery",
@@ -56,16 +62,10 @@
         "minutesWatched": 20456
       },
       {
-        "genre": "Psychological",
-        "count": 42,
-        "meanScore": 81.15,
-        "minutesWatched": 16425
-      },
-      {
         "genre": "Sci-Fi",
         "count": 34,
         "meanScore": 80.37,
-        "minutesWatched": 12430
+        "minutesWatched": 12454
       },
       {
         "genre": "Ecchi",

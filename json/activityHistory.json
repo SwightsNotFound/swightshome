@@ -42011,6 +42011,166 @@
   ],
   "2025-10-01": [
     {
+      "id": 963805168,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1759350093,
+      "media": {
+        "title": {
+          "english": "Ranma1/2 (2024)",
+          "romaji": "Ranma 1/2 (2024)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178533-b88OLxm50jcH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/178533"
+      }
+    },
+    {
+      "id": 963803942,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759349891,
+      "media": {
+        "title": {
+          "english": "Dragon Ball Z",
+          "romaji": "Dragon Ball Z"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx813-ZhnFNOeCU5dQ.png"
+        },
+        "siteUrl": "https://anilist.co/anime/813"
+      }
+    },
+    {
+      "id": 963801722,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759349535,
+      "media": {
+        "title": {
+          "english": "DARLING in the FRANXX",
+          "romaji": "Darling in the Franxx"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx99423-8MBxtwCeHf8B.png"
+        },
+        "siteUrl": "https://anilist.co/anime/99423"
+      }
+    },
+    {
+      "id": 963797262,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1759348849,
+      "media": {
+        "title": {
+          "english": "Ranma1/2 (2024)",
+          "romaji": "Ranma 1/2 (2024)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178533-b88OLxm50jcH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/178533"
+      }
+    },
+    {
+      "id": 963791741,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759347977,
+      "media": {
+        "title": {
+          "english": "Fate/Zero",
+          "romaji": "Fate/Zero"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx10087-M4Hd9qrHGrXk.png"
+        },
+        "siteUrl": "https://anilist.co/anime/10087"
+      }
+    },
+    {
+      "id": 963791657,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759347963,
+      "media": {
+        "title": {
+          "english": "Gurren Lagann",
+          "romaji": "Tengen Toppa Gurren Lagann"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2001-XwRnjzGeFWRQ.png"
+        },
+        "siteUrl": "https://anilist.co/anime/2001"
+      }
+    },
+    {
+      "id": 963791444,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759347922,
+      "media": {
+        "title": {
+          "english": "Bungo Stray Dogs",
+          "romaji": "Bungou Stray Dogs"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21311-hAXyT8Yoh6G9.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/21311"
+      }
+    },
+    {
+      "id": 963791359,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759347909,
+      "media": {
+        "title": {
+          "english": "Classroom of the Elite",
+          "romaji": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx98659-WNyPLIZDpGGY.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/98659"
+      }
+    },
+    {
+      "id": 963790729,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759347820,
+      "media": {
+        "title": {
+          "english": "Akame ga Kill!",
+          "romaji": "Akame ga Kill!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20613-HXHpec4bemk5.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20613"
+      }
+    },
+    {
+      "id": 963789416,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1759347597,
+      "media": {
+        "title": {
+          "english": "To Your Eternity Season 2",
+          "romaji": "Fumetsu no Anata e Season 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx138565-JzvDqH84ILzi.png"
+        },
+        "siteUrl": "https://anilist.co/anime/138565"
+      }
+    },
+    {
       "id": 963778804,
       "status": "watched episode",
       "progress": "19",

@@ -4994,6 +4994,173 @@
           "mal": "https://myanimelist.net/anime/20464",
           "kitsu": "https://kitsu.io/anime/20464"
         }
+      },
+      {
+        "id": 20613,
+        "title": "Akame ga Kill!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20613-HXHpec4bemk5.jpg",
+        "averageScore": 72,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Psychological",
+          "Thriller"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/20613/",
+          "mal": "https://myanimelist.net/anime/20613",
+          "kitsu": "https://kitsu.io/anime/20613"
+        }
+      },
+      {
+        "id": 98659,
+        "title": "Classroom of the Elite",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98659-WNyPLIZDpGGY.jpg",
+        "averageScore": 76,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Psychological"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/98659/",
+          "mal": "https://myanimelist.net/anime/98659",
+          "kitsu": "https://kitsu.io/anime/98659"
+        }
+      },
+      {
+        "id": 21311,
+        "title": "Bungo Stray Dogs",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21311-hAXyT8Yoh6G9.jpg",
+        "averageScore": 77,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Mystery",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/21311/",
+          "mal": "https://myanimelist.net/anime/21311",
+          "kitsu": "https://kitsu.io/anime/21311"
+        }
+      },
+      {
+        "id": 2001,
+        "title": "Gurren Lagann",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2001-XwRnjzGeFWRQ.png",
+        "averageScore": 85,
+        "episodes": 27,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama",
+          "Mecha",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/2001/",
+          "mal": "https://myanimelist.net/anime/2001",
+          "kitsu": "https://kitsu.io/anime/2001"
+        }
+      },
+      {
+        "id": 10087,
+        "title": "Fate/Zero",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10087-M4Hd9qrHGrXk.png",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/10087/",
+          "mal": "https://myanimelist.net/anime/10087",
+          "kitsu": "https://kitsu.io/anime/10087"
+        }
+      },
+      {
+        "id": 99423,
+        "title": "DARLING in the FRANXX",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx99423-8MBxtwCeHf8B.png",
+        "averageScore": 68,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Mecha",
+          "Psychological",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/99423/",
+          "mal": "https://myanimelist.net/anime/99423",
+          "kitsu": "https://kitsu.io/anime/99423"
+        }
+      },
+      {
+        "id": 813,
+        "title": "Dragon Ball Z",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx813-ZhnFNOeCU5dQ.png",
+        "averageScore": 80,
+        "episodes": 291,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/813/",
+          "mal": "https://myanimelist.net/anime/813",
+          "kitsu": "https://kitsu.io/anime/813"
+        }
       }
     ]
   },
@@ -8537,6 +8704,30 @@
           "anilist": "https://anilist.co/anime/108511/",
           "mal": "https://myanimelist.net/anime/108511",
           "kitsu": "https://kitsu.io/anime/108511"
+        }
+      },
+      {
+        "id": 138565,
+        "title": "To Your Eternity Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx138565-JzvDqH84ILzi.png",
+        "averageScore": 79,
+        "episodes": 20,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Psychological",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 20,
+        "links": {
+          "anilist": "https://anilist.co/anime/138565/",
+          "mal": "https://myanimelist.net/anime/138565",
+          "kitsu": "https://kitsu.io/anime/138565"
         }
       },
       {
@@ -12534,7 +12725,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0,
+        "progress": 2,
         "links": {
           "anilist": "https://anilist.co/anime/178533/",
           "mal": "https://myanimelist.net/anime/178533",
@@ -12990,30 +13181,6 @@
           "anilist": "https://anilist.co/anime/103871/",
           "mal": "https://myanimelist.net/anime/103871",
           "kitsu": "https://kitsu.io/anime/103871"
-        }
-      },
-      {
-        "id": 138565,
-        "title": "To Your Eternity Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx138565-JzvDqH84ILzi.png",
-        "averageScore": 79,
-        "episodes": 20,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Fantasy",
-          "Psychological",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 19,
-        "links": {
-          "anilist": "https://anilist.co/anime/138565/",
-          "mal": "https://myanimelist.net/anime/138565",
-          "kitsu": "https://kitsu.io/anime/138565"
         }
       }
     ]

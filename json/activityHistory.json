@@ -42011,6 +42011,38 @@
   ],
   "2025-10-01": [
     {
+      "id": 963636356,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1759321758,
+      "media": {
+        "title": {
+          "english": "To Your Eternity Season 2",
+          "romaji": "Fumetsu no Anata e Season 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx138565-JzvDqH84ILzi.png"
+        },
+        "siteUrl": "https://anilist.co/anime/138565"
+      }
+    },
+    {
+      "id": 963630714,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1759320427,
+      "media": {
+        "title": {
+          "english": "To Your Eternity Season 2",
+          "romaji": "Fumetsu no Anata e Season 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx138565-JzvDqH84ILzi.png"
+        },
+        "siteUrl": "https://anilist.co/anime/138565"
+      }
+    },
+    {
       "id": 963511436,
       "status": "watched episode",
       "progress": "1",

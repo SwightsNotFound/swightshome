@@ -42877,6 +42877,54 @@
   ],
   "2025-10-02": [
     {
+      "id": 964266894,
+      "status": "watched episode",
+      "progress": "7",
+      "createdAt": 1759439659,
+      "media": {
+        "title": {
+          "english": "Rascal Does Not Dream of Santa Claus",
+          "romaji": "Seishun Buta Yarou wa Santa Claus no Yume wo Minai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171046-9leqLiNuOqNu.png"
+        },
+        "siteUrl": "https://anilist.co/anime/171046"
+      }
+    },
+    {
+      "id": 964256309,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1759438184,
+      "media": {
+        "title": {
+          "english": "Hero Without a Class: Who Even Needs Skills?!",
+          "romaji": "Mushoku no Eiyuu: Betsu ni Skill nanka Ira Nakattan Daga"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx169969-SqCjoqYT4A6Z.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/169969"
+      }
+    },
+    {
+      "id": 964254041,
+      "status": "watched episode",
+      "progress": "6",
+      "createdAt": 1759437854,
+      "media": {
+        "title": {
+          "english": "Rascal Does Not Dream of Santa Claus",
+          "romaji": "Seishun Buta Yarou wa Santa Claus no Yume wo Minai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171046-9leqLiNuOqNu.png"
+        },
+        "siteUrl": "https://anilist.co/anime/171046"
+      }
+    },
+    {
       "id": 964244416,
       "status": "watched episode",
       "progress": "5",

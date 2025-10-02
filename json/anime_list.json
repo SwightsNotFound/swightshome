@@ -3201,7 +3201,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx186621-jFeAgDQkQMUm.jpg",
         "averageScore": null,
         "episodes": null,
-        "status": "NOT_YET_RELEASED",
+        "status": "RELEASING",
         "genres": [
           "Romance"
         ],
@@ -3235,30 +3235,6 @@
           "anilist": "https://anilist.co/anime/186052/",
           "mal": "https://myanimelist.net/anime/186052",
           "kitsu": "https://kitsu.io/anime/186052"
-        }
-      },
-      {
-        "id": 183385,
-        "title": "This Monster Wants to Eat Me",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183385-f1TgnttLckBT.jpg",
-        "averageScore": null,
-        "episodes": 13,
-        "status": "RELEASING",
-        "genres": [
-          "Drama",
-          "Horror",
-          "Psychological",
-          "Romance",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/183385/",
-          "mal": "https://myanimelist.net/anime/183385",
-          "kitsu": "https://kitsu.io/anime/183385"
         }
       },
       {
@@ -12865,7 +12841,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 4,
+        "progress": 5,
         "links": {
           "anilist": "https://anilist.co/anime/171046/",
           "mal": "https://myanimelist.net/anime/171046",
@@ -12983,6 +12959,30 @@
           "anilist": "https://anilist.co/anime/166531/",
           "mal": "https://myanimelist.net/anime/166531",
           "kitsu": "https://kitsu.io/anime/166531"
+        }
+      },
+      {
+        "id": 183385,
+        "title": "This Monster Wants to Eat Me",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183385-f1TgnttLckBT.jpg",
+        "averageScore": null,
+        "episodes": 13,
+        "status": "RELEASING",
+        "genres": [
+          "Drama",
+          "Horror",
+          "Psychological",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/183385/",
+          "mal": "https://myanimelist.net/anime/183385",
+          "kitsu": "https://kitsu.io/anime/183385"
         }
       },
       {

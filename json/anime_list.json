@@ -4128,7 +4128,7 @@
       },
       {
         "id": 185575,
-        "title": "Bukiyou na Senpai.",
+        "title": "My Awkward Senpai",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185575-moQeN8f5xRBv.jpg",
         "averageScore": null,
         "episodes": null,
@@ -8235,6 +8235,28 @@
         }
       },
       {
+        "id": 178533,
+        "title": "Ranma1/2 (2024)",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178533-b88OLxm50jcH.jpg",
+        "averageScore": 79,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/178533/",
+          "mal": "https://myanimelist.net/anime/178533",
+          "kitsu": "https://kitsu.io/anime/178533"
+        }
+      },
+      {
         "id": 162694,
         "title": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162694-QFBei5pbjSh8.png",
@@ -8936,7 +8958,7 @@
         "id": 4059,
         "title": "Clannad: Another World, Tomoyo Chapter",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b4059-mrA0Wky7bTgz.jpg",
-        "averageScore": 77,
+        "averageScore": 76,
         "episodes": 1,
         "status": "FINISHED",
         "genres": [
@@ -12708,28 +12730,6 @@
           "anilist": "https://anilist.co/anime/9756/",
           "mal": "https://myanimelist.net/anime/9756",
           "kitsu": "https://kitsu.io/anime/9756"
-        }
-      },
-      {
-        "id": 178533,
-        "title": "Ranma1/2 (2024)",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178533-b88OLxm50jcH.jpg",
-        "averageScore": 79,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Romance"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 7,
-        "links": {
-          "anilist": "https://anilist.co/anime/178533/",
-          "mal": "https://myanimelist.net/anime/178533",
-          "kitsu": "https://kitsu.io/anime/178533"
         }
       },
       {

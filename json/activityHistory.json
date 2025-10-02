@@ -42877,6 +42877,22 @@
   ],
   "2025-10-02": [
     {
+      "id": 963950818,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1759377292,
+      "media": {
+        "title": {
+          "english": "That Time I Got Reincarnated as a Slime the Movie: Scarlet Bond",
+          "romaji": "Tensei Shitara Slime Datta Ken: Guren no Kizuna-hen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx139498-DdVASeAj7ag4.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/139498"
+      }
+    },
+    {
       "id": 963897839,
       "status": "completed",
       "progress": null,

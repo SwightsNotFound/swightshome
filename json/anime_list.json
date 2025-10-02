@@ -1489,27 +1489,6 @@
         }
       },
       {
-        "id": 183291,
-        "title": "Pass the Monster Meat, Milady!",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183291-qm3bQT1wpmka.jpg",
-        "averageScore": null,
-        "episodes": null,
-        "status": "RELEASING",
-        "genres": [
-          "Fantasy",
-          "Romance"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/183291/",
-          "mal": "https://myanimelist.net/anime/183291",
-          "kitsu": "https://kitsu.io/anime/183291"
-        }
-      },
-      {
         "id": 109979,
         "title": "The Boy and the Heron",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx109979-BRHXpBkCw4oc.jpg",
@@ -3975,7 +3954,7 @@
         "id": 154391,
         "title": "Am I Actually the Strongest?",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154391-IEyLPkJBsMxO.jpg",
-        "averageScore": 64,
+        "averageScore": 63,
         "episodes": 12,
         "status": "FINISHED",
         "genres": [
@@ -12801,6 +12780,27 @@
           "anilist": "https://anilist.co/anime/177689/",
           "mal": "https://myanimelist.net/anime/177689",
           "kitsu": "https://kitsu.io/anime/177689"
+        }
+      },
+      {
+        "id": 183291,
+        "title": "Pass the Monster Meat, Milady!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183291-qm3bQT1wpmka.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/183291/",
+          "mal": "https://myanimelist.net/anime/183291",
+          "kitsu": "https://kitsu.io/anime/183291"
         }
       },
       {

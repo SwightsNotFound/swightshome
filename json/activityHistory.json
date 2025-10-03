@@ -43087,6 +43087,22 @@
   ],
   "2025-10-03": [
     {
+      "id": 964385560,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1759461822,
+      "media": {
+        "title": {
+          "english": "My Awkward Senpai",
+          "romaji": "Bukiyou na Senpai."
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185575-moQeN8f5xRBv.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/185575"
+      }
+    },
+    {
       "id": 964350609,
       "status": "watched episode",
       "progress": "3",

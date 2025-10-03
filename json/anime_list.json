@@ -4082,27 +4082,6 @@
         }
       },
       {
-        "id": 185575,
-        "title": "My Awkward Senpai",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185575-moQeN8f5xRBv.jpg",
-        "averageScore": null,
-        "episodes": 12,
-        "status": "RELEASING",
-        "genres": [
-          "Comedy",
-          "Romance"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/185575/",
-          "mal": "https://myanimelist.net/anime/185575",
-          "kitsu": "https://kitsu.io/anime/185575"
-        }
-      },
-      {
         "id": 195604,
         "title": "Black Clover Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx195604-tPjTyqwfrfne.jpg",
@@ -13072,6 +13051,27 @@
           "anilist": "https://anilist.co/anime/175019/",
           "mal": "https://myanimelist.net/anime/175019",
           "kitsu": "https://kitsu.io/anime/175019"
+        }
+      },
+      {
+        "id": 185575,
+        "title": "My Awkward Senpai",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185575-moQeN8f5xRBv.jpg",
+        "averageScore": null,
+        "episodes": 12,
+        "status": "RELEASING",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/185575/",
+          "mal": "https://myanimelist.net/anime/185575",
+          "kitsu": "https://kitsu.io/anime/185575"
         }
       },
       {

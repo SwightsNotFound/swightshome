@@ -43084,5 +43084,55 @@
         "siteUrl": "https://anilist.co/anime/178533"
       }
     }
+  ],
+  "2025-10-03": [
+    {
+      "id": 964350609,
+      "status": "watched episode",
+      "progress": "3",
+      "createdAt": 1759454888,
+      "media": {
+        "title": {
+          "english": "Delicious in Dungeon",
+          "romaji": "Dungeon Meshi"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153518-IVXPDY5ph3kO.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/153518"
+      }
+    },
+    {
+      "id": 964343520,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1759453383,
+      "media": {
+        "title": {
+          "english": "Delicious in Dungeon",
+          "romaji": "Dungeon Meshi"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153518-IVXPDY5ph3kO.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/153518"
+      }
+    },
+    {
+      "id": 964334879,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1759451480,
+      "media": {
+        "title": {
+          "english": "Rascal Does Not Dream of Santa Claus",
+          "romaji": "Seishun Buta Yarou wa Santa Claus no Yume wo Minai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171046-9leqLiNuOqNu.png"
+        },
+        "siteUrl": "https://anilist.co/anime/171046"
+      }
+    }
   ]
 }

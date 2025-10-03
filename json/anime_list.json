@@ -3087,7 +3087,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx181447-aCmaQmtdwuU5.jpg",
         "averageScore": null,
         "episodes": null,
-        "status": "NOT_YET_RELEASED",
+        "status": "RELEASING",
         "genres": [
           "Action",
           "Comedy",
@@ -12842,7 +12842,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 4,
+        "progress": 7,
         "links": {
           "anilist": "https://anilist.co/anime/153518/",
           "mal": "https://myanimelist.net/anime/153518",

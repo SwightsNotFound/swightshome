@@ -3082,30 +3082,6 @@
         }
       },
       {
-        "id": 181447,
-        "title": "May I Ask for One Final Thing?",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx181447-aCmaQmtdwuU5.jpg",
-        "averageScore": null,
-        "episodes": null,
-        "status": "RELEASING",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Drama",
-          "Fantasy",
-          "Romance"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/181447/",
-          "mal": "https://myanimelist.net/anime/181447",
-          "kitsu": "https://kitsu.io/anime/181447"
-        }
-      },
-      {
         "id": 20595,
         "title": "MUSHI-SHI The Next Passage",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20595-HcUeaAnvaUhM.jpg",
@@ -12936,6 +12912,30 @@
           "anilist": "https://anilist.co/anime/137667/",
           "mal": "https://myanimelist.net/anime/137667",
           "kitsu": "https://kitsu.io/anime/137667"
+        }
+      },
+      {
+        "id": 181447,
+        "title": "May I Ask for One Final Thing?",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx181447-aCmaQmtdwuU5.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/181447/",
+          "mal": "https://myanimelist.net/anime/181447",
+          "kitsu": "https://kitsu.io/anime/181447"
         }
       },
       {

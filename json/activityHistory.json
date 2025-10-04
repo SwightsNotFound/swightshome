@@ -43425,6 +43425,22 @@
   ],
   "2025-10-04": [
     {
+      "id": 964839868,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1759552447,
+      "media": {
+        "title": {
+          "english": "May I Ask for One Final Thing?",
+          "romaji": "Saigo ni Hitotsu dake Onegai Shite mo Yoroshii Deshou ka"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181447-aCmaQmtdwuU5.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/181447"
+      }
+    },
+    {
       "id": 964821092,
       "status": "plans to watch",
       "progress": null,

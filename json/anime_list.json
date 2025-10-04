@@ -12513,7 +12513,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 97,
+        "progress": 100,
         "links": {
           "anilist": "https://anilist.co/anime/11061/",
           "mal": "https://myanimelist.net/anime/11061",
@@ -12671,7 +12671,7 @@
         "title": "SPY x FAMILY Season 3",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177937-Tzgg6rAdhCoH.jpg",
         "averageScore": null,
-        "episodes": null,
+        "episodes": 13,
         "status": "RELEASING",
         "genres": [
           "Action",
@@ -12694,7 +12694,7 @@
         "title": "My Friend's Little Sister Has It In for Me!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx129195-9BT4wE1QTLj2.jpg",
         "averageScore": null,
-        "episodes": null,
+        "episodes": 12,
         "status": "RELEASING",
         "genres": [
           "Comedy",
@@ -13142,7 +13142,7 @@
         "title": "To Your Eternity Season 3",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162669-FLYUTftoXgMh.jpg",
         "averageScore": null,
-        "episodes": null,
+        "episodes": 22,
         "status": "RELEASING",
         "genres": [
           "Adventure",

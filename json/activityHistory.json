@@ -43425,6 +43425,22 @@
   ],
   "2025-10-04": [
     {
+      "id": 964821092,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759548450,
+      "media": {
+        "title": {
+          "english": "Umamusume: Cinderella Gray",
+          "romaji": "Uma Musume: Cinderella Gray"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180516-lebpoKLkw6E3.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/180516"
+      }
+    },
+    {
       "id": 964820602,
       "status": "completed",
       "progress": null,

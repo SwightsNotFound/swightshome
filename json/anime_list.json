@@ -1360,51 +1360,6 @@
         }
       },
       {
-        "id": 177937,
-        "title": "SPY x FAMILY Season 3",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177937-Tzgg6rAdhCoH.jpg",
-        "averageScore": null,
-        "episodes": null,
-        "status": "RELEASING",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Slice of Life",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/177937/",
-          "mal": "https://myanimelist.net/anime/177937",
-          "kitsu": "https://kitsu.io/anime/177937"
-        }
-      },
-      {
-        "id": 129195,
-        "title": "My Friend's Little Sister Has It In for Me!",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx129195-9BT4wE1QTLj2.jpg",
-        "averageScore": null,
-        "episodes": null,
-        "status": "RELEASING",
-        "genres": [
-          "Comedy",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/129195/",
-          "mal": "https://myanimelist.net/anime/129195",
-          "kitsu": "https://kitsu.io/anime/129195"
-        }
-      },
-      {
         "id": 140291,
         "title": "Disney Twisted-Wonderland: THE ANIMATION  - Season 1: EPISODE of HEARTSLABYUL",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140291-Vua1rRnxvPr4.jpg",
@@ -4701,30 +4656,6 @@
           "anilist": "https://anilist.co/anime/170577/",
           "mal": "https://myanimelist.net/anime/170577",
           "kitsu": "https://kitsu.io/anime/170577"
-        }
-      },
-      {
-        "id": 162669,
-        "title": "To Your Eternity Season 3",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162669-FLYUTftoXgMh.jpg",
-        "averageScore": null,
-        "episodes": null,
-        "status": "RELEASING",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Fantasy",
-          "Psychological",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/162669/",
-          "mal": "https://myanimelist.net/anime/162669",
-          "kitsu": "https://kitsu.io/anime/162669"
         }
       },
       {
@@ -12582,7 +12513,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 90,
+        "progress": 94,
         "links": {
           "anilist": "https://anilist.co/anime/11061/",
           "mal": "https://myanimelist.net/anime/11061",
@@ -12733,6 +12664,51 @@
           "anilist": "https://anilist.co/anime/177689/",
           "mal": "https://myanimelist.net/anime/177689",
           "kitsu": "https://kitsu.io/anime/177689"
+        }
+      },
+      {
+        "id": 177937,
+        "title": "SPY x FAMILY Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177937-Tzgg6rAdhCoH.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/177937/",
+          "mal": "https://myanimelist.net/anime/177937",
+          "kitsu": "https://kitsu.io/anime/177937"
+        }
+      },
+      {
+        "id": 129195,
+        "title": "My Friend's Little Sister Has It In for Me!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx129195-9BT4wE1QTLj2.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/129195/",
+          "mal": "https://myanimelist.net/anime/129195",
+          "kitsu": "https://kitsu.io/anime/129195"
         }
       },
       {
@@ -13159,6 +13135,30 @@
           "anilist": "https://anilist.co/anime/103871/",
           "mal": "https://myanimelist.net/anime/103871",
           "kitsu": "https://kitsu.io/anime/103871"
+        }
+      },
+      {
+        "id": 162669,
+        "title": "To Your Eternity Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162669-FLYUTftoXgMh.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Psychological",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/162669/",
+          "mal": "https://myanimelist.net/anime/162669",
+          "kitsu": "https://kitsu.io/anime/162669"
         }
       }
     ]

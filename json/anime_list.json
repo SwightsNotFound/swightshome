@@ -1342,9 +1342,9 @@
         "id": 182896,
         "title": "My Hero Academia FINAL SEASON",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx182896-mvxTVHGdDB4q.jpg",
-        "averageScore": null,
+        "averageScore": 79,
         "episodes": null,
-        "status": "NOT_YET_RELEASED",
+        "status": "RELEASING",
         "genres": [
           "Action",
           "Adventure"
@@ -1451,7 +1451,7 @@
         "id": 179302,
         "title": "SANDA",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx179302-gWWAh5BfQyl4.jpg",
-        "averageScore": null,
+        "averageScore": 69,
         "episodes": null,
         "status": "RELEASING",
         "genres": [
@@ -3175,7 +3175,7 @@
         "id": 186621,
         "title": "A Star Brighter Than the Sun",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx186621-jFeAgDQkQMUm.jpg",
-        "averageScore": 62,
+        "averageScore": 64,
         "episodes": null,
         "status": "RELEASING",
         "genres": [
@@ -4495,7 +4495,7 @@
         "id": 183965,
         "title": "Yano-kun's Ordinary Days",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183965-7oMzkJp4FUyP.jpg",
-        "averageScore": 65,
+        "averageScore": 66,
         "episodes": null,
         "status": "RELEASING",
         "genres": [
@@ -12760,7 +12760,7 @@
         "id": 183291,
         "title": "Pass the Monster Meat, Milady!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183291-qm3bQT1wpmka.jpg",
-        "averageScore": 67,
+        "averageScore": 66,
         "episodes": 12,
         "status": "RELEASING",
         "genres": [
@@ -12918,8 +12918,8 @@
         "id": 181447,
         "title": "May I Ask for One Final Thing?",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx181447-aCmaQmtdwuU5.jpg",
-        "averageScore": null,
-        "episodes": null,
+        "averageScore": 74,
+        "episodes": 13,
         "status": "RELEASING",
         "genres": [
           "Action",
@@ -12928,7 +12928,7 @@
           "Fantasy",
           "Romance"
         ],
-        "format": "TV",
+        "format": "ONA",
         "country": "JP",
         "personalScore": 0,
         "progress": 1,
@@ -13056,7 +13056,7 @@
         "id": 185575,
         "title": "My Awkward Senpai",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185575-moQeN8f5xRBv.jpg",
-        "averageScore": 66,
+        "averageScore": 65,
         "episodes": 12,
         "status": "RELEASING",
         "genres": [
@@ -13077,7 +13077,7 @@
         "id": 180523,
         "title": "A Wild Last Boss Appeared!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx180523-FjvW1XByUNMK.jpg",
-        "averageScore": 70,
+        "averageScore": 71,
         "episodes": null,
         "status": "RELEASING",
         "genres": [

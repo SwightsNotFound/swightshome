@@ -1365,7 +1365,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177937-Tzgg6rAdhCoH.jpg",
         "averageScore": null,
         "episodes": null,
-        "status": "NOT_YET_RELEASED",
+        "status": "RELEASING",
         "genres": [
           "Action",
           "Comedy",
@@ -1445,27 +1445,6 @@
           "anilist": "https://anilist.co/anime/186161/",
           "mal": "https://myanimelist.net/anime/186161",
           "kitsu": "https://kitsu.io/anime/186161"
-        }
-      },
-      {
-        "id": 179302,
-        "title": "SANDA",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx179302-gWWAh5BfQyl4.jpg",
-        "averageScore": 69,
-        "episodes": null,
-        "status": "RELEASING",
-        "genres": [
-          "Drama",
-          "Mystery"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/179302/",
-          "mal": "https://myanimelist.net/anime/179302",
-          "kitsu": "https://kitsu.io/anime/179302"
         }
       },
       {
@@ -4730,7 +4709,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162669-FLYUTftoXgMh.jpg",
         "averageScore": null,
         "episodes": null,
-        "status": "NOT_YET_RELEASED",
+        "status": "RELEASING",
         "genres": [
           "Adventure",
           "Drama",
@@ -12603,7 +12582,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 85,
+        "progress": 86,
         "links": {
           "anilist": "https://anilist.co/anime/11061/",
           "mal": "https://myanimelist.net/anime/11061",
@@ -12754,6 +12733,27 @@
           "anilist": "https://anilist.co/anime/177689/",
           "mal": "https://myanimelist.net/anime/177689",
           "kitsu": "https://kitsu.io/anime/177689"
+        }
+      },
+      {
+        "id": 179302,
+        "title": "SANDA",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx179302-gWWAh5BfQyl4.jpg",
+        "averageScore": 69,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/179302/",
+          "mal": "https://myanimelist.net/anime/179302",
+          "kitsu": "https://kitsu.io/anime/179302"
         }
       },
       {

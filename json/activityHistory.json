@@ -43425,6 +43425,38 @@
   ],
   "2025-10-04": [
     {
+      "id": 964820602,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1759548348,
+      "media": {
+        "title": {
+          "english": "Delicious in Dungeon",
+          "romaji": "Dungeon Meshi"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153518-IVXPDY5ph3kO.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/153518"
+      }
+    },
+    {
+      "id": 964813165,
+      "status": "watched episode",
+      "progress": "23",
+      "createdAt": 1759546755,
+      "media": {
+        "title": {
+          "english": "Delicious in Dungeon",
+          "romaji": "Dungeon Meshi"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153518-IVXPDY5ph3kO.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/153518"
+      }
+    },
+    {
       "id": 964798614,
       "status": "watched episode",
       "progress": "22",

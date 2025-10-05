@@ -3933,7 +3933,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx186794-Ns8xWNdMdOxq.jpg",
         "averageScore": null,
         "episodes": null,
-        "status": "NOT_YET_RELEASED",
+        "status": "RELEASING",
         "genres": [
           "Action",
           "Adventure",
@@ -12584,7 +12584,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 117,
+        "progress": 118,
         "links": {
           "anilist": "https://anilist.co/anime/11061/",
           "mal": "https://myanimelist.net/anime/11061",

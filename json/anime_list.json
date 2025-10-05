@@ -3933,7 +3933,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx186794-Ns8xWNdMdOxq.jpg",
         "averageScore": null,
         "episodes": null,
-        "status": "RELEASING",
+        "status": "NOT_YET_RELEASED",
         "genres": [
           "Action",
           "Adventure",
@@ -3975,7 +3975,7 @@
         "title": "Dad is a Hero, Mom is a Spirit, I'm a Reincarnator",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx173692-shp7PGRQyCQl.jpg",
         "averageScore": null,
-        "episodes": null,
+        "episodes": 12,
         "status": "RELEASING",
         "genres": [
           "Fantasy",
@@ -12584,7 +12584,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 121,
+        "progress": 127,
         "links": {
           "anilist": "https://anilist.co/anime/11061/",
           "mal": "https://myanimelist.net/anime/11061",

@@ -43843,6 +43843,38 @@
   ],
   "2025-10-05": [
     {
+      "id": 965755884,
+      "status": "watched episode",
+      "progress": "133",
+      "createdAt": 1759705226,
+      "media": {
+        "title": {
+          "english": "Hunter x Hunter (2011)",
+          "romaji": "HUNTER×HUNTER (2011)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11061-y5gsT1hoHuHw.png"
+        },
+        "siteUrl": "https://anilist.co/anime/11061"
+      }
+    },
+    {
+      "id": 965746608,
+      "status": "watched episode",
+      "progress": "132",
+      "createdAt": 1759703973,
+      "media": {
+        "title": {
+          "english": "Hunter x Hunter (2011)",
+          "romaji": "HUNTER×HUNTER (2011)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11061-y5gsT1hoHuHw.png"
+        },
+        "siteUrl": "https://anilist.co/anime/11061"
+      }
+    },
+    {
       "id": 965726842,
       "status": "watched episode",
       "progress": "131",

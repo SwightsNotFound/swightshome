@@ -5048,6 +5048,31 @@
           "mal": "https://myanimelist.net/anime/143277",
           "kitsu": "https://kitsu.io/anime/143277"
         }
+      },
+      {
+        "id": 199793,
+        "title": "Witch Watch 2nd Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx199793-ks9EEXbv62zR.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Fantasy",
+          "Romance",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/199793/",
+          "mal": "https://myanimelist.net/anime/199793",
+          "kitsu": "https://kitsu.io/anime/199793"
+        }
       }
     ]
   },
@@ -12559,7 +12584,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 109,
+        "progress": 110,
         "links": {
           "anilist": "https://anilist.co/anime/11061/",
           "mal": "https://myanimelist.net/anime/11061",

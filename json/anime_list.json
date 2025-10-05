@@ -5002,6 +5002,52 @@
           "mal": "https://myanimelist.net/anime/813",
           "kitsu": "https://kitsu.io/anime/813"
         }
+      },
+      {
+        "id": 195600,
+        "title": "Daemons of the Shadow Realm",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx195600-KfuPU2Xhy5kG.png",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/195600/",
+          "mal": "https://myanimelist.net/anime/195600",
+          "kitsu": "https://kitsu.io/anime/195600"
+        }
+      },
+      {
+        "id": 143277,
+        "title": "Urusei Yatsura (2022)",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143277-snjd4UzsUl8M.jpg",
+        "averageScore": 72,
+        "episodes": 23,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Sci-Fi",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/143277/",
+          "mal": "https://myanimelist.net/anime/143277",
+          "kitsu": "https://kitsu.io/anime/143277"
+        }
       }
     ]
   },
@@ -12513,7 +12559,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 103,
+        "progress": 106,
         "links": {
           "anilist": "https://anilist.co/anime/11061/",
           "mal": "https://myanimelist.net/anime/11061",

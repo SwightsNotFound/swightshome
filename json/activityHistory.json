@@ -43840,5 +43840,87 @@
         "siteUrl": "https://anilist.co/anime/153518"
       }
     }
+  ],
+  "2025-10-05": [
+    {
+      "id": 965270346,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759628855,
+      "media": {
+        "title": {
+          "english": "Urusei Yatsura (2022)",
+          "romaji": "Urusei Yatsura (2022)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx143277-snjd4UzsUl8M.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/143277"
+      }
+    },
+    {
+      "id": 965269129,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759628633,
+      "media": {
+        "title": {
+          "english": "Daemons of the Shadow Realm",
+          "romaji": "Yomi no Tsugai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195600-KfuPU2Xhy5kG.png"
+        },
+        "siteUrl": "https://anilist.co/anime/195600"
+      }
+    },
+    {
+      "id": 965252094,
+      "status": "watched episode",
+      "progress": "106",
+      "createdAt": 1759625463,
+      "media": {
+        "title": {
+          "english": "Hunter x Hunter (2011)",
+          "romaji": "HUNTER×HUNTER (2011)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11061-y5gsT1hoHuHw.png"
+        },
+        "siteUrl": "https://anilist.co/anime/11061"
+      }
+    },
+    {
+      "id": 965244805,
+      "status": "watched episode",
+      "progress": "105",
+      "createdAt": 1759624207,
+      "media": {
+        "title": {
+          "english": "Hunter x Hunter (2011)",
+          "romaji": "HUNTER×HUNTER (2011)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11061-y5gsT1hoHuHw.png"
+        },
+        "siteUrl": "https://anilist.co/anime/11061"
+      }
+    },
+    {
+      "id": 965237863,
+      "status": "watched episode",
+      "progress": "104",
+      "createdAt": 1759622944,
+      "media": {
+        "title": {
+          "english": "Hunter x Hunter (2011)",
+          "romaji": "HUNTER×HUNTER (2011)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11061-y5gsT1hoHuHw.png"
+        },
+        "siteUrl": "https://anilist.co/anime/11061"
+      }
+    }
   ]
 }

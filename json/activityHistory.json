@@ -44389,6 +44389,54 @@
   ],
   "2025-10-06": [
     {
+      "id": 965837463,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1759718611,
+      "media": {
+        "title": {
+          "english": "My Friend's Little Sister Has It In for Me!",
+          "romaji": "Tomodachi no Imouto ga Ore ni dake Uzai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx129195-9BT4wE1QTLj2.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/129195"
+      }
+    },
+    {
+      "id": 965829684,
+      "status": "watched episode",
+      "progress": "140",
+      "createdAt": 1759717273,
+      "media": {
+        "title": {
+          "english": "Hunter x Hunter (2011)",
+          "romaji": "HUNTER×HUNTER (2011)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11061-y5gsT1hoHuHw.png"
+        },
+        "siteUrl": "https://anilist.co/anime/11061"
+      }
+    },
+    {
+      "id": 965822476,
+      "status": "watched episode",
+      "progress": "139",
+      "createdAt": 1759716017,
+      "media": {
+        "title": {
+          "english": "Hunter x Hunter (2011)",
+          "romaji": "HUNTER×HUNTER (2011)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11061-y5gsT1hoHuHw.png"
+        },
+        "siteUrl": "https://anilist.co/anime/11061"
+      }
+    },
+    {
       "id": 965802061,
       "status": "watched episode",
       "progress": "138",

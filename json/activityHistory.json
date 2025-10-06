@@ -44389,6 +44389,22 @@
   ],
   "2025-10-06": [
     {
+      "id": 966197365,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1759783775,
+      "media": {
+        "title": {
+          "english": "Takopi's Original Sin",
+          "romaji": "Takopii no Genzai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185407-7uzY4fA3hokP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/185407"
+      }
+    },
+    {
       "id": 966182938,
       "status": "rewatched episode",
       "progress": "4",

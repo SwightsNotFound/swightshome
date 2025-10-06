@@ -5261,6 +5261,29 @@
         }
       },
       {
+        "id": 4181,
+        "title": "Clannad: After Story",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4181-zUKE7BZC62OF.png",
+        "averageScore": 87,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 24,
+        "links": {
+          "anilist": "https://anilist.co/anime/4181/",
+          "mal": "https://myanimelist.net/anime/4181",
+          "kitsu": "https://kitsu.io/anime/4181"
+        }
+      },
+      {
         "id": 11061,
         "title": "Hunter x Hunter (2011)",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11061-y5gsT1hoHuHw.png",
@@ -5280,6 +5303,95 @@
           "anilist": "https://anilist.co/anime/11061/",
           "mal": "https://myanimelist.net/anime/11061",
           "kitsu": "https://kitsu.io/anime/11061"
+        }
+      },
+      {
+        "id": 103047,
+        "title": "Violet Evergarden: the Movie",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103047-odblDHHEdehK.jpg",
+        "averageScore": 87,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Slice of Life"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/103047/",
+          "mal": "https://myanimelist.net/anime/103047",
+          "kitsu": "https://kitsu.io/anime/103047"
+        }
+      },
+      {
+        "id": 154587,
+        "title": "Frieren: Beyond Journey’s End",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154587-qQTzQnEJJ3oB.jpg",
+        "averageScore": 91,
+        "episodes": 28,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 28,
+        "links": {
+          "anilist": "https://anilist.co/anime/154587/",
+          "mal": "https://myanimelist.net/anime/154587",
+          "kitsu": "https://kitsu.io/anime/154587"
+        }
+      },
+      {
+        "id": 99147,
+        "title": "Attack on Titan Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99147-AiPDD8cwlCfi.jpg",
+        "averageScore": 85,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Mystery"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/99147/",
+          "mal": "https://myanimelist.net/anime/99147",
+          "kitsu": "https://kitsu.io/anime/99147"
+        }
+      },
+      {
+        "id": 21827,
+        "title": "Violet Evergarden",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21827-ubzq619ZA2E9.png",
+        "averageScore": 85,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/21827/",
+          "mal": "https://myanimelist.net/anime/21827",
+          "kitsu": "https://kitsu.io/anime/21827"
         }
       },
       {
@@ -5306,6 +5418,100 @@
         }
       },
       {
+        "id": 5114,
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5114-nSWCgQlmOMtj.jpg",
+        "averageScore": 90,
+        "episodes": 64,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 64,
+        "links": {
+          "anilist": "https://anilist.co/anime/5114/",
+          "mal": "https://myanimelist.net/anime/5114",
+          "kitsu": "https://kitsu.io/anime/5114"
+        }
+      },
+      {
+        "id": 20958,
+        "title": "Attack on Titan Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20958-HuFJyr54Mmir.jpg",
+        "averageScore": 84,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Mystery"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.8,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/20958/",
+          "mal": "https://myanimelist.net/anime/20958",
+          "kitsu": "https://kitsu.io/anime/20958"
+        }
+      },
+      {
+        "id": 146984,
+        "title": "Attack on Titan Final Season THE FINAL CHAPTERS Special 1",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146984-GXrLeT6vQqyP.jpg",
+        "averageScore": 87,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Mystery",
+          "Psychological"
+        ],
+        "format": "SPECIAL",
+        "country": "JP",
+        "personalScore": 9.8,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/146984/",
+          "mal": "https://myanimelist.net/anime/146984",
+          "kitsu": "https://kitsu.io/anime/146984"
+        }
+      },
+      {
+        "id": 162314,
+        "title": "Attack on Titan Final Season THE FINAL CHAPTERS Special 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162314-qIWdAAFtvY8J.jpg",
+        "averageScore": 87,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Psychological",
+          "Romance"
+        ],
+        "format": "SPECIAL",
+        "country": "JP",
+        "personalScore": 9.8,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/162314/",
+          "mal": "https://myanimelist.net/anime/162314",
+          "kitsu": "https://kitsu.io/anime/162314"
+        }
+      },
+      {
         "id": 130003,
         "title": "BOCCHI THE ROCK!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx130003-HTDmeL4RGeJ4.png",
@@ -5325,6 +5531,97 @@
           "anilist": "https://anilist.co/anime/130003/",
           "mal": "https://myanimelist.net/anime/130003",
           "kitsu": "https://kitsu.io/anime/130003"
+        }
+      },
+      {
+        "id": 124080,
+        "title": "Horimiya",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124080-oeviACzGv5Vx.jpg",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.7,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/124080/",
+          "mal": "https://myanimelist.net/anime/124080",
+          "kitsu": "https://kitsu.io/anime/124080"
+        }
+      },
+      {
+        "id": 12189,
+        "title": "Hyouka",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx12189-zj5AWUYO53Fv.jpg",
+        "averageScore": 79,
+        "episodes": 22,
+        "status": "FINISHED",
+        "genres": [
+          "Mystery",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.7,
+        "progress": 22,
+        "links": {
+          "anilist": "https://anilist.co/anime/12189/",
+          "mal": "https://myanimelist.net/anime/12189",
+          "kitsu": "https://kitsu.io/anime/12189"
+        }
+      },
+      {
+        "id": 110277,
+        "title": "Attack on Titan Final Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx110277-sKUNXAsWMNFw.jpg",
+        "averageScore": 86,
+        "episodes": 16,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Mystery"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.7,
+        "progress": 16,
+        "links": {
+          "anilist": "https://anilist.co/anime/110277/",
+          "mal": "https://myanimelist.net/anime/110277",
+          "kitsu": "https://kitsu.io/anime/110277"
+        }
+      },
+      {
+        "id": 131681,
+        "title": "Attack on Titan Final Season Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131681-5ooUqvqNtee1.jpg",
+        "averageScore": 86,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Mystery",
+          "Psychological"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.7,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/131681/",
+          "mal": "https://myanimelist.net/anime/131681",
+          "kitsu": "https://kitsu.io/anime/131681"
         }
       },
       {
@@ -5348,6 +5645,55 @@
           "anilist": "https://anilist.co/anime/127720/",
           "mal": "https://myanimelist.net/anime/127720",
           "kitsu": "https://kitsu.io/anime/127720"
+        }
+      },
+      {
+        "id": 105334,
+        "title": "Fruits Basket (2019)",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105334-AZwEdMu4KFtV.jpg",
+        "averageScore": 82,
+        "episodes": 25,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.5,
+        "progress": 25,
+        "links": {
+          "anilist": "https://anilist.co/anime/105334/",
+          "mal": "https://myanimelist.net/anime/105334",
+          "kitsu": "https://kitsu.io/anime/105334"
+        }
+      },
+      {
+        "id": 111762,
+        "title": "Fruits Basket Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx111762-C8TNf5uRlVNQ.jpg",
+        "averageScore": 85,
+        "episodes": 25,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Psychological",
+          "Romance",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.5,
+        "progress": 25,
+        "links": {
+          "anilist": "https://anilist.co/anime/111762/",
+          "mal": "https://myanimelist.net/anime/111762",
+          "kitsu": "https://kitsu.io/anime/111762"
         }
       },
       {
@@ -5397,6 +5743,56 @@
         }
       },
       {
+        "id": 171018,
+        "title": "DAN DA DAN",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171018-60q1B6GK2Ghb.jpg",
+        "averageScore": 84,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Sci-Fi",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.5,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/171018/",
+          "mal": "https://myanimelist.net/anime/171018",
+          "kitsu": "https://kitsu.io/anime/171018"
+        }
+      },
+      {
+        "id": 101759,
+        "title": "The Promised Neverland",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101759-8UR7r9MNVpz2.jpg",
+        "averageScore": 83,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Mystery",
+          "Psychological",
+          "Thriller"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.2,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/101759/",
+          "mal": "https://myanimelist.net/anime/101759",
+          "kitsu": "https://kitsu.io/anime/101759"
+        }
+      },
+      {
         "id": 113596,
         "title": "Josee, the Tiger and the Fish",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113596-LKA0bYJGjLnB.jpg",
@@ -5419,119 +5815,72 @@
         }
       },
       {
-        "id": 21258,
-        "title": "Snow White with the Red Hair Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21258-6UnmYMTMH0f7.jpg",
-        "averageScore": 78,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Fantasy",
-          "Romance"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/21258/",
-          "mal": "https://myanimelist.net/anime/21258",
-          "kitsu": "https://kitsu.io/anime/21258"
-        }
-      },
-      {
-        "id": 4181,
-        "title": "Clannad: After Story",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4181-zUKE7BZC62OF.png",
-        "averageScore": 87,
+        "id": 105333,
+        "title": "Dr. STONE",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105333-GybuoSoOZfpH.jpg",
+        "averageScore": 81,
         "episodes": 24,
         "status": "FINISHED",
         "genres": [
-          "Drama",
-          "Romance",
-          "Slice of Life",
-          "Supernatural"
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
         ],
         "format": "TV",
         "country": "JP",
-        "personalScore": 9,
+        "personalScore": 9.1,
         "progress": 24,
         "links": {
-          "anilist": "https://anilist.co/anime/4181/",
-          "mal": "https://myanimelist.net/anime/4181",
-          "kitsu": "https://kitsu.io/anime/4181"
+          "anilist": "https://anilist.co/anime/105333/",
+          "mal": "https://myanimelist.net/anime/105333",
+          "kitsu": "https://kitsu.io/anime/105333"
         }
       },
       {
-        "id": 105334,
-        "title": "Fruits Basket (2019)",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105334-AZwEdMu4KFtV.jpg",
-        "averageScore": 82,
-        "episodes": 25,
+        "id": 150672,
+        "title": "Oshi No Ko",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx150672-WqmmwZ4nMzAy.png",
+        "averageScore": 84,
+        "episodes": 11,
         "status": "FINISHED",
         "genres": [
-          "Comedy",
           "Drama",
-          "Romance",
-          "Slice of Life",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 25,
-        "links": {
-          "anilist": "https://anilist.co/anime/105334/",
-          "mal": "https://myanimelist.net/anime/105334",
-          "kitsu": "https://kitsu.io/anime/105334"
-        }
-      },
-      {
-        "id": 111762,
-        "title": "Fruits Basket Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx111762-C8TNf5uRlVNQ.jpg",
-        "averageScore": 85,
-        "episodes": 25,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Drama",
+          "Mystery",
           "Psychological",
-          "Romance",
-          "Slice of Life",
           "Supernatural"
         ],
         "format": "TV",
         "country": "JP",
-        "personalScore": 9,
-        "progress": 25,
+        "personalScore": 9.1,
+        "progress": 11,
         "links": {
-          "anilist": "https://anilist.co/anime/111762/",
-          "mal": "https://myanimelist.net/anime/111762",
-          "kitsu": "https://kitsu.io/anime/111762"
+          "anilist": "https://anilist.co/anime/150672/",
+          "mal": "https://myanimelist.net/anime/150672",
+          "kitsu": "https://kitsu.io/anime/150672"
         }
       },
       {
-        "id": 124080,
-        "title": "Horimiya",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124080-oeviACzGv5Vx.jpg",
-        "averageScore": 81,
-        "episodes": 13,
+        "id": 1535,
+        "title": "Death Note",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1535-kUgkcrfOrkUM.jpg",
+        "averageScore": 84,
+        "episodes": 37,
         "status": "FINISHED",
         "genres": [
-          "Comedy",
-          "Romance",
-          "Slice of Life"
+          "Mystery",
+          "Psychological",
+          "Supernatural",
+          "Thriller"
         ],
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 13,
+        "progress": 37,
         "links": {
-          "anilist": "https://anilist.co/anime/124080/",
-          "mal": "https://myanimelist.net/anime/124080",
-          "kitsu": "https://kitsu.io/anime/124080"
+          "anilist": "https://anilist.co/anime/1535/",
+          "mal": "https://myanimelist.net/anime/1535",
+          "kitsu": "https://kitsu.io/anime/1535"
         }
       },
       {
@@ -5555,28 +5904,6 @@
           "anilist": "https://anilist.co/anime/431/",
           "mal": "https://myanimelist.net/anime/431",
           "kitsu": "https://kitsu.io/anime/431"
-        }
-      },
-      {
-        "id": 12189,
-        "title": "Hyouka",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx12189-zj5AWUYO53Fv.jpg",
-        "averageScore": 79,
-        "episodes": 22,
-        "status": "FINISHED",
-        "genres": [
-          "Mystery",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 22,
-        "links": {
-          "anilist": "https://anilist.co/anime/12189/",
-          "mal": "https://myanimelist.net/anime/12189",
-          "kitsu": "https://kitsu.io/anime/12189"
         }
       },
       {
@@ -5782,50 +6109,6 @@
         }
       },
       {
-        "id": 103047,
-        "title": "Violet Evergarden: the Movie",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103047-odblDHHEdehK.jpg",
-        "averageScore": 87,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Fantasy",
-          "Slice of Life"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/103047/",
-          "mal": "https://myanimelist.net/anime/103047",
-          "kitsu": "https://kitsu.io/anime/103047"
-        }
-      },
-      {
-        "id": 154587,
-        "title": "Frieren: Beyond Journey’s End",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154587-qQTzQnEJJ3oB.jpg",
-        "averageScore": 91,
-        "episodes": 28,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 28,
-        "links": {
-          "anilist": "https://anilist.co/anime/154587/",
-          "mal": "https://myanimelist.net/anime/154587",
-          "kitsu": "https://kitsu.io/anime/154587"
-        }
-      },
-      {
         "id": 20555,
         "title": "When Marnie Was There",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20555-QGbWQC3Kfpok.jpg",
@@ -5866,6 +6149,29 @@
           "anilist": "https://anilist.co/anime/16662/",
           "mal": "https://myanimelist.net/anime/16662",
           "kitsu": "https://kitsu.io/anime/16662"
+        }
+      },
+      {
+        "id": 512,
+        "title": "Kiki's Delivery Service",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx512-UwP8X4BR8YoM.png",
+        "averageScore": 81,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Slice of Life"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/512/",
+          "mal": "https://myanimelist.net/anime/512",
+          "kitsu": "https://kitsu.io/anime/512"
         }
       },
       {
@@ -5937,146 +6243,26 @@
         }
       },
       {
-        "id": 101759,
-        "title": "The Promised Neverland",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101759-8UR7r9MNVpz2.jpg",
-        "averageScore": 83,
-        "episodes": 12,
+        "id": 21127,
+        "title": "Steins;Gate 0",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21127-7ARWZkDXKiiD.jpg",
+        "averageScore": 84,
+        "episodes": 23,
         "status": "FINISHED",
         "genres": [
           "Drama",
-          "Fantasy",
-          "Horror",
-          "Mystery",
           "Psychological",
+          "Sci-Fi",
           "Thriller"
         ],
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 12,
+        "progress": 23,
         "links": {
-          "anilist": "https://anilist.co/anime/101759/",
-          "mal": "https://myanimelist.net/anime/101759",
-          "kitsu": "https://kitsu.io/anime/101759"
-        }
-      },
-      {
-        "id": 20958,
-        "title": "Attack on Titan Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20958-HuFJyr54Mmir.jpg",
-        "averageScore": 84,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Fantasy",
-          "Mystery"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/20958/",
-          "mal": "https://myanimelist.net/anime/20958",
-          "kitsu": "https://kitsu.io/anime/20958"
-        }
-      },
-      {
-        "id": 99147,
-        "title": "Attack on Titan Season 3",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99147-AiPDD8cwlCfi.jpg",
-        "averageScore": 85,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Fantasy",
-          "Mystery"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/99147/",
-          "mal": "https://myanimelist.net/anime/99147",
-          "kitsu": "https://kitsu.io/anime/99147"
-        }
-      },
-      {
-        "id": 131681,
-        "title": "Attack on Titan Final Season Part 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131681-5ooUqvqNtee1.jpg",
-        "averageScore": 86,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Fantasy",
-          "Mystery",
-          "Psychological"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/131681/",
-          "mal": "https://myanimelist.net/anime/131681",
-          "kitsu": "https://kitsu.io/anime/131681"
-        }
-      },
-      {
-        "id": 146984,
-        "title": "Attack on Titan Final Season THE FINAL CHAPTERS Special 1",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146984-GXrLeT6vQqyP.jpg",
-        "averageScore": 87,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Fantasy",
-          "Mystery",
-          "Psychological"
-        ],
-        "format": "SPECIAL",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/146984/",
-          "mal": "https://myanimelist.net/anime/146984",
-          "kitsu": "https://kitsu.io/anime/146984"
-        }
-      },
-      {
-        "id": 162314,
-        "title": "Attack on Titan Final Season THE FINAL CHAPTERS Special 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162314-qIWdAAFtvY8J.jpg",
-        "averageScore": 87,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Fantasy",
-          "Psychological",
-          "Romance"
-        ],
-        "format": "SPECIAL",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/162314/",
-          "mal": "https://myanimelist.net/anime/162314",
-          "kitsu": "https://kitsu.io/anime/162314"
+          "anilist": "https://anilist.co/anime/21127/",
+          "mal": "https://myanimelist.net/anime/21127",
+          "kitsu": "https://kitsu.io/anime/21127"
         }
       },
       {
@@ -6100,28 +6286,6 @@
           "anilist": "https://anilist.co/anime/104157/",
           "mal": "https://myanimelist.net/anime/104157",
           "kitsu": "https://kitsu.io/anime/104157"
-        }
-      },
-      {
-        "id": 21827,
-        "title": "Violet Evergarden",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21827-ubzq619ZA2E9.png",
-        "averageScore": 85,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Fantasy",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 13,
-        "links": {
-          "anilist": "https://anilist.co/anime/21827/",
-          "mal": "https://myanimelist.net/anime/21827",
-          "kitsu": "https://kitsu.io/anime/21827"
         }
       },
       {
@@ -6213,77 +6377,6 @@
         }
       },
       {
-        "id": 171018,
-        "title": "DAN DA DAN",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171018-60q1B6GK2Ghb.jpg",
-        "averageScore": 84,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Drama",
-          "Romance",
-          "Sci-Fi",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/171018/",
-          "mal": "https://myanimelist.net/anime/171018",
-          "kitsu": "https://kitsu.io/anime/171018"
-        }
-      },
-      {
-        "id": 5114,
-        "title": "Fullmetal Alchemist: Brotherhood",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5114-nSWCgQlmOMtj.jpg",
-        "averageScore": 90,
-        "episodes": 64,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Drama",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 64,
-        "links": {
-          "anilist": "https://anilist.co/anime/5114/",
-          "mal": "https://myanimelist.net/anime/5114",
-          "kitsu": "https://kitsu.io/anime/5114"
-        }
-      },
-      {
-        "id": 105333,
-        "title": "Dr. STONE",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105333-GybuoSoOZfpH.jpg",
-        "averageScore": 81,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Sci-Fi"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 24,
-        "links": {
-          "anilist": "https://anilist.co/anime/105333/",
-          "mal": "https://myanimelist.net/anime/105333",
-          "kitsu": "https://kitsu.io/anime/105333"
-        }
-      },
-      {
         "id": 523,
         "title": "My Neighbor Totoro",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx523-fErBvxOHP7IX.jpg",
@@ -6327,75 +6420,6 @@
           "anilist": "https://anilist.co/anime/113936/",
           "mal": "https://myanimelist.net/anime/113936",
           "kitsu": "https://kitsu.io/anime/113936"
-        }
-      },
-      {
-        "id": 131518,
-        "title": "Dr. STONE New World",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131518-RU7RoUmGb2sP.jpg",
-        "averageScore": 81,
-        "episodes": 11,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Sci-Fi"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 11,
-        "links": {
-          "anilist": "https://anilist.co/anime/131518/",
-          "mal": "https://myanimelist.net/anime/131518",
-          "kitsu": "https://kitsu.io/anime/131518"
-        }
-      },
-      {
-        "id": 142876,
-        "title": "Dr. STONE Special Episode – RYUSUI",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142876-izO35hPP2DZ9.jpg",
-        "averageScore": 81,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Sci-Fi"
-        ],
-        "format": "SPECIAL",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/142876/",
-          "mal": "https://myanimelist.net/anime/142876",
-          "kitsu": "https://kitsu.io/anime/142876"
-        }
-      },
-      {
-        "id": 162670,
-        "title": "Dr. STONE New World Part 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162670-07XrFq2hreTx.jpg",
-        "averageScore": 83,
-        "episodes": 11,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Sci-Fi"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 11,
-        "links": {
-          "anilist": "https://anilist.co/anime/162670/",
-          "mal": "https://myanimelist.net/anime/162670",
-          "kitsu": "https://kitsu.io/anime/162670"
         }
       },
       {
@@ -6512,26 +6536,701 @@
         }
       },
       {
-        "id": 150672,
-        "title": "Oshi No Ko",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx150672-WqmmwZ4nMzAy.png",
-        "averageScore": 84,
-        "episodes": 11,
+        "id": 6547,
+        "title": "Angel Beats!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6547-SYexAn5aFyss.png",
+        "averageScore": 77,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/6547/",
+          "mal": "https://myanimelist.net/anime/6547",
+          "kitsu": "https://kitsu.io/anime/6547"
+        }
+      },
+      {
+        "id": 2167,
+        "title": "Clannad",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2167-pSDBcyc0vjej.jpg",
+        "averageScore": 77,
+        "episodes": 23,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 23,
+        "links": {
+          "anilist": "https://anilist.co/anime/2167/",
+          "mal": "https://myanimelist.net/anime/2167",
+          "kitsu": "https://kitsu.io/anime/2167"
+        }
+      },
+      {
+        "id": 129874,
+        "title": "Demon Slayer: Kimetsu no Yaiba Mugen Train Arc",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx129874-g6ZKXB94Hui1.jpg",
+        "averageScore": 82,
+        "episodes": 7,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Mystery",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 7,
+        "links": {
+          "anilist": "https://anilist.co/anime/129874/",
+          "mal": "https://myanimelist.net/anime/129874",
+          "kitsu": "https://kitsu.io/anime/129874"
+        }
+      },
+      {
+        "id": 20,
+        "title": "Naruto",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20-dE6UHbFFg1A5.jpg",
+        "averageScore": 80,
+        "episodes": 220,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Drama",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 220,
+        "links": {
+          "anilist": "https://anilist.co/anime/20/",
+          "mal": "https://myanimelist.net/anime/20",
+          "kitsu": "https://kitsu.io/anime/20"
+        }
+      },
+      {
+        "id": 1735,
+        "title": "Naruto: Shippuden",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1735-kGfVm0YqCPcu.png",
+        "averageScore": 82,
+        "episodes": 500,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Drama",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 500,
+        "links": {
+          "anilist": "https://anilist.co/anime/1735/",
+          "mal": "https://myanimelist.net/anime/1735",
+          "kitsu": "https://kitsu.io/anime/1735"
+        }
+      },
+      {
+        "id": 199,
+        "title": "Spirited Away",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx199-sWefXJvXkDOb.jpg",
+        "averageScore": 86,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/199/",
+          "mal": "https://myanimelist.net/anime/199",
+          "kitsu": "https://kitsu.io/anime/199"
+        }
+      },
+      {
+        "id": 136192,
+        "title": "Fruits Basket -prelude-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx136192-hxeNRzBHizBZ.jpg",
+        "averageScore": 83,
+        "episodes": 1,
         "status": "FINISHED",
         "genres": [
           "Drama",
+          "Romance"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/136192/",
+          "mal": "https://myanimelist.net/anime/136192",
+          "kitsu": "https://kitsu.io/anime/136192"
+        }
+      },
+      {
+        "id": 101348,
+        "title": "Vinland Saga",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101348-2fhDFPCuMNiz.jpg",
+        "averageScore": 87,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 24,
+        "links": {
+          "anilist": "https://anilist.co/anime/101348/",
+          "mal": "https://myanimelist.net/anime/101348",
+          "kitsu": "https://kitsu.io/anime/101348"
+        }
+      },
+      {
+        "id": 151807,
+        "title": "Solo Leveling",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151807-it355ZgzquUd.png",
+        "averageScore": 82,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/151807/",
+          "mal": "https://myanimelist.net/anime/151807",
+          "kitsu": "https://kitsu.io/anime/151807"
+        }
+      },
+      {
+        "id": 97940,
+        "title": "Black Clover",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97940-fyh8o7gNbha0.png",
+        "averageScore": 79,
+        "episodes": 170,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 170,
+        "links": {
+          "anilist": "https://anilist.co/anime/97940/",
+          "mal": "https://myanimelist.net/anime/97940",
+          "kitsu": "https://kitsu.io/anime/97940"
+        }
+      },
+      {
+        "id": 140439,
+        "title": "Mob Psycho 100 III",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140439-bPKmhe1wNxc9.jpg",
+        "averageScore": 87,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama",
+          "Psychological",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/140439/",
+          "mal": "https://myanimelist.net/anime/140439",
+          "kitsu": "https://kitsu.io/anime/140439"
+        }
+      },
+      {
+        "id": 128893,
+        "title": "Hell’s Paradise",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128893-Gc2t8b8M0mVu.jpg",
+        "averageScore": 80,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Mystery",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/128893/",
+          "mal": "https://myanimelist.net/anime/128893",
+          "kitsu": "https://kitsu.io/anime/128893"
+        }
+      },
+      {
+        "id": 145,
+        "title": "His and Her Circumstances",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx145-vcSv07afgy6c.png",
+        "averageScore": 75,
+        "episodes": 26,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.8,
+        "progress": 26,
+        "links": {
+          "anilist": "https://anilist.co/anime/145/",
+          "mal": "https://myanimelist.net/anime/145",
+          "kitsu": "https://kitsu.io/anime/145"
+        }
+      },
+      {
+        "id": 21507,
+        "title": "Mob Psycho 100",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21507-6YUSbh2m0N1p.jpg",
+        "averageScore": 84,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama",
+          "Psychological",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.8,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/21507/",
+          "mal": "https://myanimelist.net/anime/21507",
+          "kitsu": "https://kitsu.io/anime/21507"
+        }
+      },
+      {
+        "id": 97668,
+        "title": "One-Punch Man Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97668-nC8gQrXVxt7k.png",
+        "averageScore": 74,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Sci-Fi",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.8,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/97668/",
+          "mal": "https://myanimelist.net/anime/97668",
+          "kitsu": "https://kitsu.io/anime/97668"
+        }
+      },
+      {
+        "id": 170942,
+        "title": "Blue Box",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170942-KKcLfQzV57nG.jpg",
+        "averageScore": 81,
+        "episodes": 25,
+        "status": "FINISHED",
+        "genres": [
+          "Romance",
+          "Slice of Life",
+          "Sports"
+        ],
+        "format": "ONA",
+        "country": "JP",
+        "personalScore": 8.8,
+        "progress": 25,
+        "links": {
+          "anilist": "https://anilist.co/anime/170942/",
+          "mal": "https://myanimelist.net/anime/170942",
+          "kitsu": "https://kitsu.io/anime/170942"
+        }
+      },
+      {
+        "id": 142876,
+        "title": "Dr. STONE Special Episode – RYUSUI",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142876-izO35hPP2DZ9.jpg",
+        "averageScore": 81,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "format": "SPECIAL",
+        "country": "JP",
+        "personalScore": 8.8,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/142876/",
+          "mal": "https://myanimelist.net/anime/142876",
+          "kitsu": "https://kitsu.io/anime/142876"
+        }
+      },
+      {
+        "id": 103572,
+        "title": "The Quintessential Quintuplets",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103572-cchriAdH95cQ.png",
+        "averageScore": 75,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.7,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/103572/",
+          "mal": "https://myanimelist.net/anime/103572",
+          "kitsu": "https://kitsu.io/anime/103572"
+        }
+      },
+      {
+        "id": 101338,
+        "title": "Mob Psycho 100 II",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101338-rokVscjRYzdP.jpg",
+        "averageScore": 87,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama",
+          "Psychological",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.7,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/101338/",
+          "mal": "https://myanimelist.net/anime/101338",
+          "kitsu": "https://kitsu.io/anime/101338"
+        }
+      },
+      {
+        "id": 142329,
+        "title": "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142329-kET1PIXJv2eW.jpg",
+        "averageScore": 86,
+        "episodes": 11,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.6,
+        "progress": 11,
+        "links": {
+          "anilist": "https://anilist.co/anime/142329/",
+          "mal": "https://myanimelist.net/anime/142329",
+          "kitsu": "https://kitsu.io/anime/142329"
+        }
+      },
+      {
+        "id": 142838,
+        "title": "SPY x FAMILY Cour 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142838-26JrqcFU1ljB.jpg",
+        "averageScore": 82,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.6,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/142838/",
+          "mal": "https://myanimelist.net/anime/142838",
+          "kitsu": "https://kitsu.io/anime/142838"
+        }
+      },
+      {
+        "id": 21258,
+        "title": "Snow White with the Red Hair Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21258-6UnmYMTMH0f7.jpg",
+        "averageScore": 78,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.5,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/21258/",
+          "mal": "https://myanimelist.net/anime/21258",
+          "kitsu": "https://kitsu.io/anime/21258"
+        }
+      },
+      {
+        "id": 116267,
+        "title": "TONIKAWA: Over The Moon For You",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx116267-Eo1biPBTlL4i.jpg",
+        "averageScore": 77,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.5,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/116267/",
+          "mal": "https://myanimelist.net/anime/116267",
+          "kitsu": "https://kitsu.io/anime/116267"
+        }
+      },
+      {
+        "id": 108465,
+        "title": "Mushoku Tensei: Jobless Reincarnation",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108465-1ANspF1EWyFx.jpg",
+        "averageScore": 82,
+        "episodes": 11,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Ecchi",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.5,
+        "progress": 11,
+        "links": {
+          "anilist": "https://anilist.co/anime/108465/",
+          "mal": "https://myanimelist.net/anime/108465",
+          "kitsu": "https://kitsu.io/anime/108465"
+        }
+      },
+      {
+        "id": 185660,
+        "title": "DAN DA DAN Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185660-uB8RUMBGovGr.jpg",
+        "averageScore": 84,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Sci-Fi",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.5,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/185660/",
+          "mal": "https://myanimelist.net/anime/185660",
+          "kitsu": "https://kitsu.io/anime/185660"
+        }
+      },
+      {
+        "id": 14741,
+        "title": "Love, Chunibyo & Other Delusions",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx14741-CGXEIeUe2roA.jpg",
+        "averageScore": 75,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.4,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/14741/",
+          "mal": "https://myanimelist.net/anime/14741",
+          "kitsu": "https://kitsu.io/anime/14741"
+        }
+      },
+      {
+        "id": 20605,
+        "title": "Tokyo Ghoul",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b20605-k665mVkSug8D.jpg",
+        "averageScore": 75,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Horror",
           "Mystery",
           "Psychological",
           "Supernatural"
         ],
         "format": "TV",
         "country": "JP",
-        "personalScore": 9,
-        "progress": 11,
+        "personalScore": 8.3,
+        "progress": 12,
         "links": {
-          "anilist": "https://anilist.co/anime/150672/",
-          "mal": "https://myanimelist.net/anime/150672",
-          "kitsu": "https://kitsu.io/anime/150672"
+          "anilist": "https://anilist.co/anime/20605/",
+          "mal": "https://myanimelist.net/anime/20605",
+          "kitsu": "https://kitsu.io/anime/20605"
+        }
+      },
+      {
+        "id": 153288,
+        "title": "Kaiju No. 8",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx153288-25FBfFJzEQ5O.jpg",
+        "averageScore": 82,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.3,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/153288/",
+          "mal": "https://myanimelist.net/anime/153288",
+          "kitsu": "https://kitsu.io/anime/153288"
+        }
+      },
+      {
+        "id": 14713,
+        "title": "Kamisama Kiss",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx14713-RyZ7bA7CdvGw.jpg",
+        "averageScore": 80,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.2,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/14713/",
+          "mal": "https://myanimelist.net/anime/14713",
+          "kitsu": "https://kitsu.io/anime/14713"
+        }
+      },
+      {
+        "id": 20801,
+        "title": "Kamisama Kiss◎",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20801-2wtvmLpaM8hY.jpg",
+        "averageScore": 81,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.2,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/20801/",
+          "mal": "https://myanimelist.net/anime/20801",
+          "kitsu": "https://kitsu.io/anime/20801"
         }
       },
       {
@@ -6605,29 +7304,6 @@
         }
       },
       {
-        "id": 6547,
-        "title": "Angel Beats!",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6547-SYexAn5aFyss.png",
-        "averageScore": 77,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Drama",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 13,
-        "links": {
-          "anilist": "https://anilist.co/anime/6547/",
-          "mal": "https://myanimelist.net/anime/6547",
-          "kitsu": "https://kitsu.io/anime/6547"
-        }
-      },
-      {
         "id": 100166,
         "title": "My Hero Academia Season 3",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100166-jUCZYbzn2XLw.jpg",
@@ -6648,6 +7324,27 @@
           "anilist": "https://anilist.co/anime/100166/",
           "mal": "https://myanimelist.net/anime/100166",
           "kitsu": "https://kitsu.io/anime/100166"
+        }
+      },
+      {
+        "id": 139630,
+        "title": "My Hero Academia Season 6",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx139630-3v4gxWtNZxLV.jpg",
+        "averageScore": 82,
+        "episodes": 25,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 25,
+        "links": {
+          "anilist": "https://anilist.co/anime/139630/",
+          "mal": "https://myanimelist.net/anime/139630",
+          "kitsu": "https://kitsu.io/anime/139630"
         }
       },
       {
@@ -6694,53 +7391,6 @@
           "anilist": "https://anilist.co/anime/18671/",
           "mal": "https://myanimelist.net/anime/18671",
           "kitsu": "https://kitsu.io/anime/18671"
-        }
-      },
-      {
-        "id": 2167,
-        "title": "Clannad",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2167-pSDBcyc0vjej.jpg",
-        "averageScore": 77,
-        "episodes": 23,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Romance",
-          "Slice of Life",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 23,
-        "links": {
-          "anilist": "https://anilist.co/anime/2167/",
-          "mal": "https://myanimelist.net/anime/2167",
-          "kitsu": "https://kitsu.io/anime/2167"
-        }
-      },
-      {
-        "id": 1535,
-        "title": "Death Note",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1535-kUgkcrfOrkUM.jpg",
-        "averageScore": 84,
-        "episodes": 37,
-        "status": "FINISHED",
-        "genres": [
-          "Mystery",
-          "Psychological",
-          "Supernatural",
-          "Thriller"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 37,
-        "links": {
-          "anilist": "https://anilist.co/anime/1535/",
-          "mal": "https://myanimelist.net/anime/1535",
-          "kitsu": "https://kitsu.io/anime/1535"
         }
       },
       {
@@ -6836,29 +7486,6 @@
         }
       },
       {
-        "id": 14713,
-        "title": "Kamisama Kiss",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx14713-RyZ7bA7CdvGw.jpg",
-        "averageScore": 80,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Fantasy",
-          "Romance",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 13,
-        "links": {
-          "anilist": "https://anilist.co/anime/14713/",
-          "mal": "https://myanimelist.net/anime/14713",
-          "kitsu": "https://kitsu.io/anime/14713"
-        }
-      },
-      {
         "id": 18661,
         "title": "Kamisama Hajimemashita OVA",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx18661-HkN94pt43WUQ.jpg",
@@ -6928,29 +7555,6 @@
         }
       },
       {
-        "id": 20801,
-        "title": "Kamisama Kiss◎",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20801-2wtvmLpaM8hY.jpg",
-        "averageScore": 81,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Fantasy",
-          "Romance",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/20801/",
-          "mal": "https://myanimelist.net/anime/20801",
-          "kitsu": "https://kitsu.io/anime/20801"
-        }
-      },
-      {
         "id": 18679,
         "title": "Kill la Kill",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b18679-lbkq7iYESoFW.png",
@@ -6994,29 +7598,6 @@
           "anilist": "https://anilist.co/anime/101922/",
           "mal": "https://myanimelist.net/anime/101922",
           "kitsu": "https://kitsu.io/anime/101922"
-        }
-      },
-      {
-        "id": 142329,
-        "title": "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142329-kET1PIXJv2eW.jpg",
-        "averageScore": 86,
-        "episodes": 11,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Fantasy",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 11,
-        "links": {
-          "anilist": "https://anilist.co/anime/142329/",
-          "mal": "https://myanimelist.net/anime/142329",
-          "kitsu": "https://kitsu.io/anime/142329"
         }
       },
       {
@@ -7084,31 +7665,6 @@
           "anilist": "https://anilist.co/anime/142984/",
           "mal": "https://myanimelist.net/anime/142984",
           "kitsu": "https://kitsu.io/anime/142984"
-        }
-      },
-      {
-        "id": 21507,
-        "title": "Mob Psycho 100",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21507-6YUSbh2m0N1p.jpg",
-        "averageScore": 84,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Drama",
-          "Psychological",
-          "Slice of Life",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/21507/",
-          "mal": "https://myanimelist.net/anime/21507",
-          "kitsu": "https://kitsu.io/anime/21507"
         }
       },
       {
@@ -7245,49 +7801,26 @@
         }
       },
       {
-        "id": 199,
-        "title": "Spirited Away",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx199-sWefXJvXkDOb.jpg",
-        "averageScore": 86,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Fantasy",
-          "Supernatural"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/199/",
-          "mal": "https://myanimelist.net/anime/199",
-          "kitsu": "https://kitsu.io/anime/199"
-        }
-      },
-      {
-        "id": 142838,
-        "title": "SPY x FAMILY Cour 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142838-26JrqcFU1ljB.jpg",
-        "averageScore": 82,
-        "episodes": 13,
+        "id": 11757,
+        "title": "Sword Art Online",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11757-SxYDUzdr9rh2.jpg",
+        "averageScore": 69,
+        "episodes": 25,
         "status": "FINISHED",
         "genres": [
           "Action",
-          "Comedy",
-          "Slice of Life",
-          "Supernatural"
+          "Adventure",
+          "Fantasy",
+          "Romance"
         ],
         "format": "TV",
         "country": "JP",
         "personalScore": 8,
-        "progress": 13,
+        "progress": 25,
         "links": {
-          "anilist": "https://anilist.co/anime/142838/",
-          "mal": "https://myanimelist.net/anime/142838",
-          "kitsu": "https://kitsu.io/anime/142838"
+          "anilist": "https://anilist.co/anime/11757/",
+          "mal": "https://myanimelist.net/anime/11757",
+          "kitsu": "https://kitsu.io/anime/11757"
         }
       },
       {
@@ -7312,10 +7845,10 @@
         }
       },
       {
-        "id": 116267,
-        "title": "TONIKAWA: Over The Moon For You",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx116267-Eo1biPBTlL4i.jpg",
-        "averageScore": 77,
+        "id": 141208,
+        "title": "TONIKAWA: Over The Moon For You Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141208-On0qHKxo6P5t.png",
+        "averageScore": 76,
         "episodes": 12,
         "status": "FINISHED",
         "genres": [
@@ -7328,9 +7861,9 @@
         "personalScore": 8,
         "progress": 12,
         "links": {
-          "anilist": "https://anilist.co/anime/116267/",
-          "mal": "https://myanimelist.net/anime/116267",
-          "kitsu": "https://kitsu.io/anime/116267"
+          "anilist": "https://anilist.co/anime/141208/",
+          "mal": "https://myanimelist.net/anime/141208",
+          "kitsu": "https://kitsu.io/anime/141208"
         }
       },
       {
@@ -7353,28 +7886,6 @@
           "anilist": "https://anilist.co/anime/127371/",
           "mal": "https://myanimelist.net/anime/127371",
           "kitsu": "https://kitsu.io/anime/127371"
-        }
-      },
-      {
-        "id": 98202,
-        "title": "Tsukigakirei",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98202-H6RtsIMZPALF.png",
-        "averageScore": 78,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/98202/",
-          "mal": "https://myanimelist.net/anime/98202",
-          "kitsu": "https://kitsu.io/anime/98202"
         }
       },
       {
@@ -7538,6 +8049,28 @@
         }
       },
       {
+        "id": 163132,
+        "title": "Horimiya: The Missing Pieces",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163132-C220CO5UrTxY.jpg",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/163132/",
+          "mal": "https://myanimelist.net/anime/163132",
+          "kitsu": "https://kitsu.io/anime/163132"
+        }
+      },
+      {
         "id": 142877,
         "title": "Rurouni Kenshin (2023)",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142877-FrXXLsgXYQAp.jpg",
@@ -7557,29 +8090,6 @@
           "anilist": "https://anilist.co/anime/142877/",
           "mal": "https://myanimelist.net/anime/142877",
           "kitsu": "https://kitsu.io/anime/142877"
-        }
-      },
-      {
-        "id": 512,
-        "title": "Kiki's Delivery Service",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx512-UwP8X4BR8YoM.png",
-        "averageScore": 81,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Fantasy",
-          "Slice of Life"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/512/",
-          "mal": "https://myanimelist.net/anime/512",
-          "kitsu": "https://kitsu.io/anime/512"
         }
       },
       {
@@ -7628,27 +8138,6 @@
         }
       },
       {
-        "id": 136192,
-        "title": "Fruits Basket -prelude-",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx136192-hxeNRzBHizBZ.jpg",
-        "averageScore": 83,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Romance"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/136192/",
-          "mal": "https://myanimelist.net/anime/136192",
-          "kitsu": "https://kitsu.io/anime/136192"
-        }
-      },
-      {
         "id": 137822,
         "title": "BLUE LOCK",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx137822-U8naszP96vzC.png",
@@ -7668,28 +8157,6 @@
           "anilist": "https://anilist.co/anime/137822/",
           "mal": "https://myanimelist.net/anime/137822",
           "kitsu": "https://kitsu.io/anime/137822"
-        }
-      },
-      {
-        "id": 101348,
-        "title": "Vinland Saga",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101348-2fhDFPCuMNiz.jpg",
-        "averageScore": 87,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Drama"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 24,
-        "links": {
-          "anilist": "https://anilist.co/anime/101348/",
-          "mal": "https://myanimelist.net/anime/101348",
-          "kitsu": "https://kitsu.io/anime/101348"
         }
       },
       {
@@ -7762,51 +8229,6 @@
         }
       },
       {
-        "id": 21127,
-        "title": "Steins;Gate 0",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21127-7ARWZkDXKiiD.jpg",
-        "averageScore": 84,
-        "episodes": 23,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Psychological",
-          "Sci-Fi",
-          "Thriller"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 23,
-        "links": {
-          "anilist": "https://anilist.co/anime/21127/",
-          "mal": "https://myanimelist.net/anime/21127",
-          "kitsu": "https://kitsu.io/anime/21127"
-        }
-      },
-      {
-        "id": 151807,
-        "title": "Solo Leveling",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151807-it355ZgzquUd.png",
-        "averageScore": 82,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/151807/",
-          "mal": "https://myanimelist.net/anime/151807",
-          "kitsu": "https://kitsu.io/anime/151807"
-        }
-      },
-      {
         "id": 163139,
         "title": "My Hero Academia Season 7",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163139-JchZhUFlNTWU.jpg",
@@ -7848,29 +8270,6 @@
           "anilist": "https://anilist.co/anime/99634/",
           "mal": "https://myanimelist.net/anime/99634",
           "kitsu": "https://kitsu.io/anime/99634"
-        }
-      },
-      {
-        "id": 110277,
-        "title": "Attack on Titan Final Season",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx110277-sKUNXAsWMNFw.jpg",
-        "averageScore": 86,
-        "episodes": 16,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Fantasy",
-          "Mystery"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 16,
-        "links": {
-          "anilist": "https://anilist.co/anime/110277/",
-          "mal": "https://myanimelist.net/anime/110277",
-          "kitsu": "https://kitsu.io/anime/110277"
         }
       },
       {
@@ -7986,47 +8385,26 @@
         }
       },
       {
-        "id": 97940,
-        "title": "Black Clover",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97940-fyh8o7gNbha0.png",
-        "averageScore": 79,
-        "episodes": 170,
+        "id": 131520,
+        "title": "The Quintessential Quintuplets Movie",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131520-89Qfo8JnGHI3.png",
+        "averageScore": 78,
+        "episodes": 1,
         "status": "FINISHED",
         "genres": [
-          "Action",
-          "Adventure",
           "Comedy",
-          "Fantasy"
+          "Drama",
+          "Romance",
+          "Slice of Life"
         ],
-        "format": "TV",
+        "format": "MOVIE",
         "country": "JP",
         "personalScore": 8,
-        "progress": 170,
+        "progress": 1,
         "links": {
-          "anilist": "https://anilist.co/anime/97940/",
-          "mal": "https://myanimelist.net/anime/97940",
-          "kitsu": "https://kitsu.io/anime/97940"
-        }
-      },
-      {
-        "id": 153288,
-        "title": "Kaiju No. 8",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx153288-25FBfFJzEQ5O.jpg",
-        "averageScore": 82,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Sci-Fi"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/153288/",
-          "mal": "https://myanimelist.net/anime/153288",
-          "kitsu": "https://kitsu.io/anime/153288"
+          "anilist": "https://anilist.co/anime/131520/",
+          "mal": "https://myanimelist.net/anime/131520",
+          "kitsu": "https://kitsu.io/anime/131520"
         }
       },
       {
@@ -8051,56 +8429,6 @@
         }
       },
       {
-        "id": 101338,
-        "title": "Mob Psycho 100 II",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101338-rokVscjRYzdP.jpg",
-        "averageScore": 87,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Drama",
-          "Psychological",
-          "Slice of Life",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 13,
-        "links": {
-          "anilist": "https://anilist.co/anime/101338/",
-          "mal": "https://myanimelist.net/anime/101338",
-          "kitsu": "https://kitsu.io/anime/101338"
-        }
-      },
-      {
-        "id": 140439,
-        "title": "Mob Psycho 100 III",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140439-bPKmhe1wNxc9.jpg",
-        "averageScore": 87,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Drama",
-          "Psychological",
-          "Slice of Life",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/140439/",
-          "mal": "https://myanimelist.net/anime/140439",
-          "kitsu": "https://kitsu.io/anime/140439"
-        }
-      },
-      {
         "id": 158927,
         "title": "SPY x FAMILY Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b158927-lfO85WVguYgc.png",
@@ -8121,51 +8449,6 @@
           "anilist": "https://anilist.co/anime/158927/",
           "mal": "https://myanimelist.net/anime/158927",
           "kitsu": "https://kitsu.io/anime/158927"
-        }
-      },
-      {
-        "id": 108465,
-        "title": "Mushoku Tensei: Jobless Reincarnation",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108465-1ANspF1EWyFx.jpg",
-        "averageScore": 82,
-        "episodes": 11,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Ecchi",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 11,
-        "links": {
-          "anilist": "https://anilist.co/anime/108465/",
-          "mal": "https://myanimelist.net/anime/108465",
-          "kitsu": "https://kitsu.io/anime/108465"
-        }
-      },
-      {
-        "id": 170942,
-        "title": "Blue Box",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170942-KKcLfQzV57nG.jpg",
-        "averageScore": 81,
-        "episodes": 25,
-        "status": "FINISHED",
-        "genres": [
-          "Romance",
-          "Slice of Life",
-          "Sports"
-        ],
-        "format": "ONA",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 25,
-        "links": {
-          "anilist": "https://anilist.co/anime/170942/",
-          "mal": "https://myanimelist.net/anime/170942",
-          "kitsu": "https://kitsu.io/anime/170942"
         }
       },
       {
@@ -8320,28 +8603,26 @@
         }
       },
       {
-        "id": 185660,
-        "title": "DAN DA DAN Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185660-uB8RUMBGovGr.jpg",
-        "averageScore": 84,
-        "episodes": 12,
+        "id": 142770,
+        "title": "Suzume",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142770-dDaDIRnsv5jN.jpg",
+        "averageScore": 82,
+        "episodes": 1,
         "status": "FINISHED",
         "genres": [
-          "Action",
-          "Comedy",
-          "Drama",
-          "Romance",
-          "Sci-Fi",
+          "Adventure",
+          "Fantasy",
+          "Mystery",
           "Supernatural"
         ],
-        "format": "TV",
+        "format": "MOVIE",
         "country": "JP",
         "personalScore": 8,
-        "progress": 12,
+        "progress": 1,
         "links": {
-          "anilist": "https://anilist.co/anime/185660/",
-          "mal": "https://myanimelist.net/anime/185660",
-          "kitsu": "https://kitsu.io/anime/185660"
+          "anilist": "https://anilist.co/anime/142770/",
+          "mal": "https://myanimelist.net/anime/142770",
+          "kitsu": "https://kitsu.io/anime/142770"
         }
       },
       {
@@ -8384,29 +8665,6 @@
           "anilist": "https://anilist.co/anime/184237/",
           "mal": "https://myanimelist.net/anime/184237",
           "kitsu": "https://kitsu.io/anime/184237"
-        }
-      },
-      {
-        "id": 128893,
-        "title": "Hell’s Paradise",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128893-Gc2t8b8M0mVu.jpg",
-        "averageScore": 80,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Mystery",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 13,
-        "links": {
-          "anilist": "https://anilist.co/anime/128893/",
-          "mal": "https://myanimelist.net/anime/128893",
-          "kitsu": "https://kitsu.io/anime/128893"
         }
       },
       {
@@ -8474,6 +8732,52 @@
           "anilist": "https://anilist.co/anime/141534/",
           "mal": "https://myanimelist.net/anime/141534",
           "kitsu": "https://kitsu.io/anime/141534"
+        }
+      },
+      {
+        "id": 131518,
+        "title": "Dr. STONE New World",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131518-RU7RoUmGb2sP.jpg",
+        "averageScore": 81,
+        "episodes": 11,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 11,
+        "links": {
+          "anilist": "https://anilist.co/anime/131518/",
+          "mal": "https://myanimelist.net/anime/131518",
+          "kitsu": "https://kitsu.io/anime/131518"
+        }
+      },
+      {
+        "id": 162670,
+        "title": "Dr. STONE New World Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162670-07XrFq2hreTx.jpg",
+        "averageScore": 83,
+        "episodes": 11,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 11,
+        "links": {
+          "anilist": "https://anilist.co/anime/162670/",
+          "mal": "https://myanimelist.net/anime/162670",
+          "kitsu": "https://kitsu.io/anime/162670"
         }
       },
       {
@@ -8728,30 +9032,6 @@
         }
       },
       {
-        "id": 138565,
-        "title": "To Your Eternity Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx138565-JzvDqH84ILzi.png",
-        "averageScore": 79,
-        "episodes": 20,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Fantasy",
-          "Psychological",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 20,
-        "links": {
-          "anilist": "https://anilist.co/anime/138565/",
-          "mal": "https://myanimelist.net/anime/138565",
-          "kitsu": "https://kitsu.io/anime/138565"
-        }
-      },
-      {
         "id": 98448,
         "title": "Kino's Journey -the Beautiful World- the Animated Series",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx98448-OdfxrjAhkYvp.jpg",
@@ -8776,47 +9056,49 @@
         }
       },
       {
-        "id": 139630,
-        "title": "My Hero Academia Season 6",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx139630-3v4gxWtNZxLV.jpg",
-        "averageScore": 82,
-        "episodes": 25,
+        "id": 138565,
+        "title": "To Your Eternity Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx138565-JzvDqH84ILzi.png",
+        "averageScore": 79,
+        "episodes": 20,
         "status": "FINISHED",
         "genres": [
-          "Action",
-          "Adventure"
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Psychological",
+          "Supernatural"
         ],
         "format": "TV",
         "country": "JP",
-        "personalScore": 7.6,
-        "progress": 25,
+        "personalScore": 7.8,
+        "progress": 20,
         "links": {
-          "anilist": "https://anilist.co/anime/139630/",
-          "mal": "https://myanimelist.net/anime/139630",
-          "kitsu": "https://kitsu.io/anime/139630"
+          "anilist": "https://anilist.co/anime/138565/",
+          "mal": "https://myanimelist.net/anime/138565",
+          "kitsu": "https://kitsu.io/anime/138565"
         }
       },
       {
-        "id": 103572,
-        "title": "The Quintessential Quintuplets",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103572-cchriAdH95cQ.png",
-        "averageScore": 75,
+        "id": 161964,
+        "title": "The Eminence in Shadow Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161964-JpkEbHI8ivaP.jpg",
+        "averageScore": 82,
         "episodes": 12,
         "status": "FINISHED",
         "genres": [
+          "Action",
           "Comedy",
-          "Drama",
-          "Romance",
-          "Slice of Life"
+          "Fantasy"
         ],
         "format": "TV",
         "country": "JP",
-        "personalScore": 7,
+        "personalScore": 7.7,
         "progress": 12,
         "links": {
-          "anilist": "https://anilist.co/anime/103572/",
-          "mal": "https://myanimelist.net/anime/103572",
-          "kitsu": "https://kitsu.io/anime/103572"
+          "anilist": "https://anilist.co/anime/161964/",
+          "mal": "https://myanimelist.net/anime/161964",
+          "kitsu": "https://kitsu.io/anime/161964"
         }
       },
       {
@@ -8930,29 +9212,6 @@
           "anilist": "https://anilist.co/anime/126659/",
           "mal": "https://myanimelist.net/anime/126659",
           "kitsu": "https://kitsu.io/anime/126659"
-        }
-      },
-      {
-        "id": 14741,
-        "title": "Love, Chunibyo & Other Delusions",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx14741-CGXEIeUe2roA.jpg",
-        "averageScore": 75,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 7,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/14741/",
-          "mal": "https://myanimelist.net/anime/14741",
-          "kitsu": "https://kitsu.io/anime/14741"
         }
       },
       {
@@ -9138,31 +9397,6 @@
         }
       },
       {
-        "id": 129874,
-        "title": "Demon Slayer: Kimetsu no Yaiba Mugen Train Arc",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx129874-g6ZKXB94Hui1.jpg",
-        "averageScore": 82,
-        "episodes": 7,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Drama",
-          "Fantasy",
-          "Mystery",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 7,
-        "progress": 7,
-        "links": {
-          "anilist": "https://anilist.co/anime/129874/",
-          "mal": "https://myanimelist.net/anime/129874",
-          "kitsu": "https://kitsu.io/anime/129874"
-        }
-      },
-      {
         "id": 10536,
         "title": "Kimi ni Todoke 2nd Season Specials",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10536-OWWiu3VOlJn9.jpg",
@@ -9276,28 +9510,72 @@
         }
       },
       {
-        "id": 1735,
-        "title": "Naruto: Shippuden",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1735-kGfVm0YqCPcu.png",
-        "averageScore": 82,
-        "episodes": 500,
+        "id": 442,
+        "title": "Naruto the Movie: Ninja Clash in the Land of Snow",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx442-VJbmIVTgmne3.png",
+        "averageScore": 67,
+        "episodes": 1,
         "status": "FINISHED",
         "genres": [
           "Action",
           "Adventure",
           "Comedy",
           "Drama",
+          "Supernatural"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 7,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/442/",
+          "mal": "https://myanimelist.net/anime/442",
+          "kitsu": "https://kitsu.io/anime/442"
+        }
+      },
+      {
+        "id": 936,
+        "title": "Naruto the Movie: Legend of the Stone of Gelel",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx936-P1ogcIs07UR8.jpg",
+        "averageScore": 65,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Drama",
           "Fantasy",
           "Supernatural"
         ],
-        "format": "TV",
+        "format": "MOVIE",
         "country": "JP",
         "personalScore": 7,
-        "progress": 500,
+        "progress": 1,
         "links": {
-          "anilist": "https://anilist.co/anime/1735/",
-          "mal": "https://myanimelist.net/anime/1735",
-          "kitsu": "https://kitsu.io/anime/1735"
+          "anilist": "https://anilist.co/anime/936/",
+          "mal": "https://myanimelist.net/anime/936",
+          "kitsu": "https://kitsu.io/anime/936"
+        }
+      },
+      {
+        "id": 2144,
+        "title": "Naruto the Movie: Guardians of the Crescent Moon Kingdom",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2144-9FITEzdGnlWC.jpg",
+        "averageScore": 66,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 7,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/2144/",
+          "mal": "https://myanimelist.net/anime/2144",
+          "kitsu": "https://kitsu.io/anime/2144"
         }
       },
       {
@@ -9458,120 +9736,6 @@
         }
       },
       {
-        "id": 11757,
-        "title": "Sword Art Online",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11757-SxYDUzdr9rh2.jpg",
-        "averageScore": 69,
-        "episodes": 25,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Fantasy",
-          "Romance"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 7,
-        "progress": 25,
-        "links": {
-          "anilist": "https://anilist.co/anime/11757/",
-          "mal": "https://myanimelist.net/anime/11757",
-          "kitsu": "https://kitsu.io/anime/11757"
-        }
-      },
-      {
-        "id": 20605,
-        "title": "Tokyo Ghoul",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b20605-k665mVkSug8D.jpg",
-        "averageScore": 75,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Horror",
-          "Mystery",
-          "Psychological",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 7,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/20605/",
-          "mal": "https://myanimelist.net/anime/20605",
-          "kitsu": "https://kitsu.io/anime/20605"
-        }
-      },
-      {
-        "id": 141208,
-        "title": "TONIKAWA: Over The Moon For You Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141208-On0qHKxo6P5t.png",
-        "averageScore": 76,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 7,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/141208/",
-          "mal": "https://myanimelist.net/anime/141208",
-          "kitsu": "https://kitsu.io/anime/141208"
-        }
-      },
-      {
-        "id": 100305,
-        "title": "Tsuki ga Kirei Special",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100305-CRu6RZ5eINHP.jpg",
-        "averageScore": 70,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "SPECIAL",
-        "country": "JP",
-        "personalScore": 7,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/100305/",
-          "mal": "https://myanimelist.net/anime/100305",
-          "kitsu": "https://kitsu.io/anime/100305"
-        }
-      },
-      {
-        "id": 163132,
-        "title": "Horimiya: The Missing Pieces",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163132-C220CO5UrTxY.jpg",
-        "averageScore": 81,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 7,
-        "progress": 13,
-        "links": {
-          "anilist": "https://anilist.co/anime/163132/",
-          "mal": "https://myanimelist.net/anime/163132",
-          "kitsu": "https://kitsu.io/anime/163132"
-        }
-      },
-      {
         "id": 147103,
         "title": "My Happy Marriage",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx147103-Om2LOXlhHNAe.png",
@@ -9591,29 +9755,6 @@
           "anilist": "https://anilist.co/anime/147103/",
           "mal": "https://myanimelist.net/anime/147103",
           "kitsu": "https://kitsu.io/anime/147103"
-        }
-      },
-      {
-        "id": 97668,
-        "title": "One-Punch Man Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97668-nC8gQrXVxt7k.png",
-        "averageScore": 74,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Sci-Fi",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 7,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/97668/",
-          "mal": "https://myanimelist.net/anime/97668",
-          "kitsu": "https://kitsu.io/anime/97668"
         }
       },
       {
@@ -9708,29 +9849,6 @@
           "anilist": "https://anilist.co/anime/154965/",
           "mal": "https://myanimelist.net/anime/154965",
           "kitsu": "https://kitsu.io/anime/154965"
-        }
-      },
-      {
-        "id": 131520,
-        "title": "The Quintessential Quintuplets Movie",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131520-89Qfo8JnGHI3.png",
-        "averageScore": 78,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 7,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/131520/",
-          "mal": "https://myanimelist.net/anime/131520",
-          "kitsu": "https://kitsu.io/anime/131520"
         }
       },
       {
@@ -9934,29 +10052,6 @@
           "anilist": "https://anilist.co/anime/178680/",
           "mal": "https://myanimelist.net/anime/178680",
           "kitsu": "https://kitsu.io/anime/178680"
-        }
-      },
-      {
-        "id": 142770,
-        "title": "Suzume",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142770-dDaDIRnsv5jN.jpg",
-        "averageScore": 82,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Fantasy",
-          "Mystery",
-          "Supernatural"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 7,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/142770/",
-          "mal": "https://myanimelist.net/anime/142770",
-          "kitsu": "https://kitsu.io/anime/142770"
         }
       },
       {
@@ -10394,28 +10489,6 @@
         }
       },
       {
-        "id": 161964,
-        "title": "The Eminence in Shadow Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161964-JpkEbHI8ivaP.jpg",
-        "averageScore": 82,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 7,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/161964/",
-          "mal": "https://myanimelist.net/anime/161964",
-          "kitsu": "https://kitsu.io/anime/161964"
-        }
-      },
-      {
         "id": 156067,
         "title": "Campfire Cooking in Another World with my Absurd Skill",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx156067-Jovklss4VWIx.jpg",
@@ -10504,6 +10577,31 @@
           "anilist": "https://anilist.co/anime/139498/",
           "mal": "https://myanimelist.net/anime/139498",
           "kitsu": "https://kitsu.io/anime/139498"
+        }
+      },
+      {
+        "id": 20850,
+        "title": "Tokyo Ghoul √A",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20850-glDf9EMKeCwe.jpg",
+        "averageScore": 66,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Horror",
+          "Mystery",
+          "Psychological",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 6.9,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/20850/",
+          "mal": "https://myanimelist.net/anime/20850",
+          "kitsu": "https://kitsu.io/anime/20850"
         }
       },
       {
@@ -10705,29 +10803,6 @@
         }
       },
       {
-        "id": 145,
-        "title": "His and Her Circumstances",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx145-vcSv07afgy6c.png",
-        "averageScore": 75,
-        "episodes": 26,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 6,
-        "progress": 26,
-        "links": {
-          "anilist": "https://anilist.co/anime/145/",
-          "mal": "https://myanimelist.net/anime/145",
-          "kitsu": "https://kitsu.io/anime/145"
-        }
-      },
-      {
         "id": 127911,
         "title": "Shikimori's Not Just a Cutie",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127911-qfJDzUt0qCna.jpg",
@@ -10835,100 +10910,6 @@
           "anilist": "https://anilist.co/anime/105989/",
           "mal": "https://myanimelist.net/anime/105989",
           "kitsu": "https://kitsu.io/anime/105989"
-        }
-      },
-      {
-        "id": 20,
-        "title": "Naruto",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20-dE6UHbFFg1A5.jpg",
-        "averageScore": 80,
-        "episodes": 220,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Drama",
-          "Fantasy",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 6,
-        "progress": 220,
-        "links": {
-          "anilist": "https://anilist.co/anime/20/",
-          "mal": "https://myanimelist.net/anime/20",
-          "kitsu": "https://kitsu.io/anime/20"
-        }
-      },
-      {
-        "id": 442,
-        "title": "Naruto the Movie: Ninja Clash in the Land of Snow",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx442-VJbmIVTgmne3.png",
-        "averageScore": 67,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Drama",
-          "Supernatural"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 6,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/442/",
-          "mal": "https://myanimelist.net/anime/442",
-          "kitsu": "https://kitsu.io/anime/442"
-        }
-      },
-      {
-        "id": 936,
-        "title": "Naruto the Movie: Legend of the Stone of Gelel",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx936-P1ogcIs07UR8.jpg",
-        "averageScore": 65,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Comedy",
-          "Drama",
-          "Fantasy",
-          "Supernatural"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 6,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/936/",
-          "mal": "https://myanimelist.net/anime/936",
-          "kitsu": "https://kitsu.io/anime/936"
-        }
-      },
-      {
-        "id": 2144,
-        "title": "Naruto the Movie: Guardians of the Crescent Moon Kingdom",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2144-9FITEzdGnlWC.jpg",
-        "averageScore": 66,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 6,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/2144/",
-          "mal": "https://myanimelist.net/anime/2144",
-          "kitsu": "https://kitsu.io/anime/2144"
         }
       },
       {
@@ -11045,6 +11026,50 @@
         }
       },
       {
+        "id": 98202,
+        "title": "Tsukigakirei",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98202-H6RtsIMZPALF.png",
+        "averageScore": 78,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 6,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/98202/",
+          "mal": "https://myanimelist.net/anime/98202",
+          "kitsu": "https://kitsu.io/anime/98202"
+        }
+      },
+      {
+        "id": 100305,
+        "title": "Tsuki ga Kirei Special",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100305-CRu6RZ5eINHP.jpg",
+        "averageScore": 70,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "SPECIAL",
+        "country": "JP",
+        "personalScore": 6,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/100305/",
+          "mal": "https://myanimelist.net/anime/100305",
+          "kitsu": "https://kitsu.io/anime/100305"
+        }
+      },
+      {
         "id": 98291,
         "title": "Tsuredure Children",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98291-LY6txxZTX8We.jpg",
@@ -11152,31 +11177,6 @@
           "anilist": "https://anilist.co/anime/100240/",
           "mal": "https://myanimelist.net/anime/100240",
           "kitsu": "https://kitsu.io/anime/100240"
-        }
-      },
-      {
-        "id": 20850,
-        "title": "Tokyo Ghoul √A",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20850-glDf9EMKeCwe.jpg",
-        "averageScore": 66,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Horror",
-          "Mystery",
-          "Psychological",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 6,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/20850/",
-          "mal": "https://myanimelist.net/anime/20850",
-          "kitsu": "https://kitsu.io/anime/20850"
         }
       },
       {
@@ -13388,11 +13388,34 @@
         "format": "ONA",
         "country": "JP",
         "personalScore": 10,
-        "progress": 4,
+        "progress": 5,
         "links": {
           "anilist": "https://anilist.co/anime/185407/",
           "mal": "https://myanimelist.net/anime/185407",
           "kitsu": "https://kitsu.io/anime/185407"
+        }
+      },
+      {
+        "id": 132405,
+        "title": "My Dress-Up Darling",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx132405-qP7FQYGmNI3d.jpg",
+        "averageScore": 80,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Ecchi",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.5,
+        "progress": 8,
+        "links": {
+          "anilist": "https://anilist.co/anime/132405/",
+          "mal": "https://myanimelist.net/anime/132405",
+          "kitsu": "https://kitsu.io/anime/132405"
         }
       },
       {
@@ -13459,29 +13482,6 @@
           "anilist": "https://anilist.co/anime/161645/",
           "mal": "https://myanimelist.net/anime/161645",
           "kitsu": "https://kitsu.io/anime/161645"
-        }
-      },
-      {
-        "id": 132405,
-        "title": "My Dress-Up Darling",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx132405-qP7FQYGmNI3d.jpg",
-        "averageScore": 80,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Ecchi",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 8,
-        "links": {
-          "anilist": "https://anilist.co/anime/132405/",
-          "mal": "https://myanimelist.net/anime/132405",
-          "kitsu": "https://kitsu.io/anime/132405"
         }
       },
       {

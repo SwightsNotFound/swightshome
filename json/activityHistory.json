@@ -44389,6 +44389,22 @@
   ],
   "2025-10-06": [
     {
+      "id": 966150023,
+      "status": "rewatched episode",
+      "progress": "23",
+      "createdAt": 1759776984,
+      "media": {
+        "title": {
+          "english": "Vinland Saga Season 2",
+          "romaji": "VINLAND SAGA SEASON 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx136430-gsBsJjA7hGh9.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/136430"
+      }
+    },
+    {
       "id": 966113169,
       "status": "completed",
       "progress": null,

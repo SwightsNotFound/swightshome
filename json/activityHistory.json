@@ -44389,6 +44389,22 @@
   ],
   "2025-10-06": [
     {
+      "id": 966015431,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759755273,
+      "media": {
+        "title": {
+          "english": "Lycoris Recoil",
+          "romaji": "Lycoris Recoil"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx143270-rfkyiYXhek5w.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/143270"
+      }
+    },
+    {
       "id": 965853992,
       "status": "watched episode",
       "progress": "1",

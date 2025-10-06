@@ -5073,6 +5073,27 @@
           "mal": "https://myanimelist.net/anime/199793",
           "kitsu": "https://kitsu.io/anime/199793"
         }
+      },
+      {
+        "id": 143270,
+        "title": "Lycoris Recoil",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143270-rfkyiYXhek5w.jpg",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/143270/",
+          "mal": "https://myanimelist.net/anime/143270",
+          "kitsu": "https://kitsu.io/anime/143270"
+        }
       }
     ]
   },
@@ -9168,7 +9189,7 @@
         "id": 144533,
         "title": "Bibliophile Princess",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx144533-DqgPeBmWZPYQ.jpg",
-        "averageScore": 67,
+        "averageScore": 66,
         "episodes": 12,
         "status": "FINISHED",
         "genres": [

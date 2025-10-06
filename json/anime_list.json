@@ -3933,7 +3933,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx186794-Ns8xWNdMdOxq.jpg",
         "averageScore": null,
         "episodes": null,
-        "status": "NOT_YET_RELEASED",
+        "status": "RELEASING",
         "genres": [
           "Action",
           "Adventure",
@@ -5511,6 +5511,28 @@
           "anilist": "https://anilist.co/anime/431/",
           "mal": "https://myanimelist.net/anime/431",
           "kitsu": "https://kitsu.io/anime/431"
+        }
+      },
+      {
+        "id": 11061,
+        "title": "Hunter x Hunter (2011)",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11061-y5gsT1hoHuHw.png",
+        "averageScore": 89,
+        "episodes": 148,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 148,
+        "links": {
+          "anilist": "https://anilist.co/anime/11061/",
+          "mal": "https://myanimelist.net/anime/11061",
+          "kitsu": "https://kitsu.io/anime/11061"
         }
       },
       {
@@ -7917,6 +7939,28 @@
           "anilist": "https://anilist.co/anime/101291/",
           "mal": "https://myanimelist.net/anime/101291",
           "kitsu": "https://kitsu.io/anime/101291"
+        }
+      },
+      {
+        "id": 153152,
+        "title": "The Dangers in My Heart",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx153152-Xnwmx7wuoIWV.jpg",
+        "averageScore": 81,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/153152/",
+          "mal": "https://myanimelist.net/anime/153152",
+          "kitsu": "https://kitsu.io/anime/153152"
         }
       },
       {
@@ -12591,28 +12635,6 @@
     "name": "Watching",
     "entries": [
       {
-        "id": 11061,
-        "title": "Hunter x Hunter (2011)",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11061-y5gsT1hoHuHw.png",
-        "averageScore": 89,
-        "episodes": 148,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 145,
-        "links": {
-          "anilist": "https://anilist.co/anime/11061/",
-          "mal": "https://myanimelist.net/anime/11061",
-          "kitsu": "https://kitsu.io/anime/11061"
-        }
-      },
-      {
         "id": 180367,
         "title": "WITCH WATCH",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx180367-GlRuB2lG7Kaa.jpg",
@@ -13252,6 +13274,28 @@
           "mal": "https://myanimelist.net/anime/162669",
           "kitsu": "https://kitsu.io/anime/162669"
         }
+      },
+      {
+        "id": 185731,
+        "title": "Ranma1/2 (2024) Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185731-PJ6WKcFDUI4B.jpg",
+        "averageScore": 76,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/185731/",
+          "mal": "https://myanimelist.net/anime/185731",
+          "kitsu": "https://kitsu.io/anime/185731"
+        }
       }
     ]
   },
@@ -13460,28 +13504,6 @@
           "anilist": "https://anilist.co/anime/21856/",
           "mal": "https://myanimelist.net/anime/21856",
           "kitsu": "https://kitsu.io/anime/21856"
-        }
-      },
-      {
-        "id": 153152,
-        "title": "The Dangers in My Heart",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx153152-Xnwmx7wuoIWV.jpg",
-        "averageScore": 81,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/153152/",
-          "mal": "https://myanimelist.net/anime/153152",
-          "kitsu": "https://kitsu.io/anime/153152"
         }
       }
     ]

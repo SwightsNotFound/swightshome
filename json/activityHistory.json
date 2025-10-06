@@ -44389,6 +44389,70 @@
   ],
   "2025-10-06": [
     {
+      "id": 966182938,
+      "status": "rewatched episode",
+      "progress": "4",
+      "createdAt": 1759781716,
+      "media": {
+        "title": {
+          "english": "Takopi's Original Sin",
+          "romaji": "Takopii no Genzai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185407-7uzY4fA3hokP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/185407"
+      }
+    },
+    {
+      "id": 966174910,
+      "status": "rewatched",
+      "progress": "24",
+      "createdAt": 1759780561,
+      "media": {
+        "title": {
+          "english": "Vinland Saga Season 2",
+          "romaji": "VINLAND SAGA SEASON 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx136430-gsBsJjA7hGh9.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/136430"
+      }
+    },
+    {
+      "id": 966174752,
+      "status": "rewatched episode",
+      "progress": "2",
+      "createdAt": 1759780541,
+      "media": {
+        "title": {
+          "english": "JUJUTSU KAISEN",
+          "romaji": "Jujutsu Kaisen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-LHBAeoZDIsnF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113415"
+      }
+    },
+    {
+      "id": 966174730,
+      "status": "rewatched episode",
+      "progress": "1",
+      "createdAt": 1759780538,
+      "media": {
+        "title": {
+          "english": "JUJUTSU KAISEN",
+          "romaji": "Jujutsu Kaisen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-LHBAeoZDIsnF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113415"
+      }
+    },
+    {
       "id": 966150023,
       "status": "rewatched episode",
       "progress": "23",

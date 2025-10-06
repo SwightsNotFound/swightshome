@@ -5148,29 +5148,6 @@
         }
       },
       {
-        "id": 9253,
-        "title": "Steins;Gate",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9253-tIUXF2gfU8Sg.jpg",
-        "averageScore": 89,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Psychological",
-          "Sci-Fi",
-          "Thriller"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 10,
-        "progress": 24,
-        "links": {
-          "anilist": "https://anilist.co/anime/9253/",
-          "mal": "https://myanimelist.net/anime/9253",
-          "kitsu": "https://kitsu.io/anime/9253"
-        }
-      },
-      {
         "id": 16498,
         "title": "Attack on Titan",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16498-buvcRTBx4NSm.jpg",
@@ -5217,71 +5194,25 @@
         }
       },
       {
-        "id": 113596,
-        "title": "Josee, the Tiger and the Fish",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113596-LKA0bYJGjLnB.jpg",
-        "averageScore": 82,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 10,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/113596/",
-          "mal": "https://myanimelist.net/anime/113596",
-          "kitsu": "https://kitsu.io/anime/113596"
-        }
-      },
-      {
-        "id": 101347,
-        "title": "Dororo",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101347-TGaDwEYqLfm1.jpg",
-        "averageScore": 81,
+        "id": 136430,
+        "title": "Vinland Saga Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx136430-gsBsJjA7hGh9.jpg",
+        "averageScore": 88,
         "episodes": 24,
         "status": "FINISHED",
         "genres": [
           "Action",
           "Adventure",
-          "Drama",
-          "Supernatural"
+          "Drama"
         ],
         "format": "TV",
         "country": "JP",
         "personalScore": 10,
         "progress": 24,
         "links": {
-          "anilist": "https://anilist.co/anime/101347/",
-          "mal": "https://myanimelist.net/anime/101347",
-          "kitsu": "https://kitsu.io/anime/101347"
-        }
-      },
-      {
-        "id": 127720,
-        "title": "Mushoku Tensei: Jobless Reincarnation Cour 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127720-ADJgIrUVMdU9.jpg",
-        "averageScore": 85,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Ecchi",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 10,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/127720/",
-          "mal": "https://myanimelist.net/anime/127720",
-          "kitsu": "https://kitsu.io/anime/127720"
+          "anilist": "https://anilist.co/anime/136430/",
+          "mal": "https://myanimelist.net/anime/136430",
+          "kitsu": "https://kitsu.io/anime/136430"
         }
       },
       {
@@ -5308,29 +5239,6 @@
         }
       },
       {
-        "id": 146065,
-        "title": "Mushoku Tensei: Jobless Reincarnation Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146065-IjirxRK26O03.png",
-        "averageScore": 81,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Ecchi",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 10,
-        "progress": 13,
-        "links": {
-          "anilist": "https://anilist.co/anime/146065/",
-          "mal": "https://myanimelist.net/anime/146065",
-          "kitsu": "https://kitsu.io/anime/146065"
-        }
-      },
-      {
         "id": 181444,
         "title": "The Fragrant Flower Blooms With Dignity",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx181444-Ut9DDUZdfHwg.jpg",
@@ -5353,6 +5261,51 @@
         }
       },
       {
+        "id": 11061,
+        "title": "Hunter x Hunter (2011)",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11061-y5gsT1hoHuHw.png",
+        "averageScore": 89,
+        "episodes": 148,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 148,
+        "links": {
+          "anilist": "https://anilist.co/anime/11061/",
+          "mal": "https://myanimelist.net/anime/11061",
+          "kitsu": "https://kitsu.io/anime/11061"
+        }
+      },
+      {
+        "id": 146065,
+        "title": "Mushoku Tensei: Jobless Reincarnation Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146065-IjirxRK26O03.png",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Ecchi",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/146065/",
+          "mal": "https://myanimelist.net/anime/146065",
+          "kitsu": "https://kitsu.io/anime/146065"
+        }
+      },
+      {
         "id": 130003,
         "title": "BOCCHI THE ROCK!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx130003-HTDmeL4RGeJ4.png",
@@ -5366,12 +5319,103 @@
         ],
         "format": "TV",
         "country": "JP",
-        "personalScore": 10,
+        "personalScore": 9.8,
         "progress": 12,
         "links": {
           "anilist": "https://anilist.co/anime/130003/",
           "mal": "https://myanimelist.net/anime/130003",
           "kitsu": "https://kitsu.io/anime/130003"
+        }
+      },
+      {
+        "id": 127720,
+        "title": "Mushoku Tensei: Jobless Reincarnation Cour 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127720-ADJgIrUVMdU9.jpg",
+        "averageScore": 85,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Ecchi",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.7,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/127720/",
+          "mal": "https://myanimelist.net/anime/127720",
+          "kitsu": "https://kitsu.io/anime/127720"
+        }
+      },
+      {
+        "id": 9253,
+        "title": "Steins;Gate",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9253-tIUXF2gfU8Sg.jpg",
+        "averageScore": 89,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.5,
+        "progress": 24,
+        "links": {
+          "anilist": "https://anilist.co/anime/9253/",
+          "mal": "https://myanimelist.net/anime/9253",
+          "kitsu": "https://kitsu.io/anime/9253"
+        }
+      },
+      {
+        "id": 101347,
+        "title": "Dororo",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101347-TGaDwEYqLfm1.jpg",
+        "averageScore": 81,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.5,
+        "progress": 24,
+        "links": {
+          "anilist": "https://anilist.co/anime/101347/",
+          "mal": "https://myanimelist.net/anime/101347",
+          "kitsu": "https://kitsu.io/anime/101347"
+        }
+      },
+      {
+        "id": 113596,
+        "title": "Josee, the Tiger and the Fish",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113596-LKA0bYJGjLnB.jpg",
+        "averageScore": 82,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 9.2,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/113596/",
+          "mal": "https://myanimelist.net/anime/113596",
+          "kitsu": "https://kitsu.io/anime/113596"
         }
       },
       {
@@ -5511,28 +5555,6 @@
           "anilist": "https://anilist.co/anime/431/",
           "mal": "https://myanimelist.net/anime/431",
           "kitsu": "https://kitsu.io/anime/431"
-        }
-      },
-      {
-        "id": 11061,
-        "title": "Hunter x Hunter (2011)",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11061-y5gsT1hoHuHw.png",
-        "averageScore": 89,
-        "episodes": 148,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 148,
-        "links": {
-          "anilist": "https://anilist.co/anime/11061/",
-          "mal": "https://myanimelist.net/anime/11061",
-          "kitsu": "https://kitsu.io/anime/11061"
         }
       },
       {
@@ -5890,28 +5912,6 @@
           "anilist": "https://anilist.co/anime/10408/",
           "mal": "https://myanimelist.net/anime/10408",
           "kitsu": "https://kitsu.io/anime/10408"
-        }
-      },
-      {
-        "id": 113415,
-        "title": "JUJUTSU KAISEN",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113415-LHBAeoZDIsnF.jpg",
-        "averageScore": 84,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 24,
-        "links": {
-          "anilist": "https://anilist.co/anime/113415/",
-          "mal": "https://myanimelist.net/anime/113415",
-          "kitsu": "https://kitsu.io/anime/113415"
         }
       },
       {
@@ -8752,6 +8752,51 @@
         }
       },
       {
+        "id": 98448,
+        "title": "Kino's Journey -the Beautiful World- the Animated Series",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx98448-OdfxrjAhkYvp.jpg",
+        "averageScore": 73,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Psychological",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 7.8,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/98448/",
+          "mal": "https://myanimelist.net/anime/98448",
+          "kitsu": "https://kitsu.io/anime/98448"
+        }
+      },
+      {
+        "id": 139630,
+        "title": "My Hero Academia Season 6",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx139630-3v4gxWtNZxLV.jpg",
+        "averageScore": 82,
+        "episodes": 25,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 7.6,
+        "progress": 25,
+        "links": {
+          "anilist": "https://anilist.co/anime/139630/",
+          "mal": "https://myanimelist.net/anime/139630",
+          "kitsu": "https://kitsu.io/anime/139630"
+        }
+      },
+      {
         "id": 103572,
         "title": "The Quintessential Quintuplets",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103572-cchriAdH95cQ.png",
@@ -8863,27 +8908,6 @@
           "anilist": "https://anilist.co/anime/117193/",
           "mal": "https://myanimelist.net/anime/117193",
           "kitsu": "https://kitsu.io/anime/117193"
-        }
-      },
-      {
-        "id": 139630,
-        "title": "My Hero Academia Season 6",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx139630-3v4gxWtNZxLV.jpg",
-        "averageScore": 82,
-        "episodes": 25,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 7,
-        "progress": 25,
-        "links": {
-          "anilist": "https://anilist.co/anime/139630/",
-          "mal": "https://myanimelist.net/anime/139630",
-          "kitsu": "https://kitsu.io/anime/139630"
         }
       },
       {
@@ -9157,30 +9181,6 @@
           "anilist": "https://anilist.co/anime/10536/",
           "mal": "https://myanimelist.net/anime/10536",
           "kitsu": "https://kitsu.io/anime/10536"
-        }
-      },
-      {
-        "id": 98448,
-        "title": "Kino's Journey -the Beautiful World- the Animated Series",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx98448-OdfxrjAhkYvp.jpg",
-        "averageScore": 73,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Fantasy",
-          "Psychological",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 7,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/98448/",
-          "mal": "https://myanimelist.net/anime/98448",
-          "kitsu": "https://kitsu.io/anime/98448"
         }
       },
       {
@@ -13374,28 +13374,6 @@
     "name": "Rewatching",
     "entries": [
       {
-        "id": 136430,
-        "title": "Vinland Saga Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx136430-gsBsJjA7hGh9.jpg",
-        "averageScore": 88,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Drama"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 10,
-        "progress": 23,
-        "links": {
-          "anilist": "https://anilist.co/anime/136430/",
-          "mal": "https://myanimelist.net/anime/136430",
-          "kitsu": "https://kitsu.io/anime/136430"
-        }
-      },
-      {
         "id": 185407,
         "title": "Takopi's Original Sin",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185407-7uzY4fA3hokP.jpg",
@@ -13410,7 +13388,7 @@
         "format": "ONA",
         "country": "JP",
         "personalScore": 10,
-        "progress": 3,
+        "progress": 4,
         "links": {
           "anilist": "https://anilist.co/anime/185407/",
           "mal": "https://myanimelist.net/anime/185407",
@@ -13438,6 +13416,28 @@
           "anilist": "https://anilist.co/anime/20665/",
           "mal": "https://myanimelist.net/anime/20665",
           "kitsu": "https://kitsu.io/anime/20665"
+        }
+      },
+      {
+        "id": 113415,
+        "title": "JUJUTSU KAISEN",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113415-LHBAeoZDIsnF.jpg",
+        "averageScore": 84,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 2,
+        "links": {
+          "anilist": "https://anilist.co/anime/113415/",
+          "mal": "https://myanimelist.net/anime/113415",
+          "kitsu": "https://kitsu.io/anime/113415"
         }
       },
       {

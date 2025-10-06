@@ -5094,6 +5094,27 @@
           "mal": "https://myanimelist.net/anime/143270",
           "kitsu": "https://kitsu.io/anime/143270"
         }
+      },
+      {
+        "id": 131863,
+        "title": "Liar, Liar",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131863-G7bfAMPea08v.png",
+        "averageScore": 61,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Psychological",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/131863/",
+          "mal": "https://myanimelist.net/anime/131863",
+          "kitsu": "https://kitsu.io/anime/131863"
+        }
       }
     ]
   },
@@ -7027,6 +7048,28 @@
         }
       },
       {
+        "id": 142877,
+        "title": "Rurouni Kenshin (2023)",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142877-FrXXLsgXYQAp.jpg",
+        "averageScore": 74,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.6,
+        "progress": 24,
+        "links": {
+          "anilist": "https://anilist.co/anime/142877/",
+          "mal": "https://myanimelist.net/anime/142877",
+          "kitsu": "https://kitsu.io/anime/142877"
+        }
+      },
+      {
         "id": 21258,
         "title": "Snow White with the Red Hair Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21258-6UnmYMTMH0f7.jpg",
@@ -7185,6 +7228,29 @@
           "anilist": "https://anilist.co/anime/153288/",
           "mal": "https://myanimelist.net/anime/153288",
           "kitsu": "https://kitsu.io/anime/153288"
+        }
+      },
+      {
+        "id": 171637,
+        "title": "Rurouni Kenshin -Kyoto Disturbance-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b171637-h17RbEFtR0rQ.png",
+        "averageScore": 77,
+        "episodes": 23,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.3,
+        "progress": 23,
+        "links": {
+          "anilist": "https://anilist.co/anime/171637/",
+          "mal": "https://myanimelist.net/anime/171637",
+          "kitsu": "https://kitsu.io/anime/171637"
         }
       },
       {
@@ -8071,28 +8137,6 @@
         }
       },
       {
-        "id": 142877,
-        "title": "Rurouni Kenshin (2023)",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142877-FrXXLsgXYQAp.jpg",
-        "averageScore": 74,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Romance"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 24,
-        "links": {
-          "anilist": "https://anilist.co/anime/142877/",
-          "mal": "https://myanimelist.net/anime/142877",
-          "kitsu": "https://kitsu.io/anime/142877"
-        }
-      },
-      {
         "id": 1689,
         "title": "5 Centimeters per Second",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1689-rJKhjLEjQHSy.jpg",
@@ -8735,6 +8779,29 @@
         }
       },
       {
+        "id": 19815,
+        "title": "No Game, No Life",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b19815-sEOQ9yQaPKlk.jpg",
+        "averageScore": 77,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Ecchi",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/19815/",
+          "mal": "https://myanimelist.net/anime/19815",
+          "kitsu": "https://kitsu.io/anime/19815"
+        }
+      },
+      {
         "id": 131518,
         "title": "Dr. STONE New World",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131518-RU7RoUmGb2sP.jpg",
@@ -8823,29 +8890,6 @@
           "anilist": "https://anilist.co/anime/165171/",
           "mal": "https://myanimelist.net/anime/165171",
           "kitsu": "https://kitsu.io/anime/165171"
-        }
-      },
-      {
-        "id": 171637,
-        "title": "Rurouni Kenshin -Kyoto Disturbance-",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b171637-h17RbEFtR0rQ.png",
-        "averageScore": 77,
-        "episodes": 23,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Drama",
-          "Romance"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 23,
-        "links": {
-          "anilist": "https://anilist.co/anime/171637/",
-          "mal": "https://myanimelist.net/anime/171637",
-          "kitsu": "https://kitsu.io/anime/171637"
         }
       },
       {
@@ -10605,6 +10649,52 @@
         }
       },
       {
+        "id": 100240,
+        "title": "Tokyo Ghoul:re",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100240-vJNaKd5HwPJ2.jpg",
+        "averageScore": 61,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Horror",
+          "Mystery",
+          "Psychological",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 6.5,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/100240/",
+          "mal": "https://myanimelist.net/anime/100240",
+          "kitsu": "https://kitsu.io/anime/100240"
+        }
+      },
+      {
+        "id": 100182,
+        "title": "Sword Art Online: Alicization",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100182-KctPmCJ2smHQ.jpg",
+        "averageScore": 75,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 6.1,
+        "progress": 24,
+        "links": {
+          "anilist": "https://anilist.co/anime/100182/",
+          "mal": "https://myanimelist.net/anime/100182",
+          "kitsu": "https://kitsu.io/anime/100182"
+        }
+      },
+      {
         "id": 102882,
         "title": "Real Girl 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx102882-lKp3ExWNzoE6.jpg",
@@ -11156,30 +11246,6 @@
         }
       },
       {
-        "id": 100240,
-        "title": "Tokyo Ghoul:re",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100240-vJNaKd5HwPJ2.jpg",
-        "averageScore": 61,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Horror",
-          "Mystery",
-          "Psychological",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 6,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/100240/",
-          "mal": "https://myanimelist.net/anime/100240",
-          "kitsu": "https://kitsu.io/anime/100240"
-        }
-      },
-      {
         "id": 108928,
         "title": "The Seven Deadly Sins: Imperial Wrath of the Gods",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108928-DuyUzi0JyPIr.jpg",
@@ -11492,6 +11558,28 @@
         }
       },
       {
+        "id": 108759,
+        "title": "Sword Art Online: Alicization - War of Underworld",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108759-jcXbDf9BJTcb.jpg",
+        "averageScore": 75,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 6,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/108759/",
+          "mal": "https://myanimelist.net/anime/108759",
+          "kitsu": "https://kitsu.io/anime/108759"
+        }
+      },
+      {
         "id": 178022,
         "title": "Flower and Asura",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178022-gB3zAfazGBJ6.jpg",
@@ -11601,6 +11689,28 @@
         }
       },
       {
+        "id": 114308,
+        "title": "Sword Art Online: Alicization - War of Underworld Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114308-8UBiS7U9buzu.jpg",
+        "averageScore": 74,
+        "episodes": 11,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 6,
+        "progress": 11,
+        "links": {
+          "anilist": "https://anilist.co/anime/114308/",
+          "mal": "https://myanimelist.net/anime/114308",
+          "kitsu": "https://kitsu.io/anime/114308"
+        }
+      },
+      {
         "id": 106495,
         "title": "Nisekoimonogatari",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx106495-gEnPvRaS5HoU.jpg",
@@ -11687,6 +11797,32 @@
         }
       },
       {
+        "id": 108725,
+        "title": "The Promised Neverland Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108725-ZKivuyr4Jtc9.jpg",
+        "averageScore": 51,
+        "episodes": 11,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Psychological",
+          "Thriller"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 5.9,
+        "progress": 11,
+        "links": {
+          "anilist": "https://anilist.co/anime/108725/",
+          "mal": "https://myanimelist.net/anime/108725",
+          "kitsu": "https://kitsu.io/anime/108725"
+        }
+      },
+      {
         "id": 100526,
         "title": "Real Girl",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100526-Hw6U34Hw2TDb.jpg",
@@ -11728,28 +11864,6 @@
           "anilist": "https://anilist.co/anime/20837/",
           "mal": "https://myanimelist.net/anime/20837",
           "kitsu": "https://kitsu.io/anime/20837"
-        }
-      },
-      {
-        "id": 1222,
-        "title": "We Were There",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1222-kRIt3mFjuDaW.png",
-        "averageScore": 67,
-        "episodes": 26,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 5,
-        "progress": 26,
-        "links": {
-          "anilist": "https://anilist.co/anime/1222/",
-          "mal": "https://myanimelist.net/anime/1222",
-          "kitsu": "https://kitsu.io/anime/1222"
         }
       },
       {
@@ -11814,28 +11928,6 @@
           "anilist": "https://anilist.co/anime/111290/",
           "mal": "https://myanimelist.net/anime/111290",
           "kitsu": "https://kitsu.io/anime/111290"
-        }
-      },
-      {
-        "id": 146210,
-        "title": "Vermeil in Gold",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146210-ZnIithxFLLHn.jpg",
-        "averageScore": 67,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Ecchi",
-          "Fantasy",
-          "Romance"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 5,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/146210/",
-          "mal": "https://myanimelist.net/anime/146210",
-          "kitsu": "https://kitsu.io/anime/146210"
         }
       },
       {
@@ -12103,32 +12195,6 @@
         }
       },
       {
-        "id": 108725,
-        "title": "The Promised Neverland Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108725-ZKivuyr4Jtc9.jpg",
-        "averageScore": 51,
-        "episodes": 11,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Drama",
-          "Fantasy",
-          "Horror",
-          "Psychological",
-          "Thriller"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 5,
-        "progress": 11,
-        "links": {
-          "anilist": "https://anilist.co/anime/108725/",
-          "mal": "https://myanimelist.net/anime/108725",
-          "kitsu": "https://kitsu.io/anime/108725"
-        }
-      },
-      {
         "id": 165855,
         "title": "A Condition Called Love",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx165855-uJ0Hq5EFUlz8.jpg",
@@ -12236,50 +12302,6 @@
         }
       },
       {
-        "id": 100182,
-        "title": "Sword Art Online: Alicization",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100182-KctPmCJ2smHQ.jpg",
-        "averageScore": 75,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 5,
-        "progress": 24,
-        "links": {
-          "anilist": "https://anilist.co/anime/100182/",
-          "mal": "https://myanimelist.net/anime/100182",
-          "kitsu": "https://kitsu.io/anime/100182"
-        }
-      },
-      {
-        "id": 108759,
-        "title": "Sword Art Online: Alicization - War of Underworld",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108759-jcXbDf9BJTcb.jpg",
-        "averageScore": 75,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 5,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/108759/",
-          "mal": "https://myanimelist.net/anime/108759",
-          "kitsu": "https://kitsu.io/anime/108759"
-        }
-      },
-      {
         "id": 172439,
         "title": "Welcome to Japan, Ms. Elf!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172439-sTda7baXB0Fh.jpg",
@@ -12345,51 +12367,6 @@
           "anilist": "https://anilist.co/anime/141949/",
           "mal": "https://myanimelist.net/anime/141949",
           "kitsu": "https://kitsu.io/anime/141949"
-        }
-      },
-      {
-        "id": 19815,
-        "title": "No Game, No Life",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b19815-sEOQ9yQaPKlk.jpg",
-        "averageScore": 77,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Comedy",
-          "Ecchi",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 5,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/19815/",
-          "mal": "https://myanimelist.net/anime/19815",
-          "kitsu": "https://kitsu.io/anime/19815"
-        }
-      },
-      {
-        "id": 114308,
-        "title": "Sword Art Online: Alicization - War of Underworld Part 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114308-8UBiS7U9buzu.jpg",
-        "averageScore": 74,
-        "episodes": 11,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 5,
-        "progress": 11,
-        "links": {
-          "anilist": "https://anilist.co/anime/114308/",
-          "mal": "https://myanimelist.net/anime/114308",
-          "kitsu": "https://kitsu.io/anime/114308"
         }
       },
       {
@@ -12520,6 +12497,50 @@
           "anilist": "https://anilist.co/anime/3731/",
           "mal": "https://myanimelist.net/anime/3731",
           "kitsu": "https://kitsu.io/anime/3731"
+        }
+      },
+      {
+        "id": 1222,
+        "title": "We Were There",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1222-kRIt3mFjuDaW.png",
+        "averageScore": 67,
+        "episodes": 26,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 3,
+        "progress": 26,
+        "links": {
+          "anilist": "https://anilist.co/anime/1222/",
+          "mal": "https://myanimelist.net/anime/1222",
+          "kitsu": "https://kitsu.io/anime/1222"
+        }
+      },
+      {
+        "id": 146210,
+        "title": "Vermeil in Gold",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146210-ZnIithxFLLHn.jpg",
+        "averageScore": 67,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Ecchi",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 1,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/146210/",
+          "mal": "https://myanimelist.net/anime/146210",
+          "kitsu": "https://kitsu.io/anime/146210"
         }
       },
       {
@@ -12749,7 +12770,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 4,
+        "progress": 5,
         "links": {
           "anilist": "https://anilist.co/anime/175914/",
           "mal": "https://myanimelist.net/anime/175914",

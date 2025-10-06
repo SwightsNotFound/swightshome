@@ -44389,6 +44389,38 @@
   ],
   "2025-10-06": [
     {
+      "id": 966229632,
+      "status": "watched episode",
+      "progress": "5",
+      "createdAt": 1759788473,
+      "media": {
+        "title": {
+          "english": "Call of the Night Season 2",
+          "romaji": "Yofukashi no Uta Season 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx175914-VsbL90WzuqoM.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/175914"
+      }
+    },
+    {
+      "id": 966214208,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759786166,
+      "media": {
+        "title": {
+          "english": "Liar, Liar",
+          "romaji": "Liar Liar"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131863-G7bfAMPea08v.png"
+        },
+        "siteUrl": "https://anilist.co/anime/131863"
+      }
+    },
+    {
       "id": 966197365,
       "status": "rewatched episode",
       "progress": "5",

@@ -3400,7 +3400,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx180082-IZAlf06G2VVm.png",
         "averageScore": null,
         "episodes": null,
-        "status": "NOT_YET_RELEASED",
+        "status": "RELEASING",
         "genres": [
           "Comedy",
           "Romance"
@@ -3931,7 +3931,7 @@
         "id": 186794,
         "title": "My Status as an Assassin Obviously Exceeds the Hero’s",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx186794-Ns8xWNdMdOxq.jpg",
-        "averageScore": null,
+        "averageScore": 71,
         "episodes": null,
         "status": "RELEASING",
         "genres": [
@@ -3974,7 +3974,7 @@
         "id": 173692,
         "title": "Dad is a Hero, Mom is a Spirit, I'm a Reincarnator",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx173692-shp7PGRQyCQl.jpg",
-        "averageScore": 66,
+        "averageScore": 67,
         "episodes": 12,
         "status": "RELEASING",
         "genres": [
@@ -4641,7 +4641,7 @@
         "title": "Campfire Cooking in Another World with my Absurd Skill Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170577-ocYSFAcry7ty.jpg",
         "averageScore": null,
-        "episodes": null,
+        "episodes": 12,
         "status": "NOT_YET_RELEASED",
         "genres": [
           "Adventure",
@@ -12754,7 +12754,7 @@
         "id": 169969,
         "title": "Hero Without a Class: Who Even Needs Skills?!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx169969-SqCjoqYT4A6Z.jpg",
-        "averageScore": 61,
+        "averageScore": 60,
         "episodes": 12,
         "status": "RELEASING",
         "genres": [

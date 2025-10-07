@@ -44807,6 +44807,102 @@
   ],
   "2025-10-07": [
     {
+      "id": 966323400,
+      "status": "watched episode",
+      "progress": "8",
+      "createdAt": 1759805617,
+      "media": {
+        "title": {
+          "english": "Puella Magi Madoka Magica",
+          "romaji": "Mahou Shoujo Madoka☆Magica"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9756-QnUGwlwwnsuN.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/9756"
+      }
+    },
+    {
+      "id": 966321365,
+      "status": "rewatched",
+      "progress": "6",
+      "createdAt": 1759805248,
+      "media": {
+        "title": {
+          "english": "Takopi's Original Sin",
+          "romaji": "Takopii no Genzai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185407-7uzY4fA3hokP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/185407"
+      }
+    },
+    {
+      "id": 966318669,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1759804739,
+      "media": {
+        "title": {
+          "english": "Neon Genesis Evangelion",
+          "romaji": "Shin Seiki Evangelion"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx30-AI1zr74Dh4ye.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/30"
+      }
+    },
+    {
+      "id": 966316703,
+      "status": "watched episode",
+      "progress": "7",
+      "createdAt": 1759804347,
+      "media": {
+        "title": {
+          "english": "Puella Magi Madoka Magica",
+          "romaji": "Mahou Shoujo Madoka☆Magica"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9756-QnUGwlwwnsuN.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/9756"
+      }
+    },
+    {
+      "id": 966310216,
+      "status": "watched episode",
+      "progress": "6",
+      "createdAt": 1759803077,
+      "media": {
+        "title": {
+          "english": "Puella Magi Madoka Magica",
+          "romaji": "Mahou Shoujo Madoka☆Magica"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9756-QnUGwlwwnsuN.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/9756"
+      }
+    },
+    {
+      "id": 966303631,
+      "status": "watched episode",
+      "progress": "5",
+      "createdAt": 1759801796,
+      "media": {
+        "title": {
+          "english": "Puella Magi Madoka Magica",
+          "romaji": "Mahou Shoujo Madoka☆Magica"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9756-QnUGwlwwnsuN.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/9756"
+      }
+    },
+    {
       "id": 966296520,
       "status": "watched episode",
       "progress": "4",

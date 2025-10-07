@@ -3,105 +3,105 @@
     "genres": [
       {
         "genre": "Drama",
-        "count": 194,
-        "meanScore": 75.95,
-        "minutesWatched": 107170
+        "count": 197,
+        "meanScore": 78.05,
+        "minutesWatched": 107820
       },
       {
         "genre": "Comedy",
-        "count": 187,
-        "meanScore": 70.64,
-        "minutesWatched": 90269
+        "count": 191,
+        "meanScore": 72.34,
+        "minutesWatched": 91335
       },
       {
         "genre": "Romance",
-        "count": 205,
-        "meanScore": 70.16,
-        "minutesWatched": 69005
+        "count": 211,
+        "meanScore": 70.77,
+        "minutesWatched": 69604
       },
       {
         "genre": "Action",
-        "count": 133,
-        "meanScore": 75.1,
-        "minutesWatched": 85239
+        "count": 135,
+        "meanScore": 78,
+        "minutesWatched": 87727
       },
       {
         "genre": "Fantasy",
-        "count": 125,
-        "meanScore": 72.48,
-        "minutesWatched": 72803
+        "count": 127,
+        "meanScore": 74.97,
+        "minutesWatched": 75287
       },
       {
         "genre": "Adventure",
-        "count": 99,
-        "meanScore": 72.97,
-        "minutesWatched": 67011
+        "count": 100,
+        "meanScore": 75.81,
+        "minutesWatched": 69307
       },
       {
         "genre": "Slice of Life",
-        "count": 138,
-        "meanScore": 73.6,
-        "minutesWatched": 52529
+        "count": 140,
+        "meanScore": 74.8,
+        "minutesWatched": 52552
       },
       {
         "genre": "Supernatural",
-        "count": 95,
-        "meanScore": 76.94,
-        "minutesWatched": 59921
-      },
-      {
-        "genre": "Psychological",
-        "count": 43,
-        "meanScore": 81.09,
-        "minutesWatched": 17448
+        "count": 98,
+        "meanScore": 79.95,
+        "minutesWatched": 60233
       },
       {
         "genre": "Mystery",
-        "count": 34,
-        "meanScore": 80,
-        "minutesWatched": 20456
+        "count": 35,
+        "meanScore": 85.3,
+        "minutesWatched": 20672
+      },
+      {
+        "genre": "Psychological",
+        "count": 45,
+        "meanScore": 84.06,
+        "minutesWatched": 17949
       },
       {
         "genre": "Sci-Fi",
         "count": 34,
-        "meanScore": 80.37,
-        "minutesWatched": 12454
+        "meanScore": 80.93,
+        "minutesWatched": 12787
       },
       {
         "genre": "Ecchi",
         "count": 25,
-        "meanScore": 69.6,
+        "meanScore": 69.44,
         "minutesWatched": 11964
       },
       {
         "genre": "Thriller",
         "count": 9,
-        "meanScore": 80,
-        "minutesWatched": 5658
+        "meanScore": 85.2,
+        "minutesWatched": 5826
       },
       {
         "genre": "Sports",
-        "count": 7,
-        "meanScore": 78,
+        "count": 6,
+        "meanScore": 79.6,
         "minutesWatched": 3183
       },
       {
         "genre": "Music",
         "count": 6,
-        "meanScore": 80,
+        "meanScore": 81.75,
         "minutesWatched": 1401
       },
       {
         "genre": "Horror",
-        "count": 9,
-        "meanScore": 67.5,
-        "minutesWatched": 2591
+        "count": 10,
+        "meanScore": 72.25,
+        "minutesWatched": 2615
       },
       {
         "genre": "Mahou Shoujo",
         "count": 2,
         "meanScore": 50,
-        "minutesWatched": 26
+        "minutesWatched": 194
       }
     ]
   },
@@ -117,7 +117,7 @@
         "genre": "Drama",
         "count": 11,
         "meanScore": 86,
-        "chaptersRead": 342
+        "chaptersRead": 344
       },
       {
         "genre": "Slice of Life",
@@ -135,7 +135,7 @@
         "genre": "Psychological",
         "count": 6,
         "meanScore": 93.33,
-        "chaptersRead": 55
+        "chaptersRead": 57
       },
       {
         "genre": "Supernatural",
@@ -147,7 +147,7 @@
         "genre": "Adventure",
         "count": 2,
         "meanScore": 0,
-        "chaptersRead": 5
+        "chaptersRead": 7
       },
       {
         "genre": "Fantasy",

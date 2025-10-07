@@ -5115,6 +5115,31 @@
           "mal": "https://myanimelist.net/anime/131863",
           "kitsu": "https://kitsu.io/anime/131863"
         }
+      },
+      {
+        "id": 30,
+        "title": "Neon Genesis Evangelion",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx30-AI1zr74Dh4ye.jpg",
+        "averageScore": 83,
+        "episodes": 26,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Mecha",
+          "Mystery",
+          "Psychological",
+          "Sci-Fi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/30/",
+          "mal": "https://myanimelist.net/anime/30",
+          "kitsu": "https://kitsu.io/anime/30"
+        }
       }
     ]
   },
@@ -5279,6 +5304,28 @@
           "anilist": "https://anilist.co/anime/181444/",
           "mal": "https://myanimelist.net/anime/181444",
           "kitsu": "https://kitsu.io/anime/181444"
+        }
+      },
+      {
+        "id": 185407,
+        "title": "Takopi's Original Sin",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185407-7uzY4fA3hokP.jpg",
+        "averageScore": 87,
+        "episodes": 6,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Sci-Fi"
+        ],
+        "format": "ONA",
+        "country": "JP",
+        "personalScore": 10,
+        "progress": 6,
+        "links": {
+          "anilist": "https://anilist.co/anime/185407/",
+          "mal": "https://myanimelist.net/anime/185407",
+          "kitsu": "https://kitsu.io/anime/185407"
         }
       },
       {
@@ -12746,7 +12793,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 4,
+        "progress": 8,
         "links": {
           "anilist": "https://anilist.co/anime/9756/",
           "mal": "https://myanimelist.net/anime/9756",
@@ -13395,25 +13442,69 @@
     "name": "Rewatching",
     "entries": [
       {
-        "id": 185407,
-        "title": "Takopi's Original Sin",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185407-7uzY4fA3hokP.jpg",
-        "averageScore": 87,
-        "episodes": 6,
+        "id": 20665,
+        "title": "Your lie in April",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20665-TLgkL8T8IRFd.png",
+        "averageScore": 84,
+        "episodes": 22,
         "status": "FINISHED",
         "genres": [
           "Drama",
-          "Psychological",
-          "Sci-Fi"
+          "Music",
+          "Romance",
+          "Slice of Life"
         ],
-        "format": "ONA",
+        "format": "TV",
         "country": "JP",
-        "personalScore": 10,
-        "progress": 5,
+        "personalScore": 9.9,
+        "progress": 1,
         "links": {
-          "anilist": "https://anilist.co/anime/185407/",
-          "mal": "https://myanimelist.net/anime/185407",
-          "kitsu": "https://kitsu.io/anime/185407"
+          "anilist": "https://anilist.co/anime/20665/",
+          "mal": "https://myanimelist.net/anime/20665",
+          "kitsu": "https://kitsu.io/anime/20665"
+        }
+      },
+      {
+        "id": 161645,
+        "title": "The Apothecary Diaries",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161645-QLbzHXiYRgV2.jpg",
+        "averageScore": 88,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 10,
+        "links": {
+          "anilist": "https://anilist.co/anime/161645/",
+          "mal": "https://myanimelist.net/anime/161645",
+          "kitsu": "https://kitsu.io/anime/161645"
+        }
+      },
+      {
+        "id": 113415,
+        "title": "JUJUTSU KAISEN",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113415-LHBAeoZDIsnF.jpg",
+        "averageScore": 84,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.5,
+        "progress": 2,
+        "links": {
+          "anilist": "https://anilist.co/anime/113415/",
+          "mal": "https://myanimelist.net/anime/113415",
+          "kitsu": "https://kitsu.io/anime/113415"
         }
       },
       {
@@ -13437,72 +13528,6 @@
           "anilist": "https://anilist.co/anime/132405/",
           "mal": "https://myanimelist.net/anime/132405",
           "kitsu": "https://kitsu.io/anime/132405"
-        }
-      },
-      {
-        "id": 20665,
-        "title": "Your lie in April",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20665-TLgkL8T8IRFd.png",
-        "averageScore": 84,
-        "episodes": 22,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Music",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/20665/",
-          "mal": "https://myanimelist.net/anime/20665",
-          "kitsu": "https://kitsu.io/anime/20665"
-        }
-      },
-      {
-        "id": 113415,
-        "title": "JUJUTSU KAISEN",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113415-LHBAeoZDIsnF.jpg",
-        "averageScore": 84,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 2,
-        "links": {
-          "anilist": "https://anilist.co/anime/113415/",
-          "mal": "https://myanimelist.net/anime/113415",
-          "kitsu": "https://kitsu.io/anime/113415"
-        }
-      },
-      {
-        "id": 161645,
-        "title": "The Apothecary Diaries",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161645-QLbzHXiYRgV2.jpg",
-        "averageScore": 88,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Mystery"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 10,
-        "links": {
-          "anilist": "https://anilist.co/anime/161645/",
-          "mal": "https://myanimelist.net/anime/161645",
-          "kitsu": "https://kitsu.io/anime/161645"
         }
       },
       {

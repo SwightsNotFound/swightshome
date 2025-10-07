@@ -5140,6 +5140,29 @@
           "mal": "https://myanimelist.net/anime/30",
           "kitsu": "https://kitsu.io/anime/30"
         }
+      },
+      {
+        "id": 7785,
+        "title": "The Tatami Galaxy",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx7785-aTjIhsYva8cJ.jpg",
+        "averageScore": 84,
+        "episodes": 11,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Mystery",
+          "Psychological",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/7785/",
+          "mal": "https://myanimelist.net/anime/7785",
+          "kitsu": "https://kitsu.io/anime/7785"
+        }
       }
     ]
   },
@@ -12793,7 +12816,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 8,
+        "progress": 10,
         "links": {
           "anilist": "https://anilist.co/anime/9756/",
           "mal": "https://myanimelist.net/anime/9756",

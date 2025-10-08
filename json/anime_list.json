@@ -3395,27 +3395,6 @@
         }
       },
       {
-        "id": 180082,
-        "title": "Chitose Is in the Ramune Bottle",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx180082-IZAlf06G2VVm.png",
-        "averageScore": 68,
-        "episodes": 13,
-        "status": "RELEASING",
-        "genres": [
-          "Comedy",
-          "Romance"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/180082/",
-          "mal": "https://myanimelist.net/anime/180082",
-          "kitsu": "https://kitsu.io/anime/180082"
-        }
-      },
-      {
         "id": 158539,
         "title": "Lookism",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx158539-jcLUcvqALA08.jpg",
@@ -3925,28 +3904,6 @@
           "anilist": "https://anilist.co/anime/5630/",
           "mal": "https://myanimelist.net/anime/5630",
           "kitsu": "https://kitsu.io/anime/5630"
-        }
-      },
-      {
-        "id": 186794,
-        "title": "My Status as an Assassin Obviously Exceeds the Hero’s",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx186794-Ns8xWNdMdOxq.jpg",
-        "averageScore": 70,
-        "episodes": null,
-        "status": "RELEASING",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/186794/",
-          "mal": "https://myanimelist.net/anime/186794",
-          "kitsu": "https://kitsu.io/anime/186794"
         }
       },
       {
@@ -4637,28 +4594,6 @@
         }
       },
       {
-        "id": 170577,
-        "title": "Campfire Cooking in Another World with my Absurd Skill Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170577-ocYSFAcry7ty.jpg",
-        "averageScore": 74,
-        "episodes": 12,
-        "status": "RELEASING",
-        "genres": [
-          "Adventure",
-          "Comedy",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/170577/",
-          "mal": "https://myanimelist.net/anime/170577",
-          "kitsu": "https://kitsu.io/anime/170577"
-        }
-      },
-      {
         "id": 7674,
         "title": "Bakuman.",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx7674-J0QHrtN50kzj.png",
@@ -5285,29 +5220,6 @@
         }
       },
       {
-        "id": 166873,
-        "title": "Mushoku Tensei: Jobless Reincarnation Season 2 Part 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166873-xO0BRPkmwFll.png",
-        "averageScore": 83,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Ecchi",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 10,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/166873/",
-          "mal": "https://myanimelist.net/anime/166873",
-          "kitsu": "https://kitsu.io/anime/166873"
-        }
-      },
-      {
         "id": 181444,
         "title": "The Fragrant Flower Blooms With Dignity",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx181444-Ut9DDUZdfHwg.jpg",
@@ -5483,6 +5395,29 @@
           "anilist": "https://anilist.co/anime/21827/",
           "mal": "https://myanimelist.net/anime/21827",
           "kitsu": "https://kitsu.io/anime/21827"
+        }
+      },
+      {
+        "id": 146065,
+        "title": "Mushoku Tensei: Jobless Reincarnation Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146065-IjirxRK26O03.png",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Ecchi",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/146065/",
+          "mal": "https://myanimelist.net/anime/146065",
+          "kitsu": "https://kitsu.io/anime/146065"
         }
       },
       {
@@ -13144,6 +13079,27 @@
         }
       },
       {
+        "id": 180082,
+        "title": "Chitose Is in the Ramune Bottle",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx180082-IZAlf06G2VVm.png",
+        "averageScore": 68,
+        "episodes": 13,
+        "status": "RELEASING",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/180082/",
+          "mal": "https://myanimelist.net/anime/180082",
+          "kitsu": "https://kitsu.io/anime/180082"
+        }
+      },
+      {
         "id": 181841,
         "title": "CITY THE ANIMATION",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx181841-9TcjIyZefot2.jpg",
@@ -13185,6 +13141,28 @@
           "anilist": "https://anilist.co/anime/195153/",
           "mal": "https://myanimelist.net/anime/195153",
           "kitsu": "https://kitsu.io/anime/195153"
+        }
+      },
+      {
+        "id": 186794,
+        "title": "My Status as an Assassin Obviously Exceeds the Hero’s",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx186794-Ns8xWNdMdOxq.jpg",
+        "averageScore": 70,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/186794/",
+          "mal": "https://myanimelist.net/anime/186794",
+          "kitsu": "https://kitsu.io/anime/186794"
         }
       },
       {
@@ -13320,6 +13298,28 @@
         }
       },
       {
+        "id": 170577,
+        "title": "Campfire Cooking in Another World with my Absurd Skill Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170577-ocYSFAcry7ty.jpg",
+        "averageScore": 74,
+        "episodes": 12,
+        "status": "RELEASING",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/170577/",
+          "mal": "https://myanimelist.net/anime/170577",
+          "kitsu": "https://kitsu.io/anime/170577"
+        }
+      },
+      {
         "id": 162669,
         "title": "To Your Eternity Season 3",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162669-FLYUTftoXgMh.jpg",
@@ -13442,6 +13442,29 @@
     "name": "Rewatching",
     "entries": [
       {
+        "id": 166873,
+        "title": "Mushoku Tensei: Jobless Reincarnation Season 2 Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166873-xO0BRPkmwFll.png",
+        "averageScore": 83,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Ecchi",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 10,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/166873/",
+          "mal": "https://myanimelist.net/anime/166873",
+          "kitsu": "https://kitsu.io/anime/166873"
+        }
+      },
+      {
         "id": 20665,
         "title": "Your lie in April",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20665-TLgkL8T8IRFd.png",
@@ -13483,29 +13506,6 @@
           "anilist": "https://anilist.co/anime/161645/",
           "mal": "https://myanimelist.net/anime/161645",
           "kitsu": "https://kitsu.io/anime/161645"
-        }
-      },
-      {
-        "id": 146065,
-        "title": "Mushoku Tensei: Jobless Reincarnation Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146065-IjirxRK26O03.png",
-        "averageScore": 81,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Ecchi",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.9,
-        "progress": 10,
-        "links": {
-          "anilist": "https://anilist.co/anime/146065/",
-          "mal": "https://myanimelist.net/anime/146065",
-          "kitsu": "https://kitsu.io/anime/146065"
         }
       },
       {

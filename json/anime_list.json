@@ -3907,27 +3907,6 @@
         }
       },
       {
-        "id": 180436,
-        "title": "Wandance",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx180436-KbHBZdUqLV1Q.png",
-        "averageScore": null,
-        "episodes": null,
-        "status": "RELEASING",
-        "genres": [
-          "Drama",
-          "Sports"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/180436/",
-          "mal": "https://myanimelist.net/anime/180436",
-          "kitsu": "https://kitsu.io/anime/180436"
-        }
-      },
-      {
         "id": 173692,
         "title": "Dad is a Hero, Mom is a Spirit, I'm a Reincarnator",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx173692-shp7PGRQyCQl.jpg",
@@ -4482,28 +4461,6 @@
           "anilist": "https://anilist.co/anime/185773/",
           "mal": "https://myanimelist.net/anime/185773",
           "kitsu": "https://kitsu.io/anime/185773"
-        }
-      },
-      {
-        "id": 174914,
-        "title": "The Dark History of the Reincarnated Villainess",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx174914-RfPIqbrapByY.jpg",
-        "averageScore": null,
-        "episodes": null,
-        "status": "RELEASING",
-        "genres": [
-          "Comedy",
-          "Fantasy",
-          "Romance"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/174914/",
-          "mal": "https://myanimelist.net/anime/174914",
-          "kitsu": "https://kitsu.io/anime/174914"
         }
       },
       {
@@ -13189,6 +13146,27 @@
         }
       },
       {
+        "id": 180436,
+        "title": "Wandance",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx180436-KbHBZdUqLV1Q.png",
+        "averageScore": null,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Drama",
+          "Sports"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/180436/",
+          "mal": "https://myanimelist.net/anime/180436",
+          "kitsu": "https://kitsu.io/anime/180436"
+        }
+      },
+      {
         "id": 185575,
         "title": "My Awkward Senpai",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185575-moQeN8f5xRBv.jpg",
@@ -13229,6 +13207,28 @@
           "anilist": "https://anilist.co/anime/180523/",
           "mal": "https://myanimelist.net/anime/180523",
           "kitsu": "https://kitsu.io/anime/180523"
+        }
+      },
+      {
+        "id": 174914,
+        "title": "The Dark History of the Reincarnated Villainess",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx174914-RfPIqbrapByY.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/174914/",
+          "mal": "https://myanimelist.net/anime/174914",
+          "kitsu": "https://kitsu.io/anime/174914"
         }
       },
       {

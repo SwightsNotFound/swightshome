@@ -45435,6 +45435,22 @@
   ],
   "2025-10-09": [
     {
+      "id": 967237933,
+      "status": "rewatched episode",
+      "progress": "4",
+      "createdAt": 1759975205,
+      "media": {
+        "title": {
+          "english": "Horimiya",
+          "romaji": "Horimiya"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx124080-oeviACzGv5Vx.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/124080"
+      }
+    },
+    {
       "id": 967219881,
       "status": "rewatched episode",
       "progress": "3",

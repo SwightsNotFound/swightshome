@@ -45435,6 +45435,22 @@
   ],
   "2025-10-09": [
     {
+      "id": 967526302,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1760035210,
+      "media": {
+        "title": {
+          "english": "Star Wars: Visions",
+          "romaji": "Star Wars: Visions"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx138060-8G02wer2Lsxo.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/138060"
+      }
+    },
+    {
       "id": 967523487,
       "status": "rewatched episode",
       "progress": "6",

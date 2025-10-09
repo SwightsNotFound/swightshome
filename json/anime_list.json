@@ -12598,6 +12598,28 @@
         }
       },
       {
+        "id": 138060,
+        "title": "Star Wars: Visions",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx138060-8G02wer2Lsxo.jpg",
+        "averageScore": 71,
+        "episodes": 9,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "format": "ONA",
+        "country": "JP",
+        "personalScore": 7,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/138060/",
+          "mal": "https://myanimelist.net/anime/138060",
+          "kitsu": "https://kitsu.io/anime/138060"
+        }
+      },
+      {
         "id": 169969,
         "title": "Hero Without a Class: Who Even Needs Skills?!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx169969-SqCjoqYT4A6Z.jpg",
@@ -13207,28 +13229,6 @@
           "anilist": "https://anilist.co/anime/174914/",
           "mal": "https://myanimelist.net/anime/174914",
           "kitsu": "https://kitsu.io/anime/174914"
-        }
-      },
-      {
-        "id": 138060,
-        "title": "Star Wars: Visions",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx138060-8G02wer2Lsxo.jpg",
-        "averageScore": 71,
-        "episodes": 9,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Sci-Fi"
-        ],
-        "format": "ONA",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/138060/",
-          "mal": "https://myanimelist.net/anime/138060",
-          "kitsu": "https://kitsu.io/anime/138060"
         }
       },
       {

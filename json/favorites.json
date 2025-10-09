@@ -178,6 +178,17 @@
         "siteUrl": "https://anilist.co/anime/106286"
       },
       {
+        "id": 4181,
+        "title": {
+          "romaji": "CLANNAD: After Story",
+          "english": "Clannad: After Story"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4181-zUKE7BZC62OF.png"
+        },
+        "siteUrl": "https://anilist.co/anime/4181"
+      },
+      {
         "id": 2167,
         "title": {
           "romaji": "CLANNAD",
@@ -253,17 +264,6 @@
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181444-Ut9DDUZdfHwg.jpg"
         },
         "siteUrl": "https://anilist.co/anime/181444"
-      },
-      {
-        "id": 4181,
-        "title": {
-          "romaji": "CLANNAD: After Story",
-          "english": "Clannad: After Story"
-        },
-        "coverImage": {
-          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4181-zUKE7BZC62OF.png"
-        },
-        "siteUrl": "https://anilist.co/anime/4181"
       }
     ]
   },
@@ -290,17 +290,6 @@
           "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx56736-qYpc12PAQMxi.jpg"
         },
         "siteUrl": "https://anilist.co/manga/56736"
-      },
-      {
-        "id": 117620,
-        "title": {
-          "romaji": "Kimi to Tsuzuru Utakata",
-          "english": "The Summer You Were There"
-        },
-        "coverImage": {
-          "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx117620-cyvy8nO9GLm8.jpg"
-        },
-        "siteUrl": "https://anilist.co/manga/117620"
       },
       {
         "id": 44236,

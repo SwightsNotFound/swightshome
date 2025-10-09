@@ -5177,6 +5177,29 @@
         }
       },
       {
+        "id": 166873,
+        "title": "Mushoku Tensei: Jobless Reincarnation Season 2 Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166873-xO0BRPkmwFll.png",
+        "averageScore": 83,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Ecchi",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 10,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/166873/",
+          "mal": "https://myanimelist.net/anime/166873",
+          "kitsu": "https://kitsu.io/anime/166873"
+        }
+      },
+      {
         "id": 181444,
         "title": "The Fragrant Flower Blooms With Dignity",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx181444-Ut9DDUZdfHwg.jpg",
@@ -5491,28 +5514,6 @@
           "anilist": "https://anilist.co/anime/130003/",
           "mal": "https://myanimelist.net/anime/130003",
           "kitsu": "https://kitsu.io/anime/130003"
-        }
-      },
-      {
-        "id": 124080,
-        "title": "Horimiya",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124080-oeviACzGv5Vx.jpg",
-        "averageScore": 81,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.7,
-        "progress": 13,
-        "links": {
-          "anilist": "https://anilist.co/anime/124080/",
-          "mal": "https://myanimelist.net/anime/124080",
-          "kitsu": "https://kitsu.io/anime/124080"
         }
       },
       {
@@ -13442,29 +13443,6 @@
     "name": "Rewatching",
     "entries": [
       {
-        "id": 166873,
-        "title": "Mushoku Tensei: Jobless Reincarnation Season 2 Part 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166873-xO0BRPkmwFll.png",
-        "averageScore": 83,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Ecchi",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 10,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/166873/",
-          "mal": "https://myanimelist.net/anime/166873",
-          "kitsu": "https://kitsu.io/anime/166873"
-        }
-      },
-      {
         "id": 20665,
         "title": "Your lie in April",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20665-TLgkL8T8IRFd.png",
@@ -13506,6 +13484,28 @@
           "anilist": "https://anilist.co/anime/161645/",
           "mal": "https://myanimelist.net/anime/161645",
           "kitsu": "https://kitsu.io/anime/161645"
+        }
+      },
+      {
+        "id": 124080,
+        "title": "Horimiya",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124080-oeviACzGv5Vx.jpg",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.7,
+        "progress": 3,
+        "links": {
+          "anilist": "https://anilist.co/anime/124080/",
+          "mal": "https://myanimelist.net/anime/124080",
+          "kitsu": "https://kitsu.io/anime/124080"
         }
       },
       {

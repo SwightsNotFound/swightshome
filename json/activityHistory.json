@@ -45435,6 +45435,54 @@
   ],
   "2025-10-09": [
     {
+      "id": 967582925,
+      "status": "watched episode",
+      "progress": "3",
+      "createdAt": 1760044023,
+      "media": {
+        "title": {
+          "english": "Star Wars: Visions",
+          "romaji": "Star Wars: Visions"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx138060-8G02wer2Lsxo.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/138060"
+      }
+    },
+    {
+      "id": 967570158,
+      "status": "rewatched episode",
+      "progress": "8",
+      "createdAt": 1760042026,
+      "media": {
+        "title": {
+          "english": "Horimiya",
+          "romaji": "Horimiya"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx124080-oeviACzGv5Vx.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/124080"
+      }
+    },
+    {
+      "id": 967570068,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1760042007,
+      "media": {
+        "title": {
+          "english": "Star Wars: Visions",
+          "romaji": "Star Wars: Visions"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx138060-8G02wer2Lsxo.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/138060"
+      }
+    },
+    {
       "id": 967565980,
       "status": "rewatched episode",
       "progress": "8",

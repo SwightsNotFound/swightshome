@@ -45725,6 +45725,38 @@
   ],
   "2025-10-10": [
     {
+      "id": 968034472,
+      "status": "watched episode",
+      "progress": "12",
+      "createdAt": 1760133883,
+      "media": {
+        "title": {
+          "english": "Code Geass: Lelouch of the Rebellion",
+          "romaji": "Code Geass: Hangyaku no Lelouch"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1575-hsmWM2ydNm1m.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/1575"
+      }
+    },
+    {
+      "id": 968019687,
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1760131511,
+      "media": {
+        "title": {
+          "english": "Code Geass: Lelouch of the Rebellion",
+          "romaji": "Code Geass: Hangyaku no Lelouch"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1575-hsmWM2ydNm1m.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/1575"
+      }
+    },
+    {
       "id": 967987057,
       "status": "watched episode",
       "progress": "10",

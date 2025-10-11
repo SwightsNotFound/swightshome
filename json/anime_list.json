@@ -4428,12 +4428,12 @@
       {
         "id": 198188,
         "title": "Tatsuki Fujimoto 17-26",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx198188-mlScDGb4cucY.jpg",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx198188-h3w6uICVNhqh.png",
         "averageScore": null,
         "episodes": 8,
         "status": "NOT_YET_RELEASED",
         "genres": [],
-        "format": "ONA",
+        "format": "MOVIE",
         "country": "JP",
         "personalScore": 0,
         "progress": 0,
@@ -5421,6 +5421,30 @@
           "anilist": "https://anilist.co/anime/5114/",
           "mal": "https://myanimelist.net/anime/5114",
           "kitsu": "https://kitsu.io/anime/5114"
+        }
+      },
+      {
+        "id": 1575,
+        "title": "Code Geass: Lelouch of the Rebellion",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1575-hsmWM2ydNm1m.jpg",
+        "averageScore": 85,
+        "episodes": 25,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Mecha",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 25,
+        "links": {
+          "anilist": "https://anilist.co/anime/1575/",
+          "mal": "https://myanimelist.net/anime/1575",
+          "kitsu": "https://kitsu.io/anime/1575"
         }
       },
       {
@@ -13344,10 +13368,10 @@
         }
       },
       {
-        "id": 1575,
-        "title": "Code Geass: Lelouch of the Rebellion",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1575-hsmWM2ydNm1m.jpg",
-        "averageScore": 85,
+        "id": 2904,
+        "title": "Code Geass: Lelouch of the Rebellion R2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2904-Fet9Q33suC7G.jpg",
+        "averageScore": 87,
         "episodes": 25,
         "status": "FINISHED",
         "genres": [
@@ -13360,11 +13384,11 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 23,
+        "progress": 0,
         "links": {
-          "anilist": "https://anilist.co/anime/1575/",
-          "mal": "https://myanimelist.net/anime/1575",
-          "kitsu": "https://kitsu.io/anime/1575"
+          "anilist": "https://anilist.co/anime/2904/",
+          "mal": "https://myanimelist.net/anime/2904",
+          "kitsu": "https://kitsu.io/anime/2904"
         }
       }
     ]

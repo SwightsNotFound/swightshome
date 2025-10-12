@@ -2769,29 +2769,6 @@
         }
       },
       {
-        "id": 153800,
-        "title": "One-Punch Man Season 3",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx153800-8SpzdHOaZCoU.jpg",
-        "averageScore": null,
-        "episodes": null,
-        "status": "NOT_YET_RELEASED",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Sci-Fi",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/153800/",
-          "mal": "https://myanimelist.net/anime/153800",
-          "kitsu": "https://kitsu.io/anime/153800"
-        }
-      },
-      {
         "id": 187940,
         "title": "Inexpressive Kashiwada and Expressive Oota",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx187940-3ugUhO9h0luh.jpg",
@@ -9320,7 +9297,7 @@
         "id": 4059,
         "title": "Clannad: Another World, Tomoyo Chapter",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b4059-mrA0Wky7bTgz.jpg",
-        "averageScore": 77,
+        "averageScore": 76,
         "episodes": 1,
         "status": "FINISHED",
         "genres": [
@@ -9342,7 +9319,7 @@
         "id": 587,
         "title": "Looking Up at the Half-Moon",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx587-Y2r6jh7QNccg.png",
-        "averageScore": 70,
+        "averageScore": 69,
         "episodes": 6,
         "status": "FINISHED",
         "genres": [
@@ -10340,7 +10317,7 @@
         "id": 130592,
         "title": "The Devil is a Part-Timer! Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx130592-LAUlhx15mxQu.jpg",
-        "averageScore": 66,
+        "averageScore": 65,
         "episodes": 12,
         "status": "FINISHED",
         "genres": [
@@ -12943,6 +12920,29 @@
         }
       },
       {
+        "id": 153800,
+        "title": "One-Punch Man Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx153800-8SpzdHOaZCoU.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Sci-Fi",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/153800/",
+          "mal": "https://myanimelist.net/anime/153800",
+          "kitsu": "https://kitsu.io/anime/153800"
+        }
+      },
+      {
         "id": 179966,
         "title": "Secrets of the Silent Witch",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx179966-g0EU7rVe2Og7.jpg",
@@ -13390,6 +13390,29 @@
           "mal": "https://myanimelist.net/anime/2904",
           "kitsu": "https://kitsu.io/anime/2904"
         }
+      },
+      {
+        "id": 100049,
+        "title": "Re:ZERO -Starting Life in Another World- OVAs",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100049-mgvPLctBJprp.jpg",
+        "averageScore": 76,
+        "episodes": 2,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Fantasy",
+          "Psychological"
+        ],
+        "format": "OVA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/100049/",
+          "mal": "https://myanimelist.net/anime/100049",
+          "kitsu": "https://kitsu.io/anime/100049"
+        }
       }
     ]
   },
@@ -13642,7 +13665,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 5,
+        "progress": 6,
         "links": {
           "anilist": "https://anilist.co/anime/21355/",
           "mal": "https://myanimelist.net/anime/21355",

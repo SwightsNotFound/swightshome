@@ -13622,6 +13622,32 @@
           "mal": "https://myanimelist.net/anime/21856",
           "kitsu": "https://kitsu.io/anime/21856"
         }
+      },
+      {
+        "id": 21355,
+        "title": "Re:ZERO -Starting Life in Another World-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21355-wRVUrGxpvIQQ.jpg",
+        "averageScore": 81,
+        "episodes": 25,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Psychological",
+          "Romance",
+          "Thriller"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 2,
+        "links": {
+          "anilist": "https://anilist.co/anime/21355/",
+          "mal": "https://myanimelist.net/anime/21355",
+          "kitsu": "https://kitsu.io/anime/21355"
+        }
       }
     ]
   },
@@ -13805,32 +13831,6 @@
           "anilist": "https://anilist.co/anime/20657/",
           "mal": "https://myanimelist.net/anime/20657",
           "kitsu": "https://kitsu.io/anime/20657"
-        }
-      },
-      {
-        "id": 21355,
-        "title": "Re:ZERO -Starting Life in Another World-",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21355-wRVUrGxpvIQQ.jpg",
-        "averageScore": 81,
-        "episodes": 25,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Drama",
-          "Fantasy",
-          "Psychological",
-          "Romance",
-          "Thriller"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 15,
-        "links": {
-          "anilist": "https://anilist.co/anime/21355/",
-          "mal": "https://myanimelist.net/anime/21355",
-          "kitsu": "https://kitsu.io/anime/21355"
         }
       },
       {

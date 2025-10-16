@@ -46870,5 +46870,39 @@
         "siteUrl": "https://anilist.co/anime/108632"
       }
     }
+  ],
+  "2025-10-16": [
+    {
+      "id": 970654995,
+      "status": "watched episode",
+      "progress": "5",
+      "createdAt": 1760623079,
+      "media": {
+        "title": {
+          "english": "Re:ZERO -Starting Life in Another World- Season 2 Part 2",
+          "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx119661-GDbUZxrZMz01.png"
+        },
+        "siteUrl": "https://anilist.co/anime/119661"
+      }
+    },
+    {
+      "id": 970654990,
+      "status": "watched episode",
+      "progress": "4",
+      "createdAt": 1760623078,
+      "media": {
+        "title": {
+          "english": "Re:ZERO -Starting Life in Another World- Season 2 Part 2",
+          "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx119661-GDbUZxrZMz01.png"
+        },
+        "siteUrl": "https://anilist.co/anime/119661"
+      }
+    }
   ]
 }

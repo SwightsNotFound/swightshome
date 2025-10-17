@@ -46987,6 +46987,22 @@
   ],
   "2025-10-17": [
     {
+      "id": 971068194,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1760710599,
+      "media": {
+        "title": {
+          "english": "Re:ZERO -Starting Life in Another World- Season 3",
+          "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx163134-yieRFbvUOH9a.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/163134"
+      }
+    },
+    {
       "id": 970881043,
       "status": "completed",
       "progress": null,

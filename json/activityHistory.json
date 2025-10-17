@@ -46987,6 +46987,70 @@
   ],
   "2025-10-17": [
     {
+      "id": 971163237,
+      "status": "watched episode",
+      "progress": "3",
+      "createdAt": 1760728220,
+      "media": {
+        "title": {
+          "english": "Re:ZERO -Starting Life in Another World- Season 3",
+          "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx163134-yieRFbvUOH9a.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/163134"
+      }
+    },
+    {
+      "id": 971163232,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1760728219,
+      "media": {
+        "title": {
+          "english": "Re:ZERO -Starting Life in Another World- Season 3",
+          "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx163134-yieRFbvUOH9a.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/163134"
+      }
+    },
+    {
+      "id": 971153305,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1760726544,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 3rd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx182417-zKlgy4KbGj1H.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/182417"
+      }
+    },
+    {
+      "id": 971153297,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1760726543,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 3rd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx182417-zKlgy4KbGj1H.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/182417"
+      }
+    },
+    {
       "id": 971068194,
       "status": "watched episode",
       "progress": "1",

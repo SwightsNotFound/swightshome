@@ -13510,11 +13510,33 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 1,
+        "progress": 3,
         "links": {
           "anilist": "https://anilist.co/anime/163134/",
           "mal": "https://myanimelist.net/anime/163134",
           "kitsu": "https://kitsu.io/anime/163134"
+        }
+      },
+      {
+        "id": 182417,
+        "title": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 3rd Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx182417-zKlgy4KbGj1H.jpg",
+        "averageScore": 68,
+        "episodes": 16,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "ONA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 2,
+        "links": {
+          "anilist": "https://anilist.co/anime/182417/",
+          "mal": "https://myanimelist.net/anime/182417",
+          "kitsu": "https://kitsu.io/anime/182417"
         }
       }
     ]

@@ -12718,6 +12718,28 @@
           "mal": "https://myanimelist.net/anime/97731",
           "kitsu": "https://kitsu.io/anime/97731"
         }
+      },
+      {
+        "id": 21780,
+        "title": "Re:ZERO ~Starting Break Time From Zero~",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/21780-xCJk0z5vpn57.jpg",
+        "averageScore": 64,
+        "episodes": 11,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "TV_SHORT",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 11,
+        "links": {
+          "anilist": "https://anilist.co/anime/21780/",
+          "mal": "https://myanimelist.net/anime/21780",
+          "kitsu": "https://kitsu.io/anime/21780"
+        }
       }
     ]
   },
@@ -13584,28 +13606,6 @@
           "anilist": "https://anilist.co/anime/182417/",
           "mal": "https://myanimelist.net/anime/182417",
           "kitsu": "https://kitsu.io/anime/182417"
-        }
-      },
-      {
-        "id": 21780,
-        "title": "Re:ZERO ~Starting Break Time From Zero~",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/21780-xCJk0z5vpn57.jpg",
-        "averageScore": 64,
-        "episodes": 11,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Comedy",
-          "Fantasy"
-        ],
-        "format": "TV_SHORT",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/21780/",
-          "mal": "https://myanimelist.net/anime/21780",
-          "kitsu": "https://kitsu.io/anime/21780"
         }
       }
     ]

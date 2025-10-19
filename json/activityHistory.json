@@ -47133,6 +47133,70 @@
   ],
   "2025-10-18": [
     {
+      "id": 971700889,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1760831665,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Kimi no Koto ga Dai Dai Dai Dai Daisuki na 100-nin no Kanojo 3rd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx200637-alzDzG5ErlXD.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/200637"
+      }
+    },
+    {
+      "id": 971700353,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1760831566,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx189046-CKwJev8mfpjE.png"
+        },
+        "siteUrl": "https://anilist.co/anime/189046"
+      }
+    },
+    {
+      "id": 971698573,
+      "status": "watched episode",
+      "progress": "15",
+      "createdAt": 1760831248,
+      "media": {
+        "title": {
+          "english": "Re:ZERO -Starting Life in Another World- Season 3",
+          "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx163134-yieRFbvUOH9a.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/163134"
+      }
+    },
+    {
+      "id": 971698572,
+      "status": "watched episode",
+      "progress": "15",
+      "createdAt": 1760831247,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 3rd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx182417-zKlgy4KbGj1H.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/182417"
+      }
+    },
+    {
       "id": 971658064,
       "status": "watched episode",
       "progress": "14",
@@ -47473,6 +47537,24 @@
       "status": "watched episode",
       "progress": "4",
       "createdAt": 1760794471,
+      "media": {
+        "title": {
+          "english": "Re:ZERO -Starting Life in Another World- Season 3",
+          "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx163134-yieRFbvUOH9a.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/163134"
+      }
+    }
+  ],
+  "2025-10-19": [
+    {
+      "id": 971719243,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1760834914,
       "media": {
         "title": {
           "english": "Re:ZERO -Starting Life in Another World- Season 3",

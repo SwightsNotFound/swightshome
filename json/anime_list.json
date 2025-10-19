@@ -5010,6 +5010,53 @@
           "mal": "https://myanimelist.net/anime/7785",
           "kitsu": "https://kitsu.io/anime/7785"
         }
+      },
+      {
+        "id": 189046,
+        "title": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx189046-CKwJev8mfpjE.png",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Psychological",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/189046/",
+          "mal": "https://myanimelist.net/anime/189046",
+          "kitsu": "https://kitsu.io/anime/189046"
+        }
+      },
+      {
+        "id": 200637,
+        "title": "Kimi no Koto ga Dai Dai Dai Dai Daisuki na 100-nin no Kanojo 3rd Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx200637-alzDzG5ErlXD.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Comedy",
+          "Ecchi",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/200637/",
+          "mal": "https://myanimelist.net/anime/200637",
+          "kitsu": "https://kitsu.io/anime/200637"
+        }
       }
     ]
   },
@@ -5662,6 +5709,32 @@
           "anilist": "https://anilist.co/anime/108632/",
           "mal": "https://myanimelist.net/anime/108632",
           "kitsu": "https://kitsu.io/anime/108632"
+        }
+      },
+      {
+        "id": 163134,
+        "title": "Re:ZERO -Starting Life in Another World- Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163134-yieRFbvUOH9a.jpg",
+        "averageScore": 84,
+        "episodes": 16,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Psychological",
+          "Romance",
+          "Thriller"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.7,
+        "progress": 16,
+        "links": {
+          "anilist": "https://anilist.co/anime/163134/",
+          "mal": "https://myanimelist.net/anime/163134",
+          "kitsu": "https://kitsu.io/anime/163134"
         }
       },
       {
@@ -13492,32 +13565,6 @@
         }
       },
       {
-        "id": 163134,
-        "title": "Re:ZERO -Starting Life in Another World- Season 3",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163134-yieRFbvUOH9a.jpg",
-        "averageScore": 84,
-        "episodes": 16,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Drama",
-          "Fantasy",
-          "Psychological",
-          "Romance",
-          "Thriller"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 14,
-        "links": {
-          "anilist": "https://anilist.co/anime/163134/",
-          "mal": "https://myanimelist.net/anime/163134",
-          "kitsu": "https://kitsu.io/anime/163134"
-        }
-      },
-      {
         "id": 182417,
         "title": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 3rd Season",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx182417-zKlgy4KbGj1H.jpg",
@@ -13532,11 +13579,33 @@
         "format": "ONA",
         "country": "JP",
         "personalScore": 0,
-        "progress": 14,
+        "progress": 15,
         "links": {
           "anilist": "https://anilist.co/anime/182417/",
           "mal": "https://myanimelist.net/anime/182417",
           "kitsu": "https://kitsu.io/anime/182417"
+        }
+      },
+      {
+        "id": 21780,
+        "title": "Re:ZERO ~Starting Break Time From Zero~",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/21780-xCJk0z5vpn57.jpg",
+        "averageScore": 64,
+        "episodes": 11,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "TV_SHORT",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/21780/",
+          "mal": "https://myanimelist.net/anime/21780",
+          "kitsu": "https://kitsu.io/anime/21780"
         }
       }
     ]

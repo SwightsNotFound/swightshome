@@ -47551,6 +47551,38 @@
   ],
   "2025-10-19": [
     {
+      "id": 972137917,
+      "status": "rewatched episode",
+      "progress": "6",
+      "createdAt": 1760908486,
+      "media": {
+        "title": {
+          "english": "Steins;Gate",
+          "romaji": "Steins;Gate"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9253-tIUXF2gfU8Sg.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/9253"
+      }
+    },
+    {
+      "id": 972123169,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1760906611,
+      "media": {
+        "title": {
+          "english": "Steins;Gate",
+          "romaji": "Steins;Gate"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9253-tIUXF2gfU8Sg.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/9253"
+      }
+    },
+    {
       "id": 972102228,
       "status": "rewatched episode",
       "progress": "3",

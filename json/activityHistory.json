@@ -47873,6 +47873,150 @@
   ],
   "2025-10-20": [
     {
+      "id": 972642331,
+      "status": "rewatched episode",
+      "progress": "2",
+      "createdAt": 1760998663,
+      "media": {
+        "title": {
+          "english": "Steins;Gate 0",
+          "romaji": "Steins;Gate 0"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21127-7ARWZkDXKiiD.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/21127"
+      }
+    },
+    {
+      "id": 972642316,
+      "status": "rewatched episode",
+      "progress": "10",
+      "createdAt": 1760998660,
+      "media": {
+        "title": {
+          "english": "JUJUTSU KAISEN",
+          "romaji": "Jujutsu Kaisen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-LHBAeoZDIsnF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113415"
+      }
+    },
+    {
+      "id": 972642313,
+      "status": "rewatched episode",
+      "progress": "9",
+      "createdAt": 1760998659,
+      "media": {
+        "title": {
+          "english": "JUJUTSU KAISEN",
+          "romaji": "Jujutsu Kaisen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-LHBAeoZDIsnF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113415"
+      }
+    },
+    {
+      "id": 972642307,
+      "status": "rewatched episode",
+      "progress": "8",
+      "createdAt": 1760998659,
+      "media": {
+        "title": {
+          "english": "JUJUTSU KAISEN",
+          "romaji": "Jujutsu Kaisen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-LHBAeoZDIsnF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113415"
+      }
+    },
+    {
+      "id": 972642300,
+      "status": "rewatched episode",
+      "progress": "7",
+      "createdAt": 1760998658,
+      "media": {
+        "title": {
+          "english": "JUJUTSU KAISEN",
+          "romaji": "Jujutsu Kaisen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-LHBAeoZDIsnF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113415"
+      }
+    },
+    {
+      "id": 972642291,
+      "status": "rewatched episode",
+      "progress": "6",
+      "createdAt": 1760998657,
+      "media": {
+        "title": {
+          "english": "JUJUTSU KAISEN",
+          "romaji": "Jujutsu Kaisen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-LHBAeoZDIsnF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113415"
+      }
+    },
+    {
+      "id": 972642285,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1760998656,
+      "media": {
+        "title": {
+          "english": "JUJUTSU KAISEN",
+          "romaji": "Jujutsu Kaisen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-LHBAeoZDIsnF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113415"
+      }
+    },
+    {
+      "id": 972642279,
+      "status": "rewatched episode",
+      "progress": "4",
+      "createdAt": 1760998655,
+      "media": {
+        "title": {
+          "english": "JUJUTSU KAISEN",
+          "romaji": "Jujutsu Kaisen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-LHBAeoZDIsnF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113415"
+      }
+    },
+    {
+      "id": 972642270,
+      "status": "rewatched episode",
+      "progress": "3",
+      "createdAt": 1760998654,
+      "media": {
+        "title": {
+          "english": "JUJUTSU KAISEN",
+          "romaji": "Jujutsu Kaisen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-LHBAeoZDIsnF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113415"
+      }
+    },
+    {
       "id": 972581866,
       "status": "completed",
       "progress": null,

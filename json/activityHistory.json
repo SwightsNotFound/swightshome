@@ -47873,6 +47873,22 @@
   ],
   "2025-10-20": [
     {
+      "id": 972566220,
+      "status": "rewatched episode",
+      "progress": "1",
+      "createdAt": 1760987227,
+      "media": {
+        "title": {
+          "english": "Steins;Gate 0",
+          "romaji": "Steins;Gate 0"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21127-7ARWZkDXKiiD.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/21127"
+      }
+    },
+    {
       "id": 972537565,
       "status": "completed",
       "progress": null,

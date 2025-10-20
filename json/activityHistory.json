@@ -47873,6 +47873,22 @@
   ],
   "2025-10-20": [
     {
+      "id": 972505714,
+      "status": "rewatched episode",
+      "progress": "23",
+      "createdAt": 1760977875,
+      "media": {
+        "title": {
+          "english": "Steins;Gate",
+          "romaji": "Steins;Gate"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9253-tIUXF2gfU8Sg.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/9253"
+      }
+    },
+    {
       "id": 972493250,
       "status": "rewatched episode",
       "progress": "22",

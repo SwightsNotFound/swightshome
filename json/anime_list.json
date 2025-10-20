@@ -9264,6 +9264,29 @@
         }
       },
       {
+        "id": 21624,
+        "title": "Steins;Gate 0: 23β -Divide by Zero-",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21624-szbmwyC3sJos.jpg",
+        "averageScore": 81,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "format": "OVA",
+        "country": "JP",
+        "personalScore": 7.5,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/21624/",
+          "mal": "https://myanimelist.net/anime/21624",
+          "kitsu": "https://kitsu.io/anime/21624"
+        }
+      },
+      {
         "id": 110547,
         "title": "Arte",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx110547-Jo4VNdR3DlOx.jpg",
@@ -12996,29 +13019,6 @@
           "anilist": "https://anilist.co/anime/179998/",
           "mal": "https://myanimelist.net/anime/179998",
           "kitsu": "https://kitsu.io/anime/179998"
-        }
-      },
-      {
-        "id": 21624,
-        "title": "Steins;Gate 0: 23β -Divide by Zero-",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21624-szbmwyC3sJos.jpg",
-        "averageScore": 81,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Psychological",
-          "Sci-Fi",
-          "Thriller"
-        ],
-        "format": "OVA",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/21624/",
-          "mal": "https://myanimelist.net/anime/21624",
-          "kitsu": "https://kitsu.io/anime/21624"
         }
       },
       {

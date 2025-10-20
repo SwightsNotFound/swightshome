@@ -2283,28 +2283,6 @@
         }
       },
       {
-        "id": 10863,
-        "title": "Steins;Gate: Egoistic Poriomania",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10863-V6oW2kN8bBYf.png",
-        "averageScore": 80,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Romance",
-          "Sci-Fi"
-        ],
-        "format": "OVA",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/10863/",
-          "mal": "https://myanimelist.net/anime/10863",
-          "kitsu": "https://kitsu.io/anime/10863"
-        }
-      },
-      {
         "id": 11577,
         "title": "Steins;Gate The Movie – Load Region of Déjà Vu",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11577-rhqsxLOAge4f.png",
@@ -5787,6 +5765,29 @@
         }
       },
       {
+        "id": 9253,
+        "title": "Steins;Gate",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9253-tIUXF2gfU8Sg.jpg",
+        "averageScore": 89,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.5,
+        "progress": 24,
+        "links": {
+          "anilist": "https://anilist.co/anime/9253/",
+          "mal": "https://myanimelist.net/anime/9253",
+          "kitsu": "https://kitsu.io/anime/9253"
+        }
+      },
+      {
         "id": 101347,
         "title": "Dororo",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101347-TGaDwEYqLfm1.jpg",
@@ -6333,29 +6334,6 @@
         }
       },
       {
-        "id": 21127,
-        "title": "Steins;Gate 0",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21127-7ARWZkDXKiiD.jpg",
-        "averageScore": 84,
-        "episodes": 23,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Psychological",
-          "Sci-Fi",
-          "Thriller"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 23,
-        "links": {
-          "anilist": "https://anilist.co/anime/21127/",
-          "mal": "https://myanimelist.net/anime/21127",
-          "kitsu": "https://kitsu.io/anime/21127"
-        }
-      },
-      {
         "id": 104157,
         "title": "Rascal Does Not Dream of a Dreaming Girl",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104157-rk99XI56PaIC.jpg",
@@ -6510,6 +6488,28 @@
           "anilist": "https://anilist.co/anime/113936/",
           "mal": "https://myanimelist.net/anime/113936",
           "kitsu": "https://kitsu.io/anime/113936"
+        }
+      },
+      {
+        "id": 10863,
+        "title": "Steins;Gate: Egoistic Poriomania",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10863-V6oW2kN8bBYf.png",
+        "averageScore": 80,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "format": "OVA",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/10863/",
+          "mal": "https://myanimelist.net/anime/10863",
+          "kitsu": "https://kitsu.io/anime/10863"
         }
       },
       {
@@ -13728,29 +13728,6 @@
         }
       },
       {
-        "id": 9253,
-        "title": "Steins;Gate",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9253-tIUXF2gfU8Sg.jpg",
-        "averageScore": 89,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Psychological",
-          "Sci-Fi",
-          "Thriller"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.5,
-        "progress": 23,
-        "links": {
-          "anilist": "https://anilist.co/anime/9253/",
-          "mal": "https://myanimelist.net/anime/9253",
-          "kitsu": "https://kitsu.io/anime/9253"
-        }
-      },
-      {
         "id": 113415,
         "title": "JUJUTSU KAISEN",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113415-LHBAeoZDIsnF.jpg",
@@ -13816,6 +13793,29 @@
           "anilist": "https://anilist.co/anime/21202/",
           "mal": "https://myanimelist.net/anime/21202",
           "kitsu": "https://kitsu.io/anime/21202"
+        }
+      },
+      {
+        "id": 21127,
+        "title": "Steins;Gate 0",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21127-7ARWZkDXKiiD.jpg",
+        "averageScore": 84,
+        "episodes": 23,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/21127/",
+          "mal": "https://myanimelist.net/anime/21127",
+          "kitsu": "https://kitsu.io/anime/21127"
         }
       },
       {

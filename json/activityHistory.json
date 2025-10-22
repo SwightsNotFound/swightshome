@@ -48354,5 +48354,135 @@
         "siteUrl": "https://anilist.co/anime/21127"
       }
     }
+  ],
+  "2025-10-22": [
+    {
+      "id": 973457109,
+      "status": "rewatched episode",
+      "progress": "4",
+      "createdAt": 1761162951,
+      "media": {
+        "title": {
+          "english": "Steins;Gate",
+          "romaji": "Steins;Gate"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9253-tIUXF2gfU8Sg.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/9253"
+      }
+    },
+    {
+      "id": 973457107,
+      "status": "rewatched episode",
+      "progress": "3",
+      "createdAt": 1761162950,
+      "media": {
+        "title": {
+          "english": "Steins;Gate",
+          "romaji": "Steins;Gate"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9253-tIUXF2gfU8Sg.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/9253"
+      }
+    },
+    {
+      "id": 973457104,
+      "status": "rewatched episode",
+      "progress": "2",
+      "createdAt": 1761162949,
+      "media": {
+        "title": {
+          "english": "Steins;Gate",
+          "romaji": "Steins;Gate"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9253-tIUXF2gfU8Sg.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/9253"
+      }
+    },
+    {
+      "id": 973457098,
+      "status": "rewatched episode",
+      "progress": "1",
+      "createdAt": 1761162948,
+      "media": {
+        "title": {
+          "english": "Steins;Gate",
+          "romaji": "Steins;Gate"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9253-tIUXF2gfU8Sg.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/9253"
+      }
+    },
+    {
+      "id": 973457011,
+      "status": "rewatched episode",
+      "progress": "14",
+      "createdAt": 1761162934,
+      "media": {
+        "title": {
+          "english": "JUJUTSU KAISEN",
+          "romaji": "Jujutsu Kaisen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-LHBAeoZDIsnF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113415"
+      }
+    },
+    {
+      "id": 973457001,
+      "status": "rewatched episode",
+      "progress": "13",
+      "createdAt": 1761162933,
+      "media": {
+        "title": {
+          "english": "JUJUTSU KAISEN",
+          "romaji": "Jujutsu Kaisen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-LHBAeoZDIsnF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113415"
+      }
+    },
+    {
+      "id": 973456991,
+      "status": "rewatched episode",
+      "progress": "12",
+      "createdAt": 1761162932,
+      "media": {
+        "title": {
+          "english": "JUJUTSU KAISEN",
+          "romaji": "Jujutsu Kaisen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-LHBAeoZDIsnF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113415"
+      }
+    },
+    {
+      "id": 973456986,
+      "status": "rewatched episode",
+      "progress": "11",
+      "createdAt": 1761162931,
+      "media": {
+        "title": {
+          "english": "JUJUTSU KAISEN",
+          "romaji": "Jujutsu Kaisen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-LHBAeoZDIsnF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113415"
+      }
+    }
   ]
 }

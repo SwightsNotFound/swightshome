@@ -48484,5 +48484,39 @@
         "siteUrl": "https://anilist.co/anime/113415"
       }
     }
+  ],
+  "2025-10-24": [
+    {
+      "id": 974288543,
+      "status": "rewatched episode",
+      "progress": "6",
+      "createdAt": 1761336931,
+      "media": {
+        "title": {
+          "english": "Steins;Gate 0",
+          "romaji": "Steins;Gate 0"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21127-7ARWZkDXKiiD.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/21127"
+      }
+    },
+    {
+      "id": 974288516,
+      "status": "rewatched episode",
+      "progress": "10",
+      "createdAt": 1761336927,
+      "media": {
+        "title": {
+          "english": "Horimiya",
+          "romaji": "Horimiya"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx124080-oeviACzGv5Vx.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/124080"
+      }
+    }
   ]
 }

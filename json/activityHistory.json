@@ -48763,6 +48763,22 @@
   ],
   "2025-10-26": [
     {
+      "id": 975207689,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1761510890,
+      "media": {
+        "title": {
+          "english": "Your Name.",
+          "romaji": "Kimi no Na wa."
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21519-SUo3ZQuCbYhJ.png"
+        },
+        "siteUrl": "https://anilist.co/anime/21519"
+      }
+    },
+    {
       "id": 974840162,
       "status": "rewatched",
       "progress": "23",

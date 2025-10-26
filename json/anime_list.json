@@ -2283,29 +2283,6 @@
         }
       },
       {
-        "id": 11577,
-        "title": "Steins;Gate The Movie – Load Region of Déjà Vu",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11577-rhqsxLOAge4f.png",
-        "averageScore": 82,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Romance",
-          "Sci-Fi",
-          "Thriller"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/11577/",
-          "mal": "https://myanimelist.net/anime/11577",
-          "kitsu": "https://kitsu.io/anime/11577"
-        }
-      },
-      {
         "id": 104174,
         "title": "Steins;Gate 0: Valentine's of Crystal Polymorphism -Bittersweet Intermedio-",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104174-aoNLSSN6bT4L.png",
@@ -5812,6 +5789,29 @@
           "anilist": "https://anilist.co/anime/100049/",
           "mal": "https://myanimelist.net/anime/100049",
           "kitsu": "https://kitsu.io/anime/100049"
+        }
+      },
+      {
+        "id": 21127,
+        "title": "Steins;Gate 0",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21127-7ARWZkDXKiiD.jpg",
+        "averageScore": 84,
+        "episodes": 23,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.4,
+        "progress": 23,
+        "links": {
+          "anilist": "https://anilist.co/anime/21127/",
+          "mal": "https://myanimelist.net/anime/21127",
+          "kitsu": "https://kitsu.io/anime/21127"
         }
       },
       {
@@ -13001,6 +13001,29 @@
         }
       },
       {
+        "id": 11577,
+        "title": "Steins;Gate The Movie – Load Region of Déjà Vu",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11577-rhqsxLOAge4f.png",
+        "averageScore": 82,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/11577/",
+          "mal": "https://myanimelist.net/anime/11577",
+          "kitsu": "https://kitsu.io/anime/11577"
+        }
+      },
+      {
         "id": 189326,
         "title": "Toilet-Bound Hanako-kun Season 2 Part 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx189326-kaYdWFxyyYdx.jpg",
@@ -13730,28 +13753,6 @@
         }
       },
       {
-        "id": 113415,
-        "title": "JUJUTSU KAISEN",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113415-LHBAeoZDIsnF.jpg",
-        "averageScore": 84,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.5,
-        "progress": 14,
-        "links": {
-          "anilist": "https://anilist.co/anime/113415/",
-          "mal": "https://myanimelist.net/anime/113415",
-          "kitsu": "https://kitsu.io/anime/113415"
-        }
-      },
-      {
         "id": 132405,
         "title": "My Dress-Up Darling",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx132405-qP7FQYGmNI3d.jpg",
@@ -13775,6 +13776,28 @@
         }
       },
       {
+        "id": 113415,
+        "title": "JUJUTSU KAISEN",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113415-LHBAeoZDIsnF.jpg",
+        "averageScore": 84,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.1,
+        "progress": 14,
+        "links": {
+          "anilist": "https://anilist.co/anime/113415/",
+          "mal": "https://myanimelist.net/anime/113415",
+          "kitsu": "https://kitsu.io/anime/113415"
+        }
+      },
+      {
         "id": 21202,
         "title": "KONOSUBA -God's blessing on this wonderful world!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21202-qQoJeKz76vRT.png",
@@ -13795,29 +13818,6 @@
           "anilist": "https://anilist.co/anime/21202/",
           "mal": "https://myanimelist.net/anime/21202",
           "kitsu": "https://kitsu.io/anime/21202"
-        }
-      },
-      {
-        "id": 21127,
-        "title": "Steins;Gate 0",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21127-7ARWZkDXKiiD.jpg",
-        "averageScore": 84,
-        "episodes": 23,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Psychological",
-          "Sci-Fi",
-          "Thriller"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 21,
-        "links": {
-          "anilist": "https://anilist.co/anime/21127/",
-          "mal": "https://myanimelist.net/anime/21127",
-          "kitsu": "https://kitsu.io/anime/21127"
         }
       },
       {

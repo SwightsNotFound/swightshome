@@ -48909,6 +48909,38 @@
   ],
   "2025-10-27": [
     {
+      "id": 975599001,
+      "status": "rewatched",
+      "progress": "12",
+      "createdAt": 1761584822,
+      "media": {
+        "title": {
+          "english": "Kaguya-sama: Love is War",
+          "romaji": "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101921-ufrjLzhSz7L1.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101921"
+      }
+    },
+    {
+      "id": 975589851,
+      "status": "rewatched episode",
+      "progress": "11",
+      "createdAt": 1761583277,
+      "media": {
+        "title": {
+          "english": "Kaguya-sama: Love is War",
+          "romaji": "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101921-ufrjLzhSz7L1.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101921"
+      }
+    },
+    {
       "id": 975574462,
       "status": "rewatched episode",
       "progress": "10",

@@ -5977,6 +5977,29 @@
         }
       },
       {
+        "id": 101921,
+        "title": "Kaguya-sama: Love is War",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101921-ufrjLzhSz7L1.jpg",
+        "averageScore": 83,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Psychological",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/101921/",
+          "mal": "https://myanimelist.net/anime/101921",
+          "kitsu": "https://kitsu.io/anime/101921"
+        }
+      },
+      {
         "id": 125367,
         "title": "Kaguya-sama: Love is War -Ultra Romantic-",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx125367-1yuq9NFcQuLI.png",
@@ -7623,29 +7646,6 @@
           "anilist": "https://anilist.co/anime/112443/",
           "mal": "https://myanimelist.net/anime/112443",
           "kitsu": "https://kitsu.io/anime/112443"
-        }
-      },
-      {
-        "id": 112641,
-        "title": "Kaguya-sama: Love is War?",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx112641-zoGC8d6FaPXU.jpg",
-        "averageScore": 86,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Psychological",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/112641/",
-          "mal": "https://myanimelist.net/anime/112641",
-          "kitsu": "https://kitsu.io/anime/112641"
         }
       },
       {
@@ -13820,10 +13820,10 @@
         }
       },
       {
-        "id": 101921,
-        "title": "Kaguya-sama: Love is War",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101921-ufrjLzhSz7L1.jpg",
-        "averageScore": 83,
+        "id": 112641,
+        "title": "Kaguya-sama: Love is War?",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx112641-zoGC8d6FaPXU.jpg",
+        "averageScore": 86,
         "episodes": 12,
         "status": "FINISHED",
         "genres": [
@@ -13835,11 +13835,11 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 8,
-        "progress": 10,
+        "progress": 0,
         "links": {
-          "anilist": "https://anilist.co/anime/101921/",
-          "mal": "https://myanimelist.net/anime/101921",
-          "kitsu": "https://kitsu.io/anime/101921"
+          "anilist": "https://anilist.co/anime/112641/",
+          "mal": "https://myanimelist.net/anime/112641",
+          "kitsu": "https://kitsu.io/anime/112641"
         }
       }
     ]

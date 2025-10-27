@@ -5769,6 +5769,29 @@
         }
       },
       {
+        "id": 132405,
+        "title": "My Dress-Up Darling",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx132405-qP7FQYGmNI3d.jpg",
+        "averageScore": 80,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Ecchi",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.5,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/132405/",
+          "mal": "https://myanimelist.net/anime/132405",
+          "kitsu": "https://kitsu.io/anime/132405"
+        }
+      },
+      {
         "id": 100049,
         "title": "Re:ZERO -Starting Life in Another World- OVAs",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100049-mgvPLctBJprp.jpg",
@@ -7600,29 +7623,6 @@
           "anilist": "https://anilist.co/anime/112443/",
           "mal": "https://myanimelist.net/anime/112443",
           "kitsu": "https://kitsu.io/anime/112443"
-        }
-      },
-      {
-        "id": 101921,
-        "title": "Kaguya-sama: Love is War",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101921-ufrjLzhSz7L1.jpg",
-        "averageScore": 83,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Psychological",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/101921/",
-          "mal": "https://myanimelist.net/anime/101921",
-          "kitsu": "https://kitsu.io/anime/101921"
         }
       },
       {
@@ -13753,29 +13753,6 @@
         }
       },
       {
-        "id": 132405,
-        "title": "My Dress-Up Darling",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx132405-qP7FQYGmNI3d.jpg",
-        "averageScore": 80,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Ecchi",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.5,
-        "progress": 8,
-        "links": {
-          "anilist": "https://anilist.co/anime/132405/",
-          "mal": "https://myanimelist.net/anime/132405",
-          "kitsu": "https://kitsu.io/anime/132405"
-        }
-      },
-      {
         "id": 113415,
         "title": "JUJUTSU KAISEN",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113415-LHBAeoZDIsnF.jpg",
@@ -13840,6 +13817,29 @@
           "anilist": "https://anilist.co/anime/21856/",
           "mal": "https://myanimelist.net/anime/21856",
           "kitsu": "https://kitsu.io/anime/21856"
+        }
+      },
+      {
+        "id": 101921,
+        "title": "Kaguya-sama: Love is War",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101921-ufrjLzhSz7L1.jpg",
+        "averageScore": 83,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Psychological",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 2,
+        "links": {
+          "anilist": "https://anilist.co/anime/101921/",
+          "mal": "https://myanimelist.net/anime/101921",
+          "kitsu": "https://kitsu.io/anime/101921"
         }
       }
     ]

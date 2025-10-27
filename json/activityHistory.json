@@ -48906,5 +48906,103 @@
         "siteUrl": "https://anilist.co/anime/21127"
       }
     }
+  ],
+  "2025-10-27": [
+    {
+      "id": 975528020,
+      "status": "rewatched episode",
+      "progress": "8",
+      "createdAt": 1761571898,
+      "media": {
+        "title": {
+          "english": "Kaguya-sama: Love is War",
+          "romaji": "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101921-ufrjLzhSz7L1.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101921"
+      }
+    },
+    {
+      "id": 975528014,
+      "status": "rewatched episode",
+      "progress": "7",
+      "createdAt": 1761571897,
+      "media": {
+        "title": {
+          "english": "Kaguya-sama: Love is War",
+          "romaji": "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101921-ufrjLzhSz7L1.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101921"
+      }
+    },
+    {
+      "id": 975528010,
+      "status": "rewatched episode",
+      "progress": "6",
+      "createdAt": 1761571896,
+      "media": {
+        "title": {
+          "english": "Kaguya-sama: Love is War",
+          "romaji": "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101921-ufrjLzhSz7L1.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101921"
+      }
+    },
+    {
+      "id": 975528007,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1761571896,
+      "media": {
+        "title": {
+          "english": "Kaguya-sama: Love is War",
+          "romaji": "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101921-ufrjLzhSz7L1.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101921"
+      }
+    },
+    {
+      "id": 975528002,
+      "status": "rewatched episode",
+      "progress": "4",
+      "createdAt": 1761571895,
+      "media": {
+        "title": {
+          "english": "Kaguya-sama: Love is War",
+          "romaji": "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101921-ufrjLzhSz7L1.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101921"
+      }
+    },
+    {
+      "id": 975527998,
+      "status": "rewatched episode",
+      "progress": "3",
+      "createdAt": 1761571895,
+      "media": {
+        "title": {
+          "english": "Kaguya-sama: Love is War",
+          "romaji": "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101921-ufrjLzhSz7L1.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101921"
+      }
+    }
   ]
 }

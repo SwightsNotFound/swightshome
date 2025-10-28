@@ -49087,6 +49087,38 @@
   ],
   "2025-10-28": [
     {
+      "id": 976040849,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1761670027,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 3rd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx182417-zKlgy4KbGj1H.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/182417"
+      }
+    },
+    {
+      "id": 976040484,
+      "status": "rewatched",
+      "progress": "1",
+      "createdAt": 1761669954,
+      "media": {
+        "title": {
+          "english": "A Silent Voice",
+          "romaji": "Koe no Katachi"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20954-sYRfE5jQRtSB.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20954"
+      }
+    },
+    {
       "id": 975972025,
       "status": "completed",
       "progress": null,

@@ -49087,6 +49087,38 @@
   ],
   "2025-10-28": [
     {
+      "id": 976118738,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1761683006,
+      "media": {
+        "title": {
+          "english": "Violet Evergarden",
+          "romaji": "Violet Evergarden"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21827-ubzq619ZA2E9.png"
+        },
+        "siteUrl": "https://anilist.co/anime/21827"
+      }
+    },
+    {
+      "id": 976118733,
+      "status": "rewatched episode",
+      "progress": "4",
+      "createdAt": 1761683005,
+      "media": {
+        "title": {
+          "english": "Violet Evergarden",
+          "romaji": "Violet Evergarden"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21827-ubzq619ZA2E9.png"
+        },
+        "siteUrl": "https://anilist.co/anime/21827"
+      }
+    },
+    {
       "id": 976093786,
       "status": "rewatched episode",
       "progress": "3",

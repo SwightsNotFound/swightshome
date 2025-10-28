@@ -49087,6 +49087,22 @@
   ],
   "2025-10-28": [
     {
+      "id": 976135888,
+      "status": "rewatched",
+      "progress": "1",
+      "createdAt": 1761685674,
+      "media": {
+        "title": {
+          "english": "Violet Evergarden: Special",
+          "romaji": "Violet Evergarden: Kitto \"Ai\" wo Shiru Hi ga Kuru no Darou"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101432-NQSedsCDQ6dP.png"
+        },
+        "siteUrl": "https://anilist.co/anime/101432"
+      }
+    },
+    {
       "id": 976118738,
       "status": "rewatched episode",
       "progress": "5",

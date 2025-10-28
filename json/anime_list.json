@@ -5863,6 +5863,29 @@
         }
       },
       {
+        "id": 101432,
+        "title": "Violet Evergarden: Special",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101432-NQSedsCDQ6dP.png",
+        "averageScore": 82,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "OVA",
+        "country": "JP",
+        "personalScore": 9.1,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/101432/",
+          "mal": "https://myanimelist.net/anime/101432",
+          "kitsu": "https://kitsu.io/anime/101432"
+        }
+      },
+      {
         "id": 105333,
         "title": "Dr. STONE",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105333-GybuoSoOZfpH.jpg",
@@ -8072,29 +8095,6 @@
           "anilist": "https://anilist.co/anime/109190/",
           "mal": "https://myanimelist.net/anime/109190",
           "kitsu": "https://kitsu.io/anime/109190"
-        }
-      },
-      {
-        "id": 101432,
-        "title": "Violet Evergarden: Special",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101432-NQSedsCDQ6dP.png",
-        "averageScore": 82,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Fantasy",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "OVA",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/101432/",
-          "mal": "https://myanimelist.net/anime/101432",
-          "kitsu": "https://kitsu.io/anime/101432"
         }
       },
       {

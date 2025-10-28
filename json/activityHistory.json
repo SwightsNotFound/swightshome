@@ -49087,6 +49087,22 @@
   ],
   "2025-10-28": [
     {
+      "id": 976063555,
+      "status": "rewatched episode",
+      "progress": "1",
+      "createdAt": 1761673844,
+      "media": {
+        "title": {
+          "english": "Violet Evergarden",
+          "romaji": "Violet Evergarden"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21827-ubzq619ZA2E9.png"
+        },
+        "siteUrl": "https://anilist.co/anime/21827"
+      }
+    },
+    {
       "id": 976040849,
       "status": "completed",
       "progress": null,

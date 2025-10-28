@@ -6515,6 +6515,29 @@
         }
       },
       {
+        "id": 11577,
+        "title": "Steins;Gate The Movie – Load Region of Déjà Vu",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11577-rhqsxLOAge4f.png",
+        "averageScore": 82,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/11577/",
+          "mal": "https://myanimelist.net/anime/11577",
+          "kitsu": "https://kitsu.io/anime/11577"
+        }
+      },
+      {
         "id": 178788,
         "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178788-zm3gtpB9TpRt.jpg",
@@ -12998,29 +13021,6 @@
           "anilist": "https://anilist.co/anime/179998/",
           "mal": "https://myanimelist.net/anime/179998",
           "kitsu": "https://kitsu.io/anime/179998"
-        }
-      },
-      {
-        "id": 11577,
-        "title": "Steins;Gate The Movie – Load Region of Déjà Vu",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11577-rhqsxLOAge4f.png",
-        "averageScore": 82,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Romance",
-          "Sci-Fi",
-          "Thriller"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/11577/",
-          "mal": "https://myanimelist.net/anime/11577",
-          "kitsu": "https://kitsu.io/anime/11577"
         }
       },
       {

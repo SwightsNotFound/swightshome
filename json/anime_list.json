@@ -6113,6 +6113,29 @@
         }
       },
       {
+        "id": 21202,
+        "title": "KONOSUBA -God's blessing on this wonderful world!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21202-qQoJeKz76vRT.png",
+        "averageScore": 79,
+        "episodes": 10,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Ecchi",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 10,
+        "links": {
+          "anilist": "https://anilist.co/anime/21202/",
+          "mal": "https://myanimelist.net/anime/21202",
+          "kitsu": "https://kitsu.io/anime/21202"
+        }
+      },
+      {
         "id": 99457,
         "title": "Maquia: When the Promised Flower Blooms",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99457-OD0xtM8NlHNQ.png",
@@ -6671,29 +6694,6 @@
           "anilist": "https://anilist.co/anime/17895/",
           "mal": "https://myanimelist.net/anime/17895",
           "kitsu": "https://kitsu.io/anime/17895"
-        }
-      },
-      {
-        "id": 21699,
-        "title": "KONOSUBA -God's blessing on this wonderful world! 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21699-Fkbnkl9ZC6fW.png",
-        "averageScore": 81,
-        "episodes": 10,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Comedy",
-          "Ecchi",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 10,
-        "links": {
-          "anilist": "https://anilist.co/anime/21699/",
-          "mal": "https://myanimelist.net/anime/21699",
-          "kitsu": "https://kitsu.io/anime/21699"
         }
       },
       {
@@ -7744,7 +7744,7 @@
         "id": 98033,
         "title": "Kamisama Hajimemashita: Kamisama, Shiawase ni Naru",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98033-eYXBKsmDhTUD.png",
-        "averageScore": 81,
+        "averageScore": 80,
         "episodes": 1,
         "status": "FINISHED",
         "genres": [
@@ -13775,10 +13775,10 @@
         }
       },
       {
-        "id": 21202,
-        "title": "KONOSUBA -God's blessing on this wonderful world!",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21202-qQoJeKz76vRT.png",
-        "averageScore": 79,
+        "id": 21699,
+        "title": "KONOSUBA -God's blessing on this wonderful world! 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21699-Fkbnkl9ZC6fW.png",
+        "averageScore": 81,
         "episodes": 10,
         "status": "FINISHED",
         "genres": [
@@ -13790,11 +13790,11 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 6,
+        "progress": 1,
         "links": {
-          "anilist": "https://anilist.co/anime/21202/",
-          "mal": "https://myanimelist.net/anime/21202",
-          "kitsu": "https://kitsu.io/anime/21202"
+          "anilist": "https://anilist.co/anime/21699/",
+          "mal": "https://myanimelist.net/anime/21699",
+          "kitsu": "https://kitsu.io/anime/21699"
         }
       },
       {

@@ -5292,6 +5292,28 @@
         }
       },
       {
+        "id": 21827,
+        "title": "Violet Evergarden",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21827-ubzq619ZA2E9.png",
+        "averageScore": 85,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/21827/",
+          "mal": "https://myanimelist.net/anime/21827",
+          "kitsu": "https://kitsu.io/anime/21827"
+        }
+      },
+      {
         "id": 146065,
         "title": "Mushoku Tensei: Jobless Reincarnation Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146065-IjirxRK26O03.png",
@@ -13683,28 +13705,6 @@
           "anilist": "https://anilist.co/anime/161645/",
           "mal": "https://myanimelist.net/anime/161645",
           "kitsu": "https://kitsu.io/anime/161645"
-        }
-      },
-      {
-        "id": 21827,
-        "title": "Violet Evergarden",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21827-ubzq619ZA2E9.png",
-        "averageScore": 85,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Fantasy",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.9,
-        "progress": 10,
-        "links": {
-          "anilist": "https://anilist.co/anime/21827/",
-          "mal": "https://myanimelist.net/anime/21827",
-          "kitsu": "https://kitsu.io/anime/21827"
         }
       },
       {

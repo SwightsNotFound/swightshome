@@ -49313,6 +49313,22 @@
   ],
   "2025-10-29": [
     {
+      "id": 976431329,
+      "status": "rewatched",
+      "progress": "1",
+      "createdAt": 1761747985,
+      "media": {
+        "title": {
+          "english": "Violet Evergarden: the Movie",
+          "romaji": "Violet Evergarden Movie"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx103047-odblDHHEdehK.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/103047"
+      }
+    },
+    {
       "id": 976257032,
       "status": "rewatched",
       "progress": "13",

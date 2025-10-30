@@ -49313,6 +49313,22 @@
   ],
   "2025-10-29": [
     {
+      "id": 976620359,
+      "status": "rewatched episode",
+      "progress": "2",
+      "createdAt": 1761781288,
+      "media": {
+        "title": {
+          "english": "KONOSUBA -God's blessing on this wonderful world! 2",
+          "romaji": "Kono Subarashii Sekai ni Shukufuku wo! 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21699-Fkbnkl9ZC6fW.png"
+        },
+        "siteUrl": "https://anilist.co/anime/21699"
+      }
+    },
+    {
       "id": 976612351,
       "status": "rewatched episode",
       "progress": "1",
@@ -49470,6 +49486,56 @@
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21827-ubzq619ZA2E9.png"
         },
         "siteUrl": "https://anilist.co/anime/21827"
+      }
+    }
+  ],
+  "2025-10-30": [
+    {
+      "id": 976647153,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1761786445,
+      "media": {
+        "title": {
+          "english": "KONOSUBA -God's blessing on this wonderful world! 2",
+          "romaji": "Kono Subarashii Sekai ni Shukufuku wo! 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21699-Fkbnkl9ZC6fW.png"
+        },
+        "siteUrl": "https://anilist.co/anime/21699"
+      }
+    },
+    {
+      "id": 976638406,
+      "status": "rewatched episode",
+      "progress": "4",
+      "createdAt": 1761784730,
+      "media": {
+        "title": {
+          "english": "KONOSUBA -God's blessing on this wonderful world! 2",
+          "romaji": "Kono Subarashii Sekai ni Shukufuku wo! 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21699-Fkbnkl9ZC6fW.png"
+        },
+        "siteUrl": "https://anilist.co/anime/21699"
+      }
+    },
+    {
+      "id": 976638387,
+      "status": "rewatched episode",
+      "progress": "3",
+      "createdAt": 1761784726,
+      "media": {
+        "title": {
+          "english": "KONOSUBA -God's blessing on this wonderful world! 2",
+          "romaji": "Kono Subarashii Sekai ni Shukufuku wo! 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21699-Fkbnkl9ZC6fW.png"
+        },
+        "siteUrl": "https://anilist.co/anime/21699"
       }
     }
   ]

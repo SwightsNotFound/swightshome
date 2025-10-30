@@ -6720,31 +6720,6 @@
         }
       },
       {
-        "id": 102976,
-        "title": "KONOSUBA -God's blessing on this wonderful world!- Legend of Crimson",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx102976-2Yi5icRbjukO.png",
-        "averageScore": 82,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Ecchi",
-          "Fantasy",
-          "Supernatural"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/102976/",
-          "mal": "https://myanimelist.net/anime/102976",
-          "kitsu": "https://kitsu.io/anime/102976"
-        }
-      },
-      {
         "id": 136804,
         "title": "KONOSUBA -God's blessing on this wonderful world! 3",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx136804-7FVftG67FPBc.jpg",
@@ -6788,6 +6763,28 @@
           "anilist": "https://anilist.co/anime/21574/",
           "mal": "https://myanimelist.net/anime/21574",
           "kitsu": "https://kitsu.io/anime/21574"
+        }
+      },
+      {
+        "id": 97996,
+        "title": "KONOSUBA -God's blessing on this wonderful world! 2: God's Blessings on These Wonderful Works of Art!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b97996-px2KGexuEZpg.jpg",
+        "averageScore": 78,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "OVA",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/97996/",
+          "mal": "https://myanimelist.net/anime/97996",
+          "kitsu": "https://kitsu.io/anime/97996"
         }
       },
       {
@@ -13631,28 +13628,6 @@
           "mal": "https://myanimelist.net/anime/2904",
           "kitsu": "https://kitsu.io/anime/2904"
         }
-      },
-      {
-        "id": 97996,
-        "title": "KONOSUBA -God's blessing on this wonderful world! 2: God's Blessings on These Wonderful Works of Art!",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b97996-px2KGexuEZpg.jpg",
-        "averageScore": 78,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Comedy",
-          "Fantasy"
-        ],
-        "format": "OVA",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/97996/",
-          "mal": "https://myanimelist.net/anime/97996",
-          "kitsu": "https://kitsu.io/anime/97996"
-        }
       }
     ]
   },
@@ -13839,6 +13814,31 @@
           "anilist": "https://anilist.co/anime/113415/",
           "mal": "https://myanimelist.net/anime/113415",
           "kitsu": "https://kitsu.io/anime/113415"
+        }
+      },
+      {
+        "id": 102976,
+        "title": "KONOSUBA -God's blessing on this wonderful world!- Legend of Crimson",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx102976-2Yi5icRbjukO.png",
+        "averageScore": 82,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Ecchi",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/102976/",
+          "mal": "https://myanimelist.net/anime/102976",
+          "kitsu": "https://kitsu.io/anime/102976"
         }
       },
       {

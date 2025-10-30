@@ -49491,6 +49491,22 @@
   ],
   "2025-10-30": [
     {
+      "id": 976931597,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1761850370,
+      "media": {
+        "title": {
+          "english": "KONOSUBA -God's blessing on this wonderful world! 2: God's Blessings on These Wonderful Works of Art!",
+          "romaji": "Kono Subarashii Sekai ni Shukufuku wo! 2: Kono Subarashii Geijutsu ni Shukufuku wo!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b97996-px2KGexuEZpg.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/97996"
+      }
+    },
+    {
       "id": 976909011,
       "status": "completed",
       "progress": null,

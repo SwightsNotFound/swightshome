@@ -49491,6 +49491,22 @@
   ],
   "2025-10-30": [
     {
+      "id": 977020964,
+      "status": "rewatched",
+      "progress": "1",
+      "createdAt": 1761865966,
+      "media": {
+        "title": {
+          "english": "KONOSUBA -God's blessing on this wonderful world!- Legend of Crimson",
+          "romaji": "Kono Subarashii Sekai ni Shukufuku wo! Kurenai Densetsu"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx102976-2Yi5icRbjukO.png"
+        },
+        "siteUrl": "https://anilist.co/anime/102976"
+      }
+    },
+    {
       "id": 976931597,
       "status": "completed",
       "progress": null,

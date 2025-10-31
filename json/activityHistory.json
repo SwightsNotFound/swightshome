@@ -49749,6 +49749,22 @@
   ],
   "2025-10-31": [
     {
+      "id": 977407608,
+      "status": "rewatched",
+      "progress": "11",
+      "createdAt": 1761952558,
+      "media": {
+        "title": {
+          "english": "KONOSUBA -God's blessing on this wonderful world! 3",
+          "romaji": "Kono Subarashii Sekai ni Shukufuku wo! 3"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx136804-7FVftG67FPBc.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/136804"
+      }
+    },
+    {
       "id": 977370214,
       "status": "rewatched episode",
       "progress": "10",

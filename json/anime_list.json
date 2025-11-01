@@ -13653,6 +13653,28 @@
           "mal": "https://myanimelist.net/anime/2904",
           "kitsu": "https://kitsu.io/anime/2904"
         }
+      },
+      {
+        "id": 150075,
+        "title": "KONOSUBA -An Explosion on This Wonderful World!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx150075-QIGcA7oVyO6l.jpg",
+        "averageScore": 74,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 4,
+        "links": {
+          "anilist": "https://anilist.co/anime/150075/",
+          "mal": "https://myanimelist.net/anime/150075",
+          "kitsu": "https://kitsu.io/anime/150075"
+        }
       }
     ]
   },

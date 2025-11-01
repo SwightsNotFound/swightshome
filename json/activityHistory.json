@@ -49911,6 +49911,22 @@
   ],
   "2025-11-01": [
     {
+      "id": 977775399,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1762030466,
+      "media": {
+        "title": {
+          "english": "KONOSUBA -An Explosion on This Wonderful World!",
+          "romaji": "Kono Subarashii Sekai ni Bakuen wo!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx150075-QIGcA7oVyO6l.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/150075"
+      }
+    },
+    {
       "id": 977762551,
       "status": "watched episode",
       "progress": "9",

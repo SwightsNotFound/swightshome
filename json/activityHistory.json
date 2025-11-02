@@ -50073,6 +50073,22 @@
   ],
   "2025-11-02": [
     {
+      "id": 978254315,
+      "status": "watched episode",
+      "progress": "3",
+      "createdAt": 1762116394,
+      "media": {
+        "title": {
+          "english": "86 EIGHTY-SIX",
+          "romaji": "86: Eighty Six"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116589-qT34qzsZtk9V.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/116589"
+      }
+    },
+    {
       "id": 978229474,
       "status": "watched episode",
       "progress": "2",

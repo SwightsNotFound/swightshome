@@ -50070,5 +50070,39 @@
         "siteUrl": "https://anilist.co/anime/150075"
       }
     }
+  ],
+  "2025-11-02": [
+    {
+      "id": 978188063,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1762107247,
+      "media": {
+        "title": {
+          "english": "KONOSUBA -An Explosion on This Wonderful World!",
+          "romaji": "Kono Subarashii Sekai ni Bakuen wo!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx150075-QIGcA7oVyO6l.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/150075"
+      }
+    },
+    {
+      "id": 978175475,
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1762105399,
+      "media": {
+        "title": {
+          "english": "KONOSUBA -An Explosion on This Wonderful World!",
+          "romaji": "Kono Subarashii Sekai ni Bakuen wo!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx150075-QIGcA7oVyO6l.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/150075"
+      }
+    }
   ]
 }

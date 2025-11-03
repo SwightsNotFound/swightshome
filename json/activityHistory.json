@@ -50219,6 +50219,22 @@
   ],
   "2025-11-03": [
     {
+      "id": 978612936,
+      "status": "watched episode",
+      "progress": "3",
+      "createdAt": 1762181935,
+      "media": {
+        "title": {
+          "english": "Oshi no Ko Season 2",
+          "romaji": "[Oshi no Ko] 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166531-dAL5MsqDHUkj.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/166531"
+      }
+    },
+    {
       "id": 978598866,
       "status": "watched episode",
       "progress": "2",

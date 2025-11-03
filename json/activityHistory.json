@@ -50073,6 +50073,22 @@
   ],
   "2025-11-02": [
     {
+      "id": 978334545,
+      "status": "watched episode",
+      "progress": "7",
+      "createdAt": 1762126687,
+      "media": {
+        "title": {
+          "english": "86 EIGHTY-SIX",
+          "romaji": "86: Eighty Six"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116589-qT34qzsZtk9V.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/116589"
+      }
+    },
+    {
       "id": 978321192,
       "status": "watched episode",
       "progress": "6",
@@ -50198,6 +50214,40 @@
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx150075-QIGcA7oVyO6l.jpg"
         },
         "siteUrl": "https://anilist.co/anime/150075"
+      }
+    }
+  ],
+  "2025-11-03": [
+    {
+      "id": 978366213,
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1762131560,
+      "media": {
+        "title": {
+          "english": "86 EIGHTY-SIX",
+          "romaji": "86: Eighty Six"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116589-qT34qzsZtk9V.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/116589"
+      }
+    },
+    {
+      "id": 978347314,
+      "status": "watched episode",
+      "progress": "8",
+      "createdAt": 1762128576,
+      "media": {
+        "title": {
+          "english": "86 EIGHTY-SIX",
+          "romaji": "86: Eighty Six"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116589-qT34qzsZtk9V.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/116589"
       }
     }
   ]

@@ -5337,6 +5337,29 @@
         }
       },
       {
+        "id": 116589,
+        "title": "86 EIGHTY-SIX",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx116589-qT34qzsZtk9V.jpg",
+        "averageScore": 82,
+        "episodes": 11,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Mecha",
+          "Sci-Fi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 11,
+        "links": {
+          "anilist": "https://anilist.co/anime/116589/",
+          "mal": "https://myanimelist.net/anime/116589",
+          "kitsu": "https://kitsu.io/anime/116589"
+        }
+      },
+      {
         "id": 1575,
         "title": "Code Geass: Lelouch of the Rebellion",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1575-hsmWM2ydNm1m.jpg",
@@ -13226,29 +13249,6 @@
         }
       },
       {
-        "id": 116589,
-        "title": "86 EIGHTY-SIX",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx116589-qT34qzsZtk9V.jpg",
-        "averageScore": 82,
-        "episodes": 11,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Mecha",
-          "Sci-Fi"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 9,
-        "links": {
-          "anilist": "https://anilist.co/anime/116589/",
-          "mal": "https://myanimelist.net/anime/116589",
-          "kitsu": "https://kitsu.io/anime/116589"
-        }
-      },
-      {
         "id": 137667,
         "title": "Lord of Mysteries",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx137667-zHFOF6qbpksP.jpg",
@@ -13674,6 +13674,29 @@
           "anilist": "https://anilist.co/anime/2904/",
           "mal": "https://myanimelist.net/anime/2904",
           "kitsu": "https://kitsu.io/anime/2904"
+        }
+      },
+      {
+        "id": 131586,
+        "title": "86 EIGHTY-SIX Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131586-JhC0wcBi09EZ.jpg",
+        "averageScore": 86,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Mecha",
+          "Sci-Fi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/131586/",
+          "mal": "https://myanimelist.net/anime/131586",
+          "kitsu": "https://kitsu.io/anime/131586"
         }
       }
     ]

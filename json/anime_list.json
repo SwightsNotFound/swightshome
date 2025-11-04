@@ -5885,6 +5885,29 @@
         }
       },
       {
+        "id": 150672,
+        "title": "Oshi No Ko",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx150672-WqmmwZ4nMzAy.png",
+        "averageScore": 84,
+        "episodes": 11,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Psychological",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.2,
+        "progress": 11,
+        "links": {
+          "anilist": "https://anilist.co/anime/150672/",
+          "mal": "https://myanimelist.net/anime/150672",
+          "kitsu": "https://kitsu.io/anime/150672"
+        }
+      },
+      {
         "id": 101432,
         "title": "Violet Evergarden: Special",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101432-NQSedsCDQ6dP.png",
@@ -5931,11 +5954,11 @@
         }
       },
       {
-        "id": 150672,
-        "title": "Oshi No Ko",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx150672-WqmmwZ4nMzAy.png",
-        "averageScore": 84,
-        "episodes": 11,
+        "id": 166531,
+        "title": "Oshi no Ko Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166531-dAL5MsqDHUkj.jpg",
+        "averageScore": 85,
+        "episodes": 13,
         "status": "FINISHED",
         "genres": [
           "Drama",
@@ -5946,11 +5969,11 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9.1,
-        "progress": 11,
+        "progress": 13,
         "links": {
-          "anilist": "https://anilist.co/anime/150672/",
-          "mal": "https://myanimelist.net/anime/150672",
-          "kitsu": "https://kitsu.io/anime/150672"
+          "anilist": "https://anilist.co/anime/166531/",
+          "mal": "https://myanimelist.net/anime/166531",
+          "kitsu": "https://kitsu.io/anime/166531"
         }
       },
       {
@@ -13295,29 +13318,6 @@
           "anilist": "https://anilist.co/anime/181447/",
           "mal": "https://myanimelist.net/anime/181447",
           "kitsu": "https://kitsu.io/anime/181447"
-        }
-      },
-      {
-        "id": 166531,
-        "title": "Oshi no Ko Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166531-dAL5MsqDHUkj.jpg",
-        "averageScore": 85,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Mystery",
-          "Psychological",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/166531/",
-          "mal": "https://myanimelist.net/anime/166531",
-          "kitsu": "https://kitsu.io/anime/166531"
         }
       },
       {

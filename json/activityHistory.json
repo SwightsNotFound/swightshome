@@ -50397,6 +50397,22 @@
   ],
   "2025-11-04": [
     {
+      "id": 979083896,
+      "status": "rewatched",
+      "progress": "1",
+      "createdAt": 1762272298,
+      "media": {
+        "title": {
+          "english": "Weathering With You",
+          "romaji": "Tenki no Ko"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx106286-5COcpd0J9VbL.png"
+        },
+        "siteUrl": "https://anilist.co/anime/106286"
+      }
+    },
+    {
       "id": 978876375,
       "status": "completed",
       "progress": null,

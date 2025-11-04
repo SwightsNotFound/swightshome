@@ -4573,28 +4573,6 @@
         }
       },
       {
-        "id": 20464,
-        "title": "HAIKYU!!",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20464-ooZUyBe4ptp9.png",
-        "averageScore": 83,
-        "episodes": 25,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Sports"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/20464/",
-          "mal": "https://myanimelist.net/anime/20464",
-          "kitsu": "https://kitsu.io/anime/20464"
-        }
-      },
-      {
         "id": 20613,
         "title": "Akame ga Kill!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20613-HXHpec4bemk5.jpg",
@@ -6222,29 +6200,6 @@
           "anilist": "https://anilist.co/anime/20519/",
           "mal": "https://myanimelist.net/anime/20519",
           "kitsu": "https://kitsu.io/anime/20519"
-        }
-      },
-      {
-        "id": 106286,
-        "title": "Weathering With You",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx106286-5COcpd0J9VbL.png",
-        "averageScore": 81,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Romance",
-          "Slice of Life",
-          "Supernatural"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/106286/",
-          "mal": "https://myanimelist.net/anime/106286",
-          "kitsu": "https://kitsu.io/anime/106286"
         }
       },
       {
@@ -9307,6 +9262,29 @@
           "anilist": "https://anilist.co/anime/98448/",
           "mal": "https://myanimelist.net/anime/98448",
           "kitsu": "https://kitsu.io/anime/98448"
+        }
+      },
+      {
+        "id": 106286,
+        "title": "Weathering With You",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx106286-5COcpd0J9VbL.png",
+        "averageScore": 81,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 7.8,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/106286/",
+          "mal": "https://myanimelist.net/anime/106286",
+          "kitsu": "https://kitsu.io/anime/106286"
         }
       },
       {
@@ -13628,6 +13606,28 @@
           "anilist": "https://anilist.co/anime/162669/",
           "mal": "https://myanimelist.net/anime/162669",
           "kitsu": "https://kitsu.io/anime/162669"
+        }
+      },
+      {
+        "id": 20464,
+        "title": "HAIKYU!!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20464-ooZUyBe4ptp9.png",
+        "averageScore": 83,
+        "episodes": 25,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Sports"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/20464/",
+          "mal": "https://myanimelist.net/anime/20464",
+          "kitsu": "https://kitsu.io/anime/20464"
         }
       },
       {

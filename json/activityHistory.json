@@ -50397,6 +50397,22 @@
   ],
   "2025-11-04": [
     {
+      "id": 979230852,
+      "status": "watched episode",
+      "progress": "3",
+      "createdAt": 1762296274,
+      "media": {
+        "title": {
+          "english": "Pass the Monster Meat, Milady!",
+          "romaji": "Akujiki Reijou to Kyouketsu Koushaku: Sono Mamono, Watashi ga Oishiku Itadakimasu!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx183291-qm3bQT1wpmka.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/183291"
+      }
+    },
+    {
       "id": 979210294,
       "status": "watched episode",
       "progress": "2",

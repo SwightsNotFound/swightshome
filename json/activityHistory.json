@@ -50607,6 +50607,22 @@
   ],
   "2025-11-05": [
     {
+      "id": 979590626,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1762370850,
+      "media": {
+        "title": {
+          "english": "WITCH WATCH",
+          "romaji": "Witch Watch"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180367-GlRuB2lG7Kaa.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/180367"
+      }
+    },
+    {
       "id": 979546117,
       "status": "watched episode",
       "progress": "24",

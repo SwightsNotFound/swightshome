@@ -50607,6 +50607,38 @@
   ],
   "2025-11-05": [
     {
+      "id": 979546117,
+      "status": "watched episode",
+      "progress": "24",
+      "createdAt": 1762362861,
+      "media": {
+        "title": {
+          "english": "WITCH WATCH",
+          "romaji": "Witch Watch"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180367-GlRuB2lG7Kaa.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/180367"
+      }
+    },
+    {
+      "id": 979538156,
+      "status": "watched episode",
+      "progress": "5",
+      "createdAt": 1762361450,
+      "media": {
+        "title": {
+          "english": "Pass the Monster Meat, Milady!",
+          "romaji": "Akujiki Reijou to Kyouketsu Koushaku: Sono Mamono, Watashi ga Oishiku Itadakimasu!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx183291-qm3bQT1wpmka.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/183291"
+      }
+    },
+    {
       "id": 979302856,
       "status": "watched episode",
       "progress": "4",

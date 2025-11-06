@@ -50673,6 +50673,22 @@
   ],
   "2025-11-06": [
     {
+      "id": 980033296,
+      "status": "rewatched episode",
+      "progress": "4",
+      "createdAt": 1762463279,
+      "media": {
+        "title": {
+          "english": "Alya Sometimes Hides Her Feelings in Russian",
+          "romaji": "Tokidoki Bosotto Russiago de Dereru Tonari no Alya-san"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx162804-TBeptcAfvqTd.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/162804"
+      }
+    },
+    {
       "id": 980000334,
       "status": "rewatched episode",
       "progress": "3",

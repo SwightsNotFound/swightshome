@@ -6383,28 +6383,6 @@
         }
       },
       {
-        "id": 162804,
-        "title": "Alya Sometimes Hides Her Feelings in Russian",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162804-TBeptcAfvqTd.jpg",
-        "averageScore": 75,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/162804/",
-          "mal": "https://myanimelist.net/anime/162804",
-          "kitsu": "https://kitsu.io/anime/162804"
-        }
-      },
-      {
         "id": 176301,
         "title": "The Apothecary Diaries Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176301-TIGmldLffQGX.jpg",
@@ -13884,6 +13862,28 @@
           "anilist": "https://anilist.co/anime/113415/",
           "mal": "https://myanimelist.net/anime/113415",
           "kitsu": "https://kitsu.io/anime/113415"
+        }
+      },
+      {
+        "id": 162804,
+        "title": "Alya Sometimes Hides Her Feelings in Russian",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162804-TBeptcAfvqTd.jpg",
+        "averageScore": 75,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/162804/",
+          "mal": "https://myanimelist.net/anime/162804",
+          "kitsu": "https://kitsu.io/anime/162804"
         }
       },
       {

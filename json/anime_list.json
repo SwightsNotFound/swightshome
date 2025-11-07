@@ -5863,6 +5863,29 @@
         }
       },
       {
+        "id": 154768,
+        "title": "My Dress-Up Darling Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154768-DHHvNd4MjV1p.jpg",
+        "averageScore": 83,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Ecchi",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.2,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/154768/",
+          "mal": "https://myanimelist.net/anime/154768",
+          "kitsu": "https://kitsu.io/anime/154768"
+        }
+      },
+      {
         "id": 150672,
         "title": "Oshi No Ko",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx150672-WqmmwZ4nMzAy.png",
@@ -6561,29 +6584,6 @@
           "anilist": "https://anilist.co/anime/178788/",
           "mal": "https://myanimelist.net/anime/178788",
           "kitsu": "https://kitsu.io/anime/178788"
-        }
-      },
-      {
-        "id": 154768,
-        "title": "My Dress-Up Darling Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154768-DHHvNd4MjV1p.jpg",
-        "averageScore": 83,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Ecchi",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/154768/",
-          "mal": "https://myanimelist.net/anime/154768",
-          "kitsu": "https://kitsu.io/anime/154768"
         }
       },
       {

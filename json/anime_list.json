@@ -12379,27 +12379,6 @@
         }
       },
       {
-        "id": 143338,
-        "title": "The Angel Next Door Spoils Me Rotten",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143338-zhyDVYgEzsm5.png",
-        "averageScore": 77,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 5,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/143338/",
-          "mal": "https://myanimelist.net/anime/143338",
-          "kitsu": "https://kitsu.io/anime/143338"
-        }
-      },
-      {
         "id": 164299,
         "title": "The Do-Over Damsel Conquers the Dragon Emperor",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx164299-j4yHiK4j1ON7.jpg",
@@ -13879,7 +13858,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 5,
+        "progress": 6,
         "links": {
           "anilist": "https://anilist.co/anime/162804/",
           "mal": "https://myanimelist.net/anime/162804",
@@ -13929,6 +13908,27 @@
           "anilist": "https://anilist.co/anime/112641/",
           "mal": "https://myanimelist.net/anime/112641",
           "kitsu": "https://kitsu.io/anime/112641"
+        }
+      },
+      {
+        "id": 143338,
+        "title": "The Angel Next Door Spoils Me Rotten",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143338-zhyDVYgEzsm5.png",
+        "averageScore": 77,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 7,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/143338/",
+          "mal": "https://myanimelist.net/anime/143338",
+          "kitsu": "https://kitsu.io/anime/143338"
         }
       }
     ]

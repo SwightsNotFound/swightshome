@@ -50996,5 +50996,23 @@
         "siteUrl": "https://anilist.co/anime/103572"
       }
     }
+  ],
+  "2025-11-09": [
+    {
+      "id": 981025131,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1762665708,
+      "media": {
+        "title": {
+          "english": "Raven of the Inner Palace",
+          "romaji": "Koukyuu no Karasu"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142701-jyjYorMpj3lf.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/142701"
+      }
+    }
   ]
 }

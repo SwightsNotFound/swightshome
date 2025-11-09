@@ -4300,12 +4300,12 @@
         "status": "FINISHED",
         "genres": [
           "Action",
+          "Comedy",
           "Drama",
-          "Psychological",
           "Romance",
           "Sci-Fi",
           "Slice of Life",
-          "Thriller"
+          "Supernatural"
         ],
         "format": "MOVIE",
         "country": "JP",
@@ -4953,6 +4953,29 @@
           "anilist": "https://anilist.co/anime/200637/",
           "mal": "https://myanimelist.net/anime/200637",
           "kitsu": "https://kitsu.io/anime/200637"
+        }
+      },
+      {
+        "id": 142701,
+        "title": "Raven of the Inner Palace",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142701-jyjYorMpj3lf.jpg",
+        "averageScore": 73,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Mystery",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/142701/",
+          "mal": "https://myanimelist.net/anime/142701",
+          "kitsu": "https://kitsu.io/anime/142701"
         }
       }
     ]

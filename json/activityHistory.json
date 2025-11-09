@@ -50999,6 +50999,54 @@
   ],
   "2025-11-09": [
     {
+      "id": 981278727,
+      "status": "rewatched episode",
+      "progress": "13",
+      "createdAt": 1762713763,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries",
+          "romaji": "Kusuriya no Hitorigoto"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx161645-QLbzHXiYRgV2.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/161645"
+      }
+    },
+    {
+      "id": 981278721,
+      "status": "rewatched episode",
+      "progress": "12",
+      "createdAt": 1762713762,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries",
+          "romaji": "Kusuriya no Hitorigoto"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx161645-QLbzHXiYRgV2.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/161645"
+      }
+    },
+    {
+      "id": 981278718,
+      "status": "rewatched episode",
+      "progress": "11",
+      "createdAt": 1762713761,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries",
+          "romaji": "Kusuriya no Hitorigoto"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx161645-QLbzHXiYRgV2.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/161645"
+      }
+    },
+    {
       "id": 981189309,
       "status": "watched episode",
       "progress": "1",

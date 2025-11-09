@@ -4298,7 +4298,14 @@
         "averageScore": 77,
         "episodes": 8,
         "status": "FINISHED",
-        "genres": [],
+        "genres": [
+          "Action",
+          "Drama",
+          "Psychological",
+          "Romance",
+          "Sci-Fi",
+          "Thriller"
+        ],
         "format": "MOVIE",
         "country": "JP",
         "personalScore": 0,

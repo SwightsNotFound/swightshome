@@ -51081,6 +51081,38 @@
   ],
   "2025-11-10": [
     {
+      "id": 981739409,
+      "status": "rewatched episode",
+      "progress": "2",
+      "createdAt": 1762795905,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries Season 2",
+          "romaji": "Kusuriya no Hitorigoto 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-TIGmldLffQGX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/176301"
+      }
+    },
+    {
+      "id": 981739403,
+      "status": "rewatched episode",
+      "progress": "1",
+      "createdAt": 1762795904,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries Season 2",
+          "romaji": "Kusuriya no Hitorigoto 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-TIGmldLffQGX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/176301"
+      }
+    },
+    {
       "id": 981703097,
       "status": "plans to watch",
       "progress": null,

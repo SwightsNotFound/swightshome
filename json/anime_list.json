@@ -4977,6 +4977,27 @@
           "mal": "https://myanimelist.net/anime/142701",
           "kitsu": "https://kitsu.io/anime/142701"
         }
+      },
+      {
+        "id": 195516,
+        "title": "Kusuriya no Hitorigoto 3rd Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx195516-FWHIFQMvCjVj.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/195516/",
+          "mal": "https://myanimelist.net/anime/195516",
+          "kitsu": "https://kitsu.io/anime/195516"
+        }
       }
     ]
   },
@@ -5275,6 +5296,27 @@
           "anilist": "https://anilist.co/anime/99147/",
           "mal": "https://myanimelist.net/anime/99147",
           "kitsu": "https://kitsu.io/anime/99147"
+        }
+      },
+      {
+        "id": 161645,
+        "title": "The Apothecary Diaries",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161645-QLbzHXiYRgV2.jpg",
+        "averageScore": 88,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 24,
+        "links": {
+          "anilist": "https://anilist.co/anime/161645/",
+          "mal": "https://myanimelist.net/anime/161645",
+          "kitsu": "https://kitsu.io/anime/161645"
         }
       },
       {
@@ -6434,27 +6476,6 @@
           "anilist": "https://anilist.co/anime/104157/",
           "mal": "https://myanimelist.net/anime/104157",
           "kitsu": "https://kitsu.io/anime/104157"
-        }
-      },
-      {
-        "id": 176301,
-        "title": "The Apothecary Diaries Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176301-TIGmldLffQGX.jpg",
-        "averageScore": 88,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Mystery"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 24,
-        "links": {
-          "anilist": "https://anilist.co/anime/176301/",
-          "mal": "https://myanimelist.net/anime/176301",
-          "kitsu": "https://kitsu.io/anime/176301"
         }
       },
       {
@@ -12851,27 +12872,6 @@
         }
       },
       {
-        "id": 161645,
-        "title": "The Apothecary Diaries",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161645-QLbzHXiYRgV2.jpg",
-        "averageScore": 88,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Mystery"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.9,
-        "progress": 19,
-        "links": {
-          "anilist": "https://anilist.co/anime/161645/",
-          "mal": "https://myanimelist.net/anime/161645",
-          "kitsu": "https://kitsu.io/anime/161645"
-        }
-      },
-      {
         "id": 124080,
         "title": "Horimiya",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124080-oeviACzGv5Vx.jpg",
@@ -12958,6 +12958,27 @@
           "anilist": "https://anilist.co/anime/162804/",
           "mal": "https://myanimelist.net/anime/162804",
           "kitsu": "https://kitsu.io/anime/162804"
+        }
+      },
+      {
+        "id": 176301,
+        "title": "The Apothecary Diaries Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176301-TIGmldLffQGX.jpg",
+        "averageScore": 88,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/176301/",
+          "mal": "https://myanimelist.net/anime/176301",
+          "kitsu": "https://kitsu.io/anime/176301"
         }
       },
       {
@@ -13889,6 +13910,27 @@
           "anilist": "https://anilist.co/anime/131586/",
           "mal": "https://myanimelist.net/anime/131586",
           "kitsu": "https://kitsu.io/anime/131586"
+        }
+      },
+      {
+        "id": 198312,
+        "title": "Heika Watashi wo Wasurete Kudasai",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx198312-7FNrHGI29mYt.jpg",
+        "averageScore": 49,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "TV_SHORT",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/198312/",
+          "mal": "https://myanimelist.net/anime/198312",
+          "kitsu": "https://kitsu.io/anime/198312"
         }
       }
     ]

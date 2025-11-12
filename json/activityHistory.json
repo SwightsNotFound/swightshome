@@ -51629,6 +51629,38 @@
   ],
   "2025-11-12": [
     {
+      "id": 982634428,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1762971573,
+      "media": {
+        "title": {
+          "english": "Solo Leveling",
+          "romaji": "Ore dake Level Up na Ken"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151807-it355ZgzquUd.png"
+        },
+        "siteUrl": "https://anilist.co/anime/151807"
+      }
+    },
+    {
+      "id": 982624425,
+      "status": "rewatched episode",
+      "progress": "4",
+      "createdAt": 1762969748,
+      "media": {
+        "title": {
+          "english": "Solo Leveling",
+          "romaji": "Ore dake Level Up na Ken"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151807-it355ZgzquUd.png"
+        },
+        "siteUrl": "https://anilist.co/anime/151807"
+      }
+    },
+    {
       "id": 982612056,
       "status": "rewatched episode",
       "progress": "3",

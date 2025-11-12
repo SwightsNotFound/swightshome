@@ -7007,28 +7007,6 @@
         }
       },
       {
-        "id": 151807,
-        "title": "Solo Leveling",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151807-it355ZgzquUd.png",
-        "averageScore": 82,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8.9,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/151807/",
-          "mal": "https://myanimelist.net/anime/151807",
-          "kitsu": "https://kitsu.io/anime/151807"
-        }
-      },
-      {
         "id": 97940,
         "title": "Black Clover",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97940-fyh8o7gNbha0.png",
@@ -12979,6 +12957,28 @@
           "anilist": "https://anilist.co/anime/127230/",
           "mal": "https://myanimelist.net/anime/127230",
           "kitsu": "https://kitsu.io/anime/127230"
+        }
+      },
+      {
+        "id": 151807,
+        "title": "Solo Leveling",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151807-it355ZgzquUd.png",
+        "averageScore": 82,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/151807/",
+          "mal": "https://myanimelist.net/anime/151807",
+          "kitsu": "https://kitsu.io/anime/151807"
         }
       },
       {

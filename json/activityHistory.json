@@ -51626,5 +51626,71 @@
         "siteUrl": "https://anilist.co/anime/176301"
       }
     }
+  ],
+  "2025-11-12": [
+    {
+      "id": 982354316,
+      "status": "rewatched episode",
+      "progress": "2",
+      "createdAt": 1762910156,
+      "media": {
+        "title": {
+          "english": "Chainsaw Man",
+          "romaji": "Chainsaw Man"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127230-DdP4vAdssLoz.png"
+        },
+        "siteUrl": "https://anilist.co/anime/127230"
+      }
+    },
+    {
+      "id": 982346243,
+      "status": "rewatched episode",
+      "progress": "1",
+      "createdAt": 1762908725,
+      "media": {
+        "title": {
+          "english": "Chainsaw Man",
+          "romaji": "Chainsaw Man"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127230-DdP4vAdssLoz.png"
+        },
+        "siteUrl": "https://anilist.co/anime/127230"
+      }
+    },
+    {
+      "id": 982337511,
+      "status": "rewatched",
+      "progress": "24",
+      "createdAt": 1762907178,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries Season 2",
+          "romaji": "Kusuriya no Hitorigoto 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-TIGmldLffQGX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/176301"
+      }
+    },
+    {
+      "id": 982337504,
+      "status": "rewatched episode",
+      "progress": "23",
+      "createdAt": 1762907177,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries Season 2",
+          "romaji": "Kusuriya no Hitorigoto 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-TIGmldLffQGX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/176301"
+      }
+    }
   ]
 }

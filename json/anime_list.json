@@ -6479,6 +6479,27 @@
         }
       },
       {
+        "id": 176301,
+        "title": "The Apothecary Diaries Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176301-TIGmldLffQGX.jpg",
+        "averageScore": 88,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 24,
+        "links": {
+          "anilist": "https://anilist.co/anime/176301/",
+          "mal": "https://myanimelist.net/anime/176301",
+          "kitsu": "https://kitsu.io/anime/176301"
+        }
+      },
+      {
         "id": 176496,
         "title": "Solo Leveling Season 2 -Arise from the Shadow-",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176496-9BDMjAZGEbq4.png",
@@ -6498,29 +6519,6 @@
           "anilist": "https://anilist.co/anime/176496/",
           "mal": "https://myanimelist.net/anime/176496",
           "kitsu": "https://kitsu.io/anime/176496"
-        }
-      },
-      {
-        "id": 127230,
-        "title": "Chainsaw Man",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127230-DdP4vAdssLoz.png",
-        "averageScore": 83,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Horror",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/127230/",
-          "mal": "https://myanimelist.net/anime/127230",
-          "kitsu": "https://kitsu.io/anime/127230"
         }
       },
       {
@@ -12961,24 +12959,26 @@
         }
       },
       {
-        "id": 176301,
-        "title": "The Apothecary Diaries Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176301-TIGmldLffQGX.jpg",
-        "averageScore": 88,
-        "episodes": 24,
+        "id": 127230,
+        "title": "Chainsaw Man",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127230-DdP4vAdssLoz.png",
+        "averageScore": 83,
+        "episodes": 12,
         "status": "FINISHED",
         "genres": [
+          "Action",
           "Drama",
-          "Mystery"
+          "Horror",
+          "Supernatural"
         ],
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 22,
+        "progress": 2,
         "links": {
-          "anilist": "https://anilist.co/anime/176301/",
-          "mal": "https://myanimelist.net/anime/176301",
-          "kitsu": "https://kitsu.io/anime/176301"
+          "anilist": "https://anilist.co/anime/127230/",
+          "mal": "https://myanimelist.net/anime/127230",
+          "kitsu": "https://kitsu.io/anime/127230"
         }
       },
       {

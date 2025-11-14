@@ -6842,30 +6842,6 @@
         }
       },
       {
-        "id": 2167,
-        "title": "Clannad",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2167-pSDBcyc0vjej.jpg",
-        "averageScore": 77,
-        "episodes": 23,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Romance",
-          "Slice of Life",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8.9,
-        "progress": 23,
-        "links": {
-          "anilist": "https://anilist.co/anime/2167/",
-          "mal": "https://myanimelist.net/anime/2167",
-          "kitsu": "https://kitsu.io/anime/2167"
-        }
-      },
-      {
         "id": 129874,
         "title": "Demon Slayer: Kimetsu no Yaiba Mugen Train Arc",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx129874-g6ZKXB94Hui1.jpg",
@@ -12957,6 +12933,30 @@
           "anilist": "https://anilist.co/anime/127230/",
           "mal": "https://myanimelist.net/anime/127230",
           "kitsu": "https://kitsu.io/anime/127230"
+        }
+      },
+      {
+        "id": 2167,
+        "title": "Clannad",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2167-pSDBcyc0vjej.jpg",
+        "averageScore": 77,
+        "episodes": 23,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/2167/",
+          "mal": "https://myanimelist.net/anime/2167",
+          "kitsu": "https://kitsu.io/anime/2167"
         }
       },
       {

@@ -52047,6 +52047,22 @@
   ],
   "2025-11-14": [
     {
+      "id": 983204504,
+      "status": "rewatched episode",
+      "progress": "2",
+      "createdAt": 1763092037,
+      "media": {
+        "title": {
+          "english": "Clannad",
+          "romaji": "CLANNAD"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2167-pSDBcyc0vjej.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/2167"
+      }
+    },
+    {
       "id": 983191977,
       "status": "rewatched episode",
       "progress": "1",

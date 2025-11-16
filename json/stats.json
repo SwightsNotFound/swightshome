@@ -3,10 +3,10 @@
     "User": {
       "statistics": {
         "anime": {
-          "count": 410,
+          "count": 414,
           "meanScore": 75.27,
-          "minutesWatched": 183833,
-          "episodesWatched": 7603
+          "minutesWatched": 184025,
+          "episodesWatched": 7611
         },
         "manga": {
           "count": 16,

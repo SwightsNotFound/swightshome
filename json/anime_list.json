@@ -1360,27 +1360,6 @@
         }
       },
       {
-        "id": 140291,
-        "title": "Disney Twisted-Wonderland: THE ANIMATION  - Season 1: EPISODE of HEARTSLABYUL",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140291-RAwYjwC9vWDR.png",
-        "averageScore": 67,
-        "episodes": 8,
-        "status": "RELEASING",
-        "genres": [
-          "Adventure",
-          "Fantasy"
-        ],
-        "format": "ONA",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/140291/",
-          "mal": "https://myanimelist.net/anime/140291",
-          "kitsu": "https://kitsu.io/anime/140291"
-        }
-      },
-      {
         "id": 132776,
         "title": "Peleliu: Rakuen no Guernica",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx132776-uZLvjGAa4qup.jpg",
@@ -4225,28 +4204,6 @@
           "anilist": "https://anilist.co/anime/97986/",
           "mal": "https://myanimelist.net/anime/97986",
           "kitsu": "https://kitsu.io/anime/97986"
-        }
-      },
-      {
-        "id": 183965,
-        "title": "Yano-kun's Ordinary Days",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183965-7oMzkJp4FUyP.jpg",
-        "averageScore": 70,
-        "episodes": 12,
-        "status": "RELEASING",
-        "genres": [
-          "Comedy",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/183965/",
-          "mal": "https://myanimelist.net/anime/183965",
-          "kitsu": "https://kitsu.io/anime/183965"
         }
       },
       {
@@ -12952,7 +12909,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 8.9,
-        "progress": 6,
+        "progress": 8,
         "links": {
           "anilist": "https://anilist.co/anime/2167/",
           "mal": "https://myanimelist.net/anime/2167",
@@ -13282,6 +13239,27 @@
           "anilist": "https://anilist.co/anime/129195/",
           "mal": "https://myanimelist.net/anime/129195",
           "kitsu": "https://kitsu.io/anime/129195"
+        }
+      },
+      {
+        "id": 140291,
+        "title": "Disney Twisted-Wonderland: THE ANIMATION  - Season 1: EPISODE of HEARTSLABYUL",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140291-RAwYjwC9vWDR.png",
+        "averageScore": 67,
+        "episodes": 8,
+        "status": "RELEASING",
+        "genres": [
+          "Adventure",
+          "Fantasy"
+        ],
+        "format": "ONA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/140291/",
+          "mal": "https://myanimelist.net/anime/140291",
+          "kitsu": "https://kitsu.io/anime/140291"
         }
       },
       {
@@ -13688,6 +13666,28 @@
         }
       },
       {
+        "id": 183965,
+        "title": "Yano-kun's Ordinary Days",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183965-7oMzkJp4FUyP.jpg",
+        "averageScore": 70,
+        "episodes": 12,
+        "status": "RELEASING",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/183965/",
+          "mal": "https://myanimelist.net/anime/183965",
+          "kitsu": "https://kitsu.io/anime/183965"
+        }
+      },
+      {
         "id": 180523,
         "title": "A Wild Last Boss Appeared!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx180523-FjvW1XByUNMK.jpg",
@@ -13931,6 +13931,48 @@
           "anilist": "https://anilist.co/anime/198312/",
           "mal": "https://myanimelist.net/anime/198312",
           "kitsu": "https://kitsu.io/anime/198312"
+        }
+      },
+      {
+        "id": 187464,
+        "title": "Tojima Wants to Be a Kamen Rider",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx187464-NJtK3VC54vPm.jpg",
+        "averageScore": 73,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Action",
+          "Comedy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/187464/",
+          "mal": "https://myanimelist.net/anime/187464",
+          "kitsu": "https://kitsu.io/anime/187464"
+        }
+      },
+      {
+        "id": 184591,
+        "title": "There's No Freaking Way I'll Be Your Lover! Unless…",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx184591-jRXZ29bN61Zc.jpg",
+        "averageScore": 76,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/184591/",
+          "mal": "https://myanimelist.net/anime/184591",
+          "kitsu": "https://kitsu.io/anime/184591"
         }
       }
     ]

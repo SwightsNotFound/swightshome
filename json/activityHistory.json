@@ -52144,5 +52144,39 @@
         "siteUrl": "https://anilist.co/anime/2167"
       }
     }
+  ],
+  "2025-11-16": [
+    {
+      "id": 984023501,
+      "status": "rewatched episode",
+      "progress": "8",
+      "createdAt": 1763265121,
+      "media": {
+        "title": {
+          "english": "Clannad",
+          "romaji": "CLANNAD"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2167-pSDBcyc0vjej.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/2167"
+      }
+    },
+    {
+      "id": 984023496,
+      "status": "rewatched episode",
+      "progress": "7",
+      "createdAt": 1763265121,
+      "media": {
+        "title": {
+          "english": "Clannad",
+          "romaji": "CLANNAD"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2167-pSDBcyc0vjej.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/2167"
+      }
+    }
   ]
 }

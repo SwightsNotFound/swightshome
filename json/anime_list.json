@@ -5144,29 +5144,6 @@
         }
       },
       {
-        "id": 4181,
-        "title": "Clannad: After Story",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4181-zUKE7BZC62OF.png",
-        "averageScore": 87,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Romance",
-          "Slice of Life",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.9,
-        "progress": 24,
-        "links": {
-          "anilist": "https://anilist.co/anime/4181/",
-          "mal": "https://myanimelist.net/anime/4181",
-          "kitsu": "https://kitsu.io/anime/4181"
-        }
-      },
-      {
         "id": 11061,
         "title": "Hunter x Hunter (2011)",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11061-y5gsT1hoHuHw.png",
@@ -6796,6 +6773,30 @@
           "anilist": "https://anilist.co/anime/6547/",
           "mal": "https://myanimelist.net/anime/6547",
           "kitsu": "https://kitsu.io/anime/6547"
+        }
+      },
+      {
+        "id": 2167,
+        "title": "Clannad",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2167-pSDBcyc0vjej.jpg",
+        "averageScore": 77,
+        "episodes": 23,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 23,
+        "links": {
+          "anilist": "https://anilist.co/anime/2167/",
+          "mal": "https://myanimelist.net/anime/2167",
+          "kitsu": "https://kitsu.io/anime/2167"
         }
       },
       {
@@ -12758,6 +12759,29 @@
     "name": "Rewatching",
     "entries": [
       {
+        "id": 4181,
+        "title": "Clannad: After Story",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4181-zUKE7BZC62OF.png",
+        "averageScore": 87,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/4181/",
+          "mal": "https://myanimelist.net/anime/4181",
+          "kitsu": "https://kitsu.io/anime/4181"
+        }
+      },
+      {
         "id": 20665,
         "title": "Your lie in April",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20665-TLgkL8T8IRFd.png",
@@ -12890,30 +12914,6 @@
           "anilist": "https://anilist.co/anime/127230/",
           "mal": "https://myanimelist.net/anime/127230",
           "kitsu": "https://kitsu.io/anime/127230"
-        }
-      },
-      {
-        "id": 2167,
-        "title": "Clannad",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2167-pSDBcyc0vjej.jpg",
-        "averageScore": 77,
-        "episodes": 23,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Romance",
-          "Slice of Life",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8.9,
-        "progress": 18,
-        "links": {
-          "anilist": "https://anilist.co/anime/2167/",
-          "mal": "https://myanimelist.net/anime/2167",
-          "kitsu": "https://kitsu.io/anime/2167"
         }
       },
       {

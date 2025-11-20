@@ -5707,6 +5707,29 @@
         }
       },
       {
+        "id": 9253,
+        "title": "Steins;Gate",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9253-tIUXF2gfU8Sg.jpg",
+        "averageScore": 89,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.5,
+        "progress": 24,
+        "links": {
+          "anilist": "https://anilist.co/anime/9253/",
+          "mal": "https://myanimelist.net/anime/9253",
+          "kitsu": "https://kitsu.io/anime/9253"
+        }
+      },
+      {
         "id": 101347,
         "title": "Dororo",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101347-TGaDwEYqLfm1.jpg",
@@ -12825,29 +12848,6 @@
           "anilist": "https://anilist.co/anime/124080/",
           "mal": "https://myanimelist.net/anime/124080",
           "kitsu": "https://kitsu.io/anime/124080"
-        }
-      },
-      {
-        "id": 9253,
-        "title": "Steins;Gate",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9253-tIUXF2gfU8Sg.jpg",
-        "averageScore": 89,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Psychological",
-          "Sci-Fi",
-          "Thriller"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.5,
-        "progress": 20,
-        "links": {
-          "anilist": "https://anilist.co/anime/9253/",
-          "mal": "https://myanimelist.net/anime/9253",
-          "kitsu": "https://kitsu.io/anime/9253"
         }
       },
       {

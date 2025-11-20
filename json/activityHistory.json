@@ -52744,5 +52744,39 @@
         "siteUrl": "https://anilist.co/anime/4181"
       }
     }
+  ],
+  "2025-11-20": [
+    {
+      "id": 985983787,
+      "status": "rewatched episode",
+      "progress": "18",
+      "createdAt": 1763664961,
+      "media": {
+        "title": {
+          "english": "Clannad: After Story",
+          "romaji": "CLANNAD: After Story"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4181-zUKE7BZC62OF.png"
+        },
+        "siteUrl": "https://anilist.co/anime/4181"
+      }
+    },
+    {
+      "id": 985983780,
+      "status": "rewatched episode",
+      "progress": "17",
+      "createdAt": 1763664960,
+      "media": {
+        "title": {
+          "english": "Clannad: After Story",
+          "romaji": "CLANNAD: After Story"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4181-zUKE7BZC62OF.png"
+        },
+        "siteUrl": "https://anilist.co/anime/4181"
+      }
+    }
   ]
 }

@@ -5145,6 +5145,29 @@
         }
       },
       {
+        "id": 4181,
+        "title": "Clannad: After Story",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4181-zUKE7BZC62OF.png",
+        "averageScore": 87,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 24,
+        "links": {
+          "anilist": "https://anilist.co/anime/4181/",
+          "mal": "https://myanimelist.net/anime/4181",
+          "kitsu": "https://kitsu.io/anime/4181"
+        }
+      },
+      {
         "id": 11061,
         "title": "Hunter x Hunter (2011)",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11061-y5gsT1hoHuHw.png",
@@ -5512,6 +5535,28 @@
           "anilist": "https://anilist.co/anime/119661/",
           "mal": "https://myanimelist.net/anime/119661",
           "kitsu": "https://kitsu.io/anime/119661"
+        }
+      },
+      {
+        "id": 124080,
+        "title": "Horimiya",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124080-oeviACzGv5Vx.jpg",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.7,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/124080/",
+          "mal": "https://myanimelist.net/anime/124080",
+          "kitsu": "https://kitsu.io/anime/124080"
         }
       },
       {
@@ -7013,29 +7058,6 @@
         }
       },
       {
-        "id": 128893,
-        "title": "Hell’s Paradise",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128893-Gc2t8b8M0mVu.jpg",
-        "averageScore": 80,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Mystery",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8.9,
-        "progress": 13,
-        "links": {
-          "anilist": "https://anilist.co/anime/128893/",
-          "mal": "https://myanimelist.net/anime/128893",
-          "kitsu": "https://kitsu.io/anime/128893"
-        }
-      },
-      {
         "id": 145,
         "title": "His and Her Circumstances",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx145-vcSv07afgy6c.png",
@@ -8218,28 +8240,6 @@
           "anilist": "https://anilist.co/anime/141391/",
           "mal": "https://myanimelist.net/anime/141391",
           "kitsu": "https://kitsu.io/anime/141391"
-        }
-      },
-      {
-        "id": 163132,
-        "title": "Horimiya: The Missing Pieces",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163132-C220CO5UrTxY.jpg",
-        "averageScore": 81,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 13,
-        "links": {
-          "anilist": "https://anilist.co/anime/163132/",
-          "mal": "https://myanimelist.net/anime/163132",
-          "kitsu": "https://kitsu.io/anime/163132"
         }
       },
       {
@@ -12783,29 +12783,6 @@
     "name": "Rewatching",
     "entries": [
       {
-        "id": 4181,
-        "title": "Clannad: After Story",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4181-zUKE7BZC62OF.png",
-        "averageScore": 87,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Romance",
-          "Slice of Life",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.9,
-        "progress": 22,
-        "links": {
-          "anilist": "https://anilist.co/anime/4181/",
-          "mal": "https://myanimelist.net/anime/4181",
-          "kitsu": "https://kitsu.io/anime/4181"
-        }
-      },
-      {
         "id": 20665,
         "title": "Your lie in April",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20665-TLgkL8T8IRFd.png",
@@ -12826,28 +12803,6 @@
           "anilist": "https://anilist.co/anime/20665/",
           "mal": "https://myanimelist.net/anime/20665",
           "kitsu": "https://kitsu.io/anime/20665"
-        }
-      },
-      {
-        "id": 124080,
-        "title": "Horimiya",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124080-oeviACzGv5Vx.jpg",
-        "averageScore": 81,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.7,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/124080/",
-          "mal": "https://myanimelist.net/anime/124080",
-          "kitsu": "https://kitsu.io/anime/124080"
         }
       },
       {
@@ -12940,6 +12895,29 @@
         }
       },
       {
+        "id": 128893,
+        "title": "Hell’s Paradise",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128893-Gc2t8b8M0mVu.jpg",
+        "averageScore": 80,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Mystery",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 2,
+        "links": {
+          "anilist": "https://anilist.co/anime/128893/",
+          "mal": "https://myanimelist.net/anime/128893",
+          "kitsu": "https://kitsu.io/anime/128893"
+        }
+      },
+      {
         "id": 103572,
         "title": "The Quintessential Quintuplets",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103572-cchriAdH95cQ.png",
@@ -13005,6 +12983,28 @@
           "anilist": "https://anilist.co/anime/112641/",
           "mal": "https://myanimelist.net/anime/112641",
           "kitsu": "https://kitsu.io/anime/112641"
+        }
+      },
+      {
+        "id": 163132,
+        "title": "Horimiya: The Missing Pieces",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163132-C220CO5UrTxY.jpg",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/163132/",
+          "mal": "https://myanimelist.net/anime/163132",
+          "kitsu": "https://kitsu.io/anime/163132"
         }
       },
       {

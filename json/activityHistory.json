@@ -53185,6 +53185,22 @@
   ],
   "2025-11-23": [
     {
+      "id": 987201622,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1763917938,
+      "media": {
+        "title": {
+          "english": "Kaguya-sama: Love is War -Ultra Romantic-",
+          "romaji": "Kaguya-sama wa Kokurasetai: Ultra Romantic"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx125367-1yuq9NFcQuLI.png"
+        },
+        "siteUrl": "https://anilist.co/anime/125367"
+      }
+    },
+    {
       "id": 986954452,
       "status": "rewatched episode",
       "progress": "4",

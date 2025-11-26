@@ -53267,6 +53267,22 @@
   ],
   "2025-11-26": [
     {
+      "id": 988637227,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1764196684,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Kaguya-sama wa Kokurasetai: Otona e no Kaidan"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx194884-rHgGAzKSCEWz.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/194884"
+      }
+    },
+    {
       "id": 988610670,
       "status": "rewatched",
       "progress": "13",

@@ -4956,6 +4956,29 @@
           "mal": "https://myanimelist.net/anime/195516",
           "kitsu": "https://kitsu.io/anime/195516"
         }
+      },
+      {
+        "id": 194884,
+        "title": "Kaguya-sama wa Kokurasetai: Otona e no Kaidan",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx194884-rHgGAzKSCEWz.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Comedy",
+          "Psychological",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "SPECIAL",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/194884/",
+          "mal": "https://myanimelist.net/anime/194884",
+          "kitsu": "https://kitsu.io/anime/194884"
+        }
       }
     ]
   },

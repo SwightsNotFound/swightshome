@@ -53410,5 +53410,71 @@
         "siteUrl": "https://anilist.co/anime/125367"
       }
     }
+  ],
+  "2025-11-27": [
+    {
+      "id": 988680197,
+      "status": "rewatched",
+      "progress": "4",
+      "createdAt": 1764205142,
+      "media": {
+        "title": {
+          "english": "Kaguya-sama: Love is War -The First Kiss That Never Ends-",
+          "romaji": "Kaguya-sama wa Kokurasetai: First Kiss wa Owaranai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151384-gv0q8wOE6D58.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/151384"
+      }
+    },
+    {
+      "id": 988680194,
+      "status": "rewatched episode",
+      "progress": "3",
+      "createdAt": 1764205142,
+      "media": {
+        "title": {
+          "english": "Kaguya-sama: Love is War -The First Kiss That Never Ends-",
+          "romaji": "Kaguya-sama wa Kokurasetai: First Kiss wa Owaranai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151384-gv0q8wOE6D58.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/151384"
+      }
+    },
+    {
+      "id": 988680189,
+      "status": "rewatched episode",
+      "progress": "2",
+      "createdAt": 1764205141,
+      "media": {
+        "title": {
+          "english": "Kaguya-sama: Love is War -The First Kiss That Never Ends-",
+          "romaji": "Kaguya-sama wa Kokurasetai: First Kiss wa Owaranai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151384-gv0q8wOE6D58.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/151384"
+      }
+    },
+    {
+      "id": 988680185,
+      "status": "rewatched episode",
+      "progress": "1",
+      "createdAt": 1764205140,
+      "media": {
+        "title": {
+          "english": "Kaguya-sama: Love is War -The First Kiss That Never Ends-",
+          "romaji": "Kaguya-sama wa Kokurasetai: First Kiss wa Owaranai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151384-gv0q8wOE6D58.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/151384"
+      }
+    }
   ]
 }

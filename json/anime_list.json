@@ -5023,6 +5023,28 @@
           "mal": "https://myanimelist.net/anime/122511",
           "kitsu": "https://kitsu.io/anime/122511"
         }
+      },
+      {
+        "id": 345,
+        "title": "Emma: A Victorian Romance",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx345-ItqN2dbXa99S.jpg",
+        "averageScore": 74,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/345/",
+          "mal": "https://myanimelist.net/anime/345",
+          "kitsu": "https://kitsu.io/anime/345"
+        }
       }
     ]
   },
@@ -5933,29 +5955,6 @@
           "anilist": "https://anilist.co/anime/100049/",
           "mal": "https://myanimelist.net/anime/100049",
           "kitsu": "https://kitsu.io/anime/100049"
-        }
-      },
-      {
-        "id": 21127,
-        "title": "Steins;Gate 0",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21127-7ARWZkDXKiiD.jpg",
-        "averageScore": 84,
-        "episodes": 23,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Psychological",
-          "Sci-Fi",
-          "Thriller"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.4,
-        "progress": 23,
-        "links": {
-          "anilist": "https://anilist.co/anime/21127/",
-          "mal": "https://myanimelist.net/anime/21127",
-          "kitsu": "https://kitsu.io/anime/21127"
         }
       },
       {
@@ -12893,6 +12892,29 @@
           "anilist": "https://anilist.co/anime/20665/",
           "mal": "https://myanimelist.net/anime/20665",
           "kitsu": "https://kitsu.io/anime/20665"
+        }
+      },
+      {
+        "id": 21127,
+        "title": "Steins;Gate 0",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21127-7ARWZkDXKiiD.jpg",
+        "averageScore": 84,
+        "episodes": 23,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.4,
+        "progress": 3,
+        "links": {
+          "anilist": "https://anilist.co/anime/21127/",
+          "mal": "https://myanimelist.net/anime/21127",
+          "kitsu": "https://kitsu.io/anime/21127"
         }
       },
       {

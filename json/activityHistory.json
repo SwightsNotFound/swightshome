@@ -53511,6 +53511,22 @@
   ],
   "2025-11-29": [
     {
+      "id": 989683336,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1764428821,
+      "media": {
+        "title": {
+          "english": "The World is Still Beautiful",
+          "romaji": "Soredemo Sekai wa Utsukushii"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20599-QFFdBLjLlPJf.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20599"
+      }
+    },
+    {
       "id": 989540000,
       "status": "plans to watch",
       "progress": null,

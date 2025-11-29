@@ -5045,6 +5045,28 @@
           "mal": "https://myanimelist.net/anime/345",
           "kitsu": "https://kitsu.io/anime/345"
         }
+      },
+      {
+        "id": 20599,
+        "title": "The World is Still Beautiful",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20599-QFFdBLjLlPJf.jpg",
+        "averageScore": 72,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/20599/",
+          "mal": "https://myanimelist.net/anime/20599",
+          "kitsu": "https://kitsu.io/anime/20599"
+        }
       }
     ]
   },

@@ -53511,6 +53511,54 @@
   ],
   "2025-11-29": [
     {
+      "id": 989743840,
+      "status": "watched episode",
+      "progress": "4",
+      "createdAt": 1764439506,
+      "media": {
+        "title": {
+          "english": "86 EIGHTY-SIX Part 2",
+          "romaji": "86: Eighty Six Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131586-JhC0wcBi09EZ.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/131586"
+      }
+    },
+    {
+      "id": 989733188,
+      "status": "rewatched episode",
+      "progress": "6",
+      "createdAt": 1764437761,
+      "media": {
+        "title": {
+          "english": "Hell’s Paradise",
+          "romaji": "Jigokuraku"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx128893-Gc2t8b8M0mVu.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/128893"
+      }
+    },
+    {
+      "id": 989733185,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1764437760,
+      "media": {
+        "title": {
+          "english": "Hell’s Paradise",
+          "romaji": "Jigokuraku"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx128893-Gc2t8b8M0mVu.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/128893"
+      }
+    },
+    {
       "id": 989710329,
       "status": "rewatched episode",
       "progress": "2",

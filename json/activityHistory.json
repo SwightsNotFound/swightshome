@@ -53752,5 +53752,39 @@
         "siteUrl": "https://anilist.co/anime/163132"
       }
     }
+  ],
+  "2025-12-06": [
+    {
+      "id": 992395773,
+      "status": "rewatched episode",
+      "progress": "8",
+      "createdAt": 1764981947,
+      "media": {
+        "title": {
+          "english": "Hell’s Paradise",
+          "romaji": "Jigokuraku"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx128893-Gc2t8b8M0mVu.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/128893"
+      }
+    },
+    {
+      "id": 992395770,
+      "status": "rewatched episode",
+      "progress": "7",
+      "createdAt": 1764981946,
+      "media": {
+        "title": {
+          "english": "Hell’s Paradise",
+          "romaji": "Jigokuraku"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx128893-Gc2t8b8M0mVu.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/128893"
+      }
+    }
   ]
 }

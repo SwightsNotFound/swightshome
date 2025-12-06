@@ -53755,6 +53755,22 @@
   ],
   "2025-12-06": [
     {
+      "id": 992643369,
+      "status": "watched episode",
+      "progress": "5",
+      "createdAt": 1765038836,
+      "media": {
+        "title": {
+          "english": "86 EIGHTY-SIX Part 2",
+          "romaji": "86: Eighty Six Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131586-JhC0wcBi09EZ.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/131586"
+      }
+    },
+    {
       "id": 992395773,
       "status": "rewatched episode",
       "progress": "8",

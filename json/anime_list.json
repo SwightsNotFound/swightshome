@@ -990,7 +990,8 @@
         "episodes": 1,
         "status": "FINISHED",
         "genres": [
-          "Romance"
+          "Romance",
+          "Sci-Fi"
         ],
         "format": "MOVIE",
         "country": "JP",

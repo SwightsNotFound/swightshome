@@ -53802,5 +53802,71 @@
         "siteUrl": "https://anilist.co/anime/128893"
       }
     }
+  ],
+  "2025-12-12": [
+    {
+      "id": 995266852,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1765573229,
+      "media": {
+        "title": {
+          "english": "Kunon the Sorcerer Can See",
+          "romaji": "Majutsushi Kunon wa Mieteiru"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx186333-32qDHxLkndpg.png"
+        },
+        "siteUrl": "https://anilist.co/anime/186333"
+      }
+    },
+    {
+      "id": 995266825,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1765573225,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Mayonaka Heart Tune"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187942-Zd8lQfWnOpVH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/187942"
+      }
+    },
+    {
+      "id": 995266785,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1765573217,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai Sareru"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195518-XXcYHi6tXM6v.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/195518"
+      }
+    },
+    {
+      "id": 995266656,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1765573195,
+      "media": {
+        "title": {
+          "english": "You and I Are Polar Opposites",
+          "romaji": "Seihantai na Kimi to Boku"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184951-Unu28gPBUcRf.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/184951"
+      }
+    }
   ]
 }

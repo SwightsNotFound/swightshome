@@ -7533,29 +7533,6 @@
         }
       },
       {
-        "id": 108465,
-        "title": "Mushoku Tensei: Jobless Reincarnation",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108465-1ANspF1EWyFx.jpg",
-        "averageScore": 82,
-        "episodes": 11,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Ecchi",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8.5,
-        "progress": 11,
-        "links": {
-          "anilist": "https://anilist.co/anime/108465/",
-          "mal": "https://myanimelist.net/anime/108465",
-          "kitsu": "https://kitsu.io/anime/108465"
-        }
-      },
-      {
         "id": 185660,
         "title": "DAN DA DAN Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185660-uB8RUMBGovGr.jpg",
@@ -13160,6 +13137,29 @@
           "anilist": "https://anilist.co/anime/103572/",
           "mal": "https://myanimelist.net/anime/103572",
           "kitsu": "https://kitsu.io/anime/103572"
+        }
+      },
+      {
+        "id": 108465,
+        "title": "Mushoku Tensei: Jobless Reincarnation",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108465-1ANspF1EWyFx.jpg",
+        "averageScore": 82,
+        "episodes": 11,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Ecchi",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.5,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/108465/",
+          "mal": "https://myanimelist.net/anime/108465",
+          "kitsu": "https://kitsu.io/anime/108465"
         }
       },
       {

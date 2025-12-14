@@ -53871,6 +53871,38 @@
   ],
   "2025-12-13": [
     {
+      "id": 995736722,
+      "status": "rewatched episode",
+      "progress": "6",
+      "createdAt": 1765669858,
+      "media": {
+        "title": {
+          "english": "Mushoku Tensei: Jobless Reincarnation",
+          "romaji": "Mushoku Tensei: Isekai Ittara Honki Dasu"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108465-1ANspF1EWyFx.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/108465"
+      }
+    },
+    {
+      "id": 995727397,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1765668333,
+      "media": {
+        "title": {
+          "english": "Mushoku Tensei: Jobless Reincarnation",
+          "romaji": "Mushoku Tensei: Isekai Ittara Honki Dasu"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108465-1ANspF1EWyFx.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/108465"
+      }
+    },
+    {
       "id": 995711873,
       "status": "rewatched episode",
       "progress": "4",
@@ -53923,6 +53955,40 @@
       "status": "rewatched episode",
       "progress": "1",
       "createdAt": 1765660428,
+      "media": {
+        "title": {
+          "english": "Mushoku Tensei: Jobless Reincarnation",
+          "romaji": "Mushoku Tensei: Isekai Ittara Honki Dasu"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108465-1ANspF1EWyFx.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/108465"
+      }
+    }
+  ],
+  "2025-12-14": [
+    {
+      "id": 995772586,
+      "status": "rewatched episode",
+      "progress": "8",
+      "createdAt": 1765676278,
+      "media": {
+        "title": {
+          "english": "Mushoku Tensei: Jobless Reincarnation",
+          "romaji": "Mushoku Tensei: Isekai Ittara Honki Dasu"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108465-1ANspF1EWyFx.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/108465"
+      }
+    },
+    {
+      "id": 995745174,
+      "status": "rewatched episode",
+      "progress": "7",
+      "createdAt": 1765671324,
       "media": {
         "title": {
           "english": "Mushoku Tensei: Jobless Reincarnation",

@@ -8874,7 +8874,9 @@
         "genres": [
           "Action",
           "Comedy",
-          "Romance"
+          "Ecchi",
+          "Romance",
+          "Slice of Life"
         ],
         "format": "TV",
         "country": "JP",
@@ -13189,7 +13191,7 @@
       },
       {
         "id": 140291,
-        "title": "Disney Twisted-Wonderland: THE ANIMATION  - Season 1: EPISODE of HEARTSLABYUL",
+        "title": "Disney Twisted-Wonderland: THE ANIMATION - Season 1: EPISODE of HEARTSLABYUL",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140291-RAwYjwC9vWDR.png",
         "averageScore": 66,
         "episodes": 8,

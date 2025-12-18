@@ -5131,6 +5131,30 @@
           "mal": "https://myanimelist.net/anime/186333",
           "kitsu": "https://kitsu.io/anime/186333"
         }
+      },
+      {
+        "id": 4898,
+        "title": "Black Butler",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx4898-mW4gabZvwmLC.jpg",
+        "averageScore": 72,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Fantasy",
+          "Mystery",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/4898/",
+          "mal": "https://myanimelist.net/anime/4898",
+          "kitsu": "https://kitsu.io/anime/4898"
+        }
       }
     ]
   },
@@ -5928,6 +5952,29 @@
         }
       },
       {
+        "id": 101432,
+        "title": "Violet Evergarden: Special",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101432-NQSedsCDQ6dP.png",
+        "averageScore": 82,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "OVA",
+        "country": "JP",
+        "personalScore": 9.5,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/101432/",
+          "mal": "https://myanimelist.net/anime/101432",
+          "kitsu": "https://kitsu.io/anime/101432"
+        }
+      },
+      {
         "id": 101347,
         "title": "Dororo",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101347-TGaDwEYqLfm1.jpg",
@@ -6116,28 +6163,6 @@
         }
       },
       {
-        "id": 113596,
-        "title": "Josee, the Tiger and the Fish",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113596-LKA0bYJGjLnB.jpg",
-        "averageScore": 82,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 9.2,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/113596/",
-          "mal": "https://myanimelist.net/anime/113596",
-          "kitsu": "https://kitsu.io/anime/113596"
-        }
-      },
-      {
         "id": 154768,
         "title": "My Dress-Up Darling Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154768-DHHvNd4MjV1p.jpg",
@@ -6204,29 +6229,6 @@
           "anilist": "https://anilist.co/anime/112641/",
           "mal": "https://myanimelist.net/anime/112641",
           "kitsu": "https://kitsu.io/anime/112641"
-        }
-      },
-      {
-        "id": 101432,
-        "title": "Violet Evergarden: Special",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101432-NQSedsCDQ6dP.png",
-        "averageScore": 82,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Fantasy",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "OVA",
-        "country": "JP",
-        "personalScore": 9.1,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/101432/",
-          "mal": "https://myanimelist.net/anime/101432",
-          "kitsu": "https://kitsu.io/anime/101432"
         }
       },
       {
@@ -6498,6 +6500,28 @@
           "anilist": "https://anilist.co/anime/4224/",
           "mal": "https://myanimelist.net/anime/4224",
           "kitsu": "https://kitsu.io/anime/4224"
+        }
+      },
+      {
+        "id": 109190,
+        "title": "Violet Evergarden: Eternity and the Auto Memory Doll",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx109190-e8mv1qdmpjLW.jpg",
+        "averageScore": 83,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Slice of Life"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/109190/",
+          "mal": "https://myanimelist.net/anime/109190",
+          "kitsu": "https://kitsu.io/anime/109190"
         }
       },
       {
@@ -8301,28 +8325,6 @@
           "anilist": "https://anilist.co/anime/127371/",
           "mal": "https://myanimelist.net/anime/127371",
           "kitsu": "https://kitsu.io/anime/127371"
-        }
-      },
-      {
-        "id": 109190,
-        "title": "Violet Evergarden: Eternity and the Auto Memory Doll",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx109190-e8mv1qdmpjLW.jpg",
-        "averageScore": 83,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Fantasy",
-          "Slice of Life"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/109190/",
-          "mal": "https://myanimelist.net/anime/109190",
-          "kitsu": "https://kitsu.io/anime/109190"
         }
       },
       {
@@ -14323,6 +14325,28 @@
     "name": "Rewatching",
     "entries": [
       {
+        "id": 21827,
+        "title": "Violet Evergarden",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21827-ubzq619ZA2E9.png",
+        "averageScore": 85,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 10,
+        "progress": 8,
+        "links": {
+          "anilist": "https://anilist.co/anime/21827/",
+          "mal": "https://myanimelist.net/anime/21827",
+          "kitsu": "https://kitsu.io/anime/21827"
+        }
+      },
+      {
         "id": 20665,
         "title": "Your lie in April",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20665-TLgkL8T8IRFd.png",
@@ -14346,28 +14370,6 @@
         }
       },
       {
-        "id": 21827,
-        "title": "Violet Evergarden",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21827-ubzq619ZA2E9.png",
-        "averageScore": 85,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Fantasy",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.9,
-        "progress": 8,
-        "links": {
-          "anilist": "https://anilist.co/anime/21827/",
-          "mal": "https://myanimelist.net/anime/21827",
-          "kitsu": "https://kitsu.io/anime/21827"
-        }
-      },
-      {
         "id": 21127,
         "title": "Steins;Gate 0",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21127-7ARWZkDXKiiD.jpg",
@@ -14388,6 +14390,28 @@
           "anilist": "https://anilist.co/anime/21127/",
           "mal": "https://myanimelist.net/anime/21127",
           "kitsu": "https://kitsu.io/anime/21127"
+        }
+      },
+      {
+        "id": 113596,
+        "title": "Josee, the Tiger and the Fish",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113596-LKA0bYJGjLnB.jpg",
+        "averageScore": 82,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 9.2,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/113596/",
+          "mal": "https://myanimelist.net/anime/113596",
+          "kitsu": "https://kitsu.io/anime/113596"
         }
       },
       {

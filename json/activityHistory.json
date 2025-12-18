@@ -54519,6 +54519,22 @@
   ],
   "2025-12-18": [
     {
+      "id": 997586808,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1766029288,
+      "media": {
+        "title": {
+          "english": "Black Butler",
+          "romaji": "Kuroshitsuji"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx4898-mW4gabZvwmLC.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/4898"
+      }
+    },
+    {
       "id": 997536612,
       "status": "rewatched episode",
       "progress": "8",

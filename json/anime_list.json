@@ -4913,10 +4913,10 @@
       },
       {
         "id": 194884,
-        "title": "Kaguya-sama wa Kokurasetai: Otona e no Kaidan",
+        "title": "Kaguya-sama: Love Is War - Stairway to Adulthood",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx194884-rHgGAzKSCEWz.jpg",
         "averageScore": null,
-        "episodes": 1,
+        "episodes": 2,
         "status": "FINISHED",
         "genres": [
           "Comedy",
@@ -5131,6 +5131,28 @@
           "anilist": "https://anilist.co/anime/4898/",
           "mal": "https://myanimelist.net/anime/4898",
           "kitsu": "https://kitsu.io/anime/4898"
+        }
+      },
+      {
+        "id": 205054,
+        "title": "Tensei Akujo no Kuro Rekishi OVA",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx205054-yDlMfYNpj3M1.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "OVA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/205054/",
+          "mal": "https://myanimelist.net/anime/205054",
+          "kitsu": "https://kitsu.io/anime/205054"
         }
       }
     ]

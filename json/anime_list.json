@@ -4382,29 +4382,6 @@
         }
       },
       {
-        "id": 167152,
-        "title": "Sentenced to Be a Hero",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx167152-u0cBZkqDowHP.jpg",
-        "averageScore": null,
-        "episodes": 12,
-        "status": "RELEASING",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Drama",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/167152/",
-          "mal": "https://myanimelist.net/anime/167152",
-          "kitsu": "https://kitsu.io/anime/167152"
-        }
-      },
-      {
         "id": 185039,
         "title": "The Invisible Man and His Soon-to-Be Wife",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185039-rVofxrbEyaL9.jpg",
@@ -5525,7 +5502,7 @@
         "id": 116589,
         "title": "86 EIGHTY-SIX",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx116589-qT34qzsZtk9V.jpg",
-        "averageScore": 83,
+        "averageScore": 82,
         "episodes": 11,
         "status": "FINISHED",
         "genres": [
@@ -13818,6 +13795,29 @@
         }
       },
       {
+        "id": 167152,
+        "title": "Sentenced to Be a Hero",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx167152-u0cBZkqDowHP.jpg",
+        "averageScore": null,
+        "episodes": 12,
+        "status": "RELEASING",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/167152/",
+          "mal": "https://myanimelist.net/anime/167152",
+          "kitsu": "https://kitsu.io/anime/167152"
+        }
+      },
+      {
         "id": 20464,
         "title": "HAIKYU!!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20464-ooZUyBe4ptp9.png",
@@ -13994,6 +13994,27 @@
           "anilist": "https://anilist.co/anime/141821/",
           "mal": "https://myanimelist.net/anime/141821",
           "kitsu": "https://kitsu.io/anime/141821"
+        }
+      },
+      {
+        "id": 100878,
+        "title": "Saga of Tanya the Evil - the Movie -",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100878-npKVJvggmK6a.jpg",
+        "averageScore": 81,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Fantasy"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/100878/",
+          "mal": "https://myanimelist.net/anime/100878",
+          "kitsu": "https://kitsu.io/anime/100878"
         }
       }
     ]

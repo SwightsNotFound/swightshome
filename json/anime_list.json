@@ -3798,7 +3798,7 @@
         "id": 166617,
         "title": "Fate/strange Fake",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166617-34fpC9y47tTx.png",
-        "averageScore": null,
+        "averageScore": 80,
         "episodes": 13,
         "status": "RELEASING",
         "genres": [
@@ -13203,7 +13203,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 1,
+        "progress": 2,
         "links": {
           "anilist": "https://anilist.co/anime/186161/",
           "mal": "https://myanimelist.net/anime/186161",

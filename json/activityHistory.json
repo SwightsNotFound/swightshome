@@ -54813,6 +54813,38 @@
   ],
   "2026-01-04": [
     {
+      "id": 1006144414,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1767568482,
+      "media": {
+        "title": {
+          "english": "Ranma1/2 (2024) Season 2",
+          "romaji": "Ranma 1/2 (2024) 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185731-PJ6WKcFDUI4B.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/185731"
+      }
+    },
+    {
+      "id": 1006127579,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1767566576,
+      "media": {
+        "title": {
+          "english": "Ranma1/2 (2024) Season 2",
+          "romaji": "Ranma 1/2 (2024) 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185731-PJ6WKcFDUI4B.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/185731"
+      }
+    },
+    {
       "id": 1006050361,
       "status": "completed",
       "progress": null,

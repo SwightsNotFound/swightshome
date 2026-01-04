@@ -10974,6 +10974,28 @@
         }
       },
       {
+        "id": 186161,
+        "title": "With You, Our Love Will Make It Through",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx186161-YijWl9vZKmFI.jpg",
+        "averageScore": 69,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 6.9,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/186161/",
+          "mal": "https://myanimelist.net/anime/186161",
+          "kitsu": "https://kitsu.io/anime/186161"
+        }
+      },
+      {
         "id": 100240,
         "title": "Tokyo Ghoul:re",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100240-vJNaKd5HwPJ2.jpg",
@@ -13186,28 +13208,6 @@
           "anilist": "https://anilist.co/anime/140291/",
           "mal": "https://myanimelist.net/anime/140291",
           "kitsu": "https://kitsu.io/anime/140291"
-        }
-      },
-      {
-        "id": 186161,
-        "title": "With You, Our Love Will Make It Through",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx186161-YijWl9vZKmFI.jpg",
-        "averageScore": 69,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Fantasy",
-          "Romance"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 10,
-        "links": {
-          "anilist": "https://anilist.co/anime/186161/",
-          "mal": "https://myanimelist.net/anime/186161",
-          "kitsu": "https://kitsu.io/anime/186161"
         }
       },
       {

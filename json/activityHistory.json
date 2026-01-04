@@ -54813,6 +54813,38 @@
   ],
   "2026-01-04": [
     {
+      "id": 1006050361,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1767557877,
+      "media": {
+        "title": {
+          "english": "With You, Our Love Will Make It Through",
+          "romaji": "Kimi to Koete Koi ni Naru"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx186161-YijWl9vZKmFI.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/186161"
+      }
+    },
+    {
+      "id": 1006034568,
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1767556050,
+      "media": {
+        "title": {
+          "english": "With You, Our Love Will Make It Through",
+          "romaji": "Kimi to Koete Koi ni Naru"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx186161-YijWl9vZKmFI.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/186161"
+      }
+    },
+    {
       "id": 1005679262,
       "status": "watched episode",
       "progress": "10",

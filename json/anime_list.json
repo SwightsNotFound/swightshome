@@ -4387,7 +4387,7 @@
         "title": "The Invisible Man and His Soon-to-Be Wife",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185039-rVofxrbEyaL9.jpg",
         "averageScore": null,
-        "episodes": null,
+        "episodes": 12,
         "status": "RELEASING",
         "genres": [
           "Comedy",
@@ -13502,7 +13502,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 1,
+        "progress": 3,
         "links": {
           "anilist": "https://anilist.co/anime/183385/",
           "mal": "https://myanimelist.net/anime/183385",

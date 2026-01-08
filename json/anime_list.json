@@ -2732,7 +2732,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172463-pNl29lVrhwZ2.jpg",
         "averageScore": null,
         "episodes": null,
-        "status": "NOT_YET_RELEASED",
+        "status": "RELEASING",
         "genres": [
           "Action",
           "Drama",
@@ -4388,7 +4388,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185039-rVofxrbEyaL9.jpg",
         "averageScore": null,
         "episodes": null,
-        "status": "NOT_YET_RELEASED",
+        "status": "RELEASING",
         "genres": [
           "Comedy",
           "Romance",
@@ -12935,6 +12935,28 @@
         }
       },
       {
+        "id": 185731,
+        "title": "Ranma1/2 (2024) Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185731-PJ6WKcFDUI4B.jpg",
+        "averageScore": 77,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0.8,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/185731/",
+          "mal": "https://myanimelist.net/anime/185731",
+          "kitsu": "https://kitsu.io/anime/185731"
+        }
+      },
+      {
         "id": 97731,
         "title": "Shelter",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx97731-gYxm0WorfNPM.png",
@@ -13838,28 +13860,6 @@
           "anilist": "https://anilist.co/anime/20464/",
           "mal": "https://myanimelist.net/anime/20464",
           "kitsu": "https://kitsu.io/anime/20464"
-        }
-      },
-      {
-        "id": 185731,
-        "title": "Ranma1/2 (2024) Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185731-PJ6WKcFDUI4B.jpg",
-        "averageScore": 77,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Romance"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 10,
-        "links": {
-          "anilist": "https://anilist.co/anime/185731/",
-          "mal": "https://myanimelist.net/anime/185731",
-          "kitsu": "https://kitsu.io/anime/185731"
         }
       },
       {

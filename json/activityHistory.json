@@ -55200,5 +55200,23 @@
         "siteUrl": "https://anilist.co/anime/185731"
       }
     }
+  ],
+  "2026-01-09": [
+    {
+      "id": 1008628584,
+      "status": "watched episode",
+      "progress": "5",
+      "createdAt": 1767971101,
+      "media": {
+        "title": {
+          "english": "This Monster Wants to Eat Me",
+          "romaji": "Watashi wo Tabetai, Hitodenashi"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx183385-f1TgnttLckBT.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/183385"
+      }
+    }
   ]
 }

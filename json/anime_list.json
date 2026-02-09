@@ -13341,7 +13341,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 8,
-        "progress": 3,
+        "progress": 4,
         "links": {
           "anilist": "https://anilist.co/anime/109261/",
           "mal": "https://myanimelist.net/anime/109261",
@@ -14387,6 +14387,28 @@
           "anilist": "https://anilist.co/anime/100878/",
           "mal": "https://myanimelist.net/anime/100878",
           "kitsu": "https://kitsu.io/anime/100878"
+        }
+      },
+      {
+        "id": 19603,
+        "title": "Fate/stay night: Unlimited Blade Works",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx19603-ycT0pyEgDVQu.jpg",
+        "averageScore": 80,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 3,
+        "links": {
+          "anilist": "https://anilist.co/anime/19603/",
+          "mal": "https://myanimelist.net/anime/19603",
+          "kitsu": "https://kitsu.io/anime/19603"
         }
       }
     ]

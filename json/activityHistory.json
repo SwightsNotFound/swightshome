@@ -56002,5 +56002,55 @@
         "siteUrl": "https://anilist.co/anime/184591"
       }
     }
+  ],
+  "2026-02-09": [
+    {
+      "id": 1024668201,
+      "status": "rewatched episode",
+      "progress": "7",
+      "createdAt": 1770615905,
+      "media": {
+        "title": {
+          "english": "The Quintessential Quintuplets",
+          "romaji": "Go-toubun no Hanayome"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx103572-cchriAdH95cQ.png"
+        },
+        "siteUrl": "https://anilist.co/anime/103572"
+      }
+    },
+    {
+      "id": 1024660162,
+      "status": "rewatched episode",
+      "progress": "6",
+      "createdAt": 1770614365,
+      "media": {
+        "title": {
+          "english": "The Quintessential Quintuplets",
+          "romaji": "Go-toubun no Hanayome"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx103572-cchriAdH95cQ.png"
+        },
+        "siteUrl": "https://anilist.co/anime/103572"
+      }
+    },
+    {
+      "id": 1024652797,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1770613016,
+      "media": {
+        "title": {
+          "english": "The Quintessential Quintuplets",
+          "romaji": "Go-toubun no Hanayome"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx103572-cchriAdH95cQ.png"
+        },
+        "siteUrl": "https://anilist.co/anime/103572"
+      }
+    }
   ]
 }

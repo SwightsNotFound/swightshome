@@ -7578,6 +7578,29 @@
         }
       },
       {
+        "id": 103572,
+        "title": "The Quintessential Quintuplets",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103572-cchriAdH95cQ.png",
+        "averageScore": 75,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.7,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/103572/",
+          "mal": "https://myanimelist.net/anime/103572",
+          "kitsu": "https://kitsu.io/anime/103572"
+        }
+      },
+      {
         "id": 101338,
         "title": "Mob Psycho 100 II",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101338-rokVscjRYzdP.jpg",
@@ -7898,29 +7921,6 @@
           "anilist": "https://anilist.co/anime/20801/",
           "mal": "https://myanimelist.net/anime/20801",
           "kitsu": "https://kitsu.io/anime/20801"
-        }
-      },
-      {
-        "id": 109261,
-        "title": "The Quintessential Quintuplets 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx109261-65rKxMDlcU9r.png",
-        "averageScore": 79,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/109261/",
-          "mal": "https://myanimelist.net/anime/109261",
-          "kitsu": "https://kitsu.io/anime/109261"
         }
       },
       {
@@ -13326,10 +13326,10 @@
         }
       },
       {
-        "id": 103572,
-        "title": "The Quintessential Quintuplets",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103572-cchriAdH95cQ.png",
-        "averageScore": 75,
+        "id": 109261,
+        "title": "The Quintessential Quintuplets 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx109261-65rKxMDlcU9r.png",
+        "averageScore": 79,
         "episodes": 12,
         "status": "FINISHED",
         "genres": [
@@ -13340,12 +13340,12 @@
         ],
         "format": "TV",
         "country": "JP",
-        "personalScore": 8.7,
-        "progress": 9,
+        "personalScore": 8,
+        "progress": 1,
         "links": {
-          "anilist": "https://anilist.co/anime/103572/",
-          "mal": "https://myanimelist.net/anime/103572",
-          "kitsu": "https://kitsu.io/anime/103572"
+          "anilist": "https://anilist.co/anime/109261/",
+          "mal": "https://myanimelist.net/anime/109261",
+          "kitsu": "https://kitsu.io/anime/109261"
         }
       },
       {

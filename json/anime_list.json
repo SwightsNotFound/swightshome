@@ -5436,28 +5436,6 @@
         }
       },
       {
-        "id": 185407,
-        "title": "Takopi's Original Sin",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185407-7uzY4fA3hokP.jpg",
-        "averageScore": 87,
-        "episodes": 6,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Psychological",
-          "Sci-Fi"
-        ],
-        "format": "ONA",
-        "country": "JP",
-        "personalScore": 10,
-        "progress": 6,
-        "links": {
-          "anilist": "https://anilist.co/anime/185407/",
-          "mal": "https://myanimelist.net/anime/185407",
-          "kitsu": "https://kitsu.io/anime/185407"
-        }
-      },
-      {
         "id": 4181,
         "title": "Clannad: After Story",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4181-zUKE7BZC62OF.png",
@@ -13235,6 +13213,28 @@
   {
     "name": "Rewatching",
     "entries": [
+      {
+        "id": 185407,
+        "title": "Takopi's Original Sin",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185407-7uzY4fA3hokP.jpg",
+        "averageScore": 87,
+        "episodes": 6,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Sci-Fi"
+        ],
+        "format": "ONA",
+        "country": "JP",
+        "personalScore": 10,
+        "progress": 3,
+        "links": {
+          "anilist": "https://anilist.co/anime/185407/",
+          "mal": "https://myanimelist.net/anime/185407",
+          "kitsu": "https://kitsu.io/anime/185407"
+        }
+      },
       {
         "id": 162804,
         "title": "Alya Sometimes Hides Her Feelings in Russian",

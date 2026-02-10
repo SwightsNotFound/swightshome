@@ -56247,6 +56247,54 @@
   ],
   "2026-02-10": [
     {
+      "id": 1025113621,
+      "status": "rewatched",
+      "progress": "6",
+      "createdAt": 1770694751,
+      "media": {
+        "title": {
+          "english": "Takopi's Original Sin",
+          "romaji": "Takopii no Genzai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185407-7uzY4fA3hokP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/185407"
+      }
+    },
+    {
+      "id": 1025098235,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1770691737,
+      "media": {
+        "title": {
+          "english": "Takopi's Original Sin",
+          "romaji": "Takopii no Genzai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185407-7uzY4fA3hokP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/185407"
+      }
+    },
+    {
+      "id": 1025088238,
+      "status": "rewatched episode",
+      "progress": "4",
+      "createdAt": 1770689806,
+      "media": {
+        "title": {
+          "english": "Takopi's Original Sin",
+          "romaji": "Takopii no Genzai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185407-7uzY4fA3hokP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/185407"
+      }
+    },
+    {
       "id": 1025069046,
       "status": "rewatched episode",
       "progress": "3",

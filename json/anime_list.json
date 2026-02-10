@@ -4236,7 +4236,11 @@
         "episodes": 1,
         "status": "FINISHED",
         "genres": [
-          "Fantasy"
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Psychological"
         ],
         "format": "MOVIE",
         "country": "JP",

@@ -7466,6 +7466,29 @@
         }
       },
       {
+        "id": 109261,
+        "title": "The Quintessential Quintuplets 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx109261-65rKxMDlcU9r.png",
+        "averageScore": 79,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.8,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/109261/",
+          "mal": "https://myanimelist.net/anime/109261",
+          "kitsu": "https://kitsu.io/anime/109261"
+        }
+      },
+      {
         "id": 145,
         "title": "His and Her Circumstances",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx145-vcSv07afgy6c.png",
@@ -7579,6 +7602,28 @@
           "anilist": "https://anilist.co/anime/142876/",
           "mal": "https://myanimelist.net/anime/142876",
           "kitsu": "https://kitsu.io/anime/142876"
+        }
+      },
+      {
+        "id": 163327,
+        "title": "The Quintessential Quintuplets Specials",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163327-xBQznOwq6emq.jpg",
+        "averageScore": 79,
+        "episodes": 2,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "SPECIAL",
+        "country": "JP",
+        "personalScore": 8.8,
+        "progress": 2,
+        "links": {
+          "anilist": "https://anilist.co/anime/163327/",
+          "mal": "https://myanimelist.net/anime/163327",
+          "kitsu": "https://kitsu.io/anime/163327"
         }
       },
       {
@@ -7925,29 +7970,6 @@
           "anilist": "https://anilist.co/anime/20801/",
           "mal": "https://myanimelist.net/anime/20801",
           "kitsu": "https://kitsu.io/anime/20801"
-        }
-      },
-      {
-        "id": 109261,
-        "title": "The Quintessential Quintuplets 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx109261-65rKxMDlcU9r.png",
-        "averageScore": 79,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/109261/",
-          "mal": "https://myanimelist.net/anime/109261",
-          "kitsu": "https://kitsu.io/anime/109261"
         }
       },
       {
@@ -14273,28 +14295,6 @@
           "anilist": "https://anilist.co/anime/19603/",
           "mal": "https://myanimelist.net/anime/19603",
           "kitsu": "https://kitsu.io/anime/19603"
-        }
-      },
-      {
-        "id": 163327,
-        "title": "The Quintessential Quintuplets Specials",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163327-xBQznOwq6emq.jpg",
-        "averageScore": 79,
-        "episodes": 2,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "SPECIAL",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/163327/",
-          "mal": "https://myanimelist.net/anime/163327",
-          "kitsu": "https://kitsu.io/anime/163327"
         }
       }
     ]

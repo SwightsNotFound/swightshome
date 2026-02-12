@@ -14341,6 +14341,28 @@
           "mal": "https://myanimelist.net/anime/177191",
           "kitsu": "https://kitsu.io/anime/177191"
         }
+      },
+      {
+        "id": 151806,
+        "title": "Tomo-chan Is a Girl!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151806-IAMi2ctI5xJI.jpg",
+        "averageScore": 76,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/151806/",
+          "mal": "https://myanimelist.net/anime/151806",
+          "kitsu": "https://kitsu.io/anime/151806"
+        }
       }
     ]
   },

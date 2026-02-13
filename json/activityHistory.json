@@ -56621,6 +56621,22 @@
   ],
   "2026-02-13": [
     {
+      "id": 1026722750,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1771001158,
+      "media": {
+        "title": {
+          "english": "My Dress-Up Darling",
+          "romaji": "Sono Bisque Doll wa Koi wo Suru"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx132405-qP7FQYGmNI3d.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/132405"
+      }
+    },
+    {
       "id": 1026709629,
       "status": "rewatched episode",
       "progress": "4",

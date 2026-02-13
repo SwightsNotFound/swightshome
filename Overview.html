@@ -381,36 +381,34 @@
         
         .image-grid img:hover { transform: scale(1.03); }
         
-        /* ORIGINAL ACTIVITY HISTORY GRAPH STYLING */
+        /* VERY SMALL ACTIVITY HISTORY GRAPH - HALF THE PREVIOUS SIZE */
         .down-heatmap-wrap {
             display: flex;
             flex-direction: column;
             align-items: center;
             width: 100%;
             margin: 0 auto;
+            padding: 5px 0;
         }
         
         .down-heatmap {
             display: grid;
             grid-template-columns: repeat(7, 1fr); /* 7 days horizontally */
-            grid-template-rows: repeat(52, 1fr);   /* 52 weeks vertically */
-            gap: 2px;
-            width: 140px;   /* wider for readability */
-            min-width: 100px;
-            max-width: 180px;
-            height: 520px;  /* tall for all weeks */
-            max-height: 520px;
-            min-height: 400px;
+            grid-auto-rows: 1fr; /* Flexible rows */
+            gap: 1px;
+            width: 105px;   /* 7 columns × (14px + 1px gap) - 1px for end gap */
+            height: auto;
             align-items: center;
             justify-items: center;
             background: none;
+            margin: 0 auto;
         }
         
         .down-day {
-            width: 16px;
-            height: 8px;
+            width: 14px;
+            height: 14px;
             background-color: rgba(77, 142, 230, 0.08);
-            border-radius: 2px;
+            border-radius: 1px;
             transition: all 0.2s;
             box-sizing: border-box;
         }
@@ -421,8 +419,8 @@
         .down-day[data-activity="4"] { background-color: #174b8a; }
         
         .down-day:hover {
-            transform: scale(1.6);
-            box-shadow: 0 0 12px #397ddb77;
+            transform: scale(1.8);
+            box-shadow: 0 0 6px #397ddb77;
             z-index: 2;
         }
         
@@ -776,6 +774,7 @@
             opacity: 0.7;
         }
 
+        /* Responsive design for the heatmap */
         @media (max-width: 1400px) {
             .centered-true-flex-row {
                 max-width: 100vw;
@@ -788,6 +787,13 @@
                 min-width: 320px;
                 max-width: 350px;
             }
+            .down-heatmap {
+                width: 91px;
+            }
+            .down-day {
+                width: 12px;
+                height: 12px;
+            }
         }
         
         @media (max-width: 1200px) {
@@ -799,6 +805,13 @@
                 max-width: 100%;
                 width: 100%;
                 align-items: center;
+            }
+            .down-heatmap {
+                width: 84px;
+            }
+            .down-day {
+                width: 11px;
+                height: 11px;
             }
         }
         
@@ -815,7 +828,13 @@
             .favorites-list {
                 grid-template-columns: repeat(3, 1fr);
             }
-            .down-heatmap { width: 110px; height: 360px; }
+            .down-heatmap {
+                width: 70px;
+            }
+            .down-day {
+                width: 9px;
+                height: 9px;
+            }
         }
         
         @media (max-width: 768px) {
@@ -851,7 +870,23 @@
                 width: 100%;
                 min-width: unset;
             }
-            .down-heatmap { width: 85px; height: 220px; }
+            .down-heatmap {
+                width: 56px;
+            }
+            .down-day {
+                width: 7px;
+                height: 7px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .down-heatmap {
+                width: 49px;
+            }
+            .down-day {
+                width: 6px;
+                height: 6px;
+            }
         }
     </style>
 </head>
@@ -865,7 +900,7 @@
             <div class="header-content">
                 <img src="images/littlelink.png" alt="Logo">
                 <h1>Swight</h1>
-                <p>A group of scipts I made for fun that fetch information from both my Anilist and StoryGraph profiles, stores that information in JSON files, and then displays that information fancily.</p>
+                <p>A group of scipts I made for fun that fetch information from my Anilist profile, stores that information in JSON files, and then displays that information fancily.</p>
                 <div class="logo-links">
                     <a href="https://anilist.co/user/Swight/" target="_blank">
                         <img src="images/AniList.svg.png" alt="Anilist Logo">
@@ -875,10 +910,6 @@
                     </a>
                     <a href="https://kitsu.app/users/Swight" target="_blank">
                         <img src="images/kitsu.png" alt="Kitsu Logo">
-                    </a>
-                    <a href="https://app.thestorygraph.com/profile/swight" target="_blank">
-                        <img src="images/storygraph.png" alt="Storygraph Logo">
-                    </a>
                 </div>
             </div>
         </div>
@@ -893,7 +924,6 @@
                 <a href="Overview" class="navbar-link active">Overview</a>
                 <a href="Anime" class="navbar-link">Anime</a>
                 <a href="Manga" class="navbar-link">Manga</a>
-                <a href="Books" class="navbar-link">Books</a>
             </nav>
         </div>
         <!-- Content Area: TRUE CENTER layout with grid -->
@@ -928,22 +958,17 @@
                         <div class="stat-item"><span>Chapters Read:</span><span id="manga-chaptersRead">Loading...</span></div>
                         <div class="stat-item"><span>Volumes Read:</span><span id="manga-volumesRead">Loading...</span></div>
                     </div>
-                    <div class="stats-section">
-                        <h2>Book Stats</h2>
-                        <div class="stat-item"><span>Books Read:</span><span id="books-read">Loading...</span></div>
-                        <div class="stat-item"><span>Pages Read:</span><span id="pages-read">Loading...</span></div>
-                        <div class="stat-item"><span>Minutes Listened:</span><span id="minutes-listened">Loading...</span></div>
+                    <!-- MOVED GENRE SECTION ABOVE ACTIVITY HISTORY -->
+                    <div class="bar-chart-container">
+                        <h2>Genres</h2>
+                        <div id="top-genres"></div>
+                        <canvas id="genreChart"></canvas>
                     </div>
                     <div class="stats-section">
                         <h2>Activity History</h2>
                         <div class="down-heatmap-wrap">
                             <div class="down-heatmap" id="downHeatmap"></div>
                         </div>
-                    </div>
-                    <div class="bar-chart-container">
-                        <h2>Genres</h2>
-                        <div id="top-genres"></div>
-                        <canvas id="genreChart"></canvas>
                     </div>
                 </div>
                 <!-- CENTER COLUMN: RECENT ACTIVITIES -->
@@ -1064,32 +1089,34 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             let allActivities = [];
-            let activitiesToShow = 25;
+            let activitiesToShow = 33;
             const activitiesPerLoad = 10;
             const excludedStatuses = [
                 "paused watching", "paused reading", "dropped",
                 "plans to read", "plans to watch"
             ];
             
-            // --- ORIGINAL DOWNWARD ACTIVITY HISTORY GRAPH LOGIC ---
+            // --- UPDATED DOWNWARD ACTIVITY HISTORY GRAPH LOGIC ---
             fetch('json/activityHistory.json')
                 .then(response => response.json())
                 .then(activityData => {
-                    // 52 weeks x 7 days = 364 days (full year)
+                    // Create array for 365 days (full year)
                     const currentDate = new Date();
                     const days = [];
-                    for (let i = 0; i < 364; i++) {
+                    for (let i = 0; i < 365; i++) {
                         const d = new Date(currentDate);
-                        d.setDate(d.getDate() - (363 - i));
+                        d.setDate(d.getDate() - (364 - i));
                         days.push(d);
                     }
                     
-                    // Prepare 2D array: [row][col] = activity level -- row=week (vertical), col=day (Mon-Sun)
-                    const grid = Array.from({ length: 52 }, () => Array(7).fill({level:0, count:0, date:""}));
+                    // Create 2D grid: 53 weeks × 7 days = 371 slots, but we'll only fill 365
+                    const grid = Array.from({ length: 53 }, () => Array(7).fill({level:0, count:0, date:""}));
+                    
+                    // Fill the grid with activity data
                     for (let i = 0; i < days.length; i++) {
-                        const week = Math.floor(i / 7); // row index (vertical)
+                        const week = Math.floor(i / 7); // row index (0-52)
                         const dayOfWeek = days[i].getDay(); // 0 (Sun) - 6 (Sat)
-                        const col = (dayOfWeek + 6) % 7; // Monday=0, Sunday=6 (horizontal col index)
+                        const col = (dayOfWeek + 6) % 7; // Monday=0, Sunday=6
                         const dateString = days[i].toISOString().split('T')[0];
                         const acts = (activityData[dateString] || []).filter(a =>
                             !excludedStatuses.includes((a.status || "").toLowerCase())
@@ -1102,21 +1129,28 @@
                         grid[week][col] = { level, count: acts.length, date: dateString };
                     }
                     
-                    // Render downwards: columns = days (Mon-Sun), rows = weeks (oldest at top)
+                    // Render the heatmap - create exactly 365 square boxes
                     const container = document.getElementById('downHeatmap');
                     container.innerHTML = '';
-                    for (let week = 0; week < 52; week++) {
+                    
+                    let cellsCreated = 0;
+                    // Fill the grid row by row, left to right
+                    for (let week = 0; week < 53; week++) {
                         for (let col = 0; col < 7; col++) {
+                            if (cellsCreated >= 365) break;
+                            
                             const cell = grid[week][col];
                             const div = document.createElement('div');
                             div.className = 'down-day';
                             div.dataset.activity = cell.level;
                             div.title = `${cell.date}: ${cell.count} activities`;
                             container.appendChild(div);
+                            cellsCreated++;
                         }
+                        if (cellsCreated >= 365) break;
                     }
                     
-                    // Prepare allActivities for recent activity list: latest first
+                    // Prepare allActivities for recent activity list
                     const reversedDays = [...days].reverse();
                     reversedDays.forEach(d => {
                         const dateString = d.toISOString().split('T')[0];
@@ -1131,7 +1165,7 @@
                 })
                 .catch(error => {
                     const container = document.getElementById('downHeatmap');
-                    if (container) container.innerHTML = '';
+                    if (container) container.innerHTML = '<div style="color: #aaa; text-align: center; padding: 10px; font-size: 0.8rem;">Failed to load activity data</div>';
                     console.error('Error loading activity data:', error);
                 });
 

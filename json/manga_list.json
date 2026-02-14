@@ -791,6 +791,28 @@
           "mal": "https://myanimelist.net/manga/86218",
           "kitsu": "https://kitsu.io/manga/86218"
         }
+      },
+      {
+        "id": 72451,
+        "title": "Horimiya",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx72451-vVXtRwyttjGG.png",
+        "averageScore": 82,
+        "chapters": 152,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/72451/",
+          "mal": "https://myanimelist.net/manga/72451",
+          "kitsu": "https://kitsu.io/manga/72451"
+        }
       }
     ]
   },

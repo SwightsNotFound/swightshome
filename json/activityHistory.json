@@ -56783,6 +56783,54 @@
   ],
   "2026-02-14": [
     {
+      "id": 1027169745,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1771089081,
+      "media": {
+        "title": {
+          "english": "My Wife Has No Emotion",
+          "romaji": "Boku no Tsuma wa Kanjou ga Nai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx175450-Wfjd6OqFOn2h.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/175450"
+      }
+    },
+    {
+      "id": 1027166951,
+      "status": "plans to read",
+      "progress": null,
+      "createdAt": 1771088598,
+      "media": {
+        "title": {
+          "english": "Horimiya",
+          "romaji": "Horimiya"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx72451-vVXtRwyttjGG.png"
+        },
+        "siteUrl": "https://anilist.co/manga/72451"
+      }
+    },
+    {
+      "id": 1027153271,
+      "status": "watched episode",
+      "progress": "12",
+      "createdAt": 1771086349,
+      "media": {
+        "title": {
+          "english": "Tomo-chan Is a Girl!",
+          "romaji": "Tomo-chan wa Onnanoko!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151806-IAMi2ctI5xJI.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/151806"
+      }
+    },
+    {
       "id": 1026972956,
       "status": "watched episode",
       "progress": "11",

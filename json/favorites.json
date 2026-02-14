@@ -694,6 +694,28 @@
           "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
         },
         "siteUrl": "https://anilist.co/staff/95118"
+      },
+      {
+        "id": 103074,
+        "name": {
+          "full": "Jin Aketagawa",
+          "native": "明田川仁"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n103074-36TfkytWdRzi.png"
+        },
+        "siteUrl": "https://anilist.co/staff/103074"
+      },
+      {
+        "id": 131189,
+        "name": {
+          "full": "Kazunori Ozawa",
+          "native": "小澤和則"
+        },
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n131189-zT4iokxFkxD8.png"
+        },
+        "siteUrl": "https://anilist.co/staff/131189"
       }
     ]
   }

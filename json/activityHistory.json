@@ -56783,6 +56783,22 @@
   ],
   "2026-02-14": [
     {
+      "id": 1027189470,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1771092377,
+      "media": {
+        "title": {
+          "english": "Tomo-chan Is a Girl!",
+          "romaji": "Tomo-chan wa Onnanoko!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151806-IAMi2ctI5xJI.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/151806"
+      }
+    },
+    {
       "id": 1027169745,
       "status": "plans to watch",
       "progress": null,

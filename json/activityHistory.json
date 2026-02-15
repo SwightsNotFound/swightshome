@@ -56897,6 +56897,38 @@
   ],
   "2026-02-15": [
     {
+      "id": 1027828155,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1771197205,
+      "media": {
+        "title": {
+          "english": "There's No Freaking Way I'll Be Your Lover! Unless…",
+          "romaji": "Watashi ga Koibito ni Nareru Wake Naijan, Murimuri! (※Muri ja Nakatta!?)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184591-jRXZ29bN61Zc.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/184591"
+      }
+    },
+    {
+      "id": 1027812273,
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1771195072,
+      "media": {
+        "title": {
+          "english": "There's No Freaking Way I'll Be Your Lover! Unless…",
+          "romaji": "Watashi ga Koibito ni Nareru Wake Naijan, Murimuri! (※Muri ja Nakatta!?)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184591-jRXZ29bN61Zc.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/184591"
+      }
+    },
+    {
       "id": 1027738960,
       "status": "watched episode",
       "progress": "8",

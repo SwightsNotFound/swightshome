@@ -12891,7 +12891,7 @@
         "id": 114963,
         "title": "A Whisker Away",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114963-QWMbi5ttovSK.png",
-        "averageScore": 72,
+        "averageScore": 73,
         "episodes": 1,
         "status": "FINISHED",
         "genres": [
@@ -13754,7 +13754,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 3,
+        "progress": 4,
         "links": {
           "anilist": "https://anilist.co/anime/178025/",
           "mal": "https://myanimelist.net/anime/178025",
@@ -14338,31 +14338,6 @@
           "anilist": "https://anilist.co/anime/184591/",
           "mal": "https://myanimelist.net/anime/184591",
           "kitsu": "https://kitsu.io/anime/184591"
-        }
-      },
-      {
-        "id": 141821,
-        "title": "Chained Soldier",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141821-lkVTjKqL4BU2.jpg",
-        "averageScore": 67,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Drama",
-          "Ecchi",
-          "Fantasy",
-          "Romance"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/141821/",
-          "mal": "https://myanimelist.net/anime/141821",
-          "kitsu": "https://kitsu.io/anime/141821"
         }
       },
       {

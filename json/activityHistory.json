@@ -57141,6 +57141,102 @@
   ],
   "2026-02-17": [
     {
+      "id": 1028437416,
+      "status": "watched episode",
+      "progress": "5",
+      "createdAt": 1771301644,
+      "media": {
+        "title": {
+          "english": "Hero Without a Class: Who Even Needs Skills?!",
+          "romaji": "Mushoku no Eiyuu: Betsu ni Skill nanka Ira Nakattan Daga"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx169969-SqCjoqYT4A6Z.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/169969"
+      }
+    },
+    {
+      "id": 1028430340,
+      "status": "watched episode",
+      "progress": "4",
+      "createdAt": 1771300380,
+      "media": {
+        "title": {
+          "english": "Hero Without a Class: Who Even Needs Skills?!",
+          "romaji": "Mushoku no Eiyuu: Betsu ni Skill nanka Ira Nakattan Daga"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx169969-SqCjoqYT4A6Z.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/169969"
+      }
+    },
+    {
+      "id": 1028412979,
+      "status": "watched episode",
+      "progress": "3",
+      "createdAt": 1771297438,
+      "media": {
+        "title": {
+          "english": "Hero Without a Class: Who Even Needs Skills?!",
+          "romaji": "Mushoku no Eiyuu: Betsu ni Skill nanka Ira Nakattan Daga"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx169969-SqCjoqYT4A6Z.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/169969"
+      }
+    },
+    {
+      "id": 1028405446,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1771296226,
+      "media": {
+        "title": {
+          "english": "SANDA",
+          "romaji": "SANDA"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179302-gWWAh5BfQyl4.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/179302"
+      }
+    },
+    {
+      "id": 1028404285,
+      "status": "watched episode",
+      "progress": "12",
+      "createdAt": 1771296015,
+      "media": {
+        "title": {
+          "english": "SANDA",
+          "romaji": "SANDA"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179302-gWWAh5BfQyl4.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/179302"
+      }
+    },
+    {
+      "id": 1028393630,
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1771294226,
+      "media": {
+        "title": {
+          "english": "SANDA",
+          "romaji": "SANDA"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179302-gWWAh5BfQyl4.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/179302"
+      }
+    },
+    {
       "id": 1028380460,
       "status": "watched episode",
       "progress": "10",

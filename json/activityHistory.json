@@ -57141,6 +57141,22 @@
   ],
   "2026-02-17": [
     {
+      "id": 1028475716,
+      "status": "watched episode",
+      "progress": "8",
+      "createdAt": 1771308819,
+      "media": {
+        "title": {
+          "english": "Hero Without a Class: Who Even Needs Skills?!",
+          "romaji": "Mushoku no Eiyuu: Betsu ni Skill nanka Ira Nakattan Daga"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx169969-SqCjoqYT4A6Z.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/169969"
+      }
+    },
+    {
       "id": 1028469132,
       "status": "watched episode",
       "progress": "7",

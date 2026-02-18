@@ -57668,5 +57668,39 @@
         "siteUrl": "https://anilist.co/anime/179302"
       }
     }
+  ],
+  "2026-02-18": [
+    {
+      "id": 1028911503,
+      "status": "watched episode",
+      "progress": "6",
+      "createdAt": 1771384694,
+      "media": {
+        "title": {
+          "english": "Gachiakuta",
+          "romaji": "Gachiakuta"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178025-cWJKEsZynkil.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/178025"
+      }
+    },
+    {
+      "id": 1028904343,
+      "status": "watched episode",
+      "progress": "5",
+      "createdAt": 1771383394,
+      "media": {
+        "title": {
+          "english": "Gachiakuta",
+          "romaji": "Gachiakuta"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178025-cWJKEsZynkil.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/178025"
+      }
+    }
   ]
 }

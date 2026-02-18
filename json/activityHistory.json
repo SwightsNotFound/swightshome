@@ -57671,6 +57671,22 @@
   ],
   "2026-02-18": [
     {
+      "id": 1029304582,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1771454723,
+      "media": {
+        "title": {
+          "english": "Cyberpunk: Edgerunners 2",
+          "romaji": "Cyberpunk: Edgerunners II"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195539-vcgCp4jhLdio.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/195539"
+      }
+    },
+    {
       "id": 1029290583,
       "status": "watched episode",
       "progress": "7",

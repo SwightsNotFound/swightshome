@@ -2457,30 +2457,6 @@
         }
       },
       {
-        "id": 171627,
-        "title": "Chainsaw Man – The Movie: Reze Arc",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171627-ZN9D7P46yHnw.png",
-        "averageScore": 90,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Horror",
-          "Romance",
-          "Supernatural"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/171627/",
-          "mal": "https://myanimelist.net/anime/171627",
-          "kitsu": "https://kitsu.io/anime/171627"
-        }
-      },
-      {
         "id": 190054,
         "title": "Watashi no Shiawase na Kekkon (Shinsaku Anime)",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx190054-prAWG0pTEsfj.jpg",
@@ -7058,6 +7034,29 @@
           "anilist": "https://anilist.co/anime/176496/",
           "mal": "https://myanimelist.net/anime/176496",
           "kitsu": "https://kitsu.io/anime/176496"
+        }
+      },
+      {
+        "id": 127230,
+        "title": "Chainsaw Man",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127230-DdP4vAdssLoz.png",
+        "averageScore": 83,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Horror",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/127230/",
+          "mal": "https://myanimelist.net/anime/127230",
+          "kitsu": "https://kitsu.io/anime/127230"
         }
       },
       {
@@ -13778,6 +13777,30 @@
         }
       },
       {
+        "id": 171627,
+        "title": "Chainsaw Man – The Movie: Reze Arc",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171627-ZN9D7P46yHnw.png",
+        "averageScore": 90,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Horror",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/171627/",
+          "mal": "https://myanimelist.net/anime/171627",
+          "kitsu": "https://kitsu.io/anime/171627"
+        }
+      },
+      {
         "id": 171046,
         "title": "Rascal Does Not Dream of Santa Claus",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171046-9leqLiNuOqNu.png",
@@ -14903,29 +14926,6 @@
           "anilist": "https://anilist.co/anime/4224/",
           "mal": "https://myanimelist.net/anime/4224",
           "kitsu": "https://kitsu.io/anime/4224"
-        }
-      },
-      {
-        "id": 127230,
-        "title": "Chainsaw Man",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127230-DdP4vAdssLoz.png",
-        "averageScore": 83,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Horror",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 11,
-        "links": {
-          "anilist": "https://anilist.co/anime/127230/",
-          "mal": "https://myanimelist.net/anime/127230",
-          "kitsu": "https://kitsu.io/anime/127230"
         }
       },
       {

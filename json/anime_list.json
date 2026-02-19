@@ -6414,6 +6414,29 @@
         }
       },
       {
+        "id": 120377,
+        "title": "Cyberpunk: Edgerunners",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx120377-ayZPoxiWt4Li.jpg",
+        "averageScore": 85,
+        "episodes": 10,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Psychological",
+          "Sci-Fi"
+        ],
+        "format": "ONA",
+        "country": "JP",
+        "personalScore": 9.2,
+        "progress": 10,
+        "links": {
+          "anilist": "https://anilist.co/anime/120377/",
+          "mal": "https://myanimelist.net/anime/120377",
+          "kitsu": "https://kitsu.io/anime/120377"
+        }
+      },
+      {
         "id": 154768,
         "title": "My Dress-Up Darling Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154768-DHHvNd4MjV1p.jpg",
@@ -13438,29 +13461,6 @@
     "name": "Watching",
     "entries": [
       {
-        "id": 120377,
-        "title": "Cyberpunk: Edgerunners",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx120377-ayZPoxiWt4Li.jpg",
-        "averageScore": 85,
-        "episodes": 10,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Psychological",
-          "Sci-Fi"
-        ],
-        "format": "ONA",
-        "country": "JP",
-        "personalScore": 9.2,
-        "progress": 9,
-        "links": {
-          "anilist": "https://anilist.co/anime/120377/",
-          "mal": "https://myanimelist.net/anime/120377",
-          "kitsu": "https://kitsu.io/anime/120377"
-        }
-      },
-      {
         "id": 138060,
         "title": "Star Wars: Visions",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx138060-8G02wer2Lsxo.jpg",
@@ -14221,7 +14221,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0,
+        "progress": 1,
         "links": {
           "anilist": "https://anilist.co/anime/20464/",
           "mal": "https://myanimelist.net/anime/20464",
@@ -14815,7 +14815,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 6,
+        "progress": 7,
         "links": {
           "anilist": "https://anilist.co/anime/127230/",
           "mal": "https://myanimelist.net/anime/127230",

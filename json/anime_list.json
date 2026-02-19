@@ -2635,28 +2635,6 @@
         }
       },
       {
-        "id": 178869,
-        "title": "Clevatess",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178869-qiEz0gQD8H5N.png",
-        "averageScore": 78,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/178869/",
-          "mal": "https://myanimelist.net/anime/178869",
-          "kitsu": "https://kitsu.io/anime/178869"
-        }
-      },
-      {
         "id": 4081,
         "title": "Natsume's Book of Friends Season 1",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4081-xi08naD69tjr.jpg",
@@ -5295,6 +5273,69 @@
           "anilist": "https://anilist.co/anime/195539/",
           "mal": "https://myanimelist.net/anime/195539",
           "kitsu": "https://kitsu.io/anime/195539"
+        }
+      },
+      {
+        "id": 206521,
+        "title": "World Is Dancing",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx206521-6WkOcMo6n1OS.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Drama"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/206521/",
+          "mal": "https://myanimelist.net/anime/206521",
+          "kitsu": "https://kitsu.io/anime/206521"
+        }
+      },
+      {
+        "id": 202717,
+        "title": "Chiikawa: Ningyo no Shima no Himitsu",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx202717-q9V8ntrrGSNY.png",
+        "averageScore": null,
+        "episodes": 1,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Comedy",
+          "Slice of Life"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/202717/",
+          "mal": "https://myanimelist.net/anime/202717",
+          "kitsu": "https://kitsu.io/anime/202717"
+        }
+      },
+      {
+        "id": 108631,
+        "title": "Cells at Work!!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108631-R3yjfHmOJDET.jpg",
+        "averageScore": 72,
+        "episodes": 8,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/108631/",
+          "mal": "https://myanimelist.net/anime/108631",
+          "kitsu": "https://kitsu.io/anime/108631"
         }
       }
     ]
@@ -13827,6 +13868,28 @@
         }
       },
       {
+        "id": 178869,
+        "title": "Clevatess",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178869-qiEz0gQD8H5N.png",
+        "averageScore": 78,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/178869/",
+          "mal": "https://myanimelist.net/anime/178869",
+          "kitsu": "https://kitsu.io/anime/178869"
+        }
+      },
+      {
         "id": 137667,
         "title": "Lord of Mysteries",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx137667-xQxzQRAerw53.jpg",
@@ -14424,6 +14487,49 @@
           "anilist": "https://anilist.co/anime/177191/",
           "mal": "https://myanimelist.net/anime/177191",
           "kitsu": "https://kitsu.io/anime/177191"
+        }
+      },
+      {
+        "id": 177687,
+        "title": "100 METERS",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177687-T4SrtVjrmW01.png",
+        "averageScore": 84,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Sports"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/177687/",
+          "mal": "https://myanimelist.net/anime/177687",
+          "kitsu": "https://kitsu.io/anime/177687"
+        }
+      },
+      {
+        "id": 180675,
+        "title": "Apocalypse Hotel",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx180675-YEwsxiMsnyvL.png",
+        "averageScore": 80,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Sci-Fi",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/180675/",
+          "mal": "https://myanimelist.net/anime/180675",
+          "kitsu": "https://kitsu.io/anime/180675"
         }
       }
     ]

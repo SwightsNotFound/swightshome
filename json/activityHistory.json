@@ -57817,6 +57817,54 @@
   ],
   "2026-02-19": [
     {
+      "id": 1029447923,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1771479283,
+      "media": {
+        "title": {
+          "english": "Cells at Work!!",
+          "romaji": "Hataraku Saibou!!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108631-R3yjfHmOJDET.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/108631"
+      }
+    },
+    {
+      "id": 1029441943,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1771478174,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Chiikawa: Ningyo no Shima no Himitsu"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx202717-q9V8ntrrGSNY.png"
+        },
+        "siteUrl": "https://anilist.co/anime/202717"
+      }
+    },
+    {
+      "id": 1029441915,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1771478169,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "World Is Dancing"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx206521-6WkOcMo6n1OS.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/206521"
+      }
+    },
+    {
       "id": 1029418668,
       "status": "rewatched episode",
       "progress": "7",

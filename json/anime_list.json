@@ -5313,6 +5313,29 @@
           "mal": "https://myanimelist.net/anime/108631",
           "kitsu": "https://kitsu.io/anime/108631"
         }
+      },
+      {
+        "id": 204429,
+        "title": "Chainsaw Man: Shikaku-hen",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx204429-9scYA2ab3Zz3.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Horror",
+          "Supernatural"
+        ],
+        "format": null,
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/204429/",
+          "mal": "https://myanimelist.net/anime/204429",
+          "kitsu": "https://kitsu.io/anime/204429"
+        }
       }
     ]
   },
@@ -14553,6 +14576,27 @@
           "anilist": "https://anilist.co/anime/180675/",
           "mal": "https://myanimelist.net/anime/180675",
           "kitsu": "https://kitsu.io/anime/180675"
+        }
+      },
+      {
+        "id": 15227,
+        "title": "In This Corner of the World",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15227-1tG3lhprG0A9.jpg",
+        "averageScore": 81,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Slice of Life"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/15227/",
+          "mal": "https://myanimelist.net/anime/15227",
+          "kitsu": "https://kitsu.io/anime/15227"
         }
       }
     ]

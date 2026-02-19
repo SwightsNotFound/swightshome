@@ -57817,6 +57817,22 @@
   ],
   "2026-02-19": [
     {
+      "id": 1029781463,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1771540372,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Chainsaw Man: Shikaku-hen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx204429-9scYA2ab3Zz3.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/204429"
+      }
+    },
+    {
       "id": 1029765543,
       "status": "rewatched",
       "progress": "12",

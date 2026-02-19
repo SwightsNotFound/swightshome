@@ -57817,6 +57817,22 @@
   ],
   "2026-02-19": [
     {
+      "id": 1029702344,
+      "status": "rewatched episode",
+      "progress": "8",
+      "createdAt": 1771528681,
+      "media": {
+        "title": {
+          "english": "Chainsaw Man",
+          "romaji": "Chainsaw Man"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127230-DdP4vAdssLoz.png"
+        },
+        "siteUrl": "https://anilist.co/anime/127230"
+      }
+    },
+    {
       "id": 1029447923,
       "status": "plans to watch",
       "progress": null,

@@ -14575,6 +14575,27 @@
           "mal": "https://myanimelist.net/anime/15227",
           "kitsu": "https://kitsu.io/anime/15227"
         }
+      },
+      {
+        "id": 108268,
+        "title": "Ascendance of a Bookworm",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108268-Dtt82uOi3vq5.jpg",
+        "averageScore": 78,
+        "episodes": 14,
+        "status": "FINISHED",
+        "genres": [
+          "Fantasy",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/108268/",
+          "mal": "https://myanimelist.net/anime/108268",
+          "kitsu": "https://kitsu.io/anime/108268"
+        }
       }
     ]
   },
@@ -14988,7 +15009,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 8.5,
-        "progress": 5,
+        "progress": 6,
         "links": {
           "anilist": "https://anilist.co/anime/108465/",
           "mal": "https://myanimelist.net/anime/108465",

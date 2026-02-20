@@ -5503,26 +5503,6 @@
         }
       },
       {
-        "id": 151514,
-        "title": "Orb: On the Movements of the Earth",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151514-Y0d82Ah2ZOHX.jpg",
-        "averageScore": 86,
-        "episodes": 25,
-        "status": "FINISHED",
-        "genres": [
-          "Drama"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 10,
-        "progress": 25,
-        "links": {
-          "anilist": "https://anilist.co/anime/151514/",
-          "mal": "https://myanimelist.net/anime/151514",
-          "kitsu": "https://kitsu.io/anime/151514"
-        }
-      },
-      {
         "id": 181444,
         "title": "The Fragrant Flower Blooms With Dignity",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx181444-Ut9DDUZdfHwg.jpg",
@@ -5720,6 +5700,26 @@
           "anilist": "https://anilist.co/anime/161645/",
           "mal": "https://myanimelist.net/anime/161645",
           "kitsu": "https://kitsu.io/anime/161645"
+        }
+      },
+      {
+        "id": 151514,
+        "title": "Orb: On the Movements of the Earth",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151514-Y0d82Ah2ZOHX.jpg",
+        "averageScore": 86,
+        "episodes": 25,
+        "status": "FINISHED",
+        "genres": [
+          "Drama"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 25,
+        "links": {
+          "anilist": "https://anilist.co/anime/151514/",
+          "mal": "https://myanimelist.net/anime/151514",
+          "kitsu": "https://kitsu.io/anime/151514"
         }
       },
       {
@@ -6266,6 +6266,30 @@
           "anilist": "https://anilist.co/anime/171018/",
           "mal": "https://myanimelist.net/anime/171018",
           "kitsu": "https://kitsu.io/anime/171018"
+        }
+      },
+      {
+        "id": 171627,
+        "title": "Chainsaw Man – The Movie: Reze Arc",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171627-ZN9D7P46yHnw.png",
+        "averageScore": 90,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Horror",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 9.5,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/171627/",
+          "mal": "https://myanimelist.net/anime/171627",
+          "kitsu": "https://kitsu.io/anime/171627"
         }
       },
       {
@@ -9205,6 +9229,28 @@
         }
       },
       {
+        "id": 141911,
+        "title": "Skip and Loafer",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141911-o6Jwav7hRPPM.jpg",
+        "averageScore": 81,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/141911/",
+          "mal": "https://myanimelist.net/anime/141911",
+          "kitsu": "https://kitsu.io/anime/141911"
+        }
+      },
+      {
         "id": 155890,
         "title": "BARTENDER Glass of God",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b155890-PN3wsgVDofhB.jpg",
@@ -9854,6 +9900,28 @@
           "anilist": "https://anilist.co/anime/108511/",
           "mal": "https://myanimelist.net/anime/108511",
           "kitsu": "https://kitsu.io/anime/108511"
+        }
+      },
+      {
+        "id": 185731,
+        "title": "Ranma1/2 (2024) Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185731-PJ6WKcFDUI4B.jpg",
+        "averageScore": 77,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/185731/",
+          "mal": "https://myanimelist.net/anime/185731",
+          "kitsu": "https://kitsu.io/anime/185731"
         }
       },
       {
@@ -11424,6 +11492,28 @@
         }
       },
       {
+        "id": 21780,
+        "title": "Re:ZERO ~Starting Break Time From Zero~",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/21780-xCJk0z5vpn57.jpg",
+        "averageScore": 64,
+        "episodes": 11,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "TV_SHORT",
+        "country": "JP",
+        "personalScore": 7,
+        "progress": 11,
+        "links": {
+          "anilist": "https://anilist.co/anime/21780/",
+          "mal": "https://myanimelist.net/anime/21780",
+          "kitsu": "https://kitsu.io/anime/21780"
+        }
+      },
+      {
         "id": 150075,
         "title": "KONOSUBA -An Explosion on This Wonderful World!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx150075-QIGcA7oVyO6l.jpg",
@@ -12178,28 +12268,6 @@
           "anilist": "https://anilist.co/anime/142411/",
           "mal": "https://myanimelist.net/anime/142411",
           "kitsu": "https://kitsu.io/anime/142411"
-        }
-      },
-      {
-        "id": 141911,
-        "title": "Skip and Loafer",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141911-o6Jwav7hRPPM.jpg",
-        "averageScore": 81,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 6,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/141911/",
-          "mal": "https://myanimelist.net/anime/141911",
-          "kitsu": "https://kitsu.io/anime/141911"
         }
       },
       {
@@ -13455,28 +13523,6 @@
         }
       },
       {
-        "id": 185731,
-        "title": "Ranma1/2 (2024) Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185731-PJ6WKcFDUI4B.jpg",
-        "averageScore": 77,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Romance"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0.8,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/185731/",
-          "mal": "https://myanimelist.net/anime/185731",
-          "kitsu": "https://kitsu.io/anime/185731"
-        }
-      },
-      {
         "id": 97731,
         "title": "Shelter",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx97731-gYxm0WorfNPM.png",
@@ -13494,28 +13540,6 @@
           "anilist": "https://anilist.co/anime/97731/",
           "mal": "https://myanimelist.net/anime/97731",
           "kitsu": "https://kitsu.io/anime/97731"
-        }
-      },
-      {
-        "id": 21780,
-        "title": "Re:ZERO ~Starting Break Time From Zero~",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/21780-xCJk0z5vpn57.jpg",
-        "averageScore": 64,
-        "episodes": 11,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Comedy",
-          "Fantasy"
-        ],
-        "format": "TV_SHORT",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 11,
-        "links": {
-          "anilist": "https://anilist.co/anime/21780/",
-          "mal": "https://myanimelist.net/anime/21780",
-          "kitsu": "https://kitsu.io/anime/21780"
         }
       }
     ]
@@ -13797,30 +13821,6 @@
           "anilist": "https://anilist.co/anime/189326/",
           "mal": "https://myanimelist.net/anime/189326",
           "kitsu": "https://kitsu.io/anime/189326"
-        }
-      },
-      {
-        "id": 171627,
-        "title": "Chainsaw Man – The Movie: Reze Arc",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171627-ZN9D7P46yHnw.png",
-        "averageScore": 90,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Horror",
-          "Romance",
-          "Supernatural"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/171627/",
-          "mal": "https://myanimelist.net/anime/171627",
-          "kitsu": "https://kitsu.io/anime/171627"
         }
       },
       {

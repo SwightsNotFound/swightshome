@@ -58024,5 +58024,23 @@
         "siteUrl": "https://anilist.co/anime/120377"
       }
     }
+  ],
+  "2026-02-20": [
+    {
+      "id": 1029831623,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1771548401,
+      "media": {
+        "title": {
+          "english": "Chainsaw Man – The Movie: Reze Arc",
+          "romaji": "Chainsaw Man: Reze-hen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171627-ZN9D7P46yHnw.png"
+        },
+        "siteUrl": "https://anilist.co/anime/171627"
+      }
+    }
   ]
 }

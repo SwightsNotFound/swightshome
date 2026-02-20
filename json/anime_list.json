@@ -6052,29 +6052,6 @@
         }
       },
       {
-        "id": 127720,
-        "title": "Mushoku Tensei: Jobless Reincarnation Cour 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127720-ADJgIrUVMdU9.jpg",
-        "averageScore": 85,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Ecchi",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.7,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/127720/",
-          "mal": "https://myanimelist.net/anime/127720",
-          "kitsu": "https://kitsu.io/anime/127720"
-        }
-      },
-      {
         "id": 108632,
         "title": "Re:ZERO -Starting Life in Another World- Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108632-lQWnmw7XaNOK.jpg",
@@ -8025,6 +8002,29 @@
           "anilist": "https://anilist.co/anime/116267/",
           "mal": "https://myanimelist.net/anime/116267",
           "kitsu": "https://kitsu.io/anime/116267"
+        }
+      },
+      {
+        "id": 108465,
+        "title": "Mushoku Tensei: Jobless Reincarnation",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108465-1ANspF1EWyFx.jpg",
+        "averageScore": 82,
+        "episodes": 11,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Ecchi",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.5,
+        "progress": 11,
+        "links": {
+          "anilist": "https://anilist.co/anime/108465/",
+          "mal": "https://myanimelist.net/anime/108465",
+          "kitsu": "https://kitsu.io/anime/108465"
         }
       },
       {
@@ -14948,6 +14948,29 @@
     "name": "Rewatching",
     "entries": [
       {
+        "id": 127720,
+        "title": "Mushoku Tensei: Jobless Reincarnation Cour 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127720-ADJgIrUVMdU9.jpg",
+        "averageScore": 85,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Ecchi",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.7,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/127720/",
+          "mal": "https://myanimelist.net/anime/127720",
+          "kitsu": "https://kitsu.io/anime/127720"
+        }
+      },
+      {
         "id": 4224,
         "title": "Toradora!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4224-PXVMBLNwy2aF.jpg",
@@ -14991,29 +15014,6 @@
           "anilist": "https://anilist.co/anime/128893/",
           "mal": "https://myanimelist.net/anime/128893",
           "kitsu": "https://kitsu.io/anime/128893"
-        }
-      },
-      {
-        "id": 108465,
-        "title": "Mushoku Tensei: Jobless Reincarnation",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108465-1ANspF1EWyFx.jpg",
-        "averageScore": 82,
-        "episodes": 11,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Ecchi",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8.5,
-        "progress": 9,
-        "links": {
-          "anilist": "https://anilist.co/anime/108465/",
-          "mal": "https://myanimelist.net/anime/108465",
-          "kitsu": "https://kitsu.io/anime/108465"
         }
       },
       {

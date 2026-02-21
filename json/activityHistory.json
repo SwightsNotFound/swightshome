@@ -58237,6 +58237,22 @@
   ],
   "2026-02-21": [
     {
+      "id": 1030625844,
+      "status": "rewatched episode",
+      "progress": "1",
+      "createdAt": 1771697205,
+      "media": {
+        "title": {
+          "english": "Mushoku Tensei: Jobless Reincarnation Season 2",
+          "romaji": "Mushoku Tensei II: Isekai Ittara Honki Dasu"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx146065-IjirxRK26O03.png"
+        },
+        "siteUrl": "https://anilist.co/anime/146065"
+      }
+    },
+    {
       "id": 1030593424,
       "status": "rewatched",
       "progress": "12",

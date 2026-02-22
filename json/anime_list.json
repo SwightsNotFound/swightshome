@@ -5723,6 +5723,29 @@
         }
       },
       {
+        "id": 146065,
+        "title": "Mushoku Tensei: Jobless Reincarnation Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146065-IjirxRK26O03.png",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Ecchi",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/146065/",
+          "mal": "https://myanimelist.net/anime/146065",
+          "kitsu": "https://kitsu.io/anime/146065"
+        }
+      },
+      {
         "id": 5114,
         "title": "Fullmetal Alchemist: Brotherhood",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5114-nSWCgQlmOMtj.jpg",
@@ -14947,29 +14970,6 @@
   {
     "name": "Rewatching",
     "entries": [
-      {
-        "id": 146065,
-        "title": "Mushoku Tensei: Jobless Reincarnation Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146065-IjirxRK26O03.png",
-        "averageScore": 81,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Ecchi",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.9,
-        "progress": 8,
-        "links": {
-          "anilist": "https://anilist.co/anime/146065/",
-          "mal": "https://myanimelist.net/anime/146065",
-          "kitsu": "https://kitsu.io/anime/146065"
-        }
-      },
       {
         "id": 4224,
         "title": "Toradora!",

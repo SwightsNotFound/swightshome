@@ -13540,6 +13540,28 @@
           "mal": "https://myanimelist.net/anime/97731",
           "kitsu": "https://kitsu.io/anime/97731"
         }
+      },
+      {
+        "id": 19603,
+        "title": "Fate/stay night: Unlimited Blade Works",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx19603-ycT0pyEgDVQu.jpg",
+        "averageScore": 80,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/19603/",
+          "mal": "https://myanimelist.net/anime/19603",
+          "kitsu": "https://kitsu.io/anime/19603"
+        }
       }
     ]
   },
@@ -14491,28 +14513,6 @@
         }
       },
       {
-        "id": 19603,
-        "title": "Fate/stay night: Unlimited Blade Works",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx19603-ycT0pyEgDVQu.jpg",
-        "averageScore": 80,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Fantasy",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/19603/",
-          "mal": "https://myanimelist.net/anime/19603",
-          "kitsu": "https://kitsu.io/anime/19603"
-        }
-      },
-      {
         "id": 177191,
         "title": "The Quintessential Quintuplets Specials 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177191-ovNZsq8EbIPY.jpg",
@@ -14617,6 +14617,29 @@
           "anilist": "https://anilist.co/anime/108268/",
           "mal": "https://myanimelist.net/anime/108268",
           "kitsu": "https://kitsu.io/anime/108268"
+        }
+      },
+      {
+        "id": 20792,
+        "title": "Fate/stay night: Unlimited Blade Works 2nd Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20792-Q53sZsUAh5FF.jpg",
+        "averageScore": 82,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 8,
+        "links": {
+          "anilist": "https://anilist.co/anime/20792/",
+          "mal": "https://myanimelist.net/anime/20792",
+          "kitsu": "https://kitsu.io/anime/20792"
         }
       }
     ]

@@ -58930,5 +58930,151 @@
         "siteUrl": "https://anilist.co/anime/19603"
       }
     }
+  ],
+  "2026-03-05": [
+    {
+      "id": 1036300464,
+      "status": "watched episode",
+      "progress": "8",
+      "createdAt": 1772719820,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works 2nd Season",
+          "romaji": "Fate/stay night: Unlimited Blade Works 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20792-Q53sZsUAh5FF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20792"
+      }
+    },
+    {
+      "id": 1036300463,
+      "status": "watched episode",
+      "progress": "7",
+      "createdAt": 1772719820,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works 2nd Season",
+          "romaji": "Fate/stay night: Unlimited Blade Works 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20792-Q53sZsUAh5FF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20792"
+      }
+    },
+    {
+      "id": 1036300458,
+      "status": "watched episode",
+      "progress": "6",
+      "createdAt": 1772719819,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works 2nd Season",
+          "romaji": "Fate/stay night: Unlimited Blade Works 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20792-Q53sZsUAh5FF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20792"
+      }
+    },
+    {
+      "id": 1036300455,
+      "status": "watched episode",
+      "progress": "5",
+      "createdAt": 1772719819,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works 2nd Season",
+          "romaji": "Fate/stay night: Unlimited Blade Works 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20792-Q53sZsUAh5FF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20792"
+      }
+    },
+    {
+      "id": 1036300454,
+      "status": "watched episode",
+      "progress": "4",
+      "createdAt": 1772719819,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works 2nd Season",
+          "romaji": "Fate/stay night: Unlimited Blade Works 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20792-Q53sZsUAh5FF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20792"
+      }
+    },
+    {
+      "id": 1036300451,
+      "status": "watched episode",
+      "progress": "3",
+      "createdAt": 1772719818,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works 2nd Season",
+          "romaji": "Fate/stay night: Unlimited Blade Works 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20792-Q53sZsUAh5FF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20792"
+      }
+    },
+    {
+      "id": 1036300447,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1772719818,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works 2nd Season",
+          "romaji": "Fate/stay night: Unlimited Blade Works 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20792-Q53sZsUAh5FF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20792"
+      }
+    },
+    {
+      "id": 1036300445,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1772719817,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works 2nd Season",
+          "romaji": "Fate/stay night: Unlimited Blade Works 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20792-Q53sZsUAh5FF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20792"
+      }
+    },
+    {
+      "id": 1036300443,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1772719816,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works",
+          "romaji": "Fate/stay night: Unlimited Blade Works"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx19603-ycT0pyEgDVQu.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/19603"
+      }
+    }
   ]
 }

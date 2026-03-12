@@ -6592,29 +6592,6 @@
         }
       },
       {
-        "id": 105333,
-        "title": "Dr. STONE",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105333-GybuoSoOZfpH.jpg",
-        "averageScore": 81,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Sci-Fi"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.1,
-        "progress": 24,
-        "links": {
-          "anilist": "https://anilist.co/anime/105333/",
-          "mal": "https://myanimelist.net/anime/105333",
-          "kitsu": "https://kitsu.io/anime/105333"
-        }
-      },
-      {
         "id": 166531,
         "title": "Oshi no Ko Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166531-dAL5MsqDHUkj.jpg",
@@ -9157,31 +9134,6 @@
           "anilist": "https://anilist.co/anime/163270/",
           "mal": "https://myanimelist.net/anime/163270",
           "kitsu": "https://kitsu.io/anime/163270"
-        }
-      },
-      {
-        "id": 101291,
-        "title": "Rascal Does Not Dream of Bunny Girl Senpai",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101291-wfEdgPqtfU0l.jpg",
-        "averageScore": 81,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Mystery",
-          "Psychological",
-          "Romance",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 13,
-        "links": {
-          "anilist": "https://anilist.co/anime/101291/",
-          "mal": "https://myanimelist.net/anime/101291",
-          "kitsu": "https://kitsu.io/anime/101291"
         }
       },
       {
@@ -14635,7 +14587,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 8,
+        "progress": 12,
         "links": {
           "anilist": "https://anilist.co/anime/20792/",
           "mal": "https://myanimelist.net/anime/20792",
@@ -14993,6 +14945,29 @@
     "name": "Rewatching",
     "entries": [
       {
+        "id": 105333,
+        "title": "Dr. STONE",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105333-GybuoSoOZfpH.jpg",
+        "averageScore": 81,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.1,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/105333/",
+          "mal": "https://myanimelist.net/anime/105333",
+          "kitsu": "https://kitsu.io/anime/105333"
+        }
+      },
+      {
         "id": 4224,
         "title": "Toradora!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4224-PXVMBLNwy2aF.jpg",
@@ -15058,6 +15033,31 @@
           "anilist": "https://anilist.co/anime/163132/",
           "mal": "https://myanimelist.net/anime/163132",
           "kitsu": "https://kitsu.io/anime/163132"
+        }
+      },
+      {
+        "id": 101291,
+        "title": "Rascal Does Not Dream of Bunny Girl Senpai",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101291-wfEdgPqtfU0l.jpg",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Mystery",
+          "Psychological",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/101291/",
+          "mal": "https://myanimelist.net/anime/101291",
+          "kitsu": "https://kitsu.io/anime/101291"
         }
       }
     ]

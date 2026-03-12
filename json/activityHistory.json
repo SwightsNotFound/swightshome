@@ -59076,5 +59076,103 @@
         "siteUrl": "https://anilist.co/anime/19603"
       }
     }
+  ],
+  "2026-03-12": [
+    {
+      "id": 1039769431,
+      "status": "rewatched episode",
+      "progress": "1",
+      "createdAt": 1773353837,
+      "media": {
+        "title": {
+          "english": "Rascal Does Not Dream of Bunny Girl Senpai",
+          "romaji": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101291-wfEdgPqtfU0l.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101291"
+      }
+    },
+    {
+      "id": 1039752725,
+      "status": "rewatched episode",
+      "progress": "1",
+      "createdAt": 1773351517,
+      "media": {
+        "title": {
+          "english": "Dr. STONE",
+          "romaji": "Dr. STONE"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-GybuoSoOZfpH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105333"
+      }
+    },
+    {
+      "id": 1039751440,
+      "status": "watched episode",
+      "progress": "12",
+      "createdAt": 1773351350,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works 2nd Season",
+          "romaji": "Fate/stay night: Unlimited Blade Works 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20792-Q53sZsUAh5FF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20792"
+      }
+    },
+    {
+      "id": 1039751434,
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1773351349,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works 2nd Season",
+          "romaji": "Fate/stay night: Unlimited Blade Works 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20792-Q53sZsUAh5FF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20792"
+      }
+    },
+    {
+      "id": 1039751427,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1773351348,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works 2nd Season",
+          "romaji": "Fate/stay night: Unlimited Blade Works 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20792-Q53sZsUAh5FF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20792"
+      }
+    },
+    {
+      "id": 1039751423,
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1773351348,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works 2nd Season",
+          "romaji": "Fate/stay night: Unlimited Blade Works 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20792-Q53sZsUAh5FF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20792"
+      }
+    }
   ]
 }

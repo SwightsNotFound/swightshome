@@ -59177,6 +59177,38 @@
   ],
   "2026-03-13": [
     {
+      "id": 1039917489,
+      "status": "rewatched episode",
+      "progress": "1",
+      "createdAt": 1773380183,
+      "media": {
+        "title": {
+          "english": "Frieren: Beyond Journey’s End",
+          "romaji": "Sousou no Frieren"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx154587-qQTzQnEJJ3oB.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/154587"
+      }
+    },
+    {
+      "id": 1039891669,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1773375215,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Disney Twisted-Wonderland: THE ANIMATION - Season 2: EPISODE of SAVANACLAW"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx202282-rWxkDUC57BXp.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/202282"
+      }
+    },
+    {
       "id": 1039890135,
       "status": "completed",
       "progress": null,

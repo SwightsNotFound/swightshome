@@ -5658,6 +5658,28 @@
         }
       },
       {
+        "id": 154587,
+        "title": "Frieren: Beyond Journey’s End",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154587-qQTzQnEJJ3oB.jpg",
+        "averageScore": 91,
+        "episodes": 28,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 28,
+        "links": {
+          "anilist": "https://anilist.co/anime/154587/",
+          "mal": "https://myanimelist.net/anime/154587",
+          "kitsu": "https://kitsu.io/anime/154587"
+        }
+      },
+      {
         "id": 99147,
         "title": "Attack on Titan Season 3",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99147-AiPDD8cwlCfi.jpg",
@@ -6836,6 +6858,29 @@
           "anilist": "https://anilist.co/anime/20519/",
           "mal": "https://myanimelist.net/anime/20519",
           "kitsu": "https://kitsu.io/anime/20519"
+        }
+      },
+      {
+        "id": 4224,
+        "title": "Toradora!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4224-PXVMBLNwy2aF.jpg",
+        "averageScore": 78,
+        "episodes": 25,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 25,
+        "links": {
+          "anilist": "https://anilist.co/anime/4224/",
+          "mal": "https://myanimelist.net/anime/4224",
+          "kitsu": "https://kitsu.io/anime/4224"
         }
       },
       {
@@ -14944,28 +14989,6 @@
     "name": "Rewatching",
     "entries": [
       {
-        "id": 154587,
-        "title": "Frieren: Beyond Journey’s End",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154587-qQTzQnEJJ3oB.jpg",
-        "averageScore": 91,
-        "episodes": 28,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Fantasy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.9,
-        "progress": 2,
-        "links": {
-          "anilist": "https://anilist.co/anime/154587/",
-          "mal": "https://myanimelist.net/anime/154587",
-          "kitsu": "https://kitsu.io/anime/154587"
-        }
-      },
-      {
         "id": 105333,
         "title": "Dr. STONE",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105333-GybuoSoOZfpH.jpg",
@@ -14989,29 +15012,6 @@
         }
       },
       {
-        "id": 4224,
-        "title": "Toradora!",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4224-PXVMBLNwy2aF.jpg",
-        "averageScore": 78,
-        "episodes": 25,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 2,
-        "links": {
-          "anilist": "https://anilist.co/anime/4224/",
-          "mal": "https://myanimelist.net/anime/4224",
-          "kitsu": "https://kitsu.io/anime/4224"
-        }
-      },
-      {
         "id": 128893,
         "title": "Hell’s Paradise",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128893-Gc2t8b8M0mVu.jpg",
@@ -15027,7 +15027,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 8.9,
-        "progress": 8,
+        "progress": 9,
         "links": {
           "anilist": "https://anilist.co/anime/128893/",
           "mal": "https://myanimelist.net/anime/128893",
@@ -15049,7 +15049,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 8,
-        "progress": 3,
+        "progress": 12,
         "links": {
           "anilist": "https://anilist.co/anime/163132/",
           "mal": "https://myanimelist.net/anime/163132",

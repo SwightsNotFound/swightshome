@@ -59177,6 +59177,22 @@
   ],
   "2026-03-13": [
     {
+      "id": 1040233717,
+      "status": "rewatched episode",
+      "progress": "2",
+      "createdAt": 1773432899,
+      "media": {
+        "title": {
+          "english": "Frieren: Beyond Journey’s End",
+          "romaji": "Sousou no Frieren"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx154587-qQTzQnEJJ3oB.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/154587"
+      }
+    },
+    {
       "id": 1039917489,
       "status": "rewatched episode",
       "progress": "1",

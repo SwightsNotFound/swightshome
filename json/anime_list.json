@@ -5357,6 +5357,50 @@
           "mal": "https://myanimelist.net/anime/202282",
           "kitsu": "https://kitsu.io/anime/202282"
         }
+      },
+      {
+        "id": 21613,
+        "title": "Saga of Tanya the Evil",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21613-qT3NiwYP5dYc.png",
+        "averageScore": 77,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/21613/",
+          "mal": "https://myanimelist.net/anime/21613",
+          "kitsu": "https://kitsu.io/anime/21613"
+        }
+      },
+      {
+        "id": 1818,
+        "title": "Claymore",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1818-KieLJv0qo3mO.jpg",
+        "averageScore": 74,
+        "episodes": 26,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Horror"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/1818/",
+          "mal": "https://myanimelist.net/anime/1818",
+          "kitsu": "https://kitsu.io/anime/1818"
+        }
       }
     ]
   },
@@ -13968,7 +14012,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0,
+        "progress": 1,
         "links": {
           "anilist": "https://anilist.co/anime/178869/",
           "mal": "https://myanimelist.net/anime/178869",
@@ -14485,27 +14529,6 @@
           "anilist": "https://anilist.co/anime/184591/",
           "mal": "https://myanimelist.net/anime/184591",
           "kitsu": "https://kitsu.io/anime/184591"
-        }
-      },
-      {
-        "id": 100878,
-        "title": "Saga of Tanya the Evil - the Movie -",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100878-npKVJvggmK6a.jpg",
-        "averageScore": 81,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Fantasy"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/100878/",
-          "mal": "https://myanimelist.net/anime/100878",
-          "kitsu": "https://kitsu.io/anime/100878"
         }
       },
       {

@@ -59464,5 +59464,23 @@
         "siteUrl": "https://anilist.co/anime/131586"
       }
     }
+  ],
+  "2026-03-14": [
+    {
+      "id": 1040460804,
+      "status": "rewatched",
+      "progress": "1",
+      "createdAt": 1773464629,
+      "media": {
+        "title": {
+          "english": "A Silent Voice",
+          "romaji": "Koe no Katachi"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20954-sYRfE5jQRtSB.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20954"
+      }
+    }
   ]
 }

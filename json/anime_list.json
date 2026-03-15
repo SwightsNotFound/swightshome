@@ -5445,6 +5445,29 @@
           "mal": "https://myanimelist.net/anime/178031",
           "kitsu": "https://kitsu.io/anime/178031"
         }
+      },
+      {
+        "id": 16,
+        "title": "Honey and Clover",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16-S9k8qahNXoYP.jpg",
+        "averageScore": 76,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/16/",
+          "mal": "https://myanimelist.net/anime/16",
+          "kitsu": "https://kitsu.io/anime/16"
+        }
       }
     ]
   },
@@ -14056,7 +14079,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 3,
+        "progress": 7,
         "links": {
           "anilist": "https://anilist.co/anime/178869/",
           "mal": "https://myanimelist.net/anime/178869",

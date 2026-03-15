@@ -5401,6 +5401,50 @@
           "mal": "https://myanimelist.net/anime/1818",
           "kitsu": "https://kitsu.io/anime/1818"
         }
+      },
+      {
+        "id": 198946,
+        "title": "Clevatess Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx198946-h4A2P7LYvotz.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/198946/",
+          "mal": "https://myanimelist.net/anime/198946",
+          "kitsu": "https://kitsu.io/anime/198946"
+        }
+      },
+      {
+        "id": 178031,
+        "title": "Dungeon Meshi 2nd Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178031-prNFZXuxg4nN.png",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/178031/",
+          "mal": "https://myanimelist.net/anime/178031",
+          "kitsu": "https://kitsu.io/anime/178031"
+        }
       }
     ]
   },
@@ -14012,7 +14056,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 2,
+        "progress": 3,
         "links": {
           "anilist": "https://anilist.co/anime/178869/",
           "mal": "https://myanimelist.net/anime/178869",

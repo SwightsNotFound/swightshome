@@ -59694,5 +59694,87 @@
         "siteUrl": "https://anilist.co/anime/105333"
       }
     }
+  ],
+  "2026-03-20": [
+    {
+      "id": 1043987430,
+      "status": "rewatched episode",
+      "progress": "1",
+      "createdAt": 1774027788,
+      "media": {
+        "title": {
+          "english": "Fate/Zero",
+          "romaji": "Fate/Zero"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx10087-M4Hd9qrHGrXk.png"
+        },
+        "siteUrl": "https://anilist.co/anime/10087"
+      }
+    },
+    {
+      "id": 1043987418,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1774027786,
+      "media": {
+        "title": {
+          "english": "Fate/stay night [Heaven's Feel] I. presage flower",
+          "romaji": "Fate/stay night [Heaven's Feel] I. presage flower"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20791-yPCX5GJuMH2k.png"
+        },
+        "siteUrl": "https://anilist.co/anime/20791"
+      }
+    },
+    {
+      "id": 1043987172,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1774027746,
+      "media": {
+        "title": {
+          "english": "Fate/Zero",
+          "romaji": "Fate/Zero"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx10087-M4Hd9qrHGrXk.png"
+        },
+        "siteUrl": "https://anilist.co/anime/10087"
+      }
+    },
+    {
+      "id": 1043987167,
+      "status": "watched episode",
+      "progress": "12",
+      "createdAt": 1774027745,
+      "media": {
+        "title": {
+          "english": "Fate/Zero",
+          "romaji": "Fate/Zero"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx10087-M4Hd9qrHGrXk.png"
+        },
+        "siteUrl": "https://anilist.co/anime/10087"
+      }
+    },
+    {
+      "id": 1043987139,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1774027741,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works 2nd Season",
+          "romaji": "Fate/stay night: Unlimited Blade Works 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20792-Q53sZsUAh5FF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20792"
+      }
+    }
   ]
 }

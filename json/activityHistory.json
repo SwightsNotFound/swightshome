@@ -59776,5 +59776,135 @@
         "siteUrl": "https://anilist.co/anime/20792"
       }
     }
+  ],
+  "2026-03-31": [
+    {
+      "id": 1049608264,
+      "status": "rewatched episode",
+      "progress": "3",
+      "createdAt": 1774932283,
+      "media": {
+        "title": {
+          "english": "Dr. STONE",
+          "romaji": "Dr. STONE"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-GybuoSoOZfpH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105333"
+      }
+    },
+    {
+      "id": 1049608231,
+      "status": "rewatched episode",
+      "progress": "7",
+      "createdAt": 1774932278,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY",
+          "romaji": "SPY×FAMILY"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140960-Kb6R5nYQfjmP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/140960"
+      }
+    },
+    {
+      "id": 1049608228,
+      "status": "rewatched episode",
+      "progress": "6",
+      "createdAt": 1774932277,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY",
+          "romaji": "SPY×FAMILY"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140960-Kb6R5nYQfjmP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/140960"
+      }
+    },
+    {
+      "id": 1049608227,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1774932277,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY",
+          "romaji": "SPY×FAMILY"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140960-Kb6R5nYQfjmP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/140960"
+      }
+    },
+    {
+      "id": 1049608222,
+      "status": "rewatched episode",
+      "progress": "4",
+      "createdAt": 1774932276,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY",
+          "romaji": "SPY×FAMILY"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140960-Kb6R5nYQfjmP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/140960"
+      }
+    },
+    {
+      "id": 1049608218,
+      "status": "rewatched episode",
+      "progress": "3",
+      "createdAt": 1774932276,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY",
+          "romaji": "SPY×FAMILY"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140960-Kb6R5nYQfjmP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/140960"
+      }
+    },
+    {
+      "id": 1049608216,
+      "status": "rewatched episode",
+      "progress": "2",
+      "createdAt": 1774932275,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY",
+          "romaji": "SPY×FAMILY"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140960-Kb6R5nYQfjmP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/140960"
+      }
+    },
+    {
+      "id": 1049608213,
+      "status": "rewatched episode",
+      "progress": "1",
+      "createdAt": 1774932275,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY",
+          "romaji": "SPY×FAMILY"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140960-Kb6R5nYQfjmP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/140960"
+      }
+    }
   ]
 }

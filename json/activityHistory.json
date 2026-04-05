@@ -59909,6 +59909,22 @@
   ],
   "2026-04-05": [
     {
+      "id": 1053025192,
+      "status": "rewatched episode",
+      "progress": "2",
+      "createdAt": 1775429745,
+      "media": {
+        "title": {
+          "english": "Fate/Zero",
+          "romaji": "Fate/Zero"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx10087-M4Hd9qrHGrXk.png"
+        },
+        "siteUrl": "https://anilist.co/anime/10087"
+      }
+    },
+    {
       "id": 1052864902,
       "status": "rewatched episode",
       "progress": "4",

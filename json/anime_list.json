@@ -3066,7 +3066,7 @@
           "Drama",
           "Fantasy"
         ],
-        "format": "TV",
+        "format": "ONA",
         "country": "JP",
         "personalScore": 0,
         "progress": 0,
@@ -15163,7 +15163,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 8,
-        "progress": 1,
+        "progress": 2,
         "links": {
           "anilist": "https://anilist.co/anime/101291/",
           "mal": "https://myanimelist.net/anime/101291",

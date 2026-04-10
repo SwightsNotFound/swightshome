@@ -6906,6 +6906,29 @@
         }
       },
       {
+        "id": 140960,
+        "title": "SPY x FAMILY",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140960-Kb6R5nYQfjmP.jpg",
+        "averageScore": 83,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/140960/",
+          "mal": "https://myanimelist.net/anime/140960",
+          "kitsu": "https://kitsu.io/anime/140960"
+        }
+      },
+      {
         "id": 20519,
         "title": "Tamako -love story-",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20519-YdNUizVJJIWI.png",
@@ -8114,29 +8137,6 @@
           "anilist": "https://anilist.co/anime/142329/",
           "mal": "https://myanimelist.net/anime/142329",
           "kitsu": "https://kitsu.io/anime/142329"
-        }
-      },
-      {
-        "id": 142838,
-        "title": "SPY x FAMILY Cour 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142838-26JrqcFU1ljB.jpg",
-        "averageScore": 81,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Slice of Life",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8.6,
-        "progress": 13,
-        "links": {
-          "anilist": "https://anilist.co/anime/142838/",
-          "mal": "https://myanimelist.net/anime/142838",
-          "kitsu": "https://kitsu.io/anime/142838"
         }
       },
       {
@@ -15125,29 +15125,6 @@
         }
       },
       {
-        "id": 140960,
-        "title": "SPY x FAMILY",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140960-Kb6R5nYQfjmP.jpg",
-        "averageScore": 83,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Slice of Life",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 7,
-        "links": {
-          "anilist": "https://anilist.co/anime/140960/",
-          "mal": "https://myanimelist.net/anime/140960",
-          "kitsu": "https://kitsu.io/anime/140960"
-        }
-      },
-      {
         "id": 128893,
         "title": "Hell’s Paradise",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128893-Gc2t8b8M0mVu.jpg",
@@ -15168,6 +15145,29 @@
           "anilist": "https://anilist.co/anime/128893/",
           "mal": "https://myanimelist.net/anime/128893",
           "kitsu": "https://kitsu.io/anime/128893"
+        }
+      },
+      {
+        "id": 142838,
+        "title": "SPY x FAMILY Cour 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142838-26JrqcFU1ljB.jpg",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.6,
+        "progress": 2,
+        "links": {
+          "anilist": "https://anilist.co/anime/142838/",
+          "mal": "https://myanimelist.net/anime/142838",
+          "kitsu": "https://kitsu.io/anime/142838"
         }
       },
       {

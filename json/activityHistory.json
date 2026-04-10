@@ -60006,5 +60006,73 @@
         "siteUrl": "https://anilist.co/anime/101291"
       }
     }
+  ],
+  "2026-04-10": [
+    {
+      "id": 1055601838,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1775784532,
+      "media": {
+        "title": {
+          "english": "Witch Hat Atelier",
+          "romaji": "Tongari Boushi no Atelier"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx147105-rwOX8qyUy8gV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/147105"
+      }
+    },
+    {
+      "id": 1055572096,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1775779937,
+      "media": {
+        "title": {
+          "english": "Fate/stay night [Heaven's Feel] II. lost butterfly",
+          "romaji": "Fate/stay night [Heaven's Feel] II. lost butterfly"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21718-Hjj26Sapx1bd.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/21718"
+      }
+    },
+    {
+      "id": 1055570772,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1775779759,
+      "media": {
+        "title": {
+          "english": "Rascal Does Not Dream of Bunny Girl Senpai",
+          "romaji": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101291-wfEdgPqtfU0l.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101291"
+      }
+    }
+  ],
+  "2026-04-09": [
+    {
+      "id": 1055556063,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1775777672,
+      "media": {
+        "title": {
+          "english": "Dr. STONE",
+          "romaji": "Dr. STONE"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-GybuoSoOZfpH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105333"
+      }
+    }
   ]
 }

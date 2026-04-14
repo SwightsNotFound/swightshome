@@ -8439,28 +8439,6 @@
         }
       },
       {
-        "id": 21856,
-        "title": "My Hero Academia Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21856-gutauxhWAwn6.png",
-        "averageScore": 80,
-        "episodes": 25,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 25,
-        "links": {
-          "anilist": "https://anilist.co/anime/21856/",
-          "mal": "https://myanimelist.net/anime/21856",
-          "kitsu": "https://kitsu.io/anime/21856"
-        }
-      },
-      {
         "id": 100166,
         "title": "My Hero Academia Season 3",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100166-jUCZYbzn2XLw.jpg",
@@ -14825,6 +14803,150 @@
     ]
   },
   {
+    "name": "Rewatching",
+    "entries": [
+      {
+        "id": 105333,
+        "title": "Dr. STONE",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105333-GybuoSoOZfpH.jpg",
+        "averageScore": 81,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.1,
+        "progress": 5,
+        "links": {
+          "anilist": "https://anilist.co/anime/105333/",
+          "mal": "https://myanimelist.net/anime/105333",
+          "kitsu": "https://kitsu.io/anime/105333"
+        }
+      },
+      {
+        "id": 128893,
+        "title": "Hell’s Paradise",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128893-Gc2t8b8M0mVu.jpg",
+        "averageScore": 80,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Mystery",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 9,
+        "links": {
+          "anilist": "https://anilist.co/anime/128893/",
+          "mal": "https://myanimelist.net/anime/128893",
+          "kitsu": "https://kitsu.io/anime/128893"
+        }
+      },
+      {
+        "id": 142838,
+        "title": "SPY x FAMILY Cour 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142838-26JrqcFU1ljB.jpg",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.6,
+        "progress": 2,
+        "links": {
+          "anilist": "https://anilist.co/anime/142838/",
+          "mal": "https://myanimelist.net/anime/142838",
+          "kitsu": "https://kitsu.io/anime/142838"
+        }
+      },
+      {
+        "id": 21856,
+        "title": "My Hero Academia Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21856-gutauxhWAwn6.png",
+        "averageScore": 80,
+        "episodes": 25,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 15,
+        "links": {
+          "anilist": "https://anilist.co/anime/21856/",
+          "mal": "https://myanimelist.net/anime/21856",
+          "kitsu": "https://kitsu.io/anime/21856"
+        }
+      },
+      {
+        "id": 101291,
+        "title": "Rascal Does Not Dream of Bunny Girl Senpai",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101291-wfEdgPqtfU0l.jpg",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Mystery",
+          "Psychological",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 5,
+        "links": {
+          "anilist": "https://anilist.co/anime/101291/",
+          "mal": "https://myanimelist.net/anime/101291",
+          "kitsu": "https://kitsu.io/anime/101291"
+        }
+      },
+      {
+        "id": 10087,
+        "title": "Fate/Zero",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10087-M4Hd9qrHGrXk.png",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 2,
+        "links": {
+          "anilist": "https://anilist.co/anime/10087/",
+          "mal": "https://myanimelist.net/anime/10087",
+          "kitsu": "https://kitsu.io/anime/10087"
+        }
+      }
+    ]
+  },
+  {
     "name": "Paused",
     "entries": [
       {
@@ -15094,128 +15216,6 @@
           "anilist": "https://anilist.co/anime/126357/",
           "mal": "https://myanimelist.net/anime/126357",
           "kitsu": "https://kitsu.io/anime/126357"
-        }
-      }
-    ]
-  },
-  {
-    "name": "Rewatching",
-    "entries": [
-      {
-        "id": 105333,
-        "title": "Dr. STONE",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105333-GybuoSoOZfpH.jpg",
-        "averageScore": 81,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Sci-Fi"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.1,
-        "progress": 5,
-        "links": {
-          "anilist": "https://anilist.co/anime/105333/",
-          "mal": "https://myanimelist.net/anime/105333",
-          "kitsu": "https://kitsu.io/anime/105333"
-        }
-      },
-      {
-        "id": 128893,
-        "title": "Hell’s Paradise",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128893-Gc2t8b8M0mVu.jpg",
-        "averageScore": 80,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Mystery",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8.9,
-        "progress": 9,
-        "links": {
-          "anilist": "https://anilist.co/anime/128893/",
-          "mal": "https://myanimelist.net/anime/128893",
-          "kitsu": "https://kitsu.io/anime/128893"
-        }
-      },
-      {
-        "id": 142838,
-        "title": "SPY x FAMILY Cour 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142838-26JrqcFU1ljB.jpg",
-        "averageScore": 81,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Slice of Life",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8.6,
-        "progress": 2,
-        "links": {
-          "anilist": "https://anilist.co/anime/142838/",
-          "mal": "https://myanimelist.net/anime/142838",
-          "kitsu": "https://kitsu.io/anime/142838"
-        }
-      },
-      {
-        "id": 101291,
-        "title": "Rascal Does Not Dream of Bunny Girl Senpai",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101291-wfEdgPqtfU0l.jpg",
-        "averageScore": 81,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Mystery",
-          "Psychological",
-          "Romance",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 5,
-        "links": {
-          "anilist": "https://anilist.co/anime/101291/",
-          "mal": "https://myanimelist.net/anime/101291",
-          "kitsu": "https://kitsu.io/anime/101291"
-        }
-      },
-      {
-        "id": 10087,
-        "title": "Fate/Zero",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10087-M4Hd9qrHGrXk.png",
-        "averageScore": 81,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Fantasy",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 2,
-        "links": {
-          "anilist": "https://anilist.co/anime/10087/",
-          "mal": "https://myanimelist.net/anime/10087",
-          "kitsu": "https://kitsu.io/anime/10087"
         }
       }
     ]

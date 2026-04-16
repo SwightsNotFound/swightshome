@@ -7748,28 +7748,6 @@
         }
       },
       {
-        "id": 101348,
-        "title": "Vinland Saga",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101348-2fhDFPCuMNiz.jpg",
-        "averageScore": 87,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Drama"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8.9,
-        "progress": 24,
-        "links": {
-          "anilist": "https://anilist.co/anime/101348/",
-          "mal": "https://myanimelist.net/anime/101348",
-          "kitsu": "https://kitsu.io/anime/101348"
-        }
-      },
-      {
         "id": 151807,
         "title": "Solo Leveling",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151807-it355ZgzquUd.png",
@@ -14826,6 +14804,28 @@
           "anilist": "https://anilist.co/anime/105333/",
           "mal": "https://myanimelist.net/anime/105333",
           "kitsu": "https://kitsu.io/anime/105333"
+        }
+      },
+      {
+        "id": 101348,
+        "title": "Vinland Saga",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101348-2fhDFPCuMNiz.jpg",
+        "averageScore": 87,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 2,
+        "links": {
+          "anilist": "https://anilist.co/anime/101348/",
+          "mal": "https://myanimelist.net/anime/101348",
+          "kitsu": "https://kitsu.io/anime/101348"
         }
       },
       {

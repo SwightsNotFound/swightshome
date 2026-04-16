@@ -60636,5 +60636,39 @@
         "siteUrl": "https://anilist.co/anime/21459"
       }
     }
+  ],
+  "2026-04-16": [
+    {
+      "id": 1059160973,
+      "status": "rewatched episode",
+      "progress": "2",
+      "createdAt": 1776311581,
+      "media": {
+        "title": {
+          "english": "Vinland Saga",
+          "romaji": "VINLAND SAGA"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101348-2fhDFPCuMNiz.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101348"
+      }
+    },
+    {
+      "id": 1059130870,
+      "status": "rewatched episode",
+      "progress": "1",
+      "createdAt": 1776306444,
+      "media": {
+        "title": {
+          "english": "Vinland Saga",
+          "romaji": "VINLAND SAGA"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101348-2fhDFPCuMNiz.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101348"
+      }
+    }
   ]
 }

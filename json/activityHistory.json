@@ -60639,6 +60639,22 @@
   ],
   "2026-04-16": [
     {
+      "id": 1059595797,
+      "status": "rewatched episode",
+      "progress": "6",
+      "createdAt": 1776381603,
+      "media": {
+        "title": {
+          "english": "Dr. STONE",
+          "romaji": "Dr. STONE"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-GybuoSoOZfpH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105333"
+      }
+    },
+    {
       "id": 1059160973,
       "status": "rewatched episode",
       "progress": "2",

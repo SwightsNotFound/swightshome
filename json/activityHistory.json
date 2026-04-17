@@ -60721,6 +60721,22 @@
   ],
   "2026-04-17": [
     {
+      "id": 1059685360,
+      "status": "rewatched episode",
+      "progress": "16",
+      "createdAt": 1776397495,
+      "media": {
+        "title": {
+          "english": "My Hero Academia Season 2",
+          "romaji": "Boku no Hero Academia 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21856-gutauxhWAwn6.png"
+        },
+        "siteUrl": "https://anilist.co/anime/21856"
+      }
+    },
+    {
       "id": 1059650753,
       "status": "watched episode",
       "progress": "3",

@@ -60721,6 +60721,38 @@
   ],
   "2026-04-17": [
     {
+      "id": 1059984132,
+      "status": "rewatched episode",
+      "progress": "20",
+      "createdAt": 1776451395,
+      "media": {
+        "title": {
+          "english": "My Hero Academia Season 2",
+          "romaji": "Boku no Hero Academia 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21856-gutauxhWAwn6.png"
+        },
+        "siteUrl": "https://anilist.co/anime/21856"
+      }
+    },
+    {
+      "id": 1059984124,
+      "status": "rewatched episode",
+      "progress": "19",
+      "createdAt": 1776451394,
+      "media": {
+        "title": {
+          "english": "My Hero Academia Season 2",
+          "romaji": "Boku no Hero Academia 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21856-gutauxhWAwn6.png"
+        },
+        "siteUrl": "https://anilist.co/anime/21856"
+      }
+    },
+    {
       "id": 1059734804,
       "status": "rewatched episode",
       "progress": "18",

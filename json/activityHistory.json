@@ -60835,6 +60835,54 @@
   ],
   "2026-04-18": [
     {
+      "id": 1060553067,
+      "status": "watched episode",
+      "progress": "3",
+      "createdAt": 1776544013,
+      "media": {
+        "title": {
+          "english": "Dr. STONE SCIENCE FUTURE Cour 3",
+          "romaji": "Dr. STONE: SCIENCE FUTURE Part 3"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199221-TReDQMNhslHu.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/199221"
+      }
+    },
+    {
+      "id": 1060553062,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1776544012,
+      "media": {
+        "title": {
+          "english": "Dr. STONE SCIENCE FUTURE Cour 3",
+          "romaji": "Dr. STONE: SCIENCE FUTURE Part 3"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199221-TReDQMNhslHu.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/199221"
+      }
+    },
+    {
+      "id": 1060553052,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1776544011,
+      "media": {
+        "title": {
+          "english": "Dr. STONE SCIENCE FUTURE Cour 3",
+          "romaji": "Dr. STONE: SCIENCE FUTURE Part 3"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199221-TReDQMNhslHu.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/199221"
+      }
+    },
+    {
       "id": 1060488579,
       "status": "rewatched episode",
       "progress": "24",

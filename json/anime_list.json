@@ -8394,6 +8394,28 @@
         }
       },
       {
+        "id": 21856,
+        "title": "My Hero Academia Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21856-gutauxhWAwn6.png",
+        "averageScore": 80,
+        "episodes": 25,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 25,
+        "links": {
+          "anilist": "https://anilist.co/anime/21856/",
+          "mal": "https://myanimelist.net/anime/21856",
+          "kitsu": "https://kitsu.io/anime/21856"
+        }
+      },
+      {
         "id": 100166,
         "title": "My Hero Academia Season 3",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100166-jUCZYbzn2XLw.jpg",
@@ -8435,29 +8457,6 @@
           "anilist": "https://anilist.co/anime/139630/",
           "mal": "https://myanimelist.net/anime/139630",
           "kitsu": "https://kitsu.io/anime/139630"
-        }
-      },
-      {
-        "id": 100723,
-        "title": "My Hero Academia: Two Heroes",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100723-7f5e1BCTCDoB.jpg",
-        "averageScore": 74,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Drama",
-          "Sci-Fi"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/100723/",
-          "mal": "https://myanimelist.net/anime/100723",
-          "kitsu": "https://kitsu.io/anime/100723"
         }
       },
       {
@@ -14875,25 +14874,26 @@
         }
       },
       {
-        "id": 21856,
-        "title": "My Hero Academia Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21856-gutauxhWAwn6.png",
-        "averageScore": 80,
-        "episodes": 25,
+        "id": 100723,
+        "title": "My Hero Academia: Two Heroes",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100723-7f5e1BCTCDoB.jpg",
+        "averageScore": 74,
+        "episodes": 1,
         "status": "FINISHED",
         "genres": [
           "Action",
-          "Adventure",
-          "Comedy"
+          "Comedy",
+          "Drama",
+          "Sci-Fi"
         ],
-        "format": "TV",
+        "format": "MOVIE",
         "country": "JP",
         "personalScore": 8,
-        "progress": 24,
+        "progress": 0,
         "links": {
-          "anilist": "https://anilist.co/anime/21856/",
-          "mal": "https://myanimelist.net/anime/21856",
-          "kitsu": "https://kitsu.io/anime/21856"
+          "anilist": "https://anilist.co/anime/100723/",
+          "mal": "https://myanimelist.net/anime/100723",
+          "kitsu": "https://kitsu.io/anime/100723"
         }
       },
       {

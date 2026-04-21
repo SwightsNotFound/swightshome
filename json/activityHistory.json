@@ -60965,6 +60965,38 @@
   ],
   "2026-04-21": [
     {
+      "id": 1062130561,
+      "status": "rewatched episode",
+      "progress": "7",
+      "createdAt": 1776785979,
+      "media": {
+        "title": {
+          "english": "My Hero Academia Season 3",
+          "romaji": "Boku no Hero Academia 3"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100166-jUCZYbzn2XLw.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/100166"
+      }
+    },
+    {
+      "id": 1062130557,
+      "status": "rewatched episode",
+      "progress": "6",
+      "createdAt": 1776785979,
+      "media": {
+        "title": {
+          "english": "My Hero Academia Season 3",
+          "romaji": "Boku no Hero Academia 3"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100166-jUCZYbzn2XLw.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/100166"
+      }
+    },
+    {
       "id": 1061926681,
       "status": "rewatched episode",
       "progress": "5",

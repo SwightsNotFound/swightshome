@@ -61308,5 +61308,23 @@
         "siteUrl": "https://anilist.co/anime/101291"
       }
     }
+  ],
+  "2026-05-04": [
+    {
+      "id": 1068997911,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1777875170,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Go-toubun no Hanayome: Shunkashuutou"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx211709-eLIMRJ4Twp8e.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/211709"
+      }
+    }
   ]
 }

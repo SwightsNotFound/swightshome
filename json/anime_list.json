@@ -2840,7 +2840,7 @@
         "id": 199029,
         "title": "Rent-a-Girlfriend Season 5",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx199029-8eMkhHlD62Ik.png",
-        "averageScore": 56,
+        "averageScore": 57,
         "episodes": 12,
         "status": "RELEASING",
         "genres": [
@@ -5422,6 +5422,29 @@
           "anilist": "https://anilist.co/anime/16/",
           "mal": "https://myanimelist.net/anime/16",
           "kitsu": "https://kitsu.io/anime/16"
+        }
+      },
+      {
+        "id": 211709,
+        "title": "Go-toubun no Hanayome: Shunkashuutou",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx211709-eLIMRJ4Twp8e.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/211709/",
+          "mal": "https://myanimelist.net/anime/211709",
+          "kitsu": "https://kitsu.io/anime/211709"
         }
       }
     ]

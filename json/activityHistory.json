@@ -61362,5 +61362,23 @@
         "siteUrl": "https://anilist.co/anime/101291"
       }
     }
+  ],
+  "2026-05-11": [
+    {
+      "id": 1073408967,
+      "status": "plans to read",
+      "progress": null,
+      "createdAt": 1778522547,
+      "media": {
+        "title": {
+          "english": "Love & Lies",
+          "romaji": "Koi to Uso"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx85566-57lZC4l1sLep.png"
+        },
+        "siteUrl": "https://anilist.co/manga/85566"
+      }
+    }
   ]
 }

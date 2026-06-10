@@ -14707,6 +14707,28 @@
           "mal": "https://myanimelist.net/anime/108268",
           "kitsu": "https://kitsu.io/anime/108268"
         }
+      },
+      {
+        "id": 196187,
+        "title": "Smoking Behind the Supermarket with You",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx196187-cXhET893v3Ag.png",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/196187/",
+          "mal": "https://myanimelist.net/anime/196187",
+          "kitsu": "https://kitsu.io/anime/196187"
+        }
       }
     ]
   },

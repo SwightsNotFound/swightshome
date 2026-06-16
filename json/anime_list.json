@@ -8876,7 +8876,11 @@
         "status": "FINISHED",
         "genres": [
           "Action",
-          "Romance"
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Romance",
+          "Supernatural"
         ],
         "format": "MOVIE",
         "country": "JP",

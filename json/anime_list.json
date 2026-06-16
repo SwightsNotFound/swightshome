@@ -4701,7 +4701,8 @@
           "Drama",
           "Fantasy",
           "Psychological",
-          "Romance"
+          "Romance",
+          "Thriller"
         ],
         "format": "TV",
         "country": "JP",
@@ -4899,7 +4900,6 @@
         "status": "FINISHED",
         "genres": [
           "Comedy",
-          "Drama",
           "Romance",
           "Slice of Life"
         ],

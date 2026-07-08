@@ -5170,7 +5170,7 @@
         "title": "Saga of Tanya the Evil Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx135865-T7XIPMAbqcxN.png",
         "averageScore": null,
-        "episodes": null,
+        "episodes": 12,
         "status": "RELEASING",
         "genres": [
           "Action",
@@ -5364,8 +5364,8 @@
         "title": "Clevatess Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx198946-IGXmbqBEYRYD.jpg",
         "averageScore": null,
-        "episodes": null,
-        "status": "NOT_YET_RELEASED",
+        "episodes": 13,
+        "status": "RELEASING",
         "genres": [
           "Action",
           "Drama",

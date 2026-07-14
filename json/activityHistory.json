@@ -61787,6 +61787,22 @@
   ],
   "2026-07-14": [
     {
+      "id": 1113478030,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1784067428,
+      "media": {
+        "title": {
+          "english": "You and I Are Polar Opposites",
+          "romaji": "Seihantai na Kimi to Boku"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184951-s8Lg2muPBhdX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/184951"
+      }
+    },
+    {
       "id": 1113444628,
       "status": "watched episode",
       "progress": "1",

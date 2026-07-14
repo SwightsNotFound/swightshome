@@ -61784,5 +61784,519 @@
         "siteUrl": "https://anilist.co/anime/101291"
       }
     }
+  ],
+  "2026-07-14": [
+    {
+      "id": 1112884649,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1783994977,
+      "media": {
+        "title": {
+          "english": "Mushoku Tensei: Jobless Reincarnation Season 3",
+          "romaji": "Mushoku Tensei III: Isekai Ittara Honki Dasu"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178789-hNXjKFzUq7mk.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/178789"
+      }
+    },
+    {
+      "id": 1112884639,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1783994976,
+      "media": {
+        "title": {
+          "english": "Mushoku Tensei: Jobless Reincarnation Season 3",
+          "romaji": "Mushoku Tensei III: Isekai Ittara Honki Dasu"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178789-hNXjKFzUq7mk.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/178789"
+      }
+    },
+    {
+      "id": 1112883242,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994799,
+      "media": {
+        "title": {
+          "english": "The Dark History of the Reincarnated Villainess",
+          "romaji": "Tensei Akujo no Kuro Rekishi"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx174914-RfPIqbrapByY.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/174914"
+      }
+    },
+    {
+      "id": 1112883189,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994792,
+      "media": {
+        "title": {
+          "english": "Campfire Cooking in Another World with my Absurd Skill Season 2",
+          "romaji": "Tondemo Skill de Isekai Hourou Meshi 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170577-ocYSFAcry7ty.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/170577"
+      }
+    },
+    {
+      "id": 1112883151,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994787,
+      "media": {
+        "title": {
+          "english": "Disney Twisted-Wonderland: The Animation",
+          "romaji": "Disney Twisted-Wonderland: THE ANIMATION - Season 1: EPISODE of HEARTSLABYUL"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140291-RAwYjwC9vWDR.png"
+        },
+        "siteUrl": "https://anilist.co/anime/140291"
+      }
+    },
+    {
+      "id": 1112883101,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994780,
+      "media": {
+        "title": {
+          "english": "ONE PIECE",
+          "romaji": "ONE PIECE"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21-ELSYx3yMPcKM.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/21"
+      }
+    },
+    {
+      "id": 1112883045,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994772,
+      "media": {
+        "title": {
+          "english": "The Quintessential Quintuplets Specials 2",
+          "romaji": "Go-toubun no Hanayome *"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177191-ovNZsq8EbIPY.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177191"
+      }
+    },
+    {
+      "id": 1112883006,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994768,
+      "media": {
+        "title": {
+          "english": "Tojima Wants to Be a Kamen Rider",
+          "romaji": "Toujima Tanzaburou wa Kamen Rider ni Naritai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187464-NJtK3VC54vPm.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/187464"
+      }
+    },
+    {
+      "id": 1112882930,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994758,
+      "media": {
+        "title": {
+          "english": "ZOMBIE LAND SAGA",
+          "romaji": "Zombie Land Saga"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx103871-KEWbn3fkz499.png"
+        },
+        "siteUrl": "https://anilist.co/anime/103871"
+      }
+    },
+    {
+      "id": 1112882906,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994755,
+      "media": {
+        "title": {
+          "english": "Yano-kun's Ordinary Days",
+          "romaji": "Yano-kun no Futsuu no Hibi"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx183965-7oMzkJp4FUyP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/183965"
+      }
+    },
+    {
+      "id": 1112882873,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994749,
+      "media": {
+        "title": {
+          "english": "Wandance",
+          "romaji": "WanDance"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180436-zR0dJuKGZNOK.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/180436"
+      }
+    },
+    {
+      "id": 1112882842,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994745,
+      "media": {
+        "title": {
+          "english": "Undead Unluck",
+          "romaji": "Undead Unluck"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx154116-3ydDI9hhvPgw.png"
+        },
+        "siteUrl": "https://anilist.co/anime/154116"
+      }
+    },
+    {
+      "id": 1112882798,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994737,
+      "media": {
+        "title": {
+          "english": "Toilet-Bound Hanako-kun Season 2 Part 2",
+          "romaji": "Jibaku Shounen Hanako-kun 2 Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx189326-kaYdWFxyyYdx.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/189326"
+      }
+    },
+    {
+      "id": 1112882670,
+      "status": "dropped",
+      "progress": null,
+      "createdAt": 1783994722,
+      "media": {
+        "title": {
+          "english": "The Summer Hikaru Died",
+          "romaji": "Hikaru ga Shinda Natsu"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177689-d0mB5nYgdnhi.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177689"
+      }
+    },
+    {
+      "id": 1112882538,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994705,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY Season 3",
+          "romaji": "SPY×FAMILY Season 3"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177937-Tzgg6rAdhCoH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177937"
+      }
+    },
+    {
+      "id": 1112882493,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994700,
+      "media": {
+        "title": {
+          "english": "Sentenced to Be a Hero",
+          "romaji": "Yuusha Kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx167152-O1pm6DWwifBD.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/167152"
+      }
+    },
+    {
+      "id": 1112882359,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994682,
+      "media": {
+        "title": {
+          "english": "One-Punch Man Season 3",
+          "romaji": "One Punch Man 3"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153800-8SpzdHOaZCoU.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/153800"
+      }
+    },
+    {
+      "id": 1112882125,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994652,
+      "media": {
+        "title": {
+          "english": "My Status as an Assassin Obviously Exceeds the Hero’s",
+          "romaji": "Ansatsusha de Aru Ore no Status ga Yuusha yori mo Akiraka ni Tsuyoi no da ga"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx186794-Ns8xWNdMdOxq.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/186794"
+      }
+    },
+    {
+      "id": 1112882034,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994642,
+      "media": {
+        "title": {
+          "english": "My Awkward Senpai",
+          "romaji": "Bukiyou na Senpai."
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185575-moQeN8f5xRBv.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/185575"
+      }
+    },
+    {
+      "id": 1112881965,
+      "status": "paused watching",
+      "progress": null,
+      "createdAt": 1783994633,
+      "media": {
+        "title": {
+          "english": "Lord of Mysteries",
+          "romaji": "Guimi Zhi Zhu: Xiaochou Pian"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx137667-xQxzQRAerw53.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/137667"
+      }
+    },
+    {
+      "id": 1112881902,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994624,
+      "media": {
+        "title": {
+          "english": "Kaiju No. 8: Mission Recon",
+          "romaji": "Kaijuu 8-gou Movie"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179998-2QNb7f6oXGUI.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/179998"
+      }
+    },
+    {
+      "id": 1112881876,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994621,
+      "media": {
+        "title": {
+          "english": "In This Corner of the World",
+          "romaji": "Kono Sekai no Katasumi ni"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15227-1tG3lhprG0A9.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/15227"
+      }
+    },
+    {
+      "id": 1112881778,
+      "status": "paused watching",
+      "progress": null,
+      "createdAt": 1783994610,
+      "media": {
+        "title": {
+          "english": "Gachiakuta",
+          "romaji": "Gachiakuta"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178025-cWJKEsZynkil.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/178025"
+      }
+    },
+    {
+      "id": 1112881716,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994602,
+      "media": {
+        "title": {
+          "english": "Dusk Beyond the End of the World",
+          "romaji": "Towa no Yuugure"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195153-yiRxZP5pPJLi.png"
+        },
+        "siteUrl": "https://anilist.co/anime/195153"
+      }
+    },
+    {
+      "id": 1112881509,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994582,
+      "media": {
+        "title": {
+          "english": "CITY THE ANIMATION",
+          "romaji": "CITY THE ANIMATION"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181841-R6fB3bmU5eOE.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/181841"
+      }
+    },
+    {
+      "id": 1112881359,
+      "status": "paused watching",
+      "progress": null,
+      "createdAt": 1783994564,
+      "media": {
+        "title": {
+          "english": "Bakemonogatari",
+          "romaji": "Bakemonogatari"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx5081-9GocceQ5Z865.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/5081"
+      }
+    },
+    {
+      "id": 1112881306,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994558,
+      "media": {
+        "title": {
+          "english": "Ascendance of a Bookworm",
+          "romaji": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108268-Dtt82uOi3vq5.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/108268"
+      }
+    },
+    {
+      "id": 1112881226,
+      "status": "paused watching",
+      "progress": null,
+      "createdAt": 1783994547,
+      "media": {
+        "title": {
+          "english": "A Wild Last Boss Appeared!",
+          "romaji": "Yasei no Last Boss ga Arawareta!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180523-FjvW1XByUNMK.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/180523"
+      }
+    },
+    {
+      "id": 1112881165,
+      "status": "dropped",
+      "progress": null,
+      "createdAt": 1783994539,
+      "media": {
+        "title": {
+          "english": "Star Wars: Visions",
+          "romaji": "Star Wars: Visions"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx138060-8G02wer2Lsxo.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/138060"
+      }
+    },
+    {
+      "id": 1112881086,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1783994530,
+      "media": {
+        "title": {
+          "english": "100 METERS",
+          "romaji": "Hyakuemu."
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177687-T4SrtVjrmW01.png"
+        },
+        "siteUrl": "https://anilist.co/anime/177687"
+      }
+    },
+    {
+      "id": 1112881026,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1783994520,
+      "media": {
+        "title": {
+          "english": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 3",
+          "romaji": "Kimi no Koto ga Dai Dai Dai Dai Daisuki na 100-nin no Kanojo 3rd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx200637-QLR5uv9SbQ69.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/200637"
+      }
+    },
+    {
+      "id": 1112881009,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1783994519,
+      "media": {
+        "title": {
+          "english": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 3",
+          "romaji": "Kimi no Koto ga Dai Dai Dai Dai Daisuki na 100-nin no Kanojo 3rd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx200637-QLR5uv9SbQ69.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/200637"
+      }
+    }
   ]
 }

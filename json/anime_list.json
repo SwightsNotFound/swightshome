@@ -7547,29 +7547,6 @@
         }
       },
       {
-        "id": 104157,
-        "title": "Rascal Does Not Dream of a Dreaming Girl",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104157-rk99XI56PaIC.jpg",
-        "averageScore": 84,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Psychological",
-          "Romance",
-          "Supernatural"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/104157/",
-          "mal": "https://myanimelist.net/anime/104157",
-          "kitsu": "https://kitsu.io/anime/104157"
-        }
-      },
-      {
         "id": 162804,
         "title": "Alya Sometimes Hides Her Feelings in Russian",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162804-TBeptcAfvqTd.jpg",
@@ -9711,6 +9688,31 @@
           "anilist": "https://anilist.co/anime/163270/",
           "mal": "https://myanimelist.net/anime/163270",
           "kitsu": "https://kitsu.io/anime/163270"
+        }
+      },
+      {
+        "id": 101291,
+        "title": "Rascal Does Not Dream of Bunny Girl Senpai",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101291-wfEdgPqtfU0l.jpg",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Mystery",
+          "Psychological",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/101291/",
+          "mal": "https://myanimelist.net/anime/101291",
+          "kitsu": "https://kitsu.io/anime/101291"
         }
       },
       {
@@ -14611,6 +14613,29 @@
         }
       },
       {
+        "id": 104157,
+        "title": "Rascal Does Not Dream of a Dreaming Girl",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104157-rk99XI56PaIC.jpg",
+        "averageScore": 84,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/104157/",
+          "mal": "https://myanimelist.net/anime/104157",
+          "kitsu": "https://kitsu.io/anime/104157"
+        }
+      },
+      {
         "id": 101348,
         "title": "Vinland Saga",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101348-2fhDFPCuMNiz.jpg",
@@ -14722,31 +14747,6 @@
           "anilist": "https://anilist.co/anime/100723/",
           "mal": "https://myanimelist.net/anime/100723",
           "kitsu": "https://kitsu.io/anime/100723"
-        }
-      },
-      {
-        "id": 101291,
-        "title": "Rascal Does Not Dream of Bunny Girl Senpai",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101291-wfEdgPqtfU0l.jpg",
-        "averageScore": 81,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Mystery",
-          "Psychological",
-          "Romance",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 10,
-        "links": {
-          "anilist": "https://anilist.co/anime/101291/",
-          "mal": "https://myanimelist.net/anime/101291",
-          "kitsu": "https://kitsu.io/anime/101291"
         }
       },
       {
@@ -15178,7 +15178,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 8,
+        "progress": 11,
         "links": {
           "anilist": "https://anilist.co/anime/184951/",
           "mal": "https://myanimelist.net/anime/184951",

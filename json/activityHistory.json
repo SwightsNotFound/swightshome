@@ -62448,5 +62448,103 @@
         "siteUrl": "https://anilist.co/anime/184951"
       }
     }
+  ],
+  "2026-07-19": [
+    {
+      "id": 1116776897,
+      "status": "rewatched",
+      "progress": "13",
+      "createdAt": 1784478174,
+      "media": {
+        "title": {
+          "english": "Rascal Does Not Dream of Bunny Girl Senpai",
+          "romaji": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101291-wfEdgPqtfU0l.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101291"
+      }
+    },
+    {
+      "id": 1116776887,
+      "status": "rewatched episode",
+      "progress": "12",
+      "createdAt": 1784478173,
+      "media": {
+        "title": {
+          "english": "Rascal Does Not Dream of Bunny Girl Senpai",
+          "romaji": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101291-wfEdgPqtfU0l.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101291"
+      }
+    },
+    {
+      "id": 1116776882,
+      "status": "rewatched episode",
+      "progress": "11",
+      "createdAt": 1784478173,
+      "media": {
+        "title": {
+          "english": "Rascal Does Not Dream of Bunny Girl Senpai",
+          "romaji": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101291-wfEdgPqtfU0l.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/101291"
+      }
+    },
+    {
+      "id": 1116776720,
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1784478159,
+      "media": {
+        "title": {
+          "english": "You and I Are Polar Opposites",
+          "romaji": "Seihantai na Kimi to Boku"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184951-s8Lg2muPBhdX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/184951"
+      }
+    },
+    {
+      "id": 1116776709,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1784478158,
+      "media": {
+        "title": {
+          "english": "You and I Are Polar Opposites",
+          "romaji": "Seihantai na Kimi to Boku"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184951-s8Lg2muPBhdX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/184951"
+      }
+    },
+    {
+      "id": 1116776705,
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1784478158,
+      "media": {
+        "title": {
+          "english": "You and I Are Polar Opposites",
+          "romaji": "Seihantai na Kimi to Boku"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184951-s8Lg2muPBhdX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/184951"
+      }
+    }
   ]
 }

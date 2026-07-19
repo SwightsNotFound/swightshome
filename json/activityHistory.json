@@ -62451,6 +62451,22 @@
   ],
   "2026-07-19": [
     {
+      "id": 1116862754,
+      "status": "rewatched",
+      "progress": "1",
+      "createdAt": 1784486026,
+      "media": {
+        "title": {
+          "english": "Rascal Does Not Dream of a Dreaming Girl",
+          "romaji": "Seishun Buta Yarou wa Yumemiru Shoujo no Yume wo Minai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104157-rk99XI56PaIC.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/104157"
+      }
+    },
+    {
       "id": 1116776897,
       "status": "rewatched",
       "progress": "13",

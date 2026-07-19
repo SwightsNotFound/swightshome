@@ -8348,6 +8348,28 @@
         }
       },
       {
+        "id": 154967,
+        "title": "Rascal Does Not Dream of a Sister Venturing Out",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154967-W9cIm0qlz6fj.jpg",
+        "averageScore": 79,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Psychological",
+          "Supernatural"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/154967/",
+          "mal": "https://myanimelist.net/anime/154967",
+          "kitsu": "https://kitsu.io/anime/154967"
+        }
+      },
+      {
         "id": 19603,
         "title": "Fate/stay night: Unlimited Blade Works",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx19603-ycT0pyEgDVQu.jpg",
@@ -10154,29 +10176,6 @@
           "anilist": "https://anilist.co/anime/184237/",
           "mal": "https://myanimelist.net/anime/184237",
           "kitsu": "https://kitsu.io/anime/184237"
-        }
-      },
-      {
-        "id": 161474,
-        "title": "Rascal Does Not Dream of a Knapsack Kid",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161474-ZDfmmlJQQngN.jpg",
-        "averageScore": 83,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Psychological",
-          "Romance",
-          "Supernatural"
-        ],
-        "format": "MOVIE",
-        "country": "JP",
-        "personalScore": 8,
-        "progress": 1,
-        "links": {
-          "anilist": "https://anilist.co/anime/161474/",
-          "mal": "https://myanimelist.net/anime/161474",
-          "kitsu": "https://kitsu.io/anime/161474"
         }
       },
       {
@@ -14792,15 +14791,16 @@
         }
       },
       {
-        "id": 154967,
-        "title": "Rascal Does Not Dream of a Sister Venturing Out",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154967-W9cIm0qlz6fj.jpg",
-        "averageScore": 79,
+        "id": 161474,
+        "title": "Rascal Does Not Dream of a Knapsack Kid",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161474-ZDfmmlJQQngN.jpg",
+        "averageScore": 83,
         "episodes": 1,
         "status": "FINISHED",
         "genres": [
           "Drama",
           "Psychological",
+          "Romance",
           "Supernatural"
         ],
         "format": "MOVIE",
@@ -14808,9 +14808,9 @@
         "personalScore": 8,
         "progress": 0,
         "links": {
-          "anilist": "https://anilist.co/anime/154967/",
-          "mal": "https://myanimelist.net/anime/154967",
-          "kitsu": "https://kitsu.io/anime/154967"
+          "anilist": "https://anilist.co/anime/161474/",
+          "mal": "https://myanimelist.net/anime/161474",
+          "kitsu": "https://kitsu.io/anime/161474"
         }
       },
       {

@@ -62451,6 +62451,22 @@
   ],
   "2026-07-19": [
     {
+      "id": 1116995547,
+      "status": "rewatched",
+      "progress": "1",
+      "createdAt": 1784500805,
+      "media": {
+        "title": {
+          "english": "Rascal Does Not Dream of a Sister Venturing Out",
+          "romaji": "Seishun Buta Yarou wa Odekake Sister no Yume wo Minai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx154967-W9cIm0qlz6fj.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/154967"
+      }
+    },
+    {
       "id": 1116895201,
       "status": "plans to watch",
       "progress": null,

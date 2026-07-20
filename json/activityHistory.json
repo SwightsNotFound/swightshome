@@ -62629,6 +62629,38 @@
   ],
   "2026-07-20": [
     {
+      "id": 1117743367,
+      "status": "rewatched",
+      "progress": "1",
+      "createdAt": 1784589800,
+      "media": {
+        "title": {
+          "english": "Rascal Does Not Dream of a Knapsack Kid",
+          "romaji": "Seishun Buta Yarou wa Randoseru Girl no Yume wo Minai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx161474-ZDfmmlJQQngN.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/161474"
+      }
+    },
+    {
+      "id": 1117742028,
+      "status": "watched episode",
+      "progress": "3",
+      "createdAt": 1784589644,
+      "media": {
+        "title": {
+          "english": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 3",
+          "romaji": "Kimi no Koto ga Dai Dai Dai Dai Daisuki na 100-nin no Kanojo 3rd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx200637-QLR5uv9SbQ69.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/200637"
+      }
+    },
+    {
       "id": 1117725098,
       "status": "completed",
       "progress": null,

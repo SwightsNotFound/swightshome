@@ -7002,6 +7002,28 @@
         }
       },
       {
+        "id": 184951,
+        "title": "You and I Are Polar Opposites",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx184951-s8Lg2muPBhdX.jpg",
+        "averageScore": 83,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.5,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/184951/",
+          "mal": "https://myanimelist.net/anime/184951",
+          "kitsu": "https://kitsu.io/anime/184951"
+        }
+      },
+      {
         "id": 21127,
         "title": "Steins;Gate 0",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21127-7ARWZkDXKiiD.jpg",
@@ -14830,7 +14852,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 1,
+        "progress": 2,
         "links": {
           "anilist": "https://anilist.co/anime/171046/",
           "mal": "https://myanimelist.net/anime/171046",
@@ -14865,28 +14887,6 @@
   {
     "name": "Watching",
     "entries": [
-      {
-        "id": 184951,
-        "title": "You and I Are Polar Opposites",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx184951-s8Lg2muPBhdX.jpg",
-        "averageScore": 83,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Romance",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 10,
-        "progress": 11,
-        "links": {
-          "anilist": "https://anilist.co/anime/184951/",
-          "mal": "https://myanimelist.net/anime/184951",
-          "kitsu": "https://kitsu.io/anime/184951"
-        }
-      },
       {
         "id": 183291,
         "title": "Pass the Monster Meat, Milady!",
@@ -15315,6 +15315,29 @@
           "anilist": "https://anilist.co/anime/187538/",
           "mal": "https://myanimelist.net/anime/187538",
           "kitsu": "https://kitsu.io/anime/187538"
+        }
+      },
+      {
+        "id": 210031,
+        "title": "You and I Are Polar Opposites Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx210031-TppgcHZh46LY.jpg",
+        "averageScore": 81,
+        "episodes": 13,
+        "status": "RELEASING",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/210031/",
+          "mal": "https://myanimelist.net/anime/210031",
+          "kitsu": "https://kitsu.io/anime/210031"
         }
       }
     ]

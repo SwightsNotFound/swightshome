@@ -6274,27 +6274,6 @@
         }
       },
       {
-        "id": 161645,
-        "title": "The Apothecary Diaries",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161645-QLbzHXiYRgV2.jpg",
-        "averageScore": 88,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Mystery"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.9,
-        "progress": 24,
-        "links": {
-          "anilist": "https://anilist.co/anime/161645/",
-          "mal": "https://myanimelist.net/anime/161645",
-          "kitsu": "https://kitsu.io/anime/161645"
-        }
-      },
-      {
         "id": 151514,
         "title": "Orb: On the Movements of the Earth",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151514-Y0d82Ah2ZOHX.jpg",
@@ -14676,6 +14655,27 @@
     "name": "Rewatching",
     "entries": [
       {
+        "id": 161645,
+        "title": "The Apothecary Diaries",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161645-QLbzHXiYRgV2.jpg",
+        "averageScore": 88,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.9,
+        "progress": 23,
+        "links": {
+          "anilist": "https://anilist.co/anime/161645/",
+          "mal": "https://myanimelist.net/anime/161645",
+          "kitsu": "https://kitsu.io/anime/161645"
+        }
+      },
+      {
         "id": 105333,
         "title": "Dr. STONE",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105333-GybuoSoOZfpH.jpg",
@@ -14782,7 +14782,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 8.4,
-        "progress": 0,
+        "progress": 1,
         "links": {
           "anilist": "https://anilist.co/anime/14741/",
           "mal": "https://myanimelist.net/anime/14741",
@@ -15333,11 +15333,95 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0,
+        "progress": 1,
         "links": {
           "anilist": "https://anilist.co/anime/210031/",
           "mal": "https://myanimelist.net/anime/210031",
           "kitsu": "https://kitsu.io/anime/210031"
+        }
+      },
+      {
+        "id": 202269,
+        "title": "Love Unseen Beneath the Clear Night Sky",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx202269-7KNj8s2fSsJJ.jpg",
+        "averageScore": 77,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/202269/",
+          "mal": "https://myanimelist.net/anime/202269",
+          "kitsu": "https://kitsu.io/anime/202269"
+        }
+      },
+      {
+        "id": 190569,
+        "title": "Jaadugar: A Witch in Mongolia",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx190569-KnCQLI3Z8hPX.jpg",
+        "averageScore": 81,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Drama"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/190569/",
+          "mal": "https://myanimelist.net/anime/190569",
+          "kitsu": "https://kitsu.io/anime/190569"
+        }
+      },
+      {
+        "id": 177637,
+        "title": "Goodbye, Lara",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177637-8onaQWqKW1C3.jpg",
+        "averageScore": 76,
+        "episodes": 12,
+        "status": "RELEASING",
+        "genres": [
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/177637/",
+          "mal": "https://myanimelist.net/anime/177637",
+          "kitsu": "https://kitsu.io/anime/177637"
+        }
+      },
+      {
+        "id": 204466,
+        "title": "KAIJU GIRL CARAMELISE",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx204466-vXMvIs4VOoQd.png",
+        "averageScore": 75,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/204466/",
+          "mal": "https://myanimelist.net/anime/204466",
+          "kitsu": "https://kitsu.io/anime/204466"
         }
       }
     ]

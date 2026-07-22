@@ -63209,6 +63209,22 @@
   ],
   "2026-07-22": [
     {
+      "id": 1119081677,
+      "status": "watched episode",
+      "progress": "12",
+      "createdAt": 1784754094,
+      "media": {
+        "title": {
+          "english": "Witch Hat Atelier",
+          "romaji": "Tongari Boushi no Atelier"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx147105-rwOX8qyUy8gV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/147105"
+      }
+    },
+    {
       "id": 1119001608,
       "status": "watched episode",
       "progress": "11",

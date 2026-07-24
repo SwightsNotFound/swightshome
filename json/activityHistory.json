@@ -63450,5 +63450,135 @@
         "siteUrl": "https://anilist.co/anime/105333"
       }
     }
+  ],
+  "2026-07-24": [
+    {
+      "id": 1120019040,
+      "status": "rewatched episode",
+      "progress": "18",
+      "createdAt": 1784871900,
+      "media": {
+        "title": {
+          "english": "Dr. STONE",
+          "romaji": "Dr. STONE"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-GybuoSoOZfpH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105333"
+      }
+    },
+    {
+      "id": 1120008365,
+      "status": "rewatched episode",
+      "progress": "17",
+      "createdAt": 1784870395,
+      "media": {
+        "title": {
+          "english": "Dr. STONE",
+          "romaji": "Dr. STONE"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-GybuoSoOZfpH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105333"
+      }
+    },
+    {
+      "id": 1119968105,
+      "status": "rewatched episode",
+      "progress": "16",
+      "createdAt": 1784865034,
+      "media": {
+        "title": {
+          "english": "Dr. STONE",
+          "romaji": "Dr. STONE"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-GybuoSoOZfpH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105333"
+      }
+    },
+    {
+      "id": 1119956610,
+      "status": "rewatched episode",
+      "progress": "15",
+      "createdAt": 1784863484,
+      "media": {
+        "title": {
+          "english": "Dr. STONE",
+          "romaji": "Dr. STONE"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-GybuoSoOZfpH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105333"
+      }
+    },
+    {
+      "id": 1119939771,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1784861236,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Akatsuki no Yona (Zoku-hen)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx204293-tDdl9wfAJH1T.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/204293"
+      }
+    },
+    {
+      "id": 1119931952,
+      "status": "rewatched episode",
+      "progress": "14",
+      "createdAt": 1784860226,
+      "media": {
+        "title": {
+          "english": "Dr. STONE",
+          "romaji": "Dr. STONE"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-GybuoSoOZfpH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105333"
+      }
+    },
+    {
+      "id": 1119931943,
+      "status": "rewatched episode",
+      "progress": "13",
+      "createdAt": 1784860225,
+      "media": {
+        "title": {
+          "english": "Dr. STONE",
+          "romaji": "Dr. STONE"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-GybuoSoOZfpH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105333"
+      }
+    },
+    {
+      "id": 1119931906,
+      "status": "rewatched episode",
+      "progress": "12",
+      "createdAt": 1784860219,
+      "media": {
+        "title": {
+          "english": "Dr. STONE",
+          "romaji": "Dr. STONE"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-GybuoSoOZfpH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105333"
+      }
+    }
   ]
 }

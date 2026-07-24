@@ -63453,6 +63453,54 @@
   ],
   "2026-07-24": [
     {
+      "id": 1120359001,
+      "status": "rewatched episode",
+      "progress": "2",
+      "createdAt": 1784916221,
+      "media": {
+        "title": {
+          "english": "Love, Chunibyo & Other Delusions",
+          "romaji": "Chuunibyou demo Koi ga Shitai!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx14741-CGXEIeUe2roA.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/14741"
+      }
+    },
+    {
+      "id": 1120344612,
+      "status": "rewatched episode",
+      "progress": "20",
+      "createdAt": 1784914776,
+      "media": {
+        "title": {
+          "english": "Dr. STONE",
+          "romaji": "Dr. STONE"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-GybuoSoOZfpH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105333"
+      }
+    },
+    {
+      "id": 1120331537,
+      "status": "rewatched episode",
+      "progress": "19",
+      "createdAt": 1784913392,
+      "media": {
+        "title": {
+          "english": "Dr. STONE",
+          "romaji": "Dr. STONE"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-GybuoSoOZfpH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105333"
+      }
+    },
+    {
       "id": 1120019040,
       "status": "rewatched episode",
       "progress": "18",

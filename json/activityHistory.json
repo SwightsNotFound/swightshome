@@ -63679,6 +63679,22 @@
   ],
   "2026-07-25": [
     {
+      "id": 1121250450,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1785022960,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Shingeki no Kyojin: Chimi Kyara Gekijou - Rivai-han Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx120257-eerywzUJdLzy.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/120257"
+      }
+    },
+    {
       "id": 1121211487,
       "status": "rewatched episode",
       "progress": "21",

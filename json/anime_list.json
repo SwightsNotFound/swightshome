@@ -5975,6 +5975,27 @@
           "mal": "https://myanimelist.net/anime/171038",
           "kitsu": "https://kitsu.io/anime/171038"
         }
+      },
+      {
+        "id": 120257,
+        "title": "Shingeki no Kyojin: Chimi Kyara Gekijou - Rivai-han Part 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx120257-eerywzUJdLzy.jpg",
+        "averageScore": 79,
+        "episodes": 3,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "format": "SPECIAL",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/120257/",
+          "mal": "https://myanimelist.net/anime/120257",
+          "kitsu": "https://kitsu.io/anime/120257"
+        }
       }
     ]
   },

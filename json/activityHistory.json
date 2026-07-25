@@ -63679,6 +63679,22 @@
   ],
   "2026-07-25": [
     {
+      "id": 1121151913,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1785012416,
+      "media": {
+        "title": {
+          "english": "Nina the Starry Bride",
+          "romaji": "Hoshi Furu Oukoku no Nina"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171038-lSjQqiSk1mQC.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/171038"
+      }
+    },
+    {
       "id": 1121088631,
       "status": "watched episode",
       "progress": "1",

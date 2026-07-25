@@ -5953,6 +5953,28 @@
           "mal": "https://myanimelist.net/anime/204293",
           "kitsu": "https://kitsu.io/anime/204293"
         }
+      },
+      {
+        "id": 171038,
+        "title": "Nina the Starry Bride",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171038-lSjQqiSk1mQC.jpg",
+        "averageScore": 72,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/171038/",
+          "mal": "https://myanimelist.net/anime/171038",
+          "kitsu": "https://kitsu.io/anime/171038"
+        }
       }
     ]
   },

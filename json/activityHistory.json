@@ -63679,6 +63679,22 @@
   ],
   "2026-07-25": [
     {
+      "id": 1121088631,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1785005856,
+      "media": {
+        "title": {
+          "english": "Smoking Behind the Supermarket with You",
+          "romaji": "Super no Ura de Yani Suu Futari"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx196187-0dgFi2CPp3xn.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/196187"
+      }
+    },
+    {
       "id": 1120972573,
       "status": "rewatched episode",
       "progress": "3",

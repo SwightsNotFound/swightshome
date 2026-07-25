@@ -63679,6 +63679,38 @@
   ],
   "2026-07-25": [
     {
+      "id": 1120941843,
+      "status": "watched episode",
+      "progress": "3",
+      "createdAt": 1784990691,
+      "media": {
+        "title": {
+          "english": "I Want to Love You Till Your Dying Day",
+          "romaji": "Kimi ga Shinu made Koi wo Shitai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187260-WW5RBa5NINRP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/187260"
+      }
+    },
+    {
+      "id": 1120925556,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1784988693,
+      "media": {
+        "title": {
+          "english": "I Want to Love You Till Your Dying Day",
+          "romaji": "Kimi ga Shinu made Koi wo Shitai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187260-WW5RBa5NINRP.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/187260"
+      }
+    },
+    {
       "id": 1120685097,
       "status": "watched episode",
       "progress": "1",

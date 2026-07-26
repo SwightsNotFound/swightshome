@@ -9106,6 +9106,29 @@
         }
       },
       {
+        "id": 100166,
+        "title": "My Hero Academia Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100166-jUCZYbzn2XLw.jpg",
+        "averageScore": 79,
+        "episodes": 25,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Drama"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 25,
+        "links": {
+          "anilist": "https://anilist.co/anime/100166/",
+          "mal": "https://myanimelist.net/anime/100166",
+          "kitsu": "https://kitsu.io/anime/100166"
+        }
+      },
+      {
         "id": 139630,
         "title": "My Hero Academia Season 6",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx139630-3v4gxWtNZxLV.jpg",
@@ -10884,30 +10907,6 @@
           "anilist": "https://anilist.co/anime/21459/",
           "mal": "https://myanimelist.net/anime/21459",
           "kitsu": "https://kitsu.io/anime/21459"
-        }
-      },
-      {
-        "id": 104276,
-        "title": "My Hero Academia Season 4",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104276-SnEowMvesWIE.png",
-        "averageScore": 79,
-        "episodes": 25,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Drama",
-          "Sci-Fi"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 7,
-        "progress": 25,
-        "links": {
-          "anilist": "https://anilist.co/anime/104276/",
-          "mal": "https://myanimelist.net/anime/104276",
-          "kitsu": "https://kitsu.io/anime/104276"
         }
       },
       {
@@ -14903,9 +14902,9 @@
         }
       },
       {
-        "id": 100166,
-        "title": "My Hero Academia Season 3",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100166-jUCZYbzn2XLw.jpg",
+        "id": 104276,
+        "title": "My Hero Academia Season 4",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104276-SnEowMvesWIE.png",
         "averageScore": 79,
         "episodes": 25,
         "status": "FINISHED",
@@ -14913,16 +14912,17 @@
           "Action",
           "Adventure",
           "Comedy",
-          "Drama"
+          "Drama",
+          "Sci-Fi"
         ],
         "format": "TV",
         "country": "JP",
-        "personalScore": 8,
-        "progress": 24,
+        "personalScore": 7,
+        "progress": 3,
         "links": {
-          "anilist": "https://anilist.co/anime/100166/",
-          "mal": "https://myanimelist.net/anime/100166",
-          "kitsu": "https://kitsu.io/anime/100166"
+          "anilist": "https://anilist.co/anime/104276/",
+          "mal": "https://myanimelist.net/anime/104276",
+          "kitsu": "https://kitsu.io/anime/104276"
         }
       },
       {

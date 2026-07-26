@@ -63889,6 +63889,54 @@
   ],
   "2026-07-26": [
     {
+      "id": 1121984251,
+      "status": "plans to read",
+      "progress": null,
+      "createdAt": 1785106210,
+      "media": {
+        "title": {
+          "english": "Sacrificial Princess and the King of Beasts",
+          "romaji": "Niehime to Kemono no Ou"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx87384-9htUQ57bETaf.jpg"
+        },
+        "siteUrl": "https://anilist.co/manga/87384"
+      }
+    },
+    {
+      "id": 1121982934,
+      "status": "rewatched episode",
+      "progress": "15",
+      "createdAt": 1785106075,
+      "media": {
+        "title": {
+          "english": "My Hero Academia Season 4",
+          "romaji": "Boku no Hero Academia 4"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104276-SnEowMvesWIE.png"
+        },
+        "siteUrl": "https://anilist.co/anime/104276"
+      }
+    },
+    {
+      "id": 1121982899,
+      "status": "rewatched episode",
+      "progress": "14",
+      "createdAt": 1785106072,
+      "media": {
+        "title": {
+          "english": "My Hero Academia Season 4",
+          "romaji": "Boku no Hero Academia 4"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104276-SnEowMvesWIE.png"
+        },
+        "siteUrl": "https://anilist.co/anime/104276"
+      }
+    },
+    {
       "id": 1121848692,
       "status": "rewatched episode",
       "progress": "13",

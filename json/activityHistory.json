@@ -64211,6 +64211,38 @@
   ],
   "2026-07-27": [
     {
+      "id": 1122672049,
+      "status": "rewatched episode",
+      "progress": "21",
+      "createdAt": 1785186924,
+      "media": {
+        "title": {
+          "english": "My Hero Academia Season 4",
+          "romaji": "Boku no Hero Academia 4"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104276-SnEowMvesWIE.png"
+        },
+        "siteUrl": "https://anilist.co/anime/104276"
+      }
+    },
+    {
+      "id": 1122672038,
+      "status": "rewatched episode",
+      "progress": "20",
+      "createdAt": 1785186923,
+      "media": {
+        "title": {
+          "english": "My Hero Academia Season 4",
+          "romaji": "Boku no Hero Academia 4"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104276-SnEowMvesWIE.png"
+        },
+        "siteUrl": "https://anilist.co/anime/104276"
+      }
+    },
+    {
       "id": 1122585383,
       "status": "rewatched episode",
       "progress": "19",

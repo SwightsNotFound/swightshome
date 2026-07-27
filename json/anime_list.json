@@ -14918,7 +14918,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 8,
-        "progress": 15,
+        "progress": 17,
         "links": {
           "anilist": "https://anilist.co/anime/104276/",
           "mal": "https://myanimelist.net/anime/104276",
@@ -15512,6 +15512,48 @@
           "anilist": "https://anilist.co/anime/204466/",
           "mal": "https://myanimelist.net/anime/204466",
           "kitsu": "https://kitsu.io/anime/204466"
+        }
+      },
+      {
+        "id": 188139,
+        "title": "Though I Am an Inept Villainess",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx188139-1qIJfWxym8FX.jpg",
+        "averageScore": 73,
+        "episodes": 11,
+        "status": "RELEASING",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/188139/",
+          "mal": "https://myanimelist.net/anime/188139",
+          "kitsu": "https://kitsu.io/anime/188139"
+        }
+      },
+      {
+        "id": 186863,
+        "title": "The Cat and the Dragon",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx186863-AO4efoB8HuzA.png",
+        "averageScore": 75,
+        "episodes": null,
+        "status": "RELEASING",
+        "genres": [
+          "Adventure",
+          "Fantasy"
+        ],
+        "format": "ONA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/186863/",
+          "mal": "https://myanimelist.net/anime/186863",
+          "kitsu": "https://kitsu.io/anime/186863"
         }
       }
     ]

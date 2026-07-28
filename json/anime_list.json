@@ -3079,29 +3079,6 @@
         }
       },
       {
-        "id": 166613,
-        "title": "Hell’s Paradise Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166613-uHB8q3D4qbon.jpg",
-        "averageScore": 82,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Mystery",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/166613/",
-          "mal": "https://myanimelist.net/anime/166613",
-          "kitsu": "https://kitsu.io/anime/166613"
-        }
-      },
-      {
         "id": 125426,
         "title": "The Way of the Househusband",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx125426-WeKnIVjCRNIC.png",
@@ -8506,6 +8483,29 @@
           "anilist": "https://anilist.co/anime/140439/",
           "mal": "https://myanimelist.net/anime/140439",
           "kitsu": "https://kitsu.io/anime/140439"
+        }
+      },
+      {
+        "id": 128893,
+        "title": "Hell’s Paradise",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128893-Gc2t8b8M0mVu.jpg",
+        "averageScore": 80,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Mystery",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/128893/",
+          "mal": "https://myanimelist.net/anime/128893",
+          "kitsu": "https://kitsu.io/anime/128893"
         }
       },
       {
@@ -14834,29 +14834,6 @@
         }
       },
       {
-        "id": 128893,
-        "title": "Hell’s Paradise",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128893-Gc2t8b8M0mVu.jpg",
-        "averageScore": 80,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Mystery",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8.9,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/128893/",
-          "mal": "https://myanimelist.net/anime/128893",
-          "kitsu": "https://kitsu.io/anime/128893"
-        }
-      },
-      {
         "id": 142838,
         "title": "SPY x FAMILY Cour 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142838-26JrqcFU1ljB.jpg",
@@ -14947,6 +14924,29 @@
           "anilist": "https://anilist.co/anime/171046/",
           "mal": "https://myanimelist.net/anime/171046",
           "kitsu": "https://kitsu.io/anime/171046"
+        }
+      },
+      {
+        "id": 166613,
+        "title": "Hell’s Paradise Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166613-uHB8q3D4qbon.jpg",
+        "averageScore": 82,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Mystery",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/166613/",
+          "mal": "https://myanimelist.net/anime/166613",
+          "kitsu": "https://kitsu.io/anime/166613"
         }
       },
       {

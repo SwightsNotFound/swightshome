@@ -9106,6 +9106,30 @@
         }
       },
       {
+        "id": 104276,
+        "title": "My Hero Academia Season 4",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104276-SnEowMvesWIE.png",
+        "averageScore": 79,
+        "episodes": 25,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Drama",
+          "Sci-Fi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 25,
+        "links": {
+          "anilist": "https://anilist.co/anime/104276/",
+          "mal": "https://myanimelist.net/anime/104276",
+          "kitsu": "https://kitsu.io/anime/104276"
+        }
+      },
+      {
         "id": 139630,
         "title": "My Hero Academia Season 6",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx139630-3v4gxWtNZxLV.jpg",
@@ -10907,29 +10931,6 @@
           "anilist": "https://anilist.co/anime/100166/",
           "mal": "https://myanimelist.net/anime/100166",
           "kitsu": "https://kitsu.io/anime/100166"
-        }
-      },
-      {
-        "id": 117193,
-        "title": "My Hero Academia Season 5",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx117193-E75BlZmDh1aB.jpg",
-        "averageScore": 73,
-        "episodes": 25,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Sci-Fi"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 7,
-        "progress": 25,
-        "links": {
-          "anilist": "https://anilist.co/anime/117193/",
-          "mal": "https://myanimelist.net/anime/117193",
-          "kitsu": "https://kitsu.io/anime/117193"
         }
       },
       {
@@ -14902,27 +14903,26 @@
         }
       },
       {
-        "id": 104276,
-        "title": "My Hero Academia Season 4",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104276-SnEowMvesWIE.png",
-        "averageScore": 79,
+        "id": 117193,
+        "title": "My Hero Academia Season 5",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx117193-E75BlZmDh1aB.jpg",
+        "averageScore": 73,
         "episodes": 25,
         "status": "FINISHED",
         "genres": [
           "Action",
           "Adventure",
           "Comedy",
-          "Drama",
           "Sci-Fi"
         ],
         "format": "TV",
         "country": "JP",
-        "personalScore": 8,
-        "progress": 23,
+        "personalScore": 7,
+        "progress": 0,
         "links": {
-          "anilist": "https://anilist.co/anime/104276/",
-          "mal": "https://myanimelist.net/anime/104276",
-          "kitsu": "https://kitsu.io/anime/104276"
+          "anilist": "https://anilist.co/anime/117193/",
+          "mal": "https://myanimelist.net/anime/117193",
+          "kitsu": "https://kitsu.io/anime/117193"
         }
       },
       {
@@ -15554,6 +15554,27 @@
           "anilist": "https://anilist.co/anime/186863/",
           "mal": "https://myanimelist.net/anime/186863",
           "kitsu": "https://kitsu.io/anime/186863"
+        }
+      },
+      {
+        "id": 103874,
+        "title": "My Roommate is a Cat",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx103874-kAyuVMwwF5pp.jpg",
+        "averageScore": 76,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/103874/",
+          "mal": "https://myanimelist.net/anime/103874",
+          "kitsu": "https://kitsu.io/anime/103874"
         }
       }
     ]

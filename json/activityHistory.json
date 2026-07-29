@@ -64341,6 +64341,38 @@
   ],
   "2026-07-28": [
     {
+      "id": 1123464429,
+      "status": "rewatched episode",
+      "progress": "4",
+      "createdAt": 1785282822,
+      "media": {
+        "title": {
+          "english": "Hell’s Paradise Season 2",
+          "romaji": "Jigokuraku 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166613-uHB8q3D4qbon.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/166613"
+      }
+    },
+    {
+      "id": 1123440343,
+      "status": "rewatched episode",
+      "progress": "3",
+      "createdAt": 1785279972,
+      "media": {
+        "title": {
+          "english": "Hell’s Paradise Season 2",
+          "romaji": "Jigokuraku 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166613-uHB8q3D4qbon.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/166613"
+      }
+    },
+    {
       "id": 1123416544,
       "status": "rewatched episode",
       "progress": "2",
@@ -64450,6 +64482,24 @@
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104276-SnEowMvesWIE.png"
         },
         "siteUrl": "https://anilist.co/anime/104276"
+      }
+    }
+  ],
+  "2026-07-29": [
+    {
+      "id": 1123501193,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1785287440,
+      "media": {
+        "title": {
+          "english": "Hell’s Paradise Season 2",
+          "romaji": "Jigokuraku 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166613-uHB8q3D4qbon.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/166613"
       }
     }
   ]

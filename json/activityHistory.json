@@ -64487,6 +64487,22 @@
   ],
   "2026-07-29": [
     {
+      "id": 1123925542,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1785344069,
+      "media": {
+        "title": {
+          "english": "HAIKYU!!",
+          "romaji": "Haikyuu!!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20464-ooZUyBe4ptp9.png"
+        },
+        "siteUrl": "https://anilist.co/anime/20464"
+      }
+    },
+    {
       "id": 1123596093,
       "status": "rewatched episode",
       "progress": "8",

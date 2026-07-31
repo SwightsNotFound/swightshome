@@ -64699,6 +64699,214 @@
   ],
   "2026-07-31": [
     {
+      "id": 1124973517,
+      "status": "rewatched",
+      "progress": "13",
+      "createdAt": 1785473344,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY Cour 2",
+          "romaji": "SPY×FAMILY Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142838-26JrqcFU1ljB.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/142838"
+      }
+    },
+    {
+      "id": 1124973515,
+      "status": "rewatched episode",
+      "progress": "12",
+      "createdAt": 1785473344,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY Cour 2",
+          "romaji": "SPY×FAMILY Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142838-26JrqcFU1ljB.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/142838"
+      }
+    },
+    {
+      "id": 1124973511,
+      "status": "rewatched episode",
+      "progress": "11",
+      "createdAt": 1785473343,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY Cour 2",
+          "romaji": "SPY×FAMILY Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142838-26JrqcFU1ljB.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/142838"
+      }
+    },
+    {
+      "id": 1124973506,
+      "status": "rewatched episode",
+      "progress": "10",
+      "createdAt": 1785473343,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY Cour 2",
+          "romaji": "SPY×FAMILY Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142838-26JrqcFU1ljB.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/142838"
+      }
+    },
+    {
+      "id": 1124973503,
+      "status": "rewatched episode",
+      "progress": "9",
+      "createdAt": 1785473342,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY Cour 2",
+          "romaji": "SPY×FAMILY Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142838-26JrqcFU1ljB.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/142838"
+      }
+    },
+    {
+      "id": 1124973500,
+      "status": "rewatched episode",
+      "progress": "8",
+      "createdAt": 1785473342,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY Cour 2",
+          "romaji": "SPY×FAMILY Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142838-26JrqcFU1ljB.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/142838"
+      }
+    },
+    {
+      "id": 1124973497,
+      "status": "rewatched episode",
+      "progress": "7",
+      "createdAt": 1785473341,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY Cour 2",
+          "romaji": "SPY×FAMILY Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142838-26JrqcFU1ljB.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/142838"
+      }
+    },
+    {
+      "id": 1124973491,
+      "status": "rewatched episode",
+      "progress": "6",
+      "createdAt": 1785473341,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY Cour 2",
+          "romaji": "SPY×FAMILY Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142838-26JrqcFU1ljB.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/142838"
+      }
+    },
+    {
+      "id": 1124973488,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1785473340,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY Cour 2",
+          "romaji": "SPY×FAMILY Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142838-26JrqcFU1ljB.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/142838"
+      }
+    },
+    {
+      "id": 1124973478,
+      "status": "rewatched episode",
+      "progress": "4",
+      "createdAt": 1785473340,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY Cour 2",
+          "romaji": "SPY×FAMILY Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142838-26JrqcFU1ljB.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/142838"
+      }
+    },
+    {
+      "id": 1124973471,
+      "status": "rewatched episode",
+      "progress": "3",
+      "createdAt": 1785473339,
+      "media": {
+        "title": {
+          "english": "SPY x FAMILY Cour 2",
+          "romaji": "SPY×FAMILY Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142838-26JrqcFU1ljB.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/142838"
+      }
+    },
+    {
+      "id": 1124972380,
+      "status": "rewatched",
+      "progress": "12",
+      "createdAt": 1785473188,
+      "media": {
+        "title": {
+          "english": "Hell’s Paradise Season 2",
+          "romaji": "Jigokuraku 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166613-uHB8q3D4qbon.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/166613"
+      }
+    },
+    {
+      "id": 1124936198,
+      "status": "rewatched episode",
+      "progress": "11",
+      "createdAt": 1785467888,
+      "media": {
+        "title": {
+          "english": "Hell’s Paradise Season 2",
+          "romaji": "Jigokuraku 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166613-uHB8q3D4qbon.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/166613"
+      }
+    },
+    {
       "id": 1124911434,
       "status": "rewatched episode",
       "progress": "10",

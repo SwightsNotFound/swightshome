@@ -64699,6 +64699,22 @@
   ],
   "2026-07-31": [
     {
+      "id": 1125263729,
+      "status": "watched episode",
+      "progress": "5",
+      "createdAt": 1785513629,
+      "media": {
+        "title": {
+          "english": "KAIJU GIRL CARAMELISE",
+          "romaji": "Otome Kaijuu Caraméliser"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx204466-vXMvIs4VOoQd.png"
+        },
+        "siteUrl": "https://anilist.co/anime/204466"
+      }
+    },
+    {
       "id": 1124973517,
       "status": "rewatched",
       "progress": "13",

@@ -15602,6 +15602,30 @@
           "mal": "https://myanimelist.net/anime/122349",
           "kitsu": "https://kitsu.io/anime/122349"
         }
+      },
+      {
+        "id": 20968,
+        "title": "The Anthem of the Heart",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20968-0zFVsoFUYjeh.jpg",
+        "averageScore": 76,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Music",
+          "Psychological",
+          "Romance",
+          "Slice of Life"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/20968/",
+          "mal": "https://myanimelist.net/anime/20968",
+          "kitsu": "https://kitsu.io/anime/20968"
+        }
       }
     ]
   },

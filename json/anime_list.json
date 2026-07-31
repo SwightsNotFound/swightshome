@@ -14831,7 +14831,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9.1,
-        "progress": 20,
+        "progress": 21,
         "links": {
           "anilist": "https://anilist.co/anime/105333/",
           "mal": "https://myanimelist.net/anime/105333",
@@ -14945,7 +14945,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 3,
+        "progress": 4,
         "links": {
           "anilist": "https://anilist.co/anime/171046/",
           "mal": "https://myanimelist.net/anime/171046",
@@ -14968,7 +14968,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 8,
+        "progress": 10,
         "links": {
           "anilist": "https://anilist.co/anime/166613/",
           "mal": "https://myanimelist.net/anime/166613",
@@ -15579,6 +15579,28 @@
           "anilist": "https://anilist.co/anime/103874/",
           "mal": "https://myanimelist.net/anime/103874",
           "kitsu": "https://kitsu.io/anime/103874"
+        }
+      },
+      {
+        "id": 122349,
+        "title": "My Hero Academia: Make It! Do-or-Die Survival Training",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx122349-DkEdG7N1231n.jpg",
+        "averageScore": 70,
+        "episodes": 2,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy"
+        ],
+        "format": "ONA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/122349/",
+          "mal": "https://myanimelist.net/anime/122349",
+          "kitsu": "https://kitsu.io/anime/122349"
         }
       }
     ]

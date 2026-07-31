@@ -64569,6 +64569,22 @@
   ],
   "2026-07-30": [
     {
+      "id": 1124831800,
+      "status": "rewatched episode",
+      "progress": "21",
+      "createdAt": 1785453951,
+      "media": {
+        "title": {
+          "english": "Dr. STONE",
+          "romaji": "Dr. STONE"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-GybuoSoOZfpH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105333"
+      }
+    },
+    {
       "id": 1124731821,
       "status": "watched episode",
       "progress": "5",
@@ -64678,6 +64694,56 @@
           "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx14719-VT5dRzTBSZ0w.jpg"
         },
         "siteUrl": "https://anilist.co/anime/14719"
+      }
+    }
+  ],
+  "2026-07-31": [
+    {
+      "id": 1124911434,
+      "status": "rewatched episode",
+      "progress": "10",
+      "createdAt": 1785464300,
+      "media": {
+        "title": {
+          "english": "Hell’s Paradise Season 2",
+          "romaji": "Jigokuraku 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166613-uHB8q3D4qbon.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/166613"
+      }
+    },
+    {
+      "id": 1124895598,
+      "status": "rewatched episode",
+      "progress": "9",
+      "createdAt": 1785462215,
+      "media": {
+        "title": {
+          "english": "Hell’s Paradise Season 2",
+          "romaji": "Jigokuraku 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166613-uHB8q3D4qbon.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/166613"
+      }
+    },
+    {
+      "id": 1124857653,
+      "status": "rewatched episode",
+      "progress": "4",
+      "createdAt": 1785457226,
+      "media": {
+        "title": {
+          "english": "Rascal Does Not Dream of Santa Claus",
+          "romaji": "Seishun Buta Yarou wa Santa Claus no Yume wo Minai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171046-9leqLiNuOqNu.png"
+        },
+        "siteUrl": "https://anilist.co/anime/171046"
       }
     }
   ]

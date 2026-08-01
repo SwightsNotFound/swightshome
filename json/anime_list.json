@@ -14045,6 +14045,27 @@
         }
       },
       {
+        "id": 183291,
+        "title": "Pass the Monster Meat, Milady!",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183291-qm3bQT1wpmka.jpg",
+        "averageScore": 70,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 5,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/183291/",
+          "mal": "https://myanimelist.net/anime/183291",
+          "kitsu": "https://kitsu.io/anime/183291"
+        }
+      },
+      {
         "id": 141949,
         "title": "More than a Married Couple, but Not Lovers.",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141949-tViCIRHPZAyG.jpg",
@@ -15004,27 +15025,6 @@
     "name": "Watching",
     "entries": [
       {
-        "id": 183291,
-        "title": "Pass the Monster Meat, Milady!",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183291-qm3bQT1wpmka.jpg",
-        "averageScore": 70,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Fantasy",
-          "Romance"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 5,
-        "progress": 9,
-        "links": {
-          "anilist": "https://anilist.co/anime/183291/",
-          "mal": "https://myanimelist.net/anime/183291",
-          "kitsu": "https://kitsu.io/anime/183291"
-        }
-      },
-      {
         "id": 9756,
         "title": "Puella Magi Madoka Magica",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9756-QnUGwlwwnsuN.jpg",
@@ -15066,7 +15066,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 5,
+        "progress": 6,
         "links": {
           "anilist": "https://anilist.co/anime/175914/",
           "mal": "https://myanimelist.net/anime/175914",

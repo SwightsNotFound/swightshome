@@ -65053,6 +65053,86 @@
   ],
   "2026-08-01": [
     {
+      "id": 1126026935,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1785610414,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Koi Kaze"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx634-gziccUWhJQBB.png"
+        },
+        "siteUrl": "https://anilist.co/anime/634"
+      }
+    },
+    {
+      "id": 1125987535,
+      "status": "watched episode",
+      "progress": "8",
+      "createdAt": 1785606206,
+      "media": {
+        "title": {
+          "english": "Clevatess",
+          "romaji": "Clevatess: Majuu no Ou to Akago to Kabane no Yuusha"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178869-qiEz0gQD8H5N.png"
+        },
+        "siteUrl": "https://anilist.co/anime/178869"
+      }
+    },
+    {
+      "id": 1125974913,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1785604850,
+      "media": {
+        "title": {
+          "english": "Call of the Night Season 2",
+          "romaji": "Yofukashi no Uta Season 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx175914-VsbL90WzuqoM.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/175914"
+      }
+    },
+    {
+      "id": 1125956699,
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1785602869,
+      "media": {
+        "title": {
+          "english": "Call of the Night Season 2",
+          "romaji": "Yofukashi no Uta Season 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx175914-VsbL90WzuqoM.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/175914"
+      }
+    },
+    {
+      "id": 1125945478,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1785601584,
+      "media": {
+        "title": {
+          "english": "Call of the Night Season 2",
+          "romaji": "Yofukashi no Uta Season 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx175914-VsbL90WzuqoM.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/175914"
+      }
+    },
+    {
       "id": 1125925218,
       "status": "watched episode",
       "progress": "9",

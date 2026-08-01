@@ -65053,6 +65053,38 @@
   ],
   "2026-08-01": [
     {
+      "id": 1126072200,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1785615268,
+      "media": {
+        "title": {
+          "english": "Clevatess",
+          "romaji": "Clevatess: Majuu no Ou to Akago to Kabane no Yuusha"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178869-qiEz0gQD8H5N.png"
+        },
+        "siteUrl": "https://anilist.co/anime/178869"
+      }
+    },
+    {
+      "id": 1126043287,
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1785612157,
+      "media": {
+        "title": {
+          "english": "Clevatess",
+          "romaji": "Clevatess: Majuu no Ou to Akago to Kabane no Yuusha"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178869-qiEz0gQD8H5N.png"
+        },
+        "siteUrl": "https://anilist.co/anime/178869"
+      }
+    },
+    {
       "id": 1126026935,
       "status": "plans to watch",
       "progress": null,

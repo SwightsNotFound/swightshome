@@ -65276,5 +65276,23 @@
         "siteUrl": "https://anilist.co/anime/183291"
       }
     }
+  ],
+  "2026-08-02": [
+    {
+      "id": 1126648570,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1785686149,
+      "media": {
+        "title": {
+          "english": "Clevatess",
+          "romaji": "Clevatess: Majuu no Ou to Akago to Kabane no Yuusha"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178869-qiEz0gQD8H5N.png"
+        },
+        "siteUrl": "https://anilist.co/anime/178869"
+      }
+    }
   ]
 }

@@ -65279,6 +65279,86 @@
   ],
   "2026-08-02": [
     {
+      "id": 1126853570,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1785704256,
+      "media": {
+        "title": {
+          "english": "Smoking Behind the Supermarket with You",
+          "romaji": "Super no Ura de Yani Suu Futari"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx196187-0dgFi2CPp3xn.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/196187"
+      }
+    },
+    {
+      "id": 1126845043,
+      "status": "watched episode",
+      "progress": "4",
+      "createdAt": 1785703541,
+      "media": {
+        "title": {
+          "english": "Clevatess Season 2",
+          "romaji": "Clevatess II: Majuu no Ou to Itsuwari no Yuusha Denshou"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198946-IGXmbqBEYRYD.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/198946"
+      }
+    },
+    {
+      "id": 1126816723,
+      "status": "watched episode",
+      "progress": "3",
+      "createdAt": 1785701090,
+      "media": {
+        "title": {
+          "english": "Clevatess Season 2",
+          "romaji": "Clevatess II: Majuu no Ou to Itsuwari no Yuusha Denshou"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198946-IGXmbqBEYRYD.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/198946"
+      }
+    },
+    {
+      "id": 1126796051,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1785699242,
+      "media": {
+        "title": {
+          "english": "Clevatess Season 2",
+          "romaji": "Clevatess II: Majuu no Ou to Itsuwari no Yuusha Denshou"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198946-IGXmbqBEYRYD.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/198946"
+      }
+    },
+    {
+      "id": 1126722654,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1785692816,
+      "media": {
+        "title": {
+          "english": "Clevatess Season 2",
+          "romaji": "Clevatess II: Majuu no Ou to Itsuwari no Yuusha Denshou"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198946-IGXmbqBEYRYD.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/198946"
+      }
+    },
+    {
       "id": 1126648570,
       "status": "completed",
       "progress": null,

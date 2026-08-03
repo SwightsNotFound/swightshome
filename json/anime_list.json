@@ -5997,6 +5997,28 @@
           "mal": "https://myanimelist.net/anime/634",
           "kitsu": "https://kitsu.io/anime/634"
         }
+      },
+      {
+        "id": 209872,
+        "title": "Ranma1/2 (2024) Season 3",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx209872-RBeVPqwejHFp.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/209872/",
+          "mal": "https://myanimelist.net/anime/209872",
+          "kitsu": "https://kitsu.io/anime/209872"
+        }
       }
     ]
   },

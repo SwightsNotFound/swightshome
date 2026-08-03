@@ -65374,5 +65374,23 @@
         "siteUrl": "https://anilist.co/anime/178869"
       }
     }
+  ],
+  "2026-08-03": [
+    {
+      "id": 1127079505,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1785728576,
+      "media": {
+        "title": {
+          "english": "Ranma1/2 (2024) Season 3",
+          "romaji": "Ranma 1/2 (2024) 3rd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx209872-RBeVPqwejHFp.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/209872"
+      }
+    }
   ]
 }

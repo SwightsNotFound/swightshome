@@ -65392,5 +65392,23 @@
         "siteUrl": "https://anilist.co/anime/209872"
       }
     }
+  ],
+  "2026-08-04": [
+    {
+      "id": 1128314959,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1785876955,
+      "media": {
+        "title": {
+          "english": "My Hero Academia: Make It! Do-or-Die Survival Training",
+          "romaji": "Boku no Hero Academia: Ikinokore! Kesshi no Survival Kunren"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx122349-DkEdG7N1231n.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/122349"
+      }
+    }
   ]
 }

@@ -65395,6 +65395,38 @@
   ],
   "2026-08-04": [
     {
+      "id": 1128410176,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1785887569,
+      "media": {
+        "title": {
+          "english": "My Hero Academia: Make It! Do-or-Die Survival Training",
+          "romaji": "Boku no Hero Academia: Ikinokore! Kesshi no Survival Kunren"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx122349-DkEdG7N1231n.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/122349"
+      }
+    },
+    {
+      "id": 1128402362,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1785886615,
+      "media": {
+        "title": {
+          "english": "Love, Chunibyo & Other Delusions",
+          "romaji": "Chuunibyou demo Koi ga Shitai!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx14741-CGXEIeUe2roA.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/14741"
+      }
+    },
+    {
       "id": 1128314959,
       "status": "watched episode",
       "progress": "1",

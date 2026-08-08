@@ -65495,6 +65495,22 @@
   ],
   "2026-08-08": [
     {
+      "id": 1131084426,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1786220861,
+      "media": {
+        "title": {
+          "english": "Love Unseen Beneath the Clear Night Sky",
+          "romaji": "Toumei na Yoru ni Kakeru Kimi to, Me ni Mienai Koi wo Shita."
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx202269-7KNj8s2fSsJJ.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/202269"
+      }
+    },
+    {
       "id": 1131034141,
       "status": "watched episode",
       "progress": "1",

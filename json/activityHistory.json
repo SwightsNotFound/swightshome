@@ -65624,5 +65624,39 @@
         "siteUrl": "https://anilist.co/anime/202269"
       }
     }
+  ],
+  "2026-08-10": [
+    {
+      "id": 1132392975,
+      "status": "watched episode",
+      "progress": "3",
+      "createdAt": 1786375806,
+      "media": {
+        "title": {
+          "english": "To Your Eternity Season 3",
+          "romaji": "Fumetsu no Anata e Season 3"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx162669-FLYUTftoXgMh.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/162669"
+      }
+    },
+    {
+      "id": 1132380057,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1786374488,
+      "media": {
+        "title": {
+          "english": "To Your Eternity Season 3",
+          "romaji": "Fumetsu no Anata e Season 3"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx162669-FLYUTftoXgMh.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/162669"
+      }
+    }
   ]
 }

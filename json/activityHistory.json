@@ -65740,5 +65740,135 @@
         "siteUrl": "https://anilist.co/anime/178789"
       }
     }
+  ],
+  "2026-08-15": [
+    {
+      "id": 1135908321,
+      "status": "rewatched episode",
+      "progress": "11",
+      "createdAt": 1786821987,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries Season 2",
+          "romaji": "Kusuriya no Hitorigoto 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-TIGmldLffQGX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/176301"
+      }
+    },
+    {
+      "id": 1135908304,
+      "status": "rewatched episode",
+      "progress": "10",
+      "createdAt": 1786821986,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries Season 2",
+          "romaji": "Kusuriya no Hitorigoto 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-TIGmldLffQGX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/176301"
+      }
+    },
+    {
+      "id": 1135908292,
+      "status": "rewatched episode",
+      "progress": "9",
+      "createdAt": 1786821984,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries Season 2",
+          "romaji": "Kusuriya no Hitorigoto 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-TIGmldLffQGX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/176301"
+      }
+    },
+    {
+      "id": 1135908283,
+      "status": "rewatched episode",
+      "progress": "8",
+      "createdAt": 1786821983,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries Season 2",
+          "romaji": "Kusuriya no Hitorigoto 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-TIGmldLffQGX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/176301"
+      }
+    },
+    {
+      "id": 1135908263,
+      "status": "rewatched episode",
+      "progress": "7",
+      "createdAt": 1786821982,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries Season 2",
+          "romaji": "Kusuriya no Hitorigoto 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-TIGmldLffQGX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/176301"
+      }
+    },
+    {
+      "id": 1135908257,
+      "status": "rewatched episode",
+      "progress": "6",
+      "createdAt": 1786821981,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries Season 2",
+          "romaji": "Kusuriya no Hitorigoto 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-TIGmldLffQGX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/176301"
+      }
+    },
+    {
+      "id": 1135908241,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1786821980,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries Season 2",
+          "romaji": "Kusuriya no Hitorigoto 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-TIGmldLffQGX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/176301"
+      }
+    },
+    {
+      "id": 1135908233,
+      "status": "rewatched episode",
+      "progress": "4",
+      "createdAt": 1786821978,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries Season 2",
+          "romaji": "Kusuriya no Hitorigoto 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-TIGmldLffQGX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/176301"
+      }
+    }
   ]
 }

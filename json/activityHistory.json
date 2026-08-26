@@ -66006,5 +66006,23 @@
         "siteUrl": "https://anilist.co/anime/14741"
       }
     }
+  ],
+  "2026-08-26": [
+    {
+      "id": 1143640898,
+      "status": "rewatched episode",
+      "progress": "11",
+      "createdAt": 1787758570,
+      "media": {
+        "title": {
+          "english": "Love, Chunibyo & Other Delusions",
+          "romaji": "Chuunibyou demo Koi ga Shitai!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx14741-CGXEIeUe2roA.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/14741"
+      }
+    }
   ]
 }

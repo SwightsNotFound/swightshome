@@ -66009,6 +66009,22 @@
   ],
   "2026-08-26": [
     {
+      "id": 1143661482,
+      "status": "watched episode",
+      "progress": "8",
+      "createdAt": 1787760833,
+      "media": {
+        "title": {
+          "english": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 3",
+          "romaji": "Kimi no Koto ga Dai Dai Dai Dai Daisuki na 100-nin no Kanojo 3rd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx200637-QLR5uv9SbQ69.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/200637"
+      }
+    },
+    {
       "id": 1143640898,
       "status": "rewatched episode",
       "progress": "11",

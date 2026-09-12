@@ -351,7 +351,7 @@
         "id": 1030,
         "title": "Pom Poko",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1030-epXaUwnycmQE.jpg",
-        "averageScore": 70,
+        "averageScore": 71,
         "episodes": 1,
         "status": "FINISHED",
         "genres": [
@@ -2571,7 +2571,7 @@
       },
       {
         "id": 190054,
-        "title": "Watashi no Shiawase na Kekkon Tokubetsu-hen",
+        "title": "My Happy Marriage Special Episodes",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx190054-8h0AuqQjwcCL.png",
         "averageScore": null,
         "episodes": 3,
@@ -3997,7 +3997,7 @@
         "id": 123802,
         "title": "The Saint's Magic Power is Omnipotent",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx123802-FpGzlfjebl0z.jpg",
-        "averageScore": 71,
+        "averageScore": 72,
         "episodes": 12,
         "status": "FINISHED",
         "genres": [
@@ -5585,7 +5585,7 @@
         "id": 202717,
         "title": "Chiikawa: Ningyo no Shima no Himitsu",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx202717-kHDn7BRiP9CR.jpg",
-        "averageScore": 74,
+        "averageScore": 75,
         "episodes": 1,
         "status": "FINISHED",
         "genres": [
@@ -7437,6 +7437,29 @@
         }
       },
       {
+        "id": 105333,
+        "title": "Dr. STONE",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105333-GybuoSoOZfpH.jpg",
+        "averageScore": 81,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.1,
+        "progress": 24,
+        "links": {
+          "anilist": "https://anilist.co/anime/105333/",
+          "mal": "https://myanimelist.net/anime/105333",
+          "kitsu": "https://kitsu.io/anime/105333"
+        }
+      },
+      {
         "id": 166531,
         "title": "OSHI NO KO Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166531-dAL5MsqDHUkj.jpg",
@@ -7928,29 +7951,6 @@
           "anilist": "https://anilist.co/anime/523/",
           "mal": "https://myanimelist.net/anime/523",
           "kitsu": "https://kitsu.io/anime/523"
-        }
-      },
-      {
-        "id": 113936,
-        "title": "Dr. STONE: STONE WARS",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113936-D4eYd4XwslVI.jpg",
-        "averageScore": 81,
-        "episodes": 11,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Sci-Fi"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9,
-        "progress": 11,
-        "links": {
-          "anilist": "https://anilist.co/anime/113936/",
-          "mal": "https://myanimelist.net/anime/113936",
-          "kitsu": "https://kitsu.io/anime/113936"
         }
       },
       {
@@ -12812,7 +12812,7 @@
         "id": 105989,
         "title": "Ao-chan Can't Study!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105989-Jooq6bqkeeiP.jpg",
-        "averageScore": 65,
+        "averageScore": 64,
         "episodes": 12,
         "status": "FINISHED",
         "genres": [
@@ -14975,29 +14975,6 @@
     "name": "Rewatching",
     "entries": [
       {
-        "id": 105333,
-        "title": "Dr. STONE",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105333-GybuoSoOZfpH.jpg",
-        "averageScore": 81,
-        "episodes": 24,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Sci-Fi"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 9.1,
-        "progress": 22,
-        "links": {
-          "anilist": "https://anilist.co/anime/105333/",
-          "mal": "https://myanimelist.net/anime/105333",
-          "kitsu": "https://kitsu.io/anime/105333"
-        }
-      },
-      {
         "id": 176301,
         "title": "The Apothecary Diaries Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176301-TIGmldLffQGX.jpg",
@@ -15016,6 +14993,29 @@
           "anilist": "https://anilist.co/anime/176301/",
           "mal": "https://myanimelist.net/anime/176301",
           "kitsu": "https://kitsu.io/anime/176301"
+        }
+      },
+      {
+        "id": 113936,
+        "title": "Dr. STONE: STONE WARS",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113936-D4eYd4XwslVI.jpg",
+        "averageScore": 81,
+        "episodes": 11,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 3,
+        "links": {
+          "anilist": "https://anilist.co/anime/113936/",
+          "mal": "https://myanimelist.net/anime/113936",
+          "kitsu": "https://kitsu.io/anime/113936"
         }
       },
       {
@@ -15104,7 +15104,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 2,
+        "progress": 6,
         "links": {
           "anilist": "https://anilist.co/anime/10087/",
           "mal": "https://myanimelist.net/anime/10087",
@@ -15200,7 +15200,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 9,
+        "progress": 11,
         "links": {
           "anilist": "https://anilist.co/anime/178789/",
           "mal": "https://myanimelist.net/anime/178789",
@@ -15393,7 +15393,7 @@
         "id": 198946,
         "title": "Clevatess Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx198946-IGXmbqBEYRYD.jpg",
-        "averageScore": 75,
+        "averageScore": 76,
         "episodes": 13,
         "status": "RELEASING",
         "genres": [
@@ -15460,7 +15460,7 @@
         "title": "BLACK TORCH",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx187538-fXVXKYUA3VV6.jpg",
         "averageScore": 70,
-        "episodes": null,
+        "episodes": 12,
         "status": "RELEASING",
         "genres": [
           "Action",
@@ -15592,7 +15592,7 @@
         "id": 188139,
         "title": "Though I Am an Inept Villainess",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx188139-1qIJfWxym8FX.jpg",
-        "averageScore": 77,
+        "averageScore": 78,
         "episodes": 11,
         "status": "RELEASING",
         "genres": [

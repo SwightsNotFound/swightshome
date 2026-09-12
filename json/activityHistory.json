@@ -66058,5 +66058,187 @@
         "siteUrl": "https://anilist.co/anime/178789"
       }
     }
+  ],
+  "2026-09-12": [
+    {
+      "id": 1155009684,
+      "status": "rewatched episode",
+      "progress": "6",
+      "createdAt": 1789179263,
+      "media": {
+        "title": {
+          "english": "Fate/Zero",
+          "romaji": "Fate/Zero"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx10087-M4Hd9qrHGrXk.png"
+        },
+        "siteUrl": "https://anilist.co/anime/10087"
+      }
+    },
+    {
+      "id": 1154955719,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1789171454,
+      "media": {
+        "title": {
+          "english": "Fate/Zero",
+          "romaji": "Fate/Zero"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx10087-M4Hd9qrHGrXk.png"
+        },
+        "siteUrl": "https://anilist.co/anime/10087"
+      }
+    }
+  ],
+  "2026-09-11": [
+    {
+      "id": 1154934399,
+      "status": "rewatched episode",
+      "progress": "4",
+      "createdAt": 1789168545,
+      "media": {
+        "title": {
+          "english": "Fate/Zero",
+          "romaji": "Fate/Zero"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx10087-M4Hd9qrHGrXk.png"
+        },
+        "siteUrl": "https://anilist.co/anime/10087"
+      }
+    },
+    {
+      "id": 1154892710,
+      "status": "rewatched episode",
+      "progress": "3",
+      "createdAt": 1789163507,
+      "media": {
+        "title": {
+          "english": "Fate/Zero",
+          "romaji": "Fate/Zero"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx10087-M4Hd9qrHGrXk.png"
+        },
+        "siteUrl": "https://anilist.co/anime/10087"
+      }
+    },
+    {
+      "id": 1154810298,
+      "status": "rewatched episode",
+      "progress": "3",
+      "createdAt": 1789154170,
+      "media": {
+        "title": {
+          "english": "Dr. STONE: STONE WARS",
+          "romaji": "Dr. STONE: STONE WARS"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113936-D4eYd4XwslVI.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113936"
+      }
+    },
+    {
+      "id": 1154796672,
+      "status": "rewatched episode",
+      "progress": "2",
+      "createdAt": 1789152637,
+      "media": {
+        "title": {
+          "english": "Dr. STONE: STONE WARS",
+          "romaji": "Dr. STONE: STONE WARS"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113936-D4eYd4XwslVI.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113936"
+      }
+    },
+    {
+      "id": 1154728640,
+      "status": "rewatched episode",
+      "progress": "1",
+      "createdAt": 1789144987,
+      "media": {
+        "title": {
+          "english": "Dr. STONE: STONE WARS",
+          "romaji": "Dr. STONE: STONE WARS"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113936-D4eYd4XwslVI.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113936"
+      }
+    },
+    {
+      "id": 1154330523,
+      "status": "rewatched",
+      "progress": "24",
+      "createdAt": 1789088943,
+      "media": {
+        "title": {
+          "english": "Dr. STONE",
+          "romaji": "Dr. STONE"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-GybuoSoOZfpH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105333"
+      }
+    },
+    {
+      "id": 1154330520,
+      "status": "rewatched episode",
+      "progress": "23",
+      "createdAt": 1789088943,
+      "media": {
+        "title": {
+          "english": "Dr. STONE",
+          "romaji": "Dr. STONE"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-GybuoSoOZfpH.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/105333"
+      }
+    }
+  ],
+  "2026-09-10": [
+    {
+      "id": 1154298572,
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1789084567,
+      "media": {
+        "title": {
+          "english": "Mushoku Tensei: Jobless Reincarnation Season 3",
+          "romaji": "Mushoku Tensei III: Isekai Ittara Honki Dasu"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178789-hNXjKFzUq7mk.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/178789"
+      }
+    },
+    {
+      "id": 1154298551,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1789084564,
+      "media": {
+        "title": {
+          "english": "Mushoku Tensei: Jobless Reincarnation Season 3",
+          "romaji": "Mushoku Tensei III: Isekai Ittara Honki Dasu"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178789-hNXjKFzUq7mk.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/178789"
+      }
+    }
   ]
 }

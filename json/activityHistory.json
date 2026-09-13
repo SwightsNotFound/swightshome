@@ -66304,5 +66304,39 @@
         "siteUrl": "https://anilist.co/anime/178789"
       }
     }
+  ],
+  "2026-09-13": [
+    {
+      "id": 1156119142,
+      "status": "rewatched episode",
+      "progress": "11",
+      "createdAt": 1789318917,
+      "media": {
+        "title": {
+          "english": "Fate/Zero",
+          "romaji": "Fate/Zero"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx10087-M4Hd9qrHGrXk.png"
+        },
+        "siteUrl": "https://anilist.co/anime/10087"
+      }
+    },
+    {
+      "id": 1156106443,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1789317887,
+      "media": {
+        "title": {
+          "english": "Botan Kamiina Fully Blossoms When Drunk",
+          "romaji": "Kamiina Botan, Yoeru Sugata wa Yuri no Hana"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187869-LUn3dyTzuKUq.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/187869"
+      }
+    }
   ]
 }

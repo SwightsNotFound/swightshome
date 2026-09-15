@@ -948,6 +948,30 @@
           "mal": "https://myanimelist.net/manga/87384",
           "kitsu": "https://kitsu.io/manga/87384"
         }
+      },
+      {
+        "id": 40552,
+        "title": "Lucifer and the Biscuit Hammer",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx40552-cf6WGOEu9qyA.png",
+        "averageScore": 80,
+        "chapters": 65,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama",
+          "Psychological",
+          "Supernatural"
+        ],
+        "format": "MANGA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/manga/40552/",
+          "mal": "https://myanimelist.net/manga/40552",
+          "kitsu": "https://kitsu.io/manga/40552"
+        }
       }
     ]
   },

@@ -66452,5 +66452,55 @@
         "siteUrl": "https://anilist.co/anime/11741"
       }
     }
+  ],
+  "2026-09-15": [
+    {
+      "id": 1157249395,
+      "status": "plans to read",
+      "progress": null,
+      "createdAt": 1789448664,
+      "media": {
+        "title": {
+          "english": "Lucifer and the Biscuit Hammer",
+          "romaji": "Hoshi no Samidare"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx40552-cf6WGOEu9qyA.png"
+        },
+        "siteUrl": "https://anilist.co/manga/40552"
+      }
+    },
+    {
+      "id": 1157232853,
+      "status": "watched episode",
+      "progress": "7",
+      "createdAt": 1789446383,
+      "media": {
+        "title": {
+          "english": "Fate/Zero Season 2",
+          "romaji": "Fate/Zero 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11741-oEy1fJHYm2zJ.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/11741"
+      }
+    },
+    {
+      "id": 1157232846,
+      "status": "watched episode",
+      "progress": "6",
+      "createdAt": 1789446383,
+      "media": {
+        "title": {
+          "english": "Fate/Zero Season 2",
+          "romaji": "Fate/Zero 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11741-oEy1fJHYm2zJ.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/11741"
+      }
+    }
   ]
 }

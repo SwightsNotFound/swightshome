@@ -66455,6 +66455,54 @@
   ],
   "2026-09-15": [
     {
+      "id": 1157608758,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1789496675,
+      "media": {
+        "title": {
+          "english": "Fate/Zero Season 2",
+          "romaji": "Fate/Zero 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11741-oEy1fJHYm2zJ.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/11741"
+      }
+    },
+    {
+      "id": 1157545418,
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1789489947,
+      "media": {
+        "title": {
+          "english": "Fate/Zero Season 2",
+          "romaji": "Fate/Zero 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11741-oEy1fJHYm2zJ.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/11741"
+      }
+    },
+    {
+      "id": 1157545412,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1789489946,
+      "media": {
+        "title": {
+          "english": "Fate/Zero Season 2",
+          "romaji": "Fate/Zero 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11741-oEy1fJHYm2zJ.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/11741"
+      }
+    },
+    {
       "id": 1157481905,
       "status": "watched episode",
       "progress": "9",

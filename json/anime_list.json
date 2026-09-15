@@ -6297,6 +6297,29 @@
         }
       },
       {
+        "id": 11741,
+        "title": "Fate/Zero Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11741-oEy1fJHYm2zJ.jpg",
+        "averageScore": 84,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 10,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/11741/",
+          "mal": "https://myanimelist.net/anime/11741",
+          "kitsu": "https://kitsu.io/anime/11741"
+        }
+      },
+      {
         "id": 4181,
         "title": "Clannad: After Story",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4181-zUKE7BZC62OF.png",
@@ -15672,29 +15695,6 @@
           "anilist": "https://anilist.co/anime/20968/",
           "mal": "https://myanimelist.net/anime/20968",
           "kitsu": "https://kitsu.io/anime/20968"
-        }
-      },
-      {
-        "id": 11741,
-        "title": "Fate/Zero Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11741-oEy1fJHYm2zJ.jpg",
-        "averageScore": 84,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Fantasy",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 9,
-        "links": {
-          "anilist": "https://anilist.co/anime/11741/",
-          "mal": "https://myanimelist.net/anime/11741",
-          "kitsu": "https://kitsu.io/anime/11741"
         }
       }
     ]

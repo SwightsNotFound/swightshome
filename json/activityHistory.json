@@ -66813,6 +66813,22 @@
   ],
   "2026-09-18": [
     {
+      "id": 1159666424,
+      "status": "rewatched",
+      "progress": "13",
+      "createdAt": 1789765477,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works",
+          "romaji": "Fate/stay night: Unlimited Blade Works"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx19603-ycT0pyEgDVQu.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/19603"
+      }
+    },
+    {
       "id": 1159478451,
       "status": "rewatched episode",
       "progress": "12",

@@ -66813,6 +66813,70 @@
   ],
   "2026-09-18": [
     {
+      "id": 1159478451,
+      "status": "rewatched episode",
+      "progress": "12",
+      "createdAt": 1789744361,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works",
+          "romaji": "Fate/stay night: Unlimited Blade Works"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx19603-ycT0pyEgDVQu.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/19603"
+      }
+    },
+    {
+      "id": 1159478338,
+      "status": "rewatched episode",
+      "progress": "11",
+      "createdAt": 1789744346,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works",
+          "romaji": "Fate/stay night: Unlimited Blade Works"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx19603-ycT0pyEgDVQu.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/19603"
+      }
+    },
+    {
+      "id": 1159478327,
+      "status": "rewatched episode",
+      "progress": "10",
+      "createdAt": 1789744345,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works",
+          "romaji": "Fate/stay night: Unlimited Blade Works"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx19603-ycT0pyEgDVQu.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/19603"
+      }
+    },
+    {
+      "id": 1159478324,
+      "status": "rewatched episode",
+      "progress": "9",
+      "createdAt": 1789744345,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works",
+          "romaji": "Fate/stay night: Unlimited Blade Works"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx19603-ycT0pyEgDVQu.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/19603"
+      }
+    },
+    {
       "id": 1159197094,
       "status": "watched episode",
       "progress": "12",

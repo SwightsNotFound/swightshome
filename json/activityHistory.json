@@ -66991,6 +66991,22 @@
   ],
   "2026-09-19": [
     {
+      "id": 1160196401,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1789834854,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Neko to Ryuu 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx217011-6mO4XKPf42rM.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/217011"
+      }
+    },
+    {
       "id": 1159820392,
       "status": "rewatched episode",
       "progress": "4",

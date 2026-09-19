@@ -4864,7 +4864,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx195600-moI0UFArtOme.jpg",
         "averageScore": 78,
         "episodes": 24,
-        "status": "RELEASING",
+        "status": "FINISHED",
         "genres": [
           "Action",
           "Adventure",
@@ -6040,6 +6040,27 @@
           "anilist": "https://anilist.co/anime/187869/",
           "mal": "https://myanimelist.net/anime/187869",
           "kitsu": "https://kitsu.io/anime/187869"
+        }
+      },
+      {
+        "id": 217011,
+        "title": "Neko to Ryuu 2nd Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx217011-6mO4XKPf42rM.jpg",
+        "averageScore": null,
+        "episodes": null,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Adventure",
+          "Fantasy"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/217011/",
+          "mal": "https://myanimelist.net/anime/217011",
+          "kitsu": "https://kitsu.io/anime/217011"
         }
       }
     ]

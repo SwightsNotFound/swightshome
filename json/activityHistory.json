@@ -67089,6 +67089,70 @@
   ],
   "2026-09-20": [
     {
+      "id": 1161178552,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1789934948,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Futsutsuka na Akujo de wa Gozaimasu ga: Suuguu Chouso Torikae Den Part 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx217070-Muh7Kjw4RQsi.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/217070"
+      }
+    },
+    {
+      "id": 1161178333,
+      "status": "rewatched episode",
+      "progress": "6",
+      "createdAt": 1789934934,
+      "media": {
+        "title": {
+          "english": "Rascal Does Not Dream of Santa Claus",
+          "romaji": "Seishun Buta Yarou wa Santa Claus no Yume wo Minai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171046-9leqLiNuOqNu.png"
+        },
+        "siteUrl": "https://anilist.co/anime/171046"
+      }
+    },
+    {
+      "id": 1161131641,
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1789931231,
+      "media": {
+        "title": {
+          "english": "JoJo's Bizarre Adventure (TV)",
+          "romaji": "JoJo no Kimyou na Bouken (TV)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx14719-VT5dRzTBSZ0w.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/14719"
+      }
+    },
+    {
+      "id": 1161106423,
+      "status": "watched episode",
+      "progress": "8",
+      "createdAt": 1789929259,
+      "media": {
+        "title": {
+          "english": "JoJo's Bizarre Adventure (TV)",
+          "romaji": "JoJo no Kimyou na Bouken (TV)"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx14719-VT5dRzTBSZ0w.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/14719"
+      }
+    },
+    {
       "id": 1161027521,
       "status": "watched episode",
       "progress": "7",

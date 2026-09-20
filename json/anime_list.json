@@ -804,7 +804,7 @@
         "id": 99420,
         "title": "Girls' Last Tour",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99420-k5Tel6yRMwA8.png",
-        "averageScore": 81,
+        "averageScore": 82,
         "episodes": 12,
         "status": "FINISHED",
         "genres": [
@@ -15358,7 +15358,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 5,
+        "progress": 7,
         "links": {
           "anilist": "https://anilist.co/anime/14719/",
           "mal": "https://myanimelist.net/anime/14719",
@@ -15593,7 +15593,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177637-8onaQWqKW1C3.jpg",
         "averageScore": 76,
         "episodes": 12,
-        "status": "RELEASING",
+        "status": "FINISHED",
         "genres": [
           "Drama",
           "Fantasy",
@@ -15637,7 +15637,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx188139-1qIJfWxym8FX.jpg",
         "averageScore": 78,
         "episodes": 11,
-        "status": "RELEASING",
+        "status": "FINISHED",
         "genres": [
           "Drama",
           "Romance"

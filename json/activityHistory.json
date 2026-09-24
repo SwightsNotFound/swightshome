@@ -67205,6 +67205,22 @@
   ],
   "2026-09-24": [
     {
+      "id": 1164061763,
+      "status": "watched episode",
+      "progress": "13",
+      "createdAt": 1790277548,
+      "media": {
+        "title": {
+          "english": "Mushoku Tensei: Jobless Reincarnation Season 3",
+          "romaji": "Mushoku Tensei III: Isekai Ittara Honki Dasu"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178789-hNXjKFzUq7mk.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/178789"
+      }
+    },
+    {
       "id": 1163572203,
       "status": "watched episode",
       "progress": "10",

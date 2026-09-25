@@ -4202,7 +4202,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx182205-q2AeO1owuQbO.jpg",
         "averageScore": 83,
         "episodes": 24,
-        "status": "RELEASING",
+        "status": "FINISHED",
         "genres": [
           "Action",
           "Adventure",
@@ -15076,7 +15076,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 4,
+        "progress": 5,
         "links": {
           "anilist": "https://anilist.co/anime/113936/",
           "mal": "https://myanimelist.net/anime/113936",
@@ -15169,7 +15169,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 7,
+        "progress": 8,
         "links": {
           "anilist": "https://anilist.co/anime/171046/",
           "mal": "https://myanimelist.net/anime/171046",

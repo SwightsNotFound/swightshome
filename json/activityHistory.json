@@ -67236,5 +67236,39 @@
         "siteUrl": "https://anilist.co/anime/14719"
       }
     }
+  ],
+  "2026-09-25": [
+    {
+      "id": 1164778895,
+      "status": "rewatched episode",
+      "progress": "8",
+      "createdAt": 1790366412,
+      "media": {
+        "title": {
+          "english": "Rascal Does Not Dream of Santa Claus",
+          "romaji": "Seishun Buta Yarou wa Santa Claus no Yume wo Minai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171046-9leqLiNuOqNu.png"
+        },
+        "siteUrl": "https://anilist.co/anime/171046"
+      }
+    },
+    {
+      "id": 1164753206,
+      "status": "rewatched episode",
+      "progress": "5",
+      "createdAt": 1790363946,
+      "media": {
+        "title": {
+          "english": "Dr. STONE: STONE WARS",
+          "romaji": "Dr. STONE: STONE WARS"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113936-D4eYd4XwslVI.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/113936"
+      }
+    }
   ]
 }

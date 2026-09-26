@@ -67239,6 +67239,70 @@
   ],
   "2026-09-25": [
     {
+      "id": 1164846197,
+      "status": "rewatched episode",
+      "progress": "23",
+      "createdAt": 1790373511,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries Season 2",
+          "romaji": "Kusuriya no Hitorigoto 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-TIGmldLffQGX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/176301"
+      }
+    },
+    {
+      "id": 1164846192,
+      "status": "rewatched episode",
+      "progress": "22",
+      "createdAt": 1790373511,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries Season 2",
+          "romaji": "Kusuriya no Hitorigoto 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-TIGmldLffQGX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/176301"
+      }
+    },
+    {
+      "id": 1164846188,
+      "status": "rewatched episode",
+      "progress": "21",
+      "createdAt": 1790373510,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries Season 2",
+          "romaji": "Kusuriya no Hitorigoto 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-TIGmldLffQGX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/176301"
+      }
+    },
+    {
+      "id": 1164846127,
+      "status": "rewatched episode",
+      "progress": "9",
+      "createdAt": 1790373504,
+      "media": {
+        "title": {
+          "english": "Rascal Does Not Dream of Santa Claus",
+          "romaji": "Seishun Buta Yarou wa Santa Claus no Yume wo Minai"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171046-9leqLiNuOqNu.png"
+        },
+        "siteUrl": "https://anilist.co/anime/171046"
+      }
+    },
+    {
       "id": 1164778895,
       "status": "rewatched episode",
       "progress": "8",

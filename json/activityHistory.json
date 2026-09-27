@@ -67416,5 +67416,71 @@
         "siteUrl": "https://anilist.co/anime/171046"
       }
     }
+  ],
+  "2026-09-27": [
+    {
+      "id": 1166181695,
+      "status": "rewatched episode",
+      "progress": "3",
+      "createdAt": 1790529260,
+      "media": {
+        "title": {
+          "english": "Witch Hat Atelier",
+          "romaji": "Tongari Boushi no Atelier"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx147105-rwOX8qyUy8gV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/147105"
+      }
+    },
+    {
+      "id": 1166140792,
+      "status": "rewatched episode",
+      "progress": "2",
+      "createdAt": 1790526243,
+      "media": {
+        "title": {
+          "english": "Witch Hat Atelier",
+          "romaji": "Tongari Boushi no Atelier"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx147105-rwOX8qyUy8gV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/147105"
+      }
+    },
+    {
+      "id": 1166140768,
+      "status": "rewatched episode",
+      "progress": "1",
+      "createdAt": 1790526242,
+      "media": {
+        "title": {
+          "english": "Witch Hat Atelier",
+          "romaji": "Tongari Boushi no Atelier"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx147105-rwOX8qyUy8gV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/147105"
+      }
+    },
+    {
+      "id": 1166140544,
+      "status": "rewatched",
+      "progress": "24",
+      "createdAt": 1790526225,
+      "media": {
+        "title": {
+          "english": "The Apothecary Diaries Season 2",
+          "romaji": "Kusuriya no Hitorigoto 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-TIGmldLffQGX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/176301"
+      }
+    }
   ]
 }

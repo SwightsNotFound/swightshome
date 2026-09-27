@@ -6295,28 +6295,6 @@
         }
       },
       {
-        "id": 147105,
-        "title": "Witch Hat Atelier",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx147105-rwOX8qyUy8gV.jpg",
-        "averageScore": 85,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Fantasy"
-        ],
-        "format": "ONA",
-        "country": "JP",
-        "personalScore": 10,
-        "progress": 13,
-        "links": {
-          "anilist": "https://anilist.co/anime/147105/",
-          "mal": "https://myanimelist.net/anime/147105",
-          "kitsu": "https://kitsu.io/anime/147105"
-        }
-      },
-      {
         "id": 10087,
         "title": "Fate/Zero",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10087-M4Hd9qrHGrXk.png",
@@ -7993,6 +7971,27 @@
           "anilist": "https://anilist.co/anime/162804/",
           "mal": "https://myanimelist.net/anime/162804",
           "kitsu": "https://kitsu.io/anime/162804"
+        }
+      },
+      {
+        "id": 176301,
+        "title": "The Apothecary Diaries Season 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176301-TIGmldLffQGX.jpg",
+        "averageScore": 88,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9,
+        "progress": 24,
+        "links": {
+          "anilist": "https://anilist.co/anime/176301/",
+          "mal": "https://myanimelist.net/anime/176301",
+          "kitsu": "https://kitsu.io/anime/176301"
         }
       },
       {
@@ -15040,24 +15039,25 @@
     "name": "Rewatching",
     "entries": [
       {
-        "id": 176301,
-        "title": "The Apothecary Diaries Season 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176301-TIGmldLffQGX.jpg",
-        "averageScore": 88,
-        "episodes": 24,
+        "id": 147105,
+        "title": "Witch Hat Atelier",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx147105-rwOX8qyUy8gV.jpg",
+        "averageScore": 85,
+        "episodes": 13,
         "status": "FINISHED",
         "genres": [
+          "Adventure",
           "Drama",
-          "Mystery"
+          "Fantasy"
         ],
-        "format": "TV",
+        "format": "ONA",
         "country": "JP",
-        "personalScore": 9,
-        "progress": 23,
+        "personalScore": 10,
+        "progress": 3,
         "links": {
-          "anilist": "https://anilist.co/anime/176301/",
-          "mal": "https://myanimelist.net/anime/176301",
-          "kitsu": "https://kitsu.io/anime/176301"
+          "anilist": "https://anilist.co/anime/147105/",
+          "mal": "https://myanimelist.net/anime/147105",
+          "kitsu": "https://kitsu.io/anime/147105"
         }
       },
       {
@@ -15255,7 +15255,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178789-hNXjKFzUq7mk.jpg",
         "averageScore": 85,
         "episodes": 14,
-        "status": "RELEASING",
+        "status": "FINISHED",
         "genres": [
           "Adventure",
           "Drama",

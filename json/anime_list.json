@@ -7341,6 +7341,30 @@
         }
       },
       {
+        "id": 171046,
+        "title": "Rascal Does Not Dream of Santa Claus",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171046-9leqLiNuOqNu.png",
+        "averageScore": 82,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Psychological",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 9.3,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/171046/",
+          "mal": "https://myanimelist.net/anime/171046",
+          "kitsu": "https://kitsu.io/anime/171046"
+        }
+      },
+      {
         "id": 101921,
         "title": "Kaguya-sama: Love is War",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101921-ufrjLzhSz7L1.jpg",
@@ -15076,7 +15100,7 @@
         "format": "ONA",
         "country": "JP",
         "personalScore": 10,
-        "progress": 3,
+        "progress": 6,
         "links": {
           "anilist": "https://anilist.co/anime/147105/",
           "mal": "https://myanimelist.net/anime/147105",
@@ -15099,7 +15123,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 9,
-        "progress": 5,
+        "progress": 6,
         "links": {
           "anilist": "https://anilist.co/anime/113936/",
           "mal": "https://myanimelist.net/anime/113936",
@@ -15122,7 +15146,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 8.9,
-        "progress": 6,
+        "progress": 8,
         "links": {
           "anilist": "https://anilist.co/anime/20792/",
           "mal": "https://myanimelist.net/anime/20792",
@@ -15173,30 +15197,6 @@
           "anilist": "https://anilist.co/anime/117193/",
           "mal": "https://myanimelist.net/anime/117193",
           "kitsu": "https://kitsu.io/anime/117193"
-        }
-      },
-      {
-        "id": 171046,
-        "title": "Rascal Does Not Dream of Santa Claus",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171046-9leqLiNuOqNu.png",
-        "averageScore": 82,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Mystery",
-          "Psychological",
-          "Romance",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 12,
-        "links": {
-          "anilist": "https://anilist.co/anime/171046/",
-          "mal": "https://myanimelist.net/anime/171046",
-          "kitsu": "https://kitsu.io/anime/171046"
         }
       }
     ]

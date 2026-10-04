@@ -2484,9 +2484,9 @@
         "id": 189123,
         "title": "Blue Box Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx189123-0secXELIhkIW.jpg",
-        "averageScore": null,
+        "averageScore": 79,
         "episodes": null,
-        "status": "NOT_YET_RELEASED",
+        "status": "RELEASING",
         "genres": [
           "Romance",
           "Slice of Life",
@@ -3859,7 +3859,7 @@
         "id": 195604,
         "title": "Black Clover Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx195604-tSZcfKbVqSEG.jpg",
-        "averageScore": null,
+        "averageScore": 87,
         "episodes": null,
         "status": "RELEASING",
         "genres": [
@@ -5826,7 +5826,7 @@
         "id": 169580,
         "title": "I Made Friends with the Second Prettiest Girl in My Class",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx169580-nXxpmqu6UVux.jpg",
-        "averageScore": 80,
+        "averageScore": 79,
         "episodes": 12,
         "status": "FINISHED",
         "genres": [
@@ -6003,7 +6003,7 @@
         "id": 209872,
         "title": "Ranma1/2 (2024) Season 3",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx209872-RBeVPqwejHFp.jpg",
-        "averageScore": null,
+        "averageScore": 73,
         "episodes": null,
         "status": "RELEASING",
         "genres": [
@@ -15550,7 +15550,7 @@
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx210031-TppgcHZh46LY.jpg",
         "averageScore": 83,
         "episodes": 13,
-        "status": "RELEASING",
+        "status": "FINISHED",
         "genres": [
           "Comedy",
           "Drama",

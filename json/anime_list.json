@@ -13740,6 +13740,28 @@
         }
       },
       {
+        "id": 204466,
+        "title": "KAIJU GIRL CARAMELISE",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx204466-vXMvIs4VOoQd.png",
+        "averageScore": 75,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 6,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/204466/",
+          "mal": "https://myanimelist.net/anime/204466",
+          "kitsu": "https://kitsu.io/anime/204466"
+        }
+      },
+      {
         "id": 108725,
         "title": "The Promised Neverland Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108725-ZKivuyr4Jtc9.jpg",
@@ -15100,7 +15122,7 @@
         "format": "ONA",
         "country": "JP",
         "personalScore": 10,
-        "progress": 6,
+        "progress": 7,
         "links": {
           "anilist": "https://anilist.co/anime/147105/",
           "mal": "https://myanimelist.net/anime/147105",
@@ -15629,28 +15651,6 @@
           "anilist": "https://anilist.co/anime/177637/",
           "mal": "https://myanimelist.net/anime/177637",
           "kitsu": "https://kitsu.io/anime/177637"
-        }
-      },
-      {
-        "id": 204466,
-        "title": "KAIJU GIRL CARAMELISE",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx204466-vXMvIs4VOoQd.png",
-        "averageScore": 75,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Romance",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 8,
-        "links": {
-          "anilist": "https://anilist.co/anime/204466/",
-          "mal": "https://myanimelist.net/anime/204466",
-          "kitsu": "https://kitsu.io/anime/204466"
         }
       },
       {

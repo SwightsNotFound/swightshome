@@ -67664,5 +67664,87 @@
         "siteUrl": "https://anilist.co/anime/14719"
       }
     }
+  ],
+  "2026-10-05": [
+    {
+      "id": 1171568088,
+      "status": "rewatched episode",
+      "progress": "7",
+      "createdAt": 1791161124,
+      "media": {
+        "title": {
+          "english": "Witch Hat Atelier",
+          "romaji": "Tongari Boushi no Atelier"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx147105-rwOX8qyUy8gV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/147105"
+      }
+    },
+    {
+      "id": 1171567951,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1791161107,
+      "media": {
+        "title": {
+          "english": "KAIJU GIRL CARAMELISE",
+          "romaji": "Otome Kaijuu Caraméliser"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx204466-vXMvIs4VOoQd.png"
+        },
+        "siteUrl": "https://anilist.co/anime/204466"
+      }
+    },
+    {
+      "id": 1171567948,
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1791161106,
+      "media": {
+        "title": {
+          "english": "KAIJU GIRL CARAMELISE",
+          "romaji": "Otome Kaijuu Caraméliser"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx204466-vXMvIs4VOoQd.png"
+        },
+        "siteUrl": "https://anilist.co/anime/204466"
+      }
+    },
+    {
+      "id": 1171567939,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1791161106,
+      "media": {
+        "title": {
+          "english": "KAIJU GIRL CARAMELISE",
+          "romaji": "Otome Kaijuu Caraméliser"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx204466-vXMvIs4VOoQd.png"
+        },
+        "siteUrl": "https://anilist.co/anime/204466"
+      }
+    },
+    {
+      "id": 1171567935,
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1791161105,
+      "media": {
+        "title": {
+          "english": "KAIJU GIRL CARAMELISE",
+          "romaji": "Otome Kaijuu Caraméliser"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx204466-vXMvIs4VOoQd.png"
+        },
+        "siteUrl": "https://anilist.co/anime/204466"
+      }
+    }
   ]
 }

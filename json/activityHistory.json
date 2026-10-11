@@ -67924,5 +67924,23 @@
         "siteUrl": "https://anilist.co/anime/6045"
       }
     }
+  ],
+  "2026-10-11": [
+    {
+      "id": 1176788384,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1791749994,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Dr.STONE: TERRAFORMING"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx218099-D8t4YUt0Jonv.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/218099"
+      }
+    }
   ]
 }

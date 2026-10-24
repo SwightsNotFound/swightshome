@@ -67992,5 +67992,23 @@
         "siteUrl": "https://anilist.co/anime/20792"
       }
     }
+  ],
+  "2026-10-24": [
+    {
+      "id": 1186595524,
+      "status": "rewatched episode",
+      "progress": "11",
+      "createdAt": 1792876607,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works 2nd Season",
+          "romaji": "Fate/stay night: Unlimited Blade Works 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20792-Q53sZsUAh5FF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20792"
+      }
+    }
   ]
 }

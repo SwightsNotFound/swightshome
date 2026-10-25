@@ -351,7 +351,7 @@
         "id": 1030,
         "title": "Pom Poko",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1030-epXaUwnycmQE.jpg",
-        "averageScore": 70,
+        "averageScore": 71,
         "episodes": 1,
         "status": "FINISHED",
         "genres": [
@@ -897,7 +897,7 @@
         "id": 216,
         "title": "Welcome to Pia Carrot! Sayaka's Love Story",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/216.jpg",
-        "averageScore": 56,
+        "averageScore": 57,
         "episodes": 1,
         "status": "FINISHED",
         "genres": [
@@ -6107,6 +6107,27 @@
           "mal": "https://myanimelist.net/anime/218099",
           "kitsu": "https://kitsu.io/anime/218099"
         }
+      },
+      {
+        "id": 210309,
+        "title": "CHERRY AND VIRGIN",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx210309-Wpu4ENxifjA2.jpg",
+        "averageScore": null,
+        "episodes": 1,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/210309/",
+          "mal": "https://myanimelist.net/anime/210309",
+          "kitsu": "https://kitsu.io/anime/210309"
+        }
       }
     ]
   },
@@ -8801,6 +8822,29 @@
         }
       },
       {
+        "id": 20792,
+        "title": "Fate/stay night: Unlimited Blade Works 2nd Season",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20792-Q53sZsUAh5FF.jpg",
+        "averageScore": 82,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.9,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/20792/",
+          "mal": "https://myanimelist.net/anime/20792",
+          "kitsu": "https://kitsu.io/anime/20792"
+        }
+      },
+      {
         "id": 109261,
         "title": "The Quintessential Quintuplets 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx109261-65rKxMDlcU9r.png",
@@ -9242,7 +9286,7 @@
         "id": 14713,
         "title": "Kamisama Kiss",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx14713-RyZ7bA7CdvGw.jpg",
-        "averageScore": 80,
+        "averageScore": 81,
         "episodes": 13,
         "status": "FINISHED",
         "genres": [
@@ -15176,29 +15220,6 @@
         }
       },
       {
-        "id": 20792,
-        "title": "Fate/stay night: Unlimited Blade Works 2nd Season",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20792-Q53sZsUAh5FF.jpg",
-        "averageScore": 82,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Fantasy",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 8.9,
-        "progress": 11,
-        "links": {
-          "anilist": "https://anilist.co/anime/20792/",
-          "mal": "https://myanimelist.net/anime/20792",
-          "kitsu": "https://kitsu.io/anime/20792"
-        }
-      },
-      {
         "id": 14741,
         "title": "Love, Chunibyo & Other Delusions",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx14741-CGXEIeUe2roA.jpg",
@@ -15762,6 +15783,27 @@
           "anilist": "https://anilist.co/anime/20968/",
           "mal": "https://myanimelist.net/anime/20968",
           "kitsu": "https://kitsu.io/anime/20968"
+        }
+      },
+      {
+        "id": 21318,
+        "title": "Fate/stay night: Unlimited Blade Works 2nd Season - sunny day",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/21318-l441SwTgnl5h.jpg",
+        "averageScore": 73,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Fantasy"
+        ],
+        "format": "SPECIAL",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/21318/",
+          "mal": "https://myanimelist.net/anime/21318",
+          "kitsu": "https://kitsu.io/anime/21318"
         }
       }
     ]

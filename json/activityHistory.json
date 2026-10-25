@@ -68010,5 +68010,55 @@
         "siteUrl": "https://anilist.co/anime/20792"
       }
     }
+  ],
+  "2026-10-25": [
+    {
+      "id": 1187235521,
+      "status": "rewatched",
+      "progress": "13",
+      "createdAt": 1792945274,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works 2nd Season",
+          "romaji": "Fate/stay night: Unlimited Blade Works 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20792-Q53sZsUAh5FF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20792"
+      }
+    },
+    {
+      "id": 1187225346,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1792944500,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "CHERRY AND VIRGIN"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx210309-Wpu4ENxifjA2.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/210309"
+      }
+    },
+    {
+      "id": 1187200754,
+      "status": "rewatched episode",
+      "progress": "12",
+      "createdAt": 1792942586,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works 2nd Season",
+          "romaji": "Fate/stay night: Unlimited Blade Works 2nd Season"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20792-Q53sZsUAh5FF.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/20792"
+      }
+    }
   ]
 }

@@ -68013,6 +68013,22 @@
   ],
   "2026-10-25": [
     {
+      "id": 1187352125,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1792954042,
+      "media": {
+        "title": {
+          "english": "Fate/stay night: Unlimited Blade Works 2nd Season - sunny day",
+          "romaji": "Fate/stay night: Unlimited Blade Works 2nd Season - sunny day"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21318-l441SwTgnl5h.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/21318"
+      }
+    },
+    {
       "id": 1187235521,
       "status": "rewatched",
       "progress": "13",

@@ -9214,6 +9214,27 @@
         }
       },
       {
+        "id": 21318,
+        "title": "Fate/stay night: Unlimited Blade Works 2nd Season - sunny day",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/21318-l441SwTgnl5h.jpg",
+        "averageScore": 73,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Fantasy"
+        ],
+        "format": "SPECIAL",
+        "country": "JP",
+        "personalScore": 8.5,
+        "progress": 1,
+        "links": {
+          "anilist": "https://anilist.co/anime/21318/",
+          "mal": "https://myanimelist.net/anime/21318",
+          "kitsu": "https://kitsu.io/anime/21318"
+        }
+      },
+      {
         "id": 20605,
         "title": "Tokyo Ghoul",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b20605-k665mVkSug8D.jpg",
@@ -15783,27 +15804,6 @@
           "anilist": "https://anilist.co/anime/20968/",
           "mal": "https://myanimelist.net/anime/20968",
           "kitsu": "https://kitsu.io/anime/20968"
-        }
-      },
-      {
-        "id": 21318,
-        "title": "Fate/stay night: Unlimited Blade Works 2nd Season - sunny day",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/21318-l441SwTgnl5h.jpg",
-        "averageScore": 73,
-        "episodes": 1,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Fantasy"
-        ],
-        "format": "SPECIAL",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/21318/",
-          "mal": "https://myanimelist.net/anime/21318",
-          "kitsu": "https://kitsu.io/anime/21318"
         }
       }
     ]

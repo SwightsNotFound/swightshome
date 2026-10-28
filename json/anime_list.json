@@ -12605,6 +12605,30 @@
         }
       },
       {
+        "id": 187538,
+        "title": "BLACK TORCH",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx187538-fXVXKYUA3VV6.jpg",
+        "averageScore": 69,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi",
+          "Supernatural"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 7,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/187538/",
+          "mal": "https://myanimelist.net/anime/187538",
+          "kitsu": "https://kitsu.io/anime/187538"
+        }
+      },
+      {
         "id": 122349,
         "title": "My Hero Academia: Make It! Do-or-Die Survival Training",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx122349-DkEdG7N1231n.jpg",
@@ -15605,30 +15629,6 @@
           "anilist": "https://anilist.co/anime/187260/",
           "mal": "https://myanimelist.net/anime/187260",
           "kitsu": "https://kitsu.io/anime/187260"
-        }
-      },
-      {
-        "id": 187538,
-        "title": "BLACK TORCH",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx187538-fXVXKYUA3VV6.jpg",
-        "averageScore": 69,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Fantasy",
-          "Sci-Fi",
-          "Supernatural"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 7,
-        "links": {
-          "anilist": "https://anilist.co/anime/187538/",
-          "mal": "https://myanimelist.net/anime/187538",
-          "kitsu": "https://kitsu.io/anime/187538"
         }
       },
       {

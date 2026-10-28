@@ -68193,6 +68193,86 @@
   ],
   "2026-10-27": [
     {
+      "id": 1189111834,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1793138326,
+      "media": {
+        "title": {
+          "english": "BLACK TORCH",
+          "romaji": "BLACK TORCH"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187538-fXVXKYUA3VV6.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/187538"
+      }
+    },
+    {
+      "id": 1189111830,
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1793138325,
+      "media": {
+        "title": {
+          "english": "BLACK TORCH",
+          "romaji": "BLACK TORCH"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187538-fXVXKYUA3VV6.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/187538"
+      }
+    },
+    {
+      "id": 1189111822,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1793138324,
+      "media": {
+        "title": {
+          "english": "BLACK TORCH",
+          "romaji": "BLACK TORCH"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187538-fXVXKYUA3VV6.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/187538"
+      }
+    },
+    {
+      "id": 1189111816,
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1793138324,
+      "media": {
+        "title": {
+          "english": "BLACK TORCH",
+          "romaji": "BLACK TORCH"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187538-fXVXKYUA3VV6.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/187538"
+      }
+    },
+    {
+      "id": 1189111806,
+      "status": "watched episode",
+      "progress": "8",
+      "createdAt": 1793138323,
+      "media": {
+        "title": {
+          "english": "BLACK TORCH",
+          "romaji": "BLACK TORCH"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187538-fXVXKYUA3VV6.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/187538"
+      }
+    },
+    {
       "id": 1188503226,
       "status": "watched episode",
       "progress": "7",

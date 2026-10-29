@@ -68288,5 +68288,183 @@
         "siteUrl": "https://anilist.co/anime/187538"
       }
     }
+  ],
+  "2026-10-29": [
+    {
+      "id": 1189962927,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1793232233,
+      "media": {
+        "title": {
+          "english": "Though I Am an Inept Villainess",
+          "romaji": "Futsutsuka na Akujo de wa Gozaimasu ga: Suuguu Chouso Torikae Den"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188139-1qIJfWxym8FX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/188139"
+      }
+    },
+    {
+      "id": 1189962914,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1793232232,
+      "media": {
+        "title": {
+          "english": "Though I Am an Inept Villainess",
+          "romaji": "Futsutsuka na Akujo de wa Gozaimasu ga: Suuguu Chouso Torikae Den"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188139-1qIJfWxym8FX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/188139"
+      }
+    },
+    {
+      "id": 1189962907,
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1793232231,
+      "media": {
+        "title": {
+          "english": "Though I Am an Inept Villainess",
+          "romaji": "Futsutsuka na Akujo de wa Gozaimasu ga: Suuguu Chouso Torikae Den"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188139-1qIJfWxym8FX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/188139"
+      }
+    },
+    {
+      "id": 1189962900,
+      "status": "watched episode",
+      "progress": "8",
+      "createdAt": 1793232231,
+      "media": {
+        "title": {
+          "english": "Though I Am an Inept Villainess",
+          "romaji": "Futsutsuka na Akujo de wa Gozaimasu ga: Suuguu Chouso Torikae Den"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188139-1qIJfWxym8FX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/188139"
+      }
+    },
+    {
+      "id": 1189962897,
+      "status": "watched episode",
+      "progress": "7",
+      "createdAt": 1793232231,
+      "media": {
+        "title": {
+          "english": "Though I Am an Inept Villainess",
+          "romaji": "Futsutsuka na Akujo de wa Gozaimasu ga: Suuguu Chouso Torikae Den"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188139-1qIJfWxym8FX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/188139"
+      }
+    },
+    {
+      "id": 1189962896,
+      "status": "watched episode",
+      "progress": "6",
+      "createdAt": 1793232230,
+      "media": {
+        "title": {
+          "english": "Though I Am an Inept Villainess",
+          "romaji": "Futsutsuka na Akujo de wa Gozaimasu ga: Suuguu Chouso Torikae Den"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188139-1qIJfWxym8FX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/188139"
+      }
+    },
+    {
+      "id": 1189962891,
+      "status": "watched episode",
+      "progress": "5",
+      "createdAt": 1793232230,
+      "media": {
+        "title": {
+          "english": "Though I Am an Inept Villainess",
+          "romaji": "Futsutsuka na Akujo de wa Gozaimasu ga: Suuguu Chouso Torikae Den"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188139-1qIJfWxym8FX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/188139"
+      }
+    },
+    {
+      "id": 1189962886,
+      "status": "watched episode",
+      "progress": "4",
+      "createdAt": 1793232230,
+      "media": {
+        "title": {
+          "english": "Though I Am an Inept Villainess",
+          "romaji": "Futsutsuka na Akujo de wa Gozaimasu ga: Suuguu Chouso Torikae Den"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188139-1qIJfWxym8FX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/188139"
+      }
+    },
+    {
+      "id": 1189962883,
+      "status": "watched episode",
+      "progress": "3",
+      "createdAt": 1793232229,
+      "media": {
+        "title": {
+          "english": "Though I Am an Inept Villainess",
+          "romaji": "Futsutsuka na Akujo de wa Gozaimasu ga: Suuguu Chouso Torikae Den"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188139-1qIJfWxym8FX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/188139"
+      }
+    },
+    {
+      "id": 1189962879,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1793232229,
+      "media": {
+        "title": {
+          "english": "Though I Am an Inept Villainess",
+          "romaji": "Futsutsuka na Akujo de wa Gozaimasu ga: Suuguu Chouso Torikae Den"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188139-1qIJfWxym8FX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/188139"
+      }
+    },
+    {
+      "id": 1189962872,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1793232228,
+      "media": {
+        "title": {
+          "english": "Though I Am an Inept Villainess",
+          "romaji": "Futsutsuka na Akujo de wa Gozaimasu ga: Suuguu Chouso Torikae Den"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188139-1qIJfWxym8FX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/188139"
+      }
+    }
   ]
 }

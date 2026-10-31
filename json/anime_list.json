@@ -9214,6 +9214,28 @@
         }
       },
       {
+        "id": 177637,
+        "title": "Goodbye, Lara",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177637-dZ8hF93HzstV.jpg",
+        "averageScore": 76,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8.5,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/177637/",
+          "mal": "https://myanimelist.net/anime/177637",
+          "kitsu": "https://kitsu.io/anime/177637"
+        }
+      },
+      {
         "id": 21318,
         "title": "Fate/stay night: Unlimited Blade Works 2nd Season - sunny day",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/21318-l441SwTgnl5h.jpg",
@@ -15716,28 +15738,6 @@
           "anilist": "https://anilist.co/anime/190569/",
           "mal": "https://myanimelist.net/anime/190569",
           "kitsu": "https://kitsu.io/anime/190569"
-        }
-      },
-      {
-        "id": 177637,
-        "title": "Goodbye, Lara",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177637-dZ8hF93HzstV.jpg",
-        "averageScore": 76,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Drama",
-          "Fantasy",
-          "Romance"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/177637/",
-          "mal": "https://myanimelist.net/anime/177637",
-          "kitsu": "https://kitsu.io/anime/177637"
         }
       },
       {

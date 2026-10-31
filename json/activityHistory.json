@@ -68466,5 +68466,199 @@
         "siteUrl": "https://anilist.co/anime/188139"
       }
     }
+  ],
+  "2026-10-30": [
+    {
+      "id": 1191371362,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1793396735,
+      "media": {
+        "title": {
+          "english": "Goodbye, Lara",
+          "romaji": "Sayonara Lara"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177637-dZ8hF93HzstV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177637"
+      }
+    },
+    {
+      "id": 1191371356,
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1793396735,
+      "media": {
+        "title": {
+          "english": "Goodbye, Lara",
+          "romaji": "Sayonara Lara"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177637-dZ8hF93HzstV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177637"
+      }
+    },
+    {
+      "id": 1191371354,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1793396734,
+      "media": {
+        "title": {
+          "english": "Goodbye, Lara",
+          "romaji": "Sayonara Lara"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177637-dZ8hF93HzstV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177637"
+      }
+    },
+    {
+      "id": 1191371349,
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1793396734,
+      "media": {
+        "title": {
+          "english": "Goodbye, Lara",
+          "romaji": "Sayonara Lara"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177637-dZ8hF93HzstV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177637"
+      }
+    },
+    {
+      "id": 1191371344,
+      "status": "watched episode",
+      "progress": "8",
+      "createdAt": 1793396734,
+      "media": {
+        "title": {
+          "english": "Goodbye, Lara",
+          "romaji": "Sayonara Lara"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177637-dZ8hF93HzstV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177637"
+      }
+    },
+    {
+      "id": 1191371337,
+      "status": "watched episode",
+      "progress": "7",
+      "createdAt": 1793396733,
+      "media": {
+        "title": {
+          "english": "Goodbye, Lara",
+          "romaji": "Sayonara Lara"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177637-dZ8hF93HzstV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177637"
+      }
+    },
+    {
+      "id": 1191371333,
+      "status": "watched episode",
+      "progress": "6",
+      "createdAt": 1793396733,
+      "media": {
+        "title": {
+          "english": "Goodbye, Lara",
+          "romaji": "Sayonara Lara"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177637-dZ8hF93HzstV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177637"
+      }
+    },
+    {
+      "id": 1191371331,
+      "status": "watched episode",
+      "progress": "5",
+      "createdAt": 1793396733,
+      "media": {
+        "title": {
+          "english": "Goodbye, Lara",
+          "romaji": "Sayonara Lara"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177637-dZ8hF93HzstV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177637"
+      }
+    },
+    {
+      "id": 1191371327,
+      "status": "watched episode",
+      "progress": "4",
+      "createdAt": 1793396733,
+      "media": {
+        "title": {
+          "english": "Goodbye, Lara",
+          "romaji": "Sayonara Lara"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177637-dZ8hF93HzstV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177637"
+      }
+    },
+    {
+      "id": 1191371323,
+      "status": "watched episode",
+      "progress": "3",
+      "createdAt": 1793396732,
+      "media": {
+        "title": {
+          "english": "Goodbye, Lara",
+          "romaji": "Sayonara Lara"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177637-dZ8hF93HzstV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177637"
+      }
+    },
+    {
+      "id": 1191371320,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1793396732,
+      "media": {
+        "title": {
+          "english": "Goodbye, Lara",
+          "romaji": "Sayonara Lara"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177637-dZ8hF93HzstV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177637"
+      }
+    },
+    {
+      "id": 1191371316,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1793396732,
+      "media": {
+        "title": {
+          "english": "Goodbye, Lara",
+          "romaji": "Sayonara Lara"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177637-dZ8hF93HzstV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/177637"
+      }
+    }
   ]
 }

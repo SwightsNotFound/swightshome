@@ -68758,5 +68758,103 @@
         "siteUrl": "https://anilist.co/anime/190569"
       }
     }
+  ],
+  "2026-11-01": [
+    {
+      "id": 1192735305,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1793549989,
+      "media": {
+        "title": {
+          "english": "Jaadugar: A Witch in Mongolia",
+          "romaji": "Tenmaku no Jaadugar"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx190569-KnCQLI3Z8hPX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/190569"
+      }
+    },
+    {
+      "id": 1192735298,
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1793549989,
+      "media": {
+        "title": {
+          "english": "Jaadugar: A Witch in Mongolia",
+          "romaji": "Tenmaku no Jaadugar"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx190569-KnCQLI3Z8hPX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/190569"
+      }
+    },
+    {
+      "id": 1192735294,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1793549988,
+      "media": {
+        "title": {
+          "english": "Jaadugar: A Witch in Mongolia",
+          "romaji": "Tenmaku no Jaadugar"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx190569-KnCQLI3Z8hPX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/190569"
+      }
+    },
+    {
+      "id": 1192735285,
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1793549988,
+      "media": {
+        "title": {
+          "english": "Jaadugar: A Witch in Mongolia",
+          "romaji": "Tenmaku no Jaadugar"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx190569-KnCQLI3Z8hPX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/190569"
+      }
+    },
+    {
+      "id": 1192735279,
+      "status": "watched episode",
+      "progress": "8",
+      "createdAt": 1793549987,
+      "media": {
+        "title": {
+          "english": "Jaadugar: A Witch in Mongolia",
+          "romaji": "Tenmaku no Jaadugar"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx190569-KnCQLI3Z8hPX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/190569"
+      }
+    },
+    {
+      "id": 1192735274,
+      "status": "watched episode",
+      "progress": "7",
+      "createdAt": 1793549987,
+      "media": {
+        "title": {
+          "english": "Jaadugar: A Witch in Mongolia",
+          "romaji": "Tenmaku no Jaadugar"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx190569-KnCQLI3Z8hPX.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/190569"
+      }
+    }
   ]
 }

@@ -6128,6 +6128,27 @@
           "mal": "https://myanimelist.net/anime/210309",
           "kitsu": "https://kitsu.io/anime/210309"
         }
+      },
+      {
+        "id": 219282,
+        "title": "Bocchi the Rock!: Hoshi no Ashiato",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx219282-GGsicK5XZMBy.jpg",
+        "averageScore": null,
+        "episodes": 1,
+        "status": "NOT_YET_RELEASED",
+        "genres": [
+          "Music",
+          "Slice of Life"
+        ],
+        "format": "MOVIE",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/219282/",
+          "mal": "https://myanimelist.net/anime/219282",
+          "kitsu": "https://kitsu.io/anime/219282"
+        }
       }
     ]
   },
@@ -14596,6 +14617,30 @@
         }
       },
       {
+        "id": 181447,
+        "title": "May I Ask for One Final Thing?",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx181447-aCmaQmtdwuU5.jpg",
+        "averageScore": 73,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama",
+          "Fantasy",
+          "Romance"
+        ],
+        "format": "ONA",
+        "country": "JP",
+        "personalScore": 4,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/181447/",
+          "mal": "https://myanimelist.net/anime/181447",
+          "kitsu": "https://kitsu.io/anime/181447"
+        }
+      },
+      {
         "id": 169969,
         "title": "Hero Without a Class: Who Even Needs Skills?!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx169969-SqCjoqYT4A6Z.jpg",
@@ -15446,30 +15491,6 @@
           "anilist": "https://anilist.co/anime/179966/",
           "mal": "https://myanimelist.net/anime/179966",
           "kitsu": "https://kitsu.io/anime/179966"
-        }
-      },
-      {
-        "id": 181447,
-        "title": "May I Ask for One Final Thing?",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx181447-aCmaQmtdwuU5.jpg",
-        "averageScore": 73,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Drama",
-          "Fantasy",
-          "Romance"
-        ],
-        "format": "ONA",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 6,
-        "links": {
-          "anilist": "https://anilist.co/anime/181447/",
-          "mal": "https://myanimelist.net/anime/181447",
-          "kitsu": "https://kitsu.io/anime/181447"
         }
       },
       {

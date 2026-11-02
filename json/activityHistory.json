@@ -68761,6 +68761,134 @@
   ],
   "2026-11-01": [
     {
+      "id": 1193037347,
+      "status": "completed",
+      "progress": null,
+      "createdAt": 1793574192,
+      "media": {
+        "title": {
+          "english": "May I Ask for One Final Thing?",
+          "romaji": "Saigo ni Hitotsu dake Onegai Shite mo Yoroshii Deshou ka"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181447-aCmaQmtdwuU5.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/181447"
+      }
+    },
+    {
+      "id": 1193037341,
+      "status": "watched episode",
+      "progress": "12",
+      "createdAt": 1793574192,
+      "media": {
+        "title": {
+          "english": "May I Ask for One Final Thing?",
+          "romaji": "Saigo ni Hitotsu dake Onegai Shite mo Yoroshii Deshou ka"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181447-aCmaQmtdwuU5.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/181447"
+      }
+    },
+    {
+      "id": 1193037333,
+      "status": "watched episode",
+      "progress": "11",
+      "createdAt": 1793574191,
+      "media": {
+        "title": {
+          "english": "May I Ask for One Final Thing?",
+          "romaji": "Saigo ni Hitotsu dake Onegai Shite mo Yoroshii Deshou ka"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181447-aCmaQmtdwuU5.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/181447"
+      }
+    },
+    {
+      "id": 1193037328,
+      "status": "watched episode",
+      "progress": "10",
+      "createdAt": 1793574190,
+      "media": {
+        "title": {
+          "english": "May I Ask for One Final Thing?",
+          "romaji": "Saigo ni Hitotsu dake Onegai Shite mo Yoroshii Deshou ka"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181447-aCmaQmtdwuU5.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/181447"
+      }
+    },
+    {
+      "id": 1193037321,
+      "status": "watched episode",
+      "progress": "9",
+      "createdAt": 1793574190,
+      "media": {
+        "title": {
+          "english": "May I Ask for One Final Thing?",
+          "romaji": "Saigo ni Hitotsu dake Onegai Shite mo Yoroshii Deshou ka"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181447-aCmaQmtdwuU5.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/181447"
+      }
+    },
+    {
+      "id": 1193037316,
+      "status": "watched episode",
+      "progress": "8",
+      "createdAt": 1793574189,
+      "media": {
+        "title": {
+          "english": "May I Ask for One Final Thing?",
+          "romaji": "Saigo ni Hitotsu dake Onegai Shite mo Yoroshii Deshou ka"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181447-aCmaQmtdwuU5.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/181447"
+      }
+    },
+    {
+      "id": 1193037307,
+      "status": "watched episode",
+      "progress": "7",
+      "createdAt": 1793574189,
+      "media": {
+        "title": {
+          "english": "May I Ask for One Final Thing?",
+          "romaji": "Saigo ni Hitotsu dake Onegai Shite mo Yoroshii Deshou ka"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181447-aCmaQmtdwuU5.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/181447"
+      }
+    },
+    {
+      "id": 1192986544,
+      "status": "plans to watch",
+      "progress": null,
+      "createdAt": 1793569897,
+      "media": {
+        "title": {
+          "english": null,
+          "romaji": "Bocchi the Rock!: Hoshi no Ashiato"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx219282-GGsicK5XZMBy.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/219282"
+      }
+    },
+    {
       "id": 1192735305,
       "status": "completed",
       "progress": null,

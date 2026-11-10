@@ -68987,6 +68987,38 @@
   ],
   "2026-11-09": [
     {
+      "id": 1199218087,
+      "status": "rewatched episode",
+      "progress": "2",
+      "createdAt": 1794262850,
+      "media": {
+        "title": {
+          "english": "BOCCHI THE ROCK!",
+          "romaji": "Bocchi the Rock!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx130003-HTDmeL4RGeJ4.png"
+        },
+        "siteUrl": "https://anilist.co/anime/130003"
+      }
+    },
+    {
+      "id": 1199194950,
+      "status": "rewatched episode",
+      "progress": "1",
+      "createdAt": 1794260701,
+      "media": {
+        "title": {
+          "english": "BOCCHI THE ROCK!",
+          "romaji": "Bocchi the Rock!"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx130003-HTDmeL4RGeJ4.png"
+        },
+        "siteUrl": "https://anilist.co/anime/130003"
+      }
+    },
+    {
       "id": 1199001864,
       "status": "rewatched",
       "progress": "1",

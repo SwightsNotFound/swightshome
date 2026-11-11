@@ -69242,5 +69242,39 @@
         "siteUrl": "https://anilist.co/anime/103874"
       }
     }
+  ],
+  "2026-11-11": [
+    {
+      "id": 1200656292,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1794425322,
+      "media": {
+        "title": {
+          "english": "Monster",
+          "romaji": "MONSTER"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx19-gtMC64182sm4.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/19"
+      }
+    },
+    {
+      "id": 1200656279,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1794425321,
+      "media": {
+        "title": {
+          "english": "Monster",
+          "romaji": "MONSTER"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx19-gtMC64182sm4.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/19"
+      }
+    }
   ]
 }

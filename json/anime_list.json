@@ -5519,28 +5519,6 @@
         }
       },
       {
-        "id": 195539,
-        "title": "Cyberpunk: Edgerunners 2",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx195539-4LdfmKIHzuxr.png",
-        "averageScore": 83,
-        "episodes": 10,
-        "status": "FINISHED",
-        "genres": [
-          "Action",
-          "Drama",
-          "Sci-Fi"
-        ],
-        "format": "ONA",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 0,
-        "links": {
-          "anilist": "https://anilist.co/anime/195539/",
-          "mal": "https://myanimelist.net/anime/195539",
-          "kitsu": "https://kitsu.io/anime/195539"
-        }
-      },
-      {
         "id": 177687,
         "title": "100 METERS",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177687-T4SrtVjrmW01.png",
@@ -15790,6 +15768,28 @@
         }
       },
       {
+        "id": 195539,
+        "title": "Cyberpunk: Edgerunners 2",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx195539-4LdfmKIHzuxr.png",
+        "averageScore": 83,
+        "episodes": 10,
+        "status": "FINISHED",
+        "genres": [
+          "Action",
+          "Drama",
+          "Sci-Fi"
+        ],
+        "format": "ONA",
+        "country": "JP",
+        "personalScore": 0,
+        "progress": 0,
+        "links": {
+          "anilist": "https://anilist.co/anime/195539/",
+          "mal": "https://myanimelist.net/anime/195539",
+          "kitsu": "https://kitsu.io/anime/195539"
+        }
+      },
+      {
         "id": 198946,
         "title": "Clevatess Season 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx198946-IGXmbqBEYRYD.jpg",
@@ -15982,7 +15982,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 0,
+        "progress": 2,
         "links": {
           "anilist": "https://anilist.co/anime/19/",
           "mal": "https://myanimelist.net/anime/19",

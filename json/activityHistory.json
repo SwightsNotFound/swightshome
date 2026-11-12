@@ -69245,6 +69245,38 @@
   ],
   "2026-11-11": [
     {
+      "id": 1200723416,
+      "status": "watched episode",
+      "progress": "2",
+      "createdAt": 1794431526,
+      "media": {
+        "title": {
+          "english": "Cyberpunk: Edgerunners 2",
+          "romaji": "Cyberpunk: Edgerunners 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195539-4LdfmKIHzuxr.png"
+        },
+        "siteUrl": "https://anilist.co/anime/195539"
+      }
+    },
+    {
+      "id": 1200694426,
+      "status": "watched episode",
+      "progress": "1",
+      "createdAt": 1794428894,
+      "media": {
+        "title": {
+          "english": "Cyberpunk: Edgerunners 2",
+          "romaji": "Cyberpunk: Edgerunners 2"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195539-4LdfmKIHzuxr.png"
+        },
+        "siteUrl": "https://anilist.co/anime/195539"
+      }
+    },
+    {
       "id": 1200656292,
       "status": "watched episode",
       "progress": "2",

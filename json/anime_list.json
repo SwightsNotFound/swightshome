@@ -11220,6 +11220,27 @@
         }
       },
       {
+        "id": 103874,
+        "title": "My Roommate is a Cat",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx103874-kAyuVMwwF5pp.jpg",
+        "averageScore": 76,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": [
+          "Comedy",
+          "Slice of Life"
+        ],
+        "format": "TV",
+        "country": "JP",
+        "personalScore": 8,
+        "progress": 12,
+        "links": {
+          "anilist": "https://anilist.co/anime/103874/",
+          "mal": "https://myanimelist.net/anime/103874",
+          "kitsu": "https://kitsu.io/anime/103874"
+        }
+      },
+      {
         "id": 98448,
         "title": "Kino's Journey -the Beautiful World- the Animated Series",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx98448-OdfxrjAhkYvp.jpg",
@@ -15918,27 +15939,6 @@
           "anilist": "https://anilist.co/anime/186863/",
           "mal": "https://myanimelist.net/anime/186863",
           "kitsu": "https://kitsu.io/anime/186863"
-        }
-      },
-      {
-        "id": 103874,
-        "title": "My Roommate is a Cat",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx103874-kAyuVMwwF5pp.jpg",
-        "averageScore": 76,
-        "episodes": 12,
-        "status": "FINISHED",
-        "genres": [
-          "Comedy",
-          "Slice of Life"
-        ],
-        "format": "TV",
-        "country": "JP",
-        "personalScore": 0,
-        "progress": 7,
-        "links": {
-          "anilist": "https://anilist.co/anime/103874/",
-          "mal": "https://myanimelist.net/anime/103874",
-          "kitsu": "https://kitsu.io/anime/103874"
         }
       },
       {

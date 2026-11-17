@@ -6498,6 +6498,28 @@
         }
       },
       {
+        "id": 147105,
+        "title": "Witch Hat Atelier",
+        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx147105-rwOX8qyUy8gV.jpg",
+        "averageScore": 85,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Fantasy"
+        ],
+        "format": "ONA",
+        "country": "JP",
+        "personalScore": 10,
+        "progress": 13,
+        "links": {
+          "anilist": "https://anilist.co/anime/147105/",
+          "mal": "https://myanimelist.net/anime/147105",
+          "kitsu": "https://kitsu.io/anime/147105"
+        }
+      },
+      {
         "id": 10087,
         "title": "Fate/Zero",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10087-M4Hd9qrHGrXk.png",
@@ -8003,7 +8025,7 @@
         "id": 109190,
         "title": "Violet Evergarden: Eternity and the Auto Memory Doll",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx109190-e8mv1qdmpjLW.jpg",
-        "averageScore": 83,
+        "averageScore": 84,
         "episodes": 1,
         "status": "FINISHED",
         "genres": [
@@ -13989,7 +14011,7 @@
         "id": 155168,
         "title": "The Devil is a Part-Timer! Season 2 Part 2",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx155168-x7TUG4F0HnQy.jpg",
-        "averageScore": 67,
+        "averageScore": 66,
         "episodes": 12,
         "status": "FINISHED",
         "genres": [
@@ -15422,28 +15444,6 @@
     "name": "Rewatching",
     "entries": [
       {
-        "id": 147105,
-        "title": "Witch Hat Atelier",
-        "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx147105-rwOX8qyUy8gV.jpg",
-        "averageScore": 85,
-        "episodes": 13,
-        "status": "FINISHED",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Fantasy"
-        ],
-        "format": "ONA",
-        "country": "JP",
-        "personalScore": 10,
-        "progress": 7,
-        "links": {
-          "anilist": "https://anilist.co/anime/147105/",
-          "mal": "https://myanimelist.net/anime/147105",
-          "kitsu": "https://kitsu.io/anime/147105"
-        }
-      },
-      {
         "id": 130003,
         "title": "BOCCHI THE ROCK!",
         "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx130003-HTDmeL4RGeJ4.png",
@@ -15982,7 +15982,7 @@
         "format": "TV",
         "country": "JP",
         "personalScore": 0,
-        "progress": 2,
+        "progress": 3,
         "links": {
           "anilist": "https://anilist.co/anime/19/",
           "mal": "https://myanimelist.net/anime/19",

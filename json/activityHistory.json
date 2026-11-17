@@ -69424,5 +69424,119 @@
         "siteUrl": "https://anilist.co/anime/195539"
       }
     }
+  ],
+  "2026-11-17": [
+    {
+      "id": 1205193422,
+      "status": "rewatched",
+      "progress": "13",
+      "createdAt": 1794931580,
+      "media": {
+        "title": {
+          "english": "Witch Hat Atelier",
+          "romaji": "Tongari Boushi no Atelier"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx147105-rwOX8qyUy8gV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/147105"
+      }
+    },
+    {
+      "id": 1205193414,
+      "status": "rewatched episode",
+      "progress": "12",
+      "createdAt": 1794931580,
+      "media": {
+        "title": {
+          "english": "Witch Hat Atelier",
+          "romaji": "Tongari Boushi no Atelier"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx147105-rwOX8qyUy8gV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/147105"
+      }
+    },
+    {
+      "id": 1205193406,
+      "status": "rewatched episode",
+      "progress": "11",
+      "createdAt": 1794931579,
+      "media": {
+        "title": {
+          "english": "Witch Hat Atelier",
+          "romaji": "Tongari Boushi no Atelier"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx147105-rwOX8qyUy8gV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/147105"
+      }
+    },
+    {
+      "id": 1205193398,
+      "status": "rewatched episode",
+      "progress": "10",
+      "createdAt": 1794931579,
+      "media": {
+        "title": {
+          "english": "Witch Hat Atelier",
+          "romaji": "Tongari Boushi no Atelier"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx147105-rwOX8qyUy8gV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/147105"
+      }
+    },
+    {
+      "id": 1205193395,
+      "status": "rewatched episode",
+      "progress": "9",
+      "createdAt": 1794931578,
+      "media": {
+        "title": {
+          "english": "Witch Hat Atelier",
+          "romaji": "Tongari Boushi no Atelier"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx147105-rwOX8qyUy8gV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/147105"
+      }
+    },
+    {
+      "id": 1205193391,
+      "status": "rewatched episode",
+      "progress": "8",
+      "createdAt": 1794931578,
+      "media": {
+        "title": {
+          "english": "Witch Hat Atelier",
+          "romaji": "Tongari Boushi no Atelier"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx147105-rwOX8qyUy8gV.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/147105"
+      }
+    },
+    {
+      "id": 1205193353,
+      "status": "watched episode",
+      "progress": "3",
+      "createdAt": 1794931574,
+      "media": {
+        "title": {
+          "english": "Monster",
+          "romaji": "MONSTER"
+        },
+        "coverImage": {
+          "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx19-gtMC64182sm4.jpg"
+        },
+        "siteUrl": "https://anilist.co/anime/19"
+      }
+    }
   ]
 }
